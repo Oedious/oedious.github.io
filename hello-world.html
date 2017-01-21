@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<!-- HTML5 Hello world by kirupa - http://www.kirupa.com/html5/getting_your_feet_wet_html5_pg1.htm -->
+<html lang="en-us">
+
+<head>
+<meta charset="utf-8">
+<title>Heroclix Map Viewer</title>
+<style type="text/css">
+#mainContent {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: xx-large;
+	font-weight: bold;
+	background-color: #E3F0FB;
+	border-radius: 4px;
+	padding: 10px;
+	text-align: center;
+}
+.buttonStyle {
+	border-radius: 4px;
+	border: thin solid #F0E020;
+	padding: 5px;
+	background-color: #F8F094;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: bold;
+	color: #663300;
+	width: 75px;
+}
+
+.buttonStyle:hover {
+	border: thin solid #FFCC00;
+	background-color: #FCF9D6;
+	color: #996633;
+	cursor: pointer;
+}
+.buttonStyle:active {
+	border: thin solid #99CC00;
+	background-color: #F5FFD2;
+	color: #669900;
+	cursor: pointer;
+}
+
+</style>
+</head>
+
+<body>
+<div id="mainContent">
+<button id="renderButton" class="buttonStyle">Render Map</button>
+</div>
+<canvas id="MapCanvas" width="1024" height="1536">
+</canvas>
+
+<script type="text/javascript" src="js/edge.js"></script>
+<script type="text/javascript" src="js/tile.js"></script>
+<script type="text/javascript" src="js/wall.js"></script>
+<script type="text/javascript" src="js/map.js"></script>
+
+<script> 
+
+function getJson(location, callback) {
+	var request = new XMLHttpRequest();
+	request.overrideMimeType("application/json");
+    request.open('GET', location, true);
+    request.onreadystatechange = function () {
+    	if (request.readyState == 4 && request.status == "200") {
+    		callback(request.responseText);
+    	}
+    };
+    request.send(null);  
+}
+
+function loadMap(location) {
+	getJson(location, function(json) {
+		var jsonMap;
+		try {
+			jsonMap = JSON.parse(json);
+		} catch (e) {
+			alert(e);
+		}
+	    var map = new Map(jsonMap);
+	    var c = document.getElementById("MapCanvas");
+	    var ctx = c.getContext("2d");
+	    map.draw(ctx);
+	});
+}
+
+ /*
+var renderButton = document.getElementById("renderButton");
+renderButton.addEventListener('render', render, false)
+
+function render() {
+}
+*/
+
+//loadMap('maps/template.json');
+
+// Premium Maps
+//loadMap('maps/premium/cargo_ship.json');
+//loadMap('maps/premium/convention_center_plaza.json');
+//loadMap('maps/premium/gaming_convention_hall.json');
+//loadMap('maps/premium/parking_garage.json');
+//loadMap('maps/premium/warehouse_5651.json');
+//loadMap('maps/premium/wizkids_office_hq.json');
+
+// Joker's Wild
+//loadMap('maps/jw/ace_chemicals.json');
+//loadMap('maps/jw/ace_street.json');
+
+// Superior Foes of Spider-Man
+//loadMap('maps/sfsm/bank_heist.json');
+//loadMap('maps/sfsm/friendly_neighborhood.json');
+
+// Civil War
+//loadMap('maps/cwsop/chemical_plant.json');
+//loadMap('maps/cwsop/final_battle_new_york.json');
+//loadMap('maps/cwsop/prison_42.json');
+//loadMap('maps/cwsop/stamford.json');
+
+// Uncanny X-Men
+//loadMap('maps/uxm/jean_grey_school_for_higher_learning.json');
+//loadMap('maps/uxm/jean_grey_school_for_higher_learning_grounds.json');
+//loadMap('maps/uxm/manhattan_bridge.json');
+//loadMap('maps/uxm/morlock_tunnels.json');
+
+// TMNT
+//loadMap('maps/tmnt/sewers.json');
+//loadMap('maps/tmnt/technodrome.json');
+
+// Captain America: Civil War
+//loadMap('maps/cacw/avengers_hq_upstate_indoor.json');
+//loadMap('maps/cacw/avengers_hq_upstate_outdoor.json');
+
+// World's Finest
+//loadMap('maps/wf/danny_the_street.json');
+//loadMap('maps/wf/united_nations_conference.json');
+
+// Superman/Wonder Woman
+//loadMap('maps/smww/mount_olympus.json');
+//loadMap('maps/smww/the_daily_planet.json');
+
+// NF:AoS
+//loadMap('maps/nfaos/hydra_island.json');
+//loadMap('maps/nfaos/nick_furys_safehouse.json');
+
+// Age of Ultron
+//loadMap('maps/aou/hank_pyms_lab.json');
+//loadMap('maps/aou/new_timbetpal.json');
+//loadMap('maps/aou/new_york_city.json');
+//loadMap('maps/aou/thebes_egypt.json');
+
+// Avengers Assemble
+//loadMap('maps/avas/arcades_arena.json');
+//loadMap('maps/avas/avengers_compound.json');
+
+// Avengers: Age of Ultron
+//loadMap('maps/aaou/avengers_tower.json');
+//loadMap('maps/aaou/struckers_fortress.json');
+
+// Justice League Trinity War
+//loadMap('maps/jltw/hall_of_doom.json');
+//loadMap('maps/jltw/hall_of_doom_slaughter_swamp.json');
+//loadMap('maps/jltw/house_of_mystery.json');
+//loadMap('maps/jltw/atlantis.json');
+
+// The Flash
+//loadMap('maps/fl/central_city.json');
+//loadMap('maps/fl/central_city_park.json');
+//loadMap('maps/fl/keystone_city.json');
+//loadMap('maps/fl/the_flash_museum.json');
+
+// Guardians of the Galaxy
+//loadMap('maps/gotg/attilan_blue_area_of_the_moon.json');
+//loadMap('maps/gotg/attilan_north_atlantic_ocean.json');
+//loadMap('maps/gotg/star_lords_ship.json');
+//loadMap('maps/gotg/titan.json');
+
+// Guardians of the Galaxy Movie
+//loadMap('maps/gotgm/nova_corps_headquarters.json');
+//loadMap('maps/gotgm/the_kyln.json');
+
+// War of Light
+//loadMap('maps/wol/black_mercy_garden.json');
+//loadMap('maps/wol/coast_city.json');
+//loadMap('maps/wol/korugar.json');
+//loadMap('maps/wol/nok.json');
+//loadMap('maps/wol/oa_central_battery_plaza.json');
+//loadMap('maps/wol/okaara_temple.json');
+//loadMap('maps/wol/odym.json');
+//loadMap('maps/wol/ranx.json');
+//loadMap('maps/wol/ryut.json');
+//loadMap('maps/wol/space.json');
+loadMap('maps/wol/ysamault.json');
+//loadMap('maps/wol/zamaron.json');
+
+// Days of Future Past
+//loadMap('maps/dofp/baxter_building_sentinel_hq.json');
+//loadMap('maps/dofp/south_bronx_mutant_internment_center.json');
+</script>
+
+</body>
+</html>
