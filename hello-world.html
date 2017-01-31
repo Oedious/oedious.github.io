@@ -19,19 +19,86 @@
 	background-color: #E3F0FB;
 	text-align: center;
 }
+.top {
+  position:fixed;
+  left:0; right:0;
+  height: 80px;
+	background-color: #E3F0FB;
+}
+.topLeft {
+  position:fixed;
+  left:0; right:0;
+  width: 178px;
+}
+.topRight {
+  position:fixed;
+  right:0;
+  width: 178px;
+  text-align: right;
+}
+#tableOfContents {
+  position: fixed;
+  left:0; top:92px; bottom: 150;
+  width: 178px;
+  height: calc(100% - 92px);
+  overflow: scroll;
+}
+.main {
+  position: absolute;
+  left:178px; top:92px; right:0; bottom:0;
+}
 </style>
 </head>
 
 <body>
-<div id="mapTitle">
-  <button style="float: left" onclick="previousMap()">Previous</button>
-  <span id="mapName"></span>
-  <button style="float: right" onclick="nextMap()">Next</button>
+<div class="main">
+  <canvas id="mapCanvas"></canvas>
 </div>
-<div id="mapSet" class="mapInfo"></div>
-<div id="mapType" class="mapInfo"></div>
-<canvas id="MapCanvas">
-</canvas>
+<div class="top">
+  <div id="mapTitle">
+    <span id="mapName"></span>
+    <div id="mapSet" class="mapInfo"></div>
+    <div id="mapType" class="mapInfo"></div>
+  </div>
+</div>
+<div id="tableOfContents"></div>
+<div class="topLeft">
+  <button onclick="previousMap()">Previous</button>
+  <br>
+  <div>Age:
+    <select id="selectAge" onchange="loadTableOfContents()">
+      <option value="golden">Golden</option>
+      <option value="modern">Modern</option>
+    </select>
+  </div>
+  <div>Type:
+    <select id="selectType" onchange="loadTableOfContents()">
+      <option value="all">All</option>
+      <option value="indoor">Indoor</option>
+      <option value="outdoor">Outdoor</option>
+      <option value="indoorOutdoor">Indoor/Outdoor</option>
+    </select>
+  </div>
+  <div>Size:
+    <select id="selectSize" onchange="loadTableOfContents()">
+      <option value="all">All</option>
+      <option value="16x24">16x24</option>
+    </select>
+  </div>
+</div>
+<div class="topRight">
+  <button onclick="NextMap()">Next</button>
+  <br><br>
+  <div>Zoom:
+    <select id="selectZoom" onchange="loadMap()">
+      <option value="0.5">50%</option>
+      <option value="0.75">75%</option>
+      <option value="1.0">100%</option>
+      <option value="0">Fit</option>
+    </select>
+  </div>
+</div>
+
 
 <script type="text/javascript" src="js/edge.js"></script>
 <script type="text/javascript" src="js/tile.js"></script>
@@ -52,10 +119,29 @@ function getJson(location, callback) {
     request.send(null);  
 }
 
-var mapScale = 0;
+var MODERN_AGE_SETS = {
+  "Premium Maps": true,
+  "Joker's Wild": true,
+  "Superior Foes of Spider-Man": true,
+  "Civil War: Storyline Organized Play": true,
+  "Uncanny X-Men": true,
+  "Teenage Mutant Ninja Turtles": true,
+  "Captain America: Civil War": true,
+  "World's Finest": true,
+  "Superman/Wonder Woman": true,
+  "Nick Fury: Agent of S.H.I.E.L.D.": true,
+  "Age of Ultron": true,
+  "Avengers Assemble": true,
+  "Avengers: Age of Ultron": true,
+  "Justice League Trinity War": true,
+  "The Flash": true
+}
 
-function loadMap(location) {
-  getJson(location, function(json) {
+var mapTableOfContents;
+var currentMap;
+
+function loadMap() {
+  getJson(mapTableOfContents[currentMap].file, function(json) {
 		var jsonMap;
 		try {
 			jsonMap = JSON.parse(json);
@@ -63,11 +149,13 @@ function loadMap(location) {
 			alert(e);
 		}
     var map = new Map(jsonMap);
-    var c = document.getElementById("MapCanvas");
+    var c = document.getElementById("mapCanvas");
+    var left = document.getElementById("left");
     var ctx = c.getContext("2d");
     ctx.save()
-    var windowWidth = window.innerWidth - 20;
+    var windowWidth = window.innerWidth - 178;
     var windowHeight = window.innerHeight - 100;
+    var mapScale = document.getElementById("selectZoom").value;
     if (mapScale <= 0) {
       c.width = windowWidth;
       c.height = windowHeight;
@@ -75,15 +163,15 @@ function loadMap(location) {
       var sy = c.height / (map.height * TILE_SIZE);
       var scale = sx < sy ? sx : sy;
       ctx.scale(scale, scale);
-      ctx.translate((windowWidth / scale - map.width * TILE_SIZE) / 2, 0);
+      ctx.translate((c.width / scale - map.width * TILE_SIZE) / 2, 0);
     } else if (mapScale >= 1) {
       c.width = map.width * TILE_SIZE;
       c.height = map.height * TILE_SIZE;
     } else {
-      c.width = windowWidth;
+      c.width = Math.max(windowWidth, map.width * TILE_SIZE * mapScale);
       c.height = map.height * TILE_SIZE * mapScale;
       ctx.scale(mapScale, mapScale);
-      ctx.translate((windowWidth - map.width * TILE_SIZE * mapScale), 0);
+      ctx.translate((c.width / mapScale - map.width * TILE_SIZE) / 2, 0);
     }
     map.draw(ctx);
     ctx.restore();
@@ -101,136 +189,54 @@ function loadMap(location) {
 	});
 }
 
-var MAPS = [
-  // Premium Maps
-  "maps/premium/cargo_ship.json",
-  "maps/premium/convention_center_plaza.json",
-  "maps/premium/gaming_convention_hall.json",
-  "maps/premium/parking_garage.json",
-  "maps/premium/warehouse_5651.json",
-  "maps/premium/wizkids_office_hq.json",
 
-  // Joker's Wild
-  "maps/jw/ace_chemicals.json",
-  "maps/jw/ace_street.json",
+function loadTableOfContents() {
+  getJson("maps/table_of_contents.json", function(data) {
+		var json;
+		try {
+			json = JSON.parse(data);
+		} catch (e) {
+			alert(e);
+		}
+		var filterModern = (document.getElementById("selectAge").value == "modern");
+		var filterByType = document.getElementById("selectType").value;
+		var filter16x24 = (document.getElementById("selectSize").value == "16x24");
+		var html = "";
+		var currentSet = "";
+		mapTableOfContents = [];
+		for (var i = 0; i < json.maps.length; ++i) {
+		  var map = json.maps[i];
+		  if (filterModern && !MODERN_AGE_SETS[map.set]) {
+		    continue;
+		  }
+		  if (filterByType != "all" && filterByType != map.type) {
+		    continue
+		  }
+		  if (filter16x24 && !(map.width == 16 && map.height == 24)) {
+		    continue;
+		  }
+		  if (currentSet != map.set) {
+		    if (currentSet != "") {
+		      html += "</ul>"
+		    }
+		    html += map.set + " <ul>"
+		    currentSet = map.set;
+		  }
+		  html += "<li>"
+		      + "<a href='' onclick='currentMap="
+		      + mapTableOfContents.length + "; loadMap(); return false;'>"
+		      + map.name + "</a></li>";
+  	  mapTableOfContents.push(map);
+		}
+		html += "</ul>"
+    var tableOfContents = document.getElementById("tableOfContents");
+    tableOfContents.innerHTML = html;
+    currentMap = mapTableOfContents.length - 1;
+    loadMap();
+  });
+}
 
-  // Superior Foes of Spider-Man
-  "maps/sfsm/bank_heist.json",
-  "maps/sfsm/friendly_neighborhood.json",
-
-  // Civil War
-  "maps/cwsop/chemical_plant.json",
-  "maps/cwsop/final_battle_new_york.json",
-  "maps/cwsop/prison_42.json",
-  "maps/cwsop/stamford.json",
-
-  // Uncanny X-Men
-  "maps/uxm/jean_grey_school_for_higher_learning.json",
-  "maps/uxm/jean_grey_school_for_higher_learning_grounds.json",
-  "maps/uxm/manhattan_bridge.json",
-  "maps/uxm/morlock_tunnels.json",
-
-  // TMNT
-  "maps/tmnt/sewers.json",
-  "maps/tmnt/technodrome.json",
-
-  // Captain America: Civil War
-  "maps/cacw/avengers_hq_upstate_indoor.json",
-  "maps/cacw/avengers_hq_upstate_outdoor.json",
-
-  // World's Finest
-  "maps/wf/danny_the_street.json",
-  "maps/wf/united_nations_conference.json",
-
-  // Superman/Wonder Woman
-  "maps/smww/mount_olympus.json",
-  "maps/smww/the_daily_planet.json",
-
-  // NF:AoS
-  "maps/nfaos/hydra_island.json",
-  "maps/nfaos/nick_furys_safehouse.json",
-
-  // Age of Ultron
-  "maps/aou/hank_pyms_lab.json",
-  "maps/aou/new_timbetpal.json",
-  "maps/aou/new_york_city.json",
-  "maps/aou/thebes_egypt.json",
-
-  // Avengers Assemble
-  "maps/avas/arcades_arena.json",
-  "maps/avas/avengers_compound.json",
-
-  // Avengers: Age of Ultron
-  "maps/aaou/avengers_tower.json",
-  "maps/aaou/struckers_fortress.json",
-
-  // Justice League Trinity War
-  "maps/jltw/hall_of_doom.json",
-  "maps/jltw/hall_of_doom_slaughter_swamp.json",
-  "maps/jltw/house_of_mystery.json",
-  "maps/jltw/atlantis.json",
-
-  // The Flash
-  "maps/fl/central_city.json",
-  "maps/fl/central_city_park.json",
-  "maps/fl/keystone_city.json",
-  "maps/fl/the_flash_museum.json",
-
-  // Guardians of the Galaxy
-  "maps/gotg/attilan_blue_area_of_the_moon.json",
-  "maps/gotg/attilan_north_atlantic_ocean.json",
-  "maps/gotg/star_lords_ship.json",
-  "maps/gotg/titan.json",
-
-  // Guardians of the Galaxy Movie
-  "maps/gotgm/nova_corps_headquarters.json",
-  "maps/gotgm/the_kyln.json",
-
-  // War of Light
-  "maps/wol/black_mercy_garden.json",
-  "maps/wol/coast_city.json",
-  "maps/wol/korugar.json",
-  "maps/wol/nok.json",
-  "maps/wol/oa_central_battery_plaza.json",
-  "maps/wol/oa_the_big_w.json",
-  "maps/wol/okaara_temple.json",
-  "maps/wol/odym.json",
-  "maps/wol/qward_armory_and_forge.json",
-  "maps/wol/ranx.json",
-  "maps/wol/ryut.json",
-  "maps/wol/space.json",
-  "maps/wol/ysamault.json",
-  "maps/wol/zamaron.json",
-
-  // Days of Future Past
-  "maps/dofp/baxter_building_sentinel_hq.json",
-  "maps/dofp/south_bronx_mutant_internment_center.json",
-
-  // Deadpool
-  "maps/dp/deadpools_house.json",
-  "maps/dp/hellhouse.json",
-  "maps/dp/the_mall.json",
-  "maps/dp/thunderbolts_submarine.json",
-
-  // Captain America: The Winter Soldier
-  "maps/catws/helicarrier.json",
-  "maps/catws/triskelion_helibay.json",
-
-  // Avengers vs. X-Men
-  "maps/avx/avengers_tower.json",
-  "maps/avx/kun_lun.json",
-  "maps/avx/limbo.json",
-  "maps/avx/savage_land.json",
-  "maps/avx/surface_of_the_moon.json",
-  "maps/avx/utopia.json",
-  "maps/avx/utopia_east.json",
-  "maps/avx/utopia_west.json",
-  "maps/avx/verkhoyansk_mountains.json",
-  "maps/avx/wundagore_mountain.json",
-];
-
-var currentMap = MAPS.length - 1;
-loadMap(MAPS[currentMap]);
+loadTableOfContents();
 
 document.onkeydown = handleKeyDown;
 
@@ -248,17 +254,17 @@ function handleKeyDown(e) {
 function previousMap() {
   --currentMap;
   if (currentMap < 0) {
-    currentMap = MAPS.length - 1;
+    currentMap = mapTableOfContents.length - 1;
   }
-	loadMap(MAPS[currentMap]);
+	loadMap();
 }
 
 function nextMap() {
   ++currentMap;
-  if (currentMap >= MAPS.length) {
+  if (currentMap >= mapTableOfContents.length) {
     currentMap = 0;
   }
-	loadMap(MAPS[currentMap]);
+	loadMap();
 }
 
 </script>

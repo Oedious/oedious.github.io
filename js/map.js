@@ -54,11 +54,19 @@ var Map = function(json) {
 			y1 = [y0, y0 = y1][0];
 		}
 		if (x0 < x1) {
-			this.tiles[y0 * this.width + x0].addRamp(EdgeType.RIGHT);
-			this.tiles[y1 * this.width + x1].addRamp(EdgeType.LEFT);
+			if (x0 >= 0) {
+				this.tiles[y0 * this.width + x0].addRamp(EdgeType.RIGHT);
+			}
+			if (x1 < this.width) {
+				this.tiles[y1 * this.width + x1].addRamp(EdgeType.LEFT);
+			}
 		} else {
-			this.tiles[y0 * this.width + x0].addRamp(EdgeType.BOTTOM);
-			this.tiles[y1 * this.width + x1].addRamp(EdgeType.TOP);
+			if (y0 >= 0) {
+				this.tiles[y0 * this.width + x0].addRamp(EdgeType.BOTTOM);
+			}
+			if (y1 < this.height) {
+				this.tiles[y1 * this.width + x1].addRamp(EdgeType.TOP);
+			}
 		}
 	}
 	// Add Walls.

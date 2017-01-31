@@ -1,0 +1,206 @@
+{
+	"name": "Lighthouse",
+	"set": "Wolverine and the X-Men",
+	"type": "indoor",
+	"width": 8,
+	"height": 8,
+	"rows": [
+		{
+			"y": 1,
+			"tiles": [
+				{
+					"x": "A",
+					"terrain": "blocking"
+				}, {
+					"x": "B",
+					"terrain": "blocking"
+				}, {
+					"x": "C"
+				}, {
+					"x": "D"
+				}, {
+					"x": "E"
+				}, {
+					"x": "F"
+				}, {
+					"x": "G",
+					"terrain": "blocking"
+				}, {
+					"x": "H",
+					"terrain": "blocking"
+				}
+			]
+		}, {
+			"y": 2,
+			"tiles": [
+				{
+					"x": "A",
+					"terrain": "blocking"
+				}, {
+					"x": "B"
+				}, {
+					"x": "C"
+				}, {
+					"x": "D"
+				}, {
+					"x": "E"
+				}, {
+					"x": "F"
+				}, {
+					"x": "G"
+				}, {
+					"x": "H",
+					"terrain": "blocking"
+				}
+			]
+		}, {
+			"y": 3,
+			"tiles": [
+				{
+					"x": "A",
+					"isStartingZone": true
+				}, {
+					"x": "B"
+				}, {
+					"x": "C"
+				}, {
+					"x": "D",
+					"terrain": "hindering"
+				}, {
+					"x": "E",
+					"terrain": "hindering"
+				}, {
+					"x": "F"
+				}, {
+					"x": "G"
+				}, {
+					"x": "H",
+					"isStartingZone": true
+				}
+			]
+		}, {
+			"y": 4,
+			"tiles": [
+				{
+					"x": "A",
+					"isStartingZone": true
+				}, {
+					"x": "B"
+				}, {
+					"x": "C"
+				}, {
+					"x": "D",
+					"terrain": "blocking"
+				}, {
+					"x": "E",
+					"terrain": "blocking"
+				}, {
+					"x": "F"
+				}, {
+					"x": "G"
+				}, {
+					"x": "H",
+					"isStartingZone": true
+				}
+			]
+		}, {
+			"y": 5,
+			"tiles": [
+				{
+					"x": "A",
+					"isStartingZone": true
+				}, {
+					"x": "B"
+				}, {
+					"x": "C"
+				}, {
+					"x": "D",
+					"terrain": "blocking"
+				}, {
+					"x": "E",
+					"terrain": "blocking"
+				}, {
+					"x": "F"
+				}, {
+					"x": "G"
+				}, {
+					"x": "H",
+					"isStartingZone": true
+				}
+		    ]
+		}, {
+			"y": 6,
+			"tiles": [
+				{
+					"x": "A",
+					"isStartingZone": true
+				}, {
+					"x": "B"
+				}, {
+					"x": "C"
+				}, {
+					"x": "D",
+					"terrain": "hindering"
+				}, {
+					"x": "E",
+					"terrain": "hindering"
+				}, {
+					"x": "F"
+				}, {
+					"x": "G"
+				}, {
+					"x": "H",
+					"isStartingZone": true
+				}
+			]
+		}, {
+			"y": 7,
+			"tiles": [
+				{
+					"x": "A",
+					"terrain": "blocking"
+				}, {
+					"x": "B"
+				}, {
+					"x": "C"
+				}, {
+					"x": "D"
+				}, {
+					"x": "E"
+				}, {
+					"x": "F"
+				}, {
+					"x": "G"
+				}, {
+					"x": "H",
+					"terrain": "blocking"
+				}
+			]
+		}, {
+			"y": 8,
+			"tiles": [
+				{
+					"x": "A",
+					"terrain": "blocking"
+				}, {
+					"x": "B",
+					"terrain": "blocking"
+				}, {
+					"x": "C"
+				}, {
+					"x": "D"
+				}, {
+					"x": "E"
+				}, {
+					"x": "F"
+				}, {
+					"x": "G",
+					"terrain": "blocking"
+				}, {
+					"x": "H",
+					"terrain": "blocking"
+				}
+			]
+		}
+	]
+}

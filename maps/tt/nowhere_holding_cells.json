@@ -1,0 +1,280 @@
+{
+	"name": "N.O.W.H.E.R.E.: Holding Cells",
+	"set": "Teen Titans",
+	"type": "indoor",
+	"width": 8,
+	"height": 8,
+	"rows": [
+		{
+			"y": 1,
+			"tiles": [
+				{
+					"x": "A",
+					"isStartingZone": true
+				}, {
+					"x": "B",
+					"isStartingZone": true
+				}, {
+					"x": "C",
+					"isStartingZone": true
+				}, {
+					"x": "D"
+				}, {
+					"x": "E"
+				}, {
+					"x": "F"
+				}, {
+					"x": "G"
+				}, {
+					"x": "H"
+				}
+			]
+		}, {
+			"y": 2,
+			"tiles": [
+				{
+					"x": "A",
+					"isStartingZone": true
+				}, {
+					"x": "B",
+					"terrain": "hindering",
+					"isStartingZone": true
+				}, {
+					"x": "C",
+					"isStartingZone": true
+				}, {
+					"x": "D"
+				}, {
+					"x": "E"
+				}, {
+					"x": "F"
+				}, {
+					"x": "G"
+				}, {
+					"x": "H"
+				}
+			]
+		}, {
+			"y": 3,
+			"tiles": [
+				{
+					"x": "A",
+					"isStartingZone": true
+				}, {
+					"x": "B",
+					"isStartingZone": true
+				}, {
+					"x": "C",
+					"isStartingZone": true
+				}, {
+					"x": "D"
+				}, {
+					"x": "E"
+				}, {
+					"x": "F"
+				}, {
+					"x": "G",
+					"terrain": "hindering"
+				}, {
+					"x": "H"
+				}
+			]
+		}, {
+			"y": 4,
+			"tiles": [
+				{
+					"x": "A"
+				}, {
+					"x": "B",
+					"terrain": "hindering"
+				}, {
+					"x": "C"
+				}, {
+					"x": "D"
+				}, {
+					"x": "E"
+				}, {
+					"x": "F"
+				}, {
+					"x": "G"
+				}, {
+					"x": "H"
+				}
+			]
+		}, {
+			"y": 5,
+			"tiles": [
+				{
+					"x": "A"
+				}, {
+					"x": "B"
+				}, {
+					"x": "C"
+				}, {
+					"x": "D"
+				}, {
+					"x": "E"
+				}, {
+					"x": "F"
+				}, {
+					"x": "G",
+					"terrain": "hindering"
+				}, {
+					"x": "H"
+				}
+		    ]
+		}, {
+			"y": 6,
+			"tiles": [
+				{
+					"x": "A"
+				}, {
+					"x": "B",
+					"terrain": "hindering"
+				}, {
+					"x": "C"
+				}, {
+					"x": "D"
+				}, {
+					"x": "E"
+				}, {
+					"x": "F",
+					"isStartingZone": true
+				}, {
+					"x": "G",
+					"isStartingZone": true
+				}, {
+					"x": "H",
+					"isStartingZone": true
+				}
+			]
+		}, {
+			"y": 7,
+			"tiles": [
+				{
+					"x": "A"
+				}, {
+					"x": "B"
+				}, {
+					"x": "C"
+				}, {
+					"x": "D"
+				}, {
+					"x": "E"
+				}, {
+					"x": "F",
+					"isStartingZone": true
+				}, {
+					"x": "G",
+					"terrain": "hindering",
+					"isStartingZone": true
+				}, {
+					"x": "H",
+					"isStartingZone": true
+				}
+			]
+		}, {
+			"y": 8,
+			"tiles": [
+				{
+					"x": "A"
+				}, {
+					"x": "B"
+				}, {
+					"x": "C"
+				}, {
+					"x": "D"
+				}, {
+					"x": "E"
+				}, {
+					"x": "F",
+					"isStartingZone": true
+				}, {
+					"x": "G",
+					"isStartingZone": true
+				}, {
+					"x": "H",
+					"isStartingZone": true
+				}
+			]
+		}
+	],
+	"walls": [
+		{
+			"x0": 1,
+			"y0": 1,
+			"x1": 3,
+			"y1": 1
+		}, {
+			"x0": 1,
+			"y0": 1,
+			"x1": 1,
+			"y1": 7
+		}, {
+			"x0": 3,
+			"y0": 1,
+			"x1": 3,
+			"y1": 2
+		}, {
+			"x0": 5,
+			"y0": 1,
+			"x1": 7,
+			"y1": 1
+		}, {
+			"x0": 5,
+			"y0": 1,
+			"x1": 5,
+			"y1": 2
+		}, {
+			"x0": 7,
+			"y0": 1,
+			"x1": 7,
+			"y1": 7
+		}, {
+			"x0": 1,
+			"y0": 3,
+			"x1": 3,
+			"y1": 3
+		}, {
+			"x0": 3,
+			"y0": 3,
+			"x1": 3,
+			"y1": 4
+		}, {
+			"x0": 5,
+			"y0": 3,
+			"x1": 5,
+			"y1": 5
+		}, {
+			"x0": 5,
+			"y0": 4,
+			"x1": 7,
+			"y1": 4
+		}, {
+			"x0": 1,
+			"y0": 5,
+			"x1": 3,
+			"y1": 5
+		}, {
+			"x0": 3,
+			"y0": 5,
+			"x1": 3,
+			"y1": 6
+		}, {
+			"x0": 5,
+			"y0": 6,
+			"x1": 5,
+			"y1": 7
+		}, {
+			"x0": 1,
+			"y0": 7,
+			"x1": 3,
+			"y1": 7
+		}, {
+			"x0": 5,
+			"y0": 7,
+			"x1": 7,
+			"y1": 7
+		}
+	]
+}
