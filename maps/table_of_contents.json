@@ -1056,6 +1056,146 @@
         	"width": 16,
         	"height": 24,
         	"file": "maps/bm/the_temple.json"
+        }, {
+        	"name": "Blackgate Prison",
+        	"set": "Batman: No Man's Land",
+        	"type": "indoor",
+        	"width": 16,
+        	"height": 24,
+        	"file": "maps/nml/blackgate_prison.json"
+        }, {
+        	"name": "Blackgate Prison: Post-Cataclysm",
+        	"set": "Batman: No Man's Land",
+        	"type": "indoor",
+        	"width": 16,
+        	"height": 24,
+        	"file": "maps/nml/blackgate_prison_post_cataclysm.json"
+        }, {
+        	"name": "Wayne Manor Grounds",
+        	"set": "Batman: No Man's Land",
+        	"type": "indoorOutdoor",
+        	"width": 16,
+        	"height": 24,
+        	"file": "maps/nml/wayne_manor_grounds.json"
+        }, {
+        	"name": "Wayne Manor Grounds: Post-Cataclysm",
+        	"set": "Batman: No Man's Land",
+        	"type": "outdoor",
+        	"width": 16,
+        	"height": 24,
+        	"file": "maps/nml/wayne_manor_grounds_post_cataclysm.json"
+        }, {
+        	"name": "Gotham City Power Plant",
+        	"set": "Batman: No Man's Land",
+        	"type": "outdoor",
+        	"width": 16,
+        	"height": 24,
+        	"file": "maps/nml/gotham_city_power_plant.json"
+        }, {
+        	"name": "Gotham City Power Plant: Post-Cataclysm",
+        	"set": "Batman: No Man's Land",
+        	"type": "outdoor",
+        	"width": 16,
+        	"height": 24,
+        	"file": "maps/nml/gotham_city_power_plant_post_cataclysm.json"
+        }, {
+        	"name": "Robinson Park",
+        	"set": "Batman: No Man's Land",
+        	"type": "outdoor",
+        	"width": 16,
+        	"height": 24,
+        	"file": "maps/nml/robinson_park.json"
+        }, {
+        	"name": "Robinson Park: Post-Cataclysm",
+        	"set": "Batman: No Man's Land",
+        	"type": "outdoor",
+        	"width": 16,
+        	"height": 24,
+        	"file": "maps/nml/robinson_park_post_cataclysm.json"
+        }, {
+        	"name": "Gotham City Waterfront",
+        	"set": "Batman: No Man's Land",
+        	"type": "indoorOutdoor",
+        	"width": 16,
+        	"height": 24,
+        	"file": "maps/nml/gotham_city_waterfront.json"
+        }, {
+        	"name": "Gotham City Waterfront: Post-Cataclysm",
+        	"set": "Batman: No Man's Land",
+        	"type": "indoorOutdoor",
+        	"width": 16,
+        	"height": 24,
+        	"file": "maps/nml/gotham_city_waterfront_post_cataclysm.json"
+        }, {
+        	"name": "Dockside Amusement Park",
+        	"set": "Batman: No Man's Land",
+        	"type": "indoorOutdoor",
+        	"width": 16,
+        	"height": 24,
+        	"file": "maps/nml/dockside_amusement_park.json"
+        }, {
+        	"name": "Dockside Amusement Park: Post-Cataclysm",
+        	"set": "Batman: No Man's Land",
+        	"type": "indoorOutdoor",
+        	"width": 16,
+        	"height": 24,
+        	"file": "maps/nml/dockside_amusement_park_post_cataclysm.json"
+        }, {
+        	"name": "Rooftops of Gotham City",
+        	"set": "Justice League 52",
+        	"type": "outdoor",
+        	"width": 16,
+        	"height": 24,
+        	"file": "maps/jl52/rooftops_of_gotham_city.json"
+        }, {
+        	"name": "Paradise Island",
+        	"set": "Justice League 52",
+        	"type": "outdoor",
+        	"width": 16,
+        	"height": 24,
+        	"file": "maps/jl52/paradise_island.json"
+        }, {
+        	"name": "Quinjet Hangar",
+        	"set": "Chaos War",
+        	"type": "indoor",
+        	"width": 16,
+        	"height": 24,
+        	"file": "maps/cw/quinjet_hangar.json"
+        }, {
+        	"name": "European Castle",
+        	"set": "Chaos War",
+        	"type": "outdoor",
+        	"width": 16,
+        	"height": 24,
+        	"file": "maps/cw/european_castle.json"
+        }, {
+        	"name": "Negative Zone Prison",
+        	"set": "Chaos War",
+        	"type": "indoor",
+        	"width": 16,
+        	"height": 24,
+        	"file": "maps/cw/negative_zone_prison.json"
+        }, {
+        	"name": "Avengers Mansion Grounds",
+        	"set": "Chaos War",
+        	"type": "outdoor",
+        	"width": 16,
+        	"height": 24,
+        	"file": "maps/cw/avengers_mansion_grounds.json"
+        }, {
+        	"name": "Arkham Asylum",
+        	"set": "The Dark Knight Rises",
+        	"type": "indoor",
+        	"width": 16,
+        	"height": 24,
+        	"file": "maps/dkr/arkham_asylum.json"
+        }, {
+        	"name": "Gotham Bank",
+        	"set": "The Dark Knight Rises",
+        	"type": "indoor",
+        	"width": 16,
+        	"height": 24,
+        	"file": "maps/dkr/gotham_bank.json"
         }
     ]
 }

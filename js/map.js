@@ -54,17 +54,17 @@ var Map = function(json) {
 			y1 = [y0, y0 = y1][0];
 		}
 		if (x0 < x1) {
-			if (x0 >= 0) {
+			if (x0 >= 0 && x0 < this.width) {
 				this.tiles[y0 * this.width + x0].addRamp(EdgeType.RIGHT);
 			}
-			if (x1 < this.width) {
+			if (x1 >= 0 && x1 < this.width) {
 				this.tiles[y1 * this.width + x1].addRamp(EdgeType.LEFT);
 			}
 		} else {
-			if (y0 >= 0) {
+			if (y0 >= 0 && y0 < this.height) {
 				this.tiles[y0 * this.width + x0].addRamp(EdgeType.BOTTOM);
 			}
-			if (y1 < this.height) {
+			if (y1 >= 0 && y1 < this.height) {
 				this.tiles[y1 * this.width + x1].addRamp(EdgeType.TOP);
 			}
 		}
