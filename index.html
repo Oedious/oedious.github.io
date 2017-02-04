@@ -66,13 +66,13 @@
   <button onclick="previousMap()">Previous</button>
   <br>
   <div>Age:
-    <select id="selectAge" onchange="loadTableOfContents()">
+    <select id="selectAge" onchange="drawTableOfContents()">
       <option value="golden">Golden</option>
       <option value="modern">Modern</option>
     </select>
   </div>
   <div>Type:
-    <select id="selectType" onchange="loadTableOfContents()">
+    <select id="selectType" onchange="drawTableOfContents()">
       <option value="all">All</option>
       <option value="indoor">Indoor</option>
       <option value="outdoor">Outdoor</option>
@@ -80,7 +80,7 @@
     </select>
   </div>
   <div>Size:
-    <select id="selectSize" onchange="loadTableOfContents()">
+    <select id="selectSize" onchange="drawTableOfContents()">
       <option value="all">All</option>
       <option value="16x24">16x24</option>
     </select>
@@ -189,51 +189,54 @@ function loadMap() {
 	});
 }
 
-
+var jsontableOfContents;
 function loadTableOfContents() {
   getJson("maps/table_of_contents.json", function(data) {
-		var json;
 		try {
-			json = JSON.parse(data);
+			jsontableOfContents = JSON.parse(data);
 		} catch (e) {
 			alert(e);
 		}
-		var filterModern = (document.getElementById("selectAge").value == "modern");
-		var filterByType = document.getElementById("selectType").value;
-		var filter16x24 = (document.getElementById("selectSize").value == "16x24");
-		var html = "";
-		var currentSet = "";
-		mapTableOfContents = [];
-		for (var i = 0; i < json.maps.length; ++i) {
-		  var map = json.maps[i];
-		  if (filterModern && !MODERN_AGE_SETS[map.set]) {
-		    continue;
-		  }
-		  if (filterByType != "all" && filterByType != map.type) {
-		    continue
-		  }
-		  if (filter16x24 && !(map.width == 16 && map.height == 24)) {
-		    continue;
-		  }
-		  if (currentSet != map.set) {
-		    if (currentSet != "") {
-		      html += "</ul>"
-		    }
-		    html += map.set + " <ul>"
-		    currentSet = map.set;
-		  }
-		  html += "<li>"
-		      + "<a href='' onclick='currentMap="
-		      + mapTableOfContents.length + "; loadMap(); return false;'>"
-		      + map.name + "</a></li>";
-  	  mapTableOfContents.push(map);
-		}
-		html += "</ul>"
-    var tableOfContents = document.getElementById("tableOfContents");
-    tableOfContents.innerHTML = html;
-    currentMap = mapTableOfContents.length - 1;
-    loadMap();
+		drawTableOfContents();
   });
+}
+
+function drawTableOfContents() {
+	var filterModern = (document.getElementById("selectAge").value == "modern");
+	var filterByType = document.getElementById("selectType").value;
+	var filter16x24 = (document.getElementById("selectSize").value == "16x24");
+	var html = "";
+	var currentSet = "";
+	mapTableOfContents = [];
+	for (var i = 0; i < jsontableOfContents.maps.length; ++i) {
+	  var map = jsontableOfContents.maps[i];
+	  if (filterModern && !MODERN_AGE_SETS[map.set]) {
+	    continue;
+	  }
+	  if (filterByType != "all" && filterByType != map.type) {
+	    continue
+	  }
+	  if (filter16x24 && !(map.width == 16 && map.height == 24)) {
+	    continue;
+	  }
+	  if (currentSet != map.set) {
+	    if (currentSet != "") {
+	      html += "</ul>"
+	    }
+	    html += map.set + " <ul>"
+	    currentSet = map.set;
+	  }
+	  html += "<li>"
+	      + "<a href='' onclick='currentMap="
+	      + mapTableOfContents.length + "; loadMap(); return false;'>"
+	      + map.name + "</a></li>";
+	  mapTableOfContents.push(map);
+	}
+	html += "</ul>"
+  var tableOfContents = document.getElementById("tableOfContents");
+  tableOfContents.innerHTML = html;
+  currentMap = mapTableOfContents.length - 1;
+  loadMap();
 }
 
 loadTableOfContents();
