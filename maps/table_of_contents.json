@@ -1196,6 +1196,20 @@
         	"width": 16,
         	"height": 24,
         	"file": "maps/dkr/gotham_bank.json"
+        }, {
+        	"name": "S.H.I.E.L.D. Helicarrier",
+        	"set": "Avengers Movie",
+        	"type": "indoor",
+        	"width": 16,
+        	"height": 24,
+        	"file": "maps/avm/shield_helicarrier.json"
+        }, {
+        	"name": "Stark Tower",
+        	"set": "Avengers Movie",
+        	"type": "outdoor",
+        	"width": 16,
+        	"height": 24,
+        	"file": "maps/avm/stark_tower.json"
         }
     ]
 }
