@@ -1210,6 +1210,34 @@
         	"width": 16,
         	"height": 24,
         	"file": "maps/avm/stark_tower.json"
+        }, {
+        	"name": "Knowhere",
+        	"set": "Galactic Guardians",
+        	"type": "indoor",
+        	"width": 16,
+        	"height": 24,
+        	"file": "maps/gg/knowhere.json"
+        }, {
+        	"name": "Alien City",
+        	"set": "Galactic Guardians",
+        	"type": "outdoor",
+        	"width": 16,
+        	"height": 24,
+        	"file": "maps/gg/alien_city.json"
+        }, {
+        	"name": "Blue Area of the Moon",
+        	"set": "Galactic Guardians",
+        	"type": "outdoor",
+        	"width": 16,
+        	"height": 24,
+        	"file": "maps/gg/blue_area_of_the_moon.json"
+        }, {
+        	"name": "Realm of Death",
+        	"set": "Galactic Guardians",
+        	"type": "indoor",
+        	"width": 16,
+        	"height": 24,
+        	"file": "maps/gg/realm_of_death.json"
         }
     ]
 }
