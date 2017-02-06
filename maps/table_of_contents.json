@@ -1238,6 +1238,118 @@
         	"width": 16,
         	"height": 24,
         	"file": "maps/gg/realm_of_death.json"
+        }, {
+        	"name": "Nexus of Reality",
+        	"set": "The Infinity Gauntlet",
+        	"type": "outdoor",
+        	"width": 16,
+        	"height": 24,
+        	"file": "maps/ig/nexus_of_reality.json"
+        }, {
+        	"name": "Soul World",
+        	"set": "The Infinity Gauntlet",
+        	"type": "outdoor",
+        	"width": 16,
+        	"height": 24,
+        	"file": "maps/ig/soul_world.json"
+        }, {
+        	"name": "Tamarata",
+        	"set": "The Infinity Gauntlet",
+        	"type": "outdoor",
+        	"width": 16,
+        	"height": 24,
+        	"file": "maps/ig/tamarata.json"
+        }, {
+        	"name": "The Garden",
+        	"set": "The Infinity Gauntlet",
+        	"type": "outdoor",
+        	"width": 16,
+        	"height": 24,
+        	"file": "maps/ig/the_garden.json"
+        }, {
+        	"name": "Space Racetrack",
+        	"set": "The Infinity Gauntlet",
+        	"type": "outdoor",
+        	"width": 16,
+        	"height": 24,
+        	"file": "maps/ig/space_racetrack.json"
+        }, {
+        	"name": "Collector's Ship",
+        	"set": "The Infinity Gauntlet",
+        	"type": "indoor",
+        	"width": 16,
+        	"height": 24,
+        	"file": "maps/ig/collectors_ship.json"
+        }, {
+        	"name": "The Mental Plane",
+        	"set": "The Infinity Gauntlet",
+        	"type": "outdoor",
+        	"width": 16,
+        	"height": 24,
+        	"file": "maps/ig/the_mental_plane.json"
+        }, {
+        	"name": "Shrine to Death",
+        	"set": "The Infinity Gauntlet",
+        	"type": "outdoor",
+        	"width": 16,
+        	"height": 24,
+        	"file": "maps/ig/shrine_to_death.json"
+        }, {
+        	"name": "Sakaar",
+        	"set": "The Incredible Hulk",
+        	"type": "outdoor",
+        	"width": 16,
+        	"height": 24,
+        	"file": "maps/ih/sakaar.json"
+        }, {
+        	"name": "Gamma Base",
+        	"set": "The Incredible Hulk",
+        	"type": "indoorOutdoor",
+        	"width": 16,
+        	"height": 24,
+        	"file": "maps/ih/gamma_base.json"
+        }, {
+        	"name": "Gamma Range",
+        	"set": "The Incredible Hulk",
+        	"type": "indoorOutdoor",
+        	"width": 16,
+        	"height": 24,
+        	"file": "maps/ih/gamma_range.json"
+        }, {
+        	"name": "Shadowland Fortress",
+        	"set": "The Incredible Hulk",
+        	"type": "indoor",
+        	"width": 16,
+        	"height": 24,
+        	"file": "maps/ih/shadowland_fortress.json"
+        }, {
+        	"name": "Fortress of Solitude",
+        	"set": "Superman",
+        	"type": "indoor",
+        	"width": 16,
+        	"height": 24,
+        	"file": "maps/sm/fortress_of_solitude.json"
+        }, {
+        	"name": "Metropolis City Battleground",
+        	"set": "Superman",
+        	"type": "outdoor",
+        	"width": 16,
+        	"height": 24,
+        	"file": "maps/sm/metropolis_city_battleground.json"
+        }, {
+        	"name": "Bizarro World",
+        	"set": "Superman",
+        	"type": "outdoor",
+        	"width": 16,
+        	"height": 24,
+        	"file": "maps/sm/bizarro_world.json"
+        }, {
+        	"name": "The Farm",
+        	"set": "Superman",
+        	"type": "outdoor",
+        	"width": 16,
+        	"height": 24,
+        	"file": "maps/sm/the_farm.json"
         }
     ]
 }
