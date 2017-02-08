@@ -142,6 +142,20 @@
         	"height": 24,
         	"file": "maps/tmnt/technodrome.json"
         }, {
+        	"name": "Baxter's Lab",
+        	"set": "Teenage Mutant Ninja Turtles",
+        	"type": "indoor",
+        	"width": 16,
+        	"height": 24,
+        	"file": "maps/tmnt/baxters_lab.json"
+        }, {
+        	"name": "Turtles Lair",
+        	"set": "Teenage Mutant Ninja Turtles",
+        	"type": "indoor",
+        	"width": 16,
+        	"height": 24,
+        	"file": "maps/tmnt/turtles_lair.json"
+        }, {
         	"name": "Avengers HQ Upstate",
         	"set": "Captain America: Civil War",
         	"type": "indoor",
@@ -1350,6 +1364,55 @@
         	"width": 16,
         	"height": 24,
         	"file": "maps/sm/the_farm.json"
+        }, {
+        	"name": "Dr. Manhattan's Lab",
+        	"set": "Watchmen",
+        	"type": "indoor",
+        	"width": 16,
+        	"height": 24,
+        	"file": "maps/wm/dr_manhattans_lab.json"
+        }, {
+        	"name": "Karnak",
+        	"set": "Watchmen",
+        	"type": "indoor",
+        	"width": 16,
+        	"height": 24,
+        	"file": "maps/wm/karnak.json"
+        }, {
+        	"name": "Oa",
+        	"set": "Green Lantern",
+        	"type": "outdoor",
+        	"width": 16,
+        	"height": 24,
+        	"file": "maps/gl/oa.json"
+        }, {
+        	"name": "Ferris Aircraft",
+        	"set": "Green Lantern",
+        	"type": "indoorOutdoor",
+        	"width": 16,
+        	"height": 24,
+        	"file": "maps/gl/ferris_aircraft.json"
+        }, {
+        	"name": "The Crater",
+        	"set": "Brightest Day",
+        	"type": "outdoor",
+        	"width": 16,
+        	"height": 24,
+        	"file": "maps/bd/the_crater.json"
+        }, {
+        	"name": "The Monument",
+        	"set": "Brightest Day",
+        	"type": "outdoor",
+        	"width": 16,
+        	"height": 24,
+        	"file": "maps/bd/the_monument.json"
+        }, {
+        	"name": "Green Lantern Sciencells",
+        	"set": "Blackest Night",
+        	"type": "indoor",
+        	"width": 16,
+        	"height": 24,
+        	"file": "maps/bn/green_lantern_sciencells.json"
         }
     ]
 }

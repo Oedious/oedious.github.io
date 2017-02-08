@@ -67,8 +67,8 @@
   <br>
   <div>Age:
     <select id="selectAge" onchange="drawTableOfContents()">
-      <option value="golden">Golden</option>
       <option value="modern">Modern</option>
+      <option value="golden">Golden</option>
     </select>
   </div>
   <div>Type:
@@ -81,8 +81,8 @@
   </div>
   <div>Size:
     <select id="selectSize" onchange="drawTableOfContents()">
-      <option value="all">All</option>
       <option value="16x24">16x24</option>
+      <option value="all">All</option>
     </select>
   </div>
 </div>
@@ -91,10 +91,10 @@
   <br><br>
   <div>Zoom:
     <select id="selectZoom" onchange="loadMap()">
+      <option value="0">Fit</option>
       <option value="0.5">50%</option>
       <option value="0.75">75%</option>
       <option value="1.0">100%</option>
-      <option value="0">Fit</option>
     </select>
   </div>
 </div>
@@ -235,7 +235,7 @@ function drawTableOfContents() {
 	html += "</ul>"
   var tableOfContents = document.getElementById("tableOfContents");
   tableOfContents.innerHTML = html;
-  currentMap = mapTableOfContents.length - 1;
+  currentMap = 0;
   loadMap();
 }
 
