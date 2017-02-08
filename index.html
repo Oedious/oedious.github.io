@@ -68,7 +68,8 @@
   <div>Age:
     <select id="selectAge" onchange="drawTableOfContents()">
       <option value="modern">Modern</option>
-      <option value="golden">Golden</option>
+      <option value="wko">WizKids Events</option>
+      <option value="all">Golden</option>
     </select>
   </div>
   <div>Type:
@@ -117,24 +118,6 @@ function getJson(location, callback) {
     	}
     };
     request.send(null);  
-}
-
-var MODERN_AGE_SETS = {
-  "Premium Maps": true,
-  "Joker's Wild": true,
-  "Superior Foes of Spider-Man": true,
-  "Civil War: Storyline Organized Play": true,
-  "Uncanny X-Men": true,
-  "Teenage Mutant Ninja Turtles": true,
-  "Captain America: Civil War": true,
-  "World's Finest": true,
-  "Superman/Wonder Woman": true,
-  "Nick Fury: Agent of S.H.I.E.L.D.": true,
-  "Age of Ultron": true,
-  "Avengers Assemble": true,
-  "Avengers: Age of Ultron": true,
-  "Justice League Trinity War": true,
-  "The Flash": true
 }
 
 var mapTableOfContents;
@@ -202,7 +185,7 @@ function loadTableOfContents() {
 }
 
 function drawTableOfContents() {
-	var filterModern = (document.getElementById("selectAge").value == "modern");
+	var filterByAge = document.getElementById("selectAge").value;
 	var filterByType = document.getElementById("selectType").value;
 	var filter16x24 = (document.getElementById("selectSize").value == "16x24");
 	var html = "";
@@ -210,7 +193,7 @@ function drawTableOfContents() {
 	mapTableOfContents = [];
 	for (var i = 0; i < jsontableOfContents.maps.length; ++i) {
 	  var map = jsontableOfContents.maps[i];
-	  if (filterModern && !MODERN_AGE_SETS[map.set]) {
+	  if (filterByAge != "all" && !(map.age && map.age[filterByAge])) {
 	    continue;
 	  }
 	  if (filterByType != "all" && filterByType != map.type) {
