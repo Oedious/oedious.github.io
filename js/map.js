@@ -5,6 +5,8 @@ var MapType = {
 }
 
 var Map = function(json) {
+	this.name = json.name;
+	this.set = json.set;
 	this.width = json.width;
 	this.height = json.height;
 	this.type = json.type;
@@ -78,6 +80,7 @@ var Map = function(json) {
 				json.defaultWallType ? json.defaultWallType : WallType.NORMAL;
 		}
 	}
+	this.characters = [];
 }
 
 Map.prototype.tryAddEdge = function(tile0, tile1, edgeType) {
@@ -142,6 +145,12 @@ Map.prototype.draw = function(ctx) {
 		this.drawWall(ctx, this.walls[i]);	
 		ctx.restore();
 	}
+	// Draw Characters.
+	for (var i = 0; i < this.characters.length; ++i) {
+		ctx.save();
+		this.characters[i].draw(ctx);
+		ctx.restore();
+	}
 }
 
 Map.prototype.drawWall = function(ctx, wall) {
@@ -185,4 +194,29 @@ Map.prototype.getTerrainIndex = function(terrain) {
 	} else if (terrain == TerrainType.SPECIAL2) {
 		return 5;
 	}
+}
+
+Map.prototype.toggleCharacter = function(x, y) {
+	if (x >= 0 && y >= 0 && x < this.width && y < this.height) {
+		var index = this.findCharacterIndex(x, y);
+		if (index == -1) {
+			this.characters.push(
+				new Character(x, y, 0, CharacterSize.ONE_BY_ONE));
+		} else {
+			this.characters.splice(index, 1);
+		}
+	}
+}
+
+Map.prototype.findCharacterIndex = function(x, y) {
+	for (var i = 0; i < this.characters.length; ++i) {
+		var character = this.characters[i];
+		if (x >= character.x
+		    && x < character.x + character.size.width
+		    && y >= character.y
+		    && y < character.y + character.size.height) {
+			return i;
+	    }
+	}
+	return -1;
 }

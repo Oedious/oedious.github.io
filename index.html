@@ -91,7 +91,7 @@
   <button onclick="nextMap()">Next</button>
   <br><br>
   <div>Zoom:
-    <select id="selectZoom" onchange="loadMap()">
+    <select id="selectZoom" onchange="drawMap()">
       <option value="0">Fit</option>
       <option value="0.5">50%</option>
       <option value="0.75">75%</option>
@@ -104,6 +104,7 @@
 <script type="text/javascript" src="js/edge.js"></script>
 <script type="text/javascript" src="js/tile.js"></script>
 <script type="text/javascript" src="js/wall.js"></script>
+<script type="text/javascript" src="js/character.js"></script>
 <script type="text/javascript" src="js/map.js"></script>
 
 <script>
@@ -120,56 +121,68 @@ function getJson(location, callback) {
     request.send(null);  
 }
 
+var map;
+var mapIndex;
 var mapTableOfContents;
-var currentMap;
+var scale;
+var translationX;
 
 function loadMap() {
-  getJson(mapTableOfContents[currentMap].file, function(json) {
+  getJson(mapTableOfContents[mapIndex].file, function(json) {
 		var jsonMap;
 		try {
 			jsonMap = JSON.parse(json);
 		} catch (e) {
 			alert(e);
 		}
-    var map = new Map(jsonMap);
-    var c = document.getElementById("mapCanvas");
-    var left = document.getElementById("left");
-    var ctx = c.getContext("2d");
-    ctx.save()
-    var windowWidth = window.innerWidth - 178;
-    var windowHeight = window.innerHeight - 100;
-    var mapScale = document.getElementById("selectZoom").value;
-    if (mapScale <= 0) {
-      c.width = windowWidth;
-      c.height = windowHeight;
-      var sx = c.width / (map.width * TILE_SIZE);
-      var sy = c.height / (map.height * TILE_SIZE);
-      var scale = sx < sy ? sx : sy;
-      ctx.scale(scale, scale);
-      ctx.translate((c.width / scale - map.width * TILE_SIZE) / 2, 0);
-    } else if (mapScale >= 1) {
-      c.width = map.width * TILE_SIZE;
-      c.height = map.height * TILE_SIZE;
-    } else {
-      c.width = Math.max(windowWidth, map.width * TILE_SIZE * mapScale);
-      c.height = map.height * TILE_SIZE * mapScale;
-      ctx.scale(mapScale, mapScale);
-      ctx.translate((c.width / mapScale - map.width * TILE_SIZE) / 2, 0);
-    }
-    map.draw(ctx);
-    ctx.restore();
-    document.getElementById("mapName").innerHTML = jsonMap.name;
-    document.getElementById("mapSet").innerHTML = jsonMap.set;
-    var mapType;
-    if (jsonMap.type == "indoor") {
-      mapType = "Indoor";
-    } else if (jsonMap.type == "outdoor") {
-      mapType = "Outdoor";
-    } else if (jsonMap.type == "indoorOutdoor") {
-      mapType = "Indoor/Outdoor";
-    }
-    document.getElementById("mapType").innerHTML = mapType;
-	});
+    map = new Map(jsonMap);
+    drawMap();
+  });
+}
+
+function drawMap() {
+  var c = document.getElementById("mapCanvas");
+  var left = document.getElementById("left");
+  var ctx = c.getContext("2d");
+  ctx.save()
+  var windowWidth = window.innerWidth - 178;
+  var windowHeight = window.innerHeight - 100;
+  var mapScale = document.getElementById("selectZoom").value;
+  if (mapScale <= 0) {
+    c.width = windowWidth;
+    c.height = windowHeight;
+    var sx = c.width / (map.width * TILE_SIZE);
+    var sy = c.height / (map.height * TILE_SIZE);
+    scale = sx < sy ? sx : sy;
+    translationX = (c.width / scale - map.width * TILE_SIZE) / 2;
+    ctx.scale(scale, scale);
+    ctx.translate(translationX, 0);
+  } else if (mapScale >= 1) {
+    c.width = map.width * TILE_SIZE;
+    c.height = map.height * TILE_SIZE;
+    scale = 1;
+    translationX = 0;
+  } else {
+    c.width = Math.max(windowWidth, map.width * TILE_SIZE * mapScale);
+    c.height = map.height * TILE_SIZE * mapScale;
+    scale = mapScale;
+    translationX = (c.width / scale - map.width * TILE_SIZE) / 2;
+    ctx.scale(scale, scale);
+    ctx.translate(translationX, 0);
+  }
+  map.draw(ctx);
+  ctx.restore();
+  document.getElementById("mapName").innerHTML = map.name;
+  document.getElementById("mapSet").innerHTML = map.set;
+  var mapType;
+  if (map.type == "indoor") {
+    mapType = "Indoor";
+  } else if (map.type == "outdoor") {
+    mapType = "Outdoor";
+  } else if (map.type == "indoorOutdoor") {
+    mapType = "Indoor/Outdoor";
+  }
+  document.getElementById("mapType").innerHTML = mapType;
 }
 
 var jsontableOfContents;
@@ -210,7 +223,7 @@ function drawTableOfContents() {
 	    currentSet = map.set;
 	  }
 	  html += "<li>"
-	      + "<a href='' onclick='currentMap="
+	      + "<a href='' onclick='mapIndex="
 	      + mapTableOfContents.length + "; loadMap(); return false;'>"
 	      + map.name + "</a></li>";
 	  mapTableOfContents.push(map);
@@ -218,7 +231,7 @@ function drawTableOfContents() {
 	html += "</ul>"
   var tableOfContents = document.getElementById("tableOfContents");
   tableOfContents.innerHTML = html;
-  currentMap = 0;
+  mapIndex = 0;
   loadMap();
 }
 
@@ -238,19 +251,38 @@ function handleKeyDown(e) {
 }
 
 function previousMap() {
-  --currentMap;
-  if (currentMap < 0) {
-    currentMap = mapTableOfContents.length - 1;
+  --mapIndex;
+  if (mapIndex < 0) {
+    mapIndex = mapTableOfContents.length - 1;
   }
 	loadMap();
 }
 
 function nextMap() {
-  ++currentMap;
-  if (currentMap >= mapTableOfContents.length) {
-    currentMap = 0;
+  ++mapIndex;
+  if (mapIndex >= mapTableOfContents.length) {
+    mapIndex = 0;
   }
 	loadMap();
+}
+
+var canvas = document.getElementById("mapCanvas");
+canvas.addEventListener("mousedown", onMouseDown, false);
+
+function onMouseDown(event) {
+  var canvas = document.getElementById("mapCanvas");
+  var rect = canvas.getBoundingClientRect();
+  var x = event.clientX - rect.left;
+  var y = event.clientY - rect.top;
+  x -= canvas.offsetLeft;
+  y -= canvas.offsetTop;
+  x /= scale;
+  y /= scale;
+  x -= translationX;
+  x = Math.floor(x / TILE_SIZE);
+  y = Math.floor(y / TILE_SIZE);
+  map.toggleCharacter(x, y);
+  drawMap();
 }
 
 </script>
