@@ -11,6 +11,8 @@ var Map = function(json) {
 	this.height = json.height;
 	this.type = json.type;
 	this.tiles = [];
+	this.special = json.special ? json.special : "";
+	this.special2 = json.special2 ? json.special2 : "";
 	// Add Tiles.
 	for (var y = 0; y < this.height; ++y) {
 		for (var x = 0; x < this.width; ++x) {
@@ -205,7 +207,9 @@ Map.prototype.toggleCharacter = function(x, y) {
 		} else {
 			this.characters.splice(index, 1);
 		}
+		return true;
 	}
+	return false;
 }
 
 Map.prototype.findCharacterIndex = function(x, y) {
