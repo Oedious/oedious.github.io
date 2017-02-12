@@ -12,17 +12,17 @@ var ViewManager = function() {
     this.openPanel(null, 'mapsTab', 'mapsPanel');
 
     var serialized = this.getParameterByName_("s");
-    var mapFile = null;
+    var mapId = null;
     if (serialized) {
-        mapFile = this.deserialize(serialized);
+        mapId = this.deserialize(serialized);
     }
-    this.loadTableOfContents_(mapFile);
+    this.loadTableOfContents_(mapId);
 }
 
-ViewManager.prototype.loadTableOfContents_ = function(mapFile) {
+ViewManager.prototype.loadTableOfContents_ = function(mapId) {
     var mgr = this;
     mgr.toc_.load(function() {
-        mgr.toc_.applyFilters(mapFile);
+        mgr.toc_.applyFilters(mapId);
         mgr.toc_.draw();
         mgr.setMap(0);
     });
@@ -132,7 +132,7 @@ ViewManager.prototype.draw = function() {
 
 ViewManager.prototype.serialize = function() {
     var obj = {};
-    obj.m = this.getCurrentMapEntry_().file;
+    obj.m = this.getCurrentMapEntry_().id;
     obj.p = [];
     for (var i = 0; i < this.players_.length; ++i) {
         obj.p.push(this.players_[i].serialize());

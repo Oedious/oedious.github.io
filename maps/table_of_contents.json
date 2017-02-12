@@ -1,1588 +1,1787 @@
 {
-    "maps": [
-        {
-        	"name": "Cargo Ship",
-        	"set": "Premium Maps",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/premium/cargo_ship.json",
-        	"age": {
-        	    "modern": true,
-        	    "wko": true
-        	}
-        }, {
-        	"name": "Convention Center Plaza",
-        	"set": "Premium Maps",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/premium/convention_center_plaza.json",
-        	"age": {
-        	    "modern": true,
-        	    "wko": true
-        	}
-        }, {
-        	"name": "Gaming Convention Hall",
-        	"set": "Premium Maps",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/premium/gaming_convention_hall.json",
-        	"age": {
-        	    "modern": true,
-        	    "wko": true
-        	}
-        }, {
-        	"name": "Parking Garage",
-        	"set": "Premium Maps",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/premium/parking_garage.json",
-        	"age": {
-        	    "modern": true,
-        	    "wko": true
-        	}
-        }, {
-        	"name": "Warehouse 5651",
-        	"set": "Premium Maps",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/premium/warehouse_5651.json",
-        	"age": {
-        	    "modern": true,
-        	    "wko": true
-        	}
-        }, {
-        	"name": "WizKids Office HQ",
-        	"set": "Premium Maps",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/premium/wizkids_office_hq.json",
-        	"age": {
-        	    "modern": true,
-        	    "wko": true
-        	}
-        }, {
-        	"name": "Ace Chemicals",
-        	"set": "Joker's Wild",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/jw/ace_chemicals.json",
-        	"age": {
-        	    "modern": true,
-        	    "wko": true
-        	}
-        }, {
-        	"name": "Ace Street",
-        	"set": "Joker's Wild",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/jw/ace_street.json",
-        	"age": {
-        	    "modern": true,
-        	    "wko": true
-        	}
-        }, {
-        	"name": "Bank Heist",
-        	"set": "Superior Foes of Spider-Man",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/sfsm/bank_heist.json",
-        	"age": {
-        	    "modern": true,
-        	    "wko": true
-        	}
-        }, {
-        	"name": "Friendly Neighborhood",
-        	"set": "Superior Foes of Spider-Man",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/sfsm/friendly_neighborhood.json",
-        	"age": {
-        	    "modern": true,
-        	    "wko": true
-        	}
-        }, {
-        	"name": "Prison 42",
-        	"set": "Civil War: Storyline Organized Play",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/cwsop/prison_42.json",
-        	"age": {
-        	    "modern": true,
-        	    "wko": true
-        	}
-        }, {
-        	"name": "Stamford",
-        	"set": "Civil War: Storyline Organized Play",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/cwsop/stamford.json",
-        	"age": {
-        	    "modern": true,
-        	    "wko": true
-        	}
-        }, {
-        	"name": "Final Battle, New York",
-        	"set": "Civil War: Storyline Organized Play",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/cwsop/final_battle_new_york.json",
-        	"age": {
-        	    "modern": true,
-        	    "wko": true
-        	}
-        }, {
-        	"name": "Chemical Plant",
-        	"set": "Civil War: Storyline Organized Play",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/cwsop/chemical_plant.json",
-        	"age": {
-        	    "modern": true,
-        	    "wko": true
-        	}
-        }, {
-        	"name": "Jean Grey School for Higher Learning",
-        	"set": "Uncanny X-Men",
-        	"type": "indoorOutdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/uxm/jean_grey_school_for_higher_learning.json",
-        	"age": {
-        	    "modern": true,
-        	    "wko": true
-        	}
-        }, {
-        	"name": "Manhattan Bridge",
-        	"set": "Uncanny X-Men",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/uxm/manhattan_bridge.json",
-        	"age": {
-        	    "modern": true,
-        	    "wko": true
-        	}
-        }, {
-        	"name": "Morlock Tunnels",
-        	"set": "Uncanny X-Men",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/uxm/morlock_tunnels.json",
-        	"age": {
-        	    "modern": true
-        	}
-        }, {
-        	"name": "Jean Grey School for Higher Learning Grounds",
-        	"set": "Uncanny X-Men",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/uxm/jean_grey_school_for_higher_learning_grounds.json",
-        	"age": {
-        	    "modern": true
-        	}
-        }, {
-        	"name": "Baxter's Lab",
-        	"set": "Teenage Mutant Ninja Turtles",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/tmnt/baxters_lab.json",
-        	"age": {
-        	    "modern": true,
-        	    "wko": true
-        	}
-        }, {
-        	"name": "Turtles Lair",
-        	"set": "Teenage Mutant Ninja Turtles",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/tmnt/turtles_lair.json",
-        	"age": {
-        	    "modern": true,
-        	    "wko": true
-        	}
-        }, {
-        	"name": "Sewers",
-        	"set": "Teenage Mutant Ninja Turtles",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/tmnt/sewers.json",
-        	"age": {
-        	    "modern": true,
-        	    "wko": true
-        	}
-        }, {
-        	"name": "Technodrome",
-        	"set": "Teenage Mutant Ninja Turtles",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/tmnt/technodrome.json",
-        	"age": {
-        	    "modern": true,
-        	    "wko": true
-        	}
-        }, {
-        	"name": "Avengers HQ Upstate",
-        	"set": "Captain America: Civil War",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/cacw/avengers_hq_upstate_outdoor.json",
-        	"age": {
-        	    "modern": true,
-        	    "wko": true
-        	}
-        }, {
-        	"name": "Avengers HQ Upstate",
-        	"set": "Captain America: Civil War",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/cacw/avengers_hq_upstate_indoor.json",
-        	"age": {
-        	    "modern": true,
-        	    "wko": true
-        	}
-        }, {
-        	"name": "Danny the Street",
-        	"set": "World's Finest",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/wf/danny_the_street.json",
-        	"age": {
-        	    "modern": true
-        	}
-        }, {
-        	"name": "United Nations Conference",
-        	"set": "World's Finest",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/wf/united_nations_conference.json",
-        	"age": {
-        	    "modern": true
-        	}
-        }, {
-        	"name": "Mount Olympus",
-        	"set": "Superman/Wonder Woman",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/smww/mount_olympus.json",
-        	"age": {
-        	    "modern": true,
-        	    "wko": true
-        	}
-        }, {
-        	"name": "The Daily Planet",
-        	"set": "Superman/Wonder Woman",
-        	"type": "indoorOutdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/smww/the_daily_planet.json",
-        	"age": {
-        	    "modern": true,
-        	    "wko": true
-        	}
-        }, {
-        	"name": "Hydra Island",
-        	"set": "Nick Fury: Agent of S.H.I.E.L.D.",
-        	"type": "indoorOutdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/nfaos/hydra_island.json",
-        	"age": {
-        	    "modern": true,
-        	    "wko": true
-        	}
-        }, {
-        	"name": "Nick Fury's Safehouse",
-        	"set": "Nick Fury: Agent of S.H.I.E.L.D.",
-        	"type": "indoorOutdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/nfaos/nick_furys_safehouse.json",
-        	"age": {
-        	    "modern": true,
-        	    "wko": true
-        	}
-        }, {
-        	"name": "Hank Pym's Lab",
-        	"set": "Age of Ultron",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/aou/hank_pyms_lab.json",
-        	"age": {
-        	    "modern": true,
-        	    "wko": true
-        	}
-        }, {
-        	"name": "Thebes, Egypt",
-        	"set": "Age of Ultron",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/aou/thebes_egypt.json",
-        	"age": {
-        	    "modern": true,
-        	    "wko": true
-        	}
-        }, {
-        	"name": "New Timbetpal",
-        	"set": "Age of Ultron",
-        	"type": "indoorOutdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/aou/new_timbetpal.json",
-        	"age": {
-        	    "modern": true,
-        	    "wko": true
-        	}
-        }, {
-        	"name": "New York City",
-        	"set": "Age of Ultron",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/aou/new_york_city.json",
-        	"age": {
-        	    "modern": true,
-        	    "wko": true
-        	}
-        }, {
-        	"name": "Arcade's Arena",
-        	"set": "Avengers Assemble",
-        	"type": "indoorOutdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/avas/arcades_arena.json",
-        	"age": {
-        	    "modern": true,
-        	    "wko": true
-        	}
-        }, {
-        	"name": "Avengers Compound",
-        	"set": "Avengers Assemble",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/avas/avengers_compound.json",
-        	"age": {
-        	    "modern": true,
-        	    "wko": true
-        	}
-        }, {
-        	"name": "Strucker's Fortress",
-        	"set": "Avengers: Age of Ultron",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/aaou/struckers_fortress.json",
-        	"age": {
-        	    "modern": true,
-        	    "wko": true
-        	}
-        }, {
-        	"name": "Avengers Tower",
-        	"set": "Avengers: Age of Ultron",
-        	"type": "indoorOutdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/aaou/avengers_tower.json",
-        	"age": {
-        	    "modern": true,
-        	    "wko": true
-        	}
-        }, {
-        	"name": "House of Mystery",
-        	"set": "Justice League Trinity War",
-        	"type": "indoorOutdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/jltw/house_of_mystery.json",
-        	"age": {
-        	    "modern": true
-        	}
-        }, {
-        	"name": "Atlantis",
-        	"set": "Justice League Trinity War",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/jltw/atlantis.json",
-        	"age": {
-        	    "modern": true
-        	}
-        }, {
-        	"name": "Central City",
-        	"set": "The Flash",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/fl/central_city.json",
-        	"age": {
-        	    "modern": true,
-        	    "wko": true
-        	}
-        }, {
-        	"name": "Keystone City",
-        	"set": "The Flash",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/fl/keystone_city.json",
-        	"age": {
-        	    "modern": true,
-        	    "wko": true
-        	}
-        }, {
-        	"name": "Central City Park",
-        	"set": "The Flash",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/fl/central_city_park.json",
-        	"age": {
-        	    "modern": true,
-        	    "wko": true
-        	}
-        }, {
-        	"name": "The Flash Museum",
-        	"set": "The Flash",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/fl/the_flash_museum.json",
-        	"age": {
-        	    "modern": true,
-        	    "wko": true
-        	}
-        }, {
-        	"name": "Liberty Island",
-        	"set": "Spider-Man and His Amazing Friends",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/wkm/liberty_island.json",
-        	"age": {
-        	    "modern": true
-        	}
-        }, {
-        	"name": "Xavier Mansion Grounds",
-        	"set": "Spider-Man and His Amazing Friends",
-        	"type": "indoorOutdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/wkm/xavier_mansion_grounds.json",
-        	"age": {
-        	    "modern": true
-        	}
-        }, {
-        	"name": "Attilan: Blue Area of the Moon",
-        	"set": "Guardians of the Galaxy",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/gotg/attilan_blue_area_of_the_moon.json"
-        }, {
-        	"name": "Attilan: North Atlantic Ocean",
-        	"set": "Guardians of the Galaxy",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/gotg/attilan_north_atlantic_ocean.json"
-        }, {
-        	"name": "Star-Lord's Ship",
-        	"set": "Guardians of the Galaxy",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/gotg/star_lords_ship.json"
-        }, {
-        	"name": "Titan",
-        	"set": "Guardians of the Galaxy",
-        	"type": "indoorOutdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/gotg/titan.json"
-        }, {
-        	"name": "Nova Corps Headquarters",
-        	"set": "Guardians of the Galaxy Movie",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/gotgm/nova_corps_headquarters.json"
-        }, {
-        	"name": "The Kyln",
-        	"set": "Guardians of the Galaxy Movie",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/gotgm/the_kyln.json"
-        }, {
-        	"name": "Black Mercy Garden",
-        	"set": "War of Light",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/wol/black_mercy_garden.json"
-        }, {
-        	"name": "Coast City",
-        	"set": "War of Light",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/wol/coast_city.json"
-        }, {
-        	"name": "Korugar",
-        	"set": "War of Light",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/wol/korugar.json"
-        }, {
-        	"name": "Nok",
-        	"set": "War of Light",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/wol/nok.json"
-        }, {
-        	"name": "Oa Central Battery Plaza",
-        	"set": "War of Light",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/wol/oa_central_battery_plaza.json"
-        }, {
-        	"name": "Oa: The Big W",
-        	"set": "War of Light",
-        	"type": "indoorOutdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/wol/oa_the_big_w.json"
-        }, {
-        	"name": "Odym",
-        	"set": "War of Light",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/wol/odym.json"
-        }, {
-        	"name": "Okaara Temple",
-        	"set": "War of Light",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/wol/okaara_temple.json"
-        }, {
-        	"name": "Qward Armory and Forge",
-        	"set": "War of Light",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/wol/qward_armory_and_forge.json"
-        }, {
-        	"name": "Ranx",
-        	"set": "War of Light",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/wol/ranx.json"
-        }, {
-        	"name": "Ryut",
-        	"set": "War of Light",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/wol/ryut.json"
-        }, {
-        	"name": "Space",
-        	"set": "War of Light",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/wol/space.json"
-        }, {
-        	"name": "Ysamault",
-        	"set": "War of Light",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/wol/ysamault.json"
-        }, {
-        	"name": "Zamaron",
-        	"set": "War of Light",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/wol/zamaron.json"
-        }, {
-        	"name": "Baxter Building/Sentinel HQ",
-        	"set": "X-Men - Days of Future Past",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/dofp/baxter_building_sentinel_hq.json"
-        }, {
-        	"name": "South Bronx Mutant Internment Center",
-        	"set": "X-Men - Days of Future Past",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/dofp/south_bronx_mutant_internment_center.json"
-        }, {
-        	"name": "Deadpool's House",
-        	"set": "Deadpool",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/dp/deadpools_house.json"
-        }, {
-        	"name": "Hellhouse",
-        	"set": "Deadpool",
-        	"type": "indoorOutdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/dp/hellhouse.json"
-        }, {
-        	"name": "The Mall",
-        	"set": "Deadpool",
-        	"type": "indoorOutdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/dp/the_mall.json"
-        }, {
-        	"name": "Thunderbolts' Submarine",
-        	"set": "Deadpool",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/dp/thunderbolts_submarine.json"
-        }, {
-        	"name": "Helicarrier",
-        	"set": "Captain America: The Winter Soldier",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/catws/helicarrier.json"
-        }, {
-        	"name": "Triskelion Helibay",
-        	"set": "Captain America: The Winter Soldier",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/catws/triskelion_helibay.json"
-        }, {
-        	"name": "Apokolips",
-        	"set": "Superman and the Legion of Super-Heroes",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/slosh/apokolips.json"
-        }, {
-        	"name": "Legion Plaza",
-        	"set": "Superman and the Legion of Super-Heroes",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/slosh/legion_plaza.json"
-        }, {
-        	"name": "Hall of Doom",
-        	"set": "Superman and the Legion of Super-Heroes",
-        	"type": "indoorOutdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/slosh/hall_of_doom.json"
-        }, {
-        	"name": "Hall of Doom: Slaughter Swamp",
-        	"set": "Superman and the Legion of Super-Heroes",
-        	"type": "indoorOutdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/slosh/hall_of_doom_slaughter_swamp.json"
-        }, {
-        	"name": "Avengers Island",
-        	"set": "The Invincible Iron Man",
-        	"type": "indoorOutdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/iim/avengers_island.json"
-        }, {
-        	"name": "Office Building",
-        	"set": "The Invincible Iron Man",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/iim/office_building.json"
-        }, {
-        	"name": "Avengers Tower",
-        	"set": "Avengers vs X-Men",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/avx/avengers_tower.json"
-        }, {
-        	"name": "Flooded Wakanda",
-        	"set": "Avengers vs X-Men",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/avx/flooded_wakanda.json"
-        }, {
-        	"name": "K'un L'un",
-        	"set": "Avengers vs X-Men",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/avx/kun_lun.json"
-        }, {
-        	"name": "Latveria",
-        	"set": "Avengers vs X-Men",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/avx/latveria.json"
-        }, {
-        	"name": "Limbo",
-        	"set": "Avengers vs X-Men",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/avx/limbo.json"
-        }, {
-        	"name": "Savage Land",
-        	"set": "Avengers vs X-Men",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/avx/savage_land.json"
-        }, {
-        	"name": "Surface of the Moon",
-        	"set": "Avengers vs X-Men",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/avx/surface_of_the_moon.json"
-        }, {
-        	"name": "Utopia",
-        	"set": "Avengers vs X-Men",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/avx/utopia.json"
-        }, {
-        	"name": "Utopia: East",
-        	"set": "Avengers vs X-Men",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/avx/utopia_east.json"
-        }, {
-        	"name": "Utopia: West",
-        	"set": "Avengers vs X-Men",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/avx/utopia_west.json"
-        }, {
-        	"name": "Verkhoyansk Mountains",
-        	"set": "Avengers vs X-Men",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/avx/verkhoyansk_mountains.json"
-        }, {
-        	"name": "Wundagore Mountain",
-        	"set": "Avengers vs X-Men",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/avx/wundagore_mountain.json"
-        }, {
-        	"name": "Royal Naval Academy",
-        	"set": "Thor: The Dark World",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/tdw/royal_naval_academy.json"
-        }, {
-        	"name": "Svartalfheim",
-        	"set": "Thor: The Dark World",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/tdw/svartalfheim.json"
-        }, {
-        	"name": "Canadian Wilderness",
-        	"set": "Wolverine and the X-Men",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/watxm/canadian_wilderness.json"
-        }, {
-        	"name": "Danger Room",
-        	"set": "Wolverine and the X-Men",
-        	"type": "",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/watxm/danger_room.json"
-        }, {
-        	"name": "Princess Bar",
-        	"set": "Wolverine and the X-Men",
-        	"type": "indoor",
-        	"width": 8,
-        	"height": 8,
-        	"file": "maps/watxm/princess_bar.json"
-        }, {
-        	"name": "Half Court",
-        	"set": "Wolverine and the X-Men",
-        	"type": "outdoor",
-        	"width": 8,
-        	"height": 8,
-        	"file": "maps/watxm/half_court.json"
-        }, {
-        	"name": "Astral Plane",
-        	"set": "Wolverine and the X-Men",
-        	"type": "outdoor",
-        	"width": 8,
-        	"height": 8,
-        	"file": "maps/watxm/astral_plane.json"
-        }, {
-        	"name": "Xavier Institute: Headmaster's Office",
-        	"set": "Wolverine and the X-Men",
-        	"type": "indoor",
-        	"width": 8,
-        	"height": 8,
-        	"file": "maps/watxm/xavier_institute_headmasters_office.json"
-        }, {
-        	"name": "Rocket Launch Base",
-        	"set": "Wolverine and the X-Men",
-        	"type": "outdoor",
-        	"width": 8,
-        	"height": 8,
-        	"file": "maps/watxm/rocket_launch_base.json"
-        }, {
-        	"name": "Inner Circle",
-        	"set": "Wolverine and the X-Men",
-        	"type": "indoor",
-        	"width": 8,
-        	"height": 8,
-        	"file": "maps/watxm/inner_circle.json"
-        }, {
-        	"name": "Xavier Institute: Classroom",
-        	"set": "Wolverine and the X-Men",
-        	"type": "indoor",
-        	"width": 8,
-        	"height": 8,
-        	"file": "maps/watxm/xavier_institute_classroom.json"
-        }, {
-        	"name": "Nova Roma",
-        	"set": "Wolverine and the X-Men",
-        	"type": "indoor",
-        	"width": 8,
-        	"height": 8,
-        	"file": "maps/watxm/nova_roma_building.json"
-        }, {
-        	"name": "Lighthouse Coastline",
-        	"set": "Wolverine and the X-Men",
-        	"type": "outdoor",
-        	"width": 8,
-        	"height": 8,
-        	"file": "maps/watxm/lighthouse_coastline.json"
-        }, {
-        	"name": "Lighthouse",
-        	"set": "Wolverine and the X-Men",
-        	"type": "indoor",
-        	"width": 8,
-        	"height": 8,
-        	"file": "maps/watxm/lighthouse.json"
-        }, {
-        	"name": "Shi'ar Empire Throne Room",
-        	"set": "Wolverine and the X-Men",
-        	"type": "indoor",
-        	"width": 8,
-        	"height": 8,
-        	"file": "maps/watxm/shiar_empire_throne_room.json"
-        }, {
-        	"name": "Asteroid",
-        	"set": "Wolverine and the X-Men",
-        	"type": "outdoor",
-        	"width": 8,
-        	"height": 8,
-        	"file": "maps/watxm/asteroid.json"
-        }, {
-            "name": "Smallville",
-            "set": "Man of Steel",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/mos/smallville.json"
-        }, {
-        	"name": "Metropolis",
-        	"set": "Man of Steel",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/mos/metropolis.json"
-        }, {
-        	"name": "Port of Miami",
-        	"set": "Iron Man 3",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/im3/port_of_miami.json"
-        }, {
-        	"name": "The Mandarin's Mansion",
-        	"set": "Iron Man 3",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/im3/the_mandarins_mansion.json"
-        }, {
-        	"name": "N.O.W.H.E.R.E.: Arctic Base",
-        	"set": "Teen Titans",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/tt/nowhere_arctic_base.json"
-        }, {
-        	"name": "Teen Titans Tower: Grounds",
-        	"set": "Teen Titans",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/tt/teen_titans_tower_grounds.json"
-        }, {
-        	"name": "N.O.W.H.E.R.E.: The Crucible",
-        	"set": "Teen Titans",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/tt/nowhere_the_crucible.json"
-        }, {
-        	"name": "Teen Titans Tower: Great Hall",
-        	"set": "Teen Titans",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/tt/teen_titans_tower_great_hall.json"
-        }, {
-        	"name": "Teen Titans Tower: Sub-Basement Level",
-        	"set": "Teen Titans",
-        	"type": "indoor",
-        	"width": 8,
-        	"height": 8,
-        	"file": "maps/tt/teen_titans_tower_sub_basement_level.json"
-        }, {
-        	"name": "N.O.W.H.E.R.E.: Harvest's Domain",
-        	"set": "Teen Titans",
-        	"type": "indoor",
-        	"width": 8,
-        	"height": 8,
-        	"file": "maps/tt/nowhere_harvests_domain.json"
-        }, {
-        	"name": "N.O.W.H.E.R.E.: Holding Cells",
-        	"set": "Teen Titans",
-        	"type": "indoor",
-        	"width": 8,
-        	"height": 8,
-        	"file": "maps/tt/nowhere_holding_cells.json"
-        }, {
-        	"name": "Teen Titans Tower: Residential Level",
-        	"set": "Teen Titans",
-        	"type": "indoor",
-        	"width": 8,
-        	"height": 8,
-        	"file": "maps/tt/teen_titans_tower_residential_level.json"
-        }, {
-        	"name": "Teen Titans Tower: Memorial Hall",
-        	"set": "Teen Titans",
-        	"type": "indoor",
-        	"width": 8,
-        	"height": 8,
-        	"file": "maps/tt/teen_titans_tower_memorial_hall.json"
-        }, {
-        	"name": "N.O.W.H.E.R.E.: Project Superboy Laboratory",
-        	"set": "Teen Titans",
-        	"type": "indoor",
-        	"width": 8,
-        	"height": 8,
-        	"file": "maps/tt/nowhere_project_superboy_laboratory.json"
-        }, {
-        	"name": "N.O.W.H.E.R.E. Control Room",
-        	"set": "Teen Titans",
-        	"type": "indoor",
-        	"width": 8,
-        	"height": 8,
-        	"file": "maps/tt/nowhere_control_room.json"
-        }, {
-        	"name": "Teen Titans Tower: Recreation Level",
-        	"set": "Teen Titans",
-        	"type": "indoor",
-        	"width": 8,
-        	"height": 8,
-        	"file": "maps/tt/teen_titans_tower_recreation_level.json"
-        }, {
-        	"name": "N.O.W.H.E.R.E.: Omen's Domain",
-        	"set": "Teen Titans",
-        	"type": "indoor",
-        	"width": 8,
-        	"height": 8,
-        	"file": "maps/tt/nowhere_omens_domain.json"
-        }, {
-        	"name": "Teen Titans Tower: Laboratory Level",
-        	"set": "Teen Titans",
-        	"type": "indoor",
-        	"width": 8,
-        	"height": 8,
-        	"file": "maps/tt/teen_titans_tower_laboratory_level.json"
-        }, {
-        	"name": "Broxton, OK",
-        	"set": "Fear Itself",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/fi/broxton_ok.json"
-        }, {
-        	"name": "China",
-        	"set": "Fear Itself",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/fi/china.json"
-        }, {
-        	"name": "NYC: Yancy Street",
-        	"set": "Fear Itself",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/fi/nyc_yancy_street.json"
-        }, {
-        	"name": "South Africa",
-        	"set": "Fear Itself",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/fi/south_africa.json"
-        }, {
-        	"name": "The Book of the Skull Fortress",
-        	"set": "Fear Itself",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/fi/the_book_of_the_skull_fortress.json"
-        }, {
-        	"name": "The Raft",
-        	"set": "Fear Itself",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/fi/the_raft.json"
-        }, {
-        	"name": "Grey Gargoyle Holding Facility",
-        	"set": "Fear Itself",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/fi/grey_gargoyle_holding_facility.json"
-        }, {
-        	"name": "Svartalfheim",
-        	"set": "Fear Itself",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/fi/svartalfheim.json"
-        }, {
-        	"name": "Blitzkreig DC",
-        	"set": "Fear Itself",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/fi/blitzkreig_dc.json"
-        }, {
-        	"name": "Blitzkreig Manhattan",
-        	"set": "Fear Itself",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/fi/blitzkreig_manhattan.json"
-        }, {
-        	"name": "Antarctica",
-        	"set": "Fear Itself",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/fi/antarctica.json"
-        }, {
-        	"name": "Paris",
-        	"set": "Fear Itself",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/fi/paris.json"
-        }, {
-        	"name": "Fallen Asgard",
-        	"set": "Fear Itself",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/fi/fallen_asgard.json"
-        }, {
-        	"name": "Pacific Ocean",
-        	"set": "Fear Itself",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/fi/pacific_ocean.json"
-        }, {
-        	"name": "Brazil",
-        	"set": "Fear Itself",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/fi/brazil.json"
-        }, {
-        	"name": "Dark Asgard",
-        	"set": "Fear Itself",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/fi/dark_asgard.json"
-        }, {
-        	"name": "Bell Tower",
-        	"set": "The Amazing Spider-Man",
-        	"type": "indoorOutdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/asm/bell_tower.json"
-        }, {
-        	"name": "Dr. Strange Mansion",
-        	"set": "The Amazing Spider-Man",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/asm/dr_strange_mansion.json"
-        }, {
-        	"name": "Streets of Gotham City",
-        	"set": "Batman: Streets of Gotham",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/sog/streets_of_gotham_city.json"
-        }, {
-        	"name": "Killer Croc Sewer Lair",
-        	"set": "Batman: Streets of Gotham",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/sog/killer_croc_sewer_lair.json"
-        }, {
-        	"name": "Gotham City Clocktower",
-        	"set": "Batman: Streets of Gotham",
-        	"type": "indoorOutdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/sog/gotham_city_clocktower.json"
-        }, {
-        	"name": "Crime Alley",
-        	"set": "Batman: Streets of Gotham",
-        	"type": "indoorOutdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/sog/crime_alley.json"
-        }, {
-        	"name": "The Batcave",
-        	"set": "Batman",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/bm/the_batcave.json"
-        }, {
-        	"name": "Lazarus Pit",
-        	"set": "Batman",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/bm/lazarus_pit.json"
-        }, {
-        	"name": "Wayne Manor",
-        	"set": "Batman",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/bm/wayne_manor.json"
-        }, {
-        	"name": "The Temple",
-        	"set": "Batman",
-        	"type": "indoorOutdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/bm/the_temple.json"
-        }, {
-        	"name": "Blackgate Prison",
-        	"set": "Batman: No Man's Land",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/nml/blackgate_prison.json"
-        }, {
-        	"name": "Blackgate Prison: Post-Cataclysm",
-        	"set": "Batman: No Man's Land",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/nml/blackgate_prison_post_cataclysm.json"
-        }, {
-        	"name": "Wayne Manor Grounds",
-        	"set": "Batman: No Man's Land",
-        	"type": "indoorOutdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/nml/wayne_manor_grounds.json"
-        }, {
-        	"name": "Wayne Manor Grounds: Post-Cataclysm",
-        	"set": "Batman: No Man's Land",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/nml/wayne_manor_grounds_post_cataclysm.json"
-        }, {
-        	"name": "Gotham City Power Plant",
-        	"set": "Batman: No Man's Land",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/nml/gotham_city_power_plant.json"
-        }, {
-        	"name": "Gotham City Power Plant: Post-Cataclysm",
-        	"set": "Batman: No Man's Land",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/nml/gotham_city_power_plant_post_cataclysm.json"
-        }, {
-        	"name": "Robinson Park",
-        	"set": "Batman: No Man's Land",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/nml/robinson_park.json"
-        }, {
-        	"name": "Robinson Park: Post-Cataclysm",
-        	"set": "Batman: No Man's Land",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/nml/robinson_park_post_cataclysm.json"
-        }, {
-        	"name": "Gotham City Waterfront",
-        	"set": "Batman: No Man's Land",
-        	"type": "indoorOutdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/nml/gotham_city_waterfront.json"
-        }, {
-        	"name": "Gotham City Waterfront: Post-Cataclysm",
-        	"set": "Batman: No Man's Land",
-        	"type": "indoorOutdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/nml/gotham_city_waterfront_post_cataclysm.json"
-        }, {
-        	"name": "Dockside Amusement Park",
-        	"set": "Batman: No Man's Land",
-        	"type": "indoorOutdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/nml/dockside_amusement_park.json"
-        }, {
-        	"name": "Dockside Amusement Park: Post-Cataclysm",
-        	"set": "Batman: No Man's Land",
-        	"type": "indoorOutdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/nml/dockside_amusement_park_post_cataclysm.json"
-        }, {
-        	"name": "Rooftops of Gotham City",
-        	"set": "Justice League 52",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/jl52/rooftops_of_gotham_city.json"
-        }, {
-        	"name": "Paradise Island",
-        	"set": "Justice League 52",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/jl52/paradise_island.json"
-        }, {
-        	"name": "Quinjet Hangar",
-        	"set": "Chaos War",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/cw/quinjet_hangar.json"
-        }, {
-        	"name": "European Castle",
-        	"set": "Chaos War",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/cw/european_castle.json"
-        }, {
-        	"name": "Negative Zone Prison",
-        	"set": "Chaos War",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/cw/negative_zone_prison.json"
-        }, {
-        	"name": "Avengers Mansion Grounds",
-        	"set": "Chaos War",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/cw/avengers_mansion_grounds.json"
-        }, {
-        	"name": "Arkham Asylum",
-        	"set": "The Dark Knight Rises",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/dkr/arkham_asylum.json"
-        }, {
-        	"name": "Gotham Bank",
-        	"set": "The Dark Knight Rises",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/dkr/gotham_bank.json"
-        }, {
-        	"name": "S.H.I.E.L.D. Helicarrier",
-        	"set": "Avengers Movie",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/avm/shield_helicarrier.json"
-        }, {
-        	"name": "Stark Tower",
-        	"set": "Avengers Movie",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/avm/stark_tower.json"
-        }, {
-        	"name": "Knowhere",
-        	"set": "Galactic Guardians",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/gg/knowhere.json"
-        }, {
-        	"name": "Alien City",
-        	"set": "Galactic Guardians",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/gg/alien_city.json"
-        }, {
-        	"name": "Blue Area of the Moon",
-        	"set": "Galactic Guardians",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/gg/blue_area_of_the_moon.json"
-        }, {
-        	"name": "Realm of Death",
-        	"set": "Galactic Guardians",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/gg/realm_of_death.json"
-        }, {
-        	"name": "Nexus of Reality",
-        	"set": "The Infinity Gauntlet",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/ig/nexus_of_reality.json"
-        }, {
-        	"name": "Soul World",
-        	"set": "The Infinity Gauntlet",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/ig/soul_world.json"
-        }, {
-        	"name": "Tamarata",
-        	"set": "The Infinity Gauntlet",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/ig/tamarata.json"
-        }, {
-        	"name": "The Garden",
-        	"set": "The Infinity Gauntlet",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/ig/the_garden.json"
-        }, {
-        	"name": "Space Racetrack",
-        	"set": "The Infinity Gauntlet",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/ig/space_racetrack.json"
-        }, {
-        	"name": "Collector's Ship",
-        	"set": "The Infinity Gauntlet",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/ig/collectors_ship.json"
-        }, {
-        	"name": "The Mental Plane",
-        	"set": "The Infinity Gauntlet",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/ig/the_mental_plane.json"
-        }, {
-        	"name": "Shrine to Death",
-        	"set": "The Infinity Gauntlet",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/ig/shrine_to_death.json"
-        }, {
-        	"name": "Sakaar",
-        	"set": "The Incredible Hulk",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/ih/sakaar.json"
-        }, {
-        	"name": "Gamma Base",
-        	"set": "The Incredible Hulk",
-        	"type": "indoorOutdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/ih/gamma_base.json"
-        }, {
-        	"name": "Gamma Range",
-        	"set": "The Incredible Hulk",
-        	"type": "indoorOutdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/ih/gamma_range.json"
-        }, {
-        	"name": "Shadowland Fortress",
-        	"set": "The Incredible Hulk",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/ih/shadowland_fortress.json"
-        }, {
-        	"name": "Fortress of Solitude",
-        	"set": "Superman",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/sm/fortress_of_solitude.json"
-        }, {
-        	"name": "Metropolis City Battleground",
-        	"set": "Superman",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/sm/metropolis_city_battleground.json"
-        }, {
-        	"name": "Bizarro World",
-        	"set": "Superman",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/sm/bizarro_world.json"
-        }, {
-        	"name": "The Farm",
-        	"set": "Superman",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/sm/the_farm.json"
-        }, {
-        	"name": "Dr. Manhattan's Lab",
-        	"set": "Watchmen",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/wm/dr_manhattans_lab.json"
-        }, {
-        	"name": "Karnak",
-        	"set": "Watchmen",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/wm/karnak.json"
-        }, {
-        	"name": "Oa",
-        	"set": "Green Lantern",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/gl/oa.json"
-        }, {
-        	"name": "Ferris Aircraft",
-        	"set": "Green Lantern",
-        	"type": "indoorOutdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/gl/ferris_aircraft.json"
-        }, {
-        	"name": "The Crater",
-        	"set": "Brightest Day",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/bd/the_crater.json"
-        }, {
-        	"name": "The Monument",
-        	"set": "Brightest Day",
-        	"type": "outdoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/bd/the_monument.json"
-        }, {
-        	"name": "Green Lantern Sciencells",
-        	"set": "Blackest Night",
-        	"type": "indoor",
-        	"width": 16,
-        	"height": 24,
-        	"file": "maps/bn/green_lantern_sciencells.json"
+    "maps": [{
+        "id": "wkp0",
+        "name": "Gaming Convention Hall",
+        "set": "Premium Maps",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/premium/gaming_convention_hall.json",
+        "age": {
+            "modern": true,
+            "wko": true
         }
-    ]
+    }, {
+        "id": "wkp1",
+        "name": "WizKids Office HQ",
+        "set": "Premium Maps",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/premium/wizkids_office_hq.json",
+        "age": {
+            "modern": true,
+            "wko": true
+        }
+    }, {
+        "id": "wkp2",
+        "name": "Convention Center Plaza",
+        "set": "Premium Maps",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/premium/convention_center_plaza.json",
+        "age": {
+            "modern": true,
+            "wko": true
+        }
+    }, {
+        "id": "wkp3",
+        "name": "Parking Garage",
+        "set": "Premium Maps",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/premium/parking_garage.json",
+        "age": {
+            "modern": true,
+            "wko": true
+        }
+    }, {
+        "id": "wkp4",
+        "name": "Cargo Ship",
+        "set": "Premium Maps",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/premium/cargo_ship.json",
+        "age": {
+            "modern": true,
+            "wko": true
+        }
+    }, {
+        "id": "wkp5",
+        "name": "Warehouse 5651",
+        "set": "Premium Maps",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/premium/warehouse_5651.json",
+        "age": {
+            "modern": true,
+            "wko": true
+        }
+    }, {
+        "id": "jw0",
+        "name": "Ace Chemicals",
+        "set": "Joker's Wild",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/jw/ace_chemicals.json",
+        "age": {
+            "modern": true,
+            "wko": true
+        }
+    }, {
+        "id": "jw1",
+        "name": "Ace Street",
+        "set": "Joker's Wild",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/jw/ace_street.json",
+        "age": {
+            "modern": true,
+            "wko": true
+        }
+    }, {
+        "id": "sfsm0",
+        "name": "Bank Heist",
+        "set": "Superior Foes of Spider-Man",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/sfsm/bank_heist.json",
+        "age": {
+            "modern": true,
+            "wko": true
+        }
+    }, {
+        "id": "sfsm1",
+        "name": "Friendly Neighborhood",
+        "set": "Superior Foes of Spider-Man",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/sfsm/friendly_neighborhood.json",
+        "age": {
+            "modern": true,
+            "wko": true
+        }
+    }, {
+        "id": "cwsop0",
+        "name": "Prison 42",
+        "set": "Civil War: Storyline Organized Play",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/cwsop/prison_42.json",
+        "age": {
+            "modern": true,
+            "wko": true
+        }
+    }, {
+        "id": "cwsop1",
+        "name": "Stamford",
+        "set": "Civil War: Storyline Organized Play",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/cwsop/stamford.json",
+        "age": {
+            "modern": true,
+            "wko": true
+        }
+    }, {
+        "id": "cwsop2",
+        "name": "Final Battle, New York",
+        "set": "Civil War: Storyline Organized Play",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/cwsop/final_battle_new_york.json",
+        "age": {
+            "modern": true,
+            "wko": true
+        }
+    }, {
+        "id": "cwsop3",
+        "name": "Chemical Plant",
+        "set": "Civil War: Storyline Organized Play",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/cwsop/chemical_plant.json",
+        "age": {
+            "modern": true,
+            "wko": true
+        }
+    }, {
+        "id": "uxm0",
+        "name": "Jean Grey School for Higher Learning",
+        "set": "Uncanny X-Men",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/uxm/jean_grey_school_for_higher_learning.json",
+        "age": {
+            "modern": true,
+            "wko": true
+        }
+    }, {
+        "id": "uxm1",
+        "name": "Manhattan Bridge",
+        "set": "Uncanny X-Men",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/uxm/manhattan_bridge.json",
+        "age": {
+            "modern": true,
+            "wko": true
+        }
+    }, {
+        "id": "uxm2",
+        "name": "Morlock Tunnels",
+        "set": "Uncanny X-Men",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/uxm/morlock_tunnels.json",
+        "age": {
+            "modern": true
+        }
+    }, {
+        "id": "uxm3",
+        "name": "Jean Grey School for Higher Learning Grounds",
+        "set": "Uncanny X-Men",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/uxm/jean_grey_school_for_higher_learning_grounds.json",
+        "age": {
+            "modern": true
+        }
+    }, {
+        "id": "tmnt0",
+        "name": "Baxter's Lab",
+        "set": "Teenage Mutant Ninja Turtles",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/tmnt/baxters_lab.json",
+        "age": {
+            "modern": true,
+            "wko": true
+        }
+    }, {
+        "id": "tmnt1",
+        "name": "Turtles Lair",
+        "set": "Teenage Mutant Ninja Turtles",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/tmnt/turtles_lair.json",
+        "age": {
+            "modern": true,
+            "wko": true
+        }
+    }, {
+        "id": "tmnt2",
+        "name": "Sewers",
+        "set": "Teenage Mutant Ninja Turtles",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/tmnt/sewers.json",
+        "age": {
+            "modern": true,
+            "wko": true
+        }
+    }, {
+        "id": "tmnt3",
+        "name": "Technodrome",
+        "set": "Teenage Mutant Ninja Turtles",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/tmnt/technodrome.json",
+        "age": {
+            "modern": true,
+            "wko": true
+        }
+    }, {
+        "id": "cacw0",
+        "name": "Avengers HQ Upstate",
+        "set": "Captain America: Civil War",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/cacw/avengers_hq_upstate_outdoor.json",
+        "age": {
+            "modern": true,
+            "wko": true
+        }
+    }, {
+        "id": "cacw1",
+        "name": "Avengers HQ Upstate",
+        "set": "Captain America: Civil War",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/cacw/avengers_hq_upstate_indoor.json",
+        "age": {
+            "modern": true,
+            "wko": true
+        }
+    }, {
+        "id": "wf0",
+        "name": "Danny the Street",
+        "set": "World's Finest",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/wf/danny_the_street.json",
+        "age": {
+            "modern": true
+        }
+    }, {
+        "id": "wf1",
+        "name": "United Nations Conference",
+        "set": "World's Finest",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/wf/united_nations_conference.json",
+        "age": {
+            "modern": true
+        }
+    }, {
+        "id": "smww0",
+        "name": "Mount Olympus",
+        "set": "Superman/Wonder Woman",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/smww/mount_olympus.json",
+        "age": {
+            "modern": true,
+            "wko": true
+        }
+    }, {
+        "id": "smww1",
+        "name": "The Daily Planet",
+        "set": "Superman/Wonder Woman",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/smww/the_daily_planet.json",
+        "age": {
+            "modern": true,
+            "wko": true
+        }
+    }, {
+        "id": "nfaos0",
+        "name": "Hydra Island",
+        "set": "Nick Fury: Agent of S.H.I.E.L.D.",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/nfaos/hydra_island.json",
+        "age": {
+            "modern": true,
+            "wko": true
+        }
+    }, {
+        "id": "nfaos1",
+        "name": "Nick Fury's Safehouse",
+        "set": "Nick Fury: Agent of S.H.I.E.L.D.",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/nfaos/nick_furys_safehouse.json",
+        "age": {
+            "modern": true,
+            "wko": true
+        }
+    }, {
+        "id": "aou0",
+        "name": "Hank Pym's Lab",
+        "set": "Age of Ultron",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/aou/hank_pyms_lab.json",
+        "age": {
+            "modern": true,
+            "wko": true
+        }
+    }, {
+        "id": "aou1",
+        "name": "Thebes, Egypt",
+        "set": "Age of Ultron",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/aou/thebes_egypt.json",
+        "age": {
+            "modern": true,
+            "wko": true
+        }
+    }, {
+        "id": "aou2",
+        "name": "New Timbetpal",
+        "set": "Age of Ultron",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/aou/new_timbetpal.json",
+        "age": {
+            "modern": true,
+            "wko": true
+        }
+    }, {
+        "id": "aou3",
+        "name": "New York City",
+        "set": "Age of Ultron",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/aou/new_york_city.json",
+        "age": {
+            "modern": true,
+            "wko": true
+        }
+    }, {
+        "id": "avas0",
+        "name": "Arcade's Arena",
+        "set": "Avengers Assemble",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/avas/arcades_arena.json",
+        "age": {
+            "modern": true,
+            "wko": true
+        }
+    }, {
+        "id": "avas1",
+        "name": "Avengers Compound",
+        "set": "Avengers Assemble",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/avas/avengers_compound.json",
+        "age": {
+            "modern": true,
+            "wko": true
+        }
+    }, {
+        "id": "aaou0",
+        "name": "Strucker's Fortress",
+        "set": "Avengers: Age of Ultron",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/aaou/struckers_fortress.json",
+        "age": {
+            "modern": true,
+            "wko": true
+        }
+    }, {
+        "id": "aaou1",
+        "name": "Avengers Tower",
+        "set": "Avengers: Age of Ultron",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/aaou/avengers_tower.json",
+        "age": {
+            "modern": true,
+            "wko": true
+        }
+    }, {
+        "id": "jltw0",
+        "name": "House of Mystery",
+        "set": "Justice League Trinity War",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/jltw/house_of_mystery.json",
+        "age": {
+            "modern": true
+        }
+    }, {
+        "id": "jltw1",
+        "name": "Atlantis",
+        "set": "Justice League Trinity War",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/jltw/atlantis.json",
+        "age": {
+            "modern": true
+        }
+    }, {
+        "id": "fl0",
+        "name": "Central City",
+        "set": "The Flash",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/fl/central_city.json",
+        "age": {
+            "modern": true,
+            "wko": true
+        }
+    }, {
+        "id": "fl1",
+        "name": "Keystone City",
+        "set": "The Flash",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/fl/keystone_city.json",
+        "age": {
+            "modern": true,
+            "wko": true
+        }
+    }, {
+        "id": "fl2",
+        "name": "Central City Park",
+        "set": "The Flash",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/fl/central_city_park.json",
+        "age": {
+            "modern": true,
+            "wko": true
+        }
+    }, {
+        "id": "fl3",
+        "name": "The Flash Museum",
+        "set": "The Flash",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/fl/the_flash_museum.json",
+        "age": {
+            "modern": true,
+            "wko": true
+        }
+    }, {
+        "id": "wkm0",
+        "name": "Liberty Island",
+        "set": "Spider-Man and His Amazing Friends",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/wkm/liberty_island.json",
+        "age": {
+            "modern": true
+        }
+    }, {
+        "id": "wkm1",
+        "name": "Xavier Mansion Grounds",
+        "set": "Spider-Man and His Amazing Friends",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/wkm/xavier_mansion_grounds.json",
+        "age": {
+            "modern": true
+        }
+    }, {
+        "id": "gotg0",
+        "name": "Titan",
+        "set": "Guardians of the Galaxy",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/gotg/titan.json"
+    }, {
+        "id": "gotg1",
+        "name": "Star-Lord's Ship",
+        "set": "Guardians of the Galaxy",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/gotg/star_lords_ship.json"
+    }, {
+        "id": "gotg2",
+        "name": "Attilan: North Atlantic Ocean",
+        "set": "Guardians of the Galaxy",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/gotg/attilan_north_atlantic_ocean.json"
+    }, {
+        "id": "gotg3",
+        "name": "Attilan: Blue Area of the Moon",
+        "set": "Guardians of the Galaxy",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/gotg/attilan_blue_area_of_the_moon.json"
+    }, {
+        "id": "gotgm0",
+        "name": "The Kyln",
+        "set": "Guardians of the Galaxy Movie",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/gotgm/the_kyln.json"
+    }, {
+        "id": "gotgm1",
+        "name": "Nova Corps Headquarters",
+        "set": "Guardians of the Galaxy Movie",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/gotgm/nova_corps_headquarters.json"
+    }, {
+        "id": "wol0",
+        "name": "Oa Central Battery Plaza",
+        "set": "War of Light",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/wol/oa_central_battery_plaza.json"
+    }, {
+        "id": "wol1",
+        "name": "Ranx",
+        "set": "War of Light",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/wol/ranx.json"
+    }, {
+        "id": "wol2",
+        "name": "Okaara Temple",
+        "set": "War of Light",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/wol/okaara_temple.json"
+    }, {
+        "id": "wol3",
+        "name": "Coast City",
+        "set": "War of Light",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/wol/coast_city.json"
+    }, {
+        "id": "wol4",
+        "name": "Oa: The Big W",
+        "set": "War of Light",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/wol/oa_the_big_w.json"
+    }, {
+        "id": "wol5",
+        "name": "Qward Armory and Forge",
+        "set": "War of Light",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/wol/qward_armory_and_forge.json"
+    }, {
+        "id": "wol6",
+        "name": "Odym",
+        "set": "War of Light",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/wol/odym.json"
+    }, {
+        "id": "wol7",
+        "name": "Space",
+        "set": "War of Light",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/wol/space.json"
+    }, {
+        "id": "wol8",
+        "name": "Black Mercy Garden",
+        "set": "War of Light",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/wol/black_mercy_garden.json"
+    }, {
+        "id": "wol9",
+        "name": "Ysamault",
+        "set": "War of Light",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/wol/ysamault.json"
+    }, {
+        "id": "wol10",
+        "name": "Korugar",
+        "set": "War of Light",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/wol/korugar.json"
+    }, {
+        "id": "wol11",
+        "name": "Nok",
+        "set": "War of Light",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/wol/nok.json"
+    }, {
+        "id": "wol12",
+        "name": "Zamaron",
+        "set": "War of Light",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/wol/zamaron.json"
+    }, {
+        "id": "wol13",
+        "name": "Ryut",
+        "set": "War of Light",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/wol/ryut.json"
+    }, {
+        "id": "dofp0",
+        "name": "Baxter Building/Sentinel HQ",
+        "set": "X-Men - Days of Future Past",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/dofp/baxter_building_sentinel_hq.json"
+    }, {
+        "id": "dofp1",
+        "name": "South Bronx Mutant Internment Center",
+        "set": "X-Men - Days of Future Past",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/dofp/south_bronx_mutant_internment_center.json"
+    }, {
+        "id": "dp0",
+        "name": "Hellhouse",
+        "set": "Deadpool",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/dp/hellhouse.json"
+    }, {
+        "id": "dp1",
+        "name": "Deadpool's House",
+        "set": "Deadpool",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/dp/deadpools_house.json"
+    }, {
+        "id": "dp2",
+        "name": "The Mall",
+        "set": "Deadpool",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/dp/the_mall.json"
+    }, {
+        "id": "dp3",
+        "name": "Thunderbolts' Submarine",
+        "set": "Deadpool",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/dp/thunderbolts_submarine.json"
+    }, {
+        "id": "catws0",
+        "name": "Triskelion Helibay",
+        "set": "Captain America: The Winter Soldier",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/catws/triskelion_helibay.json"
+    }, {
+        "id": "catws1",
+        "name": "Helicarrier",
+        "set": "Captain America: The Winter Soldier",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/catws/helicarrier.json"
+    }, {
+        "id": "slosh0",
+        "name": "Legion Plaza",
+        "set": "Superman and the Legion of Super-Heroes",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/slosh/legion_plaza.json"
+    }, {
+        "id": "slosh1",
+        "name": "Apokolips",
+        "set": "Superman and the Legion of Super-Heroes",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/slosh/apokolips.json"
+    }, {
+        "id": "slosh2",
+        "name": "Hall of Doom",
+        "set": "Superman and the Legion of Super-Heroes",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/slosh/hall_of_doom.json"
+    }, {
+        "id": "slosh3",
+        "name": "Hall of Doom: Slaughter Swamp",
+        "set": "Superman and the Legion of Super-Heroes",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/slosh/hall_of_doom_slaughter_swamp.json"
+    }, {
+        "id": "iim0",
+        "name": "Avengers Island",
+        "set": "The Invincible Iron Man",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/iim/avengers_island.json"
+    }, {
+        "id": "iim1",
+        "name": "Office Building",
+        "set": "The Invincible Iron Man",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/iim/office_building.json"
+    }, {
+        "id": "avx0",
+        "name": "Utopia: West",
+        "set": "Avengers vs X-Men",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/avx/utopia_west.json"
+    }, {
+        "id": "avx1",
+        "name": "Avengers Tower",
+        "set": "Avengers vs X-Men",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/avx/avengers_tower.json"
+    }, {
+        "id": "avx2",
+        "name": "Utopia",
+        "set": "Avengers vs X-Men",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/avx/utopia.json"
+    }, {
+        "id": "avx3",
+        "name": "Utopia: East",
+        "set": "Avengers vs X-Men",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/avx/utopia_east.json"
+    }, {
+        "id": "avx4",
+        "name": "Wundagore Mountain",
+        "set": "Avengers vs X-Men",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/avx/wundagore_mountain.json"
+    }, {
+        "id": "avx5",
+        "name": "Savage Land",
+        "set": "Avengers vs X-Men",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/avx/savage_land.json"
+    }, {
+        "id": "avx6",
+        "name": "Latveria",
+        "set": "Avengers vs X-Men",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/avx/latveria.json"
+    }, {
+        "id": "avx7",
+        "name": "Flooded Wakanda",
+        "set": "Avengers vs X-Men",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/avx/flooded_wakanda.json"
+    }, {
+        "id": "avx8",
+        "name": "Limbo",
+        "set": "Avengers vs X-Men",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/avx/limbo.json"
+    }, {
+        "id": "avx9",
+        "name": "Verkhoyansk Mountains",
+        "set": "Avengers vs X-Men",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/avx/verkhoyansk_mountains.json"
+    }, {
+        "id": "avx10",
+        "name": "K'un L'un",
+        "set": "Avengers vs X-Men",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/avx/kun_lun.json"
+    }, {
+        "id": "avx11",
+        "name": "Surface of the Moon",
+        "set": "Avengers vs X-Men",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/avx/surface_of_the_moon.json"
+    }, {
+        "id": "tdw0",
+        "name": "Svartalfheim",
+        "set": "Thor: The Dark World",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/tdw/svartalfheim.json"
+    }, {
+        "id": "tdw1",
+        "name": "Royal Naval Academy",
+        "set": "Thor: The Dark World",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/tdw/royal_naval_academy.json"
+    }, {
+        "id": "watxm0",
+        "name": "Danger Room",
+        "set": "Wolverine and the X-Men",
+        "type": "",
+        "width": 16,
+        "height": 24,
+        "file": "maps/watxm/danger_room.json"
+    }, {
+        "id": "watxm1",
+        "name": "Canadian Wilderness",
+        "set": "Wolverine and the X-Men",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/watxm/canadian_wilderness.json"
+    }, {
+        "id": "watxm2",
+        "name": "Half Court",
+        "set": "Wolverine and the X-Men",
+        "type": "outdoor",
+        "width": 8,
+        "height": 8,
+        "file": "maps/watxm/half_court.json"
+    }, {
+        "id": "watxm3",
+        "name": "Princess Bar",
+        "set": "Wolverine and the X-Men",
+        "type": "indoor",
+        "width": 8,
+        "height": 8,
+        "file": "maps/watxm/princess_bar.json"
+    }, {
+        "id": "watxm4",
+        "name": "Astral Plane",
+        "set": "Wolverine and the X-Men",
+        "type": "outdoor",
+        "width": 8,
+        "height": 8,
+        "file": "maps/watxm/astral_plane.json"
+    }, {
+        "id": "watxm5",
+        "name": "Xavier Institute: Headmaster's Office",
+        "set": "Wolverine and the X-Men",
+        "type": "indoor",
+        "width": 8,
+        "height": 8,
+        "file": "maps/watxm/xavier_institute_headmasters_office.json"
+    }, {
+        "id": "watxm6",
+        "name": "Lighthouse Coastline",
+        "set": "Wolverine and the X-Men",
+        "type": "outdoor",
+        "width": 8,
+        "height": 8,
+        "file": "maps/watxm/lighthouse_coastline.json"
+    }, {
+        "id": "watxm7",
+        "name": "Lighthouse",
+        "set": "Wolverine and the X-Men",
+        "type": "indoor",
+        "width": 8,
+        "height": 8,
+        "file": "maps/watxm/lighthouse.json"
+    }, {
+        "id": "watxm8",
+        "name": "Nova Roma",
+        "set": "Wolverine and the X-Men",
+        "type": "indoor",
+        "width": 8,
+        "height": 8,
+        "file": "maps/watxm/nova_roma_building.json"
+    }, {
+        "id": "watxm9",
+        "name": "Xavier Institute: Classroom",
+        "set": "Wolverine and the X-Men",
+        "type": "indoor",
+        "width": 8,
+        "height": 8,
+        "file": "maps/watxm/xavier_institute_classroom.json"
+    }, {
+        "id": "watxm10",
+        "name": "Asteroid",
+        "set": "Wolverine and the X-Men",
+        "type": "outdoor",
+        "width": 8,
+        "height": 8,
+        "file": "maps/watxm/asteroid.json"
+    }, {
+        "id": "watxm11",
+        "name": "Shi'ar Empire Throne Room",
+        "set": "Wolverine and the X-Men",
+        "type": "indoor",
+        "width": 8,
+        "height": 8,
+        "file": "maps/watxm/shiar_empire_throne_room.json"
+    }, {
+        "id": "watxm10",
+        "name": "Inner Circle",
+        "set": "Wolverine and the X-Men",
+        "type": "indoor",
+        "width": 8,
+        "height": 8,
+        "file": "maps/watxm/inner_circle.json"
+    }, {
+        "id": "watxm11",
+        "name": "Rocket Launch Base",
+        "set": "Wolverine and the X-Men",
+        "type": "outdoor",
+        "width": 8,
+        "height": 8,
+        "file": "maps/watxm/rocket_launch_base.json"
+    }, {
+        "id": "mos0",
+        "name": "Smallville",
+        "set": "Man of Steel",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/mos/smallville.json"
+    }, {
+        "id": "mos1",
+        "name": "Metropolis",
+        "set": "Man of Steel",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/mos/metropolis.json"
+    }, {
+        "id": "im30",
+        "name": "Port of Miami",
+        "set": "Iron Man 3",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/im3/port_of_miami.json"
+    }, {
+        "id": "im31",
+        "name": "The Mandarin's Mansion",
+        "set": "Iron Man 3",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/im3/the_mandarins_mansion.json"
+    }, {
+        "id": "fi0",
+        "name": "Blitzkreig DC",
+        "set": "Fear Itself",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/fi/blitzkreig_dc.json"
+    }, {
+        "id": "fi1",
+        "name": "Blitzkreig Manhattan",
+        "set": "Fear Itself",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/fi/blitzkreig_manhattan.json"
+    }, {
+        "id": "fi2",
+        "name": "The Book of the Skull Fortress",
+        "set": "Fear Itself",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/fi/the_book_of_the_skull_fortress.json"
+    }, {
+        "id": "fi3",
+        "name": "The Raft",
+        "set": "Fear Itself",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/fi/the_raft.json"
+    }, {
+        "id": "fi4",
+        "name": "Antarctica",
+        "set": "Fear Itself",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/fi/antarctica.json"
+    }, {
+        "id": "fi5",
+        "name": "Paris",
+        "set": "Fear Itself",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/fi/paris.json"
+    }, {
+        "id": "fi6",
+        "name": "NYC: Yancy Street",
+        "set": "Fear Itself",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/fi/nyc_yancy_street.json"
+    }, {
+        "id": "fi7",
+        "name": "South Africa",
+        "set": "Fear Itself",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/fi/south_africa.json"
+    }, {
+        "id": "fi8",
+        "name": "Grey Gargoyle Holding Facility",
+        "set": "Fear Itself",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/fi/grey_gargoyle_holding_facility.json"
+    }, {
+        "id": "fi9",
+        "name": "Svartalfheim",
+        "set": "Fear Itself",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/fi/svartalfheim.json"
+    }, {
+        "id": "fi10",
+        "name": "Broxton, OK",
+        "set": "Fear Itself",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/fi/broxton_ok.json"
+    }, {
+        "id": "fi11",
+        "name": "China",
+        "set": "Fear Itself",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/fi/china.json"
+    }, {
+        "id": "fi12",
+        "name": "Fallen Asgard",
+        "set": "Fear Itself",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/fi/fallen_asgard.json"
+    }, {
+        "id": "fi13",
+        "name": "Pacific Ocean",
+        "set": "Fear Itself",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/fi/pacific_ocean.json"
+    }, {
+        "id": "fi14",
+        "name": "Brazil",
+        "set": "Fear Itself",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/fi/brazil.json"
+    }, {
+        "id": "fi15",
+        "name": "Dark Asgard",
+        "set": "Fear Itself",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/fi/dark_asgard.json"
+    }, {
+        "id": "tt0",
+        "name": "N.O.W.H.E.R.E.: The Crucible",
+        "set": "Teen Titans",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/tt/nowhere_the_crucible.json"
+    }, {
+        "id": "tt1",
+        "name": "Teen Titans Tower: Great Hall",
+        "set": "Teen Titans",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/tt/teen_titans_tower_great_hall.json"
+    }, {
+        "id": "tt2",
+        "name": "N.O.W.H.E.R.E.: Arctic Base",
+        "set": "Teen Titans",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/tt/nowhere_arctic_base.json"
+    }, {
+        "id": "tt3",
+        "name": "Teen Titans Tower: Grounds",
+        "set": "Teen Titans",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/tt/teen_titans_tower_grounds.json"
+    }, {
+        "id": "tt4",
+        "name": "N.O.W.H.E.R.E.: Omen's Domain",
+        "set": "Teen Titans",
+        "type": "indoor",
+        "width": 8,
+        "height": 8,
+        "file": "maps/tt/nowhere_omens_domain.json"
+    }, {
+        "id": "tt5",
+        "name": "Teen Titans Tower: Memorial Hall",
+        "set": "Teen Titans",
+        "type": "indoor",
+        "width": 8,
+        "height": 8,
+        "file": "maps/tt/teen_titans_tower_memorial_hall.json"
+    }, {
+        "id": "tt6",
+        "name": "N.O.W.H.E.R.E.: Project Superboy Laboratory",
+        "set": "Teen Titans",
+        "type": "indoor",
+        "width": 8,
+        "height": 8,
+        "file": "maps/tt/nowhere_project_superboy_laboratory.json"
+    }, {
+        "id": "tt7",
+        "name": "Teen Titans Tower: Laboratory Level",
+        "set": "Teen Titans",
+        "type": "indoor",
+        "width": 8,
+        "height": 8,
+        "file": "maps/tt/teen_titans_tower_laboratory_level.json"
+    }, {
+        "id": "tt8",
+        "name": "Teen Titans Tower: Sub-Basement Level",
+        "set": "Teen Titans",
+        "type": "indoor",
+        "width": 8,
+        "height": 8,
+        "file": "maps/tt/teen_titans_tower_sub_basement_level.json"
+    }, {
+        "id": "tt9",
+        "name": "N.O.W.H.E.R.E.: Harvest's Domain",
+        "set": "Teen Titans",
+        "type": "indoor",
+        "width": 8,
+        "height": 8,
+        "file": "maps/tt/nowhere_harvests_domain.json"
+    }, {
+        "id": "tt10",
+        "name": "N.O.W.H.E.R.E.: Holding Cells",
+        "set": "Teen Titans",
+        "type": "indoor",
+        "width": 8,
+        "height": 8,
+        "file": "maps/tt/nowhere_holding_cells.json"
+    }, {
+        "id": "tt11",
+        "name": "Teen Titans Tower: Residential Level",
+        "set": "Teen Titans",
+        "type": "indoor",
+        "width": 8,
+        "height": 8,
+        "file": "maps/tt/teen_titans_tower_residential_level.json"
+    }, {
+        "id": "tt12",
+        "name": "N.O.W.H.E.R.E. Control Room",
+        "set": "Teen Titans",
+        "type": "indoor",
+        "width": 8,
+        "height": 8,
+        "file": "maps/tt/nowhere_control_room.json"
+    }, {
+        "id": "tt13",
+        "name": "Teen Titans Tower: Recreation Level",
+        "set": "Teen Titans",
+        "type": "indoor",
+        "width": 8,
+        "height": 8,
+        "file": "maps/tt/teen_titans_tower_recreation_level.json"
+    }, {
+        "id": "asm0",
+        "name": "Bell Tower",
+        "set": "The Amazing Spider-Man",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/asm/bell_tower.json"
+    }, {
+        "id": "asm1",
+        "name": "Dr. Strange Mansion",
+        "set": "The Amazing Spider-Man",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/asm/dr_strange_mansion.json"
+    }, {
+        "id": "sog0",
+        "name": "Streets of Gotham City",
+        "set": "Batman: Streets of Gotham",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/sog/streets_of_gotham_city.json"
+    }, {
+        "id": "sog1",
+        "name": "Killer Croc Sewer Lair",
+        "set": "Batman: Streets of Gotham",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/sog/killer_croc_sewer_lair.json"
+    }, {
+        "id": "sog2",
+        "name": "Crime Alley",
+        "set": "Batman: Streets of Gotham",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/sog/crime_alley.json"
+    }, {
+        "id": "sog3",
+        "name": "Gotham City Clocktower",
+        "set": "Batman: Streets of Gotham",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/sog/gotham_city_clocktower.json"
+    }, {
+        "id": "bm0",
+        "name": "The Batcave",
+        "set": "Batman",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/bm/the_batcave.json"
+    }, {
+        "id": "bm1",
+        "name": "Lazarus Pit",
+        "set": "Batman",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/bm/lazarus_pit.json"
+    }, {
+        "id": "bm2",
+        "name": "Wayne Manor",
+        "set": "Batman",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/bm/wayne_manor.json"
+    }, {
+        "id": "bm3",
+        "name": "The Temple",
+        "set": "Batman",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/bm/the_temple.json"
+    }, {
+        "id": "nml0",
+        "name": "Blackgate Prison",
+        "set": "Batman: No Man's Land",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/nml/blackgate_prison.json"
+    }, {
+        "id": "nml1",
+        "name": "Blackgate Prison: Post-Cataclysm",
+        "set": "Batman: No Man's Land",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/nml/blackgate_prison_post_cataclysm.json"
+    }, {
+        "id": "nml2",
+        "name": "Wayne Manor Grounds",
+        "set": "Batman: No Man's Land",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/nml/wayne_manor_grounds.json"
+    }, {
+        "id": "nml3",
+        "name": "Wayne Manor Grounds: Post-Cataclysm",
+        "set": "Batman: No Man's Land",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/nml/wayne_manor_grounds_post_cataclysm.json"
+    }, {
+        "id": "nml4",
+        "name": "Gotham City Power Plant",
+        "set": "Batman: No Man's Land",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/nml/gotham_city_power_plant.json"
+    }, {
+        "id": "nml5",
+        "name": "Gotham City Power Plant: Post-Cataclysm",
+        "set": "Batman: No Man's Land",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/nml/gotham_city_power_plant_post_cataclysm.json"
+    }, {
+        "id": "nml6",
+        "name": "Robinson Park",
+        "set": "Batman: No Man's Land",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/nml/robinson_park.json"
+    }, {
+        "id": "nml7",
+        "name": "Robinson Park: Post-Cataclysm",
+        "set": "Batman: No Man's Land",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/nml/robinson_park_post_cataclysm.json"
+    }, {
+        "id": "nml8",
+        "name": "Gotham City Waterfront",
+        "set": "Batman: No Man's Land",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/nml/gotham_city_waterfront.json"
+    }, {
+        "id": "nml9",
+        "name": "Gotham City Waterfront: Post-Cataclysm",
+        "set": "Batman: No Man's Land",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/nml/gotham_city_waterfront_post_cataclysm.json"
+    }, {
+        "id": "nml10",
+        "name": "Dockside Amusement Park",
+        "set": "Batman: No Man's Land",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/nml/dockside_amusement_park.json"
+    }, {
+        "id": "nml11",
+        "name": "Dockside Amusement Park: Post-Cataclysm",
+        "set": "Batman: No Man's Land",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/nml/dockside_amusement_park_post_cataclysm.json"
+    }, {
+        "id": "jl520",
+        "name": "Rooftops of Gotham City",
+        "set": "Justice League 52",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/jl52/rooftops_of_gotham_city.json"
+    }, {
+        "id": "jl521",
+        "name": "Paradise Island",
+        "set": "Justice League 52",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/jl52/paradise_island.json"
+    }, {
+        "id": "cw0",
+        "name": "Negative Zone Prison",
+        "set": "Chaos War",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/cw/negative_zone_prison.json"
+    }, {
+        "id": "cw1",
+        "name": "Avengers Mansion Grounds",
+        "set": "Chaos War",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/cw/avengers_mansion_grounds.json"
+    }, {
+        "id": "cw2",
+        "name": "Quinjet Hangar",
+        "set": "Chaos War",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/cw/quinjet_hangar.json"
+    }, {
+        "id": "cw3",
+        "name": "European Castle",
+        "set": "Chaos War",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/cw/european_castle.json"
+    }, {
+        "id": "dkr0",
+        "name": "Arkham Asylum",
+        "set": "The Dark Knight Rises",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/dkr/arkham_asylum.json"
+    }, {
+        "id": "dkr1",
+        "name": "Gotham Bank",
+        "set": "The Dark Knight Rises",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/dkr/gotham_bank.json"
+    }, {
+        "id": "avm0",
+        "name": "S.H.I.E.L.D. Helicarrier",
+        "set": "Avengers Movie",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/avm/shield_helicarrier.json"
+    }, {
+        "id": "avm1",
+        "name": "Stark Tower",
+        "set": "Avengers Movie",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/avm/stark_tower.json"
+    }, {
+        "id": "gg0",
+        "name": "Blue Area of the Moon",
+        "set": "Galactic Guardians",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/gg/blue_area_of_the_moon.json"
+    }, {
+        "id": "gg1",
+        "name": "Realm of Death",
+        "set": "Galactic Guardians",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/gg/realm_of_death.json"
+    }, {
+        "id": "gg2",
+        "name": "Alien City",
+        "set": "Galactic Guardians",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/gg/alien_city.json"
+    }, {
+        "id": "gg3",
+        "name": "Knowhere",
+        "set": "Galactic Guardians",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/gg/knowhere.json"
+    }, {
+        "id": "ig0",
+        "name": "Nexus of Reality",
+        "set": "The Infinity Gauntlet",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/ig/nexus_of_reality.json"
+    }, {
+        "id": "ig1",
+        "name": "Soul World",
+        "set": "The Infinity Gauntlet",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/ig/soul_world.json"
+    }, {
+        "id": "ig2",
+        "name": "Tamarata",
+        "set": "The Infinity Gauntlet",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/ig/tamarata.json"
+    }, {
+        "id": "ig3",
+        "name": "The Garden",
+        "set": "The Infinity Gauntlet",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/ig/the_garden.json"
+    }, {
+        "id": "ig4",
+        "name": "Space Racetrack",
+        "set": "The Infinity Gauntlet",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/ig/space_racetrack.json"
+    }, {
+        "id": "ig5",
+        "name": "Collector's Ship",
+        "set": "The Infinity Gauntlet",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/ig/collectors_ship.json"
+    }, {
+        "id": "ig6",
+        "name": "The Mental Plane",
+        "set": "The Infinity Gauntlet",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/ig/the_mental_plane.json"
+    }, {
+        "id": "ig7",
+        "name": "Shrine to Death",
+        "set": "The Infinity Gauntlet",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/ig/shrine_to_death.json"
+    }, {
+        "id": "ih0",
+        "name": "Gamma Range",
+        "set": "The Incredible Hulk",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/ih/gamma_range.json"
+    }, {
+        "id": "ih1",
+        "name": "Shadowland Fortress",
+        "set": "The Incredible Hulk",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/ih/shadowland_fortress.json"
+    }, {
+        "id": "ih2",
+        "name": "Sakaar",
+        "set": "The Incredible Hulk",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/ih/sakaar.json"
+    }, {
+        "id": "ih3",
+        "name": "Gamma Base",
+        "set": "The Incredible Hulk",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/ih/gamma_base.json"
+    }, {
+        "id": "sm0",
+        "name": "Fortress of Solitude",
+        "set": "Superman",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/sm/fortress_of_solitude.json"
+    }, {
+        "id": "sm1",
+        "name": "Metropolis City Battleground",
+        "set": "Superman",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/sm/metropolis_city_battleground.json"
+    }, {
+        "id": "sm2",
+        "name": "Bizarro World",
+        "set": "Superman",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/sm/bizarro_world.json"
+    }, {
+        "id": "sm3",
+        "name": "The Farm",
+        "set": "Superman",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/sm/the_farm.json"
+    }, {
+        "id": "wm0",
+        "name": "Karnak",
+        "set": "Watchmen",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/wm/karnak.json"
+    }, {
+        "id": "wm1",
+        "name": "Dr. Manhattan's Lab",
+        "set": "Watchmen",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/wm/dr_manhattans_lab.json"
+    }, {
+        "id": "gl0",
+        "name": "Oa",
+        "set": "Green Lantern",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/gl/oa.json"
+    }, {
+        "id": "gl1",
+        "name": "Ferris Aircraft",
+        "set": "Green Lantern",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/gl/ferris_aircraft.json"
+    }, {
+        "id": "bd0",
+        "name": "The Crater",
+        "set": "Brightest Day",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/bd/the_crater.json"
+    }, {
+        "id": "bd1",
+        "name": "The Monument",
+        "set": "Brightest Day",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/bd/the_monument.json"
+    }, {
+        "id": "bn0",
+        "name": "Green Lantern Sciencells",
+        "set": "Blackest Night",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/bn/green_lantern_sciencells.json"
+    }]
 }

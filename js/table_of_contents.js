@@ -12,14 +12,14 @@ TableOfContents.prototype.load = function(callback) {
     });
 }
 
-TableOfContents.prototype.applyFilters = function(mapFile) {
+TableOfContents.prototype.applyFilters = function(mapId) {
     var filterByAge = document.getElementById("selectAge").value;
     var filterByType = document.getElementById("selectType").value;
     var filter16x24 = (document.getElementById("selectSize").value == "16x24");
     this.tocFiltered_ = [];
     for (var i = 0; i < this.toc_.length; ++i) {
         var map = this.toc_[i];
-        if (mapFile && mapFile != map.file) {
+        if (mapId && mapId != map.id) {
             continue;
         }
         if (filterByAge != "all" && !(map.age && map.age[filterByAge])) {
