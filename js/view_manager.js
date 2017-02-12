@@ -225,12 +225,22 @@ ViewManager.prototype.getParameterByName_ = function(name, url) {
 }
 
 ViewManager.prototype.generateLink = function() {
-    var url = window.location.href;
-    var pageName = "index.html"
-    var baseUrl = url.substring(0, url.indexOf(pageName) + pageName.length);
+    var pageNames = [
+        "/hcmaps/index.html",
+        "/hcmaps/"
+    ];
     var serialized = this.serialize();
-    var link = baseUrl + "?s=" + serialized;
-    document.getElementById("link").value = link;
+    var url = window.location.href;
+    for (var i = 0; i < pageNames.length; ++i) {
+        var pageName = pageNames[i];
+        var index = url.indexOf(pageName);
+        if (index >= 0) {
+            var baseUrl = url.substring(0, index + pageName.length);
+            var link = baseUrl + "?s=" + serialized;
+            document.getElementById("link").value = link;
+            return;
+        }
+    }
 }
 
 ViewManager.prototype.applyFilters = function() {
