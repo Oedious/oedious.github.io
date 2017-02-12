@@ -2,453 +2,272 @@
 <html lang="en-us">
 
 <head>
-<meta charset="utf-8">
-<title>Heroclix Map Viewer</title>
-<style type="text/css">
-
-#sideNav {
-  height: 100%;
-  width: 250px;
-  position: fixed; 
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #F1F1F1;
-  overflow-x: hidden;
-  padding-top: 50px;
-  transition: 0.5s;
-}
-
-#sideNav #toggle {
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  padding: 10px 5px;
-}
-
-#sideNav #toggle:hover {
-  background-color: #ddd;
-}
-
-.bar {
-  width: 30px;
-  height: 5px;
-  background-color: black;
-  margin: 4px 0;
-}
-
-ul.tabs {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-}
-
-ul.tabs li {
-  float: left;
-}
-
-.tab {
-  display: inline-block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  transition: 0.3s;
-  font-size: 17px;
-  background-color: #eee;
-}
-
-.tab:hover {
-  background-color: #ddd;
-}
-
-/* Create an active/current tablink class */
-.tab:focus, .active {
-  background-color: #ccc;
-}
-
-/* Style the tab content */
-.panel {
-  display: none;
-  padding: 6px 12px;
-  position: relative;
-  height: 100%;
-  overflow-y:hidden;
-  background-color:#ccc;
-}
-
-#filters {
-  position:absolute;
-  top: 0px;
-  left: 0px;
-  width: 242px;
-  margin: 10px 10px;
-}
-
-#tableOfContents {
-  position:absolute;
-  top: 70px;
-  width: 230px;
-  height: calc(100% - 150px);
-  overflow-y: scroll;
-  border: 1px solid #bbb;
-  margin: 5px 0px;
-  background-color: #ccc;
-}
-
-#tableOfContents a {
-  background-color: #ccc;
-  color: black;
-  display: block;
-  padding:4px 10px;
-  text-decoration: none;
-}
-
-#tableOfContents a:hover {
-  background-color: #bbb;
-}
-
-#tableOfContents a:focus, .active {
-  background-color: #aaa;
-  color: #fffffff;
-}
-
-#mapTitle {
-	font-family: Arial, Helvetica, sans-serif;
-	font-weight: bold;
-	text-align: left;
-}
-
-.mapInfo {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: small;
-	font-weight: bold;
-	text-align: left;
-}
-
-.top {
-  position:fixed;
-  top:0;
-  left:0;
-  right:0;
-  background-color: #F0F0F0;
-}
-
-#mapHeader {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: xx-large;
-	font-weight: bold;
-	text-align: center;
-}
-
-.main {
-  position: absolute;
-  top:70px;
-  right:0;
-  bottom:0;
-}
-
-</style>
+  <meta charset="utf-8">
+  <title>Heroclix Map Viewer</title>
+  <style type="text/css">
+    #sideNav {
+      height: 100%;
+      width: 250px;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #F1F1F1;
+      overflow-x: hidden;
+      padding-top: 50px;
+      transition: 0.5s;
+    }
+    
+    #sideNav #toggle {
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      padding: 10px 5px;
+    }
+    
+    #sideNav #toggle:hover {
+      background-color: #ddd;
+    }
+    
+    .bar {
+      width: 30px;
+      height: 5px;
+      background-color: black;
+      margin: 4px 0;
+    }
+    
+    ul.tabs {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      border: 1px solid #ccc;
+      background-color: #f1f1f1;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      right: 0px;
+    }
+    
+    ul.tabs li {
+      float: left;
+    }
+    
+    .tab {
+      display: inline-block;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      transition: 0.3s;
+      font-size: 17px;
+      background-color: #eee;
+    }
+    
+    .tab:hover {
+      background-color: #ddd;
+    }
+    /* Create an active/current tablink class */
+    
+    .tab:focus,
+    .active {
+      background-color: #ccc;
+    }
+    /* Style the tab content */
+    
+    .panel {
+      display: none;
+      padding: 6px 12px;
+      position: relative;
+      height: 100%;
+      overflow-y: hidden;
+      background-color: #ccc;
+    }
+    
+    #filters {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 242px;
+      margin: 10px 10px;
+    }
+    
+    #tableOfContents {
+      position: absolute;
+      top: 70px;
+      width: 230px;
+      height: calc(100% - 150px);
+      overflow-y: scroll;
+      border: 1px solid #bbb;
+      margin: 5px 0px;
+      background-color: #ccc;
+    }
+    
+    #tableOfContents a {
+      background-color: #ccc;
+      color: black;
+      display: block;
+      padding: 4px 10px;
+      text-decoration: none;
+    }
+    
+    #tableOfContents a:hover {
+      background-color: #bbb;
+    }
+    
+    #tableOfContents a:focus,
+    .active {
+      background-color: #aaa;
+      color: #fffffff;
+    }
+    
+    #mapTitle {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      text-align: left;
+    }
+    
+    .mapInfo {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: small;
+      font-weight: bold;
+      text-align: left;
+    }
+    
+    .top {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background-color: #F0F0F0;
+    }
+    
+    #mapHeader {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: xx-large;
+      font-weight: bold;
+      text-align: center;
+    }
+    
+    .main {
+      position: absolute;
+      top: 70px;
+      right: 0;
+      bottom: 0;
+    }
+  </style>
 </head>
 
 <body>
-<div class="main">
-  <canvas id="mapCanvas"></canvas>
-</div>
-<div class="top">
-  <div id="mapHeader"></div>
-  <div style="text-align: center;">
-    <button onclick="previousMap()">Previous</button>
-    <select id="selectZoom" onchange="drawMap()">
+  <div class="main">
+    <canvas id="mapCanvas"></canvas>
+  </div>
+  <div class="top">
+    <div id="mapHeader"></div>
+    <div style="text-align: center;">
+      <button onclick="mgr.previousMap()">Previous</button>
+      <select id="selectZoom" onchange="mgr.draw()">
       <option value="0">Fit</option>
       <option value="0.5">50%</option>
       <option value="0.75">75%</option>
       <option value="1.0">100%</option>
       </select>
-    <button onclick="nextMap()">Next</button>
-  </div>
-</div>
-
-<div id="sideNav">
-  <ul class="tabs">
-    <li><a href="javascript:void(0)" class="tab" id="mapsTab" onclick="openPanel(event, 'mapsTab', 'mapsPanel')">Maps</a></li>
-    <li><a href="javascript:void(0)" class="tab" id="infoTab" onclick="openPanel(event, 'infoTab', 'infoPanel')">Info</a></li>
-    <li>
-      <div id="toggle" onclick="toggleNav()">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-      </div>
-    </li>
-  </ul>
-  <div id="infoPanel" class="panel">
-    <div id="mapTitle">
-      <span id="mapName"></span>
-      <div id="mapSet" class="mapInfo"></div>
-      <div id="mapType" class="mapInfo"></div>
-      <div id="mapSize" class="mapInfo"></div>
-      <br>
-      <div id="mapSpecial" class="mapInfo"></div>
-      <br>
-      <div id="mapSpecial2" class="mapInfo"></div>
+      <button onclick="mgr.nextMap()">Next</button>
     </div>
   </div>
-  <div id="mapsPanel" class="panel" style="display: block;">
-    <div id="tableOfContents"></div>
-    <div id="filters">
-      <div>Age:
-        <select id="selectAge" onchange="drawTableOfContents()">
+
+  <div id="sideNav">
+    <ul class="tabs">
+      <li><a href="javascript:void(0)" class="tab" id="mapsTab" onclick="mgr.openPanel(event, 'mapsTab', 'mapsPanel')">Maps</a></li>
+      <li><a href="javascript:void(0)" class="tab" id="infoTab" onclick="mgr.openPanel(event, 'infoTab', 'infoPanel')">Info</a></li>
+      <li>
+        <div id="toggle" onclick="mgr.toggleNav()">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      </li>
+    </ul>
+    <div id="infoPanel" class="panel">
+      <div id="mapTitle">
+        <span id="mapName"></span>
+        <div id="mapSet" class="mapInfo"></div>
+        <div id="mapType" class="mapInfo"></div>
+        <div id="mapSize" class="mapInfo"></div>
+        <br>
+        <div id="mapSpecial" class="mapInfo"></div>
+        <br>
+        <div id="mapSpecial2" class="mapInfo"></div>
+        <br>
+        <button onclick="mgr.generateLink();">Generate Link</button>
+        <br>
+        <input id="link"></input>
+      </div>
+    </div>
+    <div id="mapsPanel" class="panel" style="display: block;">
+      <div id="tableOfContents"></div>
+      <div id="filters">
+        <div>Age:
+          <select id="selectAge" onchange="mgr.applyFilters()">
           <option value="modern">Modern</option>
           <option value="wko">WizKids Events</option>
           <option value="all">Golden</option>
         </select>
-      </div>
-      <div>Type:
-        <select id="selectType" onchange="drawTableOfContents()">
+        </div>
+        <div>Type:
+          <select id="selectType" onchange="mgr.applyFilters()">
           <option value="all">All</option>
           <option value="indoor">Indoor</option>
           <option value="outdoor">Outdoor</option>
           <option value="indoorOutdoor">Indoor/Outdoor</option>
         </select>
-      </div>
-      <div>Size:
-        <select id="selectSize" onchange="drawTableOfContents()">
+        </div>
+        <div>Size:
+          <select id="selectSize" onchange="mgr.applyFilters()">
           <option value="16x24">16x24</option>
           <option value="all">All</option>
         </select>
+        </div>
       </div>
     </div>
+    <div id="filtersPanel" class="panel">
+    </div>
   </div>
-  <div id="filtersPanel" class="panel">
-  </div>
-</div>
 
-<script type="text/javascript" src="js/edge.js"></script>
-<script type="text/javascript" src="js/tile.js"></script>
-<script type="text/javascript" src="js/wall.js"></script>
-<script type="text/javascript" src="js/character.js"></script>
-<script type="text/javascript" src="js/map.js"></script>
-<script>
+  <script type="text/javascript" src="js/json_loader.js"></script>
+  <script type="text/javascript" src="js/edge.js"></script>
+  <script type="text/javascript" src="js/tile.js"></script>
+  <script type="text/javascript" src="js/wall.js"></script>
+  <script type="text/javascript" src="js/character.js"></script>
+  <script type="text/javascript" src="js/map.js"></script>
+  <script type="text/javascript" src="js/player.js"></script>
+  <script type="text/javascript" src="js/table_of_contents.js"></script>
+  <script type="text/javascript" src="js/view_manager.js"></script>
+  <script>
+    var mgr = new ViewManager();
+    document.onkeydown = onKeyDown;
+    document.getElementById("mapCanvas").addEventListener("mousedown", onMouseDown, false);
 
-function toggleNav() {
-  var nav = document.getElementById("sideNav");
-  if (nav.style.left != "0px") {
-    nav.style.left = "0px";
-  } else {
-    nav.style.left = "-210px";
-  }
-}
-
-function openPanel(event, tabName, panelName) {
-    var panels = document.getElementsByClassName("panel");
-    for (var i = 0; i < panels.length; ++i) {
-      panels[i].style.display = "none";
+    function onKeyDown(event) {
+      var KEY_LEFT = '37';
+      var KEY_UP = '38';
+      var KEY_RIGHT = '39';
+      var KEY_DOWN = '40';
+      event = event || window.event;
+      if (event.keyCode == KEY_LEFT || event.keyCode == KEY_UP) {
+        mgr.previousMap();
+        event.preventDefault();
+      } else if (event.keyCode == KEY_RIGHT || event.keyCode == KEY_DOWN) {
+        mgr.nextMap();
+        event.preventDefault();
+      }
     }
-    document.getElementById(panelName).style.display = "block";
-    
-    var tabs = document.getElementsByClassName("tab");
-    for (var i = 0; i < tabs.length; ++i) {
-      tabs[i].style.backgroundColor = "";
+
+    function onMouseDown(event) {
+      mgr.onMouseDown(event);
     }
-    document.getElementById(tabName).style.backgroundColor = "#ccc";
-}
-
-function getJson(location, callback) {
-	var request = new XMLHttpRequest();
-	request.overrideMimeType("application/json");
-    request.open('GET', location, true);
-    request.onreadystatechange = function () {
-    	if (request.readyState == 4 && request.status == "200") {
-    		callback(request.responseText);
-    	}
-    };
-    request.send(null);  
-}
-
-var map;
-var mapIndex;
-var mapTableOfContents;
-var scale;
-var translationX;
-
-function loadMap() {
-  getJson(mapTableOfContents[mapIndex].file, function(json) {
-		var jsonMap;
-		try {
-			jsonMap = JSON.parse(json);
-		} catch (e) {
-			alert(e);
-		}
-    map = new Map(jsonMap);
-    drawMap();
-  });
-}
-
-function drawMap() {
-  var c = document.getElementById("mapCanvas");
-  var left = document.getElementById("left");
-  var ctx = c.getContext("2d");
-  ctx.save()
-  var windowWidth = window.innerWidth;
-  var windowHeight = window.innerHeight - 70;
-  var mapScale = document.getElementById("selectZoom").value;
-  if (mapScale <= 0) {
-    c.width = windowWidth;
-    c.height = windowHeight;
-    var sx = c.width / (map.width * TILE_SIZE);
-    var sy = c.height / (map.height * TILE_SIZE);
-    scale = sx < sy ? sx : sy;
-    translationX = (c.width / scale - map.width * TILE_SIZE) / 2;
-    ctx.scale(scale, scale);
-    ctx.translate(translationX, 0);
-  } else if (mapScale >= 1) {
-    c.width = map.width * TILE_SIZE;
-    c.height = map.height * TILE_SIZE;
-    scale = 1;
-    translationX = 0;
-  } else {
-    c.width = Math.max(windowWidth, map.width * TILE_SIZE * mapScale);
-    c.height = map.height * TILE_SIZE * mapScale;
-    scale = mapScale;
-    translationX = (c.width / scale - map.width * TILE_SIZE) / 2;
-    ctx.scale(scale, scale);
-    ctx.translate(translationX, 0);
-  }
-  map.draw(ctx);
-  ctx.restore();
-  document.getElementById("mapHeader").innerHTML = map.name;
-  document.getElementById("mapName").innerHTML = map.name;
-  document.getElementById("mapSet").innerHTML = map.set;
-  document.getElementById("mapSize").innerHTML = "" + map.width + " x " + map.height;
-  document.getElementById("mapSpecial").innerHTML = map.special.replace(/:/gi, ":<br>");
-  document.getElementById("mapSpecial2").innerHTML = map.special2.replace(/:/gi, ":<br>");
-  var mapType;
-  if (map.type == "indoor") {
-    mapType = "Indoor";
-  } else if (map.type == "outdoor") {
-    mapType = "Outdoor";
-  } else if (map.type == "indoorOutdoor") {
-    mapType = "Indoor/Outdoor";
-  }
-  document.getElementById("mapType").innerHTML = mapType;
-}
-
-var jsontableOfContents;
-function loadTableOfContents() {
-  getJson("maps/table_of_contents.json", function(data) {
-		try {
-			jsontableOfContents = JSON.parse(data);
-		} catch (e) {
-			alert(e);
-		}
-		drawTableOfContents();
-  });
-}
-
-function drawTableOfContents() {
-	var filterByAge = document.getElementById("selectAge").value;
-	var filterByType = document.getElementById("selectType").value;
-	var filter16x24 = (document.getElementById("selectSize").value == "16x24");
-	var html = "";
-	var currentSet = "";
-	mapTableOfContents = [];
-	for (var i = 0; i < jsontableOfContents.maps.length; ++i) {
-	  var map = jsontableOfContents.maps[i];
-	  if (filterByAge != "all" && !(map.age && map.age[filterByAge])) {
-	    continue;
-	  }
-	  if (filterByType != "all" && filterByType != map.type) {
-	    continue
-	  }
-	  if (filter16x24 && !(map.width == 16 && map.height == 24)) {
-	    continue;
-	  }
-	  if (currentSet != map.set) {
-	    if (currentSet != "") {
-	      html += "<br>"
-	    }
-	    html += "<div style=\"font-weight:bold;\">" + map.set + "</div>";
-	    currentSet = map.set;
-	  }
-	  html += "<a href='' id='toc" + mapTableOfContents.length
-	      + "' onclick='mapIndex=" + mapTableOfContents.length
-	      + "; loadMap(); return false;'>"
-	      + map.name + "</a>";
-	  mapTableOfContents.push(map);
-	}
-  var tableOfContents = document.getElementById("tableOfContents");
-  tableOfContents.innerHTML = html;
-  mapIndex = 0;
-  document.getElementById("toc0").focus();
-  loadMap();
-}
-
-loadTableOfContents();
-
-document.onkeydown = handleKeyDown;
-
-function handleKeyDown(event) {
-	var KEY_LEFT = '37';
-	var KEY_UP = '38';
-	var KEY_RIGHT = '39';
-	var KEY_DOWN = '40';
-  event = event || window.event;
-  if (event.keyCode == KEY_LEFT || event.keyCode == KEY_UP) {
-    previousMap();
-  } else if (event.keyCode == KEY_RIGHT || event.keyCode == KEY_DOWN) {
-    nextMap();
-  }
-  event.preventDefault();
-}
-
-function previousMap() {
-  --mapIndex;
-  if (mapIndex < 0) {
-    mapIndex = mapTableOfContents.length - 1;
-  }
-  document.getElementById("toc" + mapIndex).focus();
-	loadMap();
-}
-
-function nextMap() {
-  ++mapIndex;
-  if (mapIndex >= mapTableOfContents.length) {
-    mapIndex = 0;
-  }
-  document.getElementById("toc" + mapIndex).focus();
-	loadMap();
-}
-
-var canvas = document.getElementById("mapCanvas");
-canvas.addEventListener("mousedown", onMouseDown, false);
-
-function onMouseDown(event) {
-  var canvas = document.getElementById("mapCanvas");
-  var rect = canvas.getBoundingClientRect();
-  var x = event.clientX - rect.left;
-  var y = event.clientY - rect.top;
-  x -= canvas.offsetLeft;
-  y -= canvas.offsetTop;
-  x /= scale;
-  y /= scale;
-  x -= translationX;
-  x = Math.floor(x / TILE_SIZE);
-  y = Math.floor(y / TILE_SIZE);
-  if (map.toggleCharacter(x, y)) {
-    drawMap();
-  }
-}
-
-openPanel(null, 'mapsTab', 'mapsPanel');
-
-</script>
+  </script>
 
 </body>
+
 </html>

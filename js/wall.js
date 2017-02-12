@@ -10,4 +10,3 @@ var WallType = {
 	GLASS: "glass",
 	DOOR: "door"
 }
-

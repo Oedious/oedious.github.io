@@ -82,13 +82,12 @@ var Map = function(json) {
 				json.defaultWallType ? json.defaultWallType : WallType.NORMAL;
 		}
 	}
-	this.characters = [];
 }
 
 Map.prototype.tryAddEdge = function(tile0, tile1, edgeType) {
-	if (this.type == MapType.INDOOR_OUTDOOR
-		&& tile0.type == MapType.INDOOR 
-		&& (tile1 == null || tile1.type == MapType.OUTDOOR)) {
+	if (this.type == MapType.INDOOR_OUTDOOR &&
+		tile0.type == MapType.INDOOR &&
+		(tile1 == null || tile1.type == MapType.OUTDOOR)) {
 		tile0.addEdge(edgeType, INDOOR_EDGE_COLOR, false);
 	}
 	if (tile0.elevation > 1 && (tile1 == null || tile0.elevation != tile1.elevation)) {
@@ -100,13 +99,13 @@ Map.prototype.tryAddEdge = function(tile0, tile1, edgeType) {
 	if (tile0.isStartingZone4p && (tile1 == null || !tile1.isStartingZone4p)) {
 		tile0.addEdge(edgeType, STARTING_ZONE_EDGE_COLOR, true);
 	}
-	if (tile0.terrain != TerrainType.CLEAR
-		&& (tile1 == null
-			|| tile0.terrain != tile1.terrain
-			|| tile0.type != tile1.type
-			|| tile0.elevation != tile1.elevation
-			|| tile0.isStartingZone != tile1.isStartingZone
-			|| tile0.isStartingZone4p != tile1.isStartingZone4p)) {
+	if (tile0.terrain != TerrainType.CLEAR &&
+		(tile1 == null ||
+			tile0.terrain != tile1.terrain ||
+			tile0.type != tile1.type ||
+			tile0.elevation != tile1.elevation ||
+			tile0.isStartingZone != tile1.isStartingZone ||
+			tile0.isStartingZone4p != tile1.isStartingZone4p)) {
 		var dashedLine = false;
 		if (tile0.terrain == TerrainType.SPECIAL2) {
 			dashedLine = true;
@@ -144,13 +143,7 @@ Map.prototype.draw = function(ctx) {
 	// Draw Walls.
 	for (var i = 0; i < this.walls.length; ++i) {
 		ctx.save();
-		this.drawWall(ctx, this.walls[i]);	
-		ctx.restore();
-	}
-	// Draw Characters.
-	for (var i = 0; i < this.characters.length; ++i) {
-		ctx.save();
-		this.characters[i].draw(ctx);
+		this.drawWall(ctx, this.walls[i]);
 		ctx.restore();
 	}
 }
@@ -175,11 +168,19 @@ Map.prototype.drawWall = function(ctx, wall) {
 	ctx.stroke();
 }
 
+Map.prototype.serialize = function() {
+	return {};
+}
+
+Map.prototype.deserialize = function(obj) {
+
+}
+
 Map.prototype.getTile = function(x, y) {
-  if (x < 0 || y < 0 || x >= this.width || y >= this.height) {
-  	return null;
-  }
-  return this.tiles[y * this.width + x];
+	if (x < 0 || y < 0 || x >= this.width || y >= this.height) {
+		return null;
+	}
+	return this.tiles[y * this.width + x];
 }
 
 Map.prototype.getTerrainIndex = function(terrain) {
@@ -196,31 +197,4 @@ Map.prototype.getTerrainIndex = function(terrain) {
 	} else if (terrain == TerrainType.SPECIAL2) {
 		return 5;
 	}
-}
-
-Map.prototype.toggleCharacter = function(x, y) {
-	if (x >= 0 && y >= 0 && x < this.width && y < this.height) {
-		var index = this.findCharacterIndex(x, y);
-		if (index == -1) {
-			this.characters.push(
-				new Character(x, y, 0, CharacterSize.ONE_BY_ONE));
-		} else {
-			this.characters.splice(index, 1);
-		}
-		return true;
-	}
-	return false;
-}
-
-Map.prototype.findCharacterIndex = function(x, y) {
-	for (var i = 0; i < this.characters.length; ++i) {
-		var character = this.characters[i];
-		if (x >= character.x
-		    && x < character.x + character.size.width
-		    && y >= character.y
-		    && y < character.y + character.size.height) {
-			return i;
-	    }
-	}
-	return -1;
 }

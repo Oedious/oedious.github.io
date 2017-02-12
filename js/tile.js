@@ -46,21 +46,21 @@ var Tile = function(x, y, jsonTile) {
 		this.fillStyle = BLOCKING_TILE_COLOR;
 	} else if (this.terrain == TerrainType.WATER) {
 		this.fillStyle = WATER_TILE_COLOR;
-	} else if (this.terrain == TerrainType.SPECIAL
-		|| this.terrain == TerrainType.SPECIAL2) {
+	} else if (this.terrain == TerrainType.SPECIAL ||
+		this.terrain == TerrainType.SPECIAL2) {
 		this.fillStyle = SPECIAL_TILE_COLOR;
 	} else if (this.isStartingZone || this.isStartingZone4p) {
 		this.fillStyle = STARTING_ZONE_TILE_COLOR;
 	} else {
-	    this.fillStyle = ELEVATION_TILE_COLORS[this.elevation - 1];
-    }
+		this.fillStyle = ELEVATION_TILE_COLORS[this.elevation - 1];
+	}
 }
 
 Tile.prototype.addEdge = function(edgeType, strokeStyle, dashedLine) {
 	while (this.edges[edgeType]) {
 		edgeType += 4;
 	}
-    this.edges[edgeType] = new Edge(strokeStyle, dashedLine);
+	this.edges[edgeType] = new Edge(strokeStyle, dashedLine);
 }
 
 Tile.prototype.hasEdge = function(edgeType) {
@@ -87,9 +87,9 @@ Tile.prototype.drawEdges = function(ctx) {
 	var edgeLevels = [-1, -1, -1, -1];
 	for (var i = 0; i < MAX_EDGES; ++i) {
 		for (var j = 0; j < 4; ++j)
-		if (this.edges[4 * i + j]) {
-			edgeLevels[j] = i;
-		}
+			if (this.edges[4 * i + j]) {
+				edgeLevels[j] = i;
+			}
 	}
 	for (var i = 0; i < 4; ++i) {
 		// Draw left edge.
@@ -131,25 +131,25 @@ Tile.prototype.drawEdge = function(ctx, edgeType, level) {
 				break;
 			case EdgeType.RIGHT:
 				x0 = (this.x + 1) * TILE_SIZE - EDGE_SIZE / 2 - EDGE_SIZE * level;
-			    y0 = this.y * TILE_SIZE - overhangTop;
-			    x1 = (this.x + 1) * TILE_SIZE - EDGE_SIZE / 2 - EDGE_SIZE * level;
-			    y1 = (this.y + 1) * TILE_SIZE + overhangBottom;
-			    lineDashOffset = overhangTop;
-			    break;
+				y0 = this.y * TILE_SIZE - overhangTop;
+				x1 = (this.x + 1) * TILE_SIZE - EDGE_SIZE / 2 - EDGE_SIZE * level;
+				y1 = (this.y + 1) * TILE_SIZE + overhangBottom;
+				lineDashOffset = overhangTop;
+				break;
 			case EdgeType.TOP:
-			    x0 = this.x * TILE_SIZE - overhangLeft;
-			    y0 = this.y * TILE_SIZE + EDGE_SIZE / 2 + EDGE_SIZE * level;
-			    x1 = (this.x + 1) * TILE_SIZE + overhangRight;
-			    y1 = this.y * TILE_SIZE + EDGE_SIZE / 2 + EDGE_SIZE * level;
-			    lineDashOffset = overhangLeft;
-			    break;
+				x0 = this.x * TILE_SIZE - overhangLeft;
+				y0 = this.y * TILE_SIZE + EDGE_SIZE / 2 + EDGE_SIZE * level;
+				x1 = (this.x + 1) * TILE_SIZE + overhangRight;
+				y1 = this.y * TILE_SIZE + EDGE_SIZE / 2 + EDGE_SIZE * level;
+				lineDashOffset = overhangLeft;
+				break;
 			case EdgeType.BOTTOM:
-			    x0 = this.x * TILE_SIZE - overhangLeft;
-			    y0 = (this.y + 1) * TILE_SIZE - EDGE_SIZE / 2 - EDGE_SIZE * level;
-			    x1 = (this.x + 1) * TILE_SIZE + overhangRight;
-			    y1 = (this.y + 1) * TILE_SIZE - EDGE_SIZE / 2 - EDGE_SIZE * level;
-			    lineDashOffset = overhangLeft;
-			    break;
+				x0 = this.x * TILE_SIZE - overhangLeft;
+				y0 = (this.y + 1) * TILE_SIZE - EDGE_SIZE / 2 - EDGE_SIZE * level;
+				x1 = (this.x + 1) * TILE_SIZE + overhangRight;
+				y1 = (this.y + 1) * TILE_SIZE - EDGE_SIZE / 2 - EDGE_SIZE * level;
+				lineDashOffset = overhangLeft;
+				break;
 		}
 		var edge = this.edges[edgeType + level * 4];
 		ctx.strokeStyle = edge.strokeStyle;
@@ -180,12 +180,12 @@ Tile.prototype.drawRamps = function(ctx) {
 		this.drawRamp(ctx, 0);
 	}
 }
-	
+
 Tile.prototype.drawRamp = function(ctx, angle) {
 	// Draw the triangle.
 	ctx.save();
 	ctx.translate(this.x * TILE_SIZE + TILE_SIZE / 2,
-	    this.y * TILE_SIZE + TILE_SIZE / 2);
+		this.y * TILE_SIZE + TILE_SIZE / 2);
 	ctx.rotate(angle);
 	ctx.beginPath();
 	ctx.moveTo(0, EDGE_SIZE);
@@ -207,7 +207,7 @@ Tile.prototype.drawRamp = function(ctx, angle) {
 }
 
 Tile.prototype.drawLabel = function(ctx) {
-	// Draw the column letter and/or row number.    
+	// Draw the column letter and/or row number.
 	if (this.x == 0 || this.y == 0 || this.label) {
 		var text = "";
 		if (this.label) {
@@ -217,10 +217,10 @@ Tile.prototype.drawLabel = function(ctx) {
 			}
 		} else {
 			if (this.y == 0) {
-			    text = String.fromCharCode("A".charCodeAt(0) + this.x); 
+				text = String.fromCharCode("A".charCodeAt(0) + this.x);
 			}
 			if (this.x == 0) {
-			    text += this.y + 1;
+				text += this.y + 1;
 			}
 			ctx.fillStyle = "#000000";
 		}
@@ -228,7 +228,7 @@ Tile.prototype.drawLabel = function(ctx) {
 		ctx.textAlign = "center";
 		ctx.textBaseline = "middle";
 		ctx.fillText(text,
-		    this.x * TILE_SIZE + TILE_SIZE / 2,
-		    this.y * TILE_SIZE + TILE_SIZE / 2);
+			this.x * TILE_SIZE + TILE_SIZE / 2,
+			this.y * TILE_SIZE + TILE_SIZE / 2);
 	}
 }
