@@ -30,7 +30,7 @@ var Character = function(x, y, rotation, sizeType) {
     this.sizeType_ = sizeType;
 }
 
-Character.prototype.draw = function(ctx) {
+Character.prototype.draw = function(ctx, color) {
     if (this.x_ < 0 || this.y_ < 0) {
         return;
     }
@@ -40,10 +40,13 @@ Character.prototype.draw = function(ctx) {
         this.y_ * TILE_SIZE + (TILE_SIZE * size.height) / 2);
     ctx.rotate(this.angle_);
     ctx.fillStyle = "#000000";
+    ctx.strokeStyle = color;
+    ctx.lineWidth = 3;
     if (size.width == size.height) {
         ctx.beginPath();
         ctx.arc(0, 0, radius, 0, 2 * Math.PI, false);
         ctx.fill();
+        ctx.stroke();
     } else {
         ctx.beginPath();
         var offsetX = (TILE_SIZE * size.width / 2) / 2;

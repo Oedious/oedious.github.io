@@ -5,11 +5,12 @@ var ViewManager = function() {
     this.toc_ = new TableOfContents();
     this.mapIndex_ = 0;
     this.players_ = [
-        new Player("Player 1"),
-        new Player("Player 2")
+        new Player("Player 1", "red"),
+        new Player("Player 2", "blue")
     ];
     this.currentPlayer_ = 0;
-    this.openPanel(null, 'mapsTab', 'mapsPanel');
+    this.openPanel("leftNav", "mapsTab", "mapsPanel");
+    this.openPanel("rightNav", "player0Tab", "player0Panel", 0);
 
     var serialized = this.getParameterByName_("s");
     var mapId = null;
@@ -17,6 +18,12 @@ var ViewManager = function() {
         mapId = this.deserialize(serialized);
     }
     this.loadTableOfContents_(mapId);
+
+    for (var i = 0; i < this.players_.length; ++i) {
+        var player = this.players_[i];
+        document.getElementById("player" + i + "Name").value = player.getName();
+        document.getElementById("player" + i + "Color").value = player.getColor();
+    }
 }
 
 ViewManager.prototype.loadTableOfContents_ = function(mapId) {
@@ -28,8 +35,8 @@ ViewManager.prototype.loadTableOfContents_ = function(mapId) {
     });
 }
 
-ViewManager.prototype.toggleNav = function() {
-    var nav = document.getElementById("sideNav");
+ViewManager.prototype.toggleLeftNav = function() {
+    var nav = document.getElementById("leftNav");
     if (nav.style.left != "0px") {
         nav.style.left = "0px";
     } else {
@@ -37,18 +44,32 @@ ViewManager.prototype.toggleNav = function() {
     }
 }
 
-ViewManager.prototype.openPanel = function(event, tabName, panelName) {
-    var panels = document.getElementsByClassName("panel");
+ViewManager.prototype.toggleRightNav = function() {
+    var nav = document.getElementById("rightNav");
+    if (nav.style.right != "0px") {
+        nav.style.right = "0px";
+    } else {
+        nav.style.right = "calc(0% - 210px)";
+    }
+}
+
+ViewManager.prototype.openPanel = function(navName, tabName, panelName, playerNumber) {
+    var nav = document.getElementById(navName);
+    var panels = nav.getElementsByClassName("panel");
     for (var i = 0; i < panels.length; ++i) {
         panels[i].style.display = "none";
     }
     document.getElementById(panelName).style.display = "block";
 
-    var tabs = document.getElementsByClassName("tab");
+    var tabs = nav.getElementsByClassName("tab");
     for (var i = 0; i < tabs.length; ++i) {
         tabs[i].style.backgroundColor = "";
     }
     document.getElementById(tabName).style.backgroundColor = "#ccc";
+
+    if (navName == "rightNav") {
+        this.currentPlayer_ = playerNumber;
+    }
 }
 
 ViewManager.prototype.onMouseDown = function(event) {
@@ -64,6 +85,21 @@ ViewManager.prototype.onMouseDown = function(event) {
     x = Math.floor(x / TILE_SIZE);
     y = Math.floor(y / TILE_SIZE);
     if (this.toggleCharacter_(x, y)) {
+        this.draw();
+    }
+}
+
+ViewManager.prototype.onFocusOut = function(elementId) {
+    var element = document.getElementById(elementId);
+    if (element.id == "player0Name") {
+        this.players_[0].setName(element.value);
+    } else if (element.id == "player1Name") {
+        this.players_[1].setName(element.value);
+    } else if (element.id == "player0Color") {
+        this.players_[0].setColor(element.value);
+        this.draw();
+    } else if (element.id == "player1Color") {
+        this.players_[1].setColor(element.value);
         this.draw();
     }
 }

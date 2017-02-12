@@ -1,19 +1,21 @@
-var Player = function(name) {
+var Player = function(name, color) {
 	this.name_ = name;
+	this.color_ = color;
 	this.characters_ = [];
 }
 
 Player.prototype.draw = function(ctx) {
 	for (var i = 0; i < this.characters_.length; ++i) {
 		ctx.save();
-		this.characters_[i].draw(ctx);
+		this.characters_[i].draw(ctx, this.color_);
 		ctx.restore();
 	}
 }
 
 Player.prototype.serialize = function() {
 	var obj = {
-		n: this.name_
+		n: this.name_,
+		t: this.color_
 	};
 	obj.c = [];
 	for (var i = 0; i < this.characters_.length; ++i) {
@@ -23,7 +25,7 @@ Player.prototype.serialize = function() {
 }
 
 Player.deserialize = function(obj) {
-	var player = new Player(obj.n);
+	var player = new Player(obj.n, obj.t);
 	for (var i = 0; i < obj.c.length; ++i) {
 		player.characters_.push(Character.deserialize(obj.c[i]));
 	}
@@ -51,4 +53,20 @@ Player.prototype.removeCharacter = function(character) {
 			return;
 		}
 	}
+}
+
+Player.prototype.getName = function() {
+	return this.name_;
+}
+
+Player.prototype.setName = function(name) {
+	this.name_ = name;
+}
+
+Player.prototype.getColor = function() {
+	return this.color_;
+}
+
+Player.prototype.setColor = function(color) {
+	this.color_ = color;
 }
