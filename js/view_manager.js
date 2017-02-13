@@ -5,8 +5,8 @@ var ViewManager = function() {
     this.toc_ = new TableOfContents();
     this.mapIndex_ = 0;
     this.players_ = [
-        new Player("Player 1", "red"),
-        new Player("Player 2", "blue")
+        new Player("Player 1", ColorType.RED),
+        new Player("Player 2", ColorType.BLUE)
     ];
     this.currentPlayer_ = 0;
     this.openPanel("leftNav", "mapsTab", "mapsPanel");
@@ -22,7 +22,7 @@ var ViewManager = function() {
     for (var i = 0; i < this.players_.length; ++i) {
         var player = this.players_[i];
         document.getElementById("player" + i + "Name").value = player.getName();
-        document.getElementById("player" + i + "Color").value = player.getColor();
+        document.getElementById("player" + i + "Color").selectedIndex = player.getColorType();
     }
 }
 
@@ -85,6 +85,7 @@ ViewManager.prototype.onMouseDown = function(event) {
     x = Math.floor(x / TILE_SIZE);
     y = Math.floor(y / TILE_SIZE);
     if (this.toggleCharacter_(x, y)) {
+        this.drawCharacterList();
         this.draw();
     }
 }
@@ -164,6 +165,10 @@ ViewManager.prototype.draw = function() {
         mapType = "Indoor/Outdoor";
     }
     document.getElementById("mapType").innerHTML = mapType;
+}
+
+ViewManager.prototype.drawCharacterList = function() {
+    this.getCurrentPlayer_().drawCharacterList(this.currentPlayer_);
 }
 
 ViewManager.prototype.serialize = function() {
@@ -246,6 +251,17 @@ ViewManager.prototype.generateLink = function() {
 ViewManager.prototype.applyFilters = function() {
     this.toc_.applyFilters();
     this.toc_.draw();
+}
+
+ViewManager.prototype.applyColor = function() {
+    this.getCurrentPlayer_().setColorType(
+        document.getElementById("player" + this.currentPlayer_ + "Color").value);
+}
+
+ViewManager.prototype.applySizeType = function(characterIndex) {
+    var sizeType = document.getElementById("player" + this.currentPlayer_ + "Character" + characterIndex + "SizeType").value;
+    this.getCurrentPlayer_().getCharacter(characterIndex).setSizeType(sizeType);
+    this.draw();
 }
 
 ViewManager.prototype.toggleCharacter_ = function(x, y) {

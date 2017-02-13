@@ -109,7 +109,17 @@
       margin: 10px 10px;
     }
     
-    #tableOfContents {
+    .filterInfo {
+      margin: 2px 0px;
+    }
+    
+    .panelInput {
+      position: absolute;
+      left: 60px;
+      width: calc(100% - 70px);
+    }
+    
+    .panelList {
       position: absolute;
       top: 70px;
       width: 230px;
@@ -155,10 +165,24 @@
       margin: 5px 0px;
     }
     
-    .playerInput {
-      position: absolute;
-      left: 70px;
-      width: calc(100% - 80px);
+    .characterListEntry {
+      background-color: #ccc;
+      color: black;
+      display: block;
+      padding: 4px 10px;
+      text-decoration: none;
+      height: 50px;
+      border: 1px solid #bbb;
+    }
+    
+    .characterListEntry:hover {
+      background-color: #bbb;
+    }
+    
+    .characterListEntry:focus,
+    .active {
+      background-color: #aaa;
+      color: #fffffff;
     }
     
     .top {
@@ -194,10 +218,10 @@
     <div style="text-align: center;">
       <button onclick="mgr.previousMap()">Previous</button>
       <select id="selectZoom" onchange="mgr.draw()">
-      <option value="0">Fit</option>
-      <option value="0.5">50%</option>
-      <option value="0.75">75%</option>
-      <option value="1.0">100%</option>
+        <option value="0">Fit</option>
+        <option value="0.5">50%</option>
+        <option value="0.75">75%</option>
+        <option value="1.0">100%</option>
       </select>
       <button onclick="mgr.nextMap()">Next</button>
     </div>
@@ -232,28 +256,28 @@
       </div>
     </div>
     <div id="mapsPanel" class="panel" style="display: block;">
-      <div id="tableOfContents"></div>
+      <div id="tableOfContents" class="panelList"></div>
       <div id="filters">
-        <div>Age:
-          <select id="selectAge" onchange="mgr.applyFilters()">
-          <option value="modern">Modern</option>
-          <option value="wko">WizKids Events</option>
-          <option value="all">Golden</option>
-        </select>
+        <div class="filterInfo">Age:
+          <select id="selectAge" class="panelInput" onchange="mgr.applyFilters()">
+            <option value="modern">Modern</option>
+            <option value="wko">WizKids Events</option>
+            <option value="all">Golden</option>
+          </select>
         </div>
-        <div>Type:
-          <select id="selectType" onchange="mgr.applyFilters()">
-          <option value="all">All</option>
-          <option value="indoor">Indoor</option>
-          <option value="outdoor">Outdoor</option>
-          <option value="indoorOutdoor">Indoor/Outdoor</option>
-        </select>
+        <div class="filterInfo">Type:
+          <select id="selectType" class="panelInput" onchange="mgr.applyFilters()">
+            <option value="all">All</option>
+            <option value="indoor">Indoor</option>
+            <option value="outdoor">Outdoor</option>
+            <option value="indoorOutdoor">Indoor/Outdoor</option>
+          </select>
         </div>
-        <div>Size:
-          <select id="selectSize" onchange="mgr.applyFilters()">
-          <option value="16x24">16x24</option>
-          <option value="all">All</option>
-        </select>
+        <div class="filterInfo">Size:
+          <select id="selectSize" class="panelInput" onchange="mgr.applyFilters()">
+            <option value="16x24">16x24</option>
+            <option value="all">All</option>
+          </select>
         </div>
       </div>
     </div>
@@ -277,19 +301,37 @@
     </ul>
     <div id="player0Panel" class="panel">
       <div class="playerInfo">
-        Name: <input id="player0Name" class="playerInput" onfocusout="onFocusOut('player0Name')"></input>
+        Name: <input id="player0Name" class="panelInput" onfocusout="onFocusOut('player0Name')"></input>
       </div>
       <div class="playerInfo">Color:
-        <input id="player0Color" class="playerInput" onfocusout="onFocusOut('player0Color')"></input>
+        <select id="player0Color" class="panelInput" onchange="mgr.applyColor()">
+          <option value="0">Red</option>
+          <option value="1">Orange</option>
+          <option value="2">Yellow</option>
+          <option value="3">Green</option>
+          <option value="4">Blue</option>
+          <option value="5">Purple</option>
+        </select>
       </div>
+      <div class="playerInfo">Characters:</div>
+      <div id="player0CharacterList" class="panelList"></div>
     </div>
     <div id="player1Panel" class="panel ">
       <div class="playerInfo">
         Name: <input id="player1Name" class="playerInput" onfocusout="onFocusOut('player1Name')"></input>
       </div>
       <div class="playerInfo">Color:
-        <input id="player1Color" class="playerInput" onfocusout="onFocusOut('player1Color')"></input>
+        <select id="player1Color" class="playerInput" onchange="mgr.applyColor()">
+          <option value="0">Red</option>
+          <option value="1">Orange</option>
+          <option value="2">Yellow</option>
+          <option value="3">Green</option>
+          <option value="4">Blue</option>
+          <option value="5">Purple</option>
+        </select>
       </div>
+      <div class="playerInfo">Characters:</div>
+      <div id="player1CharacterList" class="panelList"></div>
     </div>
   </div>
 

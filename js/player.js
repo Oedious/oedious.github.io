@@ -1,21 +1,55 @@
-var Player = function(name, color) {
+var Colors = [
+	"red",
+	"orange",
+	"yellow",
+	"green",
+	"blue",
+	"purple"
+];
+
+var ColorType = {
+	RED: 0,
+	ORANGE: 1,
+	YELLOW: 2,
+	GREEN: 3,
+	BLUE: 4,
+	PURPLE: 5
+};
+
+var Player = function(name, colorType) {
 	this.name_ = name;
-	this.color_ = color;
+	this.colorType_ = colorType;
 	this.characters_ = [];
 }
 
 Player.prototype.draw = function(ctx) {
 	for (var i = 0; i < this.characters_.length; ++i) {
 		ctx.save();
-		this.characters_[i].draw(ctx, this.color_);
+		this.characters_[i].draw(ctx, this.getColor());
 		ctx.restore();
 	}
+}
+
+Player.prototype.drawCharacterList = function(playerId) {
+	var html = "";
+	for (var i = 0; i < this.characters_.length; ++i) {
+		var character = this.characters_[i];
+		html += "<div class='characterListEntry'>" +
+			"<div>Name:<input class='panelInput'></input></div>" +
+			"<div>Base Type:<select id='player" + playerId + "Character" + i + "SizeType' onchange='mgr.applySizeType(" + i + ")'>";
+		for (var j = 0; j < Sizes.length; ++j) {
+			html += "<option value='" + j + "'>" + Sizes[j].name + "</option>";
+		}
+		html += "</select></div></div>"
+	}
+	var listId = "player" + playerId + "CharacterList";
+	document.getElementById(listId).innerHTML = html;
 }
 
 Player.prototype.serialize = function() {
 	var obj = {
 		n: this.name_,
-		t: this.color_
+		t: this.colorType_
 	};
 	obj.c = [];
 	for (var i = 0; i < this.characters_.length; ++i) {
@@ -30,6 +64,10 @@ Player.deserialize = function(obj) {
 		player.characters_.push(Character.deserialize(obj.c[i]));
 	}
 	return player;
+}
+
+Player.prototype.getCharacter = function(index) {
+	return this.characters_[index];
 }
 
 Player.prototype.findCharacter = function(x, y) {
@@ -64,9 +102,13 @@ Player.prototype.setName = function(name) {
 }
 
 Player.prototype.getColor = function() {
-	return this.color_;
+	return Colors[this.colorType_];
 }
 
-Player.prototype.setColor = function(color) {
-	this.color_ = color;
+Player.prototype.getColorType = function() {
+	return this.colorType_;
+}
+
+Player.prototype.setColorType = function(colorType) {
+	this.colorType_ = colorType;
 }
