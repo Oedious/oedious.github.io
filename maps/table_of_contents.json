@@ -1744,6 +1744,38 @@
         "height": 24,
         "file": "maps/wm/dr_manhattans_lab.json"
     }, {
+        "id": "ca0",
+        "name": "S.H.I.E.L.D. Helicarrier Bow Map S-1",
+        "set": "Captain America",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/ca/shield_helicarrier_bow.json"
+    }, {
+        "id": "ca1",
+        "name": "S.H.I.E.L.D. Helicarrier Midsection Map S-2",
+        "set": "Captain America",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/ca/shield_helicarrier_midsection.json"
+    }, {
+        "id": "ca2",
+        "name": "S.H.I.E.L.D. Helicarrier Stern Map S-3",
+        "set": "Captain America",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/ca/shield_helicarrier_stern.json"
+    }, {
+        "id": "ca3",
+        "name": "S.H.I.E.L.D. Helicarrier Below Decks Map S-4",
+        "set": "Captain America",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/ca/shield_helicarrier_below_decks.json"
+    }, {
         "id": "gl0",
         "name": "Oa",
         "set": "Green Lantern",
@@ -1759,6 +1791,22 @@
         "width": 16,
         "height": 24,
         "file": "maps/gl/ferris_aircraft.json"
+    }, {
+        "id": "gsx0",
+        "name": "Madripoor Lowtown",
+        "set": "Giant-Size X-Men",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/gsx/madripoor_lowtown.json"
+    }, {
+        "id": "gsx1",
+        "name": "Krakoa",
+        "set": "Giant-Size X-Men",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/gsx/krakoa.json"
     }, {
         "id": "bd0",
         "name": "The Crater",
