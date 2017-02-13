@@ -276,7 +276,7 @@ ViewManager.prototype.toggleCharacter_ = function(x, y) {
             }
         }
         this.getCurrentPlayer_().addCharacter(
-            new Character(x, y, 0, SizeType.ONE_BY_ONE));
+            new Character(x, y, 0, CharacterSizeType.ONE_BY_ONE));
         return true;
     }
     return false;

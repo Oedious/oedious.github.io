@@ -37,12 +37,12 @@ Player.prototype.drawCharacterList = function(playerIndex) {
 		html += "<div class='characterListEntry'>" +
 			"<div>Name:<input class='panelInput'></input></div>" +
 			"<div>Base Type:<select id='player" + playerIndex + "Character" + i + "SizeType' onchange='mgr.applySizeType(" + i + ")'>";
-		for (var j = 0; j < Sizes.length; ++j) {
+		for (var j = 0; j < CharacterSizes.length; ++j) {
 			html += "<option value='" + j + "'";
 			if (character.getSizeType() == j) {
 				html += " selected='selected'"
 			}
-			html += ">" + Sizes[j].name + "</option>";
+			html += ">" + CharacterSizes[j].name + "</option>";
 		}
 		html += "</select></div></div>"
 	}

@@ -1,4 +1,4 @@
-var Sizes = [{
+var CharacterSizes = [{
     name: "Single",
     width: 1,
     height: 1
@@ -20,7 +20,7 @@ var Sizes = [{
     height: 3
 }]
 
-var SizeType = {
+var CharacterSizeType = {
     ONE_BY_ONE: 0,
     TWO_BY_ONE: 1,
     TWO_BY_TWO: 2,
@@ -47,7 +47,7 @@ Character.prototype.draw = function(ctx, color) {
     ctx.rotate(this.angle_);
     ctx.fillStyle = "#000000";
     ctx.strokeStyle = color;
-    ctx.lineWidth = 5;
+    ctx.lineWidth = 7;
     if (size.width == size.height) {
         ctx.beginPath();
         ctx.arc(0, 0, radius, 0, 2 * Math.PI, false);
@@ -57,13 +57,18 @@ Character.prototype.draw = function(ctx, color) {
         ctx.beginPath();
         var offsetX = (TILE_SIZE * size.width / 2) / 2;
         ctx.arc(-offsetX, 0, radius, 0, 2 * Math.PI, false);
-        ctx.arc(offsetX, 0, radius, 0, 2 * Math.PI, false);
+        ctx.fill();
         ctx.stroke();
-        if (size == Sizes[SizeType.TWO_BY_ONE]) {
+        ctx.beginPath();
+        ctx.arc(offsetX, 0, radius, 0, 2 * Math.PI, false);
+        ctx.fill();
+        ctx.stroke();
+        if (size == CharacterSizes[CharacterSizeType.TWO_BY_ONE]) {
             var height = TILE_SIZE - 20;
         } else {
-            var height = radius * 2;
+            var height = radius * 2 - ctx.lineWidth;
         }
+        ctx.beginPath();
         ctx.rect(-offsetX, -height / 2, TILE_SIZE * (size.width / 2), height);
         ctx.fill();
     }
@@ -102,7 +107,7 @@ Character.prototype.setSizeType = function(sizeType) {
 }
 
 Character.prototype.getSize = function() {
-    return Sizes[this.sizeType_];
+    return CharacterSizes[this.sizeType_];
 }
 
 Character.prototype.setName = function(name) {
