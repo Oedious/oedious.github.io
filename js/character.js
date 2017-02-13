@@ -93,6 +93,10 @@ Character.prototype.isInTile = function(x, y) {
     return false;
 }
 
+Character.prototype.getSizeType = function() {
+    return this.sizeType_;
+}
+
 Character.prototype.setSizeType = function(sizeType) {
     this.sizeType_ = sizeType;
 }

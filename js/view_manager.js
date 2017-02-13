@@ -23,6 +23,7 @@ var ViewManager = function() {
         var player = this.players_[i];
         document.getElementById("player" + i + "Name").value = player.getName();
         document.getElementById("player" + i + "Color").selectedIndex = player.getColorType();
+        player.drawCharacterList(i);
     }
 }
 

@@ -30,19 +30,23 @@ Player.prototype.draw = function(ctx) {
 	}
 }
 
-Player.prototype.drawCharacterList = function(playerId) {
+Player.prototype.drawCharacterList = function(playerIndex) {
 	var html = "";
 	for (var i = 0; i < this.characters_.length; ++i) {
 		var character = this.characters_[i];
 		html += "<div class='characterListEntry'>" +
 			"<div>Name:<input class='panelInput'></input></div>" +
-			"<div>Base Type:<select id='player" + playerId + "Character" + i + "SizeType' onchange='mgr.applySizeType(" + i + ")'>";
+			"<div>Base Type:<select id='player" + playerIndex + "Character" + i + "SizeType' onchange='mgr.applySizeType(" + i + ")'>";
 		for (var j = 0; j < Sizes.length; ++j) {
-			html += "<option value='" + j + "'>" + Sizes[j].name + "</option>";
+			html += "<option value='" + j + "'";
+			if (character.getSizeType() == j) {
+				html += " selected='selected'"
+			}
+			html += ">" + Sizes[j].name + "</option>";
 		}
 		html += "</select></div></div>"
 	}
-	var listId = "player" + playerId + "CharacterList";
+	var listId = "player" + playerIndex + "CharacterList";
 	document.getElementById(listId).innerHTML = html;
 }
 
