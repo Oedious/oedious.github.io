@@ -11,8 +11,7 @@ var Map = function(json) {
 	this.height = json.height;
 	this.type = json.type;
 	this.tiles = [];
-	this.special = json.special ? json.special : "";
-	this.special2 = json.special2 ? json.special2 : "";
+	this.special = json.special ? json.special : [];
 	// Add Tiles.
 	for (var y = 0; y < this.height; ++y) {
 		for (var x = 0; x < this.width; ++x) {

@@ -5,7 +5,7 @@
 	"defaultType": "indoor",
 	"width": 16,
 	"height": 24,
-	"rows": [
+		"rows": [
 		{
 			"y": 1,
 			"tiles": [
@@ -1148,6 +1148,6 @@
 			"y0": 22,
 			"x1": 11,
 			"y1": 24
-		}		
+		}
 	]
 }

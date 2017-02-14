@@ -1808,6 +1808,22 @@
         "height": 24,
         "file": "maps/gsx/krakoa.json"
     }, {
+        "id": "gsx2",
+        "name": "Starcore Space Station",
+        "set": "Giant-Size X-Men",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/gsx/starcore_space_station.json"
+    }, {
+        "id": "gsx3",
+        "name": "Abandoned Weapon X Facility",
+        "set": "Giant-Size X-Men",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/gsx/abandoned_weapon_x_facility.json"
+    }, {
         "id": "bd0",
         "name": "The Crater",
         "set": "Brightest Day",

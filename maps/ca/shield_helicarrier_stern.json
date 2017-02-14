@@ -4,7 +4,7 @@
 	"type": "outdoor",
 	"width": 16,
 	"height": 24,
-	"special": "Special Rules: Orange squares are the edge of the Helicarrier squares. At the end of each turn, if a character that can't use the Flight ability is occupying one of these squares, place them in the nearest non-orange square that they could be placed in and give them an action token.",
+	"special": ["Special Rules: Orange squares are the edge of the Helicarrier squares. At the end of each turn, if a character that can't use the Flight ability is occupying one of these squares, place them in the nearest non-orange square that they could be placed in and give them an action token."],
 	"year": "2011",
 	"rows": [{
 		"y": 1,

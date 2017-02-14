@@ -4,8 +4,10 @@
 	"type": "indoorOutdoor",
 	"width": 16,
 	"height": 24,
-	"special": "Stair Squares: If you are using map S-4, you may give a character occupying this square a power action and place them in the corresponding square on that map. If that square is occupied, place the character in the nearest square they could be placed in.",
-	"special2": "Balcony Below Squares: If you are using map S-4, you may give a character occupying this square a power action and roll a d6, adding 1 to the result if they can use the Flight ability. On a result of 4-6 place them in the corresponding square on that map. If that square is occupied, place the character in the nearest square they could be placed in.",
+	"special": [
+		"Stair Squares: If you are using map S-4, you may give a character occupying this square a power action and place them in the corresponding square on that map. If that square is occupied, place the character in the nearest square they could be placed in.",
+		"Balcony Below Squares: If you are using map S-4, you may give a character occupying this square a power action and roll a d6, adding 1 to the result if they can use the Flight ability. On a result of 4-6 place them in the corresponding square on that map. If that square is occupied, place the character in the nearest square they could be placed in."
+	],
 	"defaultType": "outdoor",
 	"year": "2011",
 	"rows": [{

@@ -155,8 +155,11 @@ ViewManager.prototype.draw = function() {
     document.getElementById("mapName").innerHTML = this.map_.name;
     document.getElementById("mapSet").innerHTML = this.map_.set;
     document.getElementById("mapSize").innerHTML = "" + this.map_.width + " x " + this.map_.height;
-    document.getElementById("mapSpecial").innerHTML = this.map_.special.replace(/:/gi, ":<br>");
-    document.getElementById("mapSpecial2").innerHTML = this.map_.special2.replace(/:/gi, ":<br>");
+    var html = "";
+    for (var i = 0; i < this.map_.special.length; ++i) {
+        html += "<br><div>" + this.map_.special[i].replace(/:/gi, ":<br>") + "</div>";
+    }
+    document.getElementById("mapSpecial").innerHTML = html;
     var mapType;
     if (this.map_.type == "indoor") {
         mapType = "Indoor";

@@ -4,7 +4,7 @@
 	"type": "outdoor",
 	"width": 16,
 	"height": 24,
-	"special": "Special Rules: The orange squares are Krakoa nerve center squares. They act as blocking terrain but can't be destroyed. The Living Island - At the end of your turn, roll a d6. On a result of 1-3, nothing happens. On a result of 4, EARTHQUAKE! Each character is dealt 1 damage. On a result of 5, SHIFTING FOILAGE. Printed hindering terrain acts as blocking terrain instead until the beginning of your next turn. Characters occupying those squares take 1 unavoidable damage and are placed in their owner's starting area. On a result of 6, THE ISLAND AWAKES. The Krakoa nerve center in the orange squares make an 8 range, 10 attack, 3 damage ranged combat attack against an opposing character of your choice. The line of fire for this attack ignores hindering terrain and elevation.",
+	"special": ["Special Rules: The orange squares are Krakoa nerve center squares. They act as blocking terrain but can't be destroyed. The Living Island - At the end of your turn, roll a d6. On a result of 1-3, nothing happens. On a result of 4, EARTHQUAKE! Each character is dealt 1 damage. On a result of 5, SHIFTING FOILAGE. Printed hindering terrain acts as blocking terrain instead until the beginning of your next turn. Characters occupying those squares take 1 unavoidable damage and are placed in their owner's starting area. On a result of 6, THE ISLAND AWAKES. The Krakoa nerve center in the orange squares make an 8 range, 10 attack, 3 damage ranged combat attack against an opposing character of your choice. The line of fire for this attack ignores hindering terrain and elevation."],
 	"year": "2010",
 	"rows": [{
 		"y": 1,
