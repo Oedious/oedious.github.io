@@ -1,10 +1,12 @@
 {
 	"name": "Helicarrier",
 	"set": "Captain America: The Winter Soldier",
+	"source": "Captain America: The Winter Soldier Starter",
 	"type": "outdoor",
 	"special": ["Open Air Terrain: If a character that can't use Leap/Climb, Phasing/Teleport, Flight or Great Size occupies Open Air Terrain after actions resolve, deal that character 1 unavoidable damage and then the character's controller places the character in their starting area."],
 	"width": 16,
 	"height": 24,
+	"date": "March 2014",
 	"rows": [{
 		"y": 1,
 		"tiles": [{

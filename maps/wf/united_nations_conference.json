@@ -1,10 +1,12 @@
 {
 	"name": "United Nations Conference",
 	"set": "World's Finest",
-	"special": ["(Oranged dotted line) Glass Walls: Glass Walls are walls that do not block line of fire. After an attack resolves, destroy all glass walls which had a line of fire drawn through them by that attack. (Black dotted line) Doors: Doors are walls that do not block movement."],
+	"source": "World's Finest: OP Kit",
 	"type": "indoor",
 	"width": 16,
 	"height": 24,
+	"date": "February 2016",
+	"special": ["(Oranged dotted line) Glass Walls: Glass Walls are walls that do not block line of fire. After an attack resolves, destroy all glass walls which had a line of fire drawn through them by that attack. (Black dotted line) Doors: Doors are walls that do not block movement."],
 	"rows": [{
 		"y": 1,
 		"tiles": [{

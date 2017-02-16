@@ -1,9 +1,11 @@
 {
 	"name": "Brazil",
 	"set": "Fear Itself",
+	"source": "Fear Itself: Month 6 OP Kit",
 	"type": "outdoor",
 	"width": 16,
 	"height": 24,
+	"date": "November 2013",
 	"special": ["NUL'S HAMMER IMPACT ZONE: (Not for Tournament Play) Orange squares are IMPACT ZONE squares. Before the beginning of the game either player may place a Fear Itself S106 Nul's Hammer from outside the game in the Impact Zone. While that object occupies the Impact Zone, characters within 6 squares of the Impact Zone can't use Super Strength."],
 	"rows": [{
 		"y": 1,

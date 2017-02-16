@@ -1,9 +1,11 @@
 {
 	"name": "The Crater",
 	"set": "Brightest Day",
+	"source": "Fast Forces: Brightest Day",
 	"type": "outdoor",
 	"width": 16,
 	"height": 24,
+	"date": "October 2010",
 	"special": ["Special Rules: Orange squares are Fallen Cosmic Object squares. Objects placed in one of these squares can't be picked up, moved, or destroyed."],
 	"rows": [{
 		"y": 1,

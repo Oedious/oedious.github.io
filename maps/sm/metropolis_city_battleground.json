@@ -1,9 +1,11 @@
 {
 	"name": "Metropolis City Battleground",
 	"set": "Superman",
+	"source": "Superman: OP Kit",
 	"type": "outdoor",
 	"width": 16,
 	"height": 24,
+	"date": "September 2011",
 	"rows": [{
 		"y": 1,
 		"tiles": [{

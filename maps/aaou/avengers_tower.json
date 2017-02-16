@@ -1,12 +1,14 @@
 {
 	"name": "Avengers Tower",
 	"set": "Avengers: Age of Ultron",
+	"source": "Avengers: Age of Ultron Starter",
 	"type": "indoorOutdoor",
+	"width": 16,
+	"height": 24,
+	"date": "April 2015",
 	"special": [
 		"OPEN AIR TERRAIN: If a character that can’t use Leap/Climb, Phasing/Teleport, Flight or Great Size occupies Open Air Terrain after actions resolve, deal that character 1 unavoidable damage and then the character’s controller places the character in their starting area."
 	],
-	"width": 16,
-	"height": 24,
 	"rows": [{
 		"y": 1,
 		"tiles": [{

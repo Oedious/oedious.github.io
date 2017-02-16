@@ -1,10 +1,12 @@
 {
 	"name": "Hall of Doom: Slaughter Swamp",
 	"set": "Superman and the Legion of Super-Heroes",
+	"source": "Fast Forces: Legion of Doom",
 	"type": "indoorOutdoor",
-	"defaultType": "outdoor",
 	"width": 16,
 	"height": 24,
+	"date": "February 2014",
+	"defaultType": "outdoor",
 	"rows": [{
 		"y": 1,
 		"tiles": [{

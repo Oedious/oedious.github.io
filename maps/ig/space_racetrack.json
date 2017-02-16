@@ -1,9 +1,11 @@
 {
 	"name": "Space Racetrack",
 	"set": "The Infinity Gauntlet",
+	"source": "The Infinity Gauntlet: Month 5 OP Kit",
 	"type": "outdoor",
 	"width": 16,
 	"height": 24,
+	"date": "May 2012",
 	"special": ["Special Rules: Orange squares are Low Gravity Squares. Characters occupying Low Gravity Squares may move per standard movement rules. When a character occupying an Orange Square is hit by an attack they are knocked back equal to the damage taken."],
 	"rows": [{
 		"y": 1,

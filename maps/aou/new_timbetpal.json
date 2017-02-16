@@ -1,11 +1,13 @@
 {
 	"name": "New Timbetpal",
 	"set": "Age of Ultron",
+	"source": "Age of Ultron: Month 2 OP Kit",
 	"type": "indoorOutdoor",
-	"defaultType": "outdoor",
 	"width": 16,
 	"height": 24,
+	"date": "July 2015",
 	"special": ["Open Air Terrain: If a character that can't use Leaap/Climb, Phasing/Teleport, Flight or Great Size occupies Open Air Terrain after actions resolve, deal that character 1 unavoidable damage and then the character's controller places the character in their starting area."],
+	"defaultType": "outdoor",
 	"rows": [{
 		"y": 1,
 		"tiles": [{

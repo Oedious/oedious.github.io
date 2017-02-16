@@ -1,9 +1,11 @@
 {
 	"name": "Bell Tower",
 	"set": "The Amazing Spider-Man",
+	"source": "The Amazing Spider-Man: OP Kit",
 	"type": "indoorOutdoor",
 	"width": 16,
 	"height": 24,
+	"date": "February 2013",
 	"special": ["Open Air Terrain: If a character that can't use Leap/Climb, Phasing/Teleport, Flight or Great Size occupies Open Air Terrain after actions resolve, deal that character 1 unavoidable damage and then the character's controller places the character in their starting area."],
 	"defaultType": "outdoor",
 	"defaultElevation": 2,

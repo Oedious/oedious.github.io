@@ -1,10 +1,12 @@
 {
 	"name": "Black Mercy Garden",
 	"set": "War of Light",
+	"source": "War of Light: Month 4 OP Kit",
 	"type": "outdoor",
-	"special": ["BLACK MERCY: Orange squares are Black Mercy squares and are treated as hindering terrain. Characters occupying Black Mercy squares modify their defense values by -3 when targeted by Incapacitate or Mind Control"],
 	"width": 16,
 	"height": 24,
+	"date": "September 2014",
+	"special": ["BLACK MERCY: Orange squares are Black Mercy squares and are treated as hindering terrain. Characters occupying Black Mercy squares modify their defense values by -3 when targeted by Incapacitate or Mind Control"],
 	"rows": [{
 		"y": 1,
 		"tiles": [{

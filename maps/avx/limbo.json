@@ -1,9 +1,11 @@
 {
 	"name": "Limbo",
 	"set": "Avengers vs X-Men",
+	"source": "Avengers vs X-Men: Month 3 OP Kit",
 	"type": "indoor",
 	"width": 16,
 	"height": 24,
+	"date": "March 2014",
 	"special": ["INTERDIMENSIONAL PORTAL: Orange squares are Portal squares. Portal squares are hindering terrain. If you are using the Verkhoyansk Mountains map, you may give a character occupying this square a power action and place them in the corresponding square on that map. If that square is occupied, place the character in the nearest square they could be placed in."],
 	"rows": [{
 		"y": 1,

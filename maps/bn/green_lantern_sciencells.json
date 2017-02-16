@@ -1,9 +1,11 @@
 {
 	"name": "Green Lantern Sciencells",
 	"set": "Blackest Night",
+	"set": "Blackest Night Starter",
 	"type": "indoor",
 	"width": 16,
 	"height": 24,
+	"date": "June 2010",
 	"special": [
 		"Orange circles designate Monitor Room squares. Whenever a friendly character occupies a Monitor Room square, all friendly characters can ignore the effect of hindering terrain and other characters on line of fire. A character occupying a Monitor Room square can't be given ranged combat actions or make ranged combat attacks.",
 		"Squares inside the orange boundary line designate Armory Squares. When placing objects at the beginning of the game, each player must place two objects on squares within an orange boundary line."

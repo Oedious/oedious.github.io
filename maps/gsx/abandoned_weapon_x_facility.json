@@ -1,10 +1,11 @@
 {
 	"name": "Abandoned Weapon X Facility",
 	"set": "Giant-Size X-Men",
+	"source": "Fast Forces: Giant-Size X-Men",
 	"type": "indoor",
 	"width": 16,
 	"height": 24,
-	"year": "2011",
+	"date": "June 2012",
 	"defaultElevation": 2,
 	"rows": [{
 		"y": 1,

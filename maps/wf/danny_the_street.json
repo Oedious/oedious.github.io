@@ -1,10 +1,12 @@
 {
 	"name": "Danny the Street",
 	"set": "World's Finest",
+	"source": "World's Finest: OP Kit",
 	"type": "outdoor",
-	"special": ["Special Rules: \"DANCE LIKE I SAY\" At the beginning of each players turn roll 1d6 and on a 1-2: Characters can't move horizontally or vertically this turn. 3-4: Characters can't move diagonally this turn. 5-6: No effect."],
 	"width": 16,
 	"height": 24,
+	"date": "February 2016",
+	"special": ["Special Rules: \"DANCE LIKE I SAY\" At the beginning of each players turn roll 1d6 and on a 1-2: Characters can't move horizontally or vertically this turn. 3-4: Characters can't move diagonally this turn. 5-6: No effect."],
 	"rows": [{
 		"y": 1,
 		"tiles": [{

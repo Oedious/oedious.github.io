@@ -1,11 +1,13 @@
 {
 	"name": "Atlantis",
 	"set": "Justice League Trinity War",
+	"source": "Justice League Trinity War: OP Kit",
 	"type": "outdoor",
 	"width": 16,
 	"height": 24,
-	"defaultTerrain": "water",
+	"date": "February 2015",
 	"special": ["OCEAN DEPTHS: Characters ignore the water terrain for movement purposes. Characters that can use the Swim ability modify their speed value y +2 and can use Improved Movement: Ignores Hindering, Ignores Elevation, and Ignores Characters. Objects may be placed as though water terrain is clear terrain."],
+	"defaultTerrain": "water",
 	"rows": [{
 		"y": 1,
 		"tiles": [{

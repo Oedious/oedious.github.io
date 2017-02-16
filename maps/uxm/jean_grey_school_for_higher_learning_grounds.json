@@ -1,10 +1,12 @@
 {
 	"name": "Jean Grey School for Higher Learning Grounds",
 	"set": "Uncanny X-Men",
+	"source": "Uncanny X-Men: OP Kit",
 	"type": "outdoor",
-	"special": ["SPECIAL_RULES - KRAKOA LIVES ON THE SCHOOL GROUNDS NOW: At the end of each player's turn, an opponent chooses a character who that turn missed an attack whose line of fire crossed printed hindering or blocking terrain. Krakoa makes a close attack (rolled by opponent) with 10 attack value targeting that character. Hit characters are dealt 3 damage."],
 	"width": 16,
 	"height": 24,
+	"date": "May 2016",
+	"special": ["SPECIAL_RULES - KRAKOA LIVES ON THE SCHOOL GROUNDS NOW: At the end of each player's turn, an opponent chooses a character who that turn missed an attack whose line of fire crossed printed hindering or blocking terrain. Krakoa makes a close attack (rolled by opponent) with 10 attack value targeting that character. Hit characters are dealt 3 damage."],
 	"rows": [{
 		"y": 1,
 		"tiles": [{

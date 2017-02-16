@@ -1,9 +1,11 @@
 {
 	"name": "N.O.W.H.E.R.E.: The Crucible",
 	"set": "Teen Titans",
+	"source": "Teen Titans: OP Kit",
 	"type": "outdoor",
 	"width": 16,
 	"height": 24,
+	"date": "May 2013",
 	"special": ["Special Rules: Orange squares are Lava Squares. At the end of each player's turn, deal 1 unavoidable damage to each character occupying a Lava Square."],
 	"rows": [{
 		"y": 1,

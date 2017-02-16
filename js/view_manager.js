@@ -153,8 +153,9 @@ ViewManager.prototype.draw = function() {
     }
     document.getElementById("mapHeader").innerHTML = this.map_.name;
     document.getElementById("mapName").innerHTML = this.map_.name;
-    document.getElementById("mapSet").innerHTML = this.map_.set;
+    document.getElementById("mapSource").innerHTML = this.map_.source;
     document.getElementById("mapSize").innerHTML = "" + this.map_.width + " x " + this.map_.height;
+    document.getElementById("mapDate").innerHTML = this.map_.date;
     var html = "";
     for (var i = 0; i < this.map_.special.length; ++i) {
         html += "<br><div>" + this.map_.special[i].replace(/:/gi, ":<br>") + "</div>";

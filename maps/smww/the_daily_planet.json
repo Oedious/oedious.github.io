@@ -1,9 +1,11 @@
 {
 	"name": "The Daily Planet",
 	"set": "Superman/Wonder Woman",
+	"source": "Superman/Wonder Woman: OP Kit",
 	"type": "indoorOutdoor",
 	"width": 16,
 	"height": 24,
+	"date": "November 2015",
 	"special": [
 		"OPEN AIR: Orange squares are Open Air squares. After actions resolve, if a character who can't use the Flight ability occupies an Open Air square, deal them 1 unavoidable damage, then that character's owner places them in their starting area. Non-held Objects in Open Air squares are removed from the map.",
 		"GLASS WALLS (orange dotted line): Glass Walls are walls that do not block line of fire. After an attack resolves, destroy all glass walls which had a line of fire drawn through them by that attack."

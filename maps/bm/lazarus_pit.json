@@ -1,9 +1,11 @@
 {
 	"name": "Lazarus Pit",
 	"set": "Batman",
+	"source": "Batman: OP Kit",
 	"type": "indoor",
 	"width": 16,
 	"height": 24,
+	"date": "November 2012",
 	"special": ["Special Rules: Orange squares are Lazarus Pit terrain. Lazarus Pit terrain is water terrain. Characters that occupy Lazarus Pit terrain can use Regeneration. A character that heals while occupying Lazarus Pit terrain possesses Battle Fury until it takes damage."],
 	"rows": [{
 		"y": 1,

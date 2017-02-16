@@ -1,9 +1,11 @@
 {
 	"name": "Surface of the Moon",
 	"set": "Avengers vs X-Men",
+	"source": "Avengers vs X-Men: Month 4 OP Kit",
 	"type": "outdoor",
 	"width": 16,
 	"height": 24,
+	"date": "April 2014",
 	"special": ["LOW GRAVITY: All characters can use Improved Movement: Ignores Elevated Terrain."],
 	"defaultElevation": 2,
 	"rows": [{

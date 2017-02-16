@@ -1,9 +1,11 @@
 {
 	"name": "Liberty Island",
 	"set": "Spider-Man and His Amazing Friends",
+	"source": "Spider-Man and His Amazing Friends Team Pack",
 	"type": "outdoor",
 	"width": 16,
 	"height": 24,
+	"date": "August 2013",
 	"special": ["LOFTY TERRAIN: Orange squares are Lofty terrain. Characters occupying Lofty terrain treat it as elevated terrain and treat non-Lofty terrain as grounded terrain. Characters occupying elevated terrain treat Lofy terrain as elevated terrain, as if they were grounded Squares labeled with an orange A or B are considered adjacent for movement purposes to other squares labeled with an orange A or B."],
 	"rows": [{
 		"y": 1,

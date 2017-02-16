@@ -1,9 +1,11 @@
 {
 	"name": "Fallen Asgard",
 	"set": "Fear Itself",
+	"source": "Fear Itself: Month 5 OP Kit",
 	"type": "outdoor",
 	"width": 16,
 	"height": 24,
+	"date": "October 2013",
 	"special": ["YGGDRASIL, THE WORLD TREE: Orange squares are hindering terrain. When damage would be dealt to a character occupying these squares, ignore 1 of that damage. Ignoring damage this way does not prevent the damage from being reduced or ignored by another game effect."],
 	"rows": [{
 		"y": 1,

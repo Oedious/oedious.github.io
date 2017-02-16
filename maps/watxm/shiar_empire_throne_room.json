@@ -1,239 +1,221 @@
 {
 	"name": "Shi'ar Empire Throne Room",
 	"set": "Wolverine and the X-Men",
+	"source": "Wolverine and the X-Men: Super Booster",
 	"type": "indoor",
 	"width": 8,
 	"height": 8,
-	"rows": [
-		{
-			"y": 1,
-			"tiles": [
-				{
-					"x": "A",
-					"isStartingZone": true
-				}, {
-					"x": "B",
-					"isStartingZone": true
-				}, {
-					"x": "C",
-					"isStartingZone": true
-				}, {
-					"x": "D",
-					"isStartingZone": true
-				}, {
-					"x": "E",
-					"isStartingZone": true
-				}, {
-					"x": "F",
-					"isStartingZone": true
-				}, {
-					"x": "G",
-					"isStartingZone": true
-				}, {
-					"x": "H",
-					"isStartingZone": true
-				}
-			]
+	"date": "August 2013",
+	"rows": [{
+		"y": 1,
+		"tiles": [{
+			"x": "A",
+			"isStartingZone": true
 		}, {
-			"y": 2,
-			"tiles": [
-				{
-					"x": "A"
-				}, {
-					"x": "B",
-					"terrain": "blocking"
-				}, {
-					"x": "C",
-					"elevation": 2
-				}, {
-					"x": "D",
-					"terrain": "hindering",
-					"elevation": 2
-				}, {
-					"x": "E",
-					"terrain": "hindering",
-					"elevation": 2
-				}, {
-					"x": "F",
-					"elevation": 2
-				}, {
-					"x": "G",
-					"terrain": "blocking"
-				}, {
-					"x": "H"
-				}
-			]
+			"x": "B",
+			"isStartingZone": true
 		}, {
-			"y": 3,
-			"tiles": [
-				{
-					"x": "A"
-				}, {
-					"x": "B",
-					"terrain": "blocking"
-				}, {
-					"x": "C",
-					"elevation": 2
-				}, {
-					"x": "D",
-					"elevation": 2
-				}, {
-					"x": "E",
-					"elevation": 2
-				}, {
-					"x": "F",
-					"elevation": 2
-				}, {
-					"x": "G",
-					"terrain": "blocking"
-				}, {
-					"x": "H"
-				}
-			]
+			"x": "C",
+			"isStartingZone": true
 		}, {
-			"y": 4,
-			"tiles": [
-				{
-					"x": "A"
-				}, {
-					"x": "B",
-					"terrain": "hindering"
-				}, {
-					"x": "C"
-				}, {
-					"x": "D"
-				}, {
-					"x": "E"
-				}, {
-					"x": "F"
-				}, {
-					"x": "G",
-					"terrain": "hindering"
-				}, {
-					"x": "H"
-				}
-			]
+			"x": "D",
+			"isStartingZone": true
 		}, {
-			"y": 5,
-			"tiles": [
-				{
-					"x": "A"
-				}, {
-					"x": "B"
-				}, {
-					"x": "C"
-				}, {
-					"x": "D"
-				}, {
-					"x": "E"
-				}, {
-					"x": "F"
-				}, {
-					"x": "G"
-				}, {
-					"x": "H"
-				}
-		    ]
+			"x": "E",
+			"isStartingZone": true
 		}, {
-			"y": 6,
-			"tiles": [
-				{
-					"x": "A",
-					"terrain": "blocking"
-				}, {
-					"x": "B",
-					"terrain": "blocking"
-				}, {
-					"x": "C"
-				}, {
-					"x": "D"
-				}, {
-					"x": "E"
-				}, {
-					"x": "F"
-				}, {
-					"x": "G",
-					"terrain": "blocking"
-				}, {
-					"x": "H",
-					"terrain": "blocking"
-				}
-			]
+			"x": "F",
+			"isStartingZone": true
 		}, {
-			"y": 7,
-			"tiles": [
-				{
-					"x": "A"
-				}, {
-					"x": "B",
-					"terrain": "blocking"
-				}, {
-					"x": "C"
-				}, {
-					"x": "D"
-				}, {
-					"x": "E"
-				}, {
-					"x": "F"
-				}, {
-					"x": "G",
-					"terrain": "blocking"
-				}, {
-					"x": "H"
-				}
-			]
+			"x": "G",
+			"isStartingZone": true
 		}, {
-			"y": 8,
-			"tiles": [
-				{
-					"x": "A",
-					"isStartingZone": true
-				}, {
-					"x": "B",
-					"isStartingZone": true
-				}, {
-					"x": "C",
-					"isStartingZone": true
-				}, {
-					"x": "D",
-					"isStartingZone": true
-				}, {
-					"x": "E",
-					"isStartingZone": true
-				}, {
-					"x": "F",
-					"isStartingZone": true
-				}, {
-					"x": "G",
-					"isStartingZone": true
-				}, {
-					"x": "H",
-					"isStartingZone": true
-				}
-			]
-		}
-	],
-	"ramps": [
-		{
-			"x0": 2,
-			"y0": 2,
-			"x1": 2,
-			"y1": 3
+			"x": "H",
+			"isStartingZone": true
+		}]
+	}, {
+		"y": 2,
+		"tiles": [{
+			"x": "A"
 		}, {
-			"x0": 3,
-			"y0": 2,
-			"x1": 3,
-			"y1": 3
+			"x": "B",
+			"terrain": "blocking"
 		}, {
-			"x0": 4,
-			"y0": 2,
-			"x1": 4,
-			"y1": 3
+			"x": "C",
+			"elevation": 2
 		}, {
-			"x0": 5,
-			"y0": 2,
-			"x1": 5,
-			"y1": 3
-		}
-	]
+			"x": "D",
+			"terrain": "hindering",
+			"elevation": 2
+		}, {
+			"x": "E",
+			"terrain": "hindering",
+			"elevation": 2
+		}, {
+			"x": "F",
+			"elevation": 2
+		}, {
+			"x": "G",
+			"terrain": "blocking"
+		}, {
+			"x": "H"
+		}]
+	}, {
+		"y": 3,
+		"tiles": [{
+			"x": "A"
+		}, {
+			"x": "B",
+			"terrain": "blocking"
+		}, {
+			"x": "C",
+			"elevation": 2
+		}, {
+			"x": "D",
+			"elevation": 2
+		}, {
+			"x": "E",
+			"elevation": 2
+		}, {
+			"x": "F",
+			"elevation": 2
+		}, {
+			"x": "G",
+			"terrain": "blocking"
+		}, {
+			"x": "H"
+		}]
+	}, {
+		"y": 4,
+		"tiles": [{
+			"x": "A"
+		}, {
+			"x": "B",
+			"terrain": "hindering"
+		}, {
+			"x": "C"
+		}, {
+			"x": "D"
+		}, {
+			"x": "E"
+		}, {
+			"x": "F"
+		}, {
+			"x": "G",
+			"terrain": "hindering"
+		}, {
+			"x": "H"
+		}]
+	}, {
+		"y": 5,
+		"tiles": [{
+			"x": "A"
+		}, {
+			"x": "B"
+		}, {
+			"x": "C"
+		}, {
+			"x": "D"
+		}, {
+			"x": "E"
+		}, {
+			"x": "F"
+		}, {
+			"x": "G"
+		}, {
+			"x": "H"
+		}]
+	}, {
+		"y": 6,
+		"tiles": [{
+			"x": "A",
+			"terrain": "blocking"
+		}, {
+			"x": "B",
+			"terrain": "blocking"
+		}, {
+			"x": "C"
+		}, {
+			"x": "D"
+		}, {
+			"x": "E"
+		}, {
+			"x": "F"
+		}, {
+			"x": "G",
+			"terrain": "blocking"
+		}, {
+			"x": "H",
+			"terrain": "blocking"
+		}]
+	}, {
+		"y": 7,
+		"tiles": [{
+			"x": "A"
+		}, {
+			"x": "B",
+			"terrain": "blocking"
+		}, {
+			"x": "C"
+		}, {
+			"x": "D"
+		}, {
+			"x": "E"
+		}, {
+			"x": "F"
+		}, {
+			"x": "G",
+			"terrain": "blocking"
+		}, {
+			"x": "H"
+		}]
+	}, {
+		"y": 8,
+		"tiles": [{
+			"x": "A",
+			"isStartingZone": true
+		}, {
+			"x": "B",
+			"isStartingZone": true
+		}, {
+			"x": "C",
+			"isStartingZone": true
+		}, {
+			"x": "D",
+			"isStartingZone": true
+		}, {
+			"x": "E",
+			"isStartingZone": true
+		}, {
+			"x": "F",
+			"isStartingZone": true
+		}, {
+			"x": "G",
+			"isStartingZone": true
+		}, {
+			"x": "H",
+			"isStartingZone": true
+		}]
+	}],
+	"ramps": [{
+		"x0": 2,
+		"y0": 2,
+		"x1": 2,
+		"y1": 3
+	}, {
+		"x0": 3,
+		"y0": 2,
+		"x1": 3,
+		"y1": 3
+	}, {
+		"x0": 4,
+		"y0": 2,
+		"x1": 4,
+		"y1": 3
+	}, {
+		"x0": 5,
+		"y0": 2,
+		"x1": 5,
+		"y1": 3
+	}]
 }

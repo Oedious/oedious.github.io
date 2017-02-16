@@ -1,14 +1,16 @@
 {
 	"name": "Pacific Ocean",
 	"set": "Fear Itself",
+	"source": "Fear Itself: Month 5 OP Kit",
 	"type": "outdoor",
 	"width": 16,
 	"height": 24,
-	"defaultTerrain": "water",
+	"date": "October 2013",
 	"special": [
 		"OCEAN DEPTHS: Characters ignore the water terrain for movement purposes. Characters that can use the Swim ability modify their speed value by +2 and can use Improved Movement: Ignores Hindering, Ignores Elevated, and Ignores Characters.",
 		"NERKKOD'S HAMMER IMPACT ZONE: (Not for Tournament Play) Orange squares are IMPACT ZONE squares. Before the beginning of the game either player may place a Fear Itself S105 Nerkkod's Hammer from outside the game in the Impact Zone. While that object occupies the Impact Zone, characters within 6 squares of the Impact Zone have (Foot Symbol)."
 	],
+	"defaultTerrain": "water",
 	"rows": [{
 		"y": 1,
 		"tiles": [{

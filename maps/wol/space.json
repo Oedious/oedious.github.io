@@ -1,9 +1,11 @@
 {
 	"name": "Space",
 	"set": "War of Light",
+	"source": "War of Light: Month 3 OP Kit",
 	"type": "outdoor",
 	"width": 16,
 	"height": 24,
+	"date": "August 2014",
 	"special": ["LOW GRAVITY: All characters can use Improved Movement: Ignores Elevated Terrain"],
 	"rows": [{
 		"y": 1,

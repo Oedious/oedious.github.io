@@ -931,7 +931,7 @@
         "id": "watxm0",
         "name": "Danger Room",
         "set": "Wolverine and the X-Men",
-        "type": "",
+        "type": "indoor",
         "width": 16,
         "height": 24,
         "file": "maps/watxm/danger_room.json"

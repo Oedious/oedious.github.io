@@ -1,9 +1,11 @@
 {
 	"name": "Negative Zone Prison",
 	"set": "Chaos War",
+	"source": "Chaos War: OP Kit",
 	"type": "indoor",
 	"width": 16,
 	"height": 24,
+	"date": "July 2012",
 	"special": ["Special Rules: Orange squares are Negative Zone Terrain. These squares are treated as blocking terrain and cannot be destroyed."],
 	"rows": [{
 		"y": 1,

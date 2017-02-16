@@ -1,9 +1,11 @@
 {
 	"name": "Fortress of Solitude",
 	"set": "Superman",
+	"source": "Superman: OP Kit",
 	"type": "indoor",
 	"width": 16,
 	"height": 24,
+	"date": "September 2011",
 	"defaultElevation": 3,
 	"rows": [{
 		"y": 1,

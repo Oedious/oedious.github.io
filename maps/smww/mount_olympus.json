@@ -1,11 +1,13 @@
 {
 	"name": "Mount Olympus",
 	"set": "Superman/Wonder Woman",
+	"source": "Superman/Wonder Woman: OP Kit",
 	"type": "outdoor",
 	"width": 16,
 	"height": 24,
-	"defaultElevation": 2,
+	"date": "November 2015",
 	"special": ["TEMPLE OF MOUNT OLYMPUS: These squares are Blocking Terrain that can't be destroyed or replaced. Characters can't use Improved Movement or Improved Targetting to ignore the terrain."],
+	"defaultElevation": 2,
 	"rows": [{
 		"y": 1,
 		"tiles": [{

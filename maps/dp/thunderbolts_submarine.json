@@ -1,10 +1,12 @@
 {
 	"name": "Thunderbolts' Submarine",
 	"set": "Deadpool",
+	"source": "Fast Forces: Thunderbolts",
 	"type": "indoor",
-	"special": ["UNDERWATER: Orange squares are Underwater squares: they are blocking terrain and can't be destroyed. Walls bordering Underwater squares are Hull. When a character misses with a ranged combat attack that would deal damage, extend the line of fire from the attacker to each missed target until it would be blocked by a wall. If that wall is a Hull, the wall is destroyed. Whenever a Hull is destroyed for any reason, place a water terrain marker instead of a debris marker in the adjacent square that is not Underwater terrain. At the beginning of each player's turn, that player rolls a d6, subtracts 2 (minimum 0), and then places that many water terrain markers in squares adjacent to other water terrain markers placed as a result of a broken wall."],
 	"width": 16,
 	"height": 24,
+	"date": "May 2014",
+	"special": ["UNDERWATER: Orange squares are Underwater squares: they are blocking terrain and can't be destroyed. Walls bordering Underwater squares are Hull. When a character misses with a ranged combat attack that would deal damage, extend the line of fire from the attacker to each missed target until it would be blocked by a wall. If that wall is a Hull, the wall is destroyed. Whenever a Hull is destroyed for any reason, place a water terrain marker instead of a debris marker in the adjacent square that is not Underwater terrain. At the beginning of each player's turn, that player rolls a d6, subtracts 2 (minimum 0), and then places that many water terrain markers in squares adjacent to other water terrain markers placed as a result of a broken wall."],
 	"rows": [{
 		"y": 1,
 		"tiles": [{

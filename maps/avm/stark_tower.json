@@ -1,9 +1,11 @@
 {
 	"name": "Stark Tower",
 	"set": "Avengers Movie",
+	"source": "Avengers Movie Starter",
 	"type": "outdoor",
 	"width": 16,
 	"height": 24,
+	"date": "April 2012",
 	"special": ["Special Rules: Orange squares are City Below Squares. At the end of each turn, if a character that can't use the Flight ability is occupying one of these squares, place them in the nearest non-orange square that they can be placed in and give them an action token."],
 	"rows": [{
 		"y": 1,

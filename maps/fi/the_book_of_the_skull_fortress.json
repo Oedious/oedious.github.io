@@ -1,9 +1,11 @@
 {
 	"name": "The Book of the Skull Fortress",
 	"set": "Fear Itself",
+	"source": "Fear Itself: Month 1 OP Kit",
 	"type": "indoor",
 	"width": 16,
 	"height": 24,
+	"date": "June 2013",
 	"special": ["SECURITY DRONES: (Not for Tournament Play) Orange squares are Security Drone squares. After any action resolves, if the character given the action moved into or through a square within 2 squares of a Security Drone, that drone makes a ranged combat attack targeting that character with 9 attack, 2 damage. This attack does not need range or line of fire."],
 	"defaultElevation": 2,
 	"rows": [{

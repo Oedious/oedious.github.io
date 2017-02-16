@@ -1,9 +1,11 @@
 {
 	"name": "Rooftops of Gotham City",
 	"set": "Justice League 52",
+	"source": "Fast Forces: Justice League 52",
 	"type": "outdoor",
 	"width": 16,
 	"height": 24,
+	"date": "August 2012",
 	"special": ["Street Terrain: If a character that can't use Leap/Climb, Phasing/Teleport, Flight or Great Size occupies Street Terrain after actions resolve, deal that character 1 unavoidable damage and then the character's controller places the character in their starting area."],
 	"rows": [{
 		"y": 1,

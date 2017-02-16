@@ -1,10 +1,12 @@
 {
 	"name": "Royal Naval Academy",
 	"set": "Thor: The Dark World",
+	"source": "Thor: The Dark World Starter",
 	"type": "outdoor",
-	"special": ["INTERDIMENSIONAL PORTAL: Orange squares are Portal squares. Portal squares are hindering terrain. For other exciting scenarioes, check the scenario sheet included in this starter!"],
 	"width": 16,
 	"height": 24,
+	"date": "October 2013",
+	"special": ["INTERDIMENSIONAL PORTAL: Orange squares are Portal squares. Portal squares are hindering terrain. For other exciting scenarioes, check the scenario sheet included in this starter!"],
 	"rows": [{
 		"y": 1,
 		"tiles": [{

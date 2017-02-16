@@ -1,9 +1,11 @@
 {
 	"name": "Blackgate Prison: Post-Cataclysm",
 	"set": "Batman: No Man's Land",
+	"source": "Batman: No Man's Land: Month 1 OP Kit",
 	"type": "indoor",
 	"width": 16,
 	"height": 24,
+	"date": "November 2012",
 	"special": ["Special Rules: Orange squares are Bridge terrain. Bridge terrain is elevated terrain (level 2). Characters occupying grounded terrain that draw a line of fire to a game element that occupies the same elevation ignoring the Bridge terrain and anything occupying Bridge terrain for line of fire purposes. Characters that begin to move on a lower elevation ignoring the Bridge terrain and anything occupying Bridge terrain for movement purposes: these characters cannot end their movement in a square of Bridge terrain unless they can use a game effect that allows them to ignore elevation for movement purposes or move through a square of elevation level 2 terrain immediately prior to moving into Bridge terrain."],
 	"defaultElevation": 2,
 	"rows": [{

@@ -2,9 +2,10 @@
 	"name": "Prison 42",
 	"set": "Civil War: Storyline Organized Play",
 	"type": "indoor",
-	"special": ["SPECIAL RULES: For a 4-Player game, players start in the Starting Areas indicated by (purple dotted line) and (orange dotted line) is considered the edge of the map."],
 	"width": 16,
 	"height": 24,
+	"date": "June 2016",
+	"special": ["SPECIAL RULES: For a 4-Player game, players start in the Starting Areas indicated by (purple dotted line) and (orange dotted line) is considered the edge of the map."],
 	"rows": [{
 		"y": 1,
 		"tiles": [{

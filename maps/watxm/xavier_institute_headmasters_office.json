@@ -1,9 +1,11 @@
 {
 	"name": "Xavier Institute: Headmaster's Office",
 	"set": "Wolverine and the X-Men",
+	"source": "Wolverine and the X-Men: Super Booster",
 	"type": "indoor",
 	"width": 8,
 	"height": 8,
+	"date": "August 2013",
 	"rows": [{
 		"y": 1,
 		"tiles": [{

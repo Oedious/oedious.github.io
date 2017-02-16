@@ -1,9 +1,11 @@
 {
 	"name": "Quinjet Hangar",
 	"set": "Chaos War",
+	"source": "Fast Forces: Chaos War",
 	"type": "indoor",
 	"width": 16,
 	"height": 24,
+	"date": "July 2012",
 	"rows": [{
 		"y": 1,
 		"tiles": [{

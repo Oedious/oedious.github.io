@@ -1,9 +1,11 @@
 {
 	"name": "Karnak",
 	"set": "Watchmen",
+	"source": "Fast Forces: Watchmen",
 	"type": "indoor",
 	"width": 16,
 	"height": 24,
+	"date": "July 2011",
 	"special": ["Special Rules: Orange squares are Intrinsic Field Subtractor Squares. After an action resolves, if during that action a character moved into an orange square, roll a d6 for each character that did so. On a roll of 1-3, deal that character 1 penetrating damage. On a roll of 4-6, heal that character of 1 damage."],
 	"rows": [{
 		"y": 1,

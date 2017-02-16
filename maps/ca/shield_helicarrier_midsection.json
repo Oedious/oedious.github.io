@@ -1,15 +1,16 @@
 {
 	"name": "S.H.I.E.L.D. Helicarrier Midsection Map S-2",
 	"set": "Captain America",
+	"source": "Captain America: OP Kit",
 	"type": "indoorOutdoor",
 	"width": 16,
 	"height": 24,
+	"date": "July 2011",
 	"special": [
 		"Stair Squares: If you are using map S-4, you may give a character occupying this square a power action and place them in the corresponding square on that map. If that square is occupied, place the character in the nearest square they could be placed in.",
 		"Balcony Below Squares: If you are using map S-4, you may give a character occupying this square a power action and roll a d6, adding 1 to the result if they can use the Flight ability. On a result of 4-6 place them in the corresponding square on that map. If that square is occupied, place the character in the nearest square they could be placed in."
 	],
 	"defaultType": "outdoor",
-	"year": "2011",
 	"rows": [{
 		"y": 1,
 		"tiles": [{

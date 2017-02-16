@@ -1,9 +1,11 @@
 {
 	"name": "Oa Central Battery Plaza",
 	"set": "War of Light",
+	"source": "Sinestro Corps War Scenario Pack",
 	"type": "outdoor",
 	"width": 16,
 	"height": 24,
+	"date": "June 2014",
 	"special": ["POWER BATTERY: Orange squares are Power Battery squares. The player who chose this map may choose to place a WOL #R100 Power Battery (Green Lantern Corps) that is already part of his or her force in the Power Battery squares, but only if its Emotional Spectrum trait is active. Once a Power Battery has been placed, no other player may place one. At the end of the Power Battery player's turn, roll a d6 and on a result of 5-6, you may remove 1 action token from a friendly Corps Member that currently has 2. NOT FOR TOURNAMENT PLAY."],
 	"rows": [{
 		"y": 1,

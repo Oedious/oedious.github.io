@@ -1,10 +1,12 @@
 {
 	"name": "Hall of Doom",
 	"set": "Superman and the Legion of Super-Heroes",
+	"source": "Fast Forces: Legion of Doom",
 	"type": "indoorOutdoor",
-	"defaultType": "indoor",
 	"width": 16,
 	"height": 24,
+	"date": "February 2014",
+	"defaultType": "indoor",
 	"rows": [{
 		"y": 1,
 		"tiles": [{

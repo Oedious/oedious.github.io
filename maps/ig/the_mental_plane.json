@@ -1,9 +1,11 @@
 {
 	"name": "The Mental Plane",
 	"set": "The Infinity Gauntlet",
+	"source": "The Infinity Gauntlet: Month 7 OP Kit",
 	"type": "outdoor",
 	"width": 16,
 	"height": 24,
+	"date": "July 2012",
 	"rows": [{
 		"y": 1,
 		"tiles": [{

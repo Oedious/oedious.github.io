@@ -1,10 +1,12 @@
 {
 	"name": "Apokolips",
 	"set": "Superman and the Legion of Super-Heroes",
+	"source": "Superman and the Legion of Super-Heroes: OP Kit",
 	"type": "outdoor",
-	"special": ["FIRES OF APOKOLIPS: Orange squares are Fire squares. Fire squares are blocking terrain but can't be destroyed."],
 	"width": 16,
 	"height": 24,
+	"date": "February 2014",
+	"special": ["FIRES OF APOKOLIPS: Orange squares are Fire squares. Fire squares are blocking terrain but can't be destroyed."],
 	"rows": [{
 		"y": 1,
 		"tiles": [{

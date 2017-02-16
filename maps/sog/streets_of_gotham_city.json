@@ -1,9 +1,11 @@
 {
 	"name": "Streets of Gotham City",
 	"set": "Batman: Streets of Gotham",
+	"source": "Batman: Streets of Gotham: OP Kit",
 	"type": "outdoor",
 	"width": 16,
 	"height": 24,
+	"date": "December 2012",
 	"special": ["Special Rules: Orange squares are Manhole squares. If you are also playing with the Killer Croc Sewer Lair map, you may give a character occupying this square a power action and place that character in the corresponding square on that map. If that square is occupied, place that character in the nearest square it could be placed in."],
 	"rows": [{
 		"y": 1,

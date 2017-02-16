@@ -1,9 +1,11 @@
 {
 	"name": "Ranx",
 	"set": "War of Light",
+	"source": "Sinestro Corps War Scenario Pack",
 	"type": "indoor",
 	"width": 16,
 	"height": 24,
+	"date": "June 2014",
 	"special": ["PLASMA PILLARS: Orange squares are Plasma Pillar squares. During the beginning of your turn, any hindering or blocking terrain markers in Plasma Pillar squares are removed from the game and any character occupying a Plasma Pillar square is dealt 1 unavoidable damage for each action token they are currently assigned."],
 	"rows": [{
 		"y": 1,

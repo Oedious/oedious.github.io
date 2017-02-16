@@ -1,9 +1,11 @@
 {
 	"name": "Nexus of Reality",
 	"set": "The Infinity Gauntlet",
+	"source": "The Infinity Gauntlet: Month 1 OP Kit",
 	"type": "outdoor",
 	"width": 16,
 	"height": 24,
+	"date": "January 2012",
 	"special": ["Special Rules: Caught in the Nexus: Orange squares are treated as clear terrain. Characters occupying orange squares can't be given Close Combat Actions, Ranged Combat Actions, or Power Actions, but can break away automatically."],
 	"rows": [{
 		"y": 1,

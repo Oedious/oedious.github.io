@@ -1,210 +1,194 @@
 {
 	"name": "Nova Roma",
 	"set": "Wolverine and the X-Men",
+	"source": "Wolverine and the X-Men: Super Booster",
 	"type": "indoor",
 	"width": 8,
 	"height": 8,
-	"rows": [
-		{
-			"y": 1,
-			"tiles": [
-				{
-					"x": "A",
-					"isStartingZone": true
-				}, {
-					"x": "B",
-					"isStartingZone": true
-				}, {
-					"x": "C",
-					"isStartingZone": true
-				}, {
-					"x": "D",
-					"isStartingZone": true
-				}, {
-					"x": "E",
-					"isStartingZone": true
-				}, {
-					"x": "F",
-					"isStartingZone": true
-				}, {
-					"x": "G",
-					"isStartingZone": true
-				}, {
-					"x": "H",
-					"isStartingZone": true
-				}
-			]
+	"date": "August 2013",
+	"rows": [{
+		"y": 1,
+		"tiles": [{
+			"x": "A",
+			"isStartingZone": true
 		}, {
-			"y": 2,
-			"tiles": [
-				{
-					"x": "A"
-				}, {
-					"x": "B",
-					"terrain": "blocking"
-				}, {
-					"x": "C"
-				}, {
-					"x": "D"
-				}, {
-					"x": "E"
-				}, {
-					"x": "F"
-				}, {
-					"x": "G",
-					"terrain": "blocking"
-				}, {
-					"x": "H"
-				}
-			]
+			"x": "B",
+			"isStartingZone": true
 		}, {
-			"y": 3,
-			"tiles": [
-				{
-					"x": "A"
-				}, {
-					"x": "B"
-				}, {
-					"x": "C"
-				}, {
-					"x": "D",
-					"terrain": "water"
-				}, {
-					"x": "E",
-					"terrain": "water"
-				}, {
-					"x": "F"
-				}, {
-					"x": "G"
-				}, {
-					"x": "H"
-				}
-			]
+			"x": "C",
+			"isStartingZone": true
 		}, {
-			"y": 4,
-			"tiles": [
-				{
-					"x": "A",
-					"terrain": "hindering"
-				}, {
-					"x": "B"
-				}, {
-					"x": "C"
-				}, {
-					"x": "D",
-					"terrain": "water"
-				}, {
-					"x": "E",
-					"terrain": "water"
-				}, {
-					"x": "F"
-				}, {
-					"x": "G"
-				}, {
-					"x": "H",
-					"terrain": "hindering"
-				}
-			]
+			"x": "D",
+			"isStartingZone": true
 		}, {
-			"y": 5,
-			"tiles": [
-				{
-					"x": "A",
-					"terrain": "hindering"
-				}, {
-					"x": "B"
-				}, {
-					"x": "C"
-				}, {
-					"x": "D",
-					"terrain": "water"
-				}, {
-					"x": "E",
-					"terrain": "water"
-				}, {
-					"x": "F"
-				}, {
-					"x": "G"
-				}, {
-					"x": "H",
-					"terrain": "hindering"
-				}
-		    ]
+			"x": "E",
+			"isStartingZone": true
 		}, {
-			"y": 6,
-			"tiles": [
-				{
-					"x": "A"
-				}, {
-					"x": "B"
-				}, {
-					"x": "C"
-				}, {
-					"x": "D",
-					"terrain": "water"
-				}, {
-					"x": "E",
-					"terrain": "water"
-				}, {
-					"x": "F"
-				}, {
-					"x": "G"
-				}, {
-					"x": "H"
-				}
-			]
+			"x": "F",
+			"isStartingZone": true
 		}, {
-			"y": 7,
-			"tiles": [
-				{
-					"x": "A"
-				}, {
-					"x": "B",
-					"terrain": "blocking"
-				}, {
-					"x": "C"
-				}, {
-					"x": "D"
-				}, {
-					"x": "E"
-				}, {
-					"x": "F"
-				}, {
-					"x": "G",
-					"terrain": "blocking"
-				}, {
-					"x": "H"
-				}
-			]
+			"x": "G",
+			"isStartingZone": true
 		}, {
-			"y": 8,
-			"tiles": [
-				{
-					"x": "A",
-					"isStartingZone": true
-				}, {
-					"x": "B",
-					"isStartingZone": true
-				}, {
-					"x": "C",
-					"isStartingZone": true
-				}, {
-					"x": "D",
-					"isStartingZone": true
-				}, {
-					"x": "E",
-					"isStartingZone": true
-				}, {
-					"x": "F",
-					"isStartingZone": true
-				}, {
-					"x": "G",
-					"isStartingZone": true
-				}, {
-					"x": "H",
-					"isStartingZone": true
-				}
-			]
-		}
-	]
+			"x": "H",
+			"isStartingZone": true
+		}]
+	}, {
+		"y": 2,
+		"tiles": [{
+			"x": "A"
+		}, {
+			"x": "B",
+			"terrain": "blocking"
+		}, {
+			"x": "C"
+		}, {
+			"x": "D"
+		}, {
+			"x": "E"
+		}, {
+			"x": "F"
+		}, {
+			"x": "G",
+			"terrain": "blocking"
+		}, {
+			"x": "H"
+		}]
+	}, {
+		"y": 3,
+		"tiles": [{
+			"x": "A"
+		}, {
+			"x": "B"
+		}, {
+			"x": "C"
+		}, {
+			"x": "D",
+			"terrain": "water"
+		}, {
+			"x": "E",
+			"terrain": "water"
+		}, {
+			"x": "F"
+		}, {
+			"x": "G"
+		}, {
+			"x": "H"
+		}]
+	}, {
+		"y": 4,
+		"tiles": [{
+			"x": "A",
+			"terrain": "hindering"
+		}, {
+			"x": "B"
+		}, {
+			"x": "C"
+		}, {
+			"x": "D",
+			"terrain": "water"
+		}, {
+			"x": "E",
+			"terrain": "water"
+		}, {
+			"x": "F"
+		}, {
+			"x": "G"
+		}, {
+			"x": "H",
+			"terrain": "hindering"
+		}]
+	}, {
+		"y": 5,
+		"tiles": [{
+			"x": "A",
+			"terrain": "hindering"
+		}, {
+			"x": "B"
+		}, {
+			"x": "C"
+		}, {
+			"x": "D",
+			"terrain": "water"
+		}, {
+			"x": "E",
+			"terrain": "water"
+		}, {
+			"x": "F"
+		}, {
+			"x": "G"
+		}, {
+			"x": "H",
+			"terrain": "hindering"
+		}]
+	}, {
+		"y": 6,
+		"tiles": [{
+			"x": "A"
+		}, {
+			"x": "B"
+		}, {
+			"x": "C"
+		}, {
+			"x": "D",
+			"terrain": "water"
+		}, {
+			"x": "E",
+			"terrain": "water"
+		}, {
+			"x": "F"
+		}, {
+			"x": "G"
+		}, {
+			"x": "H"
+		}]
+	}, {
+		"y": 7,
+		"tiles": [{
+			"x": "A"
+		}, {
+			"x": "B",
+			"terrain": "blocking"
+		}, {
+			"x": "C"
+		}, {
+			"x": "D"
+		}, {
+			"x": "E"
+		}, {
+			"x": "F"
+		}, {
+			"x": "G",
+			"terrain": "blocking"
+		}, {
+			"x": "H"
+		}]
+	}, {
+		"y": 8,
+		"tiles": [{
+			"x": "A",
+			"isStartingZone": true
+		}, {
+			"x": "B",
+			"isStartingZone": true
+		}, {
+			"x": "C",
+			"isStartingZone": true
+		}, {
+			"x": "D",
+			"isStartingZone": true
+		}, {
+			"x": "E",
+			"isStartingZone": true
+		}, {
+			"x": "F",
+			"isStartingZone": true
+		}, {
+			"x": "G",
+			"isStartingZone": true
+		}, {
+			"x": "H",
+			"isStartingZone": true
+		}]
+	}]
 }

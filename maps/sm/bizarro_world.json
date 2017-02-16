@@ -1,9 +1,11 @@
 {
 	"name": "Bizarro World",
 	"set": "Superman",
+	"source": "Fast Forces: Battle for Smallville",
 	"type": "outdoor",
 	"width": 16,
 	"height": 24,
+	"date": "September 2011",
 	"rows": [{
 		"y": 1,
 		"tiles": [{

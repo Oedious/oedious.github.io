@@ -1,11 +1,13 @@
 {
 	"name": "Gotham City Waterfront: Post-Cataclysm",
 	"set": "Batman: No Man's Land",
+	"source": "Batman: No Man's Land: Month 5 OP Kit",
 	"type": "indoorOutdoor",
 	"width": 16,
 	"height": 24,
-	"defaultType": "outdoor",
+	"date": "April 2013",
 	"special": ["Special Rules: Orange squares are Fire terrain. These squares are treated as blocking terrain and cannot be destroyed."],
+	"defaultType": "outdoor",
 	"rows": [{
 		"y": 1,
 		"tiles": [{

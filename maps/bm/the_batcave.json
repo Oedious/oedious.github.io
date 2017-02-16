@@ -1,9 +1,11 @@
 {
 	"name": "The Batcave",
 	"set": "Batman",
+	"source": "Batman: OP Kit",
 	"type": "indoor",
 	"width": 16,
 	"height": 24,
+	"date": "November 2012",
 	"special": ["Special Rules: Orange squares are Bat-pole squares. If you are also playing with the Wayne Manor map, you may give a character occupying this square a power action and place that character in the corresponding square on that map. If that square is occupied, place that character in the nearest square it could be placed in."],
 	"rows": [{
 		"y": 1,

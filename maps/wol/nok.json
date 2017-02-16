@@ -1,13 +1,15 @@
 {
 	"name": "Nok",
 	"set": "War of Light",
+	"source": "War of Light: Month 5 OP Kit",
 	"type": "indoor",
+	"width": 16,
+	"height": 24,
+	"date": "October 2014",
 	"special": [
 		"OPEN AIR (solid orange line): Orange squares are Open Air squares. After actions resolve, if a character who can't use the Flight ability occupies an Open Air square, deal them 1 unavoidable damage, then that character's owner places them in their starting area. Non-held objects in Open Air squares are removed from the map.",
 		"POWER BATTERY (dashed orange line): Orange squares are Power Battery squares. The player who chose this map may choose to place a WOL #R104 Power Battery (Indigo Tribe) that is already part of his or her force in the Power Battery squares, but only if its Emotional Spectrum trait is active. Once a Power Battery has been placed, no other player may place one. When a Corps Member friendly to the Power Battery uses Support, add 1 to the amount healed. NOT FOR TOURNAMENT PLAY."
 	],
-	"width": 16,
-	"height": 24,
 	"rows": [{
 		"y": 1,
 		"tiles": [{

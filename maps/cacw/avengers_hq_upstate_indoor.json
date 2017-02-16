@@ -1,12 +1,14 @@
 {
 	"name": "Avengers HQ Upstate",
 	"set": "Captain America: Civil War",
+	"source": "Captain America: Civil War Starter",
 	"type": "indoor",
 	"width": 16,
 	"height": 24,
+	"date": "April 2016",
+	"special": ["GLASS WALLS (orange dotted line): Glass Walls are walls that do not block line of fire. After an attack resolves, destroy all glass walls which had a line of fire drawn through them by that attack."],
 	"defaultElevation": 2,
 	"defaultWallType": "glass",
-	"special": ["GLASS WALLS (orange dotted line): Glass Walls are walls that do not block line of fire. After an attack resolves, destroy all glass walls which had a line of fire drawn through them by that attack."],
 	"rows": [{
 		"y": 1,
 		"tiles": [{

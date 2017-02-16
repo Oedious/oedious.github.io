@@ -1,9 +1,11 @@
 {
 	"name": "Svartalfheim",
 	"set": "Fear Itself",
+	"source": "Fear Itself: The Mighty Scenario Pack",
 	"type": "indoor",
 	"width": 16,
 	"height": 24,
+	"date": "August 2013",
 	"special": ["URU FORGE: Orange squares are Uru Forge squares. At the beginning of your turn, friendly characters occupying Uru Forge squares are dealt 1 unavoidable damage and are given an Uru token. Characters modify their attack and defense values by -1 for each Uru token they are assigned. When a character takes damage from an attack, remove all Uru tokens from that character."],
 	"rows": [{
 		"y": 1,

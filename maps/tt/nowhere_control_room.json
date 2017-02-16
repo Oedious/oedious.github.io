@@ -1,223 +1,205 @@
 {
 	"name": "N.O.W.H.E.R.E. Control Room",
 	"set": "Teen Titans",
+	"source": "Teen Titans: Super Booster",
 	"type": "indoor",
 	"width": 8,
 	"height": 8,
-	"rows": [
-		{
-			"y": 1,
-			"tiles": [
-				{
-					"x": "A",
-					"isStartingZone": true
-				}, {
-					"x": "B",
-					"isStartingZone": true
-				}, {
-					"x": "C",
-					"isStartingZone": true
-				}, {
-					"x": "D",
-					"isStartingZone": true
-				}, {
-					"x": "E"
-				}, {
-					"x": "F"
-				}, {
-					"x": "G"
-				}, {
-					"x": "H"
-				}
-			]
+	"date": "May 2013",
+	"rows": [{
+		"y": 1,
+		"tiles": [{
+			"x": "A",
+			"isStartingZone": true
 		}, {
-			"y": 2,
-			"tiles": [
-				{
-					"x": "A",
-					"isStartingZone": true
-				}, {
-					"x": "B",
-					"terrain": "hindering"
-				}, {
-					"x": "C"
-				}, {
-					"x": "D"
-				}, {
-					"x": "E"
-				}, {
-					"x": "F"
-				}, {
-					"x": "G",
-					"terrain": "hindering"
-				}, {
-					"x": "H"
-				}
-			]
+			"x": "B",
+			"isStartingZone": true
 		}, {
-			"y": 3,
-			"tiles": [
-				{
-					"x": "A",
-					"isStartingZone": true
-				}, {
-					"x": "B"
-				}, {
-					"x": "C"
-				}, {
-					"x": "D"
-				}, {
-					"x": "E"
-				}, {
-					"x": "F"
-				}, {
-					"x": "G"
-				}, {
-					"x": "H"
-				}
-			]
+			"x": "C",
+			"isStartingZone": true
 		}, {
-			"y": 4,
-			"tiles": [
-				{
-					"x": "A",
-					"isStartingZone": true
-				}, {
-					"x": "B"
-				}, {
-					"x": "C"
-				}, {
-					"x": "D",
-					"elevation": 2
-				}, {
-					"x": "E",
-					"elevation": 2
-				}, {
-					"x": "F"
-				}, {
-					"x": "G"
-				}, {
-					"x": "H"
-				}
-			]
+			"x": "D",
+			"isStartingZone": true
 		}, {
-			"y": 5,
-			"tiles": [
-				{
-					"x": "A"
-				}, {
-					"x": "B"
-				}, {
-					"x": "C"
-				}, {
-					"x": "D",
-					"elevation": 2
-				}, {
-					"x": "E",
-					"elevation": 2
-				}, {
-					"x": "F"
-				}, {
-					"x": "G"
-				}, {
-					"x": "H",
-					"isStartingZone": true
-				}
-		    ]
+			"x": "E"
 		}, {
-			"y": 6,
-			"tiles": [
-				{
-					"x": "A"
-				}, {
-					"x": "B"
-				}, {
-					"x": "C"
-				}, {
-					"x": "D"
-				}, {
-					"x": "E"
-				}, {
-					"x": "F"
-				}, {
-					"x": "G"
-				}, {
-					"x": "H",
-					"isStartingZone": true
-				}
-			]
+			"x": "F"
 		}, {
-			"y": 7,
-			"tiles": [
-				{
-					"x": "A"
-				}, {
-					"x": "B",
-					"terrain": "hindering"
-				}, {
-					"x": "C"
-				}, {
-					"x": "D"
-				}, {
-					"x": "E"
-				}, {
-					"x": "F"
-				}, {
-					"x": "G",
-					"terrain": "hindering"
-				}, {
-					"x": "H",
-					"isStartingZone": true
-				}
-			]
+			"x": "G"
 		}, {
-			"y": 8,
-			"tiles": [
-				{
-					"x": "A"
-				}, {
-					"x": "B"
-				}, {
-					"x": "C"
-				}, {
-					"x": "D"
-				}, {
-					"x": "E",
-					"isStartingZone": true
-				}, {
-					"x": "F",
-					"isStartingZone": true
-				}, {
-					"x": "G",
-					"isStartingZone": true
-				}, {
-					"x": "H",
-					"isStartingZone": true
-				}
-			]
-		}
-	],
-	"walls": [
-		{
-			"x0": 1,
-			"y0": 1,
-			"x1": 4,
-			"y1": 1
+			"x": "H"
+		}]
+	}, {
+		"y": 2,
+		"tiles": [{
+			"x": "A",
+			"isStartingZone": true
 		}, {
-			"x0": 1,
-			"y0": 1,
-			"x1": 1,
-			"y1": 4
+			"x": "B",
+			"terrain": "hindering"
 		}, {
-			"x0": 7,
-			"y0": 4,
-			"x1": 7,
-			"y1": 7
+			"x": "C"
 		}, {
-			"x0": 4,
-			"y0": 7,
-			"x1": 7,
-			"y1": 7
-		}
-	]
+			"x": "D"
+		}, {
+			"x": "E"
+		}, {
+			"x": "F"
+		}, {
+			"x": "G",
+			"terrain": "hindering"
+		}, {
+			"x": "H"
+		}]
+	}, {
+		"y": 3,
+		"tiles": [{
+			"x": "A",
+			"isStartingZone": true
+		}, {
+			"x": "B"
+		}, {
+			"x": "C"
+		}, {
+			"x": "D"
+		}, {
+			"x": "E"
+		}, {
+			"x": "F"
+		}, {
+			"x": "G"
+		}, {
+			"x": "H"
+		}]
+	}, {
+		"y": 4,
+		"tiles": [{
+			"x": "A",
+			"isStartingZone": true
+		}, {
+			"x": "B"
+		}, {
+			"x": "C"
+		}, {
+			"x": "D",
+			"elevation": 2
+		}, {
+			"x": "E",
+			"elevation": 2
+		}, {
+			"x": "F"
+		}, {
+			"x": "G"
+		}, {
+			"x": "H"
+		}]
+	}, {
+		"y": 5,
+		"tiles": [{
+			"x": "A"
+		}, {
+			"x": "B"
+		}, {
+			"x": "C"
+		}, {
+			"x": "D",
+			"elevation": 2
+		}, {
+			"x": "E",
+			"elevation": 2
+		}, {
+			"x": "F"
+		}, {
+			"x": "G"
+		}, {
+			"x": "H",
+			"isStartingZone": true
+		}]
+	}, {
+		"y": 6,
+		"tiles": [{
+			"x": "A"
+		}, {
+			"x": "B"
+		}, {
+			"x": "C"
+		}, {
+			"x": "D"
+		}, {
+			"x": "E"
+		}, {
+			"x": "F"
+		}, {
+			"x": "G"
+		}, {
+			"x": "H",
+			"isStartingZone": true
+		}]
+	}, {
+		"y": 7,
+		"tiles": [{
+			"x": "A"
+		}, {
+			"x": "B",
+			"terrain": "hindering"
+		}, {
+			"x": "C"
+		}, {
+			"x": "D"
+		}, {
+			"x": "E"
+		}, {
+			"x": "F"
+		}, {
+			"x": "G",
+			"terrain": "hindering"
+		}, {
+			"x": "H",
+			"isStartingZone": true
+		}]
+	}, {
+		"y": 8,
+		"tiles": [{
+			"x": "A"
+		}, {
+			"x": "B"
+		}, {
+			"x": "C"
+		}, {
+			"x": "D"
+		}, {
+			"x": "E",
+			"isStartingZone": true
+		}, {
+			"x": "F",
+			"isStartingZone": true
+		}, {
+			"x": "G",
+			"isStartingZone": true
+		}, {
+			"x": "H",
+			"isStartingZone": true
+		}]
+	}],
+	"walls": [{
+		"x0": 1,
+		"y0": 1,
+		"x1": 4,
+		"y1": 1
+	}, {
+		"x0": 1,
+		"y0": 1,
+		"x1": 1,
+		"y1": 4
+	}, {
+		"x0": 7,
+		"y0": 4,
+		"x1": 7,
+		"y1": 7
+	}, {
+		"x0": 4,
+		"y0": 7,
+		"x1": 7,
+		"y1": 7
+	}]
 }
