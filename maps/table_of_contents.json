@@ -544,6 +544,28 @@
             "modern": true
         }
     }, {
+        "name": "The Great Wall",
+        "set": "GridReality",
+        "source": "2014 ROC Map Pack",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/gr/the_great_wall.json",
+        "age": {
+            "roc": true
+        }
+    }, {
+        "name": "Arctic Outpost",
+        "set": "GridReality",
+        "source": "2014 ROC Map Pack",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/gr/arctic_outpost.json",
+        "age": {
+            "roc": true
+        }
+    }, {
         "id": "gotg0",
         "name": "Titan",
         "set": "Guardians of the Galaxy",
