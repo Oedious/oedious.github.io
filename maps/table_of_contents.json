@@ -9,7 +9,8 @@
         "file": "maps/premium/gaming_convention_hall.json",
         "age": {
             "modern": true,
-            "wko": true
+            "wko": true,
+            "roc": true
         }
     }, {
         "id": "wkp1",
@@ -21,7 +22,8 @@
         "file": "maps/premium/wizkids_office_hq.json",
         "age": {
             "modern": true,
-            "wko": true
+            "wko": true,
+            "roc": true
         }
     }, {
         "id": "wkp2",
@@ -33,7 +35,8 @@
         "file": "maps/premium/convention_center_plaza.json",
         "age": {
             "modern": true,
-            "wko": true
+            "wko": true,
+            "roc": true
         }
     }, {
         "id": "wkp3",
@@ -45,7 +48,8 @@
         "file": "maps/premium/parking_garage.json",
         "age": {
             "modern": true,
-            "wko": true
+            "wko": true,
+            "roc": true
         }
     }, {
         "id": "wkp4",
@@ -57,7 +61,8 @@
         "file": "maps/premium/cargo_ship.json",
         "age": {
             "modern": true,
-            "wko": true
+            "wko": true,
+            "roc": true
         }
     }, {
         "id": "wkp5",
@@ -69,7 +74,8 @@
         "file": "maps/premium/warehouse_5651.json",
         "age": {
             "modern": true,
-            "wko": true
+            "wko": true,
+            "roc": true
         }
     }, {
         "id": "jw0",
@@ -81,7 +87,8 @@
         "file": "maps/jw/ace_chemicals.json",
         "age": {
             "modern": true,
-            "wko": true
+            "wko": true,
+            "roc": true
         }
     }, {
         "id": "jw1",
@@ -93,7 +100,8 @@
         "file": "maps/jw/ace_street.json",
         "age": {
             "modern": true,
-            "wko": true
+            "wko": true,
+            "roc": true
         }
     }, {
         "id": "sfsm0",
@@ -105,7 +113,8 @@
         "file": "maps/sfsm/bank_heist.json",
         "age": {
             "modern": true,
-            "wko": true
+            "wko": true,
+            "roc": true
         }
     }, {
         "id": "sfsm1",
@@ -117,7 +126,8 @@
         "file": "maps/sfsm/friendly_neighborhood.json",
         "age": {
             "modern": true,
-            "wko": true
+            "wko": true,
+            "roc": true
         }
     }, {
         "id": "cwsop0",
@@ -129,7 +139,8 @@
         "file": "maps/cwsop/prison_42.json",
         "age": {
             "modern": true,
-            "wko": true
+            "wko": true,
+            "roc": true
         }
     }, {
         "id": "cwsop1",
@@ -141,7 +152,8 @@
         "file": "maps/cwsop/stamford.json",
         "age": {
             "modern": true,
-            "wko": true
+            "wko": true,
+            "roc": true
         }
     }, {
         "id": "cwsop2",
@@ -153,7 +165,8 @@
         "file": "maps/cwsop/final_battle_new_york.json",
         "age": {
             "modern": true,
-            "wko": true
+            "wko": true,
+            "roc": true
         }
     }, {
         "id": "cwsop3",
@@ -165,7 +178,8 @@
         "file": "maps/cwsop/chemical_plant.json",
         "age": {
             "modern": true,
-            "wko": true
+            "wko": true,
+            "roc": true
         }
     }, {
         "id": "uxm0",
@@ -177,7 +191,8 @@
         "file": "maps/uxm/jean_grey_school_for_higher_learning.json",
         "age": {
             "modern": true,
-            "wko": true
+            "wko": true,
+            "roc": true
         }
     }, {
         "id": "uxm1",
@@ -189,7 +204,8 @@
         "file": "maps/uxm/manhattan_bridge.json",
         "age": {
             "modern": true,
-            "wko": true
+            "wko": true,
+            "roc": true
         }
     }, {
         "id": "uxm2",
@@ -223,7 +239,8 @@
         "file": "maps/tmnt/baxters_lab.json",
         "age": {
             "modern": true,
-            "wko": true
+            "wko": true,
+            "roc": true
         }
     }, {
         "id": "tmnt1",
@@ -235,7 +252,8 @@
         "file": "maps/tmnt/turtles_lair.json",
         "age": {
             "modern": true,
-            "wko": true
+            "wko": true,
+            "roc": true
         }
     }, {
         "id": "tmnt2",
@@ -247,7 +265,8 @@
         "file": "maps/tmnt/sewers.json",
         "age": {
             "modern": true,
-            "wko": true
+            "wko": true,
+            "roc": true
         }
     }, {
         "id": "tmnt3",
@@ -259,7 +278,8 @@
         "file": "maps/tmnt/technodrome.json",
         "age": {
             "modern": true,
-            "wko": true
+            "wko": true,
+            "roc": true
         }
     }, {
         "id": "cacw0",
@@ -271,7 +291,8 @@
         "file": "maps/cacw/avengers_hq_upstate_outdoor.json",
         "age": {
             "modern": true,
-            "wko": true
+            "wko": true,
+            "roc": true
         }
     }, {
         "id": "cacw1",
@@ -283,7 +304,8 @@
         "file": "maps/cacw/avengers_hq_upstate_indoor.json",
         "age": {
             "modern": true,
-            "wko": true
+            "wko": true,
+            "roc": true
         }
     }, {
         "id": "wf0",
@@ -317,7 +339,8 @@
         "file": "maps/smww/mount_olympus.json",
         "age": {
             "modern": true,
-            "wko": true
+            "wko": true,
+            "roc": true
         }
     }, {
         "id": "smww1",
@@ -329,7 +352,8 @@
         "file": "maps/smww/the_daily_planet.json",
         "age": {
             "modern": true,
-            "wko": true
+            "wko": true,
+            "roc": true
         }
     }, {
         "id": "nfaos0",
@@ -341,7 +365,8 @@
         "file": "maps/nfaos/hydra_island.json",
         "age": {
             "modern": true,
-            "wko": true
+            "wko": true,
+            "roc": true
         }
     }, {
         "id": "nfaos1",
@@ -353,7 +378,8 @@
         "file": "maps/nfaos/nick_furys_safehouse.json",
         "age": {
             "modern": true,
-            "wko": true
+            "wko": true,
+            "roc": true
         }
     }, {
         "id": "aou0",
@@ -365,7 +391,8 @@
         "file": "maps/aou/hank_pyms_lab.json",
         "age": {
             "modern": true,
-            "wko": true
+            "wko": true,
+            "roc": true
         }
     }, {
         "id": "aou1",
@@ -377,7 +404,8 @@
         "file": "maps/aou/thebes_egypt.json",
         "age": {
             "modern": true,
-            "wko": true
+            "wko": true,
+            "roc": true
         }
     }, {
         "id": "aou2",
@@ -389,7 +417,8 @@
         "file": "maps/aou/new_timbetpal.json",
         "age": {
             "modern": true,
-            "wko": true
+            "wko": true,
+            "roc": true
         }
     }, {
         "id": "aou3",
@@ -401,7 +430,8 @@
         "file": "maps/aou/new_york_city.json",
         "age": {
             "modern": true,
-            "wko": true
+            "wko": true,
+            "roc": true
         }
     }, {
         "id": "avas0",
@@ -413,7 +443,8 @@
         "file": "maps/avas/arcades_arena.json",
         "age": {
             "modern": true,
-            "wko": true
+            "wko": true,
+            "roc": true
         }
     }, {
         "id": "avas1",
@@ -425,7 +456,8 @@
         "file": "maps/avas/avengers_compound.json",
         "age": {
             "modern": true,
-            "wko": true
+            "wko": true,
+            "roc": true
         }
     }, {
         "id": "aaou0",
@@ -437,7 +469,8 @@
         "file": "maps/aaou/struckers_fortress.json",
         "age": {
             "modern": true,
-            "wko": true
+            "wko": true,
+            "roc": true
         }
     }, {
         "id": "aaou1",
@@ -449,7 +482,8 @@
         "file": "maps/aaou/avengers_tower.json",
         "age": {
             "modern": true,
-            "wko": true
+            "wko": true,
+            "roc": true
         }
     }, {
         "id": "jltw0",
@@ -483,7 +517,8 @@
         "file": "maps/fl/central_city.json",
         "age": {
             "modern": true,
-            "wko": true
+            "wko": true,
+            "roc": true
         }
     }, {
         "id": "fl1",
@@ -495,7 +530,8 @@
         "file": "maps/fl/keystone_city.json",
         "age": {
             "modern": true,
-            "wko": true
+            "wko": true,
+            "roc": true
         }
     }, {
         "id": "fl2",
@@ -507,7 +543,8 @@
         "file": "maps/fl/central_city_park.json",
         "age": {
             "modern": true,
-            "wko": true
+            "wko": true,
+            "roc": true
         }
     }, {
         "id": "fl3",
@@ -519,7 +556,8 @@
         "file": "maps/fl/the_flash_museum.json",
         "age": {
             "modern": true,
-            "wko": true
+            "wko": true,
+            "roc": true
         }
     }, {
         "id": "wkm0",
@@ -542,28 +580,6 @@
         "file": "maps/wkm/xavier_mansion_grounds.json",
         "age": {
             "modern": true
-        }
-    }, {
-        "name": "The Great Wall",
-        "set": "GridReality",
-        "source": "2014 ROC Map Pack",
-        "type": "outdoor",
-        "width": 16,
-        "height": 24,
-        "file": "maps/gr/the_great_wall.json",
-        "age": {
-            "roc": true
-        }
-    }, {
-        "name": "Arctic Outpost",
-        "set": "GridReality",
-        "source": "2014 ROC Map Pack",
-        "type": "indoorOutdoor",
-        "width": 16,
-        "height": 24,
-        "file": "maps/gr/arctic_outpost.json",
-        "age": {
-            "roc": true
         }
     }, {
         "id": "gotg0",
@@ -1869,5 +1885,83 @@
         "width": 16,
         "height": 24,
         "file": "maps/bn/green_lantern_sciencells.json"
+    }, {
+        "name": "The Great Wall",
+        "id": "roc14_0",
+        "set": "GridReality",
+        "source": "2014 ROC Map Pack",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/gr/the_great_wall.json",
+        "age": {
+            "roc": true
+        }
+    }, {
+        "name": "Arctic Outpost",
+        "id": "roc14_1",
+        "set": "GridReality",
+        "source": "2014 ROC Map Pack",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/gr/arctic_outpost.json",
+        "age": {
+            "roc": true
+        }
+    }, {
+        "name": "The Sewer",
+        "id": "grmp6_0",
+        "set": "GridReality",
+        "source": "Map Pack 6",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/gr/the_sewer.json"
+    }, {
+        "name": "The Courtyard",
+        "id": "grmp6_1",
+        "set": "GridReality",
+        "source": "Map Pack 6",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/gr/the_courtyard.json"
+    }, {
+        "name": "The Secret Warehouse",
+        "id": "grmp5_0",
+        "set": "GridReality",
+        "source": "Map Pack 5",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/gr/the_secret_warehouse.json"
+    }, {
+        "id": "grmp5_1",
+        "name": "Beach Invasion",
+        "set": "GridReality",
+        "source": "Map Pack 5",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/gr/beach_invasion.json"
+    }, {
+        "id": "grmp3_0",
+        "name": "Chemical Plant",
+        "set": "GridReality",
+        "source": "Map Pack 3",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/gr/chemical_plant.json"
+    }, {
+        "id": "grmp3_1",
+        "name": "The Mansion",
+        "set": "GridReality",
+        "source": "Map Pack 3",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/gr/the_mansion.json"
     }]
 }
