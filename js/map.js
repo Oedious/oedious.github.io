@@ -83,6 +83,8 @@ var Map = function(json) {
 				json.defaultWallType ? json.defaultWallType : WallType.NORMAL;
 		}
 	}
+	// Add Ziplines.
+	this.ziplines = json.ziplines ? json.ziplines : [];
 }
 
 Map.prototype.tryAddEdge = function(tile0, tile1, edgeType) {
@@ -147,6 +149,12 @@ Map.prototype.draw = function(ctx) {
 		this.drawWall(ctx, this.walls[i]);
 		ctx.restore();
 	}
+	// Draw Ziplines.
+	for (var i = 0; i < this.ziplines.length; ++i) {
+		ctx.save();
+		this.drawZipline(ctx, this.ziplines[i]);
+		ctx.restore();
+	}
 }
 
 Map.prototype.drawWall = function(ctx, wall) {
@@ -166,6 +174,16 @@ Map.prototype.drawWall = function(ctx, wall) {
 	ctx.beginPath();
 	ctx.moveTo(wall.x0 * TILE_SIZE, wall.y0 * TILE_SIZE);
 	ctx.lineTo(wall.x1 * TILE_SIZE, wall.y1 * TILE_SIZE);
+	ctx.stroke();
+}
+
+Map.prototype.drawZipline = function(ctx, zipline) {
+	ctx.strokeStyle = NORMAL_WALL_COLOR;
+	ctx.lineCap = "round";
+	ctx.lineWidth = 4;
+	ctx.beginPath();
+	ctx.moveTo(zipline.x0 * TILE_SIZE + TILE_SIZE / 2, zipline.y0 * TILE_SIZE + TILE_SIZE / 2);
+	ctx.lineTo(zipline.x1 * TILE_SIZE + TILE_SIZE / 2, zipline.y1 * TILE_SIZE + TILE_SIZE / 2);
 	ctx.stroke();
 }
 

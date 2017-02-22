@@ -1,11 +1,12 @@
 {
-	"name": "The Sewer",
-	"set": "GridReality",
-	"source": "Map Pack 6",
-	"type": "indoor",
+	"name": "Crossfire Canyon",
+	"set": "ROC 2016",
+	"source": "GridReality 2016 ROC Map Pack",
+	"type": "outdoor",
 	"width": 16,
 	"height": 24,
-	"date": "2011",
+	"date": "2016",
+	"defaultElevation": 2,
 	"rows": [{
 		"y": 1,
 		"tiles": [{
@@ -14,7 +15,6 @@
 			"x": "B"
 		}, {
 			"x": "C",
-			"terrain": "water",
 			"isStartingZone": true
 		}, {
 			"x": "D",
@@ -48,12 +48,13 @@
 			"isStartingZone": true
 		}, {
 			"x": "N",
-			"terrain": "water",
 			"isStartingZone": true
 		}, {
-			"x": "O"
+			"x": "O",
+			"elevation": 1
 		}, {
-			"x": "P"
+			"x": "P",
+			"elevation": 1
 		}]
 	}, {
 		"y": 2,
@@ -63,7 +64,6 @@
 			"x": "B"
 		}, {
 			"x": "C",
-			"terrain": "water",
 			"isStartingZone": true
 		}, {
 			"x": "D",
@@ -97,24 +97,63 @@
 			"isStartingZone": true
 		}, {
 			"x": "N",
-			"terrain": "water",
 			"isStartingZone": true
 		}, {
-			"x": "O"
+			"x": "O",
+			"elevation": 1
 		}, {
-			"x": "P"
+			"x": "P",
+			"elevation": 1
 		}]
 	}, {
 		"y": 3,
 		"tiles": [{
 			"x": "A",
-			"terrain": "water"
+			"terrain": "hindering"
 		}, {
 			"x": "B",
-			"terrain": "water"
+			"terrain": "hindering"
 		}, {
-			"x": "C",
-			"terrain": "water"
+			"x": "C"
+		}, {
+			"x": "D"
+		}, {
+			"x": "E"
+		}, {
+			"x": "F"
+		}, {
+			"x": "G"
+		}, {
+			"x": "H"
+		}, {
+			"x": "I"
+		}, {
+			"x": "J"
+		}, {
+			"x": "K"
+		}, {
+			"x": "L"
+		}, {
+			"x": "M"
+		}, {
+			"x": "N"
+		}, {
+			"x": "O",
+			"elevation": 1
+		}, {
+			"x": "P",
+			"elevation": 1
+		}]
+	}, {
+		"y": 4,
+		"tiles": [{
+			"x": "A",
+			"terrain": "hindering"
+		}, {
+			"x": "B",
+			"terrain": "hindering"
+		}, {
+			"x": "C"
 		}, {
 			"x": "D"
 		}, {
@@ -125,10 +164,10 @@
 			"x": "G"
 		}, {
 			"x": "H",
-			"terrain": "water"
+			"terrain": "hindering"
 		}, {
 			"x": "I",
-			"terrain": "water"
+			"terrain": "hindering"
 		}, {
 			"x": "J"
 		}, {
@@ -136,61 +175,18 @@
 		}, {
 			"x": "L"
 		}, {
-			"x": "M"
+			"x": "M",
+			"terrain": "hindering",
+			"elevation": 1
 		}, {
 			"x": "N",
-			"terrain": "water"
+			"elevation": 1
 		}, {
 			"x": "O",
-			"terrain": "water"
+			"elevation": 1
 		}, {
 			"x": "P",
-			"terrain": "water"
-		}]
-	}, {
-		"y": 4,
-		"tiles": [{
-			"x": "A",
-			"terrain": "water"
-		}, {
-			"x": "B",
-			"terrain": "water"
-		}, {
-			"x": "C",
-			"terrain": "water"
-		}, {
-			"x": "D"
-		}, {
-			"x": "E",
-			"terrain": "hindering"
-		}, {
-			"x": "F",
-			"terrain": "hindering"
-		}, {
-			"x": "G"
-		}, {
-			"x": "H"
-		}, {
-			"x": "I"
-		}, {
-			"x": "J"
-		}, {
-			"x": "K",
-			"terrain": "hindering"
-		}, {
-			"x": "L",
-			"terrain": "hindering"
-		}, {
-			"x": "M"
-		}, {
-			"x": "N",
-			"terrain": "water"
-		}, {
-			"x": "O",
-			"terrain": "water"
-		}, {
-			"x": "P",
-			"terrain": "water"
+			"elevation": 1
 		}]
 	}, {
 		"y": 5,
@@ -210,10 +206,10 @@
 			"x": "G"
 		}, {
 			"x": "H",
-			"terrain": "water"
+			"terrain": "hindering"
 		}, {
 			"x": "I",
-			"terrain": "water"
+			"terrain": "hindering"
 		}, {
 			"x": "J"
 		}, {
@@ -221,13 +217,18 @@
 		}, {
 			"x": "L"
 		}, {
-			"x": "M"
+			"x": "M",
+			"elevation": 1
 		}, {
-			"x": "N"
+			"x": "N",
+			"elevation": 1
 		}, {
-			"x": "O"
+			"x": "O",
+			"elevation": 1
 		}, {
-			"x": "P"
+			"x": "P",
+			"terrain": "water",
+			"elevation": 1
 		}]
 	}, {
 		"y": 6,
@@ -236,8 +237,7 @@
 		}, {
 			"x": "B"
 		}, {
-			"x": "C",
-			"terrain": "water"
+			"x": "C"
 		}, {
 			"x": "D"
 		}, {
@@ -247,11 +247,9 @@
 		}, {
 			"x": "G"
 		}, {
-			"x": "H",
-			"terrain": "water"
+			"x": "H"
 		}, {
-			"x": "I",
-			"terrain": "water"
+			"x": "I"
 		}, {
 			"x": "J"
 		}, {
@@ -259,115 +257,69 @@
 		}, {
 			"x": "L"
 		}, {
-			"x": "M"
+			"x": "M",
+			"elevation": 1
 		}, {
 			"x": "N",
-			"terrain": "water"
+			"elevation": 1
 		}, {
-			"x": "O"
+			"x": "O",
+			"terrain": "water",
+			"elevation": 1
 		}, {
-			"x": "P"
+			"x": "P",
+			"terrain": "water",
+			"elevation": 1
 		}]
 	}, {
 		"y": 7,
 		"tiles": [{
-			"x": "A",
-			"terrain": "water"
+			"x": "A"
 		}, {
 			"x": "B",
-			"terrain": "water"
+			"terrain": "hindering"
 		}, {
-			"x": "C",
-			"terrain": "water"
+			"x": "C"
 		}, {
-			"x": "D",
-			"terrain": "blocking"
+			"x": "D"
 		}, {
 			"x": "E",
-			"terrain": "water"
+			"terrain": "hindering"
 		}, {
 			"x": "F",
-			"terrain": "water"
+			"terrain": "hindering"
 		}, {
 			"x": "G"
 		}, {
-			"x": "H",
-			"terrain": "water"
+			"x": "H"
 		}, {
-			"x": "I",
-			"terrain": "water"
+			"x": "I"
 		}, {
 			"x": "J"
 		}, {
 			"x": "K",
-			"terrain": "water"
+			"elevation": 1
 		}, {
 			"x": "L",
-			"terrain": "water"
+			"elevation": 1
 		}, {
 			"x": "M",
-			"terrain": "blocking"
+			"elevation": 1
 		}, {
 			"x": "N",
-			"terrain": "water"
+			"terrain": "water",
+			"elevation": 1
 		}, {
 			"x": "O",
-			"terrain": "water"
+			"terrain": "water",
+			"elevation": 1
 		}, {
 			"x": "P",
-			"terrain": "water"
+			"terrain": "water",
+			"elevation": 1
 		}]
 	}, {
 		"y": 8,
-		"tiles": [{
-			"x": "A",
-			"terrain": "water"
-		}, {
-			"x": "B",
-			"terrain": "water"
-		}, {
-			"x": "C",
-			"terrain": "water"
-		}, {
-			"x": "D",
-			"terrain": "water"
-		}, {
-			"x": "E",
-			"terrain": "water"
-		}, {
-			"x": "F",
-			"terrain": "water"
-		}, {
-			"x": "G"
-		}, {
-			"x": "H",
-			"terrain": "water"
-		}, {
-			"x": "I",
-			"terrain": "water"
-		}, {
-			"x": "J"
-		}, {
-			"x": "K",
-			"terrain": "water"
-		}, {
-			"x": "L",
-			"terrain": "water"
-		}, {
-			"x": "M",
-			"terrain": "water"
-		}, {
-			"x": "N",
-			"terrain": "water"
-		}, {
-			"x": "O",
-			"terrain": "water"
-		}, {
-			"x": "P",
-			"terrain": "water"
-		}]
-	}, {
-		"y": 9,
 		"tiles": [{
 			"x": "A"
 		}, {
@@ -378,35 +330,49 @@
 			"x": "D"
 		}, {
 			"x": "E",
-			"terrain": "water"
+			"terrain": "hindering"
 		}, {
-			"x": "F"
+			"x": "F",
+			"terrain": "hindering"
 		}, {
 			"x": "G"
 		}, {
 			"x": "H"
 		}, {
-			"x": "I"
+			"x": "I",
+			"elevation": 1
 		}, {
-			"x": "J"
+			"x": "J",
+			"elevation": 1
 		}, {
-			"x": "K"
+			"x": "K",
+			"elevation": 1
 		}, {
 			"x": "L",
-			"terrain": "water"
+			"terrain": "water",
+			"elevation": 1
 		}, {
-			"x": "M"
+			"x": "M",
+			"terrain": "water",
+			"elevation": 1
 		}, {
-			"x": "N"
+			"x": "N",
+			"terrain": "water",
+			"elevation": 1
 		}, {
-			"x": "O"
+			"x": "O",
+			"terrain": "water",
+			"elevation": 1
 		}, {
-			"x": "P"
+			"x": "P",
+			"terrain": "water",
+			"elevation": 1
 		}]
 	}, {
-		"y": 10,
+		"y": 9,
 		"tiles": [{
-			"x": "A"
+			"x": "A",
+			"terrain": "hindering"
 		}, {
 			"x": "B"
 		}, {
@@ -422,21 +388,80 @@
 		}, {
 			"x": "H"
 		}, {
-			"x": "I"
+			"x": "I",
+			"elevation": 1
 		}, {
-			"x": "J"
+			"x": "J",
+			"elevation": 1
 		}, {
-			"x": "K"
+			"x": "K",
+			"terrain": "water",
+			"elevation": 1
 		}, {
-			"x": "L"
+			"x": "L",
+			"terrain": "water",
+			"elevation": 1
 		}, {
-			"x": "M"
+			"x": "M",
+			"terrain": "water",
+			"elevation": 1
 		}, {
-			"x": "N"
+			"x": "N",
+			"elevation": 1
 		}, {
-			"x": "O"
+			"x": "O",
+			"elevation": 1
 		}, {
-			"x": "P"
+			"x": "P",
+			"elevation": 1
+		}]
+	}, {
+		"y": 10,
+		"tiles": [{
+			"x": "A",
+			"terrain": "hindering"
+		}, {
+			"x": "B"
+		}, {
+			"x": "C"
+		}, {
+			"x": "D"
+		}, {
+			"x": "E"
+		}, {
+			"x": "F"
+		}, {
+			"x": "G"
+		}, {
+			"x": "H",
+			"elevation": 1
+		}, {
+			"x": "I",
+			"elevation": 1
+		}, {
+			"x": "J",
+			"terrain": "water",
+			"elevation": 1
+		}, {
+			"x": "K",
+			"terrain": "water",
+			"elevation": 1
+		}, {
+			"x": "L",
+			"terrain": "water",
+			"elevation": 1
+		}, {
+			"x": "M",
+			"elevation": 1
+		}, {
+			"x": "N",
+			"elevation": 1
+		}, {
+			"x": "O",
+			"elevation": 1
+		}, {
+			"x": "P",
+			"elevation": 1
 		}]
 	}, {
 		"y": 11,
@@ -449,29 +474,36 @@
 		}, {
 			"x": "D"
 		}, {
-			"x": "E",
-			"terrain": "water"
+			"x": "E"
 		}, {
-			"x": "F"
+			"x": "F",
+			"elevation": 1
 		}, {
-			"x": "G"
+			"x": "G",
+			"elevation": 1
 		}, {
 			"x": "H",
-			"terrain": "water"
+			"elevation": 1
 		}, {
 			"x": "I",
-			"terrain": "water"
+			"elevation": 1
 		}, {
-			"x": "J"
+			"x": "J",
+			"terrain": "water",
+			"elevation": 1
 		}, {
-			"x": "K"
+			"x": "K",
+			"terrain": "water",
+			"elevation": 1
 		}, {
 			"x": "L",
-			"terrain": "water"
+			"elevation": 1
 		}, {
-			"x": "M"
+			"x": "M",
+			"elevation": 1
 		}, {
-			"x": "N"
+			"x": "N",
+			"elevation": 1
 		}, {
 			"x": "O"
 		}, {
@@ -479,123 +511,6 @@
 		}]
 	}, {
 		"y": 12,
-		"tiles": [{
-			"x": "A",
-			"terrain": "hindering"
-		}, {
-			"x": "B"
-		}, {
-			"x": "C"
-		}, {
-			"x": "D"
-		}, {
-			"x": "E",
-			"terrain": "water"
-		}, {
-			"x": "F"
-		}, {
-			"x": "G"
-		}, {
-			"x": "H"
-		}, {
-			"x": "I"
-		}, {
-			"x": "J"
-		}, {
-			"x": "K"
-		}, {
-			"x": "L",
-			"terrain": "water"
-		}, {
-			"x": "M"
-		}, {
-			"x": "N"
-		}, {
-			"x": "O"
-		}, {
-			"x": "P",
-			"terrain": "hindering"
-		}]
-	}, {
-		"y": 13,
-		"tiles": [{
-			"x": "A",
-			"terrain": "hindering"
-		}, {
-			"x": "B"
-		}, {
-			"x": "C"
-		}, {
-			"x": "D"
-		}, {
-			"x": "E",
-			"terrain": "water"
-		}, {
-			"x": "F"
-		}, {
-			"x": "G"
-		}, {
-			"x": "H"
-		}, {
-			"x": "I"
-		}, {
-			"x": "J"
-		}, {
-			"x": "K"
-		}, {
-			"x": "L",
-			"terrain": "water"
-		}, {
-			"x": "M"
-		}, {
-			"x": "N"
-		}, {
-			"x": "O"
-		}, {
-			"x": "P",
-			"terrain": "hindering"
-		}]
-	}, {
-		"y": 14,
-		"tiles": [{
-			"x": "A"
-		}, {
-			"x": "B"
-		}, {
-			"x": "C"
-		}, {
-			"x": "D"
-		}, {
-			"x": "E",
-			"terrain": "water"
-		}, {
-			"x": "F"
-		}, {
-			"x": "G"
-		}, {
-			"x": "H",
-			"terrain": "water"
-		}, {
-			"x": "I",
-			"terrain": "water"
-		}, {
-			"x": "J"
-		}, {
-			"x": "K"
-		}, {
-			"x": "L",
-			"terrain": "water"
-		}, {
-			"x": "M"
-		}, {
-			"x": "N"
-		}, {
-			"x": "O"
-		}, {
-			"x": "P"
-		}]
-	}, {
-		"y": 15,
 		"tiles": [{
 			"x": "A"
 		}, {
@@ -607,13 +522,162 @@
 		}, {
 			"x": "E"
 		}, {
-			"x": "F"
+			"x": "F",
+			"elevation": 1
 		}, {
-			"x": "G"
+			"x": "G",
+			"elevation": 1
 		}, {
-			"x": "H"
+			"x": "H",
+			"elevation": 1
 		}, {
-			"x": "I"
+			"x": "I",
+			"elevation": 1
+		}, {
+			"x": "J",
+			"elevation": 1
+		}, {
+			"x": "K",
+			"elevation": 1
+		}, {
+			"x": "L",
+			"elevation": 1
+		}, {
+			"x": "M",
+			"elevation": 1
+		}, {
+			"x": "N",
+			"terrain": "hindering",
+			"elevation": 1
+		}, {
+			"x": "O"
+		}, {
+			"x": "P"
+		}]
+	}, {
+		"y": 13,
+		"tiles": [{
+			"x": "A"
+		}, {
+			"x": "B"
+		}, {
+			"x": "C",
+			"terrain": "hindering",
+			"elevation": 1
+		}, {
+			"x": "D",
+			"elevation": 1
+		}, {
+			"x": "E",
+			"elevation": 1
+		}, {
+			"x": "F",
+			"elevation": 1
+		}, {
+			"x": "G",
+			"elevation": 1
+		}, {
+			"x": "H",
+			"elevation": 1
+		}, {
+			"x": "I",
+			"elevation": 1
+		}, {
+			"x": "J",
+			"elevation": 1
+		}, {
+			"x": "K",
+			"elevation": 1
+		}, {
+			"x": "L"
+		}, {
+			"x": "M"
+		}, {
+			"x": "N"
+		}, {
+			"x": "O"
+		}, {
+			"x": "P"
+		}]
+	}, {
+		"y": 14,
+		"tiles": [{
+			"x": "A"
+		}, {
+			"x": "B"
+		}, {
+			"x": "C",
+			"elevation": 1
+		}, {
+			"x": "D",
+			"elevation": 1
+		}, {
+			"x": "E",
+			"elevation": 1
+		}, {
+			"x": "F",
+			"terrain": "water",
+			"elevation": 1
+		}, {
+			"x": "G",
+			"terrain": "water",
+			"elevation": 1
+		}, {
+			"x": "H",
+			"elevation": 1
+		}, {
+			"x": "I",
+			"elevation": 1
+		}, {
+			"x": "J",
+			"elevation": 1
+		}, {
+			"x": "K",
+			"elevation": 1
+		}, {
+			"x": "L"
+		}, {
+			"x": "M"
+		}, {
+			"x": "N"
+		}, {
+			"x": "O"
+		}, {
+			"x": "P",
+			"terrain": "hindering"
+		}]
+	}, {
+		"y": 15,
+		"tiles": [{
+			"x": "A",
+			"elevation": 1
+		}, {
+			"x": "B",
+			"elevation": 1
+		}, {
+			"x": "C",
+			"elevation": 1
+		}, {
+			"x": "D",
+			"elevation": 1
+		}, {
+			"x": "E",
+			"terrain": "water",
+			"elevation": 1
+		}, {
+			"x": "F",
+			"terrain": "water",
+			"elevation": 1
+		}, {
+			"x": "G",
+			"terrain": "water",
+			"elevation": 1
+		}, {
+			"x": "H",
+			"elevation": 1
+		}, {
+			"x": "I",
+			"elevation": 1
 		}, {
 			"x": "J"
 		}, {
@@ -627,27 +691,38 @@
 		}, {
 			"x": "O"
 		}, {
-			"x": "P"
+			"x": "P",
+			"terrain": "hindering"
 		}]
 	}, {
 		"y": 16,
 		"tiles": [{
-			"x": "A"
+			"x": "A",
+			"elevation": 1
 		}, {
-			"x": "B"
+			"x": "B",
+			"elevation": 1
 		}, {
-			"x": "C"
+			"x": "C",
+			"elevation": 1
 		}, {
-			"x": "D"
+			"x": "D",
+			"terrain": "water",
+			"elevation": 1
 		}, {
 			"x": "E",
-			"terrain": "water"
+			"terrain": "water",
+			"elevation": 1
 		}, {
-			"x": "F"
+			"x": "F",
+			"terrain": "water",
+			"elevation": 1
 		}, {
-			"x": "G"
+			"x": "G",
+			"elevation": 1
 		}, {
-			"x": "H"
+			"x": "H",
+			"elevation": 1
 		}, {
 			"x": "I"
 		}, {
@@ -655,8 +730,7 @@
 		}, {
 			"x": "K"
 		}, {
-			"x": "L",
-			"terrain": "water"
+			"x": "L"
 		}, {
 			"x": "M"
 		}, {
@@ -670,106 +744,115 @@
 		"y": 17,
 		"tiles": [{
 			"x": "A",
-			"terrain": "water"
+			"terrain": "water",
+			"elevation": 1
 		}, {
-			"x": "B"
+			"x": "B",
+			"terrain": "water",
+			"elevation": 1
 		}, {
 			"x": "C",
-			"terrain": "water"
+			"terrain": "water",
+			"elevation": 1
 		}, {
 			"x": "D",
-			"terrain": "water"
+			"terrain": "water",
+			"elevation": 1
 		}, {
 			"x": "E",
-			"terrain": "water"
+			"terrain": "water",
+			"elevation": 1
 		}, {
 			"x": "F",
-			"terrain": "water"
+			"elevation": 1
 		}, {
-			"x": "G"
+			"x": "G",
+			"elevation": 1
 		}, {
 			"x": "H",
-			"terrain": "water"
+			"elevation": 1
 		}, {
-			"x": "I",
-			"terrain": "water"
+			"x": "I"
 		}, {
 			"x": "J"
 		}, {
-			"x": "K",
-			"terrain": "water"
+			"x": "K"
 		}, {
 			"x": "L",
-			"terrain": "water"
+			"terrain": "hindering"
 		}, {
 			"x": "M",
-			"terrain": "water"
+			"terrain": "hindering"
 		}, {
-			"x": "N",
-			"terrain": "water"
+			"x": "N"
 		}, {
 			"x": "O"
 		}, {
-			"x": "P",
-			"terrain": "water"
+			"x": "P"
 		}]
 	}, {
 		"y": 18,
 		"tiles": [{
 			"x": "A",
-			"terrain": "water"
+			"terrain": "water",
+			"elevation": 1
 		}, {
-			"x": "B"
+			"x": "B",
+			"terrain": "water",
+			"elevation": 1
 		}, {
 			"x": "C",
-			"terrain": "water"
+			"terrain": "water",
+			"elevation": 1
 		}, {
 			"x": "D",
-			"terrain": "water"
+			"elevation": 1
 		}, {
 			"x": "E",
-			"terrain": "blocking"
+			"elevation": 1
 		}, {
 			"x": "F",
-			"terrain": "water"
+			"elevation": 1
 		}, {
 			"x": "G"
 		}, {
-			"x": "H",
-			"terrain": "water"
+			"x": "H"
 		}, {
-			"x": "I",
-			"terrain": "water"
+			"x": "I"
 		}, {
 			"x": "J"
 		}, {
-			"x": "K",
-			"terrain": "water"
+			"x": "K"
 		}, {
 			"x": "L",
-			"terrain": "blocking"
+			"terrain": "hindering"
 		}, {
 			"x": "M",
-			"terrain": "water"
+			"terrain": "hindering"
 		}, {
-			"x": "N",
-			"terrain": "water"
+			"x": "N"
 		}, {
-			"x": "O"
+			"x": "O",
+			"terrain": "hindering"
 		}, {
-			"x": "P",
-			"terrain": "water"
+			"x": "P"
 		}]
 	}, {
 		"y": 19,
 		"tiles": [{
-			"x": "A"
+			"x": "A",
+			"terrain": "water",
+			"elevation": 1
 		}, {
-			"x": "B"
+			"x": "B",
+			"terrain": "water",
+			"elevation": 1
 		}, {
-			"x": "C"
+			"x": "C",
+			"elevation": 1
 		}, {
-			"x": "D"
+			"x": "D",
+			"elevation": 1
 		}, {
 			"x": "E"
 		}, {
@@ -777,11 +860,9 @@
 		}, {
 			"x": "G"
 		}, {
-			"x": "H",
-			"terrain": "water"
+			"x": "H"
 		}, {
-			"x": "I",
-			"terrain": "water"
+			"x": "I"
 		}, {
 			"x": "J"
 		}, {
@@ -800,13 +881,18 @@
 	}, {
 		"y": 20,
 		"tiles": [{
-			"x": "A"
+			"x": "A",
+			"terrain": "water",
+			"elevation": 1
 		}, {
-			"x": "B"
+			"x": "B",
+			"elevation": 1
 		}, {
-			"x": "C"
+			"x": "C",
+			"elevation": 1
 		}, {
-			"x": "D"
+			"x": "D",
+			"elevation": 1
 		}, {
 			"x": "E"
 		}, {
@@ -814,13 +900,13 @@
 		}, {
 			"x": "G"
 		}, {
-			"x": "H",
-			"terrain": "water"
+			"x": "H"
 		}, {
 			"x": "I",
-			"terrain": "water"
+			"terrain": "hindering"
 		}, {
-			"x": "J"
+			"x": "J",
+			"terrain": "hindering"
 		}, {
 			"x": "K"
 		}, {
@@ -838,58 +924,56 @@
 		"y": 21,
 		"tiles": [{
 			"x": "A",
-			"terrain": "water"
+			"elevation": 1
 		}, {
 			"x": "B",
-			"terrain": "water"
+			"elevation": 1
 		}, {
 			"x": "C",
-			"terrain": "water"
+			"elevation": 1
 		}, {
-			"x": "D"
+			"x": "D",
+			"terrain": "hindering",
+			"elevation": 1
 		}, {
-			"x": "E",
-			"terrain": "hindering"
+			"x": "E"
 		}, {
-			"x": "F",
-			"terrain": "hindering"
+			"x": "F"
 		}, {
 			"x": "G"
 		}, {
 			"x": "H"
 		}, {
-			"x": "I"
-		}, {
-			"x": "J"
-		}, {
-			"x": "K",
+			"x": "I",
 			"terrain": "hindering"
 		}, {
-			"x": "L",
+			"x": "J",
 			"terrain": "hindering"
+		}, {
+			"x": "K"
+		}, {
+			"x": "L"
 		}, {
 			"x": "M"
 		}, {
-			"x": "N",
-			"terrain": "water"
+			"x": "N"
 		}, {
 			"x": "O",
-			"terrain": "water"
+			"terrain": "hindering"
 		}, {
 			"x": "P",
-			"terrain": "water"
+			"terrain": "hindering"
 		}]
 	}, {
 		"y": 22,
 		"tiles": [{
 			"x": "A",
-			"terrain": "water"
+			"elevation": 1
 		}, {
 			"x": "B",
-			"terrain": "water"
+			"elevation": 1
 		}, {
-			"x": "C",
-			"terrain": "water"
+			"x": "C"
 		}, {
 			"x": "D"
 		}, {
@@ -899,11 +983,9 @@
 		}, {
 			"x": "G"
 		}, {
-			"x": "H",
-			"terrain": "water"
+			"x": "H"
 		}, {
-			"x": "I",
-			"terrain": "water"
+			"x": "I"
 		}, {
 			"x": "J"
 		}, {
@@ -913,24 +995,24 @@
 		}, {
 			"x": "M"
 		}, {
-			"x": "N",
-			"terrain": "water"
+			"x": "N"
 		}, {
 			"x": "O",
-			"terrain": "water"
+			"terrain": "hindering"
 		}, {
 			"x": "P",
-			"terrain": "water"
+			"terrain": "hindering"
 		}]
 	}, {
 		"y": 23,
 		"tiles": [{
-			"x": "A"
+			"x": "A",
+			"elevation": 1
 		}, {
-			"x": "B"
+			"x": "B",
+			"elevation": 1
 		}, {
 			"x": "C",
-			"terrain": "water",
 			"isStartingZone": true
 		}, {
 			"x": "D",
@@ -964,7 +1046,6 @@
 			"isStartingZone": true
 		}, {
 			"x": "N",
-			"terrain": "water",
 			"isStartingZone": true
 		}, {
 			"x": "O"
@@ -974,12 +1055,13 @@
 	}, {
 		"y": 24,
 		"tiles": [{
-			"x": "A"
+			"x": "A",
+			"elevation": 1
 		}, {
-			"x": "B"
+			"x": "B",
+			"elevation": 1
 		}, {
 			"x": "C",
-			"terrain": "water",
 			"isStartingZone": true
 		}, {
 			"x": "D",
@@ -1013,7 +1095,6 @@
 			"isStartingZone": true
 		}, {
 			"x": "N",
-			"terrain": "water",
 			"isStartingZone": true
 		}, {
 			"x": "O"
@@ -1021,165 +1102,35 @@
 			"x": "P"
 		}]
 	}],
-	"walls": [{
-		"x0": 4,
-		"y0": 0,
-		"x1": 4,
-		"y1": 4
-	}, {
-		"x0": 12,
-		"y0": 0,
-		"x1": 12,
-		"y1": 4
-	}, {
-		"x0": 6,
+	"ramps": [{
+		"x0": 13,
 		"y0": 2,
-		"x1": 6,
-		"y1": 4
-	}, {
-		"x0": 7,
-		"y0": 2,
-		"x1": 9,
+		"x1": 14,
 		"y1": 2
 	}, {
-		"x0": 10,
-		"y0": 2,
-		"x1": 10,
-		"y1": 4
-	}, {
-		"x0": 4,
-		"y0": 4,
-		"x1": 6,
-		"y1": 4
-	}, {
-		"x0": 10,
-		"y0": 4,
-		"x1": 12,
-		"y1": 4
-	}, {
-		"x0": 0,
-		"y0": 9,
-		"x1": 1,
-		"y1": 9
-	}, {
-		"x0": 2,
-		"y0": 9,
-		"x1": 3,
-		"y1": 9
-	}, {
-		"x0": 3,
-		"y0": 9,
-		"x1": 3,
-		"y1": 11
-	}, {
-		"x0": 6,
-		"y0": 9,
-		"x1": 10,
-		"y1": 9
-	}, {
-		"x0": 6,
-		"y0": 9,
-		"x1": 6,
-		"y1": 11
-	}, {
-		"x0": 10,
-		"y0": 9,
-		"x1": 10,
-		"y1": 11
-	}, {
-		"x0": 13,
-		"y0": 9,
-		"x1": 14,
-		"y1": 9
-	}, {
-		"x0": 13,
-		"y0": 9,
-		"x1": 13,
-		"y1": 11
-	}, {
-		"x0": 15,
-		"y0": 9,
-		"x1": 16,
-		"y1": 9
-	}, {
-		"x0": 3,
-		"y0": 13,
-		"x1": 3,
-		"y1": 15
-	}, {
-		"x0": 6,
-		"y0": 13,
-		"x1": 6,
-		"y1": 15
-	}, {
-		"x0": 10,
-		"y0": 13,
-		"x1": 10,
-		"y1": 15
-	}, {
-		"x0": 13,
-		"y0": 13,
-		"x1": 13,
-		"y1": 15
-	}, {
-		"x0": 0,
-		"y0": 15,
-		"x1": 1,
-		"y1": 15
-	}, {
-		"x0": 2,
-		"y0": 15,
-		"x1": 3,
-		"y1": 15
-	}, {
-		"x0": 6,
-		"y0": 15,
-		"x1": 10,
-		"y1": 15
-	}, {
-		"x0": 13,
-		"y0": 15,
-		"x1": 14,
-		"y1": 15
-	}, {
-		"x0": 15,
-		"y0": 15,
-		"x1": 16,
-		"y1": 15
-	}, {
-		"x0": 4,
-		"y0": 20,
-		"x1": 6,
-		"y1": 20
-	}, {
-		"x0": 4,
-		"y0": 20,
-		"x1": 4,
-		"y1": 24
-	}, {
-		"x0": 6,
-		"y0": 20,
-		"x1": 6,
-		"y1": 22
-	}, {
-		"x0": 10,
-		"y0": 20,
-		"x1": 12,
-		"y1": 20
-	}, {
-		"x0": 10,
-		"y0": 20,
-		"x1": 10,
-		"y1": 22
-	}, {
-		"x0": 12,
-		"y0": 20,
-		"x1": 12,
-		"y1": 24
-	}, {
 		"x0": 7,
-		"y0": 22,
-		"x1": 9,
-		"y1": 22
+		"y0": 8,
+		"x1": 7,
+		"y1": 9
+	}, {
+		"x0": 15,
+		"y0": 9,
+		"x1": 15,
+		"y1": 10
+	}, {
+		"x0": 0,
+		"y0": 13,
+		"x1": 0,
+		"y1": 14
+	}, {
+		"x0": 8,
+		"y0": 14,
+		"x1": 8,
+		"y1": 15
+	}, {
+		"x0": 1,
+		"y0": 21,
+		"x1": 2,
+		"y1": 21
 	}]
 }

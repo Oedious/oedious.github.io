@@ -5,7 +5,7 @@
 	"type": "indoorOutdoor",
 	"width": 16,
 	"height": 24,
-	"year": "2010",
+	"date": "2010",
 	"defaultType": "indoor",
 	"rows": [{
 		"y": 1,
