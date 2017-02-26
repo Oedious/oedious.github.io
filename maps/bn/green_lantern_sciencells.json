@@ -450,7 +450,6 @@
 		}, {
 			"x": "H",
 			"label": {
-				"style": "elevation",
 				"text": "O"
 			}
 		}, {
@@ -501,7 +500,6 @@
 		}, {
 			"x": "I",
 			"label": {
-				"style": "elevation",
 				"text": "O"
 			}
 		}, {

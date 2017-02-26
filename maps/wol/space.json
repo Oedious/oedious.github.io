@@ -86,7 +86,6 @@
 			"x": "H",
 			"elevation": 2,
 			"label": {
-				"style": "elevation",
 				"text": "2"
 			}
 		}, {
@@ -126,7 +125,6 @@
 			"elevation": 2,
 			"isStartingZone": true,
 			"label": {
-				"style": "elevation",
 				"text": "2"
 			}
 		}, {
@@ -147,7 +145,6 @@
 			"x": "K",
 			"elevation": 2,
 			"label": {
-				"style": "elevation",
 				"text": "2"
 			}
 		}, {
@@ -159,7 +156,6 @@
 			"x": "N",
 			"elevation": 2,
 			"label": {
-				"style": "elevation",
 				"text": "2"
 			}
 		}, {
@@ -183,7 +179,6 @@
 		}, {
 			"x": "D",
 			"label": {
-				"style": "elevation",
 				"text": "1"
 			}
 		}, {
@@ -192,7 +187,6 @@
 			"x": "F",
 			"elevation": 2,
 			"label": {
-				"style": "elevation",
 				"text": "2"
 			}
 		}, {
@@ -214,7 +208,6 @@
 		}, {
 			"x": "O",
 			"label": {
-				"style": "elevation",
 				"text": "1"
 			}
 		}, {
@@ -267,7 +260,6 @@
 			"x": "D",
 			"elevation": 2,
 			"label": {
-				"style": "elevation",
 				"text": "2"
 			}
 		}, {
@@ -298,7 +290,6 @@
 			"x": "M",
 			"elevation": 2,
 			"label": {
-				"style": "elevaton",
 				"text": "2"
 			}
 		}, {
@@ -431,7 +422,6 @@
 			"x": "N",
 			"elevation": 2,
 			"label": {
-				"style": "elevation",
 				"text": "2"
 			}
 		}, {
@@ -445,7 +435,6 @@
 			"x": "A",
 			"elevation": 2,
 			"label": {
-				"style": "elevation",
 				"text": "2"
 			}
 		}, {
@@ -453,7 +442,6 @@
 		}, {
 			"x": "C",
 			"label": {
-				"style": "elevation",
 				"text": "1"
 			}
 		}, {
@@ -485,7 +473,6 @@
 		}, {
 			"x": "N",
 			"label": {
-				"style": "elevation",
 				"text": "1"
 			}
 		}, {
@@ -536,7 +523,6 @@
 			"x": "P",
 			"elevation": 2,
 			"label": {
-				"style": "elevation",
 				"text": "2"
 			}
 		}]
@@ -563,7 +549,6 @@
 		}, {
 			"x": "I",
 			"label": {
-				"style": "elevation",
 				"text": "1"
 			}
 		}, {
@@ -604,7 +589,6 @@
 		}, {
 			"x": "H",
 			"label": {
-				"style": "elevation",
 				"text": "1"
 			}
 		}, {
@@ -676,13 +660,11 @@
 			"x": "B",
 			"elevation": 2,
 			"label": {
-				"style": "elevation",
 				"text": "2"
 			}
 		}, {
 			"x": "C",
 			"label": {
-				"style": "elevation",
 				"text": "1"
 			}
 		}, {
@@ -714,14 +696,12 @@
 		}, {
 			"x": "N",
 			"label": {
-				"style": "elevation",
 				"text": "1"
 			}
 		}, {
 			"x": "O",
 			"elevation": 2,
 			"label": {
-				"style": "elevation",
 				"text": "2"
 			}
 		}, {
@@ -866,7 +846,6 @@
 			"x": "D",
 			"elevation": 2,
 			"label": {
-				"style": "elevation",
 				"text": "2"
 			}
 		}, {
@@ -897,7 +876,6 @@
 			"x": "M",
 			"elevation": 2,
 			"label": {
-				"style": "elevaton",
 				"text": "2"
 			}
 		}, {
@@ -951,7 +929,6 @@
 			"x": "B",
 			"elevation": 2,
 			"label": {
-				"style": "elevation",
 				"text": "2"
 			}
 		}, {
@@ -959,7 +936,6 @@
 		}, {
 			"x": "D",
 			"label": {
-				"style": "elevation",
 				"text": "1"
 			}
 		}, {
@@ -981,7 +957,6 @@
 		}, {
 			"x": "M",
 			"label": {
-				"style": "elevation",
 				"text": "1"
 			}
 		}, {
@@ -1027,7 +1002,6 @@
 			"x": "K",
 			"elevation": 2,
 			"label": {
-				"style": "elevation",
 				"text": "2"
 			}
 		}, {
@@ -1039,7 +1013,6 @@
 			"elevation": 2,
 			"isStartingZone": "true",
 			"label": {
-				"style": "elevation",
 				"text": "2"
 			}
 		}, {
@@ -1068,7 +1041,6 @@
 			"x": "F",
 			"elevation": 2,
 			"label": {
-				"style": "elevation",
 				"text": "2"
 			}
 		}, {

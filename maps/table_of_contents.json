@@ -1862,6 +1862,38 @@
         "height": 24,
         "file": "maps/gsx/abandoned_weapon_x_facility.json"
     }, {
+        "id": "an0",
+        "name": "Okaara",
+        "set": "DC 75th Anniversary",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/an/okaara.json"
+    }, {
+        "id": "an1",
+        "name": "Qward",
+        "set": "DC 75th Anniversary",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/an/qward.json"
+    }, {
+        "id": "an2",
+        "name": "Airport Terminal",
+        "set": "DC 75th Anniversary",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/an/airport_terminal.json"
+    }, {
+        "id": "an3",
+        "name": "Hawkworld",
+        "set": "DC 75th Anniversary",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/an/hawkworld.json"
+    }, {
         "id": "bd0",
         "name": "The Crater",
         "set": "Brightest Day",
@@ -1878,6 +1910,14 @@
         "height": 24,
         "file": "maps/bd/the_monument.json"
     }, {
+        "id": "ws0",
+        "name": "The Bridge",
+        "set": "Web of Spider-Man",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/ws/the_bridge.json"
+    }, {
         "id": "bn0",
         "name": "Green Lantern Sciencells",
         "set": "Blackest Night",
@@ -1886,10 +1926,41 @@
         "height": 24,
         "file": "maps/bn/green_lantern_sciencells.json"
     }, {
-        "name": "The Blue Line",
+        "id": "bb0",
+        "name": "Graveyard",
+        "set": "Brave and the Bold",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/bb/graveyard.json"
+    }, {
+        "id": "ha0",
+        "name": "Fountain of Asgard",
+        "set": "Hammer of Thor",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/ha/fountain_of_asgard.json"
+    }, {
+        "id": "ha1",
+        "name": "Jotunheim",
+        "set": "Hammer of Thor",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/ha/jotunheim.json"
+    }, {
+        "id": "ha2",
+        "name": "Muspelheim",
+        "set": "Hammer of Thor",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/ha/muspelheim.json"
+    }, {
         "id": "roc16_0",
+        "name": "The Blue Line",
         "set": "ROC 2016",
-        "source": "GridReality 2016 ROC Map Pack",
         "type": "indoor",
         "width": 16,
         "height": 24,
@@ -1898,10 +1969,9 @@
             "roc": true
         }
     }, {
-        "name": "Casino",
         "id": "roc16_1",
+        "name": "Casino",
         "set": "ROC 2016",
-        "source": "GridReality 2016 ROC Map Pack",
         "type": "indoor",
         "width": 16,
         "height": 24,
@@ -1910,10 +1980,9 @@
             "roc": true
         }
     }, {
-        "name": "Zipline Park",
         "id": "roc16_2",
+        "name": "Zipline Park",
         "set": "ROC 2016",
-        "source": "GridReality 2016 ROC Map Pack",
         "type": "outdoor",
         "width": 16,
         "height": 24,
@@ -1922,10 +1991,9 @@
             "roc": true
         }
     }, {
-        "name": "Crossfire Canyon",
         "id": "roc16_3",
+        "name": "Crossfire Canyon",
         "set": "ROC 2016",
-        "source": "GridReality 2016 ROC Map Pack",
         "type": "outdoor",
         "width": 16,
         "height": 24,
@@ -1934,10 +2002,9 @@
             "roc": true
         }
     }, {
-        "name": "Assassin's Alley",
         "id": "roc15_0",
+        "name": "Assassin's Alley",
         "set": "ROC 2015",
-        "source": "GridReality 2015 ROC Map Pack",
         "type": "outdoor",
         "width": 16,
         "height": 24,
@@ -1946,10 +2013,9 @@
             "roc": true
         }
     }, {
-        "name": "Hidden Research Facility",
         "id": "roc15_1",
+        "name": "Hidden Research Facility",
         "set": "ROC 2015",
-        "source": "GridReality 2015 ROC Map Pack",
         "type": "indoorOutdoor",
         "width": 16,
         "height": 24,
@@ -1958,10 +2024,9 @@
             "roc": true
         }
     }, {
-        "name": "Water Treatment Plant",
         "id": "roc15_2",
+        "name": "Water Treatment Plant",
         "set": "ROC 2015",
-        "source": "GridReality 2015 ROC Map Pack",
         "type": "indoorOutdoor",
         "width": 16,
         "height": 24,
@@ -1970,10 +2035,9 @@
             "roc": true
         }
     }, {
+        "id": "roc15_3",
         "name": "The Village",
         "set": "ROC 2015",
-        "id": "roc15_3",
-        "source": "GridReality 2015 ROC Map Pack",
         "type": "outdoor",
         "width": 16,
         "height": 24,
@@ -1982,10 +2046,9 @@
             "roc": true
         }
     }, {
-        "name": "Arctic Outpost",
         "id": "roc14_0",
+        "name": "Arctic Outpost",
         "set": "ROC 2014",
-        "source": "GridReality 2014 ROC Map Pack",
         "type": "indoorOutdoor",
         "width": 16,
         "height": 24,
@@ -1994,10 +2057,9 @@
             "roc": true
         }
     }, {
-        "name": "The Great Wall",
         "id": "roc14_1",
+        "name": "The Great Wall",
         "set": "ROC 2014",
-        "source": "GridReality 2014 ROC Map Pack",
         "type": "outdoor",
         "width": 16,
         "height": 24,
@@ -2006,10 +2068,9 @@
             "roc": true
         }
     }, {
-        "name": "Mayan Ruins",
         "id": "roc14_2",
+        "name": "Mayan Ruins",
         "set": "ROC 2014",
-        "source": "GridReality 2014 ROC Map Pack",
         "type": "outdoor",
         "width": 16,
         "height": 24,
@@ -2018,10 +2079,9 @@
             "roc": true
         }
     }, {
-        "name": "Main Event",
         "id": "roc14_3",
+        "name": "Main Event",
         "set": "ROC 2014",
-        "source": "GridReality 2014 ROC Map Pack",
         "type": "indoor",
         "width": 16,
         "height": 24,
@@ -2030,19 +2090,17 @@
             "roc": true
         }
     }, {
-        "name": "The Sewer",
         "id": "grmp6_0",
+        "name": "The Sewer",
         "set": "GridReality",
-        "source": "Map Pack 6",
         "type": "indoor",
         "width": 16,
         "height": 24,
         "file": "maps/gr/the_sewer.json"
     }, {
-        "name": "The Courtyard",
         "id": "grmp6_1",
+        "name": "The Courtyard",
         "set": "GridReality",
-        "source": "Map Pack 6",
         "type": "indoorOutdoor",
         "width": 16,
         "height": 24,
@@ -2051,70 +2109,62 @@
         "id": "grmp5_0",
         "name": "Beach Invasion",
         "set": "GridReality",
-        "source": "Map Pack 5",
         "type": "indoorOutdoor",
         "width": 16,
         "height": 24,
         "file": "maps/gr/beach_invasion.json"
     }, {
-        "name": "The Secret Warehouse",
         "id": "grmp5_1",
+        "name": "The Secret Warehouse",
         "set": "GridReality",
-        "source": "Map Pack 5",
         "type": "indoor",
         "width": 16,
         "height": 24,
         "file": "maps/gr/the_secret_warehouse.json"
     }, {
-        "name": "The Mansion",
         "id": "grmp3_0",
+        "name": "The Mansion",
         "set": "GridReality",
-        "source": "Map Pack 3",
         "type": "indoorOutdoor",
         "width": 16,
         "height": 24,
         "file": "maps/gr/the_mansion.json"
     }, {
-        "name": "Chemical Plant",
         "id": "grmp3_1",
+        "name": "Chemical Plant",
         "set": "GridReality",
-        "source": "Map Pack 3",
         "type": "indoorOutdoor",
         "width": 16,
         "height": 24,
         "file": "maps/gr/chemical_plant.json"
     }, {
-        "name": "Swamp Base",
         "id": "grmp2_0",
+        "name": "Swamp Base",
         "set": "GridReality",
-        "source": "Map Pack 2",
         "type": "indoorOutdoor",
         "width": 16,
         "height": 24,
         "file": "maps/gr/swamp_base.json"
     }, {
-        "name": "The Park",
         "id": "grmp2_1",
+        "name": "The Park",
         "set": "GridReality",
-        "source": "Map Pack 2",
         "type": "outdoor",
         "width": 16,
         "height": 24,
         "file": "maps/gr/the_park.json"
     }, {
-        "name": "Mental Ward",
         "id": "grmp1_0",
+        "name": "Mental Ward",
         "set": "GridReality",
-        "source": "Map Pack 1",
         "type": "indoor",
         "width": 16,
         "height": 24,
         "file": "maps/gr/mental_ward.json"
     }, {
-        "name": "The Corporation",
         "id": "grmp1_1",
+        "name": "The Corporation",
         "set": "GridReality",
-        "source": "Map Pack 1",
         "type": "indoorOutdoor",
         "width": 16,
         "height": 24,

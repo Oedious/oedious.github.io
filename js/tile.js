@@ -210,11 +210,15 @@ Tile.prototype.drawLabel = function(ctx) {
 	// Draw the column letter and/or row number.
 	if (this.x == 0 || this.y == 0 || this.label) {
 		var text = "";
+		ctx.save();
+		ctx.translate(
+			this.x * TILE_SIZE + TILE_SIZE / 2,
+			this.y * TILE_SIZE + TILE_SIZE / 2);
 		if (this.label) {
 			text = this.label.text;
-			if (this.label.style == "elevation") {
-				ctx.fillStyle = ELEVATION_EDGE_COLOR;
-			}
+			ctx.fillStyle = ELEVATION_EDGE_COLOR;
+			var rotation = this.label.rotate ? this.label.rotate : 0;
+			ctx.rotate(rotation * Math.PI / 180);
 		} else {
 			if (this.y == 0) {
 				text = String.fromCharCode("A".charCodeAt(0) + this.x);
@@ -228,7 +232,8 @@ Tile.prototype.drawLabel = function(ctx) {
 		ctx.textAlign = "center";
 		ctx.textBaseline = "middle";
 		ctx.fillText(text,
-			this.x * TILE_SIZE + TILE_SIZE / 2,
-			this.y * TILE_SIZE + TILE_SIZE / 2);
+			0,
+			0);
+		ctx.restore();
 	}
 }
