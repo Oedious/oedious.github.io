@@ -1958,6 +1958,39 @@
         "height": 24,
         "file": "maps/ha/muspelheim.json"
     }, {
+        "id": "aa0",
+        "name": "The Asylum",
+        "set": "Arkham Asylum",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/aa/the_asylum.json"
+    }, {
+        "id": "si1",
+        "name": "Spaceship Crash Site",
+        "set": "Secret Invasion",
+        "source": "Secret Invasion: OP Kit",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/si/spaceship_crash_site.json"
+    }, {
+        "id": "si1",
+        "name": "Castle Doom Gardens",
+        "set": "Secret Invasion",
+        "type": "outdoor",
+        "width": 24,
+        "height": 24,
+        "file": "maps/si/castle_doom_gardens.json"
+    }, {
+        "id": "si2",
+        "name": "Baxter Building",
+        "set": "Secret Invasion",
+        "type": "indoor",
+        "width": 24,
+        "height": 24,
+        "file": "maps/si/baxter_building.json"
+    }, {
         "id": "roc16_0",
         "name": "The Blue Line",
         "set": "ROC 2016",

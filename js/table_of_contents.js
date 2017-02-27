@@ -15,7 +15,19 @@ TableOfContents.prototype.load = function(callback) {
 TableOfContents.prototype.applyFilters = function(mapId) {
     var filterByAge = document.getElementById("selectAge").value;
     var filterByType = document.getElementById("selectType").value;
-    var filter16x24 = (document.getElementById("selectSize").value == "16x24");
+    var filterBySize = document.getElementById("selectSize").value;
+    var filterWidth = 0;
+    var filterHeight = 0;
+    if (filterBySize == "8x8") {
+        filterWidth = 16;
+        filterHeight = 24;
+    } else if (filterBySize == "16x24") {
+        filterWidth = 16;
+        filterHeight = 24;
+    } else if (filterBySize == "24x24") {
+        filterWidth = 24;
+        filterHeight = 24;
+    }
     this.tocFiltered_ = [];
     for (var i = 0; i < this.toc_.length; ++i) {
         var map = this.toc_[i];
@@ -28,7 +40,7 @@ TableOfContents.prototype.applyFilters = function(mapId) {
         if (filterByType != "all" && filterByType != map.type) {
             continue
         }
-        if (filter16x24 && !(map.width == 16 && map.height == 24)) {
+        if (filterBySize != "all" && !(map.width == filterWidth && map.height == filterHeight)) {
             continue;
         }
         this.tocFiltered_.push(map);

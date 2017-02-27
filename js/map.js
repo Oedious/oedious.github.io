@@ -169,6 +169,9 @@ Map.prototype.drawWall = function(ctx, wall) {
 		ctx.strokeStyle = DOOR_COLOR;
 		ctx.setLineDash([WALL_SIZE, WALL_SIZE]);
 		ctx.lineDashOffset = WALL_SIZE / 2;
+	} else if (wall.type == WallType.FORCE_FIELD) {
+		ctx.strokeStyle = FORCE_FIELD_COLOR;
+		ctx.lineCap = "round";
 	}
 	ctx.lineWidth = WALL_SIZE;
 	ctx.beginPath();
