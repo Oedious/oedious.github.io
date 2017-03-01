@@ -1991,6 +1991,30 @@
         "height": 24,
         "file": "maps/si/baxter_building.json"
     }, {
+        "id": "cr8",
+        "name": "Anti-Matter Fortress",
+        "set": "Crisis",
+        "type": "outdoor",
+        "width": 24,
+        "height": 24,
+        "file": "maps/cr/anti_matter_fortress.json"
+    }, {
+        "id": "mm0",
+        "name": "Battle Square",
+        "set": "Mutations and Monsters",
+        "type": "outdoor",
+        "width": 24,
+        "height": 24,
+        "file": "maps/mm/battle_square.json"
+    }, {
+        "id": "mm1",
+        "name": "The Arena",
+        "set": "Mutations and Monsters",
+        "type": "outdoor",
+        "width": 24,
+        "height": 24,
+        "file": "maps/mm/the_arena.json"
+    }, {
         "id": "roc16_0",
         "name": "The Blue Line",
         "set": "ROC 2016",
