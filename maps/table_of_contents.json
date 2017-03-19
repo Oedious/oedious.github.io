@@ -78,6 +78,28 @@
             "roc": true
         }
     }, {
+        "id": "dxf0",
+        "name": "Speakeasy",
+        "set": "Deadpool and X-Force",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/dxf/speakeasy.json",
+        "age": {
+            "modern": true
+        }
+    }, {
+        "id": "dxf1",
+        "name": "Cargo Plane",
+        "set": "Deadpool and X-Force",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/dxf/cargo_plane.json",
+        "age": {
+            "modern": true
+        }
+    }, {
         "id": "jw0",
         "name": "Ace Chemicals",
         "set": "Joker's Wild",

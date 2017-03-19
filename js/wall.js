@@ -6,6 +6,7 @@ var GLASS_WALL_COLOR = "#E59400";
 var DOOR_COLOR = "#000000";
 var FORCE_FIELD_COLOR = "#E59400";
 var CHAIN_LINK_FENCE_COLOR = "#555555";
+var LEVEL_SEPARATOR_COLOR = "#E5E500";
 
 var WallType = {
 	NORMAL: "normal",
@@ -13,4 +14,5 @@ var WallType = {
 	DOOR: "door",
 	FORCE_FIELD: "forceField",
 	CHAIN_LINK_FENCE: "chainLinkFence",
+	LEVEL_SEPARATOR: "levelSeparator",
 }

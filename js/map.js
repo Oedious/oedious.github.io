@@ -158,6 +158,7 @@ Map.prototype.draw = function(ctx) {
 }
 
 Map.prototype.drawWall = function(ctx, wall) {
+	ctx.lineWidth = WALL_SIZE;
 	if (wall.type == WallType.NORMAL) {
 		ctx.strokeStyle = NORMAL_WALL_COLOR;
 		ctx.lineCap = "round";
@@ -175,8 +176,20 @@ Map.prototype.drawWall = function(ctx, wall) {
 	} else if (wall.type == WallType.CHAIN_LINK_FENCE) {
 		ctx.strokeStyle = CHAIN_LINK_FENCE_COLOR;
 		ctx.lineCap = "round";
+	} else if (wall.type == WallType.LEVEL_SEPARATOR) {
+		/** Draw a solid line behind the dashed line. */
+		ctx.strokeStyle = NORMAL_WALL_COLOR;
+		ctx.lineWidth = WALL_SIZE * 2;
+		ctx.beginPath();
+		ctx.moveTo(wall.x0 * TILE_SIZE, wall.y0 * TILE_SIZE);
+		ctx.lineTo(wall.x1 * TILE_SIZE, wall.y1 * TILE_SIZE);
+		ctx.stroke();
+
+		ctx.lineWidth = WALL_SIZE;
+		ctx.strokeStyle = LEVEL_SEPARATOR_COLOR;
+		ctx.setLineDash([WALL_SIZE, WALL_SIZE]);
+		ctx.lineDashOffset = WALL_SIZE / 2;
 	}
-	ctx.lineWidth = WALL_SIZE;
 	ctx.beginPath();
 	ctx.moveTo(wall.x0 * TILE_SIZE, wall.y0 * TILE_SIZE);
 	ctx.lineTo(wall.x1 * TILE_SIZE, wall.y1 * TILE_SIZE);
