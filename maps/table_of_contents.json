@@ -1969,7 +1969,6 @@
         "id": "si1",
         "name": "Spaceship Crash Site",
         "set": "Secret Invasion",
-        "source": "Secret Invasion: OP Kit",
         "type": "outdoor",
         "width": 16,
         "height": 24,
@@ -2014,6 +2013,112 @@
         "width": 24,
         "height": 24,
         "file": "maps/mm/the_arena.json"
+    }, {
+        "id": "jl0",
+        "name": "The Bank",
+        "set": "Justice League",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/jl/the_bank.json"
+    }, {
+        "id": "av0",
+        "name": "Airbase",
+        "set": "Avengers",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/av/airbase.json"
+    }, {
+        "id": "ls0",
+        "name": "Central Port",
+        "set": "Legion of Super Heroes",
+        "type": "indoor",
+        "width": 24,
+        "height": 24,
+        "file": "maps/ls/central_port.json"
+    }, {
+        "id": "ls1",
+        "name": "Small Town",
+        "set": "Legion of Super Heroes",
+        "type": "outdoor",
+        "width": 24,
+        "height": 24,
+        "file": "maps/ls/small_town.json"
+    }, {
+        "id": "sv0",
+        "name": "Deep Space",
+        "set": "Supernova",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/sv/deep_space.json"
+    }, {
+        "id": "ui0",
+        "name": "Xavier's School",
+        "set": "Universe",
+        "type": "outdoor",
+        "width": 13,
+        "height": 13,
+        "date": "May 2004",
+        "file": "maps/ui/xaviers_school.json"
+    }, {
+        "id": "ui0",
+        "name": "Avengers' Mansion",
+        "set": "Universe",
+        "type": "outdoor",
+        "width": 13,
+        "height": 13,
+        "file": "maps/ui/avengers_mansion.json"
+    }, {
+        "id": "ht0",
+        "name": "The Office",
+        "set": "Hypertime",
+        "type": "indoor",
+        "width": 24,
+        "height": 24,
+        "file": "maps/ht/the_office.json"
+    }, {
+        "id": "ht1",
+        "name": "The Truck Stop",
+        "set": "Hypertime",
+        "source": "Hypertime Starter",
+        "type": "outdoor",
+        "width": 24,
+        "height": 24,
+        "file": "maps/ht/the_truck_stop.json"
+    }, {
+        "id": "ic4",
+        "name": "Xavier's School",
+        "set": "Infinity Challenge",
+        "type": "outdoor",
+        "width": 24,
+        "height": 24,
+        "file": "maps/ic/xaviers_school.json"
+    }, {
+        "id": "ic5",
+        "name": "Avengers' Mansion",
+        "set": "Infinity Challenge",
+        "type": "outdoor",
+        "width": 24,
+        "height": 24,
+        "file": "maps/ic/avengers_mansion.json"
+    }, {
+        "id": "ic10",
+        "name": "The Large Building",
+        "set": "Infinity Challenge",
+        "type": "outdoor",
+        "width": 24,
+        "height": 24,
+        "file": "maps/ic/the_large_building.json"
+    }, {
+        "id": "ic11",
+        "name": "The Construction Site",
+        "set": "Infinity Challenge",
+        "type": "outdoor",
+        "width": 24,
+        "height": 24,
+        "file": "maps/ic/the_construction_site.json"
     }, {
         "id": "roc16_0",
         "name": "The Blue Line",

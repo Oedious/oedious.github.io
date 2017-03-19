@@ -172,6 +172,9 @@ Map.prototype.drawWall = function(ctx, wall) {
 	} else if (wall.type == WallType.FORCE_FIELD) {
 		ctx.strokeStyle = FORCE_FIELD_COLOR;
 		ctx.lineCap = "round";
+	} else if (wall.type == WallType.CHAIN_LINK_FENCE) {
+		ctx.strokeStyle = CHAIN_LINK_FENCE_COLOR;
+		ctx.lineCap = "round";
 	}
 	ctx.lineWidth = WALL_SIZE;
 	ctx.beginPath();
