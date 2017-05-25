@@ -97,7 +97,9 @@
         "height": 24,
         "file": "maps/dxf/cargo_plane.json",
         "age": {
-            "modern": true
+            "modern": true,
+            "wko": true,
+            "roc": true
         }
     }, {
         "id": "jw0",
@@ -238,7 +240,9 @@
         "height": 24,
         "file": "maps/uxm/morlock_tunnels.json",
         "age": {
-            "modern": true
+            "modern": true,
+            "wko": true,
+            "roc": true
         }
     }, {
         "id": "uxm3",
@@ -349,7 +353,9 @@
         "height": 24,
         "file": "maps/wf/united_nations_conference.json",
         "age": {
-            "modern": true
+            "modern": true,
+            "wko": true,
+            "roc": true
         }
     }, {
         "id": "smww0",
@@ -410,12 +416,7 @@
         "type": "indoor",
         "width": 16,
         "height": 24,
-        "file": "maps/aou/hank_pyms_lab.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
+        "file": "maps/aou/hank_pyms_lab.json"
     }, {
         "id": "aou1",
         "name": "Thebes, Egypt",
@@ -423,12 +424,7 @@
         "type": "outdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/aou/thebes_egypt.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
+        "file": "maps/aou/thebes_egypt.json"
     }, {
         "id": "aou2",
         "name": "New Timbetpal",
@@ -436,12 +432,7 @@
         "type": "indoorOutdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/aou/new_timbetpal.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
+        "file": "maps/aou/new_timbetpal.json"
     }, {
         "id": "aou3",
         "name": "New York City",
@@ -449,12 +440,7 @@
         "type": "outdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/aou/new_york_city.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
+        "file": "maps/aou/new_york_city.json"
     }, {
         "id": "avas0",
         "name": "Arcade's Arena",
@@ -462,12 +448,7 @@
         "type": "indoorOutdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/avas/arcades_arena.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
+        "file": "maps/avas/arcades_arena.json"
     }, {
         "id": "avas1",
         "name": "Avengers Compound",
@@ -475,12 +456,7 @@
         "type": "outdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/avas/avengers_compound.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
+        "file": "maps/avas/avengers_compound.json"
     }, {
         "id": "aaou0",
         "name": "Strucker's Fortress",
@@ -488,12 +464,7 @@
         "type": "outdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/aaou/struckers_fortress.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
+        "file": "maps/aaou/struckers_fortress.json"
     }, {
         "id": "aaou1",
         "name": "Avengers Tower",
@@ -501,12 +472,7 @@
         "type": "indoorOutdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/aaou/avengers_tower.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
+        "file": "maps/aaou/avengers_tower.json"
     }, {
         "id": "jltw0",
         "name": "House of Mystery",
@@ -514,10 +480,7 @@
         "type": "indoorOutdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/jltw/house_of_mystery.json",
-        "age": {
-            "modern": true
-        }
+        "file": "maps/jltw/house_of_mystery.json"
     }, {
         "id": "jltw1",
         "name": "Atlantis",
@@ -525,10 +488,7 @@
         "type": "outdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/jltw/atlantis.json",
-        "age": {
-            "modern": true
-        }
+        "file": "maps/jltw/atlantis.json"
     }, {
         "id": "fl0",
         "name": "Central City",
@@ -536,12 +496,7 @@
         "type": "outdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/fl/central_city.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
+        "file": "maps/fl/central_city.json"
     }, {
         "id": "fl1",
         "name": "Keystone City",
@@ -549,12 +504,7 @@
         "type": "outdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/fl/keystone_city.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
+        "file": "maps/fl/keystone_city.json"
     }, {
         "id": "fl2",
         "name": "Central City Park",
@@ -562,12 +512,7 @@
         "type": "outdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/fl/central_city_park.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
+        "file": "maps/fl/central_city_park.json"
     }, {
         "id": "fl3",
         "name": "The Flash Museum",
@@ -575,12 +520,7 @@
         "type": "indoor",
         "width": 16,
         "height": 24,
-        "file": "maps/fl/the_flash_museum.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
+        "file": "maps/fl/the_flash_museum.json"
     }, {
         "id": "wkm0",
         "name": "Liberty Island",
@@ -588,10 +528,7 @@
         "type": "outdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/wkm/liberty_island.json",
-        "age": {
-            "modern": true
-        }
+        "file": "maps/wkm/liberty_island.json"
     }, {
         "id": "wkm1",
         "name": "Xavier Mansion Grounds",
@@ -599,10 +536,7 @@
         "type": "indoorOutdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/wkm/xavier_mansion_grounds.json",
-        "age": {
-            "modern": true
-        }
+        "file": "maps/wkm/xavier_mansion_grounds.json"
     }, {
         "id": "gotg0",
         "name": "Titan",
