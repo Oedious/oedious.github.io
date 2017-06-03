@@ -78,6 +78,31 @@
             "roc": true
         }
     }, {
+        "id": "adw0",
+        "name": "Dark Dimension",
+        "set": "Avengers/Defenders War",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "date": "May 2017",
+        "file": "maps/adw/dark_dimension.json",
+        "age": {
+            "modern": true
+        }
+    }, {
+        "id": "adw1",
+        "name": "Wakanda",
+        "set": "Avengers/Defenders War",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/adw/wakanda.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
         "id": "dxf0",
         "name": "Speakeasy",
         "set": "Deadpool and X-Force",
