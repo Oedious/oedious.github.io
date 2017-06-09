@@ -1,77 +1,25 @@
 {
     "maps": [{
-        "id": "wkp0",
-        "name": "Gaming Convention Hall",
-        "set": "Premium Maps",
-        "type": "indoor",
-        "width": 16,
-        "height": 24,
-        "file": "maps/premium/gaming_convention_hall.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
-    }, {
-        "id": "wkp1",
-        "name": "WizKids Office HQ",
-        "set": "Premium Maps",
-        "type": "indoor",
-        "width": 16,
-        "height": 24,
-        "file": "maps/premium/wizkids_office_hq.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
-    }, {
-        "id": "wkp2",
-        "name": "Convention Center Plaza",
-        "set": "Premium Maps",
+        "id": "wi0",
+        "name": "Arthur's Castle",
+        "set": "15th Anniversary What If?",
         "type": "outdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/premium/convention_center_plaza.json",
+        "file": "maps/wi/arthurs_castle.json",
         "age": {
             "modern": true,
             "wko": true,
             "roc": true
         }
     }, {
-        "id": "wkp3",
-        "name": "Parking Garage",
-        "set": "Premium Maps",
+        "id": "wi1",
+        "name": "Avengers Unity Rooftop",
+        "set": "15th Anniversary What If?",
         "type": "outdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/premium/parking_garage.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
-    }, {
-        "id": "wkp4",
-        "name": "Cargo Ship",
-        "set": "Premium Maps",
-        "type": "outdoor",
-        "width": 16,
-        "height": 24,
-        "file": "maps/premium/cargo_ship.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
-    }, {
-        "id": "wkp5",
-        "name": "Warehouse 5651",
-        "set": "Premium Maps",
-        "type": "indoor",
-        "width": 16,
-        "height": 24,
-        "file": "maps/premium/warehouse_5651.json",
+        "file": "maps/wi/avengers_unity_rooftop.json",
         "age": {
             "modern": true,
             "wko": true,
@@ -429,6 +377,84 @@
         "width": 16,
         "height": 24,
         "file": "maps/nfaos/nick_furys_safehouse.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
+        "id": "wkp0",
+        "name": "Gaming Convention Hall",
+        "set": "Premium Maps",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/premium/gaming_convention_hall.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
+        "id": "wkp1",
+        "name": "WizKids Office HQ",
+        "set": "Premium Maps",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/premium/wizkids_office_hq.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
+        "id": "wkp2",
+        "name": "Convention Center Plaza",
+        "set": "Premium Maps",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/premium/convention_center_plaza.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
+        "id": "wkp3",
+        "name": "Parking Garage",
+        "set": "Premium Maps",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/premium/parking_garage.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
+        "id": "wkp4",
+        "name": "Cargo Ship",
+        "set": "Premium Maps",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/premium/cargo_ship.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
+        "id": "wkp5",
+        "name": "Warehouse 5651",
+        "set": "Premium Maps",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/premium/warehouse_5651.json",
         "age": {
             "modern": true,
             "wko": true,
