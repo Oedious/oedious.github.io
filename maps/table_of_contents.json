@@ -26,6 +26,33 @@
             "roc": true
         }
     }, {
+        "id": "wi2",
+        "name": "Runaways Base",
+        "set": "15th Anniversary What If?",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/wi/runaways_base.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
+        "id": "wi3",
+        "name": "Avenger's Island",
+        "set": "15th Anniversary What If?",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "date": "June 2017",
+        "file": "maps/wi/avengers_island.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
         "id": "adw0",
         "name": "Dark Dimension",
         "set": "Avengers/Defenders War",
