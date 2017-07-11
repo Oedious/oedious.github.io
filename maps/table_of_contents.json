@@ -412,11 +412,11 @@
     }, {
         "id": "wkp0",
         "name": "Gaming Convention Hall",
-        "set": "Premium Maps",
+        "set": "Premium & Exclusive Maps",
         "type": "indoor",
         "width": 16,
         "height": 24,
-        "file": "maps/premium/gaming_convention_hall.json",
+        "file": "maps/wkp/gaming_convention_hall.json",
         "age": {
             "modern": true,
             "wko": true,
@@ -425,11 +425,11 @@
     }, {
         "id": "wkp1",
         "name": "WizKids Office HQ",
-        "set": "Premium Maps",
+        "set": "Premium & Exclusive Maps",
         "type": "indoor",
         "width": 16,
         "height": 24,
-        "file": "maps/premium/wizkids_office_hq.json",
+        "file": "maps/wkp/wizkids_office_hq.json",
         "age": {
             "modern": true,
             "wko": true,
@@ -438,11 +438,11 @@
     }, {
         "id": "wkp2",
         "name": "Convention Center Plaza",
-        "set": "Premium Maps",
+        "set": "Premium & Exclusive Maps",
         "type": "outdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/premium/convention_center_plaza.json",
+        "file": "maps/wkp/convention_center_plaza.json",
         "age": {
             "modern": true,
             "wko": true,
@@ -451,11 +451,11 @@
     }, {
         "id": "wkp3",
         "name": "Parking Garage",
-        "set": "Premium Maps",
+        "set": "Premium & Exclusive Maps",
         "type": "outdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/premium/parking_garage.json",
+        "file": "maps/wkp/parking_garage.json",
         "age": {
             "modern": true,
             "wko": true,
@@ -464,11 +464,11 @@
     }, {
         "id": "wkp4",
         "name": "Cargo Ship",
-        "set": "Premium Maps",
+        "set": "Premium & Exclusive Maps",
         "type": "outdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/premium/cargo_ship.json",
+        "file": "maps/wkp/cargo_ship.json",
         "age": {
             "modern": true,
             "wko": true,
@@ -477,11 +477,24 @@
     }, {
         "id": "wkp5",
         "name": "Warehouse 5651",
-        "set": "Premium Maps",
+        "set": "Premium & Exclusive Maps",
         "type": "indoor",
         "width": 16,
         "height": 24,
-        "file": "maps/premium/warehouse_5651.json",
+        "file": "maps/wkp/warehouse_5651.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
+        "id": "wkp5",
+        "name": "Sporting Arena",
+        "set": "Premium & Exclusive Maps",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/wkp/sporting_arena.json",
         "age": {
             "modern": true,
             "wko": true,

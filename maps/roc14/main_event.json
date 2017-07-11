@@ -39,9 +39,11 @@
 			"elevation": 2
 		}, {
 			"x": "H",
+			"elevation": 2,
 			"isStartingZone": true
 		}, {
 			"x": "I",
+			"elevation": 2,
 			"isStartingZone": true
 		}, {
 			"x": "J",
