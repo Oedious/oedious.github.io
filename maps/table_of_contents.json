@@ -1,8 +1,60 @@
 {
     "maps": [{
+        "id": "ew0",
+        "name": "Junkyard",
+        "set": "Elseworlds",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/ew/junkyard.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
+        "id": "ew1",
+        "name": "High Noon Saloon",
+        "set": "Elseworlds",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/ew/high_noon_saloon.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
+        "id": "ew2",
+        "name": "Wonder Woman Barn",
+        "set": "Elseworlds",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/ew/wonder_woman_barn.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
+        "id": "ew3",
+        "name": "High Noon Street",
+        "set": "Elseworlds",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/ew/high_noon_street.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
         "id": "wi0",
         "name": "Arthur's Castle",
-        "set": "15th Anniversary What If?",
+        "set": "What If?",
         "type": "outdoor",
         "width": 16,
         "height": 24,
@@ -15,7 +67,7 @@
     }, {
         "id": "wi1",
         "name": "Avengers Unity Rooftop",
-        "set": "15th Anniversary What If?",
+        "set": "What If?",
         "type": "outdoor",
         "width": 16,
         "height": 24,
@@ -28,7 +80,7 @@
     }, {
         "id": "wi2",
         "name": "Runaways Base",
-        "set": "15th Anniversary What If?",
+        "set": "What If?",
         "type": "indoor",
         "width": 16,
         "height": 24,
@@ -41,7 +93,7 @@
     }, {
         "id": "wi3",
         "name": "Avenger's Island",
-        "set": "15th Anniversary What If?",
+        "set": "What If?",
         "type": "outdoor",
         "width": 16,
         "height": 24,
