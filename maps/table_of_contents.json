@@ -2219,6 +2219,50 @@
         "height": 24,
         "file": "maps/ic/the_construction_site.json"
     }, {
+        "id": "roc17_0",
+        "name": "Donut Shoppe",
+        "set": "ROC 2017",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/roc17/donut_shoppe.json",
+        "age": {
+            "roc": true
+        }
+    }, {
+        "id": "roc17_1",
+        "name": "Underground",
+        "set": "ROC 2017",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/roc17/underground.json",
+        "age": {
+            "roc": true
+        }
+    }, {
+        "id": "roc17_2",
+        "name": "Remote Outpost on the Mexican Border",
+        "set": "ROC 2017",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/roc17/remote_outpost_on_the_mexican_border.json",
+        "age": {
+            "roc": true
+        }
+    }, {
+        "id": "roc17_3",
+        "name": "Amusement Park",
+        "set": "ROC 2017",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/roc17/amusement_park.json",
+        "age": {
+            "roc": true
+        }
+    }, {
         "id": "roc16_0",
         "name": "The Blue Line",
         "set": "ROC 2016",
