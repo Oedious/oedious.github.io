@@ -28,6 +28,14 @@ var CharacterSizeType = {
     SIX_BY_THREE: 4,
 }
 
+var Character = function() {
+    this.name_ = "";
+    this.x_ = -1;
+    this.y_ = -1;
+    this.rotation_ = 0;
+    this.sizeType_ = CharacterSizeType.ONE_BY_ONE;
+}
+
 var Character = function(x, y, rotation, sizeType) {
     this.name_ = "";
     this.x_ = x;

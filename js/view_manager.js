@@ -74,6 +74,7 @@ ViewManager.prototype.openPanel = function(navName, tabName, panelName, playerNu
 }
 
 ViewManager.prototype.onMouseDown = function(event) {
+    /*
     var canvas = document.getElementById("mapCanvas");
     var rect = canvas.getBoundingClientRect();
     var x = event.clientX - rect.left;
@@ -89,6 +90,7 @@ ViewManager.prototype.onMouseDown = function(event) {
         this.drawCharacterList();
         this.draw();
     }
+    */
 }
 
 ViewManager.prototype.onFocusOut = function(elementId) {
@@ -269,7 +271,21 @@ ViewManager.prototype.applySizeType = function(characterIndex) {
     this.draw();
 }
 
+ViewManager.prototype.addCharacter = function() {
+    this.getCurrentPlayer_().addCharacter(new Character());
+    this.drawCharacterList();
+}
+
+ViewManager.prototype.removeCharacter = function(characterIndex) {
+    this.getCurrentPlayer_().removeCharacter(characterIndex);
+    this.drawCharacterList();
+    this.draw();
+}
+
+ViewManager.prototype.startCharacterDrag = function(playerIndex, characterIndex) {}
+
 ViewManager.prototype.toggleCharacter_ = function(x, y) {
+    /*
     if (x >= 0 && y >= 0 && x < this.map_.width && y < this.map_.height) {
         for (var i = 0; i < this.players_.length; ++i) {
             var player = this.players_[i];
@@ -284,6 +300,7 @@ ViewManager.prototype.toggleCharacter_ = function(x, y) {
         return true;
     }
     return false;
+    */
 }
 
 ViewManager.prototype.getCurrentPlayer_ = function() {

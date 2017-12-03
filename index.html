@@ -165,6 +165,18 @@
       margin: 5px 0px;
     }
     
+    .addCharacterButton {
+      position: absolute;
+      right: 10px;
+      color: #00ff00;
+    }
+    
+    .removeCharacterButton {
+      position: absolute;
+      right: 5px;
+      color: #ff0000;
+    }
+    
     .characterListEntry {
       background-color: #ccc;
       color: black;
@@ -314,15 +326,17 @@
           <option value="5">Purple</option>
         </select>
       </div>
-      <div class="playerInfo">Characters:</div>
+      <div class="playerInfo">Characters:
+        <button class="addCharacterButton" onclick="mgr.addCharacter()">+</button>
+      </div>
       <div id="player0CharacterList" class="panelList"></div>
     </div>
     <div id="player1Panel" class="panel ">
       <div class="playerInfo">
-        Name: <input id="player1Name" class="playerInput" onfocusout="onFocusOut('player1Name')"></input>
+        Name: <input id="player1Name" class="panelInput" onfocusout="onFocusOut('player1Name')"></input>
       </div>
       <div class="playerInfo">Color:
-        <select id="player1Color" class="playerInput" onchange="mgr.applyColor()">
+        <select id="player1Color" class="panelInput" onchange="mgr.applyColor()">
           <option value="0">Red</option>
           <option value="1">Orange</option>
           <option value="2">Yellow</option>
@@ -331,7 +345,9 @@
           <option value="5">Purple</option>
         </select>
       </div>
-      <div class="playerInfo">Characters:</div>
+      <div class="playerInfo">Characters:
+        <button class="addCharacterButton" onclick="mgr.addCharacter()">+</button>
+      </div>
       <div id="player1CharacterList" class="panelList"></div>
     </div>
   </div>

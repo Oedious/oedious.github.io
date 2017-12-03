@@ -34,9 +34,11 @@ Player.prototype.drawCharacterList = function(playerIndex) {
 	var html = "";
 	for (var i = 0; i < this.characters_.length; ++i) {
 		var character = this.characters_[i];
-		html += "<div class='characterListEntry'>" +
+		html += "<div class='characterListEntry' draggable='true' ondrag='mgr.startCharacterDrag(" +
+			playerIndex + ", " + i + ")'>" +
 			"<div>Name:<input class='panelInput'></input></div>" +
-			"<div>Base Type:<select id='player" + playerIndex + "Character" + i + "SizeType' onchange='mgr.applySizeType(" + i + ")'>";
+			"<div>Base Type:<select id='player" + playerIndex + "Character" + i +
+			+"SizeType' onchange='mgr.applySizeType(" + i + ")'>";
 		for (var j = 0; j < CharacterSizes.length; ++j) {
 			html += "<option value='" + j + "'";
 			if (character.getSizeType() == j) {
@@ -44,7 +46,9 @@ Player.prototype.drawCharacterList = function(playerIndex) {
 			}
 			html += ">" + CharacterSizes[j].name + "</option>";
 		}
-		html += "</select></div></div>"
+		html += "</select>" +
+			"<button class='removeCharacterButton' onclick='mgr.removeCharacter(" + i + ")'>" +
+			"-</button></div></div>"
 	}
 	var listId = "player" + playerIndex + "CharacterList";
 	document.getElementById(listId).innerHTML = html;
@@ -88,13 +92,8 @@ Player.prototype.addCharacter = function(character) {
 	this.characters_.push(character);
 }
 
-Player.prototype.removeCharacter = function(character) {
-	for (var i = 0; i < this.characters_.length; ++i) {
-		if (this.characters_[i] == character) {
-			this.characters_.splice(i, 1);
-			return;
-		}
-	}
+Player.prototype.removeCharacter = function(index) {
+	this.characters_.splice(index, 1);
 }
 
 Player.prototype.getName = function() {
