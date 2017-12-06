@@ -1,5 +1,57 @@
 {
     "maps": [{
+        "id": "tmt0",
+        "name": "Gjallerbru",
+        "set": "The Mighty Thor",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/tmt/gjallerbru.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
+        "id": "tmt1",
+        "name": "Grand Arena",
+        "set": "The Mighty Thor",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/tmt/grand_arena.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
+        "id": "tmt2",
+        "name": "Bifrost",
+        "set": "The Mighty Thor",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/tmt/bifrost.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
+        "id": "tmt3",
+        "name": "Jotunheim Lake",
+        "set": "The Mighty Thor",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/tmt/jotunheim_lake.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
         "id": "hq0",
         "name": "Harley's Apartment",
         "set": "Harley Quinn and the Gotham Girls",
