@@ -1,5 +1,57 @@
 {
     "maps": [{
+        "id": "os2",
+        "name": "Amok Time",
+        "set": "Star Trek Away Team: The Original Series",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/os/amok_time.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
+        "id": "os3",
+        "name": "Underground Cavern",
+        "set": "Star Trek Away Team: The Original Series",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/os/underground_cavern.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
+        "id": "hq0",
+        "name": "Harley's Apartment",
+        "set": "Harley Quinn and the Gotham Girls",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/hq/harleys_apartment.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
+        "id": "hq1",
+        "name": "Roller Derby",
+        "set": "Harley Quinn and the Gotham Girls",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/hq/roller_derby.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
         "id": "tmt0",
         "name": "Gjallerbru",
         "set": "The Mighty Thor",
@@ -46,32 +98,6 @@
         "width": 16,
         "height": 24,
         "file": "maps/tmt/jotunheim_lake.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
-    }, {
-        "id": "hq0",
-        "name": "Harley's Apartment",
-        "set": "Harley Quinn and the Gotham Girls",
-        "type": "outdoor",
-        "width": 16,
-        "height": 24,
-        "file": "maps/hq/harleys_apartment.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
-    }, {
-        "id": "hq1",
-        "name": "Roller Derby",
-        "set": "Harley Quinn and the Gotham Girls",
-        "type": "indoor",
-        "width": 16,
-        "height": 24,
-        "file": "maps/hq/roller_derby.json",
         "age": {
             "modern": true,
             "wko": true,
