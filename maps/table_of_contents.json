@@ -1,5 +1,31 @@
 {
     "maps": [{
+        "id": "os0",
+        "name": "Gorn Fight",
+        "set": "Star Trek Away Team: The Original Series",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/os/gorn_fight.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
+        "id": "os1",
+        "name": "Forgotten Planet",
+        "set": "Star Trek Away Team: The Original Series",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/os/forgotten_planet.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
         "id": "os2",
         "name": "Amok Time",
         "set": "Star Trek Away Team: The Original Series",
