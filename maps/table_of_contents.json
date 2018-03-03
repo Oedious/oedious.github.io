@@ -1,5 +1,31 @@
 {
     "maps": [{
+        "id": "xxs0",
+        "name": "Genosha",
+        "set": "X-Men: Xavier's School",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/xxs/genosha.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
+        "id": "xxs1",
+        "name": "Muir Island",
+        "set": "X-Men: Xavier's School",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/xxs/muir_island.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
         "id": "os0",
         "name": "Gorn Fight",
         "set": "Star Trek Away Team: The Original Series",
