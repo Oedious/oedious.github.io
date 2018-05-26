@@ -1,5 +1,31 @@
 {
     "maps": [{
+        "id": "ai0",
+        "name": "Halfworld",
+        "set": "Avengers Infinity",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/ai/halfworld.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
+        "id": "ai1",
+        "name": "Galador Promenade",
+        "set": "Avengers Infinity",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/ai/galador_promenade.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
         "id": "xxs0",
         "name": "Genosha",
         "set": "X-Men: Xavier's School",
