@@ -38,19 +38,19 @@ ViewManager.prototype.loadTableOfContents_ = function(mapId) {
 
 ViewManager.prototype.toggleLeftNav = function() {
     var nav = document.getElementById("leftNav");
-    if (nav.style.left == "-210px") {
+    if (nav.style.left == "-250px") {
         nav.style.left = "0px";
     } else {
-        nav.style.left = "-210px";
+        nav.style.left = "-250px";
     }
 }
 
 ViewManager.prototype.toggleRightNav = function() {
     var nav = document.getElementById("rightNav");
-    if (nav.style.right == "calc(0% - 210px)") {
+    if (nav.style.right == "calc(0% - 250px)") {
         nav.style.right = "0px";
     } else {
-        nav.style.right = "calc(0% - 210px)";
+        nav.style.right = "calc(0% - 250px)";
     }
 }
 

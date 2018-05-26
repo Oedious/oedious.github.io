@@ -10,46 +10,46 @@
       width: 250px;
       position: fixed;
       z-index: 1;
-      top: 0;
+      top: 56px;
       background-color: #F1F1F1;
       overflow-x: hidden;
       padding-top: 50px;
       transition: 0.5s;
     }
-    
+
     #leftNav {
       left: 0;
     }
-    
+
     .toggle {
       position: absolute;
-      top: 0px;
       padding: 10px 5px;
+      height: 36px;
     }
-    
+
     #leftNav #leftToggle {
       right: 0;
     }
-    
+
     .toggle:hover {
       background-color: #ddd;
     }
-    
+
     #rightNav {
-      right: 0px;
+      right: -250px;
     }
-    
+
     #rightNav #rightToggle {
       left: 0px;
     }
-    
+
     .bar {
       width: 30px;
       height: 5px;
       background-color: black;
       margin: 4px 0;
     }
-    
+
     ul.tabs {
       list-style-type: none;
       margin: 0;
@@ -62,11 +62,11 @@
       left: 0px;
       right: 0px;
     }
-    
+
     ul.tabs li {
       float: left;
     }
-    
+
     .tab {
       display: inline-block;
       color: black;
@@ -77,21 +77,21 @@
       font-size: 17px;
       background-color: #eee;
     }
-    
+
     .tab:hover {
       background-color: #ddd;
     }
-    
+
     .tab:focus,
     .active {
       background-color: #ccc;
     }
-    
+
     #rightTabs {
       position: relative;
       left: 40px;
     }
-    
+
     .panel {
       display: none;
       padding: 6px 12px;
@@ -100,7 +100,7 @@
       overflow-y: hidden;
       background-color: #ccc;
     }
-    
+
     #filters {
       position: absolute;
       top: 0px;
@@ -108,17 +108,17 @@
       width: 242px;
       margin: 10px 10px;
     }
-    
+
     .filterInfo {
       margin: 2px 0px;
     }
-    
+
     .panelInput {
       position: absolute;
       left: 60px;
       width: calc(100% - 70px);
     }
-    
+
     .panelList {
       position: absolute;
       top: 70px;
@@ -129,7 +129,7 @@
       margin: 5px 0px;
       background-color: #ccc;
     }
-    
+
     #tableOfContents a {
       background-color: #ccc;
       color: black;
@@ -137,46 +137,46 @@
       padding: 4px 10px;
       text-decoration: none;
     }
-    
+
     #tableOfContents a:hover {
       background-color: #bbb;
     }
-    
+
     #tableOfContents a:focus,
     .active {
       background-color: #aaa;
       color: #fffffff;
     }
-    
+
     #mapTitle {
       font-family: Arial, Helvetica, sans-serif;
       font-weight: bold;
       text-align: left;
     }
-    
+
     .mapInfo {
       font-family: Arial, Helvetica, sans-serif;
       font-size: small;
       font-weight: bold;
       text-align: left;
     }
-    
+
     .playerInfo {
       margin: 5px 0px;
     }
-    
+
     .addCharacterButton {
       position: absolute;
       right: 10px;
       color: #00ff00;
     }
-    
+
     .removeCharacterButton {
       position: absolute;
       right: 5px;
       color: #ff0000;
     }
-    
+
     .characterListEntry {
       background-color: #ccc;
       color: black;
@@ -186,17 +186,17 @@
       height: 50px;
       border: 1px solid #bbb;
     }
-    
+
     .characterListEntry:hover {
       background-color: #bbb;
     }
-    
+
     .characterListEntry:focus,
     .active {
       background-color: #aaa;
       color: #fffffff;
     }
-    
+
     .top {
       position: fixed;
       top: 0;
@@ -204,14 +204,18 @@
       right: 0;
       background-color: #F0F0F0;
     }
-    
+
     #mapHeader {
       font-family: Arial, Helvetica, sans-serif;
       font-size: xx-large;
       font-weight: bold;
       text-align: center;
     }
-    
+
+    .nextButton {
+      width: 75px;
+    }
+
     .main {
       position: absolute;
       top: 70px;
@@ -226,16 +230,21 @@
     <canvas id="mapCanvas" onmousedown="onMouseDown(event)"></canvas>
   </div>
   <div class="top">
+    <div id="leftToggle" class="toggle" onclick="mgr.toggleLeftNav()">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
     <div id="mapHeader"></div>
     <div style="text-align: center;">
-      <button onclick="mgr.previousMap()">Previous</button>
+      <button class="nextButton" onclick="mgr.previousMap()">&lt&lt</button>
       <select id="selectZoom" onchange="mgr.draw()">
         <option value="0">Fit</option>
         <option value="0.5">50%</option>
         <option value="0.75">75%</option>
         <option value="1.0">100%</option>
       </select>
-      <button onclick="mgr.nextMap()">Next</button>
+      <button class="nextButton" onclick="mgr.nextMap()">&gt&gt</button>
     </div>
   </div>
 
@@ -243,13 +252,6 @@
     <ul class="tabs">
       <li><a href="javascript:void(0)" class="tab" id="mapsTab" onclick="mgr.openPanel('leftNav', 'mapsTab', 'mapsPanel')">Maps</a></li>
       <li><a href="javascript:void(0)" class="tab" id="infoTab" onclick="mgr.openPanel('leftNav', 'infoTab', 'infoPanel')">Info</a></li>
-      <li>
-        <div id="leftToggle" class="toggle" onclick="mgr.toggleLeftNav()">
-          <div class="bar"></div>
-          <div class="bar"></div>
-          <div class="bar"></div>
-        </div>
-      </li>
     </ul>
     <div id="infoPanel" class="panel">
       <div id="mapTitle" class="panelList" style="top:0; height:100%">
