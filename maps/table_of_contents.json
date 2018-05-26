@@ -440,210 +440,6 @@
             "roc": true
         }
     }, {
-        "id": "uxm0",
-        "name": "Jean Grey School for Higher Learning",
-        "set": "Uncanny X-Men",
-        "type": "indoorOutdoor",
-        "width": 16,
-        "height": 24,
-        "file": "maps/uxm/jean_grey_school_for_higher_learning.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
-    }, {
-        "id": "uxm1",
-        "name": "Manhattan Bridge",
-        "set": "Uncanny X-Men",
-        "type": "outdoor",
-        "width": 16,
-        "height": 24,
-        "file": "maps/uxm/manhattan_bridge.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
-    }, {
-        "id": "uxm2",
-        "name": "Morlock Tunnels",
-        "set": "Uncanny X-Men",
-        "type": "indoor",
-        "width": 16,
-        "height": 24,
-        "file": "maps/uxm/morlock_tunnels.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
-    }, {
-        "id": "uxm3",
-        "name": "Jean Grey School for Higher Learning Grounds",
-        "set": "Uncanny X-Men",
-        "type": "outdoor",
-        "width": 16,
-        "height": 24,
-        "file": "maps/uxm/jean_grey_school_for_higher_learning_grounds.json",
-        "age": {
-            "modern": true
-        }
-    }, {
-        "id": "tmnt0",
-        "name": "Baxter's Lab",
-        "set": "Teenage Mutant Ninja Turtles",
-        "type": "indoor",
-        "width": 16,
-        "height": 24,
-        "file": "maps/tmnt/baxters_lab.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
-    }, {
-        "id": "tmnt1",
-        "name": "Turtles Lair",
-        "set": "Teenage Mutant Ninja Turtles",
-        "type": "indoor",
-        "width": 16,
-        "height": 24,
-        "file": "maps/tmnt/turtles_lair.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
-    }, {
-        "id": "tmnt2",
-        "name": "Sewers",
-        "set": "Teenage Mutant Ninja Turtles",
-        "type": "indoor",
-        "width": 16,
-        "height": 24,
-        "file": "maps/tmnt/sewers.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
-    }, {
-        "id": "tmnt3",
-        "name": "Technodrome",
-        "set": "Teenage Mutant Ninja Turtles",
-        "type": "indoor",
-        "width": 16,
-        "height": 24,
-        "file": "maps/tmnt/technodrome.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
-    }, {
-        "id": "cacw0",
-        "name": "Avengers HQ Upstate",
-        "set": "Captain America: Civil War",
-        "type": "outdoor",
-        "width": 16,
-        "height": 24,
-        "file": "maps/cacw/avengers_hq_upstate_outdoor.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
-    }, {
-        "id": "cacw1",
-        "name": "Avengers HQ Upstate",
-        "set": "Captain America: Civil War",
-        "type": "indoor",
-        "width": 16,
-        "height": 24,
-        "file": "maps/cacw/avengers_hq_upstate_indoor.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
-    }, {
-        "id": "wf0",
-        "name": "Danny the Street",
-        "set": "World's Finest",
-        "type": "outdoor",
-        "width": 16,
-        "height": 24,
-        "file": "maps/wf/danny_the_street.json",
-        "age": {
-            "modern": true
-        }
-    }, {
-        "id": "wf1",
-        "name": "United Nations Conference",
-        "set": "World's Finest",
-        "type": "indoor",
-        "width": 16,
-        "height": 24,
-        "file": "maps/wf/united_nations_conference.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
-    }, {
-        "id": "smww0",
-        "name": "Mount Olympus",
-        "set": "Superman/Wonder Woman",
-        "type": "outdoor",
-        "width": 16,
-        "height": 24,
-        "file": "maps/smww/mount_olympus.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
-    }, {
-        "id": "smww1",
-        "name": "The Daily Planet",
-        "set": "Superman/Wonder Woman",
-        "type": "indoorOutdoor",
-        "width": 16,
-        "height": 24,
-        "file": "maps/smww/the_daily_planet.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
-    }, {
-        "id": "nfaos0",
-        "name": "Hydra Island",
-        "set": "Nick Fury: Agent of S.H.I.E.L.D.",
-        "type": "indoorOutdoor",
-        "width": 16,
-        "height": 24,
-        "file": "maps/nfaos/hydra_island.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
-    }, {
-        "id": "nfaos1",
-        "name": "Nick Fury's Safehouse",
-        "set": "Nick Fury: Agent of S.H.I.E.L.D.",
-        "type": "indoorOutdoor",
-        "width": 16,
-        "height": 24,
-        "file": "maps/nfaos/nick_furys_safehouse.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
-    }, {
         "id": "wkp0",
         "name": "Gaming Convention Hall",
         "set": "Premium & Exclusive Maps",
@@ -760,6 +556,134 @@
             "wko": true,
             "roc": true
         }
+    }, {
+        "id": "uxm0",
+        "name": "Jean Grey School for Higher Learning",
+        "set": "Uncanny X-Men",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/uxm/jean_grey_school_for_higher_learning.json"
+    }, {
+        "id": "uxm1",
+        "name": "Manhattan Bridge",
+        "set": "Uncanny X-Men",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/uxm/manhattan_bridge.json"
+    }, {
+        "id": "uxm2",
+        "name": "Morlock Tunnels",
+        "set": "Uncanny X-Men",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/uxm/morlock_tunnels.json"
+    }, {
+        "id": "uxm3",
+        "name": "Jean Grey School for Higher Learning Grounds",
+        "set": "Uncanny X-Men",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/uxm/jean_grey_school_for_higher_learning_grounds.json"
+    }, {
+        "id": "tmnt0",
+        "name": "Baxter's Lab",
+        "set": "Teenage Mutant Ninja Turtles",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/tmnt/baxters_lab.json"
+    }, {
+        "id": "tmnt1",
+        "name": "Turtles Lair",
+        "set": "Teenage Mutant Ninja Turtles",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/tmnt/turtles_lair.json"
+    }, {
+        "id": "tmnt2",
+        "name": "Sewers",
+        "set": "Teenage Mutant Ninja Turtles",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/tmnt/sewers.json"
+    }, {
+        "id": "tmnt3",
+        "name": "Technodrome",
+        "set": "Teenage Mutant Ninja Turtles",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/tmnt/technodrome.json"
+    }, {
+        "id": "cacw0",
+        "name": "Avengers HQ Upstate",
+        "set": "Captain America: Civil War",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/cacw/avengers_hq_upstate_outdoor.json"
+    }, {
+        "id": "cacw1",
+        "name": "Avengers HQ Upstate",
+        "set": "Captain America: Civil War",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/cacw/avengers_hq_upstate_indoor.json"
+    }, {
+        "id": "wf0",
+        "name": "Danny the Street",
+        "set": "World's Finest",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/wf/danny_the_street.json"
+    }, {
+        "id": "wf1",
+        "name": "United Nations Conference",
+        "set": "World's Finest",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/wf/united_nations_conference.json"
+    }, {
+        "id": "smww0",
+        "name": "Mount Olympus",
+        "set": "Superman/Wonder Woman",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/smww/mount_olympus.json"
+    }, {
+        "id": "smww1",
+        "name": "The Daily Planet",
+        "set": "Superman/Wonder Woman",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/smww/the_daily_planet.json"
+    }, {
+        "id": "nfaos0",
+        "name": "Hydra Island",
+        "set": "Nick Fury: Agent of S.H.I.E.L.D.",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/nfaos/hydra_island.json"
+    }, {
+        "id": "nfaos1",
+        "name": "Nick Fury's Safehouse",
+        "set": "Nick Fury: Agent of S.H.I.E.L.D.",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/nfaos/nick_furys_safehouse.json"
     }, {
         "id": "aou0",
         "name": "Hank Pym's Lab",
