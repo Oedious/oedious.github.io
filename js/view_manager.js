@@ -1,4 +1,8 @@
 var ViewManager = function() {
+    this.touchStartX_ = 0;
+    this.touchStartY_ = 0;
+    this.touchEndX_ = 0;
+    this.touchEndY_ = 0;
     this.zoom_ = 100;
     this.scale_ = 1;
     this.translationX_ = 0;
@@ -106,6 +110,30 @@ ViewManager.prototype.onFocusOut = function(elementId) {
     } else if (element.id == "player1Color") {
         this.players_[1].setColor(element.value);
         this.draw();
+    }
+}
+
+ViewManager.prototype.onTouchDown = function(event) {
+    this.touchStartX_ = event.changedTouches[0].screenX;
+    this.touchStartY_ = event.changedTouches[0].screenY;
+}
+
+ViewManager.prototype.onTouchUp = function(event) {
+    const limit = Math.tan(45 * 1.5 / 180 * Math.PI);
+    const threshold = 20;
+    var x = event.changedTouches[0].screenX - this.touchStartX_;
+    var y = event.changedTouches[0].screenY - this.touchStartY_;
+    this.touchStartX_ = this.touchStartY_ = 0;
+    var xy = Math.abs(x / y);
+    var yx = Math.abs(y / x);
+    if (Math.abs(x) > threshold || Math.abs(y) > threshold) {
+        if (yx <= limit) {
+            if (x < 0) {
+                this.previousMap();
+            } else {
+                this.nextMap();
+            }
+        }
     }
 }
 

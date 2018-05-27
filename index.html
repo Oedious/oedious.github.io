@@ -385,6 +385,15 @@
     function onFocusOut(elementId) {
       mgr.onFocusOut(elementId);
     }
+
+    const gestureZone = document.getElementById('mapCanvas');
+    gestureZone.addEventListener('touchstart', function(event) {
+      mgr.onTouchStart(event);
+    }, false);
+
+    gestureZone.addEventListener('touchend', function(event) {
+      mgr.onTouchEnd(event);
+    }, false);
   </script>
 
 </body>
