@@ -227,7 +227,7 @@
 
 <body>
   <div class="main">
-    <canvas id="mapCanvas" onmousedown="onMouseDown(event)"></canvas>
+    <canvas id="mapCanvas" onmousedown="onMouseDown(event)" ontouchstart="onTouchStart(event)" ontouchend="onTouchEnd(event)"></canvas>
   </div>
   <div class="top">
     <div id="leftToggle" class="toggle" onclick="mgr.toggleLeftNav()">
@@ -382,18 +382,17 @@
       mgr.onMouseDown(event);
     }
 
+    function onTouchStart(event) {
+      mgr.onTouchStart(event);
+    }
+
+    function onTouchEnd(event) {
+      mgr.onTouchEnd(event);
+    }
+
     function onFocusOut(elementId) {
       mgr.onFocusOut(elementId);
     }
-
-    const gestureZone = document.getElementById('mapCanvas');
-    gestureZone.addEventListener('touchstart', function(event) {
-      mgr.onTouchStart(event);
-    }, false);
-
-    gestureZone.addEventListener('touchend', function(event) {
-      mgr.onTouchEnd(event);
-    }, false);
   </script>
 
 </body>

@@ -113,12 +113,12 @@ ViewManager.prototype.onFocusOut = function(elementId) {
     }
 }
 
-ViewManager.prototype.onTouchDown = function(event) {
+ViewManager.prototype.onTouchStart = function(event) {
     this.touchStartX_ = event.changedTouches[0].screenX;
     this.touchStartY_ = event.changedTouches[0].screenY;
 }
 
-ViewManager.prototype.onTouchUp = function(event) {
+ViewManager.prototype.onTouchEnd = function(event) {
     const limit = Math.tan(45 * 1.5 / 180 * Math.PI);
     const threshold = 20;
     var x = event.changedTouches[0].screenX - this.touchStartX_;
