@@ -41,6 +41,11 @@ ViewManager.prototype.loadTableOfContents_ = function(mapId) {
     });
 }
 
+ViewManager.prototype.isLeftNavActive = function() {
+    var left = document.getElementById("leftNav").style.left;
+    return left == 0 || left == "0px";
+}
+
 ViewManager.prototype.toggleLeftNav = function() {
     var nav = document.getElementById("leftNav");
     if (nav.style.left == "-250px") {
@@ -48,6 +53,7 @@ ViewManager.prototype.toggleLeftNav = function() {
     } else {
         nav.style.left = "-250px";
     }
+    this.draw();
 }
 
 ViewManager.prototype.toggleRightNav = function() {
@@ -167,6 +173,9 @@ ViewManager.prototype.draw = function() {
     var ctx = c.getContext("2d");
     ctx.save()
     var windowWidth = window.innerWidth;
+    if (this.isLeftNavActive()) {
+        windowWidth -= 250;
+    }
     var windowHeight = window.innerHeight - 70;
     c.width = windowWidth;
     c.height = windowHeight;
