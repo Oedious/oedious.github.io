@@ -2401,10 +2401,7 @@
         "type": "indoor",
         "width": 16,
         "height": 16,
-        "file": "maps/roc18/fountains_corner.json",
-        "age": {
-            "roc": true
-        }
+        "file": "maps/roc18/fountains_corner.json"
     }, {
         "id": "roc18_5",
         "name": "Street Fight",
@@ -2412,10 +2409,7 @@
         "type": "outdoor",
         "width": 16,
         "height": 16,
-        "file": "maps/roc18/street_fight.json",
-        "age": {
-            "roc": true
-        }
+        "file": "maps/roc18/street_fight.json"
     }, {
         "id": "roc18_6",
         "name": "Flashpoint Flood",
