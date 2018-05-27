@@ -6,11 +6,11 @@
   <title>Heroclix Map Viewer</title>
   <style type="text/css">
     .sideNav {
-      height: 100%;
       width: 250px;
       position: fixed;
       z-index: 1;
       top: 56px;
+      bottom: 0px;
       background-color: #F1F1F1;
       overflow-x: hidden;
       padding-top: 50px;
@@ -123,7 +123,7 @@
       position: absolute;
       top: 70px;
       width: 230px;
-      height: calc(100% - 150px);
+      height: calc(100% - 100px);
       overflow-y: scroll;
       border: 1px solid #bbb;
       margin: 5px 0px;
@@ -238,12 +238,8 @@
     <div id="mapHeader"></div>
     <div style="text-align: center;">
       <button class="nextButton" onclick="mgr.previousMap()">&lt&lt</button>
-      <select id="selectZoom" onchange="mgr.draw()">
-        <option value="0">Fit</option>
-        <option value="0.5">50%</option>
-        <option value="0.75">75%</option>
-        <option value="1.0">100%</option>
-      </select>
+      <button onclick="mgr.zoomOut()">-</button>
+      <button onclick="mgr.zoomIn()">+</button>
       <button class="nextButton" onclick="mgr.nextMap()">&gt&gt</button>
     </div>
   </div>

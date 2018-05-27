@@ -2351,6 +2351,83 @@
         "height": 24,
         "file": "maps/ic/the_construction_site.json"
     }, {
+        "id": "roc18_0",
+        "name": "Food Court",
+        "set": "ROC 2018",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/roc18/food_court.json",
+        "age": {
+            "roc": true
+        }
+    }, {
+        "id": "roc18_1",
+        "name": "Arcade",
+        "set": "ROC 2018",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/roc18/arcade.json",
+        "age": {
+            "roc": true
+        }
+    }, {
+        "id": "roc18_2",
+        "name": "Mall Hallway 01",
+        "set": "ROC 2018",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/roc18/mall_hallway_01.json",
+        "age": {
+            "roc": true
+        }
+    }, {
+        "id": "roc18_3",
+        "name": "Clothing Cove",
+        "set": "ROC 2018",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/roc18/clothing_cove.json",
+        "age": {
+            "roc": true
+        }
+    }, {
+        "id": "roc18_4",
+        "name": "Fountain's Corner",
+        "set": "ROC 2018",
+        "type": "indoor",
+        "width": 16,
+        "height": 16,
+        "file": "maps/roc18/fountains_corner.json",
+        "age": {
+            "roc": true
+        }
+    }, {
+        "id": "roc18_5",
+        "name": "Street Fight",
+        "set": "ROC 2018",
+        "type": "outdoor",
+        "width": 16,
+        "height": 16,
+        "file": "maps/roc18/street_fight.json",
+        "age": {
+            "roc": true
+        }
+    }, {
+        "id": "roc18_6",
+        "name": "Flashpoint Flood",
+        "set": "ROC 2018",
+        "type": "outdoor",
+        "width": 16,
+        "height": 16,
+        "file": "maps/roc18/flashpoint_flood.json",
+        "age": {
+            "roc": true
+        }
+    }, {
         "id": "roc17_0",
         "name": "Donut Shoppe",
         "set": "ROC 2017",

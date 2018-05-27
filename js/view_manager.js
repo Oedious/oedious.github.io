@@ -1,4 +1,5 @@
 var ViewManager = function() {
+    this.zoom_ = 100;
     this.scale_ = 1;
     this.translationX_ = 0;
     this.map_ = null;
@@ -118,6 +119,20 @@ ViewManager.prototype.loadMap_ = function(mapFile) {
     });
 }
 
+ViewManager.prototype.zoomIn = function() {
+    if (this.zoom_ < 200) {
+        this.zoom_ += 25;
+        this.draw();
+    }
+}
+
+ViewManager.prototype.zoomOut = function() {
+    if (this.zoom_ > 25) {
+        this.zoom_ += -25;
+        this.draw();
+    }
+}
+
 ViewManager.prototype.draw = function() {
     var c = document.getElementById("mapCanvas");
     var left = document.getElementById("left");
@@ -125,29 +140,14 @@ ViewManager.prototype.draw = function() {
     ctx.save()
     var windowWidth = window.innerWidth;
     var windowHeight = window.innerHeight - 70;
-    var mapScale = document.getElementById("selectZoom").value;
-    if (mapScale <= 0) {
-        c.width = windowWidth;
-        c.height = windowHeight;
-        var sx = c.width / (this.map_.width * TILE_SIZE);
-        var sy = c.height / (this.map_.height * TILE_SIZE);
-        this.scale_ = sx < sy ? sx : sy;
-        this.translationX_ = (c.width / this.scale_ - this.map_.width * TILE_SIZE) / 2;
-        ctx.scale(this.scale_, this.scale_);
-        ctx.translate(this.translationX_, 0);
-    } else if (mapScale >= 1) {
-        c.width = this.map_.width * TILE_SIZE;
-        c.height = this.map_.height * TILE_SIZE;
-        this.scale_ = 1;
-        this.translationX_ = 0;
-    } else {
-        c.width = Math.max(windowWidth, this.map_.width * TILE_SIZE * mapScale);
-        c.height = this.map_.height * TILE_SIZE * mapScale;
-        this.scale_ = mapScale;
-        this.translationX_ = (c.width / this.scale_ - this.map_.width * TILE_SIZE) / 2;
-        ctx.scale(this.scale_, this.scale_);
-        ctx.translate(this.translationX_, 0);
-    }
+    c.width = windowWidth;
+    c.height = windowHeight;
+    var sx = c.width / (this.map_.width * TILE_SIZE);
+    var sy = c.height / (this.map_.height * TILE_SIZE);
+    this.scale_ = (sx < sy ? sx : sy) * (this.zoom_ / 100.0);
+    this.translationX_ = (c.width / this.scale_ - this.map_.width * TILE_SIZE) / 2;
+    ctx.scale(this.scale_, this.scale_);
+    ctx.translate(this.translationX_, 0);
     this.map_.draw(ctx);
     ctx.restore();
     for (var i = 0; i < this.players_.length; ++i) {
