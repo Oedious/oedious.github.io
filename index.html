@@ -9,7 +9,7 @@
       width: 250px;
       position: fixed;
       z-index: 1;
-      top: 56px;
+      top: 82px;
       bottom: 0px;
       background-color: #F1F1F1;
       overflow-x: hidden;
@@ -203,6 +203,7 @@
       top: 0;
       left: 0;
       right: 0;
+      height: 82px;
       background-color: #F0F0F0;
     }
 
@@ -213,13 +214,20 @@
       text-align: center;
     }
 
-    .nextButton {
+    #mapHeaderType {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: large;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .headerButton {
       width: 75px;
     }
 
     .main {
       position: absolute;
-      top: 70px;
+      top: 85px;
       right: 0;
       bottom: 0;
       overflow: hidden;
@@ -238,11 +246,12 @@
       <div class="bar"></div>
     </div>
     <div id="mapHeader"></div>
+    <div id="mapHeaderType"></div>
     <div style="text-align: center;">
-      <button class="nextButton" onclick="mgr.previousMap()">&lt&lt</button>
-      <button onclick="mgr.zoomOut()">-</button>
-      <button onclick="mgr.zoomIn()">+</button>
-      <button class="nextButton" onclick="mgr.nextMap()">&gt&gt</button>
+      <button class="headerButton" onclick="mgr.previousMap()">&lt&lt</button>
+      <button class="headerButton" onclick="mgr.zoomOut()">-</button>
+      <button class="headerButton" onclick="mgr.zoomIn()">+</button>
+      <button class="headerButton" onclick="mgr.nextMap()">&gt&gt</button>
     </div>
   </div>
 
