@@ -176,7 +176,7 @@ ViewManager.prototype.draw = function() {
     if (this.isLeftNavActive()) {
         windowWidth -= 250;
     }
-    var windowHeight = window.innerHeight - 70;
+    var windowHeight = window.innerHeight - 88;
     c.width = windowWidth;
     c.height = windowHeight;
     var sx = (c.width - 10) / (this.map_.width * TILE_SIZE);
