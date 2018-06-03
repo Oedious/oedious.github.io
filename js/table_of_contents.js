@@ -8,11 +8,13 @@ TableOfContents.prototype.load = function(callback) {
     var self = this;
     loader.load("maps/table_of_contents.json", function(json) {
         self.toc_ = json.maps;
+        self.applyFilters();
+        self.draw();
         callback();
     });
 }
 
-TableOfContents.prototype.applyFilters = function(mapId) {
+TableOfContents.prototype.applyFilters = function() {
     var filterByAge = document.getElementById("selectAge").value;
     var filterByType = document.getElementById("selectType").value;
     var filterBySize = document.getElementById("selectSize").value;
@@ -31,9 +33,6 @@ TableOfContents.prototype.applyFilters = function(mapId) {
     this.tocFiltered_ = [];
     for (var i = 0; i < this.toc_.length; ++i) {
         var map = this.toc_[i];
-        if (mapId && mapId != map.id) {
-            continue;
-        }
         if (filterByAge != "all" && !(map.age && map.age[filterByAge])) {
             continue;
         }
@@ -73,4 +72,15 @@ TableOfContents.prototype.getFilteredEntry = function(index) {
 
 TableOfContents.prototype.getFilteredSize = function() {
     return this.tocFiltered_.length;
+}
+
+TableOfContents.prototype.getIndexByMapId = function(mapId) {
+    if (mapId) {
+        for (var i = 0; i < this.tocFiltered_.length; ++i) {
+            if (mapId == this.tocFiltered_[i].id) {
+                return i;
+            }
+        }
+    }
+    return -1;
 }

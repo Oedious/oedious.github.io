@@ -17,8 +17,8 @@ var ViewManager = function() {
     this.openPanel("leftNav", "mapsTab", "mapsPanel");
     this.openPanel("rightNav", "player0Tab", "player0Panel", 0);
 
+    var mapId = this.getParameterByName_("m");
     var serialized = this.getParameterByName_("s");
-    var mapId = null;
     if (serialized) {
         mapId = this.deserialize(serialized);
     }
@@ -35,9 +35,11 @@ var ViewManager = function() {
 ViewManager.prototype.loadTableOfContents_ = function(mapId) {
     var mgr = this;
     mgr.toc_.load(function() {
-        mgr.toc_.applyFilters(mapId);
-        mgr.toc_.draw();
-        mgr.setMap(0);
+        var index = mgr.toc_.getIndexByMapId(mapId);
+        if (index < 0) {
+            index = 0;
+        }
+        mgr.setMap(index);
     });
 }
 
@@ -150,6 +152,7 @@ ViewManager.prototype.loadMap_ = function(mapFile) {
         mgr.map_ = new Map(json);
         document.getElementById("toc" + mgr.mapIndex_).focus();
         mgr.draw();
+        mgr.updateUrl();
     });
 }
 
@@ -274,23 +277,9 @@ ViewManager.prototype.getParameterByName_ = function(name, url) {
     return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
 
-ViewManager.prototype.generateLink = function() {
-    var pageNames = [
-        "/hcmaps/index.html",
-        "/hcmaps/"
-    ];
-    var serialized = this.serialize();
-    var url = window.location.href;
-    for (var i = 0; i < pageNames.length; ++i) {
-        var pageName = pageNames[i];
-        var index = url.indexOf(pageName);
-        if (index >= 0) {
-            var baseUrl = url.substring(0, index + pageName.length);
-            var link = baseUrl + "?s=" + serialized;
-            document.getElementById("link").value = link;
-            return;
-        }
-    }
+ViewManager.prototype.updateUrl = function() {
+    var url = "?m=" + this.getCurrentMapEntry_().id;
+    window.history.replaceState(null, null, url);
 }
 
 ViewManager.prototype.applyFilters = function() {
