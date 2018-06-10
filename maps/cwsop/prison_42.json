@@ -133,9 +133,11 @@
 		}, {
 			"x": "N"
 		}, {
-			"x": "O"
+			"x": "O",
+			"terrain": "blocking"
 		}, {
-			"x": "P"
+			"x": "P",
+			"terrain": "blocking"
 		}]
 	}, {
 		"y": 4,
@@ -168,11 +170,9 @@
 		}, {
 			"x": "N"
 		}, {
-			"x": "O",
-			"terrain": "blocking"
+			"x": "O"
 		}, {
-			"x": "P",
-			"terrain": "blocking"
+			"x": "P"
 		}]
 	}, {
 		"y": 5,

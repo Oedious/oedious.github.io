@@ -294,10 +294,7 @@
         "width": 16,
         "height": 24,
         "date": "May 2017",
-        "file": "maps/adw/dark_dimension.json",
-        "age": {
-            "modern": true
-        }
+        "file": "maps/adw/dark_dimension.json"
     }, {
         "id": "adw1",
         "name": "Wakanda",
@@ -318,10 +315,7 @@
         "type": "indoor",
         "width": 16,
         "height": 24,
-        "file": "maps/dxf/speakeasy.json",
-        "age": {
-            "modern": true
-        }
+        "file": "maps/dxf/speakeasy.json"
     }, {
         "id": "dxf1",
         "name": "Cargo Plane",
