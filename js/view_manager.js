@@ -137,9 +137,9 @@ ViewManager.prototype.onTouchEnd = function(event) {
     if (Math.abs(x) > threshold || Math.abs(y) > threshold) {
         if (yx <= limit) {
             if (x < 0) {
-                this.previousMap();
-            } else {
                 this.nextMap();
+            } else {
+                this.previousMap();
             }
         }
     }
