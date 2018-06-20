@@ -2410,8 +2410,19 @@
         "set": "ROC 2018",
         "type": "outdoor",
         "width": 16,
-        "height": 16,
+        "height": 24,
         "file": "maps/roc18/flashpoint_flood.json",
+        "age": {
+            "roc": true
+        }
+    }, {
+        "id": "roc18_7",
+        "name": "Staten Island Ferry",
+        "set": "ROC 2018",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/roc18/staten_island_ferry.json",
         "age": {
             "roc": true
         }
