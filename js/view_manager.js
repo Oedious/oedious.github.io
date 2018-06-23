@@ -280,7 +280,16 @@ ViewManager.prototype.getParameterByName_ = function(name, url) {
 ViewManager.prototype.updateUrl = function() {
     var url = "?m=" + this.getCurrentMapEntry_().id;
     window.history.replaceState(null, null, url);
+
+    // Update the Save As... link.
+    var canvas = document.getElementById("mapCanvas");
+    var dataUrl = canvas.toDataURL();
+    var saveAsButton = document.getElementById("saveAsButton");
+    saveAsButton.href = dataUrl;
+    var parts = this.getCurrentMapEntry_().file.split("/");
+    saveAsButton.download = parts[parts.length - 1].replace(".json", ".png");
 }
+
 
 ViewManager.prototype.applyFilters = function() {
     this.toc_.applyFilters();
