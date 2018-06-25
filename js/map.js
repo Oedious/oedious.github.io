@@ -230,9 +230,11 @@ Map.prototype.getTerrainIndex = function(terrain) {
 		return 2;
 	} else if (terrain == TerrainType.WATER) {
 		return 3;
-	} else if (terrain == TerrainType.SPECIAL) {
+	} else if (terrain == TerrainType.OBSCURING) {
 		return 4;
-	} else if (terrain == TerrainType.SPECIAL2) {
+	} else if (terrain == TerrainType.SPECIAL) {
 		return 5;
+	} else if (terrain == TerrainType.SPECIAL2) {
+		return 6;
 	}
 }

@@ -23,6 +23,9 @@ TableOfContents.prototype.applyFilters = function() {
     if (filterBySize == "8x8") {
         filterWidth = 16;
         filterHeight = 24;
+    } else if (filterBySize == "16x16") {
+        filterWidth = 16;
+        filterHeight = 16;
     } else if (filterBySize == "16x24") {
         filterWidth = 16;
         filterHeight = 24;

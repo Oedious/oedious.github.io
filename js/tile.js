@@ -6,6 +6,7 @@ var TerrainType = {
 	HINDERING: "hindering",
 	BLOCKING: "blocking",
 	WATER: "water",
+	OBSCURING: "obscuring",
 	SPECIAL: "special",
 	SPECIAL2: "special2",
 };
@@ -14,6 +15,7 @@ var TerrainType = {
 var HINDERING_TILE_COLOR = "#B4ECB4";
 var BLOCKING_TILE_COLOR = "#c9b8aa";
 var WATER_TILE_COLOR = "#dee8eb";
+var OBSCURING_TILE_COLOR = "#E8E8E8"
 var SPECIAL_TILE_COLOR = "#FFD394";
 var STARTING_ZONE_TILE_COLOR = "#fff8fa";
 var ELEVATION_TILE_COLORS = [
@@ -46,6 +48,8 @@ var Tile = function(x, y, jsonTile) {
 		this.fillStyle = BLOCKING_TILE_COLOR;
 	} else if (this.terrain == TerrainType.WATER) {
 		this.fillStyle = WATER_TILE_COLOR;
+	} else if (this.terrain == TerrainType.OBSCURING) {
+		this.fillStyle = OBSCURING_TILE_COLOR;
 	} else if (this.terrain == TerrainType.SPECIAL ||
 		this.terrain == TerrainType.SPECIAL2) {
 		this.fillStyle = SPECIAL_TILE_COLOR;

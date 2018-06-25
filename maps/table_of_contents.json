@@ -2356,6 +2356,42 @@
             "roc": true
         }
     }, {
+        "id": "wkce0",
+        "name": "Hidden Fountains",
+        "set": "WizKids Convention Exclusive",
+        "type": "indoor",
+        "width": 16,
+        "height": 16,
+        "file": "maps/wkce/hidden_fountains.json",
+        "age": {}
+    }, {
+        "id": "wkce1",
+        "name": "Lost Temple",
+        "set": "WizKids Convention Exclusive",
+        "type": "indoor",
+        "width": 16,
+        "height": 16,
+        "file": "maps/wkce/lost_temple.json",
+        "age": {}
+    }, {
+        "id": "wkce2",
+        "name": "Library",
+        "set": "WizKids Convention Exclusive",
+        "type": "indoor",
+        "width": 16,
+        "height": 16,
+        "file": "maps/wkce/library.json",
+        "age": {}
+    }, {
+        "id": "wkce3",
+        "name": "Street Fair",
+        "set": "WizKids Convention Exclusive",
+        "type": "outdoor",
+        "width": 16,
+        "height": 16,
+        "file": "maps/wkce/street_fair.json",
+        "age": {}
+    }, {
         "id": "roc18_1",
         "name": "Arcade",
         "set": "ROC 2018",
