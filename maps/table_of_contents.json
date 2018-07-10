@@ -2463,6 +2463,39 @@
             "roc": true
         }
     }, {
+        "id": "roc18_8",
+        "name": "Belgium Battle",
+        "set": "ROC 2018",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/roc18/belgium_battle.json",
+        "age": {
+            "roc": true
+        }
+    }, {
+        "id": "roc18_9",
+        "name": "Oskopnir",
+        "set": "ROC 2018",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/roc18/oskopnir.json",
+        "age": {
+            "roc": true
+        }
+    }, {
+        "id": "roc18_10",
+        "name": "Crash Landing",
+        "set": "ROC 2018",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/roc18/crash_landing.json",
+        "age": {
+            "roc": true
+        }
+    }, {
         "id": "roc17_0",
         "name": "Donut Shoppe",
         "set": "ROC 2017",
