@@ -2496,6 +2496,17 @@
             "roc": true
         }
     }, {
+        "id": "roc18_11",
+        "name": "Let Them In",
+        "set": "ROC 2018",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/roc18/let_them_in.json",
+        "age": {
+            "roc": true
+        }
+    }, {
         "id": "roc17_0",
         "name": "Donut Shoppe",
         "set": "ROC 2017",
