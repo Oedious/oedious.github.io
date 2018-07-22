@@ -1,5 +1,57 @@
 {
     "maps": [{
+        "id": "btas0",
+        "name": "Iceberg Lounge",
+        "set": "Batman: The Animated Series",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/btas/iceberg_lounge.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
+        "id": "btas1",
+        "name": "Ha-Ha Hacienda",
+        "set": "Batman: The Animated Series",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/btas/haha_hacienda.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
+        "id": "btas2",
+        "name": "Gotham City Downtown",
+        "set": "Batman: The Animated Series",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/btas/gotham_city_downtown.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
+        "id": "btas3",
+        "name": "Poison Ivy's Greenhouse",
+        "set": "Batman: The Animated Series",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/btas/poison_ivys_greenhouse.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
         "id": "ai0",
         "name": "Halfworld",
         "set": "Avengers Infinity",
