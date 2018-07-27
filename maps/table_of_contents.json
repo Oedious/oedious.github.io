@@ -1,6 +1,32 @@
 {
     "maps": [{
         "id": "btas0",
+        "name": "Gotham Museum",
+        "set": "Batman: The Animated Series",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/btas/gotham_museum.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
+        "id": "btas1",
+        "name": "Gotham City Waterfront",
+        "set": "Batman: The Animated Series",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/btas/gotham_city_waterfront.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
+        "id": "btas0",
         "name": "Iceberg Lounge",
         "set": "Batman: The Animated Series",
         "type": "indoor",
