@@ -26,20 +26,7 @@
             "roc": true
         }
     }, {
-        "id": "btas0",
-        "name": "Iceberg Lounge",
-        "set": "Batman: The Animated Series",
-        "type": "indoor",
-        "width": 16,
-        "height": 24,
-        "file": "maps/btas/iceberg_lounge.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
-    }, {
-        "id": "btas1",
+        "id": "btas2",
         "name": "Ha-Ha Hacienda",
         "set": "Batman: The Animated Series",
         "type": "indoor",
@@ -52,26 +39,39 @@
             "roc": true
         }
     }, {
-        "id": "btas2",
-        "name": "Gotham City Downtown",
+        "id": "btas3",
+        "name": "Iceberg Lounge",
         "set": "Batman: The Animated Series",
-        "type": "outdoor",
+        "type": "indoor",
         "width": 16,
         "height": 24,
-        "file": "maps/btas/gotham_city_downtown.json",
+        "file": "maps/btas/iceberg_lounge.json",
         "age": {
             "modern": true,
             "wko": true,
             "roc": true
         }
     }, {
-        "id": "btas3",
+        "id": "btas4",
         "name": "Poison Ivy's Greenhouse",
         "set": "Batman: The Animated Series",
         "type": "indoor",
         "width": 16,
         "height": 24,
         "file": "maps/btas/poison_ivys_greenhouse.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
+        "id": "btas5",
+        "name": "Gotham City Downtown",
+        "set": "Batman: The Animated Series",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/btas/gotham_city_downtown.json",
         "age": {
             "modern": true,
             "wko": true,
@@ -2423,17 +2423,6 @@
         "height": 24,
         "file": "maps/ic/the_construction_site.json"
     }, {
-        "id": "roc18_0",
-        "name": "Food Court",
-        "set": "ROC 2018",
-        "type": "indoor",
-        "width": 16,
-        "height": 24,
-        "file": "maps/roc18/food_court.json",
-        "age": {
-            "roc": true
-        }
-    }, {
         "id": "wkce0",
         "name": "Hidden Fountains",
         "set": "WizKids Convention Exclusive",
@@ -2469,6 +2458,17 @@
         "height": 16,
         "file": "maps/wkce/street_fair.json",
         "age": {}
+    }, {
+        "id": "roc18_0",
+        "name": "Food Court",
+        "set": "ROC 2018",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/roc18/food_court.json",
+        "age": {
+            "roc": true
+        }
     }, {
         "id": "roc18_1",
         "name": "Arcade",
@@ -2584,6 +2584,47 @@
         "age": {
             "roc": true
         }
+    }, {
+        "id": "roc18_12",
+        "name": "Titan's Reality",
+        "set": "ROC 2018",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/roc18/titans_reality.json",
+        "age": {
+            "roc": true
+        }
+    }, {
+        "id": "roc18_13",
+        "name": "Strange Day At The Park",
+        "set": "ROC 2018",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/roc18/strange_day_at_the_park.json",
+        "age": {
+            "roc": true
+        }
+    }, {
+        "id": "roc18_14",
+        "name": "Ultimate Sacrifice",
+        "set": "ROC 2018",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/roc18/ultimate_sacrifice.json",
+        "age": {
+            "roc": true
+        }
+    }, {
+        "id": "roc18_15",
+        "name": "Monument Park",
+        "set": "ROC 2018",
+        "type": "outdoor",
+        "width": 16,
+        "height": 16,
+        "file": "maps/roc18/monument_park.json"
     }, {
         "id": "roc17_0",
         "name": "Donut Shoppe",
@@ -2767,7 +2808,10 @@
         "type": "indoor",
         "width": 16,
         "height": 24,
-        "file": "maps/gr/the_sewer.json"
+        "file": "maps/gr/the_sewer.json",
+        "age": {
+            "roc": true
+        }
     }, {
         "id": "grmp6_1",
         "name": "The Courtyard",
@@ -2775,7 +2819,10 @@
         "type": "indoorOutdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/gr/the_courtyard.json"
+        "file": "maps/gr/the_courtyard.json",
+        "age": {
+            "roc": true
+        }
     }, {
         "id": "grmp5_0",
         "name": "Beach Invasion",
@@ -2783,7 +2830,10 @@
         "type": "indoorOutdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/gr/beach_invasion.json"
+        "file": "maps/gr/beach_invasion.json",
+        "age": {
+            "roc": true
+        }
     }, {
         "id": "grmp5_1",
         "name": "The Secret Warehouse",
@@ -2791,7 +2841,10 @@
         "type": "indoor",
         "width": 16,
         "height": 24,
-        "file": "maps/gr/the_secret_warehouse.json"
+        "file": "maps/gr/the_secret_warehouse.json",
+        "age": {
+            "roc": true
+        }
     }, {
         "id": "grmp3_0",
         "name": "The Mansion",
@@ -2799,7 +2852,10 @@
         "type": "indoorOutdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/gr/the_mansion.json"
+        "file": "maps/gr/the_mansion.json",
+        "age": {
+            "roc": true
+        }
     }, {
         "id": "grmp3_1",
         "name": "Chemical Plant",
@@ -2807,7 +2863,10 @@
         "type": "indoorOutdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/gr/chemical_plant.json"
+        "file": "maps/gr/chemical_plant.json",
+        "age": {
+            "roc": true
+        }
     }, {
         "id": "grmp2_0",
         "name": "Swamp Base",
@@ -2815,7 +2874,10 @@
         "type": "indoorOutdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/gr/swamp_base.json"
+        "file": "maps/gr/swamp_base.json",
+        "age": {
+            "roc": true
+        }
     }, {
         "id": "grmp2_1",
         "name": "The Park",
@@ -2823,7 +2885,10 @@
         "type": "outdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/gr/the_park.json"
+        "file": "maps/gr/the_park.json",
+        "age": {
+            "roc": true
+        }
     }, {
         "id": "grmp1_0",
         "name": "Mental Ward",
@@ -2831,7 +2896,10 @@
         "type": "indoor",
         "width": 16,
         "height": 24,
-        "file": "maps/gr/mental_ward.json"
+        "file": "maps/gr/mental_ward.json",
+        "age": {
+            "roc": true
+        }
     }, {
         "id": "grmp1_1",
         "name": "The Corporation",
@@ -2839,6 +2907,9 @@
         "type": "indoorOutdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/gr/the_corporation.json"
+        "file": "maps/gr/the_corporation.json",
+        "age": {
+            "roc": true
+        }
     }]
 }
