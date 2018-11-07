@@ -1,5 +1,31 @@
 {
     "maps": [{
+        "id": "swb0",
+        "name": "Regency Laboratory",
+        "set": "Secret Wars: Battleworld",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/swb/regency_laboratory.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
+        "id": "swb1",
+        "name": "Weird-World",
+        "set": "Secret Wars: Battleworld",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/swb/weird_world.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
         "id": "btas0",
         "name": "Gotham Museum",
         "set": "Batman: The Animated Series",
