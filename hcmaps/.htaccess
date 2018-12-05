@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} clixnav\.com/hcmaps [NC]
+RewriteCond %{REQUEST_URI} ^/$
+RewriteRule ^(.*)$ /$1 [L]
