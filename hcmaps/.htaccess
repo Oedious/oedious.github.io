@@ -1,6 +1,4 @@
-[code autolinks=”false”]
 RewriteEngine On
 RewriteBase /
 RewriteCond %{HTTP_HOST} ^clixnav.com
 RewriteRule ^hcmaps/(.*)$ http://clixnav.com/$1 [L,R=301]
-[/code]
