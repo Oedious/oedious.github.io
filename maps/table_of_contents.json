@@ -2652,6 +2652,19 @@
         "height": 16,
         "file": "maps/roc18/monument_park.json"
     }, {
+        "id": "roc18_16",
+        "name": "The Trenches",
+        "set": "ROC 2018",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/roc18/the_trenches.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
         "id": "roc17_0",
         "name": "Donut Shoppe",
         "set": "ROC 2017",
