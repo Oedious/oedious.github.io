@@ -2702,10 +2702,7 @@
         "type": "indoor",
         "width": 16,
         "height": 24,
-        "file": "maps/roc16/the_blue_line.json",
-        "age": {
-            "roc": true
-        }
+        "file": "maps/roc16/the_blue_line.json"
     }, {
         "id": "roc16_1",
         "name": "Casino",
@@ -2713,10 +2710,7 @@
         "type": "indoor",
         "width": 16,
         "height": 24,
-        "file": "maps/roc16/casino.json",
-        "age": {
-            "roc": true
-        }
+        "file": "maps/roc16/casino.json"
     }, {
         "id": "roc16_2",
         "name": "Zipline Park",
@@ -2724,10 +2718,7 @@
         "type": "outdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/roc16/zipline_park.json",
-        "age": {
-            "roc": true
-        }
+        "file": "maps/roc16/zipline_park.json"
     }, {
         "id": "roc16_3",
         "name": "Crossfire Canyon",
@@ -2735,10 +2726,7 @@
         "type": "outdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/roc16/crossfire_canyon.json",
-        "age": {
-            "roc": true
-        }
+        "file": "maps/roc16/crossfire_canyon.json"
     }, {
         "id": "roc15_0",
         "name": "Assassin's Alley",
@@ -2746,10 +2734,7 @@
         "type": "outdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/roc15/assassins_alley.json",
-        "age": {
-            "roc": true
-        }
+        "file": "maps/roc15/assassins_alley.json"
     }, {
         "id": "roc15_1",
         "name": "Hidden Research Facility",
@@ -2757,10 +2742,7 @@
         "type": "indoorOutdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/roc15/hidden_research_facility.json",
-        "age": {
-            "roc": true
-        }
+        "file": "maps/roc15/hidden_research_facility.json"
     }, {
         "id": "roc15_2",
         "name": "Water Treatment Plant",
@@ -2768,10 +2750,7 @@
         "type": "indoorOutdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/roc15/water_treatment_plant.json",
-        "age": {
-            "roc": true
-        }
+        "file": "maps/roc15/water_treatment_plant.json"
     }, {
         "id": "roc15_3",
         "name": "The Village",
@@ -2779,10 +2758,7 @@
         "type": "outdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/roc15/the_village.json",
-        "age": {
-            "roc": true
-        }
+        "file": "maps/roc15/the_village.json"
     }, {
         "id": "roc14_0",
         "name": "Arctic Outpost",
@@ -2790,10 +2766,7 @@
         "type": "indoorOutdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/roc14/arctic_outpost.json",
-        "age": {
-            "roc": true
-        }
+        "file": "maps/roc14/arctic_outpost.json"
     }, {
         "id": "roc14_1",
         "name": "The Great Wall",
@@ -2801,10 +2774,7 @@
         "type": "outdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/roc14/the_great_wall.json",
-        "age": {
-            "roc": true
-        }
+        "file": "maps/roc14/the_great_wall.json"
     }, {
         "id": "roc14_2",
         "name": "Mayan Ruins",
@@ -2812,10 +2782,7 @@
         "type": "outdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/roc14/mayan_ruins.json",
-        "age": {
-            "roc": true
-        }
+        "file": "maps/roc14/mayan_ruins.json"
     }, {
         "id": "roc14_3",
         "name": "Main Event",
@@ -2823,10 +2790,7 @@
         "type": "indoor",
         "width": 16,
         "height": 24,
-        "file": "maps/roc14/main_event.json",
-        "age": {
-            "roc": true
-        }
+        "file": "maps/roc14/main_event.json"
     }, {
         "id": "grmp6_0",
         "name": "The Sewer",
@@ -2834,10 +2798,7 @@
         "type": "indoor",
         "width": 16,
         "height": 24,
-        "file": "maps/gr/the_sewer.json",
-        "age": {
-            "roc": true
-        }
+        "file": "maps/gr/the_sewer.json"
     }, {
         "id": "grmp6_1",
         "name": "The Courtyard",
@@ -2845,10 +2806,7 @@
         "type": "indoorOutdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/gr/the_courtyard.json",
-        "age": {
-            "roc": true
-        }
+        "file": "maps/gr/the_courtyard.json"
     }, {
         "id": "grmp5_0",
         "name": "Beach Invasion",
@@ -2856,10 +2814,7 @@
         "type": "indoorOutdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/gr/beach_invasion.json",
-        "age": {
-            "roc": true
-        }
+        "file": "maps/gr/beach_invasion.json"
     }, {
         "id": "grmp5_1",
         "name": "The Secret Warehouse",
@@ -2867,10 +2822,7 @@
         "type": "indoor",
         "width": 16,
         "height": 24,
-        "file": "maps/gr/the_secret_warehouse.json",
-        "age": {
-            "roc": true
-        }
+        "file": "maps/gr/the_secret_warehouse.json"
     }, {
         "id": "grmp3_0",
         "name": "The Mansion",
@@ -2878,10 +2830,7 @@
         "type": "indoorOutdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/gr/the_mansion.json",
-        "age": {
-            "roc": true
-        }
+        "file": "maps/gr/the_mansion.json"
     }, {
         "id": "grmp3_1",
         "name": "Chemical Plant",
@@ -2889,10 +2838,7 @@
         "type": "indoorOutdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/gr/chemical_plant.json",
-        "age": {
-            "roc": true
-        }
+        "file": "maps/gr/chemical_plant.json"
     }, {
         "id": "grmp2_0",
         "name": "Swamp Base",
@@ -2900,10 +2846,7 @@
         "type": "indoorOutdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/gr/swamp_base.json",
-        "age": {
-            "roc": true
-        }
+        "file": "maps/gr/swamp_base.json"
     }, {
         "id": "grmp2_1",
         "name": "The Park",
@@ -2911,10 +2854,7 @@
         "type": "outdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/gr/the_park.json",
-        "age": {
-            "roc": true
-        }
+        "file": "maps/gr/the_park.json"
     }, {
         "id": "grmp1_0",
         "name": "Mental Ward",
@@ -2922,10 +2862,7 @@
         "type": "indoor",
         "width": 16,
         "height": 24,
-        "file": "maps/gr/mental_ward.json",
-        "age": {
-            "roc": true
-        }
+        "file": "maps/gr/mental_ward.json"
     }, {
         "id": "grmp1_1",
         "name": "The Corporation",
@@ -2933,9 +2870,6 @@
         "type": "indoorOutdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/gr/the_corporation.json",
-        "age": {
-            "roc": true
-        }
+        "file": "maps/gr/the_corporation.json"
     }]
 }
