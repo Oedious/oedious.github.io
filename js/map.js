@@ -166,8 +166,16 @@ Map.prototype.drawWall = function(ctx, wall) {
 		ctx.strokeStyle = GLASS_WALL_COLOR;
 		ctx.setLineDash([WALL_SIZE, WALL_SIZE]);
 		ctx.lineDashOffset = WALL_SIZE / 2;
+	} else if (wall.type == WallType.GLASS2) {
+		ctx.strokeStyle = GLASS2_WALL_COLOR;
+		ctx.setLineDash([WALL_SIZE, WALL_SIZE]);
+		ctx.lineDashOffset = WALL_SIZE / 2;
 	} else if (wall.type == WallType.DOOR) {
 		ctx.strokeStyle = DOOR_COLOR;
+		ctx.setLineDash([WALL_SIZE, WALL_SIZE]);
+		ctx.lineDashOffset = WALL_SIZE / 2;
+	} else if (wall.type == WallType.DOOR2) {
+		ctx.strokeStyle = DOOR2_COLOR;
 		ctx.setLineDash([WALL_SIZE, WALL_SIZE]);
 		ctx.lineDashOffset = WALL_SIZE / 2;
 	} else if (wall.type == WallType.FORCE_FIELD) {

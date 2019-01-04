@@ -2653,6 +2653,32 @@
         "file": "maps/roc18/monument_park.json"
     }, {
         "id": "roc18_16",
+        "name": "Hedge Maze",
+        "set": "ROC 2018",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/roc18/hedge_maze.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
+        "id": "roc18_19",
+        "name": "National Air",
+        "set": "ROC 2018",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/roc18/national_air.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
+        "id": "roc18_20",
         "name": "The Trenches",
         "set": "ROC 2018",
         "type": "outdoor",
