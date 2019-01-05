@@ -2687,6 +2687,19 @@
         }
     }, {
         "id": "roc18_17",
+        "name": "Powell Family Farm",
+        "set": "ROC 2018",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/roc18/powell_family_farm.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
+        "id": "roc18_18",
         "name": "The 4 Points Gaming Club's Best Friend Forever",
         "set": "ROC 2018",
         "type": "outdoor",
