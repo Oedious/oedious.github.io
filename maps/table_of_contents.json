@@ -2498,6 +2498,14 @@
             "roc": true
         }
     }, {
+        "id": "roc19_1",
+        "name": "Prison Control Room",
+        "set": "ROC 2019",
+        "type": "indoor",
+        "width": 16,
+        "height": 16,
+        "file": "maps/roc19/prison_control_room.json"
+    }, {
         "id": "roc18_0",
         "name": "Food Court",
         "set": "ROC 2018",
