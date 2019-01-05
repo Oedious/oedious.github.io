@@ -2485,6 +2485,19 @@
         "file": "maps/wkce/street_fair.json",
         "age": {}
     }, {
+        "id": "roc19_0",
+        "name": "Police HQ",
+        "set": "ROC 2019",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/roc19/police_hq.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
         "id": "roc18_0",
         "name": "Food Court",
         "set": "ROC 2018",
