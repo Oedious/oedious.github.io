@@ -1,5 +1,57 @@
 {
     "maps": [{
+        "id": "eax0",
+        "name": "Stark Tower",
+        "set": "Earth X",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/eax/stark_tower.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
+        "id": "eax1",
+        "name": "Wakanda Earth X",
+        "set": "Earth X",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/eax/wakanda_earth_x.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
+        "id": "eax2",
+        "name": "NY Harbor",
+        "set": "Earth X",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/eax/ny_harbor.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
+        "id": "eax3",
+        "name": "Skull Camp",
+        "set": "Earth X",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/eax/skull_camp.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
         "id": "roc19_0",
         "name": "Police HQ",
         "set": "ROC 2019",
