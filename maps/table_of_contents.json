@@ -1,5 +1,29 @@
 {
     "maps": [{
+        "id": "re0",
+        "name": "Titan Tower",
+        "set": "Rebirth",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/re/titan_tower.json",
+        "age": {
+            "modern": true
+        }
+    }, {
+        "id": "re1",
+        "name": "Metal Arena",
+        "set": "Rebirth",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/re/metal_arena.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
         "id": "eax0",
         "name": "Stark Tower",
         "set": "Earth X",
