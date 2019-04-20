@@ -150,12 +150,33 @@
         }
     }, {
         "id": "roc19_6",
+        "name": "The Intersection",
+        "set": "ROC 2019",
+        "type": "outdoor",
+        "width": 16,
+        "height": 16,
+        "file": "maps/roc19/the_intersection.json"
+    }, {
+        "id": "roc19_7",
         "name": "Underground Temple",
         "set": "ROC 2019",
         "type": "indoor",
         "width": 16,
         "height": 24,
         "file": "maps/roc19/underground_temple.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
+        "id": "roc19_8",
+        "name": "Construction Site",
+        "set": "ROC 2019",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/roc19/construction_site.json",
         "age": {
             "modern": true,
             "wko": true,
