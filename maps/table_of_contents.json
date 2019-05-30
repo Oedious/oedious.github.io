@@ -77,6 +77,14 @@
         }
     }, {
         "id": "roc19_0",
+        "name": "Prison Control Room",
+        "set": "ROC 2019",
+        "type": "indoor",
+        "width": 16,
+        "height": 16,
+        "file": "maps/roc19/prison_control_room.json"
+    }, {
+        "id": "roc19_1",
         "name": "Police HQ",
         "set": "ROC 2019",
         "type": "indoor",
@@ -88,14 +96,6 @@
             "wko": true,
             "roc": true
         }
-    }, {
-        "id": "roc19_1",
-        "name": "Prison Control Room",
-        "set": "ROC 2019",
-        "type": "indoor",
-        "width": 16,
-        "height": 16,
-        "file": "maps/roc19/prison_control_room.json"
     }, {
         "id": "roc19_2",
         "name": "Prison Tier",
@@ -136,7 +136,7 @@
             "roc": true
         }
     }, {
-        "id": "roc19_5",
+        "id": "roc19_6",
         "name": "Warehouse 19",
         "set": "ROC 2019",
         "type": "indoorOutdoor",
@@ -149,7 +149,7 @@
             "roc": true
         }
     }, {
-        "id": "roc19_6",
+        "id": "roc19_7",
         "name": "The Intersection",
         "set": "ROC 2019",
         "type": "outdoor",
@@ -157,7 +157,7 @@
         "height": 16,
         "file": "maps/roc19/the_intersection.json"
     }, {
-        "id": "roc19_7",
+        "id": "roc19_8",
         "name": "Underground Temple",
         "set": "ROC 2019",
         "type": "indoor",
@@ -170,13 +170,26 @@
             "roc": true
         }
     }, {
-        "id": "roc19_8",
+        "id": "roc19_9",
         "name": "Construction Site",
         "set": "ROC 2019",
         "type": "outdoor",
         "width": 16,
         "height": 24,
         "file": "maps/roc19/construction_site.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
+        "id": "roc19_10",
+        "name": "Archway Park",
+        "set": "ROC 2019",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/roc19/archway_park.json",
         "age": {
             "modern": true,
             "wko": true,
