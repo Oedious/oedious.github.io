@@ -136,6 +136,19 @@
             "roc": true
         }
     }, {
+        "id": "roc19_5",
+        "name": "The Docks",
+        "set": "ROC 2019",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/roc19/the_docks.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
         "id": "roc19_6",
         "name": "Warehouse 19",
         "set": "ROC 2019",
