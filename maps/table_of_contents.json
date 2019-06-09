@@ -1,5 +1,31 @@
 {
     "maps": [{
+        "id": "abpi0",
+        "name": "The Great Mound",
+        "set": "Avengers Black Panther and the Illuminati",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/abpi/the_great_mound.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
+        "id": "abpi1",
+        "name": "Necropolis",
+        "set": "Avengers Black Panther and the Illuminati",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/abpi/necropolis.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
         "id": "re0",
         "name": "Titan Tower",
         "set": "Rebirth",
