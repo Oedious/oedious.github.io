@@ -235,6 +235,19 @@
             "roc": true
         }
     }, {
+        "id": "roc19_12",
+        "name": "Hanging Island",
+        "set": "ROC 2019",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/roc19/hanging_island.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
         "id": "swb0",
         "name": "Regency Laboratory",
         "set": "Secret Wars: Battleworld",
@@ -605,9 +618,7 @@
         "height": 24,
         "file": "maps/roc18/national_air.json",
         "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
+            "modern": true
         }
     }, {
         "id": "roc18_20",
@@ -805,250 +816,6 @@
             "roc": true
         }
     }, {
-        "id": "wi0",
-        "name": "Arthur's Castle",
-        "set": "What If?",
-        "type": "outdoor",
-        "width": 16,
-        "height": 24,
-        "file": "maps/wi/arthurs_castle.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
-    }, {
-        "id": "wi1",
-        "name": "Avengers Unity Rooftop",
-        "set": "What If?",
-        "type": "outdoor",
-        "width": 16,
-        "height": 24,
-        "file": "maps/wi/avengers_unity_rooftop.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
-    }, {
-        "id": "wi2",
-        "name": "Runaways Base",
-        "set": "What If?",
-        "type": "indoor",
-        "width": 16,
-        "height": 24,
-        "file": "maps/wi/runaways_base.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
-    }, {
-        "id": "wi3",
-        "name": "Avenger's Island",
-        "set": "What If?",
-        "type": "outdoor",
-        "width": 16,
-        "height": 24,
-        "date": "June 2017",
-        "file": "maps/wi/avengers_island.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
-    }, {
-        "id": "adw0",
-        "name": "Dark Dimension",
-        "set": "Avengers/Defenders War",
-        "type": "outdoor",
-        "width": 16,
-        "height": 24,
-        "date": "May 2017",
-        "file": "maps/adw/dark_dimension.json"
-    }, {
-        "id": "adw1",
-        "name": "Wakanda",
-        "set": "Avengers/Defenders War",
-        "type": "outdoor",
-        "width": 16,
-        "height": 24,
-        "file": "maps/adw/wakanda.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
-    }, {
-        "id": "dxf0",
-        "name": "Speakeasy",
-        "set": "Deadpool and X-Force",
-        "type": "indoor",
-        "width": 16,
-        "height": 24,
-        "file": "maps/dxf/speakeasy.json"
-    }, {
-        "id": "dxf1",
-        "name": "Cargo Plane",
-        "set": "Deadpool and X-Force",
-        "type": "indoorOutdoor",
-        "width": 16,
-        "height": 24,
-        "file": "maps/dxf/cargo_plane.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
-    }, {
-        "id": "roc17_0",
-        "name": "Donut Shoppe",
-        "set": "ROC 2017",
-        "type": "outdoor",
-        "width": 16,
-        "height": 24,
-        "file": "maps/roc17/donut_shoppe.json",
-        "age": {
-            "roc": true
-        }
-    }, {
-        "id": "roc17_1",
-        "name": "Underground",
-        "set": "ROC 2017",
-        "type": "indoor",
-        "width": 16,
-        "height": 24,
-        "file": "maps/roc17/underground.json",
-        "age": {
-            "roc": true
-        }
-    }, {
-        "id": "roc17_2",
-        "name": "Remote Outpost on the Mexican Border",
-        "set": "ROC 2017",
-        "type": "outdoor",
-        "width": 16,
-        "height": 24,
-        "file": "maps/roc17/remote_outpost_on_the_mexican_border.json",
-        "age": {
-            "roc": true
-        }
-    }, {
-        "id": "roc17_3",
-        "name": "Amusement Park",
-        "set": "ROC 2017",
-        "type": "outdoor",
-        "width": 16,
-        "height": 24,
-        "file": "maps/roc17/amusement_park.json",
-        "age": {
-            "roc": true
-        }
-    }, {
-        "id": "jw0",
-        "name": "Ace Chemicals",
-        "set": "Joker's Wild",
-        "type": "indoor",
-        "width": 16,
-        "height": 24,
-        "file": "maps/jw/ace_chemicals.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
-    }, {
-        "id": "jw1",
-        "name": "Ace Street",
-        "set": "Joker's Wild",
-        "type": "outdoor",
-        "width": 16,
-        "height": 24,
-        "file": "maps/jw/ace_street.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
-    }, {
-        "id": "sfsm0",
-        "name": "Bank Heist",
-        "set": "Superior Foes of Spider-Man",
-        "type": "indoor",
-        "width": 16,
-        "height": 24,
-        "file": "maps/sfsm/bank_heist.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
-    }, {
-        "id": "sfsm1",
-        "name": "Friendly Neighborhood",
-        "set": "Superior Foes of Spider-Man",
-        "type": "outdoor",
-        "width": 16,
-        "height": 24,
-        "file": "maps/sfsm/friendly_neighborhood.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
-    }, {
-        "id": "cwsop0",
-        "name": "Prison 42",
-        "set": "Civil War: Storyline Organized Play",
-        "type": "indoor",
-        "width": 16,
-        "height": 24,
-        "file": "maps/cwsop/prison_42.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
-    }, {
-        "id": "cwsop1",
-        "name": "Stamford",
-        "set": "Civil War: Storyline Organized Play",
-        "type": "outdoor",
-        "width": 16,
-        "height": 24,
-        "file": "maps/cwsop/stamford.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
-    }, {
-        "id": "cwsop2",
-        "name": "Final Battle, New York",
-        "set": "Civil War: Storyline Organized Play",
-        "type": "outdoor",
-        "width": 16,
-        "height": 24,
-        "file": "maps/cwsop/final_battle_new_york.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
-    }, {
-        "id": "cwsop3",
-        "name": "Chemical Plant",
-        "set": "Civil War: Storyline Organized Play",
-        "type": "outdoor",
-        "width": 16,
-        "height": 24,
-        "file": "maps/cwsop/chemical_plant.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
-    }, {
         "id": "wkp0",
         "name": "Gaming Convention Hall",
         "set": "Premium & Exclusive Maps",
@@ -1165,6 +932,168 @@
             "wko": true,
             "roc": true
         }
+    }, {
+        "id": "wi0",
+        "name": "Arthur's Castle",
+        "set": "What If?",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/wi/arthurs_castle.json"
+    }, {
+        "id": "wi1",
+        "name": "Avengers Unity Rooftop",
+        "set": "What If?",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/wi/avengers_unity_rooftop.json"
+    }, {
+        "id": "wi2",
+        "name": "Runaways Base",
+        "set": "What If?",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/wi/runaways_base.json"
+    }, {
+        "id": "wi3",
+        "name": "Avenger's Island",
+        "set": "What If?",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "date": "June 2017",
+        "file": "maps/wi/avengers_island.json"
+    }, {
+        "id": "adw0",
+        "name": "Dark Dimension",
+        "set": "Avengers/Defenders War",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "date": "May 2017",
+        "file": "maps/adw/dark_dimension.json"
+    }, {
+        "id": "adw1",
+        "name": "Wakanda",
+        "set": "Avengers/Defenders War",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/adw/wakanda.json"
+    }, {
+        "id": "dxf0",
+        "name": "Speakeasy",
+        "set": "Deadpool and X-Force",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/dxf/speakeasy.json"
+    }, {
+        "id": "dxf1",
+        "name": "Cargo Plane",
+        "set": "Deadpool and X-Force",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/dxf/cargo_plane.json"
+    }, {
+        "id": "roc17_0",
+        "name": "Donut Shoppe",
+        "set": "ROC 2017",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/roc17/donut_shoppe.json"
+    }, {
+        "id": "roc17_1",
+        "name": "Underground",
+        "set": "ROC 2017",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/roc17/underground.json"
+    }, {
+        "id": "roc17_2",
+        "name": "Remote Outpost on the Mexican Border",
+        "set": "ROC 2017",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/roc17/remote_outpost_on_the_mexican_border.json"
+    }, {
+        "id": "roc17_3",
+        "name": "Amusement Park",
+        "set": "ROC 2017",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/roc17/amusement_park.json"
+    }, {
+        "id": "jw0",
+        "name": "Ace Chemicals",
+        "set": "Joker's Wild",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/jw/ace_chemicals.json"
+    }, {
+        "id": "jw1",
+        "name": "Ace Street",
+        "set": "Joker's Wild",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/jw/ace_street.json"
+    }, {
+        "id": "sfsm0",
+        "name": "Bank Heist",
+        "set": "Superior Foes of Spider-Man",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/sfsm/bank_heist.json"
+    }, {
+        "id": "sfsm1",
+        "name": "Friendly Neighborhood",
+        "set": "Superior Foes of Spider-Man",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/sfsm/friendly_neighborhood.json"
+    }, {
+        "id": "cwsop0",
+        "name": "Prison 42",
+        "set": "Civil War: Storyline Organized Play",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/cwsop/prison_42.json"
+    }, {
+        "id": "cwsop1",
+        "name": "Stamford",
+        "set": "Civil War: Storyline Organized Play",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/cwsop/stamford.json"
+    }, {
+        "id": "cwsop2",
+        "name": "Final Battle, New York",
+        "set": "Civil War: Storyline Organized Play",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/cwsop/final_battle_new_york.json"
+    }, {
+        "id": "cwsop3",
+        "name": "Chemical Plant",
+        "set": "Civil War: Storyline Organized Play",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/cwsop/chemical_plant.json"
     }, {
         "id": "uxm0",
         "name": "Jean Grey School for Higher Learning",

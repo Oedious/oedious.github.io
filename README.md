@@ -1,19 +1,3 @@
-<<<<<<< HEAD
-         ___        ______     ____ _                 _  ___  
-        / \ \      / / ___|   / ___| | ___  _   _  __| |/ _ \ 
-       / _ \ \ /\ / /\___ \  | |   | |/ _ \| | | |/ _` | (_) |
-      / ___ \ V  V /  ___) | | |___| | (_) | |_| | (_| |\__, |
-     /_/   \_\_/\_/  |____/   \____|_|\___/ \__,_|\__,_|  /_/ 
- ----------------------------------------------------------------- 
-
-
-Hi there! Welcome to AWS Cloud9!
-
-To get started, create some files, play with the terminal,
-or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
-
-Happy coding!
-=======
 This is the HCMaps project. The goal of the project is to standardize a data
 format for describing Heroclix maps and to create tools to render them.
 
@@ -56,4 +40,3 @@ Each Tile object contains the following fields:
     zones. May be either true or false. Defaults to false.
 "label": A structure containing "style" and "text" fields which allow a label
     to be drawn on top of the tile.
->>>>>>> 837b4d35c039fd09e60ee434f1de0fc642a3b456
