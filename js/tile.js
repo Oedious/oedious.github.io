@@ -7,6 +7,7 @@ var TerrainType = {
 	BLOCKING: "blocking",
 	WATER: "water",
 	OBSCURING: "obscuring",
+	WINDOW: "window",
 	SPECIAL: "special",
 	SPECIAL2: "special2",
 };
@@ -16,6 +17,7 @@ var HINDERING_TILE_COLOR = "#B4ECB4";
 var BLOCKING_TILE_COLOR = "#c9b8aa";
 var WATER_TILE_COLOR = "#dee8eb";
 var OBSCURING_TILE_COLOR = "#E8E8E8"
+var WINDOW_TILE_COLOR = "#dee8eb";
 var SPECIAL_TILE_COLOR = "#FFD394";
 var STARTING_ZONE_TILE_COLOR = "#fff8fa";
 var ELEVATION_TILE_COLORS = [
@@ -44,18 +46,27 @@ var Tile = function(x, y, jsonTile) {
 	this.fillStyle = "#FFFFFF";
 	if (this.terrain == TerrainType.HINDERING) {
 		this.fillStyle = HINDERING_TILE_COLOR;
-	} else if (this.terrain == TerrainType.BLOCKING) {
+	}
+	else if (this.terrain == TerrainType.BLOCKING) {
 		this.fillStyle = BLOCKING_TILE_COLOR;
-	} else if (this.terrain == TerrainType.WATER) {
+	}
+	else if (this.terrain == TerrainType.WATER) {
 		this.fillStyle = WATER_TILE_COLOR;
-	} else if (this.terrain == TerrainType.OBSCURING) {
+	}
+	else if (this.terrain == TerrainType.OBSCURING) {
 		this.fillStyle = OBSCURING_TILE_COLOR;
-	} else if (this.terrain == TerrainType.SPECIAL ||
+	}
+	else if (this.terrain == TerrainType.WINDOW) {
+		this.fillStyle = WINDOW_TILE_COLOR;
+	}
+	else if (this.terrain == TerrainType.SPECIAL ||
 		this.terrain == TerrainType.SPECIAL2) {
 		this.fillStyle = SPECIAL_TILE_COLOR;
-	} else if (this.isStartingZone || this.isStartingZone4p) {
+	}
+	else if (this.isStartingZone || this.isStartingZone4p) {
 		this.fillStyle = STARTING_ZONE_TILE_COLOR;
-	} else {
+	}
+	else {
 		this.fillStyle = ELEVATION_TILE_COLORS[this.elevation - 1];
 	}
 }
@@ -223,7 +234,8 @@ Tile.prototype.drawLabel = function(ctx) {
 			ctx.fillStyle = ELEVATION_EDGE_COLOR;
 			var rotation = this.label.rotate ? this.label.rotate : 0;
 			ctx.rotate(rotation * Math.PI / 180);
-		} else {
+		}
+		else {
 			if (this.y == 0) {
 				text = String.fromCharCode("A".charCodeAt(0) + this.x);
 			}

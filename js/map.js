@@ -65,7 +65,8 @@ var Map = function(json) {
 			if (x1 >= 0 && x1 < this.width) {
 				this.tiles[y1 * this.width + x1].addRamp(EdgeType.LEFT);
 			}
-		} else {
+		}
+		else {
 			if (y0 >= 0 && y0 < this.height) {
 				this.tiles[y0 * this.width + x0].addRamp(EdgeType.BOTTOM);
 			}
@@ -110,7 +111,8 @@ Map.prototype.tryAddEdge = function(tile0, tile1, edgeType) {
 			tile0.isStartingZone != tile1.isStartingZone ||
 			tile0.isStartingZone4p != tile1.isStartingZone4p)) {
 		var dashedLine = false;
-		if (tile0.terrain == TerrainType.SPECIAL2) {
+		if (tile0.terrain == TerrainType.WINDOW ||
+			tile0.terrain == TerrainType.SPECIAL2) {
 			dashedLine = true;
 		}
 		tile0.addEdge(edgeType,
@@ -162,29 +164,36 @@ Map.prototype.drawWall = function(ctx, wall) {
 	if (wall.type == WallType.NORMAL) {
 		ctx.strokeStyle = NORMAL_WALL_COLOR;
 		ctx.lineCap = "round";
-	} else if (wall.type == WallType.GLASS) {
+	}
+	else if (wall.type == WallType.GLASS) {
 		ctx.strokeStyle = GLASS_WALL_COLOR;
 		ctx.setLineDash([WALL_SIZE, WALL_SIZE]);
 		ctx.lineDashOffset = WALL_SIZE / 2;
-	} else if (wall.type == WallType.GLASS2) {
+	}
+	else if (wall.type == WallType.GLASS2) {
 		ctx.strokeStyle = GLASS2_WALL_COLOR;
 		ctx.setLineDash([WALL_SIZE, WALL_SIZE]);
 		ctx.lineDashOffset = WALL_SIZE / 2;
-	} else if (wall.type == WallType.DOOR) {
+	}
+	else if (wall.type == WallType.DOOR) {
 		ctx.strokeStyle = DOOR_COLOR;
 		ctx.setLineDash([WALL_SIZE, WALL_SIZE]);
 		ctx.lineDashOffset = WALL_SIZE / 2;
-	} else if (wall.type == WallType.DOOR2) {
+	}
+	else if (wall.type == WallType.DOOR2) {
 		ctx.strokeStyle = DOOR2_COLOR;
 		ctx.setLineDash([WALL_SIZE, WALL_SIZE]);
 		ctx.lineDashOffset = WALL_SIZE / 2;
-	} else if (wall.type == WallType.FORCE_FIELD) {
+	}
+	else if (wall.type == WallType.FORCE_FIELD) {
 		ctx.strokeStyle = FORCE_FIELD_COLOR;
 		ctx.lineCap = "round";
-	} else if (wall.type == WallType.CHAIN_LINK_FENCE) {
+	}
+	else if (wall.type == WallType.CHAIN_LINK_FENCE) {
 		ctx.strokeStyle = CHAIN_LINK_FENCE_COLOR;
 		ctx.lineCap = "round";
-	} else if (wall.type == WallType.LEVEL_SEPARATOR) {
+	}
+	else if (wall.type == WallType.LEVEL_SEPARATOR) {
 		/** Draw a solid line behind the dashed line. */
 		ctx.strokeStyle = NORMAL_WALL_COLOR;
 		ctx.lineWidth = WALL_SIZE * 2;
@@ -232,17 +241,26 @@ Map.prototype.getTile = function(x, y) {
 Map.prototype.getTerrainIndex = function(terrain) {
 	if (terrain == TerrainType.CLEAR) {
 		return 0;
-	} else if (terrain == TerrainType.HINDERING) {
+	}
+	else if (terrain == TerrainType.HINDERING) {
 		return 1;
-	} else if (terrain == TerrainType.BLOCKING) {
+	}
+	else if (terrain == TerrainType.BLOCKING) {
 		return 2;
-	} else if (terrain == TerrainType.WATER) {
+	}
+	else if (terrain == TerrainType.WATER) {
 		return 3;
-	} else if (terrain == TerrainType.OBSCURING) {
+	}
+	else if (terrain == TerrainType.OBSCURING) {
 		return 4;
-	} else if (terrain == TerrainType.SPECIAL) {
+	}
+	else if (terrain == TerrainType.WINDOW) {
 		return 5;
-	} else if (terrain == TerrainType.SPECIAL2) {
+	}
+	else if (terrain == TerrainType.SPECIAL) {
 		return 6;
+	}
+	else if (terrain == TerrainType.SPECIAL2) {
+		return 7;
 	}
 }
