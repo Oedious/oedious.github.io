@@ -26,6 +26,32 @@
             "roc": true
         }
     }, {
+        "id": "wcr2",
+        "name": "Jean Grey School For Higher Learning Grounds",
+        "set": "X-Men: Regenesis",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/wcr/jean_grey_school_for_higher_learning_grounds.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
+        "id": "wcr3",
+        "name": "Danger-Room East",
+        "set": "X-Men: Regenesis",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/wcr/danger_room_east.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
         "id": "abpi0",
         "name": "The Great Mound",
         "set": "Avengers Black Panther and the Illuminati",
