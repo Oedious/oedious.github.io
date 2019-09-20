@@ -52,6 +52,32 @@
             "roc": true
         }
     }, {
+        "id": "wcr4",
+        "name": "Utopia",
+        "set": "X-Men: Regenesis",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/wcr/utopia.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
+        "id": "wcr5",
+        "name": "Danger-Room West",
+        "set": "X-Men: Regenesis",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/wcr/danger_room_west.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
         "id": "abpi0",
         "name": "The Great Mound",
         "set": "Avengers Black Panther and the Illuminati",
@@ -295,9 +321,7 @@
         "height": 24,
         "file": "maps/roc19/hanging_island.json",
         "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
+            "modern": true
         }
     }, {
         "id": "roc19_13",
