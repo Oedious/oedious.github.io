@@ -1,5 +1,31 @@
 {
     "maps": [{
+        "id": "xdps0",
+        "name": "Savage Land",
+        "set": "X-Men the Animated Series: The Dark Phoenix Saga",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/xdps/savage_land.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
+        "id": "xdps1",
+        "name": "Sentinel Factory",
+        "set": "X-Men the Animated Series: The Dark Phoenix Saga",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/xdps/sentinel_factory.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
         "id": "wcr0",
         "name": "San Francisco Mutant Museum",
         "set": "X-Men: Regenesis",
