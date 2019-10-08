@@ -339,6 +339,19 @@
             "roc": true
         }
     }, {
+        "id": "roc19_11",
+        "name": "King's Tomb",
+        "set": "ROC 2019",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/roc19/kings_tomb.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
         "id": "roc19_12",
         "name": "Hanging Island",
         "set": "ROC 2019",
