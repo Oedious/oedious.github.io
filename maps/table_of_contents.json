@@ -403,6 +403,19 @@
         }
     }, {
         "id": "roc19_16",
+        "name": "Political Rally",
+        "set": "ROC 2019",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/roc19/political_rally.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
+        "id": "roc19_17",
         "name": "Ancient Hold",
         "set": "ROC 2019",
         "type": "indoor",
