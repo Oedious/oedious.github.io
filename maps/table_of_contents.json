@@ -428,6 +428,30 @@
             "roc": true
         }
     }, {
+        "id": "mjx_0",
+        "name": "Lightcycle Battle Arena",
+        "set": "Majestix Open Series",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/mjx/lightcycle_battle_arena.json"
+    }, {
+        "id": "mjx_1",
+        "name": "Ice Planet",
+        "set": "Majestix Open Series",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/mjx/ice_planet.json"
+    }, {
+        "id": "mjx_2",
+        "name": "Temple of the Idol",
+        "set": "Majestix Open Series",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/mjx/temple_of_the_idol.json"
+    }, {
         "id": "swb0",
         "name": "Regency Laboratory",
         "set": "Secret Wars: Battleworld",
