@@ -1,5 +1,70 @@
 {
     "maps": [{
+        "id": "wwe0",
+        "name": "WWE Arena",
+        "set": "WWE Series 1",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/wwe/wwe_arena.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
+        "id": "wwe1",
+        "name": "WWE Backstage Area",
+        "set": "WWE Series 1",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/wwe/wwe_backstage_area.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
+        "id": "wwe2",
+        "name": "WWE WarGames",
+        "set": "WWE Series 1",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/wwe/wwe_wargames.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
+        "id": "wwe3",
+        "name": "WWE Training Center",
+        "set": "WWE Series 1",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/wwe/wwe_training_center.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
+        "id": "orvl0",
+        "name": "Orville Bridge",
+        "set": "The Orville Starter",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/orvl/orville_bridge.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
         "id": "xdps0",
         "name": "Savage Land",
         "set": "X-Men the Animated Series: The Dark Phoenix Saga",
