@@ -1,28 +1,69 @@
 {
     "maps": [{
+        "id": "caav0",
+        "name": "Avengers Mansion",
+        "set": "Captain America and the Avengers",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/caav/avengers_mansion.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
+        "id": "caav1",
+        "name": "Pleasant Hill",
+        "set": "Captain America and the Avengers",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/caav/pleasant_hill.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
         "id": "roc20_0",
         "name": "Pitfight",
         "set": "ROC 2020",
         "type": "indoor",
         "width": 16,
-        "height": 16,
-        "file": "maps/roc20/pitfight.json"
+        "height": 24,
+        "file": "maps/roc20/pitfight.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
     }, {
         "id": "roc20_1",
         "name": "Backyard Wrestling",
         "set": "ROC 2020",
         "type": "outdoor",
         "width": 16,
-        "height": 16,
-        "file": "maps/roc20/backyard_wrestling.json"
+        "height": 24,
+        "file": "maps/roc20/backyard_wrestling.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
     }, {
         "id": "roc20_2",
         "name": "Bar Fighter",
         "set": "ROC 2020",
         "type": "indoor",
         "width": 16,
-        "height": 16,
-        "file": "maps/roc20/bar_fighter.json"
+        "height": 24,
+        "file": "maps/roc20/bar_fighter.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
     }, {
         "id": "wwe0",
         "name": "WWE Arena",
