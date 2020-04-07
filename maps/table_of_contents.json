@@ -4,10 +4,52 @@
 		"id": "ffcc0",
 		"name": "Doom Castle",
 		"set": "Fantastic Four: Cosmic Clash",
-		"type": "indoor",
+		"type": "outdoor",
 		"width": 16,
 		"height": 24,
 		"file": "maps/ffcc/doom_castle.json",
+		"age": {
+			"modern": true,
+			"wko": true,
+			"roc": true
+		}
+	},
+	{
+		"id": "ffcc1",
+		"name": "Reed's Lab",
+		"set": "Fantastic Four: Cosmic Clash",
+		"type": "indoor",
+		"width": 16,
+		"height": 24,
+		"file": "maps/ffcc/reeds_lab.json",
+		"age": {
+			"modern": true,
+			"wko": true,
+			"roc": true
+		}
+	},
+	{
+		"id": "ffcc2",
+		"name": "Testing Grounds",
+		"set": "Fantastic Four: Cosmic Clash",
+		"type": "outdoor",
+		"width": 16,
+		"height": 24,
+		"file": "maps/ffcc/testing_grounds.json",
+		"age": {
+			"modern": true,
+			"wko": true,
+			"roc": true
+		}
+	},
+	{
+		"id": "ffcc3",
+		"name": "Yancy Street",
+		"set": "Fantastic Four: Cosmic Clash",
+		"type": "outdoor",
+		"width": 16,
+		"height": 24,
+		"file": "maps/ffcc/yancy_street.json",
 		"age": {
 			"modern": true,
 			"wko": true,
