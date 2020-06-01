@@ -435,10 +435,10 @@
 			"x": "I"
 		}, {
 			"x": "J",
-			"terrain":"blocking"
+			"terrain":"hindering"
 		}, {
 			"x": "K",
-			"terrain":"blocking"
+			"terrain":"hindering"
 		}, {
 			"x": "L"
 		}, {
@@ -476,7 +476,7 @@
 			"x": "J"
 		}, {
 			"x": "K",
-			"terrain":"blocking"
+			"terrain":"hindering"
 		}, {
 			"x": "L"
 		}, {
@@ -516,7 +516,7 @@
 			"x": "J"
 		}, {
 			"x": "K",
-			"terrain":"blocking"
+			"terrain":"hindering"
 		}, {
 			"x": "L"
 		}, {
@@ -552,10 +552,10 @@
 			"x": "I"
 		}, {
 			"x": "J",
-			"terrain":"blocking"
+			"terrain":"hindering"
 		}, {
 			"x": "K",
-			"terrain":"blocking"
+			"terrain":"hindering"
 		}, {
 			"x": "L"
 		}, {
