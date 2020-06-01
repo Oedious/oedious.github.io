@@ -50,13 +50,13 @@ ViewManager.prototype.isLeftNavActive = function() {
 
 ViewManager.prototype.toggleLeftNav = function() {
     var nav = document.getElementById("leftNav");
-	var mc = document.getElementById("mapCanvas");
+	var main = document.getElementById("main");
     if (nav.style.left == "-250px") {
         nav.style.left = "0px";
-		mc.style.left = "250px";
+		main.style.left = "250px";
     } else {
         nav.style.left = "-250px";
-		mc.style.left = "0px";
+		main.style.left = "0px";
     }
     this.draw();
 }
