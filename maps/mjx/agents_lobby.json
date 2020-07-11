@@ -38,8 +38,7 @@
 			"x": "J",
 			"terrain": "blocking"
 		}, {
-			"x": "K",
-			"elevation": 3,
+			"x": "K"
 			"isStartingZone": true
 		}, {
 			"x": "L",
@@ -88,8 +87,7 @@
 			"x": "J",
 			"terrain": "blocking"
 		}, {
-			"x": "K",
-			"elevation": 3,
+			"x": "K"
 			"isStartingZone": true
 		}, {
 			"x": "L",
@@ -891,8 +889,7 @@
 		}, {
 			"x": "J"
 		}, {
-			"x": "K",
-			"elevation": 3,
+			"x": "K"
 			"isStartingZone": true
 		}, {
 			"x": "L",
@@ -941,8 +938,7 @@
 			"x": "J",
 			"terrain": "blocking"
 		}, {
-			"x": "K",
-			"elevation": 3,
+			"x": "K"
 			"isStartingZone": true
 		}, {
 			"x": "L",
