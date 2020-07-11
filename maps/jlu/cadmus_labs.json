@@ -8,9 +8,7 @@
 	"date": "April 2020",
 	"special": [
 		"(QUESTIONABLE RESEARCH) (+5 POINTS)",
-		"At the beginning of the game, choose a friendly character with the Scientist or Cadmus Labs keyword and choose one: Outwit, Perplex, or Probability Control.",
-		"The chosen character's minimum range when using the chosen power is now 10.",
-		"If your force is a Scientist or Cadmus Labs theme team, the chosen character has PROTECTED: Opposing X, where X is the chosen power.",
+		"At the beginning of the game, choose a friendly character with the Scientist or Cadmus Labs keyword and choose one: Outwit, Perplex, or Probability Control. The chosen character's minimum range when using the chosen power is now 10. If your force is a Scientist or Cadmus Labs theme team, the chosen character has PROTECTED: Opposing X, where X is the chosen power.",
 		"CONSOLATION: Once per game a friendly character can use \"FREE:This character's minimum range is 10 when using Outwit, Perplex, or Probability Control this turn."
 	],
 	"rows": [{
@@ -150,13 +148,13 @@
 			"x": "B"
 		}, {
 			"x": "C",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "D",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "E",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "F"
 		}, {
@@ -167,22 +165,22 @@
 			"x": "I"
 		}, {
 			"x": "J",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "K"
 		}, {
 			"x": "L",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "M"
 		}, {
 			"x": "N",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "O"
 		}, {
 			"x": "P",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}]
 	}, {
 		"y": 5,
@@ -192,13 +190,13 @@
 			"x": "B"
 		}, {
 			"x": "C",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "D",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "E",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "F"
 		}, {
@@ -209,22 +207,22 @@
 			"x": "I"
 		}, {
 			"x": "J",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "K"
 		}, {
 			"x": "L",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "M"
 		}, {
 			"x": "N",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "O"
 		}, {
 			"x": "P",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}]
 	}, {
 		"y": 6,
@@ -234,13 +232,13 @@
 			"x": "B"
 		}, {
 			"x": "C",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "D",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "E",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "F"
 		}, {
@@ -251,7 +249,7 @@
 			"x": "I"
 		}, {
 			"x": "J",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "K"
 		}, {
@@ -287,7 +285,7 @@
 			"x": "I"
 		}, {
 			"x": "J",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "K"
 		}, {
@@ -342,10 +340,10 @@
 			"x": "A"
 		}, {
 			"x": "B",
-			"terrain":"blocking"
+			"terrain": "blocking"
 		}, {
 			"x": "C",
-			"terrain":"blocking"
+			"terrain": "blocking"
 		}, {
 			"x": "D"
 		}, {
@@ -370,7 +368,7 @@
 			"x": "N"
 		}, {
 			"x": "O",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "P"
 		}]
@@ -380,10 +378,10 @@
 			"x": "A"
 		}, {
 			"x": "B",
-			"terrain":"blocking"
+			"terrain": "blocking"
 		}, {
 			"x": "C",
-			"terrain":"blocking"
+			"terrain": "blocking"
 		}, {
 			"x": "D"
 		}, {
@@ -406,10 +404,10 @@
 			"x": "M"
 		}, {
 			"x": "N",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "O",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "P"
 		}]
@@ -435,10 +433,10 @@
 			"x": "I"
 		}, {
 			"x": "J",
-			"terrain":"blocking"
+			"terrain": "hindering"
 		}, {
 			"x": "K",
-			"terrain":"blocking"
+			"terrain": "hindering"
 		}, {
 			"x": "L"
 		}, {
@@ -464,10 +462,10 @@
 			"x": "E"
 		}, {
 			"x": "F",
-			"terrain":"blocking"
+			"terrain": "blocking"
 		}, {
 			"x": "G",
-			"terrain":"blocking"
+			"terrain": "blocking"
 		}, {
 			"x": "H"
 		}, {
@@ -476,17 +474,17 @@
 			"x": "J"
 		}, {
 			"x": "K",
-			"terrain":"blocking"
+			"terrain": "hindering"
 		}, {
 			"x": "L"
 		}, {
 			"x": "M"
 		}, {
 			"x": "N",
-			"terrain":"blocking"
+			"terrain": "blocking"
 		}, {
 			"x": "O",
-			"terrain":"blocking"
+			"terrain": "blocking"
 		}, {
 			"x": "P"
 		}]
@@ -504,10 +502,10 @@
 			"x": "E"
 		}, {
 			"x": "F",
-			"terrain":"blocking"
+			"terrain": "blocking"
 		}, {
 			"x": "G",
-			"terrain":"blocking"
+			"terrain": "blocking"
 		}, {
 			"x": "H"
 		}, {
@@ -516,17 +514,17 @@
 			"x": "J"
 		}, {
 			"x": "K",
-			"terrain":"blocking"
+			"terrain": "hindering"
 		}, {
 			"x": "L"
 		}, {
 			"x": "M"
 		}, {
 			"x": "N",
-			"terrain":"blocking"
+			"terrain": "blocking"
 		}, {
 			"x": "O",
-			"terrain":"blocking"
+			"terrain": "blocking"
 		}, {
 			"x": "P"
 		}]
@@ -552,10 +550,10 @@
 			"x": "I"
 		}, {
 			"x": "J",
-			"terrain":"blocking"
+			"terrain": "hindering"
 		}, {
 			"x": "K",
-			"terrain":"blocking"
+			"terrain": "hindering"
 		}, {
 			"x": "L"
 		}, {
@@ -597,10 +595,10 @@
 			"x": "M"
 		}, {
 			"x": "N",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "O",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "P"
 		}]
@@ -636,7 +634,7 @@
 			"x": "N"
 		}, {
 			"x": "O",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "P"
 		}]
@@ -646,10 +644,10 @@
 			"x": "A"
 		}, {
 			"x": "B",
-			"terrain":"blocking"
+			"terrain": "blocking"
 		}, {
 			"x": "C",
-			"terrain":"blocking"
+			"terrain": "blocking"
 		}, {
 			"x": "D"
 		}, {
@@ -683,10 +681,10 @@
 			"x": "A"
 		}, {
 			"x": "B",
-			"terrain":"blocking"
+			"terrain": "blocking"
 		}, {
 			"x": "C",
-			"terrain":"blocking"
+			"terrain": "blocking"
 		}, {
 			"x": "D"
 		}, {
@@ -703,7 +701,7 @@
 			"x": "J"
 		}, {
 			"x": "K",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "L"
 		}, {
@@ -714,7 +712,7 @@
 			"x": "O"
 		}, {
 			"x": "P",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}]
 	}, {
 		"y": 19,
@@ -732,18 +730,18 @@
 			"x": "F"
 		}, {
 			"x": "G",
-			"terrain":"blocking"
+			"terrain": "blocking"
 		}, {
 			"x": "H",
-			"terrain":"blocking"
+			"terrain": "blocking"
 		}, {
 			"x": "I"
 		}, {
 			"x": "J",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "K",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "L"
 		}, {
@@ -754,7 +752,7 @@
 			"x": "O"
 		}, {
 			"x": "P",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}]
 	}, {
 		"y": 20,
@@ -772,10 +770,10 @@
 			"x": "F"
 		}, {
 			"x": "G",
-			"terrain":"blocking"
+			"terrain": "blocking"
 		}, {
 			"x": "H",
-			"terrain":"blocking"
+			"terrain": "blocking"
 		}, {
 			"x": "I"
 		}, {
@@ -786,10 +784,10 @@
 			"x": "L"
 		}, {
 			"x": "M",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "N",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "O"
 		}, {
@@ -799,7 +797,7 @@
 		"y": 21,
 		"tiles": [{
 			"x": "A",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "B"
 		}, {
@@ -835,7 +833,7 @@
 		"y": 22,
 		"tiles": [{
 			"x": "A",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "B"
 		}, {
@@ -962,18 +960,18 @@
 			"x": "P"
 		}]
 	}],
-	"walls": [{"x0":10,"y0":2,"x1":10,"y1":7},
-	{"x0":10,"y0":7,"x1":12,"y1":7},
-	{"x0":12,"y0":7,"x1":14,"y1":7,"type":"door"},
-	{"x0":14,"y0":7,"x1":16,"y1":7},
-	{"x0":10,"y0":7,"x1":10,"y1":9,"type":"door"},
-	{"x0":5,"y0":9,"x1":10,"y1":9, "type":"door"},
-	{"x0":5,"y0":9,"x1":5,"y1":15, "type":"door"},
-	{"x0":5,"y0":15,"x1":10,"y1":15, "type":"door"},
-	{"x0":10,"y0":15,"x1":10,"y1":17, "type":"door"},
-	{"x0":10,"y0":17,"x1":12,"y1":17},
-	{"x0":12,"y0":17,"x1":14,"y1":17, "type":"door"},
-	{"x0":14,"y0":17,"x1":16,"y1":17},
-	{"x0":10,"y0":17,"x1":10,"y1":22}
+	"walls": [{ "x0": 10, "y0": 2, "x1": 10, "y1": 7 },
+		{ "x0": 10, "y0": 7, "x1": 12, "y1": 7 },
+		{ "x0": 12, "y0": 7, "x1": 14, "y1": 7, "type": "door2" },
+		{ "x0": 14, "y0": 7, "x1": 16, "y1": 7 },
+		{ "x0": 10, "y0": 7, "x1": 10, "y1": 9, "type": "door2" },
+		{ "x0": 5, "y0": 9, "x1": 10, "y1": 9, "type": "glass2" },
+		{ "x0": 5, "y0": 9, "x1": 5, "y1": 15, "type": "glass2" },
+		{ "x0": 5, "y0": 15, "x1": 10, "y1": 15, "type": "glass2" },
+		{ "x0": 10, "y0": 15, "x1": 10, "y1": 17, "type": "door2" },
+		{ "x0": 10, "y0": 17, "x1": 12, "y1": 17 },
+		{ "x0": 12, "y0": 17, "x1": 14, "y1": 17, "type": "door2" },
+		{ "x0": 14, "y0": 17, "x1": 16, "y1": 17 },
+		{ "x0": 10, "y0": 17, "x1": 10, "y1": 22 }
 	]
 }
