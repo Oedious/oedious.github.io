@@ -169,6 +169,71 @@
             "roc": true
         }
     }, {
+        "id": "roc20_3",
+        "name": "Widowmaker's Lair",
+        "set": "ROC 2020",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/roc20/widowmakers_lair.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
+        "id": "roc20_4",
+        "name": "Research Outpost",
+        "set": "ROC 2020",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/roc20/research_outpost.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
+        "id": "roc20_5",
+        "name": "Planet 100475 Topside",
+        "set": "ROC 2020",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/roc20/planet_100475_topside.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
+        "id": "roc20_6",
+        "name": "The Bounty Hanger",
+        "set": "ROC 2020",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/roc20/the_bounty_hanger.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
+        "id": "roc20_7",
+        "name": "Warehouse 75",
+        "set": "ROC 2020",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/roc20/warehouse_75.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
         "id": "wwe0",
         "name": "WWE Arena",
         "set": "WWE Series 1",
