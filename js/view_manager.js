@@ -50,13 +50,10 @@ ViewManager.prototype.isLeftNavActive = function() {
 
 ViewManager.prototype.toggleLeftNav = function() {
     var nav = document.getElementById("leftNav");
-	var main = document.getElementById("main");
     if (nav.style.left == "-250px") {
         nav.style.left = "0px";
-		main.style.left = "250px";
     } else {
         nav.style.left = "-250px";
-		main.style.left = "0px";
     }
     this.draw();
 }
@@ -183,14 +180,12 @@ ViewManager.prototype.draw = function() {
         windowWidth -= 250;
     }
     var windowHeight = window.innerHeight - 88;
-    c.width = windowWidth;
-    c.height = windowHeight;
-    var sx = (c.width - 10) / (this.map_.width * TILE_SIZE);
-    var sy = c.height / (this.map_.height * TILE_SIZE);
+    var sx = (windowWidth - 10) / (this.map_.width * TILE_SIZE);
+    var sy = windowHeight / (this.map_.height * TILE_SIZE);
     this.scale_ = (sx < sy ? sx : sy) * (this.zoom_ / 100.0);
-    this.translationX_ = (c.width / this.scale_ - this.map_.width * TILE_SIZE) / 2;
+    c.width = this.scale * this.map_.width * TILE_SIZE
+	c.height = this.scale * this.map_.height * TILE_SIZE
     ctx.scale(this.scale_, this.scale_);
-    ctx.translate(this.translationX_, 0);
     this.map_.draw(ctx);
     ctx.restore();
     for (var i = 0; i < this.players_.length; ++i) {
