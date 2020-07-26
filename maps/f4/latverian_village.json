@@ -247,8 +247,7 @@
 			"terrain":"blocking"
 		}, {
 			"x": "F",
-			"terrain":",
-			"terrain":"hindering""
+			"terrain":"hindering"
 		}, {
 			"x": "G"
 		}, {
