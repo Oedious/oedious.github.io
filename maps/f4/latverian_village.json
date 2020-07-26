@@ -139,7 +139,7 @@
 			"x": "O"
 		}, {
 			"x": "P",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}]
 	}, {
 		"y": 4,
@@ -150,7 +150,7 @@
 		}, {
 			"x": "C"
 		}, {
-			"x": "D",,
+			"x": "D",
 			"terrain":"special"
 		}, {
 			"x": "E",
