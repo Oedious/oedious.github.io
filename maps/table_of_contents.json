@@ -1,6 +1,34 @@
 {
     "maps": [
 	{
+		"id": "f40",
+		"name": "Latverian Village",
+		"set": "Fantastic Four",
+		"type": "outdoor",
+		"width": 16,
+		"height": 24,
+		"file": "maps/f4/latverian_village.json",
+		"age": {
+			"modern": true,
+			"wko": true,
+			"roc": true
+		}
+	},
+		{
+		"id": "f41",
+		"name": "Aunt Petunia's House",
+		"set": "Fantastic Four",
+		"type": "indoorOutdoor",
+		"width": 16,
+		"height": 24,
+		"file": "maps/f4/aunt_petunia.json",
+		"age": {
+			"modern": true,
+			"wko": true,
+			"roc": true
+		}
+	},
+	{
 		"id": "ffcc0",
 		"name": "Doom Castle",
 		"set": "Fantastic Four: Cosmic Clash",

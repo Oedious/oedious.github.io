@@ -1,0 +1,1041 @@
+{
+	"name": "Latverian Village",
+	"set": "Fantastic Four",
+	"source": "Release Day OP",
+	"type": "outdoor",
+	"width": 16,
+	"height": 24,
+	"date": "July 2020",
+	"special": [
+		"(LATVERIAN VILLAGE) (+5 POINTS, -OR- 0 POINTS IF EVERY CHARACTER ON YOUR STARTING FORCE HAS THE LATEVERIA KEYWORD)",
+		"At the beginning of the game, choose a friendly character to gain Mastermind, but only to choose a friendly Latverian Peasant. // At the beginning of the game, generate 3 Latverian Peasants in different orange squares. If the chosen character is named Dr. Doom, generate 6 instead.",
+		"CONSOLATION: At the beginning of the game, generate a Latverian Peasant bystander."
+	],
+	"rows": [{
+		"y": 1,
+		"tiles": [{
+			"x": "A"
+		}, {
+			"x": "B"
+		}, {
+			"x": "C",
+			"isStartingZone": true
+		}, {
+			"x": "D",
+			"isStartingZone": true
+		}, {
+			"x": "E",
+			"isStartingZone": true
+		}, {
+			"x": "F",
+			"isStartingZone": true
+		}, {
+			"x": "G",
+			"isStartingZone": true
+		}, {
+			"x": "H",
+			"isStartingZone": true
+		}, {
+			"x": "I",
+			"isStartingZone": true
+		}, {
+			"x": "J",
+			"isStartingZone": true
+		}, {
+			"x": "K",
+			"isStartingZone": true
+		}, {
+			"x": "L",
+			"isStartingZone": true
+		}, {
+			"x": "M",
+			"isStartingZone": true
+		}, {
+			"x": "N",
+			"isStartingZone": true
+		}, {
+			"x": "O"
+		}, {
+			"x": "P"
+		}]
+	}, {
+		"y": 2,
+		"tiles": [{
+			"x": "A"
+		}, {
+			"x": "B"
+		}, {
+			"x": "C",
+			"isStartingZone": true
+		}, {
+			"x": "D",
+			"isStartingZone": true
+		}, {
+			"x": "E",
+			"isStartingZone": true
+		}, {
+			"x": "F",
+			"isStartingZone": true
+		}, {
+			"x": "G",
+			"isStartingZone": true
+		}, {
+			"x": "H",
+			"isStartingZone": true
+		}, {
+			"x": "I",
+			"isStartingZone": true
+		}, {
+			"x": "J",
+			"isStartingZone": true
+		}, {
+			"x": "K",
+			"isStartingZone": true
+		}, {
+			"x": "L",
+			"isStartingZone": true
+		}, {
+			"x": "M",
+			"isStartingZone": true
+		}, {
+			"x": "N",
+			"isStartingZone": true
+		}, {
+			"x": "O"
+		}, {
+			"x": "P"
+		}]
+	}, {
+		"y": 3,
+		"tiles": [{
+			"x": "A"
+		}, {
+			"x": "B"
+		}, {
+			"x": "C"
+		}, {
+			"x": "D"
+		}, {
+			"x": "E"
+		}, {
+			"x": "F"
+		}, {
+			"x": "G"
+		}, {
+			"x": "H"
+		}, {
+			"x": "I"
+		}, {
+			"x": "J"
+		}, {
+			"x": "K"
+		}, {
+			"x": "L"
+		}, {
+			"x": "M"
+		}, {
+			"x": "N"
+		}, {
+			"x": "O"
+		}, {
+			"x": "P",
+			"terrain":"hindering"
+		}]
+	}, {
+		"y": 4,
+		"tiles": [{
+			"x": "A"
+		}, {
+			"x": "B"
+		}, {
+			"x": "C"
+		}, {
+			"x": "D",,
+			"terrain":"special"
+		}, {
+			"x": "E",
+			"terrain":"hindering"
+		}, {
+			"x": "F",
+			"terrain":"hindering"
+		}, {
+			"x": "G"
+		}, {
+			"x": "H"
+		}, {
+			"x": "I"
+		}, {
+			"x": "J"
+		}, {
+			"x": "K"
+		}, {
+			"x": "L"
+		}, {
+			"x": "M",
+			"terrain":"blocking"
+		}, {
+			"x": "N",
+			"terrain":"blocking"
+		}, {
+			"x": "O",
+			"terrain":"blocking"
+		}, {
+			"x": "P",
+			"terrain":"blocking"
+		}]
+	}, {
+		"y": 5,
+		"tiles": [{
+			"x": "A"
+		}, {
+			"x": "B",
+			"terrain":"hindering"
+		}, {
+			"x": "C",
+			"terrain":"blocking"
+		}, {
+			"x": "D",
+			"terrain":"blocking"
+		}, {
+			"x": "E",
+			"terrain":"blocking"
+		}, {
+			"x": "F",
+			"terrain":"blocking"
+		}, {
+			"x": "G"
+		}, {
+			"x": "H"
+		}, {
+			"x": "I",
+			"terrain":"hindering"
+		}, {
+			"x": "J",
+			"terrain":"hindering"
+		}, {
+			"x": "K"
+		}, {
+			"x": "L"
+		}, {
+			"x": "M",
+			"terrain":"hindering"
+		}, {
+			"x": "N",
+			"terrain":"hindering"
+		}, {
+			"x": "O",
+			"terrain":"hindering"
+		}, {
+			"x": "P",
+			"terrain":"hindering"
+		}]
+	}, {
+		"y": 6,
+		"tiles": [{
+			"x": "A"
+		}, {
+			"x": "B",
+			"terrain":"hindering"
+		}, {
+			"x": "C",
+			"terrain":"blocking"
+		}, {
+			"x": "D",
+			"terrain":"blocking"
+		}, {
+			"x": "E",
+			"terrain":"blocking"
+		}, {
+			"x": "F",
+			"terrain":",
+			"terrain":"hindering""
+		}, {
+			"x": "G"
+		}, {
+			"x": "H"
+		}, {
+			"x": "I",
+			"terrain":"hindering"
+		}, {
+			"x": "J",
+			"terrain":"hindering"
+		}, {
+			"x": "K"
+		}, {
+			"x": "L"
+		}, {
+			"x": "M",
+			"terrain":"blocking"
+		}, {
+			"x": "N",
+			"terrain":"blocking"
+		}, {
+			"x": "O",
+			"terrain":"blocking"
+		}, {
+			"x": "P",
+			"terrain":"blocking"
+		}]
+	}, {
+		"y": 7,
+		"tiles": [{
+			"x": "A"
+		}, {
+			"x": "B"
+		}, {
+			"x": "C",
+			"terrain":"blocking"
+		}, {
+			"x": "D",
+			"terrain":"blocking"
+		}, {
+			"x": "E",
+			"terrain":"blocking"
+		}, {
+			"x": "F",
+			"terrain":"blocking"
+		}, {
+			"x": "G"
+		}, {
+			"x": "H"
+		}, {
+			"x": "I"
+		}, {
+			"x": "J"
+		}, {
+			"x": "K"
+		}, {
+			"x": "L"
+		}, {
+			"x": "M"
+		}, {
+			"x": "N",
+			"terrain":"hindering"
+		}, {
+			"x": "O",
+			"terrain":"special"
+		}, {
+			"x": "P",
+			"terrain":"hindering"
+		}]
+	}, {
+		"y": 8,
+		"tiles": [{
+			"x": "A"
+		}, {
+			"x": "B"
+		}, {
+			"x": "C",
+			"terrain":"blocking"
+		}, {
+			"x": "D",
+			"terrain":"blocking"
+		}, {
+			"x": "E",
+			"terrain":"blocking"
+		}, {
+			"x": "F",
+			"terrain":"blocking"
+		}, {
+			"x": "G"
+		}, {
+			"x": "H"
+		}, {
+			"x": "I"
+		}, {
+			"x": "J"
+		}, {
+			"x": "K"
+		}, {
+			"x": "L"
+		}, {
+			"x": "M"
+		}, {
+			"x": "N"
+		}, {
+			"x": "O"
+		}, {
+			"x": "P"
+		}]
+	}, {
+		"y": 9,
+		"tiles": [{
+			"x": "A"
+		}, {
+			"x": "B"
+		}, {
+			"x": "C"
+		}, {
+			"x": "D"
+		}, {
+			"x": "E"
+		}, {
+			"x": "F"
+		}, {
+			"x": "G"
+		}, {
+			"x": "H"
+		}, {
+			"x": "I",
+			"terrain":"blocking"
+		}, {
+			"x": "J",
+			"terrain":"blocking"
+		}, {
+			"x": "K",
+			"terrain":"blocking"
+		}, {
+			"x": "L",
+			"terrain":"blocking"
+		}, {
+			"x": "M"
+		}, {
+			"x": "N"
+		}, {
+			"x": "O"
+		}, {
+			"x": "P"
+		}]
+	}, {
+		"y": 10,
+		"tiles": [{
+			"x": "A"
+		}, {
+			"x": "B"
+		}, {
+			"x": "C"
+		}, {
+			"x": "D"
+		}, {
+			"x": "E"
+		}, {
+			"x": "F"
+		}, {
+			"x": "G"
+		}, {
+			"x": "H"
+		}, {
+			"x": "I",
+			"terrain":"blocking"
+		}, {
+			"x": "J",
+			"terrain":"blocking"
+		}, {
+			"x": "K",
+			"terrain":"blocking"
+		}, {
+			"x": "L",
+			"terrain":"blocking"
+		}, {
+			"x": "M"
+		}, {
+			"x": "N"
+		}, {
+			"x": "O",
+			"terrain":"blocking"
+		}, {
+			"x": "P",
+			"terrain":"blocking"
+		}]
+	}, {
+		"y": 11,
+		"tiles": [{
+			"x": "A",
+			"terrain":"hindering"
+		}, {
+			"x": "B",
+			"terrain":"hindering"
+		}, {
+			"x": "C"
+		}, {
+			"x": "D"
+		}, {
+			"x": "E",
+			"terrain":"water"
+		}, {
+			"x": "F",
+			"terrain":"water"
+		}, {
+			"x": "G"
+		}, {
+			"x": "H"
+		}, {
+			"x": "I",
+			"terrain":"blocking"
+		}, {
+			"x": "J",
+			"terrain":"blocking"
+		}, {
+			"x": "K",
+			"terrain":"blocking"
+		}, {
+			"x": "L",
+			"terrain":"blocking"
+		}, {
+			"x": "M"
+		}, {
+			"x": "N",
+			"terrain":"special"
+		}, {
+			"x": "O",
+			"terrain":"blocking"
+		}, {
+			"x": "P",
+			"terrain":"blocking"
+		}]
+	}, {
+		"y": 12,
+		"tiles": [{
+			"x": "A",
+			"terrain":"blocking"
+		}, {
+			"x": "B",
+			"terrain":"blocking"
+		}, {
+			"x": "C",
+			"terrain":"blocking"
+		}, {
+			"x": "D",
+			"terrain":"special"
+		}, {
+			"x": "E",
+			"terrain":"water"
+		}, {
+			"x": "F",
+			"terrain":"water"
+		}, {
+			"x": "G"
+		}, {
+			"x": "H"
+		}, {
+			"x": "I",
+			"terrain":"special"
+		}, {
+			"x": "J",
+			"terrain":"blocking"
+		}, {
+			"x": "K",
+			"terrain":"blocking"
+		}, {
+			"x": "L",
+			"terrain":"blocking"
+		}, {
+			"x": "M"
+		}, {
+			"x": "N"
+		}, {
+			"x": "O",
+			"terrain":"blocking"
+		}, {
+			"x": "P",
+			"terrain":"blocking"
+		}]
+	}, {
+		"y": 13,
+		"tiles": [{
+			"x": "A",
+			"terrain":"blocking"
+		}, {
+			"x": "B",
+			"terrain":"blocking"
+		}, {
+			"x": "C",
+			"terrain":"blocking"
+		}, {
+			"x": "D"
+		}, {
+			"x": "E"
+		}, {
+			"x": "F"
+		}, {
+			"x": "G"
+		}, {
+			"x": "H"
+		}, {
+			"x": "I"
+		}, {
+			"x": "J",
+			"terrain":"blocking"
+		}, {
+			"x": "K",
+			"terrain":"blocking"
+		}, {
+			"x": "L",
+			"terrain":"blocking"
+		}, {
+			"x": "M"
+		}, {
+			"x": "N"
+		}, {
+			"x": "O",
+			"terrain":"blocking"
+		}, {
+			"x": "P",
+			"terrain":"blocking"
+		}]
+	}, {
+		"y": 14,
+		"tiles": [{
+			"x": "A",
+			"terrain":"blocking"
+		}, {
+			"x": "B",
+			"terrain":"blocking"
+		}, {
+			"x": "C",
+			"terrain":"blocking"
+		}, {
+			"x": "D"
+		}, {
+			"x": "E"
+		}, {
+			"x": "F"
+		}, {
+			"x": "G"
+		}, {
+			"x": "H"
+		}, {
+			"x": "I"
+		}, {
+			"x": "J",
+			"terrain":"blocking"
+		}, {
+			"x": "K",
+			"terrain":"blocking"
+		}, {
+			"x": "L",
+			"terrain":"blocking"
+		}, {
+			"x": "M"
+		}, {
+			"x": "N"
+		}, {
+			"x": "O",
+			"terrain":"blocking"
+		}, {
+			"x": "P",
+			"terrain":"blocking"
+		}]
+	}, {
+		"y": 15,
+		"tiles": [{
+			"x": "A"
+		}, {
+			"x": "B"
+		}, {
+			"x": "C"
+		}, {
+			"x": "D"
+		}, {
+			"x": "E"
+		}, {
+			"x": "F",
+			"terrain":"special"
+		}, {
+			"x": "G",
+			"terrain":"hindering"
+		}, {
+			"x": "H"
+		}, {
+			"x": "I"
+		}, {
+			"x": "J"
+		}, {
+			"x": "K"
+		}, {
+			"x": "L",
+			"terrain":"hindering"
+		}, {
+			"x": "M"
+		}, {
+			"x": "N"
+		}, {
+			"x": "O"
+		}, {
+			"x": "P"
+		}]
+	}, {
+		"y": 16,
+		"tiles": [{
+			"x": "A"
+		}, {
+			"x": "B"
+		}, {
+			"x": "C"
+		}, {
+			"x": "D"
+		}, {
+			"x": "E",
+			"terrain":"blocking"
+		}, {
+			"x": "F",
+			"terrain":"blocking"
+		}, {
+			"x": "G",
+			"terrain":"blocking"
+		}, {
+			"x": "H",
+			"terrain":"blocking"
+		}, {
+			"x": "I",
+			"terrain":"blocking"
+		}, {
+			"x": "J",
+			"terrain":"blocking"
+		}, {
+			"x": "K"
+		}, {
+			"x": "L"
+		}, {
+			"x": "M"
+		}, {
+			"x": "N",
+			"terrain":"special"
+		}, {
+			"x": "O"
+		}, {
+			"x": "P"
+		}]
+	}, {
+		"y": 17,
+		"tiles": [{
+			"x": "A"
+		}, {
+			"x": "B"
+		}, {
+			"x": "C"
+		}, {
+			"x": "D"
+		}, {
+			"x": "E",
+			"terrain":"blocking"
+		}, {
+			"x": "F",
+			"terrain":"blocking"
+		}, {
+			"x": "G",
+			"terrain":"blocking"
+		}, {
+			"x": "H",
+			"terrain":"blocking"
+		}, {
+			"x": "I",
+			"terrain":"blocking"
+		}, {
+			"x": "J",
+			"terrain":"blocking"
+		}, {
+			"x": "K"
+		}, {
+			"x": "L"
+		}, {
+			"x": "M",
+			"terrain":"blocking"
+		}, {
+			"x": "N",
+			"terrain":"blocking"
+		}, {
+			"x": "O",
+			"terrain":"blocking"
+		}, {
+			"x": "P"
+		}]
+	}, {
+		"y": 18,
+		"tiles": [{
+			"x": "A",
+			"terrain":"hindering"
+		}, {
+			"x": "B"
+		}, {
+			"x": "C"
+		}, {
+			"x": "D"
+		}, {
+			"x": "E",
+			"terrain":"blocking"
+		}, {
+			"x": "F",
+			"terrain":"blocking"
+		}, {
+			"x": "G",
+			"terrain":"blocking"
+		}, {
+			"x": "H",
+			"terrain":"blocking"
+		}, {
+			"x": "I",
+			"terrain":"blocking"
+		}, {
+			"x": "J",
+			"terrain":"blocking"
+		}, {
+			"x": "K"
+		}, {
+			"x": "L"
+		}, {
+			"x": "M",
+			"terrain":"blocking"
+		}, {
+			"x": "N",
+			"terrain":"blocking"
+		}, {
+			"x": "O",
+			"terrain":"blocking"
+		}, {
+			"x": "P"
+		}]
+	}, {
+		"y": 19,
+		"tiles": [{
+			"x": "A",
+			"terrain":"blocking"
+		}, {
+			"x": "B",
+			"terrain":"blocking"
+		}, {
+			"x": "C"
+		}, {
+			"x": "D"
+		}, {
+			"x": "E",
+			"terrain":"blocking"
+		}, {
+			"x": "F",
+			"terrain":"blocking"
+		}, {
+			"x": "G",
+			"terrain":"blocking"
+		}, {
+			"x": "H",
+			"terrain":"blocking"
+		}, {
+			"x": "I",
+			"terrain":"blocking"
+		}, {
+			"x": "J",
+			"terrain":"blocking"
+		}, {
+			"x": "K"
+		}, {
+			"x": "L"
+		}, {
+			"x": "M",
+			"terrain":"blocking"
+		}, {
+			"x": "N",
+			"terrain":"blocking"
+		}, {
+			"x": "O",
+			"terrain":"blocking"
+		}, {
+			"x": "P"
+		}]
+	}, {
+		"y": 20,
+		"tiles": [{
+			"x": "A",
+			"terrain":"blocking"
+		}, {
+			"x": "B",
+			"terrain":"blocking"
+		}, {
+			"x": "C"
+		}, {
+			"x": "D"
+		}, {
+			"x": "E"
+		}, {
+			"x": "F"
+		}, {
+			"x": "G",
+			"terrain":"hindering"
+		}, {
+			"x": "H",
+			"terrain":"hindering"
+		}, {
+			"x": "I",
+			"terrain":"hindering"
+		}, {
+			"x": "J"
+		}, {
+			"x": "K"
+		}, {
+			"x": "L"
+		}, {
+			"x": "M"
+		}, {
+			"x": "N"
+		}, {
+			"x": "O"
+		}, {
+			"x": "P"
+		}]
+	}, {
+		"y": 21,
+		"tiles": [{
+			"x": "A"
+		}, {
+			"x": "B",
+			"terrain":"special"
+		}, {
+			"x": "C"
+		}, {
+			"x": "D"
+		}, {
+			"x": "E"
+		}, {
+			"x": "F"
+		}, {
+			"x": "G"
+		}, {
+			"x": "H"
+		}, {
+			"x": "I"
+		}, {
+			"x": "J"
+		}, {
+			"x": "K"
+		}, {
+			"x": "L"
+		}, {
+			"x": "M"
+		}, {
+			"x": "N"
+		}, {
+			"x": "O"
+		}, {
+			"x": "P"
+		}]
+	}, {
+		"y": 22,
+		"tiles": [{
+			"x": "A"
+		}, {
+			"x": "B"
+		}, {
+			"x": "C"
+		}, {
+			"x": "D"
+		}, {
+			"x": "E"
+		}, {
+			"x": "F"
+		}, {
+			"x": "G"
+		}, {
+			"x": "H"
+		}, {
+			"x": "I"
+		}, {
+			"x": "J"
+		}, {
+			"x": "K"
+		}, {
+			"x": "L"
+		}, {
+			"x": "M"
+		}, {
+			"x": "N"
+		}, {
+			"x": "O"
+		}, {
+			"x": "P"
+		}]
+	}, {
+		"y": 23,
+		"tiles": [{
+			"x": "A"
+		}, {
+			"x": "B"
+		}, {
+			"x": "C",
+			"isStartingZone": true
+		}, {
+			"x": "D",
+			"isStartingZone": true
+		}, {
+			"x": "E",
+			"isStartingZone": true
+		}, {
+			"x": "F",
+			"isStartingZone": true
+		}, {
+			"x": "G",
+			"isStartingZone": true
+		}, {
+			"x": "H",
+			"isStartingZone": true
+		}, {
+			"x": "I",
+			"isStartingZone": true
+		}, {
+			"x": "J",
+			"isStartingZone": true
+		}, {
+			"x": "K",
+			"isStartingZone": true
+		}, {
+			"x": "L",
+			"isStartingZone": true
+		}, {
+			"x": "M",
+			"isStartingZone": true
+		}, {
+			"x": "N",
+			"isStartingZone": true
+		}, {
+			"x": "O"
+		}, {
+			"x": "P"
+		}]
+	}, {
+		"y": 24,
+		"tiles": [{
+			"x": "A"
+		}, {
+			"x": "B"
+		}, {
+			"x": "C",
+			"isStartingZone": true
+		}, {
+			"x": "D",
+			"isStartingZone": true
+		}, {
+			"x": "E",
+			"isStartingZone": true
+		}, {
+			"x": "F",
+			"isStartingZone": true
+		}, {
+			"x": "G",
+			"isStartingZone": true
+		}, {
+			"x": "H",
+			"isStartingZone": true
+		}, {
+			"x": "I",
+			"isStartingZone": true
+		}, {
+			"x": "J",
+			"isStartingZone": true
+		}, {
+			"x": "K",
+			"isStartingZone": true
+		}, {
+			"x": "L",
+			"isStartingZone": true
+		}, {
+			"x": "M",
+			"isStartingZone": true
+		}, {
+			"x": "N",
+			"isStartingZone": true
+		}, {
+			"x": "O"
+		}, {
+			"x": "P"
+		}]
+	}],
+	"walls": []
+}
