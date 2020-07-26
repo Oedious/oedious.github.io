@@ -218,16 +218,16 @@
 			"x": "L"
 		}, {
 			"x": "M",
-			"terrain":"hindering"
+			"terrain":"blocking"
 		}, {
 			"x": "N",
-			"terrain":"hindering"
+			"terrain":"blocking"
 		}, {
 			"x": "O",
-			"terrain":"hindering"
+			"terrain":"blocking"
 		}, {
 			"x": "P",
-			"terrain":"hindering"
+			"terrain":"blocking"
 		}]
 	}, {
 		"y": 6,
@@ -247,7 +247,7 @@
 			"terrain":"blocking"
 		}, {
 			"x": "F",
-			"terrain":"hindering"
+			"terrain":"blocking"
 		}, {
 			"x": "G"
 		}, {
