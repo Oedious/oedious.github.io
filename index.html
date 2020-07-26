@@ -4,17 +4,17 @@
 <head>
   <meta charset="utf-8">
   <title>Heroclix Map Viewer</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
   <style type="text/css">
     .sideNav {
       width: 250px;
       position: fixed;
       z-index: 1;
-      top: 82px;
+      top: 0px;
       bottom: 0px;
-      background-color: #F1F1F1;
       overflow-x: hidden;
       overflow: hidden;
-      padding-top: 50px;
       transition: 0.5s;
     }
 
@@ -32,24 +32,6 @@
       right: 0;
     }
 
-    .toggle:hover {
-      background-color: #ddd;
-    }
-
-    #saveAsButton {
-      position: absolute;
-      top: 58px;
-      right: 5px;
-    }
-
-    #rightNav {
-      right: -250px;
-    }
-
-    #rightNav #rightToggle {
-      left: 0px;
-    }
-
     .bar {
       width: 40px;
       height: 6px;
@@ -57,63 +39,12 @@
       margin: 5px 0;
     }
 
-    ul.tabs {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      border: 1px solid #ccc;
-      background-color: #f1f1f1;
-      position: absolute;
-      top: 0px;
-      left: 0px;
-      right: 0px;
-    }
-
-    ul.tabs li {
-      float: left;
-    }
-
-    .tab {
-      display: inline-block;
-      color: black;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      transition: 0.3s;
-      font-size: 17px;
-      background-color: #eee;
-    }
-
-    .tab:hover {
-      background-color: #ddd;
-    }
-
-    .tab:focus,
-    .active {
-      background-color: #ccc;
-    }
-
-    #rightTabs {
-      position: relative;
-      left: 40px;
-    }
-
     .panel {
       display: none;
-      padding: 6px 12px;
+      padding: 6px 6px;
       position: relative;
       height: 100%;
       overflow-y: hidden;
-      background-color: #ccc;
-    }
-
-    #filters {
-      position: absolute;
-      top: 0px;
-      left: 0px;
-      width: 242px;
-      margin: 10px 10px;
     }
 
     .filterInfo {
@@ -127,14 +58,9 @@
     }
 
     .panelList {
-      position: absolute;
-      top: 70px;
-      width: 230px;
       height: calc(100% - 100px);
-      overflow-y: scroll;
-      border: 1px solid #bbb;
-      margin: 5px 0px;
-      background-color: #ccc;
+      overflow-y: hidden;
+      margin: 6px 0px;
     }
 
     #tableOfContents a {
@@ -143,16 +69,6 @@
       display: block;
       padding: 4px 10px;
       text-decoration: none;
-    }
-
-    #tableOfContents a:hover {
-      background-color: #bbb;
-    }
-
-    #tableOfContents a:focus,
-    .active {
-      background-color: #aaa;
-      color: #fffffff;
     }
 
     #mapTitle {
@@ -168,60 +84,21 @@
       text-align: left;
     }
 
-    .playerInfo {
-      margin: 5px 0px;
-    }
-
-    .addCharacterButton {
-      position: absolute;
-      right: 10px;
-      color: #00ff00;
-    }
-
-    .removeCharacterButton {
-      position: absolute;
-      right: 5px;
-      color: #ff0000;
-    }
-
-    .characterListEntry {
-      background-color: #ccc;
-      color: black;
-      display: block;
-      padding: 4px 10px;
-      text-decoration: none;
-      height: 50px;
-      border: 1px solid #bbb;
-    }
-
-    .characterListEntry:hover {
-      background-color: #bbb;
-    }
-
-    .characterListEntry:focus,
-    .active {
-      background-color: #aaa;
-      color: #fffffff;
-    }
-
     .top {
       position: fixed;
       top: 0;
       left: 0;
       right: 0;
       height: 82px;
-      background-color: #F0F0F0;
     }
 
     #mapHeader {
-      font-family: Arial, Helvetica, sans-serif;
       font-size: xx-large;
       font-weight: bold;
       text-align: center;
     }
 
     #mapHeaderType {
-      font-family: Arial, Helvetica, sans-serif;
       font-size: large;
       font-weight: bold;
       text-align: center;
@@ -245,28 +122,26 @@
 <body>
   <div class="main" id="main">
     <canvas id="mapCanvas" onmousedown="onMouseDown(event)" ontouchstart="onTouchStart(event)" ontouchend="onTouchEnd(event)" style="margin-left: auto;margin-right: auto;display:block;"></canvas>
+	
+	<div class="fixed-action-btn">
+	  <a class="btn-floating btn-large red" id="saveAsButton">
+		<i class="large material-icons">save</i>
+	  </a>
+	  <ul>
+		<li onclick="mgr.zoomOut()"><a class="btn-floating green"><i class="material-icons">zoom_out</i></a></li>
+		<li onclick="mgr.zoomIn()"><a class="btn-floating blue"><i class="material-icons">zoom_in</i></a></li>
+	  </ul>
+	</div>
   </div>
   <div class="top">
-    <div id="leftToggle" class="toggle" onclick="mgr.toggleLeftNav()">
-      <div class="bar"></div>
-      <div class="bar"></div>
-      <div class="bar"></div>
-    </div>
-    <a href="#" id="saveAsButton" class="headerButton">Save Map</a>
     <div id="mapHeader"></div>
     <div id="mapHeaderType"></div>
-    <div style="text-align: center;">
-      <button class="headerButton" onclick="mgr.previousMap()">&lt&lt</button>
-      <button class="headerButton" onclick="mgr.zoomOut()">-</button>
-      <button class="headerButton" onclick="mgr.zoomIn()">+</button>
-      <button class="headerButton" onclick="mgr.nextMap()">&gt&gt</button>
-    </div>
   </div>
 
   <div id="leftNav" class="sideNav">
     <ul class="tabs">
-      <li><a href="javascript:void(0)" class="tab" id="mapsTab" onclick="mgr.openPanel('leftNav', 'mapsTab', 'mapsPanel')">Maps</a></li>
-      <li><a href="javascript:void(0)" class="tab" id="infoTab" onclick="mgr.openPanel('leftNav', 'infoTab', 'infoPanel')">Info</a></li>
+      <li class="tab"><a href="javascript:void(0)" class="active" id="mapsTab" onclick="mgr.openPanel('leftNav', 'mapsTab', 'mapsPanel')">Maps</a></li>
+      <li class="tab"><a href="javascript:void(0)" id="infoTab" onclick="mgr.openPanel('leftNav', 'infoTab', 'infoPanel')">Info</a></li>
     </ul>
     <div id="infoPanel" class="panel">
       <div id="mapTitle" class="panelList" style="top:0;height:calc(100% - 30px)">
@@ -279,90 +154,39 @@
       </div>
     </div>
     <div id="mapsPanel" class="panel" style="display: block;">
-      <div id="tableOfContents" class="panelList"></div>
-      <div id="filters">
-        <div class="filterInfo">Age:
-          <select id="selectAge" class="panelInput" onchange="mgr.applyFilters()">
+      <div id="filters" style="display: block;">
+        <div class="input-field">
+          <select id="selectAge" onchange="mgr.applyFilters()">
             <option value="all">All</option>
             <option value="modern">Modern</option>
             <option value="wko">WizKids Events</option>
             <option value="roc">ROC Events</option>
           </select>
+		  <label>Age:</label>
         </div>
-        <div class="filterInfo">Type:
-          <select id="selectType" class="panelInput" onchange="mgr.applyFilters()">
+        <div class="input-field">
+          <select id="selectType" onchange="mgr.applyFilters()">
             <option value="all">All</option>
             <option value="indoor">Indoor</option>
             <option value="outdoor">Outdoor</option>
             <option value="indoorOutdoor">Indoor/Outdoor</option>
           </select>
+		  <label>Type:</label>
         </div>
-        <div class="filterInfo">Size:
-          <select id="selectSize" class="panelInput" onchange="mgr.applyFilters()">
+        <div class="input-field">
+          <select id="selectSize" onchange="mgr.applyFilters()">
             <option value="all">All</option>
             <option value="8x8">8x8</option>
             <option value="16x16">16x16</option>
             <option value="16x24">16x24</option>
             <option value="24x24">24x24</option>
           </select>
+		  <label>Size:</label>
         </div>
       </div>
+	  <div id="tableOfContents" class="panelList" style="display: block;"></div>
     </div>
     <div id="filtersPanel" class="panel">
-    </div>
-  </div>
-
-  <div id="rightNav" class="sideNav">
-    <ul class="tabs">
-      <li>
-        <div id="rightToggle" class="toggle" onclick="mgr.toggleRightNav()">
-          <div class="bar"></div>
-          <div class="bar"></div>
-          <div class="bar"></div>
-        </div>
-      </li>
-      <div id="rightTabs">
-        <li><a href="javascript:void(0)" class="tab" id="player0Tab" onclick="mgr.openPanel('rightNav', 'player0Tab', 'player0Panel', 0)">Player 0</a></li>
-        <li><a href="javascript:void(0)" class="tab" id="player1Tab" onclick="mgr.openPanel('rightNav', 'player1Tab', 'player1Panel', 1)">Player 1</a></li>
-      </div>
-    </ul>
-    <div id="player0Panel" class="panel">
-      <div class="playerInfo">
-        Name: <input id="player0Name" class="panelInput" onfocusout="onFocusOut('player0Name')"></input>
-      </div>
-      <div class="playerInfo">Color:
-        <select id="player0Color" class="panelInput" onchange="mgr.applyColor()">
-          <option value="0">Red</option>
-          <option value="1">Orange</option>
-          <option value="2">Yellow</option>
-          <option value="3">Green</option>
-          <option value="4">Blue</option>
-          <option value="5">Purple</option>
-        </select>
-      </div>
-      <div class="playerInfo">Characters:
-        <button class="addCharacterButton" onclick="mgr.addCharacter()">+</button>
-      </div>
-      <div id="player0CharacterList" class="panelList"></div>
-    </div>
-    <div id="player1Panel" class="panel ">
-      <div class="playerInfo">
-        Name: <input id="player1Name" class="panelInput" onfocusout="onFocusOut('player1Name')"></input>
-      </div>
-      <div class="playerInfo">Color:
-        <select id="player1Color" class="panelInput" onchange="mgr.applyColor()">
-          <option value="0">Red</option>
-          <option value="1">Orange</option>
-          <option value="2">Yellow</option>
-          <option value="3">Green</option>
-          <option value="4">Blue</option>
-          <option value="5">Purple</option>
-        </select>
-      </div>
-      <div class="playerInfo">Characters:
-        <button class="addCharacterButton" onclick="mgr.addCharacter()">+</button>
-      </div>
-      <div id="player1CharacterList" class="panelList"></div>
     </div>
   </div>
 
@@ -375,6 +199,7 @@
   <script type="text/javascript " src="js/player.js "></script>
   <script type="text/javascript " src="js/table_of_contents.js "></script>
   <script type="text/javascript " src="js/view_manager.js "></script>
+  <script type="text/javascript " src="js/materialize.js"></script>
   <script>
     var mgr = new ViewManager();
     document.onkeydown = onKeyDown;

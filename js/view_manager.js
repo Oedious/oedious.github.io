@@ -1,4 +1,5 @@
 var ViewManager = function() {
+	M.AutoInit();
     this.touchStartX_ = 0;
     this.touchStartY_ = 0;
     this.touchEndX_ = 0;
@@ -15,7 +16,6 @@ var ViewManager = function() {
     ];
     this.currentPlayer_ = 0;
     this.openPanel("leftNav", "mapsTab", "mapsPanel");
-    this.openPanel("rightNav", "player0Tab", "player0Panel", 0);
 
     var mapId = this.getParameterByName_("m");
     var serialized = this.getParameterByName_("s");
@@ -23,13 +23,6 @@ var ViewManager = function() {
         mapId = this.deserialize(serialized);
     }
     this.loadTableOfContents_(mapId);
-
-    for (var i = 0; i < this.players_.length; ++i) {
-        var player = this.players_[i];
-        document.getElementById("player" + i + "Name").value = player.getName();
-        document.getElementById("player" + i + "Color").selectedIndex = player.getColorType();
-        player.drawCharacterList(i);
-    }
 }
 
 ViewManager.prototype.loadTableOfContents_ = function(mapId) {
@@ -74,16 +67,6 @@ ViewManager.prototype.openPanel = function(navName, tabName, panelName, playerNu
         panels[i].style.display = "none";
     }
     document.getElementById(panelName).style.display = "block";
-
-    var tabs = nav.getElementsByClassName("tab");
-    for (var i = 0; i < tabs.length; ++i) {
-        tabs[i].style.backgroundColor = "";
-    }
-    document.getElementById(tabName).style.backgroundColor = "#ccc";
-
-    if (navName == "rightNav") {
-        this.currentPlayer_ = playerNumber;
-    }
 }
 
 ViewManager.prototype.onMouseDown = function(event) {
