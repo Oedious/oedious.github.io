@@ -43,8 +43,8 @@
       display: none;
       padding: 6px 6px;
       position: relative;
-      height: 100%;
-      overflow-y: hidden;
+      height: calc(100% - 48px);
+      overflow-y: none;
     }
 
     .filterInfo {
@@ -58,9 +58,9 @@
     }
 
     .panelList {
-      height: calc(100% - 100px);
-      overflow-y: hidden;
+      overflow-y: scroll;
       margin: 6px 0px;
+	  height: calc(100% - 192px);
     }
 
     #tableOfContents a {
@@ -116,6 +116,18 @@
 	  left: 250px;
       overflow: hidden;
     }
+	
+	-webkit-scrollbar {
+		width = 8px;
+	}
+	
+	-webkit-scrollbar-thumb {
+		background = #26a69a;
+	}
+	
+	-webkit-scrollbar-track {
+		background = #00000000
+	}
   </style>
 </head>
 
@@ -153,7 +165,7 @@
         <div id="mapSpecial" class="mapInfo"></div>
       </div>
     </div>
-    <div id="mapsPanel" class="panel" style="display: block;">
+    <div id="mapsPanel" class="panel">
       <div id="filters" style="display: block;">
         <div class="input-field">
           <select id="selectAge" onchange="mgr.applyFilters()">
@@ -184,7 +196,7 @@
 		  <label>Size:</label>
         </div>
       </div>
-	  <div id="tableOfContents" class="panelList" style="display: block;"></div>
+	  <div id="tableOfContents" class="panelList"></div>
     </div>
     <div id="filtersPanel" class="panel">
     </div>
