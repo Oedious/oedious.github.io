@@ -1,16 +1,14 @@
 {
 	"name": "Injustice Gang Hideout",
 	"set": "Justice League Unlimited",
-	"source": "",
+	"source": "Justice League Unlimited Starter",
 	"type": "indoor",
 	"width": 16,
 	"height": 24,
 	"date": "April 2020",
 	"special": [
 		"(I KNOW HOW THE BAT THINKS) (+5 POINTS)",
-		"At the beginning of the game, choose an opposing character of 100 points or less.",
-		"Action tokens can't be removed from that character except by clearing.",
-		"If your force is an Injustice League theme team, instead action tokens can't be removed from opposing characters of 100 points or less except by clearing.",
+		"At the beginning of the game, choose an opposing character of 100 points or less. Action tokens can't be removed from that character except by clearing. If your force is an Injustice League theme team, instead action tokens can't be removed from opposing characters of 100 points or less except by clearing.",
 		"CONSOLATION: Once per game, when an opposing character of 100 points of less would remove an action token except by clearing, instead you may give that character an action token."
 	],
 	"rows": [{
@@ -1224,142 +1222,144 @@
 			"elevation": 2
 		}]
 	}],
-	"walls": [
-	{
-		"x0":8,
-		"y0":2,
-		"x1":8,
-		"y1":5
+	"walls": [{
+			"x0": 8,
+			"y0": 2,
+			"x1": 8,
+			"y1": 5
 		},
 		{
-		"x0":0,
-		"y0":5,
-		"x1":5,
-		"y1":5
+			"x0": 0,
+			"y0": 5,
+			"x1": 5,
+			"y1": 5
 		},
 		{
-		"x0":6,
-		"y0":5,
-		"x1":10,
-		"y1":5 
+			"x0": 6,
+			"y0": 5,
+			"x1": 10,
+			"y1": 5
 		},
 		{
-		"x0":11,
-		"y0":5,
-		"x1":14,
-		"y1":5
+			"x0": 11,
+			"y0": 5,
+			"x1": 14,
+			"y1": 5
 		},
 		{
-		"x0":15,
-		"y0":5,
-		"x1":16,
-		"y1":5 
+			"x0": 15,
+			"y0": 5,
+			"x1": 16,
+			"y1": 5
 		},
 		{
-		"x0":1,
-		"y0":19,
-		"x1":5,
-		"y1":19 },
-		{
-		"x0":6,
-		"y0":19,
-		"x1":14,
-		"y1":19 },
-		{
-		"x0":15,
-		"y0":19,
-		"x1":16,
-		"y1":19},
-		{
-		"x0":8,
-		"y0":19,
-		"x1":8,
-		"y1":22}
-	],
-	"ramps": [
-		{
-		"x0":0,
-		"y0":7,
-		"x1":0,
-		"y1":8
-		}, {
-		"x0":1,
-		"y0":7,
-		"x1":1,
-		"y1":8
-		}, {
-		"x0":6,
-		"y0":7,
-		"x1":6,
-		"y1":8
-		},{
-		"x0":7,
-		"y0":7,
-		"x1":7,
-		"y1":8
-		},{
-		"x0":8,
-		"y0":7,
-		"x1":8,
-		"y1":8
-		},{
-		"x0":9,
-		"y0":7,
-		"x1":9,
-		"y1":8
+			"x0": 1,
+			"y0": 19,
+			"x1": 5,
+			"y1": 19
 		},
 		{
-		"x0":14,
-		"y0":7,
-		"x1":14,
-		"y1":8
-		},{
-		"x0":15,
-		"y0":7,
-		"x1":15,
-		"y1":8
-		}, {
-		"x0":0,
-		"y0":15,
-		"x1":0,
-		"y1":16
-		}, {
-		"x0":1,
-		"y0":15,
-		"x1":1,
-		"y1":16
-		}, {
-		"x0":6,
-		"y0":15,
-		"x1":6,
-		"y1":16
-		},{
-		"x0":7,
-		"y0":15,
-		"x1":7,
-		"y1":16
-		},{
-		"x0":8,
-		"y0":15,
-		"x1":8,
-		"y1":16
-		},{
-		"x0":9,
-		"y0":15,
-		"x1":9,
-		"y1":16
+			"x0": 6,
+			"y0": 19,
+			"x1": 14,
+			"y1": 19
 		},
 		{
-		"x0":14,
-		"y0":15,
-		"x1":14,
-		"y1":16
-		},{
-		"x0":15,
-		"y0":15,
-		"x1":15,
-		"y1":16
+			"x0": 15,
+			"y0": 19,
+			"x1": 16,
+			"y1": 19
+		},
+		{
+			"x0": 8,
+			"y0": 19,
+			"x1": 8,
+			"y1": 22
 		}
-		
+	],
+	"ramps": [{
+			"x0": 0,
+			"y0": 7,
+			"x1": 0,
+			"y1": 8
+		}, {
+			"x0": 1,
+			"y0": 7,
+			"x1": 1,
+			"y1": 8
+		}, {
+			"x0": 6,
+			"y0": 7,
+			"x1": 6,
+			"y1": 8
+		}, {
+			"x0": 7,
+			"y0": 7,
+			"x1": 7,
+			"y1": 8
+		}, {
+			"x0": 8,
+			"y0": 7,
+			"x1": 8,
+			"y1": 8
+		}, {
+			"x0": 9,
+			"y0": 7,
+			"x1": 9,
+			"y1": 8
+		},
+		{
+			"x0": 14,
+			"y0": 7,
+			"x1": 14,
+			"y1": 8
+		}, {
+			"x0": 15,
+			"y0": 7,
+			"x1": 15,
+			"y1": 8
+		}, {
+			"x0": 0,
+			"y0": 15,
+			"x1": 0,
+			"y1": 16
+		}, {
+			"x0": 1,
+			"y0": 15,
+			"x1": 1,
+			"y1": 16
+		}, {
+			"x0": 6,
+			"y0": 15,
+			"x1": 6,
+			"y1": 16
+		}, {
+			"x0": 7,
+			"y0": 15,
+			"x1": 7,
+			"y1": 16
+		}, {
+			"x0": 8,
+			"y0": 15,
+			"x1": 8,
+			"y1": 16
+		}, {
+			"x0": 9,
+			"y0": 15,
+			"x1": 9,
+			"y1": 16
+		},
+		{
+			"x0": 14,
+			"y0": 15,
+			"x1": 14,
+			"y1": 16
+		}, {
+			"x0": 15,
+			"y0": 15,
+			"x1": 15,
+			"y1": 16
+		}
+
 	]
 }

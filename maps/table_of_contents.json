@@ -203,6 +203,71 @@
             "roc": true
         }
     }, {
+        "id": "roc20_3",
+        "name": "Widowmaker's Lair",
+        "set": "ROC 2020",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/roc20/widowmakers_lair.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
+        "id": "roc20_4",
+        "name": "Research Outpost",
+        "set": "ROC 2020",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/roc20/research_outpost.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
+        "id": "roc20_5",
+        "name": "Planet 100475 Topside",
+        "set": "ROC 2020",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/roc20/planet_100475_topside.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
+        "id": "roc20_6",
+        "name": "The Bounty Hanger",
+        "set": "ROC 2020",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/roc20/the_bounty_hanger.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
+        "id": "roc20_7",
+        "name": "Warehouse 75",
+        "set": "ROC 2020",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/roc20/warehouse_75.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
         "id": "wwe0",
         "name": "WWE Arena",
         "set": "WWE Series 1",
@@ -838,12 +903,7 @@
         "type": "outdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/ai/halfworld.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
+        "file": "maps/ai/halfworld.json"
     }, {
         "id": "ai1",
         "name": "Galador Promenade",
@@ -851,12 +911,7 @@
         "type": "outdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/ai/galador_promenade.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
+        "file": "maps/ai/galador_promenade.json"
     }, {
         "id": "xxs0",
         "name": "Genosha",
@@ -864,12 +919,7 @@
         "type": "outdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/xxs/genosha.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
+        "file": "maps/xxs/genosha.json"
     }, {
         "id": "xxs1",
         "name": "Muir Island",
@@ -877,12 +927,7 @@
         "type": "indoorOutdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/xxs/muir_island.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
+        "file": "maps/xxs/muir_island.json"
     }, {
         "id": "roc18_0",
         "name": "Food Court",
@@ -890,10 +935,7 @@
         "type": "indoor",
         "width": 16,
         "height": 24,
-        "file": "maps/roc18/food_court.json",
-        "age": {
-            "roc": true
-        }
+        "file": "maps/roc18/food_court.json"
     }, {
         "id": "roc18_1",
         "name": "Arcade",
@@ -901,10 +943,7 @@
         "type": "indoor",
         "width": 16,
         "height": 24,
-        "file": "maps/roc18/arcade.json",
-        "age": {
-            "roc": true
-        }
+        "file": "maps/roc18/arcade.json"
     }, {
         "id": "roc18_2",
         "name": "Mall Hallway 01",
@@ -912,10 +951,7 @@
         "type": "indoor",
         "width": 16,
         "height": 24,
-        "file": "maps/roc18/mall_hallway_01.json",
-        "age": {
-            "roc": true
-        }
+        "file": "maps/roc18/mall_hallway_01.json"
     }, {
         "id": "roc18_3",
         "name": "Clothing Cove",
@@ -923,10 +959,7 @@
         "type": "indoor",
         "width": 16,
         "height": 24,
-        "file": "maps/roc18/clothing_cove.json",
-        "age": {
-            "roc": true
-        }
+        "file": "maps/roc18/clothing_cove.json"
     }, {
         "id": "roc18_4",
         "name": "Fountain's Corner",
@@ -950,10 +983,7 @@
         "type": "outdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/roc18/flashpoint_flood.json",
-        "age": {
-            "roc": true
-        }
+        "file": "maps/roc18/flashpoint_flood.json"
     }, {
         "id": "roc18_7",
         "name": "Staten Island Ferry",
@@ -961,10 +991,7 @@
         "type": "outdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/roc18/staten_island_ferry.json",
-        "age": {
-            "roc": true
-        }
+        "file": "maps/roc18/staten_island_ferry.json"
     }, {
         "id": "roc18_8",
         "name": "Belgium Battle",
@@ -972,10 +999,7 @@
         "type": "outdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/roc18/belgium_battle.json",
-        "age": {
-            "roc": true
-        }
+        "file": "maps/roc18/belgium_battle.json"
     }, {
         "id": "roc18_9",
         "name": "Oskopnir",
@@ -983,10 +1007,7 @@
         "type": "indoor",
         "width": 16,
         "height": 24,
-        "file": "maps/roc18/oskopnir.json",
-        "age": {
-            "roc": true
-        }
+        "file": "maps/roc18/oskopnir.json"
     }, {
         "id": "roc18_10",
         "name": "Crash Landing",
@@ -994,10 +1015,7 @@
         "type": "outdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/roc18/crash_landing.json",
-        "age": {
-            "roc": true
-        }
+        "file": "maps/roc18/crash_landing.json"
     }, {
         "id": "roc18_11",
         "name": "Let Them In",
@@ -1005,10 +1023,7 @@
         "type": "outdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/roc18/let_them_in.json",
-        "age": {
-            "roc": true
-        }
+        "file": "maps/roc18/let_them_in.json"
     }, {
         "id": "roc18_12",
         "name": "Titan's Reality",
@@ -1016,10 +1031,7 @@
         "type": "outdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/roc18/titans_reality.json",
-        "age": {
-            "roc": true
-        }
+        "file": "maps/roc18/titans_reality.json"
     }, {
         "id": "roc18_13",
         "name": "Strange Day At The Park",
@@ -1027,10 +1039,7 @@
         "type": "outdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/roc18/strange_day_at_the_park.json",
-        "age": {
-            "roc": true
-        }
+        "file": "maps/roc18/strange_day_at_the_park.json"
     }, {
         "id": "roc18_14",
         "name": "Ultimate Sacrifice",
@@ -1038,10 +1047,7 @@
         "type": "outdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/roc18/ultimate_sacrifice.json",
-        "age": {
-            "roc": true
-        }
+        "file": "maps/roc18/ultimate_sacrifice.json"
     }, {
         "id": "roc18_15",
         "name": "Monument Park",
@@ -1120,12 +1126,7 @@
         "type": "outdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/os/gorn_fight.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
+        "file": "maps/os/gorn_fight.json"
     }, {
         "id": "os1",
         "name": "Forgotten Planet",
@@ -1133,12 +1134,7 @@
         "type": "outdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/os/forgotten_planet.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
+        "file": "maps/os/forgotten_planet.json"
     }, {
         "id": "os2",
         "name": "Amok Time",
@@ -1146,12 +1142,7 @@
         "type": "outdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/os/amok_time.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
+        "file": "maps/os/amok_time.json"
     }, {
         "id": "os3",
         "name": "Underground Cavern",
@@ -1159,12 +1150,7 @@
         "type": "indoor",
         "width": 16,
         "height": 24,
-        "file": "maps/os/underground_cavern.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
+        "file": "maps/os/underground_cavern.json"
     }, {
         "id": "hq0",
         "name": "Harley's Apartment",
@@ -1172,12 +1158,7 @@
         "type": "outdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/hq/harleys_apartment.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
+        "file": "maps/hq/harleys_apartment.json"
     }, {
         "id": "hq1",
         "name": "Roller Derby",
@@ -1185,12 +1166,7 @@
         "type": "indoor",
         "width": 16,
         "height": 24,
-        "file": "maps/hq/roller_derby.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
+        "file": "maps/hq/roller_derby.json"
     }, {
         "id": "tmt0",
         "name": "Gjallerbru",
@@ -1198,12 +1174,7 @@
         "type": "indoorOutdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/tmt/gjallerbru.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
+        "file": "maps/tmt/gjallerbru.json"
     }, {
         "id": "tmt1",
         "name": "Grand Arena",
@@ -1211,12 +1182,7 @@
         "type": "outdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/tmt/grand_arena.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
+        "file": "maps/tmt/grand_arena.json"
     }, {
         "id": "tmt2",
         "name": "Bifrost",
@@ -1224,12 +1190,7 @@
         "type": "outdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/tmt/bifrost.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
+        "file": "maps/tmt/bifrost.json"
     }, {
         "id": "tmt3",
         "name": "Jotunheim Lake",
@@ -1237,12 +1198,7 @@
         "type": "outdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/tmt/jotunheim_lake.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
+        "file": "maps/tmt/jotunheim_lake.json"
     }, {
         "id": "ew0",
         "name": "Junkyard",
@@ -1250,12 +1206,7 @@
         "type": "outdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/ew/junkyard.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
+        "file": "maps/ew/junkyard.json"
     }, {
         "id": "ew1",
         "name": "High Noon Saloon",
@@ -1263,12 +1214,7 @@
         "type": "indoor",
         "width": 16,
         "height": 24,
-        "file": "maps/ew/high_noon_saloon.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
+        "file": "maps/ew/high_noon_saloon.json"
     }, {
         "id": "ew2",
         "name": "Wonder Woman Barn",
@@ -1276,12 +1222,7 @@
         "type": "outdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/ew/wonder_woman_barn.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
+        "file": "maps/ew/wonder_woman_barn.json"
     }, {
         "id": "ew3",
         "name": "High Noon Street",
@@ -1289,12 +1230,7 @@
         "type": "outdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/ew/high_noon_street.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
+        "file": "maps/ew/high_noon_street.json"
     }, {
         "id": "wkp0",
         "name": "Gaming Convention Hall",
@@ -1302,12 +1238,7 @@
         "type": "indoor",
         "width": 16,
         "height": 24,
-        "file": "maps/wkp/gaming_convention_hall.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
+        "file": "maps/wkp/gaming_convention_hall.json"
     }, {
         "id": "wkp1",
         "name": "WizKids Office HQ",
@@ -1315,12 +1246,7 @@
         "type": "indoor",
         "width": 16,
         "height": 24,
-        "file": "maps/wkp/wizkids_office_hq.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
+        "file": "maps/wkp/wizkids_office_hq.json"
     }, {
         "id": "wkp2",
         "name": "Convention Center Plaza",
@@ -1328,12 +1254,7 @@
         "type": "outdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/wkp/convention_center_plaza.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
+        "file": "maps/wkp/convention_center_plaza.json"
     }, {
         "id": "wkp3",
         "name": "Parking Garage",
@@ -1341,12 +1262,7 @@
         "type": "outdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/wkp/parking_garage.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
+        "file": "maps/wkp/parking_garage.json"
     }, {
         "id": "wkp4",
         "name": "Cargo Ship",
@@ -1354,12 +1270,7 @@
         "type": "outdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/wkp/cargo_ship.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
+        "file": "maps/wkp/cargo_ship.json"
     }, {
         "id": "wkp5",
         "name": "Warehouse 5651",
@@ -1367,12 +1278,7 @@
         "type": "indoor",
         "width": 16,
         "height": 24,
-        "file": "maps/wkp/warehouse_5651.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
+        "file": "maps/wkp/warehouse_5651.json"
     }, {
         "id": "wkp5",
         "name": "Sporting Arena",
@@ -1380,12 +1286,7 @@
         "type": "indoor",
         "width": 16,
         "height": 24,
-        "file": "maps/wkp/sporting_arena.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
+        "file": "maps/wkp/sporting_arena.json"
     }, {
         "id": "wkp6",
         "name": "Train Station",
@@ -1393,12 +1294,7 @@
         "type": "indoor",
         "width": 16,
         "height": 24,
-        "file": "maps/wkp/train_station.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
+        "file": "maps/wkp/train_station.json"
     }, {
         "id": "wkp7",
         "name": "Train Yard",
@@ -1406,12 +1302,7 @@
         "type": "outdoor",
         "width": 16,
         "height": 24,
-        "file": "maps/wkp/train_yard.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
+        "file": "maps/wkp/train_yard.json"
     }, {
         "id": "wi0",
         "name": "Arthur's Castle",
