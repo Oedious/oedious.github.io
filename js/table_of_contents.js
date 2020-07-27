@@ -61,8 +61,8 @@ TableOfContents.prototype.draw = function() {
             html += "<ul><li><h6>" + map.set + "</h6></li>";
             currentSet = map.set;
         }
-		html += "<li>"
-        html += "<a href='' class\"mapLink\" id='toc" + i +
+		html += "<li class\"mapLink\">"
+        html += "<a href='' id='toc" + i +
             "' onclick='mgr.setMap(" + i +
             "); return false;'>" +
             map.name + "</a></li>";
