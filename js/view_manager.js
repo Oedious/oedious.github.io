@@ -1,5 +1,9 @@
 var ViewManager = function() {
 	M.AutoInit();
+	var elem = document.querySelector('.collapsible.expandable');
+var instance = M.Collapsible.init(elem, {
+  accordion: false
+});
     this.touchStartX_ = 0;
     this.touchStartY_ = 0;
     this.touchEndX_ = 0;

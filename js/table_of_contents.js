@@ -58,10 +58,10 @@ TableOfContents.prototype.draw = function() {
 			if(currentSet != ""){
 				html += "</ul>"
 			}
-            html += "<ul class=\"collection with-header\"><li class=\"collection-header\"><h6>" + map.set + "</h6></li>";
+            html += "<ul><li><h6>" + map.set + "</h6></li>";
             currentSet = map.set;
         }
-		html += "<li class=\"collection-item\">"
+		html += "<li>"
         html += "<a href='' id='toc" + i +
             "' onclick='mgr.setMap(" + i +
             "); return false;'>" +

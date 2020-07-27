@@ -8,7 +8,7 @@
    <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
   <style type="text/css">
     .sideNav {
-      width: 250px;
+      width: 300px;
       position: fixed;
       z-index: 1;
       top: 0px;
@@ -41,10 +41,10 @@
 
     .panel {
       display: none;
-      padding: 6px 6px;
       position: relative;
-      height: calc(100% - 48px);
-      overflow-y: none;
+      height: 100%;
+      overflow-y: scroll;
+	  padding-left: 6px;
     }
 
     .filterInfo {
@@ -58,9 +58,7 @@
     }
 
     .panelList {
-      overflow-y: scroll;
       margin: 6px 0px;
-	  height: calc(100% - 192px);
     }
 
     .top {
@@ -109,20 +107,6 @@
 	::-webkit-scrollbar-track {
 		background:#00000000;
 	}
-	
-	.panelList::-webkit-scrollbar {
-		width = 8px;
-		height = 8px;
-		background = #00000000;
-	}
-	
-	.panelList::-webkit-scrollbar-thumb {
-		background = #26a69a;
-	}
-	
-	.panelList::-webkit-scrollbar-track {
-		background = #00000000;
-	}
   </style>
 </head>
 
@@ -147,10 +131,10 @@
 
   <div id="leftNav" class="sideNav">
     <div id="mapsPanel" class="panel">
-	<ul class="collapsible">
+	<ul class="collapsible expandable">
 		<li class="active">
 			<div class="collapsible-header"><i class="material-icons">info_outline</i>Map Info</div>
-			<div id="mapTitle" class="collapsible-body">
+			<div class="collapsible-body">
 				<span id="mapName">Latverian Village</span>
 				<div id="mapSource" class="mapInfo">Release Day OP</div>
 				<div id="mapDate" class="mapInfo">Jluy 2020</div>
@@ -166,7 +150,7 @@ At the beginning of the game, generate a Latverian Peasant bystander.</div>
 		</li>
 		<li>
 			<div class="collapsible-header"><i class="material-icons">filter_list</i>Filters</div>
-			<div id="filters" class="collapsible-body" style="display: block;">
+			<div class="collapsible-body" >
 				<div class="input-field">
 				  <select id="selectAge" onchange="mgr.applyFilters()">
 					<option value="all">All</option>
@@ -197,9 +181,11 @@ At the beginning of the game, generate a Latverian Peasant bystander.</div>
 				</div>
 			</div>
 		</li>
+		<li class="active">
+			<div class="collapsible-header"><i class="material-icons">list</i>Maps</div>
+			<div id="tableOfContents" class="collapsible-body"></div>
+		</li>
 	</ul>
-
-	  <div id="tableOfContents" class="panelList"></div>
     </div>
     <div id="filtersPanel" class="panel">
     </div>
