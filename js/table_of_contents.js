@@ -58,7 +58,7 @@ TableOfContents.prototype.draw = function() {
 			if(currentSet != ""){
 				html += "</ul>"
 			}
-            html += "<ul class=\"collection with-header\"><li class=\"collection-header\"><h2>" + map.set + "</h2></li>";
+            html += "<ul class=\"collection with-header\"><li class=\"collection-header\"><h6>" + map.set + "</h6></li>";
             currentSet = map.set;
         }
 		html += "<li class=\"collection-item\">"
