@@ -63,14 +63,6 @@
 	  height: calc(100% - 192px);
     }
 
-    #tableOfContents a {
-      background-color: #ccc;
-      color: black;
-      display: block;
-      padding: 4px 10px;
-      text-decoration: none;
-    }
-
     #mapTitle {
       font-family: Arial, Helvetica, sans-serif;
       font-weight: bold;
@@ -117,16 +109,17 @@
       overflow: hidden;
     }
 	
-	-webkit-scrollbar {
+	::-webkit-scrollbar {
 		width = 8px;
+		background = #00000000;
 	}
 	
-	-webkit-scrollbar-thumb {
+	::-webkit-scrollbar-thumb {
 		background = #26a69a;
 	}
 	
-	-webkit-scrollbar-track {
-		background = #00000000
+	::-webkit-scrollbar-track {
+		background = #00000000;
 	}
   </style>
 </head>
