@@ -78,8 +78,8 @@
 
     .top {
       position: fixed;
-      top: 250px;
-      left: 0;
+      top: 0;
+      left: 250px;
       right: 0;
       height: 82px;
     }
@@ -109,8 +109,23 @@
       overflow: hidden;
     }
 	
+	::-webkit-scrollbar {
+		width = 8px;
+		height = 8px;
+		background = #00000000;
+	}
+	
+	::-webkit-scrollbar-thumb {
+		background = #26a69a;
+	}
+	
+	::-webkit-scrollbar-track {
+		background = #00000000;
+	}
+	
 	.panelList::-webkit-scrollbar {
 		width = 8px;
+		height = 8px;
 		background = #00000000;
 	}
 	
