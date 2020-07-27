@@ -55,17 +55,19 @@ TableOfContents.prototype.draw = function() {
     for (var i = 0; i < this.tocFiltered_.length; ++i) {
         var map = this.tocFiltered_[i];
         if (currentSet != map.set) {
-            if (currentSet != "") {
-                html += "<br>"
-            }
-            html += "<div style=\"font-weight:bold;\">" + map.set + "</div>";
+			if(currentSet != ""){
+				html += "</ul>"
+			}
+            html += "<ul class=\"collection with-header\"><li class=\"collection-header\"><h2>" + map.set + "</h2></li>";
             currentSet = map.set;
         }
+		html += "<li class=\"collection-item\">"
         html += "<a href='' id='toc" + i +
             "' onclick='mgr.setMap(" + i +
             "); return false;'>" +
-            map.name + "</a>";
+            map.name + "</a></li>";
     }
+	html += "</ul"
     document.getElementById("tableOfContents").innerHTML = html;
 }
 
