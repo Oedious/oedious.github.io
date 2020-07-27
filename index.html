@@ -63,19 +63,6 @@
 	  height: calc(100% - 192px);
     }
 
-    #mapTitle {
-      font-family: Arial, Helvetica, sans-serif;
-      font-weight: bold;
-      text-align: left;
-    }
-
-    .mapInfo {
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: small;
-      font-weight: bold;
-      text-align: left;
-    }
-
     .top {
       position: fixed;
       top: 0;
@@ -110,17 +97,17 @@
     }
 	
 	::-webkit-scrollbar {
-		width = 8px;
-		height = 8px;
-		background = #00000000;
+		width:8px;
+		height:8px;
+		background:#00000000;
 	}
 	
 	::-webkit-scrollbar-thumb {
-		background = #26a69a;
+		background:#26a69a;
 	}
 	
 	::-webkit-scrollbar-track {
-		background = #00000000;
+		background:#00000000;
 	}
 	
 	.panelList::-webkit-scrollbar {
@@ -159,51 +146,59 @@
   </div>
 
   <div id="leftNav" class="sideNav">
-    <ul class="tabs">
-      <li class="tab"><a href="javascript:void(0)" class="active" id="mapsTab" onclick="mgr.openPanel('leftNav', 'mapsTab', 'mapsPanel')">Maps</a></li>
-      <li class="tab"><a href="javascript:void(0)" id="infoTab" onclick="mgr.openPanel('leftNav', 'infoTab', 'infoPanel')">Info</a></li>
-    </ul>
-    <div id="infoPanel" class="panel">
-      <div id="mapTitle" class="panelList" style="top:0;height:calc(100% - 30px)">
-        <span id="mapName"></span>
-        <div id="mapSource" class="mapInfo"></div>
-        <div id="mapDate" class="mapInfo"></div>
-        <div id="mapType" class="mapInfo"></div>
-        <div id="mapSize" class="mapInfo"></div>
-        <div id="mapSpecial" class="mapInfo"></div>
-      </div>
-    </div>
     <div id="mapsPanel" class="panel">
-      <div id="filters" style="display: block;">
-        <div class="input-field">
-          <select id="selectAge" onchange="mgr.applyFilters()">
-            <option value="all">All</option>
-            <option value="modern">Modern</option>
-            <option value="wko">WizKids Events</option>
-            <option value="roc">ROC Events</option>
-          </select>
-		  <label>Age:</label>
-        </div>
-        <div class="input-field">
-          <select id="selectType" onchange="mgr.applyFilters()">
-            <option value="all">All</option>
-            <option value="indoor">Indoor</option>
-            <option value="outdoor">Outdoor</option>
-            <option value="indoorOutdoor">Indoor/Outdoor</option>
-          </select>
-		  <label>Type:</label>
-        </div>
-        <div class="input-field">
-          <select id="selectSize" onchange="mgr.applyFilters()">
-            <option value="all">All</option>
-            <option value="8x8">8x8</option>
-            <option value="16x16">16x16</option>
-            <option value="16x24">16x24</option>
-            <option value="24x24">24x24</option>
-          </select>
-		  <label>Size:</label>
-        </div>
-      </div>
+	<ul class="collapsible">
+		<li class="active">
+			<div class="collapsible-header"><i class="material-icons">info_outline</i>Map Info</div>
+			<div id="mapTitle" class="collapsible-body">
+				<span id="mapName">Latverian Village</span>
+				<div id="mapSource" class="mapInfo">Release Day OP</div>
+				<div id="mapDate" class="mapInfo">Jluy 2020</div>
+				<div id="mapType" class="mapInfo">Outdoor</div>
+				<div id="mapSize" class="mapInfo">16 x 24</div>
+				<div id="mapSpecial" class="mapInfo">(LATVERIAN VILLAGE) (+5 POINTS, -OR- 0 POINTS IF EVERY CHARACTER ON YOUR STARTING FORCE HAS THE LATEVERIA KEYWORD)
+
+At the beginning of the game, choose a friendly character to gain Mastermind, but only to choose a friendly Latverian Peasant. // At the beginning of the game, generate 3 Latverian Peasants in different orange squares. If the chosen character is named Dr. Doom, generate 6 instead.
+
+CONSOLATION:
+At the beginning of the game, generate a Latverian Peasant bystander.</div>
+			</div>
+		</li>
+		<li>
+			<div class="collapsible-header"><i class="material-icons">filter_list</i>Filters</div>
+			<div id="filters" class="collapsible-body" style="display: block;">
+				<div class="input-field">
+				  <select id="selectAge" onchange="mgr.applyFilters()">
+					<option value="all">All</option>
+					<option value="modern">Modern</option>
+					<option value="wko">WizKids Events</option>
+					<option value="roc">ROC Events</option>
+				  </select>
+				  <label>Age:</label>
+				</div>
+				<div class="input-field">
+				  <select id="selectType" onchange="mgr.applyFilters()">
+					<option value="all">All</option>
+					<option value="indoor">Indoor</option>
+					<option value="outdoor">Outdoor</option>
+					<option value="indoorOutdoor">Indoor/Outdoor</option>
+				  </select>
+				  <label>Type:</label>
+				</div>
+				<div class="input-field">
+				  <select id="selectSize" onchange="mgr.applyFilters()">
+					<option value="all">All</option>
+					<option value="8x8">8x8</option>
+					<option value="16x16">16x16</option>
+					<option value="16x24">16x24</option>
+					<option value="24x24">24x24</option>
+				  </select>
+				  <label>Size:</label>
+				</div>
+			</div>
+		</li>
+	</ul>
+
 	  <div id="tableOfContents" class="panelList"></div>
     </div>
     <div id="filtersPanel" class="panel">
