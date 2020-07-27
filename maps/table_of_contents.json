@@ -1,109 +1,143 @@
 {
-    "maps": [{
-        "id": "ffcc0",
-        "name": "Doom Castle",
-        "set": "Fantastic Four Cosmic Clash",
-        "type": "outdoor",
-        "width": 16,
-        "height": 24,
-        "file": "maps/ffcc/doom_castle.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
-    }, {
-        "id": "ffcc1",
-        "name": "Testing Grounds",
-        "set": "Fantastic Four Cosmic Clash",
-        "type": "outdoor",
-        "width": 16,
-        "height": 24,
-        "file": "maps/ffcc/testing_grounds.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
-    }, {
-        "id": "ffcc2",
-        "name": "Reed's Lab",
-        "set": "Fantastic Four Cosmic Clash",
-        "type": "indoor",
-        "width": 16,
-        "height": 24,
-        "file": "maps/ffcc/reeds_lab.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
-    }, {
-        "id": "ffcc3",
-        "name": "Yancy Street",
-        "set": "Fantastic Four Cosmic Clash",
-        "type": "outdoor",
-        "width": 16,
-        "height": 24,
-        "file": "maps/ffcc/yancy_street.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
-    }, {
-        "id": "jlu0",
-        "name": "Justice League Watchtower",
-        "set": "Justice League Unlimited",
-        "type": "indoor",
-        "width": 16,
-        "height": 24,
-        "file": "maps/jlu/justice_league_watch_tower.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
-    }, {
-        "id": "jlu1",
-        "name": "Injustice Gang Hideout",
-        "set": "Justice League Unlimited",
-        "type": "indoor",
-        "width": 16,
-        "height": 24,
-        "file": "maps/jlu/injustice_gang_hideout.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
-    }, {
-        "id": "jlu2",
-        "name": "Cadmus Labs",
-        "set": "Justice League Unlimited",
-        "type": "indoor",
-        "width": 16,
-        "height": 24,
-        "file": "maps/jlu/cadmus_labs.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
-    }, {
-        "id": "jlu3",
-        "name": "Daily Planet",
-        "set": "Justice League Unlimited",
-        "type": "outdoor",
-        "width": 16,
-        "height": 24,
-        "file": "maps/jlu/daily_planet.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
-    }, {
+    "maps": [
+	{
+		"id": "f40",
+		"name": "Latverian Village",
+		"set": "Fantastic Four",
+		"type": "outdoor",
+		"width": 16,
+		"height": 24,
+		"file": "maps/f4/latverian_village.json",
+		"age": {
+			"modern": true,
+			"wko": true,
+			"roc": true
+		}
+	},
+		{
+		"id": "f41",
+		"name": "Aunt Petunia's House",
+		"set": "Fantastic Four",
+		"type": "indoorOutdoor",
+		"width": 16,
+		"height": 24,
+		"file": "maps/f4/aunt_petunia.json",
+		"age": {
+			"modern": true,
+			"wko": true,
+			"roc": true
+		}
+	},
+	{
+		"id": "ffcc0",
+		"name": "Doom Castle",
+		"set": "Fantastic Four: Cosmic Clash",
+		"type": "outdoor",
+		"width": 16,
+		"height": 24,
+		"file": "maps/ffcc/doom_castle.json",
+		"age": {
+			"modern": true,
+			"wko": true,
+			"roc": true
+		}
+	},
+	{
+		"id": "ffcc1",
+		"name": "Reed's Lab",
+		"set": "Fantastic Four: Cosmic Clash",
+		"type": "indoor",
+		"width": 16,
+		"height": 24,
+		"file": "maps/ffcc/reeds_lab.json",
+		"age": {
+			"modern": true,
+			"wko": true,
+			"roc": true
+		}
+	},
+	{
+		"id": "ffcc2",
+		"name": "Testing Grounds",
+		"set": "Fantastic Four: Cosmic Clash",
+		"type": "outdoor",
+		"width": 16,
+		"height": 24,
+		"file": "maps/ffcc/testing_grounds.json",
+		"age": {
+			"modern": true,
+			"wko": true,
+			"roc": true
+		}
+	},
+	{
+		"id": "ffcc3",
+		"name": "Yancy Street",
+		"set": "Fantastic Four: Cosmic Clash",
+		"type": "outdoor",
+		"width": 16,
+		"height": 24,
+		"file": "maps/ffcc/yancy_street.json",
+		"age": {
+			"modern": true,
+			"wko": true,
+			"roc": true
+		}
+	},
+	{
+		"id": "jlu0",
+		"name": "Injustice Gang Hideout",
+		"set": "Justice League Unlimited",
+		"type": "indoor",
+		"width": 16,
+		"height": 24,
+		"file": "maps/jlu/injustice_gang_hideout.json",
+		"age": {
+			"modern": true,
+			"wko": true,
+			"roc": true
+		}
+	},{
+		"id":"jlu1",
+		"name": "Daily Planet",
+		"set":"Justice League Unlimited",
+		"type":"outdoor",
+		"width":16,
+		"height":24,
+		"file":"maps/jlu/daily_planet.json",
+		"age": {
+		"modern": true,
+		"wko": true,
+		"roc": true
+		}
+	},{
+		"id":"jlu2",
+		"name": "Cadmus Labs",
+		"set":"Justice League Unlimited",
+		"type":"indoor",
+		"width":16,
+		"height":24,
+		"file":"maps/jlu/cadmus_labs.json",
+		"age": {
+		"modern": true,
+		"wko": true,
+		"roc": true
+		}
+	},{
+		"id":"jlu3",
+		"name": "Justice League Watchtower",
+		"set":"Justice League Unlimited",
+		"type":"indoor",
+		"width":16,
+		"height":24,
+		"file":"maps/jlu/justice_league_watch_tower.json",
+		"age": {
+		"modern": true,
+		"wko": true,
+		"roc": true
+		}
+	},
+	{
         "id": "caav0",
         "name": "Avengers Mansion",
         "set": "Captain America and the Avengers",
@@ -751,6 +785,14 @@
         "height": 24,
         "file": "maps/mjx/temple_of_the_idol.json"
     }, {
+        "id": "mjx_3",
+        "name": "Agent's Lobby",
+        "set": "Majestix Open Series",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/mjx/agents_lobby.json"
+    },{
         "id": "swb0",
         "name": "Regency Laboratory",
         "set": "Secret Wars: Battleworld",
