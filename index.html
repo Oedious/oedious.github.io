@@ -27,15 +27,15 @@
 		padding:.5rem;
 	}
 	
-	#mapLink:hover {
+	#tableOfContents li.maplink:hover {
 		background-color: #ffe7e6;
 	}
 	
-	#mapLink:focus {
+	#tableOfContents li.maplink:focus {
 		background-color: #ffc8b9;
 	}
 	
-	#mapLink:selected {
+	#tableOfContents li.maplink:selected {
 		background-color: #ffc8b9;
 	}
 
@@ -237,7 +237,10 @@ At the beginning of the game, generate a Latverian Peasant bystander.</div>
 		</li>
 		<li class="active">
 			<div class="collapsible-header"><i class="material-icons">list</i>Maps</div>
-			<div id="tableOfContents" class="collapsible-body"></div>
+			<div id="tableOfContents" class="collapsible-body">
+			<ul>
+			<li><h6>Fantastic Four</h6></li>
+			<li class="maplink"><a href="" id="toc0" onclick="mgr.setMap(0); return false;">Latverian Village</a></li><li class="maplink"><a href="" id="toc1" onclick="mgr.setMap(1); return false;">Aunt Petunia's House</a></li></ul></div>
 		</li>
 	</ul>
     </div>
