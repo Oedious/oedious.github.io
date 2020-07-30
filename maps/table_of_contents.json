@@ -1,6 +1,20 @@
 {
     "maps": [
 	{
+		"id": "bgame0",
+		"name": "Iron Man's Workshop",
+		"set": "Battlegrounds: Avengers vs. Masters of Evil",
+		"type": "indoor",
+		"width": 16,
+		"height": 24,
+		"file": "maps/bgame/iron_man_workshop.json",
+		"age": {
+			"modern": true,
+			"wko": true,
+			"roc": true
+		}
+	},
+	{
 		"id": "f40",
 		"name": "Latverian Village",
 		"set": "Fantastic Four",
@@ -761,6 +775,19 @@
             "roc": true
         }
     }, {
+        "id": "roc19_18",
+        "name": "Mr. Chomp\s Swamp",
+        "set": "ROC 2019",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/roc19/chomps_swamp.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    },{
         "id": "mjx_0",
         "name": "Lightcycle Battle Arena",
         "set": "Majestix Open Series",
