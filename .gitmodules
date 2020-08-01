@@ -1,0 +1,4 @@
+[submodule "heroclix-roll20-assets"]
+	path = heroclix-roll20-assets
+	url = https://github.com/bdormaier/heroclix-roll20-assets
+	branch = for-web
