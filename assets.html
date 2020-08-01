@@ -178,8 +178,8 @@
     <div class="nav-wrapper">
 	  <a href="#" class="brand-logo center " id="mapHeader"/>
       <ul class="left">
-        <li class="active"><a href="index.html">Maps</a></li>
-        <li><a href="assets.html">Roll20 Assets</a></li>
+        <li> <a href="index.html">Maps</a></li>
+        <li class="active"><a href="assets.html">Roll20 Assets</a></li>
       </ul>
 	  <ul class="right" >
 		<li><a href="#"><i class="material-icons left">info_outline</i>Map Info</a></li>
@@ -189,75 +189,21 @@
   	  
 	  </div>
   <div class="main" id="main">
-    <canvas id="mapCanvas" onmousedown="onMouseDown(event)" ontouchstart="onTouchStart(event)" ontouchend="onTouchEnd(event)" style="margin-left: auto;margin-right: auto;display:block; margin-top: 6px;"></canvas>
-	
-	<div class="fixed-action-btn">
-	  <a class="btn-floating btn-large red" id="saveAsButton">
-		<i class="large material-icons">save</i>
-	  </a>
-	  <ul>
-		<li onclick="mgr.zoomOut()"><a class="btn-floating red"><i class="material-icons">zoom_out</i></a></li>
-		<li onclick="mgr.zoomIn()"><a class="btn-floating red"><i class="material-icons">zoom_in</i></a></li>
-	  </ul>
-	</div>
-	
-	  <div style="position:absolute; bottom:0; width:300px;">
-	<ul class="collapsible" style="background:#ffffffaa;">
-		<li>
-			<div class="collapsible-header"><i class="material-icons">info_outline</i>Map Info</div>
-			<div class="collapsible-body" style="padding:.5rem;">
-				<span id="mapName"></span>
-				<div id="mapSource" class="mapInfo"></div>
-				<div id="mapDate" class="mapInfo"></div>
-				<div id="mapType" class="mapInfo"></div>
-				<div id="mapSize" class="mapInfo"></div>
-				<div id="mapSpecial" class="mapInfo"></div>
-			</div>
-		</li>
-	</ul>
-  </div>
+	<iframe id="assetFrame" width="100%" height="100%" src="/heroclix-roll20-assets/F4/images.html"></iframe>
   </div>
   <div id="leftNav" class="sideNav">
     <div id="mapsPanel" class="panel">
-	<ul class="collapsible expandable">
-		<li class="active">
-			<div class="collapsible-header"><i class="material-icons">filter_list</i>Filters</div>
-			<div class="collapsible-body"  style="padding:.5rem;">
-				<div class="input-field">
-				  <select id="selectAge" onchange="mgr.applyFilters()">
-					<option value="all">All</option>
-					<option value="modern">Modern</option>
-					<option value="wko">WizKids Events</option>
-					<option value="roc">ROC Events</option>
-				  </select>
-				  <label>Age:</label>
-				</div>
-				<div class="input-field">
-				  <select id="selectType" onchange="mgr.applyFilters()">
-					<option value="all">All</option>
-					<option value="indoor">Indoor</option>
-					<option value="outdoor">Outdoor</option>
-					<option value="indoorOutdoor">Indoor/Outdoor</option>
-				  </select>
-				  <label>Type:</label>
-				</div>
-				<div class="input-field">
-				  <select id="selectSize" onchange="mgr.applyFilters()">
-					<option value="all">All</option>
-					<option value="8x8">8x8</option>
-					<option value="16x16">16x16</option>
-					<option value="16x24">16x24</option>
-					<option value="24x24">24x24</option>
-				  </select>
-				  <label>Size:</label>
-				</div>
-			</div>
-		</li>
-		<li class="active">
-			<div class="collapsible-header"><i class="material-icons">list</i>Maps</div>
-			<div id="tableOfContents" class="collapsible-body"></div>
-		</li>
-	</ul>
+	<div id="tableOfContents">
+	<ul>
+			<li class="mapLink"><a href="#" onclick="mgr.loadAssetFrame('F4')">Fantastic Four</a></li>
+			<li class="mapLink"><a href="#" onclick="mgr.loadAssetFrame('FFCC')">Fantastic Four: Cosmic Clash</a></li>
+			<li class="mapLink"><a href="#" onclick="mgr.loadAssetFrame('BWM')">Black Widow Movie</a></li>
+			<li class="mapLink"><a href="#" onclick="mgr.loadAssetFrame('JLU')">Justice League Unlimited</a></li>
+			<li class="mapLink"><a href="#" onclick="mgr.loadAssetFrame('CAAV')">Captain America and the Avengers</a></li>
+			<li class="mapLink"><a href="#" onclick="mgr.loadAssetFrame('ORVL')">The Orville Starter</a></li>
+			<li class="mapLink"><a href="#" onclick="mgr.loadAssetFrame('WWE')">WWE</a></li>
+		</ul>
+		</div>
     </div>
     <div id="filtersPanel" class="panel">
     </div>
@@ -265,6 +211,7 @@
   <div id="arrowLeft">
 	<a href="#" onclick="mgr.toggleLeftNav()"><i id="arrowIcon" class="material-icons">chevron_left</i></a>
   </div>
+  
   <script type="text/javascript " src="js/json_loader.js "></script>
   <script type="text/javascript " src="js/edge.js "></script>
   <script type="text/javascript " src="js/tile.js "></script>
@@ -276,39 +223,7 @@
   <script type="text/javascript " src="js/view_manager.js "></script>
   <script type="text/javascript " src="js/materialize.js"></script>
   <script>
-    var mgr = new ViewManager(true);
-    document.onkeydown = onKeyDown;
-
-    function onKeyDown(event) {
-      var KEY_LEFT = '37';
-      var KEY_UP = '38';
-      var KEY_RIGHT = '39';
-      var KEY_DOWN = '40';
-      event = event || window.event;
-      if (event.keyCode == KEY_LEFT || event.keyCode == KEY_UP) {
-        mgr.previousMap();
-        event.preventDefault();
-      } else if (event.keyCode == KEY_RIGHT || event.keyCode == KEY_DOWN) {
-        mgr.nextMap();
-        event.preventDefault();
-      }
-    }
-
-    function onMouseDown(event) {
-      mgr.onMouseDown(event);
-    }
-
-    function onTouchStart(event) {
-      mgr.onTouchStart(event);
-    }
-
-    function onTouchEnd(event) {
-      mgr.onTouchEnd(event);
-    }
-
-    function onFocusOut(elementId) {
-      mgr.onFocusOut(elementId);
-    }
+    var mgr = new ViewManager();
   </script>
 
 </body>

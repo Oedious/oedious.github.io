@@ -1,4 +1,4 @@
-var ViewManager = function() {
+var ViewManager = function(loadTOC) {
 	M.AutoInit();
 	var elem = document.querySelector('.collapsible.expandable');
 var instance = M.Collapsible.init(elem, {
@@ -21,12 +21,19 @@ var instance = M.Collapsible.init(elem, {
     this.currentPlayer_ = 0;
     this.openPanel("leftNav", "mapsTab", "mapsPanel");
 
-    var mapId = this.getParameterByName_("m");
-    var serialized = this.getParameterByName_("s");
-    if (serialized) {
-        mapId = this.deserialize(serialized);
-    }
-    this.loadTableOfContents_(mapId);
+	if(loadTOC){
+		var mapId = this.getParameterByName_("m");
+		var serialized = this.getParameterByName_("s");
+		if (serialized) {
+			mapId = this.deserialize(serialized);
+		}
+		this.loadTableOfContents_(mapId);
+	}
+}
+
+ViewManager.prototype.loadAssetFrame = function(shortCode) {
+	var frame = document.getElementById("assetFrame")
+	frame.src = "/heroclix-roll20-assets/" + shortCode + "/images.html"
 }
 
 ViewManager.prototype.loadTableOfContents_ = function(mapId) {
@@ -47,12 +54,20 @@ ViewManager.prototype.isLeftNavActive = function() {
 
 ViewManager.prototype.toggleLeftNav = function() {
     var nav = document.getElementById("leftNav");
-    if (nav.style.left == "-250px") {
+	var main = document.getElementById("main");
+	var aLeft = document.getElementById("arrowLeft");
+	var aIcon = document.getElementById("arrowIcon");
+    if (nav.style.left == "-300px") {
         nav.style.left = "0px";
+		main.style.left = "300px";
+		aLeft.style.left = "294px";
+		aIcon.style.transform = "rotate(0deg)";
     } else {
-        nav.style.left = "-250px";
+        nav.style.left = "-300px";
+		main.style.left = "0px";
+		aLeft.style.left = "-6px";
+		aIcon.style.transform = "rotate(180deg)";
     }
-    this.draw();
 }
 
 ViewManager.prototype.toggleRightNav = function() {
@@ -178,7 +193,7 @@ ViewManager.prototype.draw = function() {
     for (var i = 0; i < this.players_.length; ++i) {
         this.players_[i].draw(ctx);
     }
-    document.getElementById("mapHeader").innerHTML = this.map_.name;
+    document.getElementById("mapHeader").text = this.map_.name;
     document.getElementById("mapName").innerHTML = this.map_.name;
     document.getElementById("mapSource").innerHTML = this.map_.source;
     document.getElementById("mapSize").innerHTML = "" + this.map_.width + " x " + this.map_.height;
