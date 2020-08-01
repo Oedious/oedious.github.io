@@ -15,6 +15,48 @@
 		}
 	},
 	{
+		"id": "bgame1",
+		"name": "Castle Hideout",
+		"set": "Battlegrounds: Avengers vs. Masters of Evil",
+		"type": "outdoor",
+		"width": 16,
+		"height": 24,
+		"file": "maps/bgame/castle_hideout.json",
+		"age": {
+			"modern": true,
+			"wko": true,
+			"roc": true
+		}
+	},
+	{
+		"id": "bgame2",
+		"name": "Helicarrier Interior",
+		"set": "Battlegrounds: Avengers vs. Masters of Evil",
+		"type": "indoor",
+		"width": 16,
+		"height": 24,
+		"file": "maps/bgame/helicarrier_interior.json",
+		"age": {
+			"modern": true,
+			"wko": true,
+			"roc": true
+		}
+	},
+	{
+		"id": "bgame3",
+		"name": "Ultron's Lair",
+		"set": "Battlegrounds: Avengers vs. Masters of Evil",
+		"type": "indoor",
+		"width": 16,
+		"height": 24,
+		"file": "maps/bgame/ultrons_lair.json",
+		"age": {
+			"modern": true,
+			"wko": true,
+			"roc": true
+		}
+	},
+	{
 		"id": "f40",
 		"name": "Latverian Village",
 		"set": "Fantastic Four",
