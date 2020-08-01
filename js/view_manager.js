@@ -170,8 +170,8 @@ ViewManager.prototype.draw = function() {
     var sx = (windowWidth - 10) / (this.map_.width * TILE_SIZE);
     var sy = windowHeight / (this.map_.height * TILE_SIZE);
     this.scale_ = (sx < sy ? sx : sy) * (this.zoom_ / 100.0);
-    c.width = this.scale_ * this.map_.width * TILE_SIZE
-	c.height = this.scale_ * this.map_.height * TILE_SIZE
+    c.width = (this.scale_ * this.map_.width * TILE_SIZE) + 1
+	c.height = (this.scale_ * this.map_.height * TILE_SIZE) + 1
     ctx.scale(this.scale_, this.scale_);
     this.map_.draw(ctx);
     ctx.restore();
