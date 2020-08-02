@@ -57,16 +57,21 @@ ViewManager.prototype.toggleLeftNav = function() {
 	var main = document.getElementById("main");
 	var aLeft = document.getElementById("arrowLeft");
 	var aIcon = document.getElementById("arrowIcon");
+	var windowWidth = window.innerWidth
     if (nav.style.left == "-300px") {
         nav.style.left = "0px";
-		main.style.left = "300px";
 		aLeft.style.left = "294px";
 		aIcon.style.transform = "rotate(0deg)";
+		if(windowWidth >= 601){
+			main.style.left = "300px";
+		}
     } else {
         nav.style.left = "-300px";
-		main.style.left = "0px";
 		aLeft.style.left = "-6px";
 		aIcon.style.transform = "rotate(180deg)";
+		if(windowWidth >= 601) {
+			main.style.left = "0px";
+		}
     }
 }
 
@@ -179,7 +184,11 @@ ViewManager.prototype.draw = function() {
     ctx.save()
     var windowWidth = window.innerWidth;
     if (this.isLeftNavActive()) {
-        windowWidth -= 250;
+		if(windowWidth >= 601){
+			windowWidth -= 300;
+		} else {
+			windowWidth -= 70;
+		}
     }
     var windowHeight = window.innerHeight - 88;
     var sx = (windowWidth - 10) / (this.map_.width * TILE_SIZE);
