@@ -217,6 +217,8 @@
 		bottom:4px; 
 		width:300px;
 		left: 4px;
+		max-height:100%;
+		overflow-y: scroll;
 	}
 	
 	@media (min-width:601px) {
@@ -226,5 +228,7 @@
 			width:300px;
 			left: 4px;
 			padding-bottom: 10px;
+			max-height:100%;
+		overflow-y: scroll;
 		}
 	}
