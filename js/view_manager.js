@@ -197,7 +197,6 @@ ViewManager.prototype.draw = function() {
         mapType = "Indoor/Outdoor";
     }
     document.getElementById("mapType").innerHTML = mapType;
-    document.getElementById("mapHeaderType").innerHTML = mapType;
 }
 
 ViewManager.prototype.drawCharacterList = function() {

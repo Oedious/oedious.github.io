@@ -18,6 +18,7 @@ TableOfContents.prototype.applyFilters = function() {
     var filterByAge = document.getElementById("selectAge").value;
     var filterByType = document.getElementById("selectType").value;
     var filterBySize = document.getElementById("selectSize").value;
+	var filterByName = document.getElementById("name_search").value.toLowerCase();
     var filterWidth = 0;
     var filterHeight = 0;
     if (filterBySize == "8x8") {
@@ -45,6 +46,9 @@ TableOfContents.prototype.applyFilters = function() {
         if (filterBySize != "all" && !(map.width == filterWidth && map.height == filterHeight)) {
             continue;
         }
+		if (filterByName != "" && !(map.name.toLowerCase().includes(filterByName))) {
+			continue;
+		}
         this.tocFiltered_.push(map);
     }
 }

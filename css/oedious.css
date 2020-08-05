@@ -232,3 +232,16 @@
 		overflow-y: scroll;
 		}
 	}
+	
+	.input-field .prefix.active {
+		color: #ee0202
+	}
+	
+	textarea.materialize-textarea:focus:not([readonly]) {
+		border-bottom: 1px solid #ee0202;
+		box-shadow: 0 1px 0 0 #ee0202;
+	}
+	
+	textarea.materialize-textarea:focus:not([readonly]) + label {
+		color: #ee0202;
+	}

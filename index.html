@@ -57,6 +57,15 @@
 		<li class="active">
 			<div class="collapsible-header"><i class="material-icons">filter_list</i>Filters</div>
 			<div class="collapsible-body"  style="padding:.5rem;">
+				<form>
+					<div class="row">
+						<div class="input-field">
+							<i class="material-icons prefix">search</i>
+							<textarea id="name_search" class="materialize-textarea" onkeyup="mgr.applyFilters()"></textarea>
+							<label for="name_search">Search by Name</label"
+						</div>
+					</div>
+				</form>
 				<div class="input-field">
 				  <select id="selectAge" onchange="mgr.applyFilters()">
 					<option value="all">All</option>
