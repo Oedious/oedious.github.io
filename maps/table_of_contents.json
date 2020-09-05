@@ -339,20 +339,7 @@
             "wko": true,
             "roc": true
         }
-    }, {
-        "id": "roc20_8",
-        "name": "KING'S KONG",
-        "set": "ROC 2020",
-        "type": "indoor",
-        "width": 16,
-        "height": 24,
-        "file": "maps/roc20/king.json",
-        "age": {
-            "modern": true,
-            "wko": true,
-            "roc": true
-        }
-    }, {
+    },  {
         "id": "wwe0",
         "name": "WWE Arena",
         "set": "WWE Series 1",
