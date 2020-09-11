@@ -392,7 +392,8 @@
 			"terrain": "hindering",
 			"elevation": 2
 		}, {
-			"x": "E"
+			"x": "E",
+			"elevation": 2
 		}, {
 			"x": "F",
 			"terrain": "blocking",
