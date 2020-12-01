@@ -362,6 +362,32 @@
                 "roc": true
             }
         }, {
+            "id": "roc20_14",
+            "name": "Institute Grounds",
+            "set": "ROC 2020",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/roc20/institute_grounds.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "roc": true
+            }
+        }, {
+            "id": "roc20_15",
+            "name": "Data Mine",
+            "set": "ROC 2020",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/roc20/data_mine.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "roc": true
+            }
+        }, {
             "id": "wwe0",
             "name": "WWE Arena",
             "set": "WWE Series 1",
