@@ -339,7 +339,85 @@
             "wko": true,
             "roc": true
         }
-    },  {
+    }, {
+        "id": "roc20_9",
+        "name": "The Bounty Engine Room",
+        "set": "ROC 2020",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/roc20/the_bounty_engine_room.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    },{
+        "id": "roc20_10",
+        "name": "Hospital Hall",
+        "set": "ROC 2020",
+        "type": "indoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/roc20/hospital_hall.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    },{
+        "id": "roc20_11",
+        "name": "Glenn Grove Cemetery",
+        "set": "ROC 2020",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/roc20/glen_grove_cemetary.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    },{
+        "id": "roc20_12",
+        "name": "Phoenix Nest",
+        "set": "ROC 2020",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/roc20/phoenix_nest.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    },{
+        "id": "roc20_13",
+        "name": "Madison Stadium A",
+        "set": "ROC 2020",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/roc20/madison_stadium_a.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    },{
+        "id": "roc20_8",
+        "name": "Madison Stadium B",
+        "set": "ROC 2020",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/roc20/madison_stadium_b.json",
+        "age": {
+            "modern": true,
+            "wko": true,
+            "roc": true
+        }
+    }, {
         "id": "wwe0",
         "name": "WWE Arena",
         "set": "WWE Series 1",
@@ -898,6 +976,17 @@
         "width": 16,
         "height": 24,
         "file": "maps/mjx/agents_lobby.json",
+		"age": {
+			"mx": true
+		}
+    },{
+        "id": "mjx_4",
+        "name": "Clock Tower 2015",
+        "set": "Majestix Open Series",
+        "type": "indoorOutdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/mjx/clocktower_2015.json",
 		"age": {
 			"mx": true
 		}
