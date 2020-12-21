@@ -119,10 +119,12 @@
 			"isStartingZone": true
 		}, {
 			"x": "D",
-			"elevation":3
+			"elevation":3,
+			"terrain":"blocking"
 		}, {
 			"x": "E",
-			"elevation":3
+			"elevation":3,
+			"terrain":"blocking"
 		}, {
 			"x": "F",
 			"elevation":3
@@ -167,10 +169,12 @@
 			"isStartingZone": true
 		}, {
 			"x": "D",
-			"elevation":3
+			"elevation":3,
+			"terrain":"blocking"
 		}, {
 			"x": "E",
-			"elevation":3
+			"elevation":3,
+			"terrain":"blocking"
 		}, {
 			"x": "F"
 		}, {
@@ -244,10 +248,12 @@
 		"y": 6,
 		"tiles": [{
 			"x": "A",
-			"elevation":3
+			"elevation":3,
+			"terrain":"blocking"
 		}, {
 			"x": "B",
-			"elevation":3
+			"elevation":3,
+			"terrain":"blocking"
 		}, {
 			"x": "C",
 			"elevation":3
@@ -289,10 +295,12 @@
 		"y": 7,
 		"tiles": [{
 			"x": "A",
-			"elevation":3
+			"elevation":3,
+			"terrain":"blocking"
 		}, {
 			"x": "B",
-			"elevation":3
+			"elevation":3,
+			"terrain":"blocking"
 		}, {
 			"x": "C",
 			"elevation":3
