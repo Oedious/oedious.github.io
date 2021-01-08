@@ -1,6 +1,36 @@
 {
     "maps": [
 	{
+		"id": "hox0",
+		"name": "Otherworld Castle",
+		"set": "X-Men House of X",
+		"type": "outdoor",
+		"width": 16,
+		"height": 24,
+		"file": "maps/hox/otherworld_castle.json",
+		"age": {
+			"modern": true,
+			"wko": true,
+			"roc": true,
+			"mx": true
+		}
+	},
+	{
+		"id": "hox1",
+		"name": "Krakoa",
+		"set": "X-Men House of X",
+		"type": "outdoor",
+		"width": 16,
+		"height": 24,
+		"file": "maps/hox/krakoa.json",
+		"age": {
+			"modern": true,
+			"wko": true,
+			"roc": true,
+			"mx": true
+		}
+	},
+	{
 		"id": "bgame0",
 		"name": "Iron Man's Workshop",
 		"set": "Battlegrounds: Avengers vs. Masters of Evil",
