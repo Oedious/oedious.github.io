@@ -1,6 +1,36 @@
 {
     "maps": [
 	{
+		"id": "fufo0",
+		"name": "Desert Wedding",
+		"set": "Fantastic Four: Future Foundation",
+		"type": "outdoor",
+		"width": 16,
+		"height": 24,
+		"file": "maps/fufo/desert_wedding.json",
+		"age": {
+			"modern": true,
+			"wko": true,
+			"roc": true,
+			"mx": true
+		}
+	},
+	{
+		"id": "fufo1",
+		"name": "Negative Zone",
+		"set": "Fantastic Four: Future Foundation",
+		"type": "indoor",
+		"width": 16,
+		"height": 24,
+		"file": "maps/fufo/negative_zone_prison.json",
+		"age": {
+			"modern": true,
+			"wko": true,
+			"roc": true,
+			"mx": true
+		}
+	},
+	{
 		"id": "hox0",
 		"name": "Otherworld Castle",
 		"set": "X-Men House of X",
