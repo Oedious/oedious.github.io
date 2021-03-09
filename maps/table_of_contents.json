@@ -26,6 +26,19 @@
                 "roc": true
             }
         }, {
+            "id": "roc21_2",
+            "name": "84th Street Mall",
+            "set": "ROC 2021",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/roc21/84th_street_mall.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "roc": true
+            }
+        }, {
             "id": "bgame0",
             "name": "Iron Man's Workshop",
             "set": "Battlegrounds: Avengers vs. Masters of Evil",
