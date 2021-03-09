@@ -1,5 +1,31 @@
 {
     "maps": [{
+            "id": "roc21_0",
+            "name": "The Knoll",
+            "set": "ROC 2021",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/roc21/the_knoll.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "roc": true
+            }
+        }, {
+            "id": "roc21_1",
+            "name": "Defense Island",
+            "set": "ROC 2021",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/roc21/defense_island.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "roc": true
+            }
+        }, {
             "id": "bgame0",
             "name": "Iron Man's Workshop",
             "set": "Battlegrounds: Avengers vs. Masters of Evil",
