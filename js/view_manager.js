@@ -1,4 +1,9 @@
-var ViewManager = function() {
+var ViewManager = function(loadTOC) {
+	M.AutoInit();
+	var elem = document.querySelector('.collapsible.expandable');
+var instance = M.Collapsible.init(elem, {
+  accordion: false
+});
     this.touchStartX_ = 0;
     this.touchStartY_ = 0;
     this.touchEndX_ = 0;
@@ -15,21 +20,20 @@ var ViewManager = function() {
     ];
     this.currentPlayer_ = 0;
     this.openPanel("leftNav", "mapsTab", "mapsPanel");
-    this.openPanel("rightNav", "player0Tab", "player0Panel", 0);
 
-    var mapId = this.getParameterByName_("m");
-    var serialized = this.getParameterByName_("s");
-    if (serialized) {
-        mapId = this.deserialize(serialized);
-    }
-    this.loadTableOfContents_(mapId);
+	if(loadTOC){
+		var mapId = this.getParameterByName_("m");
+		var serialized = this.getParameterByName_("s");
+		if (serialized) {
+			mapId = this.deserialize(serialized);
+		}
+		this.loadTableOfContents_(mapId);
+	}
+}
 
-    for (var i = 0; i < this.players_.length; ++i) {
-        var player = this.players_[i];
-        document.getElementById("player" + i + "Name").value = player.getName();
-        document.getElementById("player" + i + "Color").selectedIndex = player.getColorType();
-        player.drawCharacterList(i);
-    }
+ViewManager.prototype.loadAssetFrame = function(shortCode) {
+	var frame = document.getElementById("assetFrame")
+	frame.src = "/heroclix-roll20-assets/" + shortCode + "/images.html"
 }
 
 ViewManager.prototype.loadTableOfContents_ = function(mapId) {
@@ -50,12 +54,25 @@ ViewManager.prototype.isLeftNavActive = function() {
 
 ViewManager.prototype.toggleLeftNav = function() {
     var nav = document.getElementById("leftNav");
-    if (nav.style.left == "-250px") {
+	var main = document.getElementById("main");
+	var aLeft = document.getElementById("arrowLeft");
+	var aIcon = document.getElementById("arrowIcon");
+	var windowWidth = window.innerWidth
+    if (nav.style.left == "-300px") {
         nav.style.left = "0px";
+		aLeft.style.left = "294px";
+		aIcon.style.transform = "rotate(0deg)";
+		if(windowWidth >= 601){
+			main.style.left = "300px";
+		}
     } else {
-        nav.style.left = "-250px";
+        nav.style.left = "-300px";
+		aLeft.style.left = "-6px";
+		aIcon.style.transform = "rotate(180deg)";
+		if(windowWidth >= 601) {
+			main.style.left = "0px";
+		}
     }
-    this.draw();
 }
 
 ViewManager.prototype.toggleRightNav = function() {
@@ -74,16 +91,6 @@ ViewManager.prototype.openPanel = function(navName, tabName, panelName, playerNu
         panels[i].style.display = "none";
     }
     document.getElementById(panelName).style.display = "block";
-
-    var tabs = nav.getElementsByClassName("tab");
-    for (var i = 0; i < tabs.length; ++i) {
-        tabs[i].style.backgroundColor = "";
-    }
-    document.getElementById(tabName).style.backgroundColor = "#ccc";
-
-    if (navName == "rightNav") {
-        this.currentPlayer_ = playerNumber;
-    }
 }
 
 ViewManager.prototype.onMouseDown = function(event) {
@@ -121,30 +128,6 @@ ViewManager.prototype.onFocusOut = function(elementId) {
     }
 }
 
-ViewManager.prototype.onTouchStart = function(event) {
-    this.touchStartX_ = event.changedTouches[0].screenX;
-    this.touchStartY_ = event.changedTouches[0].screenY;
-}
-
-ViewManager.prototype.onTouchEnd = function(event) {
-    const limit = Math.tan(45 * 1.5 / 180 * Math.PI);
-    const threshold = 20;
-    var x = event.changedTouches[0].screenX - this.touchStartX_;
-    var y = event.changedTouches[0].screenY - this.touchStartY_;
-    this.touchStartX_ = this.touchStartY_ = 0;
-    var xy = Math.abs(x / y);
-    var yx = Math.abs(y / x);
-    if (Math.abs(x) > threshold || Math.abs(y) > threshold) {
-        if (yx <= limit) {
-            if (x < 0) {
-                this.nextMap();
-            } else {
-                this.previousMap();
-            }
-        }
-    }
-}
-
 ViewManager.prototype.loadMap_ = function(mapFile) {
     var loader = new JsonLoader();
     var mgr = this;
@@ -177,23 +160,25 @@ ViewManager.prototype.draw = function() {
     ctx.save()
     var windowWidth = window.innerWidth;
     if (this.isLeftNavActive()) {
-        windowWidth -= 250;
+		if(windowWidth >= 601){
+			windowWidth -= 300;
+		} else {
+			windowWidth -= 70;
+		}
     }
     var windowHeight = window.innerHeight - 88;
-    c.width = windowWidth;
-    c.height = windowHeight;
-    var sx = (c.width - 10) / (this.map_.width * TILE_SIZE);
-    var sy = c.height / (this.map_.height * TILE_SIZE);
+    var sx = (windowWidth - 10) / (this.map_.width * TILE_SIZE);
+    var sy = windowHeight / (this.map_.height * TILE_SIZE);
     this.scale_ = (sx < sy ? sx : sy) * (this.zoom_ / 100.0);
-    this.translationX_ = (c.width / this.scale_ - this.map_.width * TILE_SIZE) / 2;
+    c.width = (this.scale_ * this.map_.width * TILE_SIZE) + 1
+	c.height = (this.scale_ * this.map_.height * TILE_SIZE) + 1
     ctx.scale(this.scale_, this.scale_);
-    ctx.translate(this.translationX_, 0);
     this.map_.draw(ctx);
     ctx.restore();
     for (var i = 0; i < this.players_.length; ++i) {
         this.players_[i].draw(ctx);
     }
-    document.getElementById("mapHeader").innerHTML = this.map_.name;
+    document.getElementById("mapHeader").text = this.map_.name;
     document.getElementById("mapName").innerHTML = this.map_.name;
     document.getElementById("mapSource").innerHTML = this.map_.source;
     document.getElementById("mapSize").innerHTML = "" + this.map_.width + " x " + this.map_.height;
@@ -212,7 +197,6 @@ ViewManager.prototype.draw = function() {
         mapType = "Indoor/Outdoor";
     }
     document.getElementById("mapType").innerHTML = mapType;
-    document.getElementById("mapHeaderType").innerHTML = mapType;
 }
 
 ViewManager.prototype.drawCharacterList = function() {

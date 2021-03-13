@@ -1,5 +1,35 @@
 {
     "maps": [{
+            "id": "fufo0",
+            "name": "Desert Wedding",
+            "set": "Fantastic Four: Future Foundation",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/fufo/desert_wedding.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "roc": true,
+                "mx": true
+            }
+        },
+        {
+            "id": "fufo1",
+            "name": "Negative Zone",
+            "set": "Fantastic Four: Future Foundation",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/fufo/negative_zone_prison.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "roc": true,
+                "mx": true
+            }
+        },
+        {
             "id": "roc21_0",
             "name": "The Knoll",
             "set": "ROC 2021",
@@ -12,7 +42,8 @@
                 "wko": true,
                 "roc": true
             }
-        }, {
+        },
+        {
             "id": "roc21_1",
             "name": "Defense Island",
             "set": "ROC 2021",
@@ -25,7 +56,8 @@
                 "wko": true,
                 "roc": true
             }
-        }, {
+        },
+        {
             "id": "roc21_2",
             "name": "84th Street Mall",
             "set": "ROC 2021",
@@ -38,7 +70,38 @@
                 "wko": true,
                 "roc": true
             }
-        }, {
+        },
+        {
+            "id": "hox0",
+            "name": "Otherworld Castle",
+            "set": "X-Men House of X",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/hox/otherworld_castle.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "roc": true,
+                "mx": true
+            }
+        },
+        {
+            "id": "hox1",
+            "name": "Krakoa",
+            "set": "X-Men House of X",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/hox/krakoa.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "roc": true,
+                "mx": true
+            }
+        },
+        {
             "id": "bgame0",
             "name": "Iron Man's Workshop",
             "set": "Battlegrounds: Avengers vs. Masters of Evil",
@@ -49,7 +112,8 @@
             "age": {
                 "modern": true,
                 "wko": true,
-                "roc": true
+                "roc": true,
+                "mx": true
             }
         },
         {
@@ -63,7 +127,8 @@
             "age": {
                 "modern": true,
                 "wko": true,
-                "roc": true
+                "roc": true,
+                "mx": true
             }
         },
         {
@@ -77,7 +142,8 @@
             "age": {
                 "modern": true,
                 "wko": true,
-                "roc": true
+                "roc": true,
+                "mx": true
             }
         },
         {
@@ -91,7 +157,8 @@
             "age": {
                 "modern": true,
                 "wko": true,
-                "roc": true
+                "roc": true,
+                "mx": true
             }
         },
         {
@@ -105,7 +172,8 @@
             "age": {
                 "modern": true,
                 "wko": true,
-                "roc": true
+                "roc": true,
+                "mx": true
             }
         },
         {
@@ -119,7 +187,8 @@
             "age": {
                 "modern": true,
                 "wko": true,
-                "roc": true
+                "roc": true,
+                "mx": true
             }
         },
         {
@@ -133,7 +202,8 @@
             "age": {
                 "modern": true,
                 "wko": true,
-                "roc": true
+                "roc": true,
+                "mx": true
             }
         },
         {
@@ -147,7 +217,8 @@
             "age": {
                 "modern": true,
                 "wko": true,
-                "roc": true
+                "roc": true,
+                "mx": true
             }
         },
         {
@@ -161,7 +232,8 @@
             "age": {
                 "modern": true,
                 "wko": true,
-                "roc": true
+                "roc": true,
+                "mx": true
             }
         },
         {
@@ -175,7 +247,8 @@
             "age": {
                 "modern": true,
                 "wko": true,
-                "roc": true
+                "roc": true,
+                "mx": true
             }
         },
         {
@@ -189,7 +262,8 @@
             "age": {
                 "modern": true,
                 "wko": true,
-                "roc": true
+                "roc": true,
+                "mx": true
             }
         }, {
             "id": "jlu1",
@@ -202,7 +276,8 @@
             "age": {
                 "modern": true,
                 "wko": true,
-                "roc": true
+                "roc": true,
+                "mx": true
             }
         }, {
             "id": "jlu2",
@@ -215,7 +290,8 @@
             "age": {
                 "modern": true,
                 "wko": true,
-                "roc": true
+                "roc": true,
+                "mx": true
             }
         }, {
             "id": "jlu3",
@@ -228,7 +304,8 @@
             "age": {
                 "modern": true,
                 "wko": true,
-                "roc": true
+                "roc": true,
+                "mx": true
             }
         },
         {
@@ -242,7 +319,8 @@
             "age": {
                 "modern": true,
                 "wko": true,
-                "roc": true
+                "roc": true,
+                "mx": true
             }
         }, {
             "id": "caav1",
@@ -255,7 +333,8 @@
             "age": {
                 "modern": true,
                 "wko": true,
-                "roc": true
+                "roc": true,
+                "mx": true
             }
         }, {
             "id": "roc20_0",
@@ -362,20 +441,20 @@
                 "roc": true
             }
         }, {
-            "id": "roc20_10",
-            "name": "Bounty Engine Room",
+            "id": "roc20_9",
+            "name": "The Bounty Engine Room",
             "set": "ROC 2020",
             "type": "indoor",
             "width": 16,
             "height": 24,
-            "file": "maps/roc20/bounty_engine_room.json",
+            "file": "maps/roc20/the_bounty_engine_room.json",
             "age": {
                 "modern": true,
                 "wko": true,
                 "roc": true
             }
         }, {
-            "id": "roc20_12",
+            "id": "roc20_10",
             "name": "Hospital Hall",
             "set": "ROC 2020",
             "type": "indoor",
@@ -388,39 +467,52 @@
                 "roc": true
             }
         }, {
+            "id": "roc20_11",
+            "name": "Glenn Grove Cemetery",
+            "set": "ROC 2020",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/roc20/glen_grove_cemetary.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "roc": true
+            }
+        }, {
+            "id": "roc20_12",
+            "name": "Phoenix Nest",
+            "set": "ROC 2020",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/roc20/phoenix_nest.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "roc": true
+            }
+        }, {
             "id": "roc20_13",
-            "name": "Glenn Grove Cemetary",
+            "name": "Madison Stadium A",
             "set": "ROC 2020",
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/roc20/glenn_grove_cemetary.json",
+            "file": "maps/roc20/madison_stadium_a.json",
             "age": {
                 "modern": true,
                 "wko": true,
                 "roc": true
             }
         }, {
-            "id": "roc20_14",
-            "name": "Institute Grounds",
+            "id": "roc20_8",
+            "name": "Madison Stadium B",
             "set": "ROC 2020",
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/roc20/institute_grounds.json",
-            "age": {
-                "modern": true,
-                "wko": true,
-                "roc": true
-            }
-        }, {
-            "id": "roc20_15",
-            "name": "Data Mine",
-            "set": "ROC 2020",
-            "type": "indoor",
-            "width": 16,
-            "height": 24,
-            "file": "maps/roc20/data_mine.json",
+            "file": "maps/roc20/madison_stadium_b.json",
             "age": {
                 "modern": true,
                 "wko": true,
@@ -476,7 +568,8 @@
             "age": {
                 "modern": true,
                 "wko": true,
-                "roc": true
+                "roc": true,
+                "mx": true
             }
         }, {
             "id": "orvl0",
@@ -515,7 +608,8 @@
             "age": {
                 "modern": true,
                 "wko": true,
-                "roc": true
+                "roc": true,
+                "mx": true
             }
         }, {
             "id": "wcr0",
@@ -528,7 +622,8 @@
             "age": {
                 "modern": true,
                 "wko": true,
-                "roc": true
+                "roc": true,
+                "mx": true
             }
         }, {
             "id": "wcr1",
@@ -541,7 +636,8 @@
             "age": {
                 "modern": true,
                 "wko": true,
-                "roc": true
+                "roc": true,
+                "mx": true
             }
         }, {
             "id": "wcr2",
@@ -554,7 +650,8 @@
             "age": {
                 "modern": true,
                 "wko": true,
-                "roc": true
+                "roc": true,
+                "mx": true
             }
         }, {
             "id": "wcr3",
@@ -567,7 +664,8 @@
             "age": {
                 "modern": true,
                 "wko": true,
-                "roc": true
+                "roc": true,
+                "mx": true
             }
         }, {
             "id": "wcr4",
@@ -593,7 +691,8 @@
             "age": {
                 "modern": true,
                 "wko": true,
-                "roc": true
+                "roc": true,
+                "mx": true
             }
         }, {
             "id": "abpi0",
@@ -619,7 +718,8 @@
             "age": {
                 "modern": true,
                 "wko": true,
-                "roc": true
+                "roc": true,
+                "mx": true
             }
         }, {
             "id": "re0",
@@ -656,7 +756,8 @@
             "age": {
                 "modern": true,
                 "wko": true,
-                "roc": true
+                "roc": true,
+                "mx": true
             }
         }, {
             "id": "eax1",
@@ -669,7 +770,8 @@
             "age": {
                 "modern": true,
                 "wko": true,
-                "roc": true
+                "roc": true,
+                "mx": true
             }
         }, {
             "id": "eax2",
@@ -682,7 +784,8 @@
             "age": {
                 "modern": true,
                 "wko": true,
-                "roc": true
+                "roc": true,
+                "mx": true
             }
         }, {
             "id": "eax3",
@@ -695,7 +798,8 @@
             "age": {
                 "modern": true,
                 "wko": true,
-                "roc": true
+                "roc": true,
+                "mx": true
             }
         }, {
             "id": "roc19_0",
@@ -939,7 +1043,10 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/mjx/lightcycle_battle_arena.json"
+            "file": "maps/mjx/lightcycle_battle_arena.json",
+            "age": {
+                "mx": true
+            }
         }, {
             "id": "mjx_1",
             "name": "Ice Planet",
@@ -947,7 +1054,10 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/mjx/ice_planet.json"
+            "file": "maps/mjx/ice_planet.json",
+            "age": {
+                "mx": true
+            }
         }, {
             "id": "mjx_2",
             "name": "Temple of the Idol",
@@ -955,7 +1065,10 @@
             "type": "indoor",
             "width": 16,
             "height": 24,
-            "file": "maps/mjx/temple_of_the_idol.json"
+            "file": "maps/mjx/temple_of_the_idol.json",
+            "age": {
+                "mx": true
+            }
         }, {
             "id": "mjx_3",
             "name": "Agent's Lobby",
@@ -963,7 +1076,21 @@
             "type": "indoor",
             "width": 16,
             "height": 24,
-            "file": "maps/mjx/agents_lobby.json"
+            "file": "maps/mjx/agents_lobby.json",
+            "age": {
+                "mx": true
+            }
+        }, {
+            "id": "mjx_4",
+            "name": "Clock Tower 2015",
+            "set": "Majestix Open Series",
+            "type": "indoorOutdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/mjx/clocktower_2015.json",
+            "age": {
+                "mx": true
+            }
         }, {
             "id": "swb0",
             "name": "Regency Laboratory",
@@ -1001,7 +1128,8 @@
             "age": {
                 "modern": true,
                 "wko": true,
-                "roc": true
+                "roc": true,
+                "mx": true
             }
         }, {
             "id": "btas1",
@@ -1014,7 +1142,8 @@
             "age": {
                 "modern": true,
                 "wko": true,
-                "roc": true
+                "roc": true,
+                "mx": true
             }
         }, {
             "id": "btas2",
@@ -1027,7 +1156,8 @@
             "age": {
                 "modern": true,
                 "wko": true,
-                "roc": true
+                "roc": true,
+                "mx": true
             }
         }, {
             "id": "btas3",
@@ -1040,7 +1170,8 @@
             "age": {
                 "modern": true,
                 "wko": true,
-                "roc": true
+                "roc": true,
+                "mx": true
             }
         }, {
             "id": "btas4",
@@ -1053,7 +1184,8 @@
             "age": {
                 "modern": true,
                 "wko": true,
-                "roc": true
+                "roc": true,
+                "mx": true
             }
         }, {
             "id": "btas5",
@@ -1066,7 +1198,8 @@
             "age": {
                 "modern": true,
                 "wko": true,
-                "roc": true
+                "roc": true,
+                "mx": true
             }
         }, {
             "id": "ai0",
@@ -1155,7 +1288,10 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/roc18/flashpoint_flood.json"
+            "file": "maps/roc18/flashpoint_flood.json",
+            "age": {
+                "mx": true
+            }
         }, {
             "id": "roc18_7",
             "name": "Staten Island Ferry",
@@ -1458,7 +1594,10 @@
             "type": "indoor",
             "width": 16,
             "height": 24,
-            "file": "maps/wkp/sporting_arena.json"
+            "file": "maps/wkp/sporting_arena.json",
+            "age": {
+                "mx": true
+            }
         }, {
             "id": "wkp6",
             "name": "Train Station",
@@ -1466,7 +1605,10 @@
             "type": "indoor",
             "width": 16,
             "height": 24,
-            "file": "maps/wkp/train_station.json"
+            "file": "maps/wkp/train_station.json",
+            "age": {
+                "mx": true
+            }
         }, {
             "id": "wkp7",
             "name": "Train Yard",
@@ -1836,7 +1978,10 @@
             "type": "indoorOutdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/avas/arcades_arena.json"
+            "file": "maps/avas/arcades_arena.json",
+            "age": {
+                "mx": true
+            }
         }, {
             "id": "avas1",
             "name": "Avengers Compound",
@@ -2252,7 +2397,10 @@
             "type": "indoorOutdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/iim/avengers_island.json"
+            "file": "maps/iim/avengers_island.json",
+            "age": {
+                "mx": true
+            }
         }, {
             "id": "iim1",
             "name": "Office Building",
@@ -2300,7 +2448,10 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/avx/wundagore_mountain.json"
+            "file": "maps/avx/wundagore_mountain.json",
+            "age": {
+                "mx": true
+            }
         }, {
             "id": "avx5",
             "name": "Savage Land",
@@ -2900,7 +3051,10 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/nml/robinson_park_post_cataclysm.json"
+            "file": "maps/nml/robinson_park_post_cataclysm.json",
+            "age": {
+                "mx": true
+            }
         }, {
             "id": "nml8",
             "name": "Gotham City Waterfront",
@@ -3116,7 +3270,10 @@
             "type": "indoorOutdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/ih/gamma_range.json"
+            "file": "maps/ih/gamma_range.json",
+            "age": {
+                "mx": true
+            }
         }, {
             "id": "ih1",
             "name": "Shadowland Fortress",

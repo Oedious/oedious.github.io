@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+  <title>Heroclix Roll20 Assets</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="css/oedious.css" media="screen,projection" />
+</head> 
+
+<body>
+<div>
+  <nav>
+    <div class="nav-wrapper">
+	  <a href="#" class="brand-logo center " id="mapHeader"/>
+      <ul class="left">
+        <li> <a href="index.html">Maps</a></li>
+        <li class="active"><a href="assets.html">Roll20 Assets</a></li>
+      </ul>
+    </div>
+  </nav>
+  	  
+	  </div>
+  <div class="main" id="main">
+	<iframe id="assetFrame" width="100%" height="100%" style="border-width: 0px;" src="/heroclix-roll20-assets/FFFF/images.html"></iframe>
+  </div>
+  <div id="leftNav" class="sideNav">
+    <div id="mapsPanel" class="panel">
+	<div id="tableOfContents">
+	<ul>
+			<li class="mapLink"><a href="#" onclick="mgr.loadAssetFrame('FFFF')">Fantastic Four: Future Foundation</a></li>
+			<li class="mapLink"><a href="#" onclick="mgr.loadAssetFrame('F4DC')">Deep Cuts: Fantastic Four</a></li>
+			<li class="mapLink"><a href="#" onclick="mgr.loadAssetFrame('HOX')">House of X</a></li>
+			<li class="mapLink"><a href="#" onclick="mgr.loadAssetFrame('SVAC')">Spider-Man and Venom: Absolute Carnage</a></li>
+			<li class="mapLink"><a href="#" onclick="mgr.loadAssetFrame('BGAM')">Battlegrounds: Avengers vs Masters of Evil</a></li>
+			<li class="mapLink"><a href="#" onclick="mgr.loadAssetFrame('F4')">Fantastic Four</a></li>
+			<li class="mapLink"><a href="#" onclick="mgr.loadAssetFrame('FFCC')">Fantastic Four: Cosmic Clash</a></li>
+			<li class="mapLink"><a href="#" onclick="mgr.loadAssetFrame('BWM')">Black Widow Movie</a></li>
+			<li class="mapLink"><a href="#" onclick="mgr.loadAssetFrame('JLU')">Justice League Unlimited</a></li>
+			<li class="mapLink"><a href="#" onclick="mgr.loadAssetFrame('CAAV')">Captain America and the Avengers</a></li>
+			<li class="mapLink"><a href="#" onclick="mgr.loadAssetFrame('DCXM')">Deep Cuts: X-Men Primed</a></li>
+			<li class="mapLink"><a href="#" onclick="mgr.loadAssetFrame('ORVL')">The Orville Starter</a></li>
+			<li class="mapLink"><a href="#" onclick="mgr.loadAssetFrame('WWE')">WWE</a></li>
+			<li class="mapLink"><a href="#" onclick="mgr.loadAssetFrame('STBG')">Star Trek Heroclix Away Team: To Boldly Go</a></li>
+			<li class="mapLink"><a href="#" onclick="mgr.loadAssetFrame('XDPS')">X-Men the Animated Series: The Dark Phoenix Saga</a></li>
+			<li class="mapLink"><a href="#" onclick="mgr.loadAssetFrame('STRF')">Star Trek HeroClix Away Team: Resistance is Futile</a></li>
+			<li class="mapLink"><a href="#" onclick="mgr.loadAssetFrame('WCR')">Wolverine v Cyclops: Xmen Regenesis</a></li>
+			<li class="mapLink"><a href="#" onclick="mgr.loadAssetFrame('ABPI')">Avengers Black Panther and the Illuminati</a></li>
+			<li class="mapLink"><a href="#" onclick="mgr.loadAssetFrame('RE')">Rebirth</a></li>
+			<li class="mapLink"><a href="#" onclick="mgr.loadAssetFrame('CMM')">Captain Marvel Movie Gravity Feed</a></li>
+			<li class="mapLink"><a href="#" onclick="mgr.loadAssetFrame('EX')">Earth X</a></li>
+			<li class="mapLink"><a href="#" onclick="mgr.loadAssetFrame('SWBW')">Secret Wars: Battleworld</a></li>
+			<li class="mapLink"><a href="#" onclick="mgr.loadAssetFrame('BTAS')">Batman: The Animated Series</a></li>
+			<li class="mapLink"><a href="#" onclick="mgr.loadAssetFrame('Markers')">Markers</a></li>
+		</ul>
+		</div>
+    </div>
+    <div id="filtersPanel" class="panel">
+    </div>
+  </div>
+  <div id="arrowLeft">
+	<a href="#" onclick="mgr.toggleLeftNav()"><i id="arrowIcon" class="material-icons">chevron_left</i></a>
+  </div>
+  
+  <script type="text/javascript " src="js/json_loader.js "></script>
+  <script type="text/javascript " src="js/edge.js "></script>
+  <script type="text/javascript " src="js/tile.js "></script>
+  <script type="text/javascript " src="js/wall.js "></script>
+  <script type="text/javascript " src="js/character.js "></script>
+  <script type="text/javascript " src="js/map.js "></script>
+  <script type="text/javascript " src="js/player.js "></script>
+  <script type="text/javascript " src="js/table_of_contents.js "></script>
+  <script type="text/javascript " src="js/view_manager.js "></script>
+  <script type="text/javascript " src="js/materialize.js"></script>
+  <script>
+    var mgr = new ViewManager();
+  </script>
+
+</body>
+
+</html>
