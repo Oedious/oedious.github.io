@@ -18,6 +18,7 @@ TableOfContents.prototype.applyFilters = function() {
     var filterByAge = document.getElementById("selectAge").value;
     var filterByType = document.getElementById("selectType").value;
     var filterBySize = document.getElementById("selectSize").value;
+	var filterByName = document.getElementById("name_search").value.toLowerCase();
     var filterWidth = 0;
     var filterHeight = 0;
     if (filterBySize == "8x8") {
@@ -45,6 +46,9 @@ TableOfContents.prototype.applyFilters = function() {
         if (filterBySize != "all" && !(map.width == filterWidth && map.height == filterHeight)) {
             continue;
         }
+		if (filterByName != "" && !(map.name.toLowerCase().includes(filterByName))) {
+			continue;
+		}
         this.tocFiltered_.push(map);
     }
 }
@@ -55,17 +59,19 @@ TableOfContents.prototype.draw = function() {
     for (var i = 0; i < this.tocFiltered_.length; ++i) {
         var map = this.tocFiltered_[i];
         if (currentSet != map.set) {
-            if (currentSet != "") {
-                html += "<br>"
-            }
-            html += "<div style=\"font-weight:bold;\">" + map.set + "</div>";
+			if(currentSet != ""){
+				html += "</ul>"
+			}
+            html += "<ul><li><h6>" + map.set + "</h6></li>";
             currentSet = map.set;
         }
-        html += "<a href='' id='toc" + i +
-            "' onclick='mgr.setMap(" + i +
+		html += "<li class=\"mapLink\" " + "id='toc" + i + "'>"
+        html += "<a href='' " +
+            "onclick='mgr.setMap(" + i +
             "); return false;'>" +
-            map.name + "</a>";
+            map.name + "</a></li>";
     }
+	html += "</ul"
     document.getElementById("tableOfContents").innerHTML = html;
 }
 
