@@ -473,7 +473,7 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/roc20/glen_grove_cemetary.json",
+            "file": "maps/roc20/glenn_grove_cemetary.json",
             "age": {
                 "modern": true,
                 "wko": true,
