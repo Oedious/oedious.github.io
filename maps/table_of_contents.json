@@ -1051,6 +1051,17 @@
 			"mx": true
 		}
     },{
+        "id": "mjx_5",
+        "name": "Perfection",
+        "set": "Majestix Open Series",
+        "type": "outdoor",
+        "width": 16,
+        "height": 24,
+        "file": "maps/mjx/perfection.json",
+		"age": {
+			"mx": true
+		}
+    },{
         "id": "swb0",
         "name": "Regency Laboratory",
         "set": "Secret Wars: Battleworld",
