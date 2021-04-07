@@ -24,9 +24,9 @@ var ELEVATION_TILE_COLORS = [
 	"#FFFFFF",
 	"#FB7A7F",
 	"#D0424C",
-	"#9c0800",
-	"#750600",
-	"#4d0400"
+	"#B02020",
+	"#902020",
+	"#702020"
 ];
 
 var Tile = function(x, y, jsonTile) {
