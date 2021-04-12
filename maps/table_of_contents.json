@@ -299,7 +299,7 @@
         "id": "roc20_0",
         "name": "Pitfight",
         "set": "ROC 2020",
-        "type": "indoor",
+        "type": "outdoor",
         "width": 16,
         "height": 24,
         "file": "maps/roc20/pitfight.json",
