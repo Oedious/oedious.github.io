@@ -1,6 +1,36 @@
 {
     "maps": [
 	{
+		"id": "bgww0",
+		"name": "Paradise Island",
+		"set": "Battlegrounds: Wonder Woman",
+		"type": "outdoor",
+		"width": 16,
+		"height": 24,
+		"file": "maps/bgww/paradise_island.json",
+		"age": {
+			"modern": true,
+			"wko": true,
+			"roc": true,
+			"mx": true
+		}
+	},
+	{
+		"id": "bgww1",
+		"name": "Mt. Olympus",
+		"set": "Battlegrounds: Wonder Woman",
+		"type": "outdoor",
+		"width": 16,
+		"height": 24,
+		"file": "maps/bgww/mount_olympus.json",
+		"age": {
+			"modern": true,
+			"wko": true,
+			"roc": true,
+			"mx": true
+		}
+	},
+	{
 		"id": "ww800",
 		"name": "Junkyard",
 		"set": "Wonder Woman 80th Anniversary",
