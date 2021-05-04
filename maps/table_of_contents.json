@@ -1,6 +1,66 @@
 {
     "maps": [
 	{
+		"id": "bgww0",
+		"name": "Paradise Island",
+		"set": "Battlegrounds: Wonder Woman",
+		"type": "outdoor",
+		"width": 16,
+		"height": 24,
+		"file": "maps/bgww/paradise_island.json",
+		"age": {
+			"modern": true,
+			"wko": true,
+			"roc": true,
+			"mx": true
+		}
+	},
+	{
+		"id": "bgww1",
+		"name": "Mt. Olympus",
+		"set": "Battlegrounds: Wonder Woman",
+		"type": "outdoor",
+		"width": 16,
+		"height": 24,
+		"file": "maps/bgww/mount_olympus.json",
+		"age": {
+			"modern": true,
+			"wko": true,
+			"roc": true,
+			"mx": true
+		}
+	},
+	{
+		"id": "ww800",
+		"name": "Junkyard",
+		"set": "Wonder Woman 80th Anniversary",
+		"type": "outdoor",
+		"width": 16,
+		"height": 24,
+		"file": "maps/ww80/junkyard.json",
+		"age": {
+			"modern": true,
+			"wko": true,
+			"roc": true,
+			"mx": true
+		}
+	},
+	{
+		"id": "ww801",
+		"name": "Wonder Woman's Barn",
+		"set": "Wonder Woman 80th Anniversary",
+		"type": "outdoor",
+		"width": 16,
+		"height": 24,
+		"file": "maps/ww80/wonder_woman_barn.json",
+		"age": {
+			"modern": true,
+			"wko": true,
+			"roc": true,
+			"mx": true
+		}
+	},
+	{
 		"id": "fufo0",
 		"name": "Desert Wedding",
 		"set": "Fantastic Four: Future Foundation",
