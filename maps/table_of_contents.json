@@ -560,6 +560,22 @@
                 "roc": true
             }
         }, {
+            "id": "roc20_15",
+            "name": "Institute Grounds",
+            "set": "ROC 2020",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/roc20/institute_grounds.json"
+        }, {
+            "id": "roc20_16",
+            "name": "Data Mine",
+            "set": "ROC 2020",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/roc20/data_mine.json"
+        }, {
             "id": "wwe0",
             "name": "WWE Arena",
             "set": "WWE Series 1",

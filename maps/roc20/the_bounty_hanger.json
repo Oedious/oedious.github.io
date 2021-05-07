@@ -5,7 +5,7 @@
 	"type": "indoor",
 	"width": 16,
 	"height": 24,
-	"date": "June 2020",
+	"date": "May 2020",
 	"special": [
 		"Special Terrain: Squares within the orange terrain lines cannot be occupied by characters or game elements."
 	],
