@@ -837,12 +837,12 @@
             }
         }, {
             "id": "roc19_3",
-            "name": "Street Riot",
+            "name": "Courthouse",
             "set": "ROC 2019",
-            "type": "outdoor",
+            "type": "indoorOutdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/roc19/street_riot.json",
+            "file": "maps/roc19/courthouse.json",
             "age": {
                 "modern": true,
                 "wko": true,
@@ -850,12 +850,12 @@
             }
         }, {
             "id": "roc19_4",
-            "name": "Courthouse",
+            "name": "Street Riot",
             "set": "ROC 2019",
-            "type": "indoorOutdoor",
+            "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/roc19/courthouse.json",
+            "file": "maps/roc19/street_riot.json",
             "age": {
                 "modern": true,
                 "wko": true,
@@ -1012,12 +1012,12 @@
             }
         }, {
             "id": "roc19_17",
-            "name": "Ancient Hold",
+            "name": "Mr. Chomp's Swamp",
             "set": "ROC 2019",
-            "type": "indoor",
+            "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/roc19/ancient_hold.json",
+            "file": "maps/roc19/chomps_swamp.json",
             "age": {
                 "modern": true,
                 "wko": true,
@@ -1025,12 +1025,33 @@
             }
         }, {
             "id": "roc19_18",
-            "name": "Mr. Chomp's Swamp",
+            "name": "Settle It On The Canvas!",
             "set": "ROC 2019",
-            "type": "outdoor",
+            "type": "indoor",
             "width": 16,
             "height": 24,
-            "file": "maps/roc19/chomps_swamp.json",
+            "file": "maps/roc19/settle_it_on_the_canvas.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "roc": true
+            }
+        }, {
+            "id": "roc19_19",
+            "name": "Settle It On The Canvas! Battle Royale",
+            "set": "ROC 2019",
+            "type": "indoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/roc19/settle_it_on_the_canvas_battle_royale.json"
+        }, {
+            "id": "roc19_20",
+            "name": "Ancient Hold",
+            "set": "ROC 2019",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/roc19/ancient_hold.json",
             "age": {
                 "modern": true,
                 "wko": true,
