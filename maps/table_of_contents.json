@@ -436,12 +436,12 @@
             }
         }, {
             "id": "roc20_5",
-            "name": "Planet 100475 Topside",
+            "name": "The Bounty Hanger",
             "set": "ROC 2020",
-            "type": "outdoor",
+            "type": "indoor",
             "width": 16,
             "height": 24,
-            "file": "maps/roc20/planet_100475_topside.json",
+            "file": "maps/roc20/the_bounty_hanger.json",
             "age": {
                 "modern": true,
                 "wko": true,
@@ -449,12 +449,12 @@
             }
         }, {
             "id": "roc20_6",
-            "name": "The Bounty Hanger",
+            "name": "Planet 100475 Topside",
             "set": "ROC 2020",
-            "type": "indoor",
+            "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/roc20/the_bounty_hanger.json",
+            "file": "maps/roc20/planet_100475_topside.json",
             "age": {
                 "modern": true,
                 "wko": true,
@@ -474,6 +474,14 @@
                 "roc": true
             }
         }, {
+            "id": "roc20_8",
+            "name": "Alien Beacon",
+            "set": "ROC 2020",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/roc20/alien_beacon.json"
+        }, {
             "id": "roc20_9",
             "name": "The Bounty Engine Room",
             "set": "ROC 2020",
@@ -488,32 +496,6 @@
             }
         }, {
             "id": "roc20_10",
-            "name": "Hospital Hall",
-            "set": "ROC 2020",
-            "type": "indoor",
-            "width": 16,
-            "height": 24,
-            "file": "maps/roc20/hospital_hall.json",
-            "age": {
-                "modern": true,
-                "wko": true,
-                "roc": true
-            }
-        }, {
-            "id": "roc20_11",
-            "name": "Glenn Grove Cemetery",
-            "set": "ROC 2020",
-            "type": "outdoor",
-            "width": 16,
-            "height": 24,
-            "file": "maps/roc20/glenn_grove_cemetary.json",
-            "age": {
-                "modern": true,
-                "wko": true,
-                "roc": true
-            }
-        }, {
-            "id": "roc20_12",
             "name": "Phoenix Nest",
             "set": "ROC 2020",
             "type": "outdoor",
@@ -526,7 +508,7 @@
                 "roc": true
             }
         }, {
-            "id": "roc20_13",
+            "id": "roc20_11",
             "name": "Madison Stadium A",
             "set": "ROC 2020",
             "type": "outdoor",
@@ -539,13 +521,39 @@
                 "roc": true
             }
         }, {
-            "id": "roc20_8",
+            "id": "roc20_12",
             "name": "Madison Stadium B",
             "set": "ROC 2020",
             "type": "outdoor",
             "width": 16,
             "height": 24,
             "file": "maps/roc20/madison_stadium_b.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "roc": true
+            }
+        }, {
+            "id": "roc20_13",
+            "name": "Hospital Hall",
+            "set": "ROC 2020",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/roc20/hospital_hall.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "roc": true
+            }
+        }, {
+            "id": "roc20_14",
+            "name": "Glenn Grove Cemetery",
+            "set": "ROC 2020",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/roc20/glenn_grove_cemetary.json",
             "age": {
                 "modern": true,
                 "wko": true,
