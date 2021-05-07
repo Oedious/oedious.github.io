@@ -1,6 +1,21 @@
 {
     "maps": [
 	{
+		"id": "hc4h0",
+		"name": "Hyper RPG Studios",
+		"set": "Heroclix for Huntington's Disease",
+		"type": "indoorOutdoor",
+		"width": 16,
+		"height": 24,
+		"file": "maps/hc4h/hyper_rpg_studios.json",
+		"age": {
+			"modern": true,
+			"wko": true,
+			"roc": true,
+			"mx": false
+		}
+	},
+	{
 		"id": "bgww0",
 		"name": "Paradise Island",
 		"set": "Battlegrounds: Wonder Woman",
