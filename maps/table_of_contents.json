@@ -1091,6 +1091,32 @@
                 "roc": true
             }
         }, {
+            "id": "roc19_21",
+            "name": "Assassin's Alley",
+            "set": "ROC 2019",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/roc15/assassins_alley.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "roc": true
+            }
+        }, {
+            "id": "roc19_22",
+            "name": "Mayan Temple",
+            "set": "ROC 2019",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/roc14/mayan_ruins.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "roc": true
+            }
+        }, {
             "id": "mjx_0",
             "name": "Lightcycle Battle Arena",
             "set": "Majestix Open Series",

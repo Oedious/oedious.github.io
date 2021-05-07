@@ -1,11 +1,11 @@
 {
 	"name": "Assassin's Alley",
-	"set": "ROC 2015",
-	"source": "GridReality 2015 ROC Map Pack",
+	"set": "ROC 2015 / ROC 2019",
+	"source": "GridReality 2015 ROC Map Pack / Gamermats ROC 2019 Q4",
 	"type": "outdoor",
 	"width": 16,
 	"height": 24,
-	"date": "2015",
+	"date": "2015 / November 2019",
 	"rows": [{
 		"y": 1,
 		"tiles": [{
