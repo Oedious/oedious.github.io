@@ -1,5 +1,80 @@
 {
     "maps": [{
+            "id": "hc4h0",
+            "name": "Hyper RPG Studios",
+            "set": "Heroclix for Huntington's Disease",
+            "type": "indoorOutdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/hc4h/hyper_rpg_studios.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "roc": true,
+                "mx": false
+            }
+        },
+        {
+            "id": "bgww0",
+            "name": "Paradise Island",
+            "set": "Battlegrounds: Wonder Woman",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/bgww/paradise_island.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "roc": true,
+                "mx": true
+            }
+        },
+        {
+            "id": "bgww1",
+            "name": "Mt. Olympus",
+            "set": "Battlegrounds: Wonder Woman",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/bgww/mount_olympus.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "roc": true,
+                "mx": true
+            }
+        },
+        {
+            "id": "ww800",
+            "name": "Junkyard",
+            "set": "Wonder Woman 80th Anniversary",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/ww80/junkyard.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "roc": true,
+                "mx": true
+            }
+        },
+        {
+            "id": "ww801",
+            "name": "Wonder Woman's Barn",
+            "set": "Wonder Woman 80th Anniversary",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/ww80/wonder_woman_barn.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "roc": true,
+                "mx": true
+            }
+        },
+        {
             "id": "fufo0",
             "name": "Desert Wedding",
             "set": "Fantastic Four: Future Foundation",
@@ -27,48 +102,6 @@
                 "wko": true,
                 "roc": true,
                 "mx": true
-            }
-        },
-        {
-            "id": "roc21_0",
-            "name": "The Knoll",
-            "set": "ROC 2021",
-            "type": "outdoor",
-            "width": 16,
-            "height": 24,
-            "file": "maps/roc21/the_knoll.json",
-            "age": {
-                "modern": true,
-                "wko": true,
-                "roc": true
-            }
-        },
-        {
-            "id": "roc21_1",
-            "name": "Defense Island",
-            "set": "ROC 2021",
-            "type": "outdoor",
-            "width": 16,
-            "height": 24,
-            "file": "maps/roc21/defense_island.json",
-            "age": {
-                "modern": true,
-                "wko": true,
-                "roc": true
-            }
-        },
-        {
-            "id": "roc21_2",
-            "name": "84th Street Mall",
-            "set": "ROC 2021",
-            "type": "indoor",
-            "width": 16,
-            "height": 24,
-            "file": "maps/roc21/84th_street_mall.json",
-            "age": {
-                "modern": true,
-                "wko": true,
-                "roc": true
             }
         },
         {
@@ -340,7 +373,7 @@
             "id": "roc20_0",
             "name": "Pitfight",
             "set": "ROC 2020",
-            "type": "indoor",
+            "type": "outdoor",
             "width": 16,
             "height": 24,
             "file": "maps/roc20/pitfight.json",
@@ -1027,7 +1060,7 @@
             "id": "roc19_18",
             "name": "Settle It On The Canvas!",
             "set": "ROC 2019",
-            "type": "indoor",
+            "type": "outdoor",
             "width": 16,
             "height": 24,
             "file": "maps/roc19/settle_it_on_the_canvas.json",
@@ -1040,9 +1073,9 @@
             "id": "roc19_19",
             "name": "Settle It On The Canvas! Battle Royale",
             "set": "ROC 2019",
-            "type": "indoor",
+            "type": "outdoor",
             "width": 16,
-            "height": 16,
+            "height": 24,
             "file": "maps/roc19/settle_it_on_the_canvas_battle_royale.json"
         }, {
             "id": "roc19_20",
@@ -1109,6 +1142,17 @@
             "width": 16,
             "height": 24,
             "file": "maps/mjx/clocktower_2015.json",
+            "age": {
+                "mx": true
+            }
+        }, {
+            "id": "mjx_5",
+            "name": "Perfection",
+            "set": "Majestix Open Series",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/mjx/perfection.json",
             "age": {
                 "mx": true
             }
