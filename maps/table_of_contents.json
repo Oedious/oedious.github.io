@@ -103,6 +103,30 @@
                 "roc": true,
                 "mx": true
             }
+        }, {
+            "id": "roc21_0",
+            "name": "The Knoll",
+            "set": "ROC 2021",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/roc21/the_knoll.json"
+        }, {
+            "id": "roc21_1",
+            "name": "Defense Island",
+            "set": "ROC 2021",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/roc21/defense_island.json"
+        }, {
+            "id": "roc21_2",
+            "name": "84th Street Mall",
+            "set": "ROC 2021",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/roc21/84th_street_mall.json"
         },
         {
             "id": "hox0",
