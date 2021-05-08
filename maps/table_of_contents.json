@@ -600,6 +600,14 @@
             "height": 24,
             "file": "maps/roc20/data_mine.json"
         }, {
+            "id": "roc20_17",
+            "name": "Sewage Treatment",
+            "set": "ROC 2020",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/roc20/sewage_treatment.json"
+        }, {
             "id": "wwe0",
             "name": "WWE Arena",
             "set": "WWE Series 1",
