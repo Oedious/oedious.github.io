@@ -127,6 +127,14 @@
             "width": 16,
             "height": 24,
             "file": "maps/roc21/84th_street_mall.json"
+        }, {
+            "id": "roc21_3",
+            "name": "Hell's Pit",
+            "set": "ROC 2021",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/roc21/hells_pit.json"
         },
         {
             "id": "hox0",
