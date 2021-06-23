@@ -1262,6 +1262,28 @@
             "age": {
                 "mx": true
             }
+        },{
+            "id": "mjx_6",
+            "name": "Cave of the Cult",
+            "set": "Majestix Open Series",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/mjx/cave_of_the_cult.json",
+            "age": {
+                "mx": true
+            }
+        },{
+            "id": "mjx_7",
+            "name": "Rooftop Gateway",
+            "set": "Majestix Open Series",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/mjx/rooftop_gateway.json",
+            "age": {
+                "mx": true
+            }
         }, {
             "id": "swb0",
             "name": "Regency Laboratory",
