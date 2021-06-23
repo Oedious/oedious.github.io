@@ -1,11 +1,11 @@
 {
 	"name": "Mayan Ruins",
-	"set": "ROC 2014",
-	"source": "GridReality 2014 ROC Map Pack",
+	"set": "ROC 2014 / ROC 2019",
+	"source": "GridReality 2014 ROC Map Pack / Gamermats ROC 2019 Q4",
 	"type": "outdoor",
 	"width": 16,
 	"height": 24,
-	"date": "2014",
+	"date": "2014 / December 2019",
 	"rows": [{
 		"y": 1,
 		"tiles": [{

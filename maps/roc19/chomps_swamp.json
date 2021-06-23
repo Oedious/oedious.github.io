@@ -1,7 +1,7 @@
 {
 	"name": "Mr. Chomp's Swamp",
 	"set": "ROC 2019",
-	"source": "",
+	"source": "ROC Cup 2019",
 	"type": "outdoor",
 	"width": 16,
 	"height": 24,
@@ -10,16 +10,16 @@
 		"y": 1,
 		"tiles": [{
 			"x": "A",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "B",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "C",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "D",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "E",
 			"isStartingZone": true
@@ -46,16 +46,16 @@
 			"isStartingZone": true
 		}, {
 			"x": "M",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "N",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "O",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "P",
-			"terrain":"water"
+			"terrain": "water"
 		}]
 	}, {
 		"y": 2,
@@ -65,10 +65,10 @@
 			"x": "B"
 		}, {
 			"x": "C",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "D",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "E",
 			"isStartingZone": true
@@ -95,10 +95,10 @@
 			"isStartingZone": true
 		}, {
 			"x": "M",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "N",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "O"
 		}, {
@@ -112,16 +112,16 @@
 			"x": "B"
 		}, {
 			"x": "C",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "D",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "E",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "F",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "G"
 		}, {
@@ -134,13 +134,13 @@
 			"x": "K"
 		}, {
 			"x": "L",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "M",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "N",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "O"
 		}, {
@@ -150,20 +150,20 @@
 		"y": 4,
 		"tiles": [{
 			"x": "A",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "B"
 		}, {
 			"x": "C"
 		}, {
 			"x": "D",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "E",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "F",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "G"
 		}, {
@@ -174,120 +174,120 @@
 			"x": "J"
 		}, {
 			"x": "K",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "L",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "M",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "N"
 		}, {
 			"x": "O"
 		}, {
 			"x": "P",
-			"terrain":"water"
+			"terrain": "water"
 		}]
 	}, {
 		"y": 5,
 		"tiles": [{
 			"x": "A",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "B"
 		}, {
 			"x": "C"
 		}, {
 			"x": "D",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "E",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "F",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "G",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "H",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "I",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "J",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "K",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "L",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "M",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "N"
 		}, {
 			"x": "O"
 		}, {
 			"x": "P",
-			"terrain":"water"
+			"terrain": "water"
 		}]
 	}, {
 		"y": 6,
 		"tiles": [{
 			"x": "A",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "B"
 		}, {
 			"x": "C"
 		}, {
 			"x": "D",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "E",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "F",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "G",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "H",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "I",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "J",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "K",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "L",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "M",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "N"
 		}, {
 			"x": "O"
 		}, {
 			"x": "P",
-			"terrain":"water"
+			"terrain": "water"
 		}]
 	}, {
 		"y": 7,
 		"tiles": [{
 			"x": "A",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "B"
 		}, {
@@ -296,28 +296,28 @@
 			"x": "D"
 		}, {
 			"x": "E",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "F",
-			"terrain":"blocking"
+			"terrain": "blocking"
 		}, {
 			"x": "G",
-			"terrain":"blocking"
+			"terrain": "blocking"
 		}, {
 			"x": "H",
-			"terrain":"blocking"
+			"terrain": "blocking"
 		}, {
 			"x": "I",
-			"terrain":"blocking"
+			"terrain": "blocking"
 		}, {
 			"x": "J",
-			"terrain":"blocking"
+			"terrain": "blocking"
 		}, {
 			"x": "K",
-			"terrain":"blocking"
+			"terrain": "blocking"
 		}, {
 			"x": "L",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "M"
 		}, {
@@ -326,219 +326,219 @@
 			"x": "O"
 		}, {
 			"x": "P",
-			"terrain":"water"
+			"terrain": "water"
 		}]
 	}, {
 		"y": 8,
 		"tiles": [{
 			"x": "A",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "B",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "C"
 		}, {
 			"x": "D"
 		}, {
 			"x": "E",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "F",
-			"terrain":"blocking"
+			"terrain": "blocking"
 		}, {
 			"x": "G",
-			"terrain":"blocking"
+			"terrain": "blocking"
 		}, {
 			"x": "H",
-			"terrain":"blocking"
+			"terrain": "blocking"
 		}, {
 			"x": "I",
-			"terrain":"blocking"
+			"terrain": "blocking"
 		}, {
 			"x": "J",
-			"terrain":"blocking"
+			"terrain": "blocking"
 		}, {
 			"x": "K",
-			"terrain":"blocking"
+			"terrain": "blocking"
 		}, {
 			"x": "L",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "M"
 		}, {
 			"x": "N"
 		}, {
 			"x": "O",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "P",
-			"terrain":"water"
+			"terrain": "water"
 		}]
 	}, {
 		"y": 9,
 		"tiles": [{
 			"x": "A",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "B",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "C",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "D"
 		}, {
 			"x": "E",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "F",
-			"terrain":"blocking"
+			"terrain": "blocking"
 		}, {
 			"x": "G",
-			"terrain":"blocking"
+			"terrain": "blocking"
 		}, {
 			"x": "H",
-			"terrain":"blocking"
+			"terrain": "blocking"
 		}, {
 			"x": "I",
-			"terrain":"blocking"
+			"terrain": "blocking"
 		}, {
 			"x": "J",
-			"terrain":"blocking"
+			"terrain": "blocking"
 		}, {
 			"x": "K",
-			"terrain":"blocking"
+			"terrain": "blocking"
 		}, {
 			"x": "L",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "M"
 		}, {
 			"x": "N",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "O",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "P",
-			"terrain":"water"
+			"terrain": "water"
 		}]
 	}, {
 		"y": 10,
 		"tiles": [{
 			"x": "A",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "B",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "C",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "D"
 		}, {
 			"x": "E",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "F",
-			"terrain":"blocking"
+			"terrain": "blocking"
 		}, {
 			"x": "G",
-			"terrain":"blocking"
+			"terrain": "blocking"
 		}, {
 			"x": "H",
-			"terrain":"blocking"
+			"terrain": "blocking"
 		}, {
 			"x": "I",
-			"terrain":"blocking"
+			"terrain": "blocking"
 		}, {
 			"x": "J",
-			"terrain":"blocking"
+			"terrain": "blocking"
 		}, {
 			"x": "K",
-			"terrain":"blocking"
+			"terrain": "blocking"
 		}, {
 			"x": "L",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "M"
 		}, {
 			"x": "N",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "O",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "P",
-			"terrain":"water"
+			"terrain": "water"
 		}]
 	}, {
 		"y": 11,
 		"tiles": [{
 			"x": "A",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "B",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "C"
 		}, {
 			"x": "D"
 		}, {
 			"x": "E",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "F",
-			"terrain":"blocking"
+			"terrain": "blocking"
 		}, {
 			"x": "G",
-			"terrain":"blocking"
+			"terrain": "blocking"
 		}, {
 			"x": "H",
-			"terrain":"blocking"
+			"terrain": "blocking"
 		}, {
 			"x": "I",
-			"terrain":"blocking"
+			"terrain": "blocking"
 		}, {
 			"x": "J",
-			"terrain":"blocking"
+			"terrain": "blocking"
 		}, {
 			"x": "K",
-			"terrain":"blocking"
+			"terrain": "blocking"
 		}, {
 			"x": "L",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "M"
 		}, {
 			"x": "N"
 		}, {
 			"x": "O",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "P",
-			"terrain":"water"
+			"terrain": "water"
 		}]
 	}, {
 		"y": 12,
 		"tiles": [{
 			"x": "A",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "B",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "C"
 		}, {
 			"x": "D",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "E",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "F",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "G"
 		}, {
@@ -549,37 +549,37 @@
 			"x": "J"
 		}, {
 			"x": "K",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "L",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "M",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "N"
 		}, {
 			"x": "O",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "P",
-			"terrain":"water"
+			"terrain": "water"
 		}]
 	}, {
 		"y": 13,
 		"tiles": [{
 			"x": "A",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "B"
 		}, {
 			"x": "C"
 		}, {
 			"x": "D",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "E",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "F"
 		}, {
@@ -594,17 +594,17 @@
 			"x": "K"
 		}, {
 			"x": "L",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "M",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "N"
 		}, {
 			"x": "O"
 		}, {
 			"x": "P",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}]
 	}, {
 		"y": 14,
@@ -616,32 +616,32 @@
 			"x": "C"
 		}, {
 			"x": "D",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "E",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "F",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "G"
 		}, {
 			"x": "H",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "I",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "J"
 		}, {
 			"x": "K",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "L",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "M",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "N"
 		}, {
@@ -659,32 +659,32 @@
 			"x": "C"
 		}, {
 			"x": "D",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "E",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "F",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "G"
 		}, {
 			"x": "H",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "I",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "J"
 		}, {
 			"x": "K",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "L",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "M",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "N"
 		}, {
@@ -700,38 +700,38 @@
 			"x": "B"
 		}, {
 			"x": "C",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "D",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "E",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "F",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "G"
 		}, {
 			"x": "H",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "I",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "J"
 		}, {
 			"x": "K",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "L",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "M",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "N",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "O"
 		}, {
@@ -741,18 +741,18 @@
 		"y": 17,
 		"tiles": [{
 			"x": "A",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "B"
 		}, {
 			"x": "C",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "D",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "E",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "F"
 		}, {
@@ -767,24 +767,24 @@
 			"x": "K"
 		}, {
 			"x": "L",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "M",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "N",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "O"
 		}, {
 			"x": "P",
-			"terrain":"water"
+			"terrain": "water"
 		}]
 	}, {
 		"y": 18,
 		"tiles": [{
 			"x": "A",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "B"
 		}, {
@@ -793,7 +793,7 @@
 			"x": "D"
 		}, {
 			"x": "E",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "F"
 		}, {
@@ -808,7 +808,7 @@
 			"x": "K"
 		}, {
 			"x": "L",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "M"
 		}, {
@@ -817,13 +817,13 @@
 			"x": "O"
 		}, {
 			"x": "P",
-			"terrain":"water"
+			"terrain": "water"
 		}]
 	}, {
 		"y": 19,
 		"tiles": [{
 			"x": "A",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "B"
 		}, {
@@ -832,7 +832,7 @@
 			"x": "D"
 		}, {
 			"x": "E",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "F"
 		}, {
@@ -847,7 +847,7 @@
 			"x": "K"
 		}, {
 			"x": "L",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "M"
 		}, {
@@ -856,23 +856,23 @@
 			"x": "O"
 		}, {
 			"x": "P",
-			"terrain":"water"
+			"terrain": "water"
 		}]
 	}, {
 		"y": 20,
 		"tiles": [{
 			"x": "A",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "B",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "C"
 		}, {
 			"x": "D"
 		}, {
 			"x": "E",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "F"
 		}, {
@@ -887,26 +887,26 @@
 			"x": "K"
 		}, {
 			"x": "L",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "M"
 		}, {
 			"x": "N"
 		}, {
 			"x": "O",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "P",
-			"terrain":"water"
+			"terrain": "water"
 		}]
 	}, {
 		"y": 21,
 		"tiles": [{
 			"x": "A",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "B",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "C"
 		}, {
@@ -933,24 +933,24 @@
 			"x": "N"
 		}, {
 			"x": "O",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "P",
-			"terrain":"water"
+			"terrain": "water"
 		}]
 	}, {
 		"y": 22,
 		"tiles": [{
 			"x": "A",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "B",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "C"
 		}, {
 			"x": "D",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "E"
 		}, {
@@ -969,28 +969,28 @@
 			"x": "L"
 		}, {
 			"x": "M",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "N"
 		}, {
 			"x": "O",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "P",
-			"terrain":"water"
+			"terrain": "water"
 		}]
 	}, {
 		"y": 23,
 		"tiles": [{
 			"x": "A",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "B"
 		}, {
 			"x": "C"
 		}, {
 			"x": "D",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "E",
 			"isStartingZone": true
@@ -1017,27 +1017,27 @@
 			"isStartingZone": true
 		}, {
 			"x": "M",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "N"
 		}, {
 			"x": "O"
 		}, {
 			"x": "P",
-			"terrain":"water"
+			"terrain": "water"
 		}]
 	}, {
 		"y": 24,
 		"tiles": [{
 			"x": "A",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "B"
 		}, {
 			"x": "C"
 		}, {
 			"x": "D",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "E",
 			"isStartingZone": true
@@ -1064,14 +1064,14 @@
 			"isStartingZone": true
 		}, {
 			"x": "M",
-			"terrain":"water"
+			"terrain": "water"
 		}, {
 			"x": "N"
 		}, {
 			"x": "O"
 		}, {
 			"x": "P",
-			"terrain":"water"
+			"terrain": "water"
 		}]
 	}],
 	"walls": []
