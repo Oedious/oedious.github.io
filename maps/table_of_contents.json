@@ -143,6 +143,14 @@
             "width": 16,
             "height": 16,
             "file": "maps/roc21/hells_crossroads.json"
+        }, {
+            "id": "roc21_5",
+            "name": "Eastview Park",
+            "set": "ROC 2021",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/roc21/eastview_park.json"
         },
         {
             "id": "hox0",
