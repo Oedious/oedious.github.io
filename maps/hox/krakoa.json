@@ -1,11 +1,11 @@
 {
 	"name": "Krakoa",
-	"set": "X-Men House of X",
-	"source": "X-Men House of X Play at Home Kit",
+	"set": "House of X",
+	"source": "House of X: Play at Home Kit",
 	"type": "outdoor",
 	"width": 16,
 	"height": 24,
-	"date": "January 2011",
+	"date": "January 2021",
 	"special": ["Special Rules: Orange Squares are blocking terrain that can't be destroyed, moved through or have markers placed on them."],
 	"rows": [{
 		"y": 1,

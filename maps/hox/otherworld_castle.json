@@ -1,11 +1,11 @@
 {
 	"name": "Otherworld Castle",
-	"set": "X-Men House of X",
-	"source": "X-Men House of X Play At Home Kit",
+	"set": "House of X",
+	"source": "House of X: Play At Home Kit",
 	"type": "outdoor",
 	"width": 16,
 	"height": 24,
-	"date": "June 2017",
+	"date": "January 2021",
 	"rows": [{
 		"y": 1,
 		"tiles": [{

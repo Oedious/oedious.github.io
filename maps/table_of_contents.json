@@ -1,5 +1,33 @@
 {
     "maps": [{
+            "id": "xmrf0",
+            "name": "Starcore Space Station",
+            "set": "X-Men: Rise and Fall",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/xmrf/starcore_space_station.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "roc": true,
+                "mx": false
+            }
+        }, {
+            "id": "xmrf1",
+            "name": "Abandoned Weapon X Facility",
+            "set": "X-Men: Rise and Fall",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/xmrf/abandoned_weapon_x_facility.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "roc": true,
+                "mx": false
+            }
+        }, {
             "id": "hc4h0",
             "name": "Hyper RPG Studios",
             "set": "Heroclix for Huntington's Disease",
@@ -75,13 +103,13 @@
             }
         },
         {
-            "id": "fufo0",
+            "id": "ffff0",
             "name": "Desert Wedding",
             "set": "Fantastic Four: Future Foundation",
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/fufo/desert_wedding.json",
+            "file": "maps/ffff/desert_wedding.json",
             "age": {
                 "modern": true,
                 "wko": true,
@@ -90,13 +118,13 @@
             }
         },
         {
-            "id": "fufo1",
+            "id": "ffff1",
             "name": "Negative Zone",
             "set": "Fantastic Four: Future Foundation",
             "type": "indoor",
             "width": 16,
             "height": 24,
-            "file": "maps/fufo/negative_zone_prison.json",
+            "file": "maps/ffff/negative_zone_prison.json",
             "age": {
                 "modern": true,
                 "wko": true,
@@ -155,7 +183,7 @@
         {
             "id": "hox0",
             "name": "Otherworld Castle",
-            "set": "X-Men House of X",
+            "set": "House of X",
             "type": "outdoor",
             "width": 16,
             "height": 24,
@@ -170,7 +198,7 @@
         {
             "id": "hox1",
             "name": "Krakoa",
-            "set": "X-Men House of X",
+            "set": "House of X",
             "type": "outdoor",
             "width": 16,
             "height": 24,
