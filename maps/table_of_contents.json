@@ -903,8 +903,6 @@
             "height": 24,
             "file": "maps/eax/stark_tower.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true,
                 "mx": true
             }
@@ -917,8 +915,6 @@
             "height": 24,
             "file": "maps/eax/wakanda_earth_x.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true,
                 "mx": true
             }
@@ -931,8 +927,6 @@
             "height": 24,
             "file": "maps/eax/ny_harbor.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true,
                 "mx": true
             }
@@ -945,8 +939,6 @@
             "height": 24,
             "file": "maps/eax/skull_camp.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true,
                 "mx": true
             }
@@ -1298,6 +1290,28 @@
             "age": {
                 "mx": true
             }
+        },{
+            "id": "mjx_6",
+            "name": "Cave of the Cult",
+            "set": "Majestix Open Series",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/mjx/cave_of_the_cult.json",
+            "age": {
+                "mx": true
+            }
+        },{
+            "id": "mjx_7",
+            "name": "Rooftop Gateway",
+            "set": "Majestix Open Series",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/mjx/rooftop_gateway.json",
+            "age": {
+                "mx": true
+            }
         }, {
             "id": "swb0",
             "name": "Regency Laboratory",
@@ -1307,8 +1321,6 @@
             "height": 24,
             "file": "maps/swb/regency_laboratory.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -1320,8 +1332,6 @@
             "height": 24,
             "file": "maps/swb/weird_world.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -1333,8 +1343,6 @@
             "height": 24,
             "file": "maps/btas/gotham_museum.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true,
                 "mx": true
             }
@@ -1347,8 +1355,6 @@
             "height": 24,
             "file": "maps/btas/gotham_city_waterfront.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true,
                 "mx": true
             }
@@ -1361,8 +1367,6 @@
             "height": 24,
             "file": "maps/btas/haha_hacienda.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true,
                 "mx": true
             }
@@ -1375,8 +1379,6 @@
             "height": 24,
             "file": "maps/btas/iceberg_lounge.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true,
                 "mx": true
             }
@@ -1389,8 +1391,6 @@
             "height": 24,
             "file": "maps/btas/poison_ivys_greenhouse.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true,
                 "mx": true
             }
@@ -1403,8 +1403,6 @@
             "height": 24,
             "file": "maps/btas/gotham_city_downtown.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true,
                 "mx": true
             }
@@ -1580,7 +1578,6 @@
             "height": 24,
             "file": "maps/roc18/hedge_maze.json",
             "age": {
-                "modern": true,
                 "wko": true,
                 "roc": true
             }
@@ -1593,7 +1590,6 @@
             "height": 24,
             "file": "maps/roc18/powell_family_farm.json",
             "age": {
-                "modern": true,
                 "wko": true,
                 "roc": true
             }
@@ -1606,7 +1602,6 @@
             "height": 24,
             "file": "maps/roc18/the_4_points_gaming_clubs_best_friends_forever.json",
             "age": {
-                "modern": true,
                 "wko": true,
                 "roc": true
             }
@@ -1619,7 +1614,6 @@
             "height": 24,
             "file": "maps/roc18/national_air.json",
             "age": {
-                "modern": true
             }
         }, {
             "id": "roc18_20",
@@ -1630,7 +1624,6 @@
             "height": 24,
             "file": "maps/roc18/the_trenches.json",
             "age": {
-                "modern": true,
                 "wko": true,
                 "roc": true
             }
