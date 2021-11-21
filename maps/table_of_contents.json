@@ -179,6 +179,38 @@
             "width": 16,
             "height": 24,
             "file": "maps/roc21/eastview_park.json"
+        }, {
+            "id": "roc21_6",
+            "name": "Overview Chemicals",
+            "set": "ROC 2021",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/roc21/overview_chemicals.json"
+        }, {
+            "id": "roc21_7",
+            "name": "Haunted Library",
+            "set": "ROC 2021",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/roc21/haunted_library.json"
+        }, {
+            "id": "roc21_8",
+            "name": "Battlegate",
+            "set": "ROC 2021",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/roc21/battlegate.json"
+        }, {
+            "id": "roc21_9",
+            "name": "Planetary Annihilation",
+            "set": "ROC 2021",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/roc21/planetary_annihilation.json"
         },
         {
             "id": "hox0",
@@ -1290,7 +1322,7 @@
             "age": {
                 "mx": true
             }
-        },{
+        }, {
             "id": "mjx_6",
             "name": "Cave of the Cult",
             "set": "Majestix Open Series",
@@ -1301,7 +1333,7 @@
             "age": {
                 "mx": true
             }
-        },{
+        }, {
             "id": "mjx_7",
             "name": "Rooftop Gateway",
             "set": "Majestix Open Series",
@@ -1613,8 +1645,7 @@
             "width": 16,
             "height": 24,
             "file": "maps/roc18/national_air.json",
-            "age": {
-            }
+            "age": {}
         }, {
             "id": "roc18_20",
             "name": "The Trenches",
