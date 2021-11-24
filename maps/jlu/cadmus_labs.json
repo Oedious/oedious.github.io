@@ -8,7 +8,8 @@
 	"date": "April 2020",
 	"special": [
 		"(QUESTIONABLE RESEARCH) (+5 POINTS)",
-		"At the beginning of the game, choose a friendly character with the Scientist or Cadmus Labs keyword and choose one: Outwit, Perplex, or Probability Control. The chosen character's minimum range when using the chosen power is now 10. If your force is a Scientist or Cadmus Labs theme team, the chosen character has PROTECTED: Opposing X, where X is the chosen power.",
+		"<strike>At the beginning of the game, choose a friendly character with the Scientist or Cadmus Labs keyword and choose one: Outwit, Perplex, or Probability Control. The chosen character's minimum range when using the chosen power is now 10. If your force is a Scientist or Cadmus Labs theme team, the chosen character has PROTECTED: Opposing X, where X is the chosen power.</strike>",
+		"(Errata) At the beginning of the game, choose a friendly character with the Scientist or the Project Cadmus keyword and choose one: Outwit, Perplex, or Probability Control. The chosen character's minimum range when using the chosen power is now 10. If your force is a Scientist or Project Cadmus themed team, the chosen character has PROTECTED: Opposing X, where X is the chosen power.",
 		"CONSOLATION: Once per game a friendly character can use \"FREE:This character's minimum range is 10 when using Outwit, Perplex, or Probability Control this turn."
 	],
 	"rows": [{
@@ -550,10 +551,10 @@
 			"x": "I"
 		}, {
 			"x": "J",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "K",
-			"terrain":"hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "L"
 		}, {
@@ -960,18 +961,18 @@
 			"x": "P"
 		}]
 	}],
-	"walls": [{"x0":10,"y0":2,"x1":10,"y1":7},
-	{"x0":10,"y0":7,"x1":12,"y1":7},
-	{"x0":12,"y0":7,"x1":14,"y1":7,"type":"door"},
-	{"x0":14,"y0":7,"x1":16,"y1":7},
-	{"x0":10,"y0":7,"x1":10,"y1":9,"type":"door"},
-	{"x0":5,"y0":9,"x1":10,"y1":9, "type":"glass2"},
-	{"x0":5,"y0":9,"x1":5,"y1":15, "type":"glass2"},
-	{"x0":5,"y0":15,"x1":10,"y1":15, "type":"glass2"},
-	{"x0":10,"y0":15,"x1":10,"y1":17, "type":"door"},
-	{"x0":10,"y0":17,"x1":12,"y1":17},
-	{"x0":12,"y0":17,"x1":14,"y1":17, "type":"door"},
-	{"x0":14,"y0":17,"x1":16,"y1":17},
-	{"x0":10,"y0":17,"x1":10,"y1":22}
+	"walls": [{ "x0": 10, "y0": 2, "x1": 10, "y1": 7 },
+		{ "x0": 10, "y0": 7, "x1": 12, "y1": 7 },
+		{ "x0": 12, "y0": 7, "x1": 14, "y1": 7, "type": "door" },
+		{ "x0": 14, "y0": 7, "x1": 16, "y1": 7 },
+		{ "x0": 10, "y0": 7, "x1": 10, "y1": 9, "type": "door" },
+		{ "x0": 5, "y0": 9, "x1": 10, "y1": 9, "type": "glass2" },
+		{ "x0": 5, "y0": 9, "x1": 5, "y1": 15, "type": "glass2" },
+		{ "x0": 5, "y0": 15, "x1": 10, "y1": 15, "type": "glass2" },
+		{ "x0": 10, "y0": 15, "x1": 10, "y1": 17, "type": "door" },
+		{ "x0": 10, "y0": 17, "x1": 12, "y1": 17 },
+		{ "x0": 12, "y0": 17, "x1": 14, "y1": 17, "type": "door" },
+		{ "x0": 14, "y0": 17, "x1": 16, "y1": 17 },
+		{ "x0": 10, "y0": 17, "x1": 10, "y1": 22 }
 	]
 }
