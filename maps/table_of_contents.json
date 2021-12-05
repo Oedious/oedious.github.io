@@ -11,7 +11,7 @@
                 "modern": true,
                 "wko": true,
                 "roc": true,
-                "mx": false
+                "mx": true
             }
         }, {
             "id": "xmrf1",
@@ -25,7 +25,7 @@
                 "modern": true,
                 "wko": true,
                 "roc": true,
-                "mx": false
+                "mx": true
             }
         }, {
             "id": "hc4h0",
@@ -38,8 +38,7 @@
             "age": {
                 "modern": true,
                 "wko": true,
-                "roc": true,
-                "mx": false
+                "roc": true
             }
         },
         {
@@ -1263,10 +1262,7 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/mjx/lightcycle_battle_arena.json",
-            "age": {
-                "mx": true
-            }
+            "file": "maps/mjx/lightcycle_battle_arena.json"
         }, {
             "id": "mjx_1",
             "name": "Ice Planet",
@@ -1525,10 +1521,7 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/roc18/flashpoint_flood.json",
-            "age": {
-                "mx": true
-            }
+            "file": "maps/roc18/flashpoint_flood.json"
         }, {
             "id": "roc18_7",
             "name": "Staten Island Ferry",
@@ -1825,10 +1818,7 @@
             "type": "indoor",
             "width": 16,
             "height": 24,
-            "file": "maps/wkp/sporting_arena.json",
-            "age": {
-                "mx": true
-            }
+            "file": "maps/wkp/sporting_arena.json"
         }, {
             "id": "wkp6",
             "name": "Train Station",
@@ -1836,10 +1826,7 @@
             "type": "indoor",
             "width": 16,
             "height": 24,
-            "file": "maps/wkp/train_station.json",
-            "age": {
-                "mx": true
-            }
+            "file": "maps/wkp/train_station.json"
         }, {
             "id": "wkp7",
             "name": "Train Yard",
@@ -1847,7 +1834,10 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/wkp/train_yard.json"
+            "file": "maps/wkp/train_yard.json",
+            "age": {
+                "mx": true
+            }
         }, {
             "id": "wi0",
             "name": "Arthur's Castle",
@@ -2169,7 +2159,10 @@
             "type": "indoorOutdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/nfaos/nick_furys_safehouse.json"
+            "file": "maps/nfaos/nick_furys_safehouse.json",
+            "age": {
+                "mx": true
+            }
         }, {
             "id": "aou0",
             "name": "Hank Pym's Lab",
@@ -2679,10 +2672,7 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/avx/wundagore_mountain.json",
-            "age": {
-                "mx": true
-            }
+            "file": "maps/avx/wundagore_mountain.json"
         }, {
             "id": "avx5",
             "name": "Savage Land",
@@ -2706,7 +2696,10 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/avx/flooded_wakanda.json"
+            "file": "maps/avx/flooded_wakanda.json",
+            "age": {
+                "mx": true
+            }
         }, {
             "id": "avx8",
             "name": "Limbo",
@@ -3010,7 +3003,10 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/fi/pacific_ocean.json"
+            "file": "maps/fi/pacific_ocean.json",
+            "age": {
+                "mx": true
+            }
         }, {
             "id": "fi14",
             "name": "Brazil",
@@ -3170,7 +3166,10 @@
             "type": "indoor",
             "width": 16,
             "height": 24,
-            "file": "maps/sog/killer_croc_sewer_lair.json"
+            "file": "maps/sog/killer_croc_sewer_lair.json",
+            "age": {
+                "mx": true
+            }
         }, {
             "id": "sog2",
             "name": "Crime Alley",
@@ -3282,10 +3281,7 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/nml/robinson_park_post_cataclysm.json",
-            "age": {
-                "mx": true
-            }
+            "file": "maps/nml/robinson_park_post_cataclysm.json"
         }, {
             "id": "nml8",
             "name": "Gotham City Waterfront",
@@ -3501,10 +3497,7 @@
             "type": "indoorOutdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/ih/gamma_range.json",
-            "age": {
-                "mx": true
-            }
+            "file": "maps/ih/gamma_range.json"
         }, {
             "id": "ih1",
             "name": "Shadowland Fortress",
