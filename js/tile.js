@@ -217,7 +217,7 @@ Tile.prototype.drawRamp = function(ctx, angle) {
 	ctx.fillStyle = "#000000";
 	ctx.textAlign = "center";
 	ctx.textBaseline = "middle";
-	ctx.fillText(this.elevation, 0, TILE_SIZE / 4);
+	ctx.fillText(this.elevation, 0, TILE_SIZE / 4 + 4);
 	ctx.restore();
 }
 
