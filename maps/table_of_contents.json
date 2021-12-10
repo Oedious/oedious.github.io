@@ -2247,6 +2247,49 @@
             "height": 24,
             "file": "maps/jltw/atlantis.json"
         }, {
+            "id": "botm1",
+            "name": "Millennium Puzzle",
+            "set": "Yu-Gi-Oh! Battle of the Millennium",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/botm/millennium_puzzle.json",
+            "age": {
+                "mx": true
+            }
+        }, {
+            "id": "botm2",
+            "name": "Kul Elna",
+            "set": "Yu-Gi-Oh! Battle of the Millennium",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/botm/kul_elna.json"
+        }, {
+            "id": "botm5",
+            "name": "Egypt Battlefield",
+            "set": "Yu-Gi-Oh! Battle of the Millennium",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/botm/egypt_battlefield.json"
+        }, {
+            "id": "ygo2_0",
+            "name": "Zeppelin",
+            "set": "Yu-Gi-Oh! Series Two",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/ygo2/zeppelin.json"
+        }, {
+            "id": "ygo2_1",
+            "name": "Battlecity",
+            "set": "Yu-Gi-Oh! Series Two",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/ygo2/battlecity.json"
+        }, {
             "id": "roc15_0",
             "name": "Assassin's Alley",
             "set": "ROC 2015",
@@ -2582,6 +2625,22 @@
             "width": 16,
             "height": 24,
             "file": "maps/slosh/hall_of_doom_slaughter_swamp.json"
+        }, {
+            "id": "ygo2",
+            "name": "Duelist Kingdom: Water",
+            "set": "Yu-Gi-Oh! Series One",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/ygo/duelist_kingdom_water.json"
+        }, {
+            "id": "ygo3",
+            "name": "The Cavern of Lost Souls",
+            "set": "Yu-Gi-Oh! Series One",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/ygo/the_cavern_of_lost_souls.json"
         }, {
             "id": "roc14_0",
             "name": "Arctic Outpost",
