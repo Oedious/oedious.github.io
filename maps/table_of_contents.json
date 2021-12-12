@@ -1341,6 +1341,14 @@
                 "mx": true
             }
         }, {
+            "id": "mjx_8",
+            "name": "Hunter's Jungle",
+            "set": "Majestix Open Series",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/mjx/hunters_jungle.json"
+        }, {
             "id": "swb0",
             "name": "Regency Laboratory",
             "set": "Secret Wars: Battleworld",
