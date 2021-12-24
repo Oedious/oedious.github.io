@@ -1,11 +1,11 @@
 {
-	"name": "Final Battle, New York",
-	"set": "Civil War: Storyline Organized Play",
-	"source": "Civil War: Storyline OP Kit",
+	"name": "New York",
+	"set": "Avengers Fantastic Four: Empyre",
+	"source": "Avengers Fantastic Four: Empyre: Miniatures Game",
 	"type": "outdoor",
 	"width": 16,
 	"height": 24,
-	"date": "June 2016",
+	"date": "December 2021",
 	"special": ["SPECIAL RULES: For a 4-Player game, players start in the Starting Areas indicated by (purple dotted line) and (orange dotted line) is considered the edge of the map."],
 	"rows": [{
 		"y": 1,
