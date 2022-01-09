@@ -1,5 +1,61 @@
 {
     "maps": [{
+            "id": "f4slop0",
+            "name": "Blue Area of the Moon",
+            "set": "Fantastic Four: Storyline Organized Play",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/f4slop/blue_area_of_the_moon.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "roc": true,
+                "mx": true
+            }
+        },{
+            "id": "f4slop1",
+            "name": "Honeymoon Resort",
+            "set": "Fantastic Four: Storyline Organized Play",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/f4slop/honeymoon_resort.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "roc": true,
+                "mx": true
+            }
+        },{
+            "id": "f4slop2",
+            "name": "Latveria",
+            "set": "Fantastic Four: Storyline Organized Play",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/f4slop/latveria.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "roc": true,
+                "mx": true
+            }
+        },{
+            "id": "f4slop3",
+            "name": "Realm of Death",
+            "set": "Fantastic Four: Storyline Organized Play",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/f4slop/realm_of_death.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "roc": true,
+                "mx": true
+            }
+        },{
             "id": "affe0",
             "name": "Hank Pym's Lab",
             "set": "Avengers Fantastic Four: Empyre",
