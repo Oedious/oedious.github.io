@@ -326,6 +326,14 @@
             "height": 24,
             "file": "maps/roc21/skull_clearing.json"
         }, {
+            "id": "roc21_11",
+            "name": "The Lodge",
+            "set": "ROC 2021",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/roc21/the_lodge.json"
+        }, {
             "id": "hox0",
             "name": "Otherworld Castle",
             "set": "House of X",
