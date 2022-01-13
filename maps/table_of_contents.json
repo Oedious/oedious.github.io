@@ -334,6 +334,14 @@
             "height": 24,
             "file": "maps/roc21/the_lodge.json"
         }, {
+            "id": "roc21_12",
+            "name": "Eastview Circus",
+            "set": "ROC 2021",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/roc21/eastview_circus.json"
+        }, {
             "id": "hox0",
             "name": "Otherworld Castle",
             "set": "House of X",
