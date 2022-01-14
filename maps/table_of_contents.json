@@ -1,5 +1,13 @@
 {
     "maps": [{
+            "id": "roc22_0",
+            "name": "The Regal",
+            "set": "ROC 2022",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/roc22/the_regal.json"
+        }, {
             "id": "ff2021_0",
             "name": "Blue Area of the Moon",
             "set": "Fantastic Four 2021 Storyline Organized Play",
