@@ -28,13 +28,21 @@
                 "mx": true
             }
         },{
-            "id": "f4slop0",
+            "id": "roc22_0",
+            "name": "The Regal",
+            "set": "ROC 2022",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/roc22/the_regal.json"
+        }, {
+            "id": "ff2021_0",
             "name": "Blue Area of the Moon",
-            "set": "Fantastic Four: Storyline Organized Play",
+            "set": "Fantastic Four 2021 Storyline Organized Play",
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/f4slop/blue_area_of_the_moon.json",
+            "file": "maps/ff2021/blue_area_of_the_moon.json",
             "age": {
                 "modern": true,
                 "wko": true,
@@ -42,41 +50,41 @@
                 "mx": true
             }
         },{
-            "id": "f4slop1",
-            "name": "Honeymoon Resort",
-            "set": "Fantastic Four: Storyline Organized Play",
-            "type": "indoor",
-            "width": 16,
-            "height": 24,
-            "file": "maps/f4slop/honeymoon_resort.json",
-            "age": {
-                "modern": true,
-                "wko": true,
-                "roc": true,
-                "mx": true
-            }
-        },{
-            "id": "f4slop2",
-            "name": "Latveria",
-            "set": "Fantastic Four: Storyline Organized Play",
-            "type": "outdoor",
-            "width": 16,
-            "height": 24,
-            "file": "maps/f4slop/latveria.json",
-            "age": {
-                "modern": true,
-                "wko": true,
-                "roc": true,
-                "mx": true
-            }
-        },{
-            "id": "f4slop3",
+            "id": "ff2021_1",
             "name": "Realm of Death",
-            "set": "Fantastic Four: Storyline Organized Play",
+            "set": "Fantastic Four 2021 Storyline Organized Play",
             "type": "indoor",
             "width": 16,
             "height": 24,
-            "file": "maps/f4slop/realm_of_death.json",
+            "file": "maps/ff2021/realm_of_death.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "roc": true,
+                "mx": true
+            }
+        },{
+            "id": "ff2021_2",
+            "name": "Honeymoon Resort",
+            "set": "Fantastic Four 2021 Storyline Organized Play",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/ff2021/honeymoon_resort.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "roc": true,
+                "mx": true
+            }
+        },{
+            "id": "ff2021_3",
+            "name": "Latveria",
+            "set": "Fantastic Four 2021 Storyline Organized Play",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/ff2021/latveria.json",
             "age": {
                 "modern": true,
                 "wko": true,
@@ -345,6 +353,30 @@
             "width": 16,
             "height": 24,
             "file": "maps/roc21/planetary_annihilation.json"
+        }, {
+            "id": "roc21_10",
+            "name": "Skull Clearing",
+            "set": "ROC 2021",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/roc21/skull_clearing.json"
+        }, {
+            "id": "roc21_11",
+            "name": "The Lodge",
+            "set": "ROC 2021",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/roc21/the_lodge.json"
+        }, {
+            "id": "roc21_12",
+            "name": "Eastview Circus",
+            "set": "ROC 2021",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/roc21/eastview_circus.json"
         }, {
             "id": "hox0",
             "name": "Otherworld Castle",
