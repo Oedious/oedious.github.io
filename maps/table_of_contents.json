@@ -1,5 +1,33 @@
 {
     "maps": [{
+            "id": "wor0",
+            "name": "Fallen Asgard",
+            "set": "Avengers: War of the Realms",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/wor/fallen_asgard.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "roc": true,
+                "mx": true
+            }
+        },{
+            "id": "wor1",
+            "name": "Fountain of Asgard",
+            "set": "Avengers: War of the Realms",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/wor/fountain_of_asgard.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "roc": true,
+                "mx": true
+            }
+        },{
             "id": "f4slop0",
             "name": "Blue Area of the Moon",
             "set": "Fantastic Four: Storyline Organized Play",
