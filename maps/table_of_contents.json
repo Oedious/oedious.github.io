@@ -1075,7 +1075,8 @@
             "height": 24,
             "file": "maps/eax/stark_tower.json",
             "age": {
-                "roc": true
+                "roc": true,
+                "mx": true
             }
         }, {
             "id": "eax1",
@@ -1086,7 +1087,8 @@
             "height": 24,
             "file": "maps/eax/wakanda_earth_x.json",
             "age": {
-                "roc": true
+                "roc": true,
+                "mx": true
             }
         }, {
             "id": "eax2",
@@ -1097,7 +1099,8 @@
             "height": 24,
             "file": "maps/eax/ny_harbor.json",
             "age": {
-                "roc": true
+                "roc": true,
+                "mx": true
             }
         }, {
             "id": "eax3",
@@ -1108,7 +1111,8 @@
             "height": 24,
             "file": "maps/eax/skull_camp.json",
             "age": {
-                "roc": true
+                "roc": true,
+                "mx": true
             }
         }, {
             "id": "roc19_0",
