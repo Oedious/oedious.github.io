@@ -1,5 +1,61 @@
 {
     "maps": [{
+            "id": "dplus0",
+            "name": "Munich Escape",
+            "set": "Marvel Studios Disney+",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/dplus/munich_escape.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "roc": true,
+                "mx": true
+            }
+        },{
+            "id": "dplus1",
+            "name": "Strategic Scientific Reserve Building",
+            "set": "Marvel Studios Disney+",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/dplus/s_s_r_b.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "roc": true,
+                "mx": true
+            }
+        },{
+            "id": "dplus2",
+            "name": "The Void",
+            "set": "Marvel Studios Disney+",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/dplus/the_void.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "roc": true,
+                "mx": true
+            }
+        },{
+            "id": "dplus3",
+            "name": "Westview",
+            "set": "Marvel Studios Disney+",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/dplus/westview.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "roc": true,
+                "mx": true
+            }
+        },{
             "id": "wor0",
             "name": "Fallen Asgard",
             "set": "Avengers: War of the Realms",
