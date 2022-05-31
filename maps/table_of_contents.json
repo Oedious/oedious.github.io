@@ -116,8 +116,7 @@
             "age": {
                 "modern": true,
                 "wko": true,
-                "roc": true,
-                "mx": true
+                "roc": true
             }
         },{
             "id": "ff2021_2",
@@ -626,8 +625,7 @@
             "age": {
                 "modern": true,
                 "wko": true,
-                "roc": true,
-                "mx": true
+                "roc": true
             }
         }, {
             "id": "ffcc2",
@@ -654,8 +652,7 @@
             "age": {
                 "modern": true,
                 "wko": true,
-                "roc": true,
-                "mx": true
+                "roc": true
             }
         }, {
             "id": "caav0",
@@ -668,8 +665,7 @@
             "age": {
                 "modern": true,
                 "wko": true,
-                "roc": true,
-                "mx": true
+                "roc": true
             }
         }, {
             "id": "caav1",
@@ -682,8 +678,7 @@
             "age": {
                 "modern": true,
                 "wko": true,
-                "roc": true,
-                "mx": true
+                "roc": true
             }
         }, {
             "id": "roc20_0",
@@ -957,8 +952,7 @@
             "age": {
                 "modern": true,
                 "wko": true,
-                "roc": true,
-                "mx": true
+                "roc": true
             }
         }, {
             "id": "orvl0",
@@ -997,8 +991,7 @@
             "age": {
                 "modern": true,
                 "wko": true,
-                "roc": true,
-                "mx": true
+                "roc": true
             }
         }, {
             "id": "wcr0",
@@ -1011,8 +1004,7 @@
             "age": {
                 "modern": true,
                 "wko": true,
-                "roc": true,
-                "mx": true
+                "roc": true
             }
         }, {
             "id": "wcr1",
@@ -1025,8 +1017,7 @@
             "age": {
                 "modern": true,
                 "wko": true,
-                "roc": true,
-                "mx": true
+                "roc": true
             }
         }, {
             "id": "wcr2",
@@ -1039,8 +1030,7 @@
             "age": {
                 "modern": true,
                 "wko": true,
-                "roc": true,
-                "mx": true
+                "roc": true
             }
         }, {
             "id": "wcr3",
@@ -1053,8 +1043,7 @@
             "age": {
                 "modern": true,
                 "wko": true,
-                "roc": true,
-                "mx": true
+                "roc": true
             }
         }, {
             "id": "wcr4",
@@ -1080,8 +1069,7 @@
             "age": {
                 "modern": true,
                 "wko": true,
-                "roc": true,
-                "mx": true
+                "roc": true
             }
         }, {
             "id": "abpi0",
@@ -1107,8 +1095,7 @@
             "age": {
                 "modern": true,
                 "wko": true,
-                "roc": true,
-                "mx": true
+                "roc": true
             }
         }, {
             "id": "re0",
@@ -2051,10 +2038,7 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/wkp/train_yard.json",
-            "age": {
-                "mx": true
-            }
+            "file": "maps/wkp/train_yard.json"
         }, {
             "id": "wi0",
             "name": "Arthur's Castle",
@@ -2376,10 +2360,7 @@
             "type": "indoorOutdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/nfaos/nick_furys_safehouse.json",
-            "age": {
-                "mx": true
-            }
+            "file": "maps/nfaos/nick_furys_safehouse.json"
         }, {
             "id": "aou0",
             "name": "Hank Pym's Lab",
@@ -2470,10 +2451,7 @@
             "type": "indoor",
             "width": 16,
             "height": 24,
-            "file": "maps/botm/millennium_puzzle.json",
-            "age": {
-                "mx": true
-            }
+            "file": "maps/botm/millennium_puzzle.json"
         }, {
             "id": "botm2",
             "name": "Kul Elna",
@@ -2897,10 +2875,7 @@
             "type": "indoorOutdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/iim/avengers_island.json",
-            "age": {
-                "mx": true
-            }
+            "file": "maps/iim/avengers_island.json"
         }, {
             "id": "iim1",
             "name": "Office Building",
@@ -2972,10 +2947,7 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/avx/flooded_wakanda.json",
-            "age": {
-                "mx": true
-            }
+            "file": "maps/avx/flooded_wakanda.json"
         }, {
             "id": "avx8",
             "name": "Limbo",
@@ -3279,10 +3251,7 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/fi/pacific_ocean.json",
-            "age": {
-                "mx": true
-            }
+            "file": "maps/fi/pacific_ocean.json"
         }, {
             "id": "fi14",
             "name": "Brazil",
@@ -3442,10 +3411,7 @@
             "type": "indoor",
             "width": 16,
             "height": 24,
-            "file": "maps/sog/killer_croc_sewer_lair.json",
-            "age": {
-                "mx": true
-            }
+            "file": "maps/sog/killer_croc_sewer_lair.json"
         }, {
             "id": "sog2",
             "name": "Crime Alley",
