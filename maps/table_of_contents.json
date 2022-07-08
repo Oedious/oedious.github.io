@@ -553,8 +553,6 @@
             "height": 24,
             "file": "maps/jlu/justice_league_watch_tower.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true,
                 "mx": true
             }
@@ -567,8 +565,6 @@
             "height": 24,
             "file": "maps/jlu/injustice_gang_hideout.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true,
                 "mx": true
             }
@@ -581,8 +577,6 @@
             "height": 24,
             "file": "maps/jlu/cadmus_labs.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true,
                 "mx": true
             }
@@ -595,8 +589,6 @@
             "height": 24,
             "file": "maps/jlu/daily_planet.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true,
                 "mx": true
             }
@@ -609,8 +601,6 @@
             "height": 24,
             "file": "maps/ffcc/doom_castle.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true,
                 "mx": true
             }
@@ -623,8 +613,6 @@
             "height": 24,
             "file": "maps/ffcc/testing_grounds.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -636,8 +624,6 @@
             "height": 24,
             "file": "maps/ffcc/reeds_lab.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true,
                 "mx": true
             }
@@ -650,8 +636,6 @@
             "height": 24,
             "file": "maps/ffcc/yancy_street.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -663,8 +647,6 @@
             "height": 24,
             "file": "maps/caav/avengers_mansion.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -676,8 +658,6 @@
             "height": 24,
             "file": "maps/caav/pleasant_hill.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -689,8 +669,6 @@
             "height": 24,
             "file": "maps/roc20/pitfight.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -702,8 +680,6 @@
             "height": 24,
             "file": "maps/roc20/backyard_wrestling.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -715,8 +691,6 @@
             "height": 24,
             "file": "maps/roc20/bar_fighter.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -728,8 +702,6 @@
             "height": 24,
             "file": "maps/roc20/widowmakers_lair.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -741,8 +713,6 @@
             "height": 24,
             "file": "maps/roc20/research_outpost.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -754,8 +724,6 @@
             "height": 24,
             "file": "maps/roc20/the_bounty_hanger.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -767,8 +735,6 @@
             "height": 24,
             "file": "maps/roc20/planet_100475_topside.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -780,8 +746,6 @@
             "height": 24,
             "file": "maps/roc20/warehouse_75.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -801,8 +765,6 @@
             "height": 24,
             "file": "maps/roc20/the_bounty_engine_room.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -814,8 +776,6 @@
             "height": 24,
             "file": "maps/roc20/phoenix_nest.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -827,8 +787,6 @@
             "height": 24,
             "file": "maps/roc20/madison_stadium_a.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -840,8 +798,6 @@
             "height": 24,
             "file": "maps/roc20/madison_stadium_b.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -853,8 +809,6 @@
             "height": 24,
             "file": "maps/roc20/hospital_hall.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -866,8 +820,6 @@
             "height": 24,
             "file": "maps/roc20/glenn_grove_cemetary.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -911,8 +863,6 @@
             "height": 24,
             "file": "maps/wwe/wwe_arena.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -924,8 +874,6 @@
             "height": 24,
             "file": "maps/wwe/wwe_backstage_area.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -937,8 +885,6 @@
             "height": 24,
             "file": "maps/wwe/wwe_wargames.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -950,8 +896,6 @@
             "height": 24,
             "file": "maps/wwe/wwe_training_center.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -963,8 +907,6 @@
             "height": 24,
             "file": "maps/orvl/orville_bridge.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -976,8 +918,6 @@
             "height": 24,
             "file": "maps/xdps/savage_land.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -989,8 +929,6 @@
             "height": 24,
             "file": "maps/xdps/sentinel_factory.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -1002,8 +940,6 @@
             "height": 24,
             "file": "maps/wcr/san_francisco_mutant_museum.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -1015,8 +951,6 @@
             "height": 24,
             "file": "maps/wcr/lombard_street.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -1028,8 +962,6 @@
             "height": 24,
             "file": "maps/wcr/jean_grey_school_for_higher_learning_grounds.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -1041,8 +973,6 @@
             "height": 24,
             "file": "maps/wcr/danger_room_east.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -1054,8 +984,6 @@
             "height": 24,
             "file": "maps/wcr/utopia.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -1067,8 +995,6 @@
             "height": 24,
             "file": "maps/wcr/danger_room_west.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -1080,8 +1006,6 @@
             "height": 24,
             "file": "maps/abpi/the_great_mound.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -1093,8 +1017,6 @@
             "height": 24,
             "file": "maps/abpi/necropolis.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -1117,8 +1039,6 @@
             "height": 24,
             "file": "maps/re/metal_arena.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -1186,8 +1106,6 @@
             "height": 24,
             "file": "maps/roc19/police_hq.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -1199,8 +1117,6 @@
             "height": 24,
             "file": "maps/roc19/prison_tier.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -1212,8 +1128,6 @@
             "height": 24,
             "file": "maps/roc19/courthouse.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -1225,8 +1139,6 @@
             "height": 24,
             "file": "maps/roc19/street_riot.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -1238,8 +1150,6 @@
             "height": 24,
             "file": "maps/roc19/the_docks.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -1251,8 +1161,6 @@
             "height": 24,
             "file": "maps/roc19/warehouse_19.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -1272,8 +1180,6 @@
             "height": 24,
             "file": "maps/roc19/underground_temple.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -1285,8 +1191,6 @@
             "height": 24,
             "file": "maps/roc19/construction_site.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -1298,8 +1202,6 @@
             "height": 24,
             "file": "maps/roc19/archway_park.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -1311,8 +1213,6 @@
             "height": 24,
             "file": "maps/roc19/kings_tomb.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -1335,8 +1235,6 @@
             "height": 24,
             "file": "maps/roc19/dracon_mount.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -1348,8 +1246,6 @@
             "height": 24,
             "file": "maps/roc19/campsite.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -1361,8 +1257,6 @@
             "height": 24,
             "file": "maps/roc19/sanctuary.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -1374,8 +1268,6 @@
             "height": 24,
             "file": "maps/roc19/political_rally.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -1387,8 +1279,6 @@
             "height": 24,
             "file": "maps/roc19/chomps_swamp.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -1400,8 +1290,6 @@
             "height": 24,
             "file": "maps/roc19/settle_it_on_the_canvas.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -1421,8 +1309,6 @@
             "height": 24,
             "file": "maps/roc19/ancient_hold.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -1434,8 +1320,6 @@
             "height": 24,
             "file": "maps/roc15/assassins_alley.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
@@ -1447,8 +1331,6 @@
             "height": 24,
             "file": "maps/roc14/mayan_ruins.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "roc": true
             }
         }, {
