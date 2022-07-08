@@ -1028,7 +1028,7 @@
             "height": 24,
             "file": "maps/re/titan_tower.json",
             "age": {
-                "modern": true
+                "roc": true
             }
         }, {
             "id": "re1",
@@ -1224,7 +1224,7 @@
             "height": 24,
             "file": "maps/roc19/hanging_island.json",
             "age": {
-                "modern": true
+                "roc": true
             }
         }, {
             "id": "roc19_13",
