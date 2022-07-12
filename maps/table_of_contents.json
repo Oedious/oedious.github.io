@@ -56,13 +56,13 @@
                 "mx": true
             }
         },{
-            "id": "wor0",
+            "id": "wotr0",
             "name": "Fallen Asgard",
             "set": "Avengers: War of the Realms",
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/wor/fallen_asgard.json",
+            "file": "maps/wotr/fallen_asgard.json",
             "age": {
                 "modern": true,
                 "wko": true,
@@ -70,13 +70,13 @@
                 "mx": true
             }
         },{
-            "id": "wor1",
+            "id": "wotr1",
             "name": "Fountain of Asgard",
             "set": "Avengers: War of the Realms",
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/wor/fountain_of_asgard.json",
+            "file": "maps/wotr/fountain_of_asgard.json",
             "age": {
                 "modern": true,
                 "wko": true,
