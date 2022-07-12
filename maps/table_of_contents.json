@@ -1,12 +1,12 @@
 {
     "maps": [{
-            "id": "dplus0",
+            "id": "msdp0",
             "name": "Munich Escape",
             "set": "Marvel Studios Disney+",
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/dplus/munich_escape.json",
+            "file": "maps/msdp/munich_escape.json",
             "age": {
                 "modern": true,
                 "wko": true,
@@ -14,13 +14,13 @@
                 "mx": true
             }
         },{
-            "id": "dplus1",
+            "id": "msdp1",
             "name": "Strategic Scientific Reserve Building",
             "set": "Marvel Studios Disney+",
             "type": "indoor",
             "width": 16,
             "height": 24,
-            "file": "maps/dplus/s_s_r_b.json",
+            "file": "maps/msdp/strategic_scientific_reserve_building.json",
             "age": {
                 "modern": true,
                 "wko": true,
@@ -28,13 +28,13 @@
                 "mx": true
             }
         },{
-            "id": "dplus2",
+            "id": "msdp2",
             "name": "The Void",
             "set": "Marvel Studios Disney+",
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/dplus/the_void.json",
+            "file": "maps/msdp/the_void.json",
             "age": {
                 "modern": true,
                 "wko": true,
@@ -42,13 +42,13 @@
                 "mx": true
             }
         },{
-            "id": "dplus3",
+            "id": "msdp3",
             "name": "Westview",
             "set": "Marvel Studios Disney+",
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/dplus/westview.json",
+            "file": "maps/msdp/westview.json",
             "age": {
                 "modern": true,
                 "wko": true,
