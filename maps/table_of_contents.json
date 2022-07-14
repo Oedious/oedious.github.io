@@ -77,7 +77,7 @@
                 "wko": true,
                 "mx": true
             }
-        },{
+        }, {
             "id": "roc22_0",
             "name": "The Regal",
             "set": "ROC 2022",
@@ -85,6 +85,70 @@
             "width": 16,
             "height": 24,
             "file": "maps/roc22/the_regal.json"
+        }, {
+            "id": "roc22_1",
+            "name": "Red Mines",
+            "set": "ROC 2022",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/roc22/red_mines.json",
+            "age": {
+                "modern": true,
+                "wko": true
+            }
+        }, {
+            "id": "roc22_2",
+            "name": "Payroll Hold Up",
+            "set": "ROC 2022",
+            "type": "indoorOutdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/roc22/payroll_hold_up.json"
+        }, {
+            "id": "roc22_3",
+            "name": "Sabotage Motel",
+            "set": "ROC 2022",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/roc22/sabotage_motel.json"
+        }, {
+            "id": "roc22_4",
+            "name": "Panther Fieldhouse",
+            "set": "ROC 2022",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/roc22/panther_fieldhouse.json",
+            "age": {
+                "modern": true,
+                "wko": true
+            }
+        }, {
+            "id": "roc22_5",
+            "name": "Barnstable Wedding",
+            "set": "ROC 2022",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/roc22/barnstable_wedding.json",
+            "age": {
+                "modern": true,
+                "wko": true
+            }
+        }, {
+            "id": "roc22_6",
+            "name": "The Four Points",
+            "set": "ROC 2022",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/roc22/the_four_points.json",
+            "age": {
+                "modern": true,
+                "wko": true
+            }
         }, {
             "id": "ff2021_0",
             "name": "Blue Area of the Moon",
@@ -743,7 +807,11 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/roc20/phoenix_nest.json"
+            "file": "maps/roc20/phoenix_nest.json",
+            "age": {
+                "modern": true,
+                "wko": true
+            }
         }, {
             "id": "roc20_11",
             "name": "Madison Stadium A",
