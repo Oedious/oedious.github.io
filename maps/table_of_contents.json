@@ -1,12 +1,12 @@
 {
     "maps": [{
             "id": "msdp0",
-            "name": "Munich Escape",
+            "name": "Westview",
             "set": "Marvel Studios Disney+",
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/msdp/munich_escape.json",
+            "file": "maps/msdp/westview.json",
             "age": {
                 "modern": true,
                 "wko": true,
@@ -27,6 +27,19 @@
             }
         },{
             "id": "msdp2",
+            "name": "Munich Escape",
+            "set": "Marvel Studios Disney+",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/msdp/munich_escape.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "mx": true
+            }
+        },{
+            "id": "msdp3",
             "name": "The Void",
             "set": "Marvel Studios Disney+",
             "type": "outdoor",
@@ -39,26 +52,37 @@
                 "mx": true
             }
         },{
-            "id": "msdp3",
-            "name": "Westview",
+            "id": "msdp4",
+            "name": "Apocalyptic Avenue",
             "set": "Marvel Studios Disney+",
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/msdp/westview.json",
+            "file": "maps/msdp/apocalyptic_avenue.json",
             "age": {
                 "modern": true,
-                "wko": true,
-                "mx": true
+                "wko": true
+            }
+        },{
+            "id": "msdp5",
+            "name": "Downtown",
+            "set": "Marvel Studios Disney+",
+            "type": "indoorOutdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/msdp/downtown.json",
+            "age": {
+                "modern": true,
+                "wko": true
             }
         },{
             "id": "wotr0",
-            "name": "Fallen Asgard",
+            "name": "Fountain of Asgard",
             "set": "Avengers: War of the Realms",
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/wotr/fallen_asgard.json",
+            "file": "maps/wotr/fountain_of_asgard.json",
             "age": {
                 "modern": true,
                 "wko": true,
@@ -66,12 +90,12 @@
             }
         },{
             "id": "wotr1",
-            "name": "Fountain of Asgard",
+            "name": "Fallen Asgard",
             "set": "Avengers: War of the Realms",
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/wotr/fountain_of_asgard.json",
+            "file": "maps/wotr/fallen_asgard.json",
             "age": {
                 "modern": true,
                 "wko": true,
