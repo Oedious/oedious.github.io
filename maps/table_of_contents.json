@@ -1358,6 +1358,14 @@
             "height": 24,
             "file": "maps/mjx/hunters_jungle.json"
         }, {
+            "id": "mjx_9",
+            "name": "Glass Lake",
+            "set": "Majestix Open Series",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/mjx/glass_lake.json"
+        }, {
             "id": "swb0",
             "name": "Regency Laboratory",
             "set": "Secret Wars: Battleworld",
