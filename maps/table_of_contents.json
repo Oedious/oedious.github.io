@@ -232,8 +232,7 @@
             "height": 24,
             "file": "maps/affe/hank_pyms_lab.json",
             "age": {
-                "modern": true,
-                "mx": true
+                "modern": true
             }
         }, {
             "id": "affe1",
@@ -362,8 +361,7 @@
             "file": "maps/ffff/negative_zone_prison.json",
             "age": {
                 "modern": true,
-                "wko": true,
-                "mx": true
+                "wko": true
             }
         }, {
             "id": "ffff1",
@@ -1378,7 +1376,18 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/mjx/glass_lake.json"
+            "file": "maps/mjx/glass_lake.json",
+            "age": {
+                "mx": true
+            }
+        }, {
+            "id": "mjx_11",
+            "name": "Taggert Farm",
+            "set": "Majestix Open Series",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/mjx/taggert_farm.json"
         }, {
             "id": "swb0",
             "name": "Regency Laboratory",
