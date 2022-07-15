@@ -1351,14 +1351,28 @@
             }
         }, {
             "id": "mjx_8",
+            "name": "Dinosaur Land",
+            "set": "Majestix Open Series",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/mjx/dinosaur_land.json",
+            "age": {
+                "mx": true
+            }
+        }, {
+            "id": "mjx_9",
             "name": "Hunter's Jungle",
             "set": "Majestix Open Series",
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/mjx/hunters_jungle.json"
+            "file": "maps/mjx/hunters_jungle.json",
+            "age": {
+                "mx": true
+            }
         }, {
-            "id": "mjx_9",
+            "id": "mjx_10",
             "name": "Glass Lake",
             "set": "Majestix Open Series",
             "type": "outdoor",
