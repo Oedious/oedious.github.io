@@ -6,6 +6,7 @@
   <title>Heroclix Map Viewer</title>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
    <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+   <link type="text/css" rel="stylesheet" href="css/materialize-custom.css"  media="screen,projection"/>
    <link type="text/css" rel="stylesheet" href="css/oedious.css" media="screen,projection" />
 </head>
 
@@ -93,6 +94,72 @@
 					<option value="24x24">24x24</option>
 				  </select>
 				  <label>Size:</label>
+				</div>
+				<div>
+					<label>
+						<input id="blocking" type="checkbox" class="checkbox-red filled-in" onchange="mgr.applyFilters()"/>
+						<span>Blocking</span>
+					</label>
+					<div style="margin-left:40px">
+						<form action="#">
+						<label><input id="hasBlocking" type="radio" name="blocking" checked disabled="disabled" onchange="mgr.applyFilters()"/><span>Has</span></label>
+						<label><input id="notHasBlocking" type="radio" name="blocking" disabled="disabled" onchange="mgr.applyFilters()"/><span>Does Not Have</span></label>
+						</form>
+					</div>
+				</div>
+				<div>
+					<label>
+						<input id="hindering" type="checkbox" class="checkbox-red filled-in" onchange="mgr.applyFilters()"/>
+						<span>Hindering</span>
+					</label>
+					<div style="margin-left:40px">
+						<form action="#">
+						<label><input id="hasHindering" type="radio" name="blocking" checked disabled="disabled" onchange="mgr.applyFilters()" /><span>Has</span></label>
+						<label><input id="notHasHindering" type="radio" name="blocking" disabled="disabled" onchange="mgr.applyFilters()" /><span>Does Not Have</span></label>
+						</form>
+					</div>
+				</div>
+				<div>
+					<label>
+						<input id="water" type="checkbox" class="checkbox-red filled-in" onchange="mgr.applyFilters()"/>
+						<span>Water</span>
+					</label>
+					<div style="margin-left:40px">
+						<form action="#">
+						<label><input id="hasWater" type="radio" name="blocking" checked disabled="disabled" onchange="mgr.applyFilters()" /><span>Has</span></label>
+						<label><input id="notHasWater" type="radio" name="blocking" disabled="disabled" onchange="mgr.applyFilters()" /><span>Does Not Have</span></label>
+						</form>
+					</div>
+				</div>
+				<div>
+					<label>
+						<input id="elevated" type="checkbox" class="checkbox-red filled-in" onchange="mgr.applyFilters()"/>
+						<span>Elevated</span>
+					</label>
+					<div style="margin-left:40px">
+						<form action="#">
+						<label><input id="hasElevated" type="radio" name="blocking" checked disabled="disabled" onchange="mgr.applyFilters()" /><span>Has</span></label>
+						<label><input id="notHasElevated" type="radio" name="blocking" disabled="disabled" onchange="mgr.applyFilters()" /><span>Does Not Have</span></label>
+						</form>
+					</div>
+				</div>
+				<div>
+					<label>
+						<input id="walls" type="checkbox" class="checkbox-red filled-in" onchange="mgr.applyFilters()"/>
+						<span>Walls</span>
+					</label>
+					<div style="margin-left:40px">
+						<form action="#">
+						<label><input id="hasWalls" type="radio" name="blocking" checked disabled="disabled" onchange="mgr.applyFilters()" /><span>Has</span></label>
+						<label><input id="notHasWalls" type="radio" name="blocking" disabled="disabled" onchange="mgr.applyFilters()" /><span>Does Not Have</span></label>
+						</form>
+					</div>
+				</div>
+				<div>
+					<label>
+						<input id="hasLocationBonus" type="checkbox" class="checkbox-red filled-in" onchange="mgr.applyFilters()"/>
+						<span>Has Location Bonus
+					</label>
 				</div>
 			</div>
 		</li>

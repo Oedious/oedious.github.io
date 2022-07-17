@@ -1,0 +1,9 @@
+.checkbox-red[type="checkbox"].filled-in:checked+span:not(.lever):after {
+  border: 2px solid red;
+  background-color: red;
+}
+
+[type="radio"]:checked+span:after {
+  background-color: red;
+  border: 2px solid red;
+}
