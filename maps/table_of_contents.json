@@ -76,6 +76,15 @@
                 "wko": true
             }
         },{
+            "id": "msdp6",
+            "name": "Downtown",
+            "set": "Marvel Studios Disney+",
+            "file": "maps/msdp/template_16x24.json",
+            "age": {
+                "modern": true,
+                "wko": true
+            }
+        },{
             "id": "wotr0",
             "name": "Fountain of Asgard",
             "set": "Avengers: War of the Realms",
