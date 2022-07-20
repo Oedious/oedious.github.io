@@ -1,9 +1,7 @@
 name: update filters
 
 on:
-  push:
-    branches:
-      - 'staging'
+  push
 
 jobs:
   build:
