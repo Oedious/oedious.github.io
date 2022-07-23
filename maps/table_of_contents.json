@@ -1,5 +1,40 @@
 {
     "maps": [{
+            "id": "xmxs0",
+            "name": "Limbo",
+            "set": "X-Men: X of Swords",
+            "file": "maps/xmxs/limbo.json",
+            "age": {
+                "modern": true,
+                "wko": true
+            }
+        },{
+            "id": "xmxs1",
+            "name": "Otherworld: Castle",
+            "set": "X-Men: X of Swords",
+            "file": "maps/xmxs/otherworld_castle.json",
+            "age": {
+                "modern": true,
+                "wko": true
+            }
+        },{
+            "id": "xmxs2",
+            "name": "Otherworld: Shadow of the Starlight Citadel",
+            "set": "X-Men: X of Swords",
+            "file": "maps/xmxs/otherworld_shadow_of_the_citadel.json",
+            "age": {
+                "modern": true,
+                "wko": true
+            }
+        },{
+            "id": "xmxs2",
+            "name": "Otherworld: Blightspoke",
+            "set": "X-Men: X of Swords",
+            "file": "maps/xmxs/otherworld_blightspoke.json",
+            "age": {
+                "modern": true
+            }
+        },{
             "id": "msdp0",
             "name": "Westview",
             "set": "Marvel Studios Disney+",
