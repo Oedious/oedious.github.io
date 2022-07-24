@@ -1,0 +1,32 @@
+name: update filters
+
+on:
+  push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repo
+        uses: actions/checkout@v2
+
+      - name: setup python
+        uses: actions/setup-python@v2
+        with: 
+          python-version: '3.7.7'
+
+      - name: execute py script
+        run: python parse_maps_for_filters.py
+
+      - name: commit files
+        run: |
+          git config --local user.email "jarvis@hcmaps.net"
+          git config --local user.name "Jarvis"
+          git add -A
+          git commit -m "generate updated filters json" -a
+
+      - name: push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: master
