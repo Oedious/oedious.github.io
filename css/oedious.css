@@ -9,40 +9,40 @@
       transition: 0.5s;
 	  background-color: white;
     }
-	
+
 	#tableOfContents a {
 		color:#777777;
 	}
-	
+
 	#tableOfContents li {
 		background-color:#ffffff;
 		padding:.5rem;
 	}
-	
+
 	#tableOfContents li.mapLink:hover {
 		background-color: #ffe7e6;
 	}
-	
+
 	#tableOfContents li.mapLink:focus {
 		background-color: #ffc8b9;
 	}
-	
+
 	#tableOfContents li.mapLink:selected {
 		background-color: #ffc8b9;
 	}
-	
+
 	#tableOfContents li.mapLink a {
 		height: 100%;
 		width: 100%;
 		display: block;
 	}
-	
+
     #leftNav {
       left: 0px;
 	  top: 58px;
 	  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
     }
-	
+
 	@media(min-width: 601px){
 	    #leftNav {
 		  left: 0px;
@@ -60,17 +60,17 @@
     #leftNav #leftToggle {
       right: 0;
     }
-	
+
 	#mapHeader {
 		display: none;
 	}
-	
+
 	@media(min-width: 601px){
 		#mapHeader {
 			display: block;
 		}
 	}
-	
+
 	#arrowLeft {
 	  top: 70px;
 	  left: 292px;
@@ -81,7 +81,7 @@
 	  width: 40px;
 	  transition: 0.5s;
 	}
-	
+
 	#arrowIcon {
 	font-size: 1.8rem;
 	text-align: center;
@@ -126,7 +126,7 @@
     .headerButton {
       width: 75px;
     }
-	
+
 	.main {
 			position: absolute;
 			top: 56px;
@@ -136,7 +136,7 @@
 			overflow: hidden;
 			transition: 0.5s;
 		}
-	
+
 	@media (min-width:601px) {
 		.main {
 		  position: absolute;
@@ -148,44 +148,44 @@
 		  transition: 0.5s;
 		}
 	}
-	
+
 	.fixed-action-btn {
 		bottom: 6px;
 	}
-	
+
 	@media (min-width:601px) {
 		.fixed-action-btn{
 			bottom:23px;
 		}
 	}
-	
+
 	.collapsible-body {
 		padding:0;
 	}
-	
+
 	::-webkit-scrollbar {
 		width:8px;
 		height:8px;
 		background:#00000000;
 	}
-	
+
 	::-webkit-scrollbar-thumb {
 		background:#ee0202;
 		border-radius:4px;
 	}
-	
+
 	::-webkit-scrollbar-track {
 		background:#00000000;
 	}
-	
+
 	.dropdown-content li > a, .dropdown-content li > span {
 		color:#ee0202;
 	}
-	
+
 	.select-wrapper input.select-dropdown:focus {
 		border-bottom: 1px solid #ee0202;
 	}
-	
+
 	.select-dropdown.dropdown-content li:hover {
 	  background-color: #ffe7e6;
 	}
@@ -193,38 +193,38 @@
 	.select-dropdown.dropdown-content li.selected {
 	  background-color: #ffc8b9;
 	}
-	
+
 	.select-dropdown.dropdown-content li.focus {
 	  background-color: #ffc8b9;
 	}
-	
+
 	body.keyboard-focused .select-dropdown.dropdown-content li:focus {
 	  background-color: #ffc8b9;
 	}
-	
+
 	.collapsible {
 		margin-bottom: 4px;
 	}
-	
+
 	@media (min-width:601px){
 		.collapsible {
 			margin-bottom: 1rem;
 		}
 	}
-	
+
 	#mapInfo {
-		position:absolute; 
-		bottom:4px; 
+		position:absolute;
+		bottom:4px;
 		width:300px;
 		left: 4px;
 		max-height:100%;
 		overflow-y: scroll;
 	}
-	
+
 	@media (min-width:601px) {
 		#mapInfo {
-			position:absolute; 
-			bottom:0; 
+			position:absolute;
+			bottom:0;
 			width:300px;
 			left: 4px;
 			padding-bottom: 10px;
@@ -232,16 +232,29 @@
 		overflow-y: scroll;
 		}
 	}
-	
+
 	.input-field .prefix.active {
 		color: #ee0202
 	}
-	
+
+	.filter-block {
+		display: block;
+		clear: both;
+	}
+
+	.filter-label {
+		float: left;
+	}
+
+	.filter-choices {
+		float: right;
+	}
+
 	textarea.materialize-textarea:focus:not([readonly]) {
 		border-bottom: 1px solid #ee0202;
 		box-shadow: 0 1px 0 0 #ee0202;
 	}
-	
+
 	textarea.materialize-textarea:focus:not([readonly]) + label {
 		color: #ee0202;
 	}

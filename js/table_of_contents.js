@@ -23,27 +23,18 @@ TableOfContents.prototype.applyFilters = function() {
     var filterByType = document.getElementById("selectType").value;
     var filterBySize = document.getElementById("selectSize").value;
 	var filterByName = document.getElementById("name_search").value.toLowerCase();
-	var hasLocationBonus = document.getElementById("hasLocationBonus").checked;
-	var filterBlocking = document.getElementById("blocking").checked;
-	var filterBlockingHas = document.getElementById("hasBlocking").checked;
-	document.getElementById("hasBlocking").disabled=!filterBlocking;
-	document.getElementById("notHasBlocking").disabled=!filterBlocking;
-	var filterHindering = document.getElementById("hindering").checked;
-	var filterHinderingHas = document.getElementById("hasHindering").checked;
-	document.getElementById("hasHindering").disabled=!filterHindering;
-	document.getElementById("notHasHindering").disabled=!filterHindering;
-	var filterWater = document.getElementById("water").checked;
-	var filterWaterHas = document.getElementById("hasWater").checked;
-	document.getElementById("hasWater").disabled=!filterWater
-	document.getElementById("notHasWater").disabled=!filterWater
-	var filterElevated = document.getElementById("elevated").checked;
-	var filterElevatedHas = document.getElementById("hasElevated").checked;
-	document.getElementById("hasElevated").disabled=!filterElevated
-	document.getElementById("notHasElevated").disabled=!filterElevated
-	var filterWalls = document.getElementById("walls").checked;
-	var filterWallsHas = document.getElementById("hasWalls").checked;
-	document.getElementById("hasWalls").disabled=!filterWalls
-	document.getElementById("notHasWalls").disabled=!filterWalls
+	var filterBlocking = !document.getElementById("naBlocking").checked;
+	var filterBlockingHas = document.getElementById("yesBlocking").checked;
+	var filterHindering = !document.getElementById("naHindering").checked;
+	var filterHinderingHas = document.getElementById("yesHindering").checked;
+	var filterWater = !document.getElementById("naWater").checked;
+	var filterWaterHas = document.getElementById("yesWater").checked;
+	var filterElevated = !document.getElementById("naElevated").checked;
+	var filterElevatedHas = document.getElementById("yesElevated").checked;
+	var filterWalls = !document.getElementById("naWalls").checked;
+	var filterWallsHas = document.getElementById("yesWalls").checked;
+	var filterLocationBonus = !document.getElementById("naLocationBonus").checked;
+	var filterLocationBonusHas = document.getElementById("yesLocationBonus").checked;
     this.tocFiltered_ = [];
     for (var i = 0; i < this.toc_.length; ++i) {
         var map = this.toc_[i];
@@ -59,9 +50,6 @@ TableOfContents.prototype.applyFilters = function() {
 		if (filterByName != "" && !(map.name.toLowerCase().includes(filterByName))) {
 			continue;
 		}
-		if (hasLocationBonus && !this.filters['locationBonus'].includes(map.id)) {
-			continue;
-		}
 		if (filterBlocking && this.filters.terrain['blocking'].includes(map.id) != filterBlockingHas) {
 			continue;
 		}
@@ -75,6 +63,9 @@ TableOfContents.prototype.applyFilters = function() {
 			continue;
 		}
 		if (filterWalls && this.filters.terrain['walls'].includes(map.id) != filterWallsHas) {
+			continue;
+		}
+		if (filterLocationBonus && this.filters['locationBonus'].includes(map.id) != filterLocationBonusHas) {
 			continue;
 		}
         this.tocFiltered_.push(map);
