@@ -1,36 +1,67 @@
 {
     "maps": [{
             "id": "xmxs0",
-            "name": "Limbo",
-            "set": "X-Men: X of Swords",
-            "file": "maps/xmxs/limbo.json",
-            "age": {
-                "modern": true,
-                "wko": true
-            }
-        },{
-            "id": "xmxs1",
             "name": "Otherworld: Castle",
-            "set": "X-Men: X of Swords",
+            "set": "X of Swords",
             "file": "maps/xmxs/otherworld_castle.json",
             "age": {
                 "modern": true,
-                "wko": true
+                "wko": true,
+                "mx": true
             }
         },{
-            "id": "xmxs2",
-            "name": "Otherworld: Shadow of the Starlight Citadel",
-            "set": "X-Men: X of Swords",
-            "file": "maps/xmxs/otherworld_shadow_of_the_citadel.json",
+            "id": "xmxs1",
+            "name": "Limbo",
+            "set": "X of Swords",
+            "file": "maps/xmxs/limbo.json",
             "age": {
                 "modern": true,
-                "wko": true
+                "wko": true,
+                "mx": true
             }
         },{
             "id": "xmxs2",
+            "name": "Morlock Tunnels",
+            "set": "X of Swords",
+            "file": "maps/xmxs/morlock_tunnels.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "mx": true
+            }
+        },{
+            "id": "xmxs3",
+            "name": "Krakoan Garden",
+            "set": "X of Swords",
+            "file": "maps/xmxs/krakoan_garden.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "mx": true
+            }
+        },{
+            "id": "xmxs4",
+            "name": "Otherworld: Shadow of the Starlight Citadel",
+            "set": "X of Swords",
+            "file": "maps/xmxs/otherworld_shadow_of_the_starlight_citadel.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "mx": true
+            }
+        },{
+            "id": "xmxs5",
             "name": "Otherworld: Blightspoke",
-            "set": "X-Men: X of Swords",
+            "set": "X of Swords",
             "file": "maps/xmxs/otherworld_blightspoke.json",
+            "age": {
+                "modern": true
+            }
+        },{
+            "id": "xmxs6",
+            "name": "Otherworld: Starlight Citadel Ballroom",
+            "set": "X of Swords",
+            "file": "maps/xmxs/otherworld_starlight_citadel_ballroom.json",
             "age": {
                 "modern": true
             }
