@@ -3926,6 +3926,14 @@
             "height": 24,
             "file": "maps/si/baxter_building.json"
         }, {
+            "id": "cr0",
+            "name": "Dawn of Man",
+            "set": "Crisis",
+            "type": "outdoor",
+            "width": 24,
+            "height": 24,
+            "file": "maps/cr/dawn_of_man.json"
+        }, {
             "id": "cr8",
             "name": "Anti-Matter Fortress",
             "set": "Crisis",
@@ -3982,6 +3990,14 @@
             "height": 24,
             "file": "maps/ls/small_town.json"
         }, {
+            "id": "or0",
+            "name": "JSA Museum",
+            "set": "Origin",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/or/jsa_museum.json"
+        }, {
             "id": "sv0",
             "name": "Deep Space",
             "set": "Supernova",
@@ -3989,6 +4005,30 @@
             "width": 16,
             "height": 24,
             "file": "maps/sv/deep_space.json"
+        }, {
+            "id": "sn0",
+            "name": "The Prison",
+            "set": "Sinister",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/sn/the_prison.json"
+        }, {
+            "id": "cd0",
+            "name": "The Junkyard",
+            "set": "Collateral Damage",
+            "type": "indoorOutdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/cd/the_junkyard.json"
+        }, {
+            "id": "aw0",
+            "name": "The Lab",
+            "set": "Armor Wars",
+            "type": "indoorOutdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/aw/the_lab.json"
         }, {
             "id": "ui0",
             "name": "Xavier's School",
