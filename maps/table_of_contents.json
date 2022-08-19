@@ -2326,6 +2326,14 @@
             "height": 24,
             "file": "maps/jltw/atlantis.json"
         }, {
+            "id": "botm0",
+            "name": "Pharaoh's Throne Room",
+            "set": "Yu-Gi-Oh! Battle of the Millennium",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/botm/pharaohs_throne_room.json"
+        }, {
             "id": "botm1",
             "name": "Millennium Puzzle",
             "set": "Yu-Gi-Oh! Battle of the Millennium",
@@ -2341,6 +2349,22 @@
             "width": 16,
             "height": 24,
             "file": "maps/botm/kul_elna.json"
+        }, {
+            "id": "botm3",
+            "name": "Egypt River",
+            "set": "Yu-Gi-Oh! Battle of the Millennium",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/botm/egypt_river.json"
+        }, {
+            "id": "botm4",
+            "name": "Broken Sphinx",
+            "set": "Yu-Gi-Oh! Battle of the Millennium",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/botm/broken_sphinx.json"
         }, {
             "id": "botm5",
             "name": "Egypt Battlefield",
