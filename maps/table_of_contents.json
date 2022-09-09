@@ -53,18 +53,12 @@
             "id": "xmxs5",
             "name": "Otherworld: Blightspoke",
             "set": "X of Swords",
-            "file": "maps/xmxs/otherworld_blightspoke.json",
-            "age": {
-                "modern": true
-            }
+            "file": "maps/xmxs/otherworld_blightspoke.json"
         },{
             "id": "xmxs6",
             "name": "Otherworld: Starlight Citadel Ballroom",
             "set": "X of Swords",
-            "file": "maps/xmxs/otherworld_starlight_citadel_ballroom.json",
-            "age": {
-                "modern": true
-            }
+            "file": "maps/xmxs/otherworld_starlight_citadel_ballroom.json"
         },{
             "id": "msdp0",
             "name": "Westview",

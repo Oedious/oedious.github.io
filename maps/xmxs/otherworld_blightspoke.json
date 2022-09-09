@@ -418,13 +418,17 @@
 		}, {
 			"x": "F"
 		}, {
-			"x": "G"
+			"x": "G",
+			"terrain":"hindering"
 		}, {
-			"x": "H"
+			"x": "H",
+			"terrain":"hindering"
 		}, {
-			"x": "I"
+			"x": "I",
+			"terrain":"hindering"
 		}, {
-			"x": "J"
+			"x": "J",
+			"terrain":"hindering"
 		}, {
 			"x": "K"
 		}, {
