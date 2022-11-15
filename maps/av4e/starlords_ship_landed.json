@@ -1,12 +1,12 @@
 {
-	"name": "Star-Lord's Ship",
-	"set": "Guardians of the Galaxy",
-	"source": "Guardians of the Galaxy: OP Kit",
+	"name": "Starlord's Ship (Landed)",
+	"set": "Avengers Forever",
+	"source": "Avengers Forever: Play At Home Kit",
 	"type": "indoor",
 	"width": 16,
 	"height": 24,
-	"date": "August 2014",
-	"special": ["DEEP SPACE: Orange squares are blocking terrain that can't be destroyed."],
+	"date": "November 2022",
+	"special": ["UNBREACHABLE HULL: Orange squares are blocking terrain that can't be destroyed."],
 	"rows": [{
 		"y": 1,
 		"tiles": [{

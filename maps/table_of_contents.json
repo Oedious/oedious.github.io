@@ -1,5 +1,21 @@
 {
     "maps": [{
+            "id": "av4e0",
+            "name": "Avengers Compound (Winter)",
+            "set": "Avengers Forever",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/av4e/avengers_compound_winter.json"
+        }, {
+            "id": "av4e1",
+            "name": "Starlord's Ship (Landed)",
+            "set": "Avengers Forever",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/av4e/starlords_ship_landed.json"
+        }, {
             "id": "xmxs0",
             "name": "Otherworld: Castle",
             "set": "X of Swords",
