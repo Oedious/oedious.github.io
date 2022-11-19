@@ -272,6 +272,17 @@
                 "mx": true
             }
         }, {
+            "id": "mjx22_2",
+            "name": "Knowby Cabin",
+            "set": "Majestix Open Series 2022",
+            "type": "indoorOutdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/mjx22/knowby_cabin.json",
+            "age": {
+                "mx": true
+            }
+        }, {
             "id": "ff2021_0",
             "name": "Blue Area of the Moon",
             "set": "Fantastic Four 2021 Storyline Organized Play",
