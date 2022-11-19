@@ -250,6 +250,14 @@
                 "wko": true
             }
         }, {
+            "id": "roc22_7",
+            "name": "Water Ziggurat",
+            "set": "ROC 2022",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/roc22/water_ziggurat.json"
+        }, {
             "id": "mjx22_0",
             "name": "Glass Lake",
             "set": "Majestix Open Series 2022",
