@@ -250,6 +250,28 @@
                 "wko": true
             }
         }, {
+            "id": "mjx22_0",
+            "name": "Glass Lake",
+            "set": "Majestix Open Series 2022",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/mjx22/glass_lake.json",
+            "age": {
+                "mx": true
+            }
+        }, {
+            "id": "mjx22_1",
+            "name": "Taggert Farm",
+            "set": "Majestix Open Series 2022",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/mjx22/taggert_farm.json",
+            "age": {
+                "mx": true
+            }
+        }, {
             "id": "ff2021_0",
             "name": "Blue Area of the Moon",
             "set": "Fantastic Four 2021 Storyline Organized Play",
@@ -613,6 +635,61 @@
                 "wko": true
             }
         }, {
+            "id": "mjx21_0",
+            "name": "Perfection",
+            "set": "Majestix Open Series 2021",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/mjx21/perfection.json",
+            "age": {
+                "mx": true
+            }
+        }, {
+            "id": "mjx21_1",
+            "name": "Cave of the Cult",
+            "set": "Majestix Open Series 2021",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/mjx21/cave_of_the_cult.json",
+            "age": {
+                "mx": true
+            }
+        }, {
+            "id": "mjx21_2",
+            "name": "Rooftop Gateway",
+            "set": "Majestix Open Series 2021",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/mjx21/rooftop_gateway.json",
+            "age": {
+                "mx": true
+            }
+        }, {
+            "id": "mjx21_3",
+            "name": "Dinosaur Land",
+            "set": "Majestix Open Series 2021",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/mjx21/dinosaur_land.json",
+            "age": {
+                "mx": true
+            }
+        }, {
+            "id": "mjx21_4",
+            "name": "Hunter's Jungle",
+            "set": "Majestix Open Series 2021",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/mjx21/hunters_jungle.json",
+            "age": {
+                "mx": true
+            }
+        }, {
             "id": "hox0",
             "name": "Otherworld Castle",
             "set": "House of X",
@@ -974,6 +1051,50 @@
             "width": 16,
             "height": 24,
             "file": "maps/roc20/chemical_plant.json"
+        }, {
+            "id": "mjx20_0",
+            "name": "Ice Planet",
+            "set": "Majestix Open Series 2020",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/mjx20/ice_planet.json",
+            "age": {
+                "mx": true
+            }
+        }, {
+            "id": "mjx20_1",
+            "name": "Agent's Lobby",
+            "set": "Majestix Open Series 2020",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/mjx20/agents_lobby.json",
+            "age": {
+                "mx": true
+            }
+        }, {
+            "id": "mjx20_2",
+            "name": "Temple of the Idol",
+            "set": "Majestix Open Series 2020",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/mjx20/temple_of_the_idol.json",
+            "age": {
+                "mx": true
+            }
+        }, {
+            "id": "mjx20_3",
+            "name": "Clock Tower 2015",
+            "set": "Majestix Open Series 2020",
+            "type": "indoorOutdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/mjx20/clocktower_2015.json",
+            "age": {
+                "mx": true
+            }
         }, {
             "id": "wwe0",
             "name": "WWE Arena",
@@ -1339,131 +1460,13 @@
             "height": 24,
             "file": "maps/roc14/mayan_ruins.json"
         }, {
-            "id": "mjx_0",
+            "id": "mjx19_0",
             "name": "Lightcycle Battle Arena",
-            "set": "Majestix Open Series",
+            "set": "Majestix Open Series 2019",
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/mjx/lightcycle_battle_arena.json"
-        }, {
-            "id": "mjx_1",
-            "name": "Ice Planet",
-            "set": "Majestix Open Series",
-            "type": "outdoor",
-            "width": 16,
-            "height": 24,
-            "file": "maps/mjx/ice_planet.json",
-            "age": {
-                "mx": true
-            }
-        }, {
-            "id": "mjx_2",
-            "name": "Temple of the Idol",
-            "set": "Majestix Open Series",
-            "type": "indoor",
-            "width": 16,
-            "height": 24,
-            "file": "maps/mjx/temple_of_the_idol.json",
-            "age": {
-                "mx": true
-            }
-        }, {
-            "id": "mjx_3",
-            "name": "Agent's Lobby",
-            "set": "Majestix Open Series",
-            "type": "indoor",
-            "width": 16,
-            "height": 24,
-            "file": "maps/mjx/agents_lobby.json",
-            "age": {
-                "mx": true
-            }
-        }, {
-            "id": "mjx_4",
-            "name": "Clock Tower 2015",
-            "set": "Majestix Open Series",
-            "type": "indoorOutdoor",
-            "width": 16,
-            "height": 24,
-            "file": "maps/mjx/clocktower_2015.json",
-            "age": {
-                "mx": true
-            }
-        }, {
-            "id": "mjx_5",
-            "name": "Perfection",
-            "set": "Majestix Open Series",
-            "type": "outdoor",
-            "width": 16,
-            "height": 24,
-            "file": "maps/mjx/perfection.json",
-            "age": {
-                "mx": true
-            }
-        }, {
-            "id": "mjx_6",
-            "name": "Cave of the Cult",
-            "set": "Majestix Open Series",
-            "type": "indoor",
-            "width": 16,
-            "height": 24,
-            "file": "maps/mjx/cave_of_the_cult.json",
-            "age": {
-                "mx": true
-            }
-        }, {
-            "id": "mjx_7",
-            "name": "Rooftop Gateway",
-            "set": "Majestix Open Series",
-            "type": "outdoor",
-            "width": 16,
-            "height": 24,
-            "file": "maps/mjx/rooftop_gateway.json",
-            "age": {
-                "mx": true
-            }
-        }, {
-            "id": "mjx_8",
-            "name": "Dinosaur Land",
-            "set": "Majestix Open Series",
-            "type": "indoor",
-            "width": 16,
-            "height": 24,
-            "file": "maps/mjx/dinosaur_land.json",
-            "age": {
-                "mx": true
-            }
-        }, {
-            "id": "mjx_9",
-            "name": "Hunter's Jungle",
-            "set": "Majestix Open Series",
-            "type": "outdoor",
-            "width": 16,
-            "height": 24,
-            "file": "maps/mjx/hunters_jungle.json",
-            "age": {
-                "mx": true
-            }
-        }, {
-            "id": "mjx_10",
-            "name": "Glass Lake",
-            "set": "Majestix Open Series",
-            "type": "outdoor",
-            "width": 16,
-            "height": 24,
-            "file": "maps/mjx/glass_lake.json",
-            "age": {
-                "mx": true
-            }
-        }, {
-            "id": "mjx_11",
-            "name": "Taggert Farm",
-            "set": "Majestix Open Series",
-            "type": "outdoor",
-            "width": 16,
-            "height": 24,
-            "file": "maps/mjx/taggert_farm.json"
+            "file": "maps/mjx19/lightcycle_battle_arena.json"
         }, {
             "id": "swb0",
             "name": "Regency Laboratory",
