@@ -1,12 +1,11 @@
 {
-	"name": "Chemical Plant",
-	"set": "Civil War: Storyline Organized Play",
-	"source": "Civil War: Storyline OP Kit",
+	"name": "Chemical Plant (Containment Leak)",
+	"set": "Avengers Forever",
+	"source": "Avengers Forever: OP Kit",
 	"type": "outdoor",
 	"width": 16,
 	"height": 24,
-	"date": "June 2016",
-	"special": ["SPECIAL RULES: For a 4-Player game, players start in the Starting Areas indicated by (purple dotted line) and (orange dotted line) is considered the edge of the map."],
+	"date": "November 2022",
 	"rows": [{
 		"y": 1,
 		"tiles": [{
@@ -187,14 +186,11 @@
 	}, {
 		"y": 5,
 		"tiles": [{
-			"x": "A",
-			"isStartingZone4p": true
+			"x": "A"
 		}, {
-			"x": "B",
-			"isStartingZone4p": true
+			"x": "B"
 		}, {
-			"x": "C",
-			"isStartingZone4p": true
+			"x": "C"
 		}, {
 			"x": "D"
 		}, {
@@ -219,26 +215,20 @@
 		}, {
 			"x": "M"
 		}, {
-			"x": "N",
-			"isStartingZone4p": true
+			"x": "N"
 		}, {
-			"x": "O",
-			"isStartingZone4p": true
+			"x": "O"
 		}, {
-			"x": "P",
-			"isStartingZone4p": true
+			"x": "P"
 		}]
 	}, {
 		"y": 6,
 		"tiles": [{
-			"x": "A",
-			"isStartingZone4p": true
+			"x": "A"
 		}, {
-			"x": "B",
-			"isStartingZone4p": true
+			"x": "B"
 		}, {
-			"x": "C",
-			"isStartingZone4p": true
+			"x": "C"
 		}, {
 			"x": "D"
 		}, {
@@ -263,26 +253,20 @@
 		}, {
 			"x": "M"
 		}, {
-			"x": "N",
-			"isStartingZone4p": true
+			"x": "N"
 		}, {
-			"x": "O",
-			"isStartingZone4p": true
+			"x": "O"
 		}, {
-			"x": "P",
-			"isStartingZone4p": true
+			"x": "P"
 		}]
 	}, {
 		"y": 7,
 		"tiles": [{
-			"x": "A",
-			"isStartingZone4p": true
+			"x": "A"
 		}, {
-			"x": "B",
-			"isStartingZone4p": true
+			"x": "B"
 		}, {
-			"x": "C",
-			"isStartingZone4p": true
+			"x": "C"
 		}, {
 			"x": "D"
 		}, {
@@ -310,14 +294,11 @@
 		}, {
 			"x": "M"
 		}, {
-			"x": "N",
-			"isStartingZone4p": true
+			"x": "N"
 		}, {
-			"x": "O",
-			"isStartingZone4p": true
+			"x": "O"
 		}, {
-			"x": "P",
-			"isStartingZone4p": true
+			"x": "P"
 		}]
 	}, {
 		"y": 8,
@@ -761,14 +742,11 @@
 	}, {
 		"y": 18,
 		"tiles": [{
-			"x": "A",
-			"isStartingZone4p": true
+			"x": "A"
 		}, {
-			"x": "B",
-			"isStartingZone4p": true
+			"x": "B"
 		}, {
-			"x": "C",
-			"isStartingZone4p": true
+			"x": "C"
 		}, {
 			"x": "D"
 		}, {
@@ -795,26 +773,20 @@
 		}, {
 			"x": "M"
 		}, {
-			"x": "N",
-			"isStartingZone4p": true
+			"x": "N"
 		}, {
-			"x": "O",
-			"isStartingZone4p": true
+			"x": "O"
 		}, {
-			"x": "P",
-			"isStartingZone4p": true
+			"x": "P"
 		}]
 	}, {
 		"y": 19,
 		"tiles": [{
-			"x": "A",
-			"isStartingZone4p": true
+			"x": "A"
 		}, {
-			"x": "B",
-			"isStartingZone4p": true
+			"x": "B"
 		}, {
-			"x": "C",
-			"isStartingZone4p": true
+			"x": "C"
 		}, {
 			"x": "D"
 		}, {
@@ -839,26 +811,20 @@
 		}, {
 			"x": "M"
 		}, {
-			"x": "N",
-			"isStartingZone4p": true
+			"x": "N"
 		}, {
-			"x": "O",
-			"isStartingZone4p": true
+			"x": "O"
 		}, {
-			"x": "P",
-			"isStartingZone4p": true
+			"x": "P"
 		}]
 	}, {
 		"y": 20,
 		"tiles": [{
-			"x": "A",
-			"isStartingZone4p": true
+			"x": "A"
 		}, {
-			"x": "B",
-			"isStartingZone4p": true
+			"x": "B"
 		}, {
-			"x": "C",
-			"isStartingZone4p": true
+			"x": "C"
 		}, {
 			"x": "D"
 		}, {
@@ -883,14 +849,11 @@
 		}, {
 			"x": "M"
 		}, {
-			"x": "N",
-			"isStartingZone4p": true
+			"x": "N"
 		}, {
-			"x": "O",
-			"isStartingZone4p": true
+			"x": "O"
 		}, {
-			"x": "P",
-			"isStartingZone4p": true
+			"x": "P"
 		}]
 	}, {
 		"y": 21,

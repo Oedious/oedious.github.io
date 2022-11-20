@@ -1,6 +1,22 @@
 {
     "maps": [{
             "id": "av4e0",
+            "name": "Prison (Jailbreak)",
+            "set": "Avengers Forever",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/av4e/prison_jailbreak.json"
+        }, {
+            "id": "av4e1",
+            "name": "Chemical Plant (Containment Leak)",
+            "set": "Avengers Forever",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/av4e/chemical_plant_containment_leak.json"
+        }, {
+            "id": "av4e2",
             "name": "Avengers Compound (Winter)",
             "set": "Avengers Forever",
             "type": "outdoor",
@@ -8,7 +24,7 @@
             "height": 24,
             "file": "maps/av4e/avengers_compound_winter.json"
         }, {
-            "id": "av4e1",
+            "id": "av4e3",
             "name": "Starlord's Ship (Landed)",
             "set": "Avengers Forever",
             "type": "indoor",
