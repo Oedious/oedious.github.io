@@ -14,11 +14,6 @@ var instance = M.Collapsible.init(elem, {
     this.map_ = null;
     this.toc_ = new TableOfContents();
     this.mapIndex_ = 0;
-    this.players_ = [
-        new Player("Player 1", ColorType.RED),
-        new Player("Player 2", ColorType.BLUE)
-    ];
-    this.currentPlayer_ = 0;
     this.openPanel("leftNav", "mapsTab", "mapsPanel");
 
 	if(loadTOC){
@@ -84,7 +79,7 @@ ViewManager.prototype.toggleRightNav = function() {
     }
 }
 
-ViewManager.prototype.openPanel = function(navName, tabName, panelName, playerNumber) {
+ViewManager.prototype.openPanel = function(navName, tabName, panelName) {
     var nav = document.getElementById(navName);
     var panels = nav.getElementsByClassName("panel");
     for (var i = 0; i < panels.length; ++i) {
@@ -111,21 +106,6 @@ ViewManager.prototype.onMouseDown = function(event) {
         this.draw();
     }
     */
-}
-
-ViewManager.prototype.onFocusOut = function(elementId) {
-    var element = document.getElementById(elementId);
-    if (element.id == "player0Name") {
-        this.players_[0].setName(element.value);
-    } else if (element.id == "player1Name") {
-        this.players_[1].setName(element.value);
-    } else if (element.id == "player0Color") {
-        this.players_[0].setColor(element.value);
-        this.draw();
-    } else if (element.id == "player1Color") {
-        this.players_[1].setColor(element.value);
-        this.draw();
-    }
 }
 
 ViewManager.prototype.loadMap_ = function(mapFile) {
@@ -175,9 +155,6 @@ ViewManager.prototype.draw = function() {
     ctx.scale(this.scale_, this.scale_);
     this.map_.draw(ctx);
     ctx.restore();
-    for (var i = 0; i < this.players_.length; ++i) {
-        this.players_[i].draw(ctx);
-    }
     document.getElementById("mapHeader").text = this.map_.name;
     document.getElementById("mapName").innerHTML = this.map_.name;
     document.getElementById("mapSource").innerHTML = this.map_.source;
@@ -185,7 +162,7 @@ ViewManager.prototype.draw = function() {
     document.getElementById("mapDate").innerHTML = this.map_.date;
     var html = "";
     for (var i = 0; i < this.map_.special.length; ++i) {
-        html += "<br><div>" + this.map_.special[i].replace(/:/gi, ":<br>") + "</div>";
+        html += `<br><div>${this.map_.special[i].replace(/:/gi, ":<br>")}</div>`;
     }
     document.getElementById("mapSpecial").innerHTML = html;
     var mapType;
@@ -199,26 +176,15 @@ ViewManager.prototype.draw = function() {
     document.getElementById("mapType").innerHTML = mapType;
 }
 
-ViewManager.prototype.drawCharacterList = function() {
-    this.getCurrentPlayer_().drawCharacterList(this.currentPlayer_);
-}
-
 ViewManager.prototype.serialize = function() {
     var obj = {};
     obj.m = this.getCurrentMapEntry_().id;
     obj.p = [];
-    for (var i = 0; i < this.players_.length; ++i) {
-        obj.p.push(this.players_[i].serialize());
-    }
     return btoa(JSON.stringify(obj));
 }
 
 ViewManager.prototype.deserialize = function(serialized) {
     var obj = JSON.parse(atob(serialized));
-    this.players_ = [];
-    for (var i = 0; i < obj.p.length; ++i) {
-        this.players_.push(Player.deserialize(obj.p[i]));
-    }
     return obj.m;
 }
 
@@ -278,51 +244,4 @@ ViewManager.prototype.updateUrl = function() {
 ViewManager.prototype.applyFilters = function() {
     this.toc_.applyFilters();
     this.toc_.draw();
-}
-
-ViewManager.prototype.applyColor = function() {
-    this.getCurrentPlayer_().setColorType(
-        document.getElementById("player" + this.currentPlayer_ + "Color").value);
-}
-
-ViewManager.prototype.applySizeType = function(characterIndex) {
-    var sizeType = document.getElementById("player" + this.currentPlayer_ + "Character" + characterIndex + "SizeType").value;
-    this.getCurrentPlayer_().getCharacter(characterIndex).setSizeType(sizeType);
-    this.draw();
-}
-
-ViewManager.prototype.addCharacter = function() {
-    this.getCurrentPlayer_().addCharacter(new Character());
-    this.drawCharacterList();
-}
-
-ViewManager.prototype.removeCharacter = function(characterIndex) {
-    this.getCurrentPlayer_().removeCharacter(characterIndex);
-    this.drawCharacterList();
-    this.draw();
-}
-
-ViewManager.prototype.startCharacterDrag = function(playerIndex, characterIndex) {}
-
-ViewManager.prototype.toggleCharacter_ = function(x, y) {
-    /*
-    if (x >= 0 && y >= 0 && x < this.map_.width && y < this.map_.height) {
-        for (var i = 0; i < this.players_.length; ++i) {
-            var player = this.players_[i];
-            var character = player.findCharacter(x, y);
-            if (character) {
-                player.removeCharacter(character);
-                return true;
-            }
-        }
-        this.getCurrentPlayer_().addCharacter(
-            new Character(x, y, 0, CharacterSizeType.ONE_BY_ONE));
-        return true;
-    }
-    return false;
-    */
-}
-
-ViewManager.prototype.getCurrentPlayer_ = function() {
-    return this.players_[this.currentPlayer_];
 }

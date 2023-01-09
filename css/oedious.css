@@ -1,88 +1,93 @@
 .sideNav {
-      width: 300px;
-      position: fixed;
-      z-index: 1;
-      top: 0px;
-      bottom: 0px;
-      overflow-x: hidden;
-      overflow: hidden;
-      transition: 0.5s;
-	  background-color: white;
-    }
+	width: 300px;
+	position: fixed;
+	z-index: 1;
+	top: 0px;
+	bottom: 0px;
+	overflow-x: hidden;
+	overflow: hidden;
+	transition: 0.5s;
+	background-color: white;
+}
 
-	#tableOfContents a {
-		color:#777777;
+#tableOfContents a {
+	color: #777777;
+}
+
+#tableOfContents ul {
+	color: black;
+}
+
+.mapLink {
+	background-color: #ffffff;
+}
+
+.mapLink a {
+	padding: .5rem;
+	height: 100%;
+	width: 100%;
+	display: block;
+}
+
+.mapLink a:hover {
+	background-color: #ffe7e6;
+}
+
+.mapLink a:focus {
+	background-color: #ffc8b9;
+	outline: none;
+}
+
+.mapLink a:active {
+	background-color: #ffc8b9;
+}
+
+#leftNav {
+	left: 0px;
+	top: 58px;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media(min-width: 601px) {
+	#leftNav {
+		left: 0px;
+		top: 64px;
+		box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
 	}
+}
 
-	#tableOfContents li {
-		background-color:#ffffff;
-		padding:.5rem;
-	}
+.toggle {
+	position: absolute;
+	padding: 10px 5px;
+	height: 36px;
+}
 
-	#tableOfContents li.mapLink:hover {
-		background-color: #ffe7e6;
-	}
+#leftNav #leftToggle {
+	right: 0;
+}
 
-	#tableOfContents li.mapLink:focus {
-		background-color: #ffc8b9;
-	}
+#mapHeader {
+	display: none;
+}
 
-	#tableOfContents li.mapLink:selected {
-		background-color: #ffc8b9;
-	}
-
-	#tableOfContents li.mapLink a {
-		height: 100%;
-		width: 100%;
+@media(min-width: 601px) {
+	#mapHeader {
 		display: block;
 	}
+}
 
-    #leftNav {
-      left: 0px;
-	  top: 58px;
-	  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
-    }
+#arrowLeft {
+	top: 70px;
+	left: 292px;
+	border-radius: 0px 30px 30px 0px;
+	background-color: #F44336;
+	position: fixed;
+	line-height: 35px;
+	width: 40px;
+	transition: 0.5s;
+}
 
-	@media(min-width: 601px){
-	    #leftNav {
-		  left: 0px;
-		  top: 64px;
-		  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
-		}
-	}
-
-    .toggle {
-      position: absolute;
-      padding: 10px 5px;
-      height: 36px;
-    }
-
-    #leftNav #leftToggle {
-      right: 0;
-    }
-
-	#mapHeader {
-		display: none;
-	}
-
-	@media(min-width: 601px){
-		#mapHeader {
-			display: block;
-		}
-	}
-
-	#arrowLeft {
-	  top: 70px;
-	  left: 292px;
-	  border-radius: 0px 30px 30px 0px;
-	  background-color: #F44336;
-	  position: fixed;
-	  line-height: 35px;
-	  width: 40px;
-	  transition: 0.5s;
-	}
-
-	#arrowIcon {
+#arrowIcon {
 	font-size: 1.8rem;
 	text-align: center;
 	color: white;
@@ -92,169 +97,170 @@
 	display: block;
 	position: relative;
 	transition: 0.6s;
-	}
+}
 
-    .bar {
-      width: 40px;
-      height: 6px;
-      background-color: black;
-      margin: 5px 0;
-    }
+.bar {
+	width: 40px;
+	height: 6px;
+	background-color: black;
+	margin: 5px 0;
+}
 
-    .panel {
-      display: none;
-      position: relative;
-      height: 100%;
-      overflow-y: scroll;
-	  padding-left: 6px;
-    }
+.panel {
+	display: none;
+	position: relative;
+	height: 100%;
+	overflow-y: scroll;
+	padding-left: 6px;
+}
 
-    .filterInfo {
-      margin: 2px 0px;
-    }
+.filterInfo {
+	margin: 2px 0px;
+}
 
-    .panelInput {
-      position: absolute;
-      left: 60px;
-      width: calc(100% - 70px);
-    }
+.panelInput {
+	position: absolute;
+	left: 60px;
+	width: calc(100% - 70px);
+}
 
-    .panelList {
-      margin: 6px 0px;
-    }
+.panelList {
+	margin: 6px 0px;
+}
 
-    .headerButton {
-      width: 75px;
-    }
+.headerButton {
+	width: 75px;
+}
 
+.main {
+	position: absolute;
+	top: 56px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+	transition: 0.5s;
+}
+
+@media (min-width:601px) {
 	.main {
-			position: absolute;
-			top: 56px;
-			right: 0;
-			bottom: 0;
-			left: 0;
-			overflow: hidden;
-			transition: 0.5s;
-		}
-
-	@media (min-width:601px) {
-		.main {
-		  position: absolute;
-		  top: 64px;
-		  right: 0;
-		  bottom: 0;
-		  left: 300px;
-		  overflow: hidden;
-		  transition: 0.5s;
-		}
+		position: absolute;
+		top: 64px;
+		right: 0;
+		bottom: 0;
+		left: 300px;
+		overflow: hidden;
+		transition: 0.5s;
 	}
+}
 
+.fixed-action-btn {
+	bottom: 6px;
+}
+
+@media (min-width:601px) {
 	.fixed-action-btn {
-		bottom: 6px;
+		bottom: 23px;
 	}
+}
 
-	@media (min-width:601px) {
-		.fixed-action-btn{
-			bottom:23px;
-		}
-	}
+.collapsible-body {
+	padding: 0;
+}
 
-	.collapsible-body {
-		padding:0;
-	}
+::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+	background: #00000000;
+}
 
-	::-webkit-scrollbar {
-		width:8px;
-		height:8px;
-		background:#00000000;
-	}
+::-webkit-scrollbar-thumb {
+	background: #ee0202;
+	border-radius: 4px;
+}
 
-	::-webkit-scrollbar-thumb {
-		background:#ee0202;
-		border-radius:4px;
-	}
+::-webkit-scrollbar-track {
+	background: #00000000;
+}
 
-	::-webkit-scrollbar-track {
-		background:#00000000;
-	}
+.dropdown-content li>a,
+.dropdown-content li>span {
+	color: #ee0202;
+}
 
-	.dropdown-content li > a, .dropdown-content li > span {
-		color:#ee0202;
-	}
+.select-wrapper input.select-dropdown:focus {
+	border-bottom: 1px solid #ee0202;
+}
 
-	.select-wrapper input.select-dropdown:focus {
-		border-bottom: 1px solid #ee0202;
-	}
+.select-dropdown.dropdown-content li:hover {
+	background-color: #ffe7e6;
+}
 
-	.select-dropdown.dropdown-content li:hover {
-	  background-color: #ffe7e6;
-	}
+.select-dropdown.dropdown-content li.selected {
+	background-color: #ffc8b9;
+}
 
-	.select-dropdown.dropdown-content li.selected {
-	  background-color: #ffc8b9;
-	}
+.select-dropdown.dropdown-content li.focus {
+	background-color: #ffc8b9;
+}
 
-	.select-dropdown.dropdown-content li.focus {
-	  background-color: #ffc8b9;
-	}
+body.keyboard-focused .select-dropdown.dropdown-content li:focus {
+	background-color: #ffc8b9;
+}
 
-	body.keyboard-focused .select-dropdown.dropdown-content li:focus {
-	  background-color: #ffc8b9;
-	}
+.collapsible {
+	margin-bottom: 4px;
+}
 
+@media (min-width:601px) {
 	.collapsible {
-		margin-bottom: 4px;
+		margin-bottom: 1rem;
 	}
+}
 
-	@media (min-width:601px){
-		.collapsible {
-			margin-bottom: 1rem;
-		}
-	}
+#mapInfo {
+	position: absolute;
+	bottom: 4px;
+	width: 300px;
+	left: 4px;
+	max-height: 100%;
+	overflow-y: scroll;
+}
 
+@media (min-width:601px) {
 	#mapInfo {
-		position:absolute;
-		bottom:4px;
-		width:300px;
+		position: absolute;
+		bottom: 0;
+		width: 300px;
 		left: 4px;
-		max-height:100%;
+		padding-bottom: 10px;
+		max-height: 100%;
 		overflow-y: scroll;
 	}
+}
 
-	@media (min-width:601px) {
-		#mapInfo {
-			position:absolute;
-			bottom:0;
-			width:300px;
-			left: 4px;
-			padding-bottom: 10px;
-			max-height:100%;
-		overflow-y: scroll;
-		}
-	}
+.input-field .prefix.active {
+	color: #ee0202
+}
 
-	.input-field .prefix.active {
-		color: #ee0202
-	}
+.filter-block {
+	display: block;
+	clear: both;
+}
 
-	.filter-block {
-		display: block;
-		clear: both;
-	}
+.filter-label {
+	float: left;
+}
 
-	.filter-label {
-		float: left;
-	}
+.filter-choices {
+	float: right;
+}
 
-	.filter-choices {
-		float: right;
-	}
+textarea.materialize-textarea:focus:not([readonly]) {
+	border-bottom: 1px solid #ee0202;
+	box-shadow: 0 1px 0 0 #ee0202;
+}
 
-	textarea.materialize-textarea:focus:not([readonly]) {
-		border-bottom: 1px solid #ee0202;
-		box-shadow: 0 1px 0 0 #ee0202;
-	}
-
-	textarea.materialize-textarea:focus:not([readonly]) + label {
-		color: #ee0202;
-	}
+textarea.materialize-textarea:focus:not([readonly])+label {
+	color: #ee0202;
+}
