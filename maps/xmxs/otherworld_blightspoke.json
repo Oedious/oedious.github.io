@@ -1,11 +1,11 @@
 {
-	"name": "",
-	"set": "",
-	"source": "",
-	"type": "",
+	"name": "Otherworld: Blightspoke",
+	"set": "X of Swords",
+	"source": "X of Swords: Miniatures Game",
+	"type": "outdoor",
 	"width": 16,
 	"height": 16,
-	"date": "",
+	"date": "August 2022",
 	"rows": [{
 		"y": 1,
 		"tiles": [{
@@ -418,13 +418,17 @@
 		}, {
 			"x": "F"
 		}, {
-			"x": "G"
+			"x": "G",
+			"terrain":"hindering"
 		}, {
-			"x": "H"
+			"x": "H",
+			"terrain":"hindering"
 		}, {
-			"x": "I"
+			"x": "I",
+			"terrain":"hindering"
 		}, {
-			"x": "J"
+			"x": "J",
+			"terrain":"hindering"
 		}, {
 			"x": "K"
 		}, {

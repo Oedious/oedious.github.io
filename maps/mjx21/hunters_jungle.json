@@ -1,7 +1,7 @@
 {
 	"name": "Hunter's Jungle",
-	"set": "Majestix Open Series",
-	"source": "Majestix Open Series",
+	"set": "Majestix Open Series 2021",
+	"source": "Majestix Open Series 2021",
 	"type": "outdoor",
 	"width": 16,
 	"height": 24,
@@ -955,23 +955,23 @@
 		"y": 21,
 		"tiles": [{
 			"x": "A",
-			"elevation": "hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "B"
 		}, {
 			"x": "C"
 		}, {
 			"x": "D",
-			"elevation": "hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "E",
-			"elevation": "hindering"
+			"terrain": "hindering"
 		}, {
 			"x": "F",
 			"elevation": 1
 		}, {
 			"x": "G",
-			"elevation": "hindering",
+			"terrain": "hindering",
 			"elevation": 1
 		}, {
 			"x": "H",

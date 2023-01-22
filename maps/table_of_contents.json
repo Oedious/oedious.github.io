@@ -1,39 +1,96 @@
 {
     "maps": [{
+            "id": "av4e0",
+            "name": "Prison (Jailbreak)",
+            "set": "Avengers Forever",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/av4e/prison_jailbreak.json"
+        }, {
+            "id": "av4e1",
+            "name": "Chemical Plant (Containment Leak)",
+            "set": "Avengers Forever",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/av4e/chemical_plant_containment_leak.json"
+        }, {
+            "id": "av4e2",
+            "name": "Avengers Compound (Winter)",
+            "set": "Avengers Forever",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/av4e/avengers_compound_winter.json"
+        }, {
+            "id": "av4e3",
+            "name": "Starlord's Ship (Landed)",
+            "set": "Avengers Forever",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/av4e/starlords_ship_landed.json"
+        }, {
             "id": "xmxs0",
-            "name": "Limbo",
-            "set": "X-Men: X of Swords",
-            "file": "maps/xmxs/limbo.json",
-            "age": {
-                "modern": true,
-                "wko": true
-            }
-        },{
-            "id": "xmxs1",
             "name": "Otherworld: Castle",
-            "set": "X-Men: X of Swords",
+            "set": "X of Swords",
             "file": "maps/xmxs/otherworld_castle.json",
             "age": {
                 "modern": true,
-                "wko": true
+                "wko": true,
+                "mx": true
             }
         },{
-            "id": "xmxs2",
-            "name": "Otherworld: Shadow of the Starlight Citadel",
-            "set": "X-Men: X of Swords",
-            "file": "maps/xmxs/otherworld_shadow_of_the_citadel.json",
+            "id": "xmxs1",
+            "name": "Limbo",
+            "set": "X of Swords",
+            "file": "maps/xmxs/limbo.json",
             "age": {
                 "modern": true,
-                "wko": true
+                "wko": true,
+                "mx": true
             }
         },{
             "id": "xmxs2",
-            "name": "Otherworld: Blightspoke",
-            "set": "X-Men: X of Swords",
-            "file": "maps/xmxs/otherworld_blightspoke.json",
+            "name": "Morlock Tunnels",
+            "set": "X of Swords",
+            "file": "maps/xmxs/morlock_tunnels.json",
             "age": {
-                "modern": true
+                "modern": true,
+                "wko": true,
+                "mx": true
             }
+        },{
+            "id": "xmxs3",
+            "name": "Krakoan Garden",
+            "set": "X of Swords",
+            "file": "maps/xmxs/krakoan_garden.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "mx": true
+            }
+        },{
+            "id": "xmxs4",
+            "name": "Otherworld: Shadow of the Starlight Citadel",
+            "set": "X of Swords",
+            "file": "maps/xmxs/otherworld_shadow_of_the_starlight_citadel.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "mx": true
+            }
+        },{
+            "id": "xmxs5",
+            "name": "Otherworld: Blightspoke",
+            "set": "X of Swords",
+            "file": "maps/xmxs/otherworld_blightspoke.json"
+        },{
+            "id": "xmxs6",
+            "name": "Otherworld: Starlight Citadel Ballroom",
+            "set": "X of Swords",
+            "file": "maps/xmxs/otherworld_starlight_citadel_ballroom.json"
         },{
             "id": "msdp0",
             "name": "Westview",
@@ -207,6 +264,47 @@
             "age": {
                 "modern": true,
                 "wko": true
+            }
+        }, {
+            "id": "roc22_7",
+            "name": "Water Ziggurat",
+            "set": "ROC 2022",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/roc22/water_ziggurat.json"
+        }, {
+            "id": "mjx22_0",
+            "name": "Glass Lake",
+            "set": "Majestix Open Series 2022",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/mjx22/glass_lake.json",
+            "age": {
+                "mx": true
+            }
+        }, {
+            "id": "mjx22_1",
+            "name": "Taggert Farm",
+            "set": "Majestix Open Series 2022",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/mjx22/taggert_farm.json",
+            "age": {
+                "mx": true
+            }
+        }, {
+            "id": "mjx22_2",
+            "name": "Knowby Cabin",
+            "set": "Majestix Open Series 2022",
+            "type": "indoorOutdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/mjx22/knowby_cabin.json",
+            "age": {
+                "mx": true
             }
         }, {
             "id": "ff2021_0",
@@ -572,6 +670,61 @@
                 "wko": true
             }
         }, {
+            "id": "mjx21_0",
+            "name": "Perfection",
+            "set": "Majestix Open Series 2021",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/mjx21/perfection.json",
+            "age": {
+                "mx": true
+            }
+        }, {
+            "id": "mjx21_1",
+            "name": "Cave of the Cult",
+            "set": "Majestix Open Series 2021",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/mjx21/cave_of_the_cult.json",
+            "age": {
+                "mx": true
+            }
+        }, {
+            "id": "mjx21_2",
+            "name": "Rooftop Gateway",
+            "set": "Majestix Open Series 2021",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/mjx21/rooftop_gateway.json",
+            "age": {
+                "mx": true
+            }
+        }, {
+            "id": "mjx21_3",
+            "name": "Dinosaur Land",
+            "set": "Majestix Open Series 2021",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/mjx21/dinosaur_land.json",
+            "age": {
+                "mx": true
+            }
+        }, {
+            "id": "mjx21_4",
+            "name": "Hunter's Jungle",
+            "set": "Majestix Open Series 2021",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/mjx21/hunters_jungle.json",
+            "age": {
+                "mx": true
+            }
+        }, {
             "id": "hox0",
             "name": "Otherworld Castle",
             "set": "House of X",
@@ -933,6 +1086,50 @@
             "width": 16,
             "height": 24,
             "file": "maps/roc20/chemical_plant.json"
+        }, {
+            "id": "mjx20_0",
+            "name": "Ice Planet",
+            "set": "Majestix Open Series 2020",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/mjx20/ice_planet.json",
+            "age": {
+                "mx": true
+            }
+        }, {
+            "id": "mjx20_1",
+            "name": "Agent's Lobby",
+            "set": "Majestix Open Series 2020",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/mjx20/agents_lobby.json",
+            "age": {
+                "mx": true
+            }
+        }, {
+            "id": "mjx20_2",
+            "name": "Temple of the Idol",
+            "set": "Majestix Open Series 2020",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/mjx20/temple_of_the_idol.json",
+            "age": {
+                "mx": true
+            }
+        }, {
+            "id": "mjx20_3",
+            "name": "Clock Tower 2015",
+            "set": "Majestix Open Series 2020",
+            "type": "indoorOutdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/mjx20/clocktower_2015.json",
+            "age": {
+                "mx": true
+            }
         }, {
             "id": "wwe0",
             "name": "WWE Arena",
@@ -1298,131 +1495,13 @@
             "height": 24,
             "file": "maps/roc14/mayan_ruins.json"
         }, {
-            "id": "mjx_0",
+            "id": "mjx19_0",
             "name": "Lightcycle Battle Arena",
-            "set": "Majestix Open Series",
+            "set": "Majestix Open Series 2019",
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/mjx/lightcycle_battle_arena.json"
-        }, {
-            "id": "mjx_1",
-            "name": "Ice Planet",
-            "set": "Majestix Open Series",
-            "type": "outdoor",
-            "width": 16,
-            "height": 24,
-            "file": "maps/mjx/ice_planet.json",
-            "age": {
-                "mx": true
-            }
-        }, {
-            "id": "mjx_2",
-            "name": "Temple of the Idol",
-            "set": "Majestix Open Series",
-            "type": "indoor",
-            "width": 16,
-            "height": 24,
-            "file": "maps/mjx/temple_of_the_idol.json",
-            "age": {
-                "mx": true
-            }
-        }, {
-            "id": "mjx_3",
-            "name": "Agent's Lobby",
-            "set": "Majestix Open Series",
-            "type": "indoor",
-            "width": 16,
-            "height": 24,
-            "file": "maps/mjx/agents_lobby.json",
-            "age": {
-                "mx": true
-            }
-        }, {
-            "id": "mjx_4",
-            "name": "Clock Tower 2015",
-            "set": "Majestix Open Series",
-            "type": "indoorOutdoor",
-            "width": 16,
-            "height": 24,
-            "file": "maps/mjx/clocktower_2015.json",
-            "age": {
-                "mx": true
-            }
-        }, {
-            "id": "mjx_5",
-            "name": "Perfection",
-            "set": "Majestix Open Series",
-            "type": "outdoor",
-            "width": 16,
-            "height": 24,
-            "file": "maps/mjx/perfection.json",
-            "age": {
-                "mx": true
-            }
-        }, {
-            "id": "mjx_6",
-            "name": "Cave of the Cult",
-            "set": "Majestix Open Series",
-            "type": "indoor",
-            "width": 16,
-            "height": 24,
-            "file": "maps/mjx/cave_of_the_cult.json",
-            "age": {
-                "mx": true
-            }
-        }, {
-            "id": "mjx_7",
-            "name": "Rooftop Gateway",
-            "set": "Majestix Open Series",
-            "type": "outdoor",
-            "width": 16,
-            "height": 24,
-            "file": "maps/mjx/rooftop_gateway.json",
-            "age": {
-                "mx": true
-            }
-        }, {
-            "id": "mjx_8",
-            "name": "Dinosaur Land",
-            "set": "Majestix Open Series",
-            "type": "indoor",
-            "width": 16,
-            "height": 24,
-            "file": "maps/mjx/dinosaur_land.json",
-            "age": {
-                "mx": true
-            }
-        }, {
-            "id": "mjx_9",
-            "name": "Hunter's Jungle",
-            "set": "Majestix Open Series",
-            "type": "outdoor",
-            "width": 16,
-            "height": 24,
-            "file": "maps/mjx/hunters_jungle.json",
-            "age": {
-                "mx": true
-            }
-        }, {
-            "id": "mjx_10",
-            "name": "Glass Lake",
-            "set": "Majestix Open Series",
-            "type": "outdoor",
-            "width": 16,
-            "height": 24,
-            "file": "maps/mjx/glass_lake.json",
-            "age": {
-                "mx": true
-            }
-        }, {
-            "id": "mjx_11",
-            "name": "Taggert Farm",
-            "set": "Majestix Open Series",
-            "type": "outdoor",
-            "width": 16,
-            "height": 24,
-            "file": "maps/mjx/taggert_farm.json"
+            "file": "maps/mjx19/lightcycle_battle_arena.json"
         }, {
             "id": "swb0",
             "name": "Regency Laboratory",
@@ -2295,6 +2374,14 @@
             "height": 24,
             "file": "maps/jltw/atlantis.json"
         }, {
+            "id": "botm0",
+            "name": "Pharaoh's Throne Room",
+            "set": "Yu-Gi-Oh! Battle of the Millennium",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/botm/pharaohs_throne_room.json"
+        }, {
             "id": "botm1",
             "name": "Millennium Puzzle",
             "set": "Yu-Gi-Oh! Battle of the Millennium",
@@ -2310,6 +2397,22 @@
             "width": 16,
             "height": 24,
             "file": "maps/botm/kul_elna.json"
+        }, {
+            "id": "botm3",
+            "name": "Egypt River",
+            "set": "Yu-Gi-Oh! Battle of the Millennium",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/botm/egypt_river.json"
+        }, {
+            "id": "botm4",
+            "name": "Broken Sphinx",
+            "set": "Yu-Gi-Oh! Battle of the Millennium",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/botm/broken_sphinx.json"
         }, {
             "id": "botm5",
             "name": "Egypt Battlefield",
@@ -3871,6 +3974,14 @@
             "height": 24,
             "file": "maps/si/baxter_building.json"
         }, {
+            "id": "cr0",
+            "name": "Dawn of Man",
+            "set": "Crisis",
+            "type": "outdoor",
+            "width": 24,
+            "height": 24,
+            "file": "maps/cr/dawn_of_man.json"
+        }, {
             "id": "cr8",
             "name": "Anti-Matter Fortress",
             "set": "Crisis",
@@ -3927,6 +4038,14 @@
             "height": 24,
             "file": "maps/ls/small_town.json"
         }, {
+            "id": "or0",
+            "name": "JSA Museum",
+            "set": "Origin",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/or/jsa_museum.json"
+        }, {
             "id": "sv0",
             "name": "Deep Space",
             "set": "Supernova",
@@ -3934,6 +4053,30 @@
             "width": 16,
             "height": 24,
             "file": "maps/sv/deep_space.json"
+        }, {
+            "id": "sn0",
+            "name": "The Prison",
+            "set": "Sinister",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/sn/the_prison.json"
+        }, {
+            "id": "cd0",
+            "name": "The Junkyard",
+            "set": "Collateral Damage",
+            "type": "indoorOutdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/cd/the_junkyard.json"
+        }, {
+            "id": "aw0",
+            "name": "The Lab",
+            "set": "Armor Wars",
+            "type": "indoorOutdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/aw/the_lab.json"
         }, {
             "id": "ui0",
             "name": "Xavier's School",

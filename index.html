@@ -95,71 +95,53 @@
 				  </select>
 				  <label>Size:</label>
 				</div>
-				<div>
-					<label>
-						<input id="blocking" type="checkbox" class="checkbox-red filled-in" onchange="mgr.applyFilters()"/>
-						<span>Blocking</span>
-					</label>
-					<div style="margin-left:40px">
-						<form action="#">
-						<label><input id="hasBlocking" type="radio" name="blocking" checked disabled="disabled" onchange="mgr.applyFilters()"/><span>Has</span></label>
-						<label><input id="notHasBlocking" type="radio" name="blocking" disabled="disabled" onchange="mgr.applyFilters()"/><span>Does Not Have</span></label>
-						</form>
-					</div>
+				<div class="filter-block">
+					<span class="filter-label">Blocking:</span>
+					<span class="filter-choices">
+						<label><input id="naBlocking" type="radio" name="blocking" checked onchange="mgr.applyFilters()"/><span>N/A</span></label>
+						<label><input id="yesBlocking" type="radio" name="blocking" onchange="mgr.applyFilters()"/><span>Yes</span></label>
+						<label><input id="noBlocking" type="radio" name="blocking" onchange="mgr.applyFilters()"/><span>No</span></label>
+					</span>
 				</div>
-				<div>
-					<label>
-						<input id="hindering" type="checkbox" class="checkbox-red filled-in" onchange="mgr.applyFilters()"/>
-						<span>Hindering</span>
-					</label>
-					<div style="margin-left:40px">
-						<form action="#">
-						<label><input id="hasHindering" type="radio" name="blocking" checked disabled="disabled" onchange="mgr.applyFilters()" /><span>Has</span></label>
-						<label><input id="notHasHindering" type="radio" name="blocking" disabled="disabled" onchange="mgr.applyFilters()" /><span>Does Not Have</span></label>
-						</form>
-					</div>
+				<div class="filter-block">
+					<span class="filter-label">Hindering:</span>
+					<span class="filter-choices">
+						<label><input id="naHindering" type="radio" name="hindering" checked onchange="mgr.applyFilters()"/><span>N/A</span></label>
+						<label><input id="yesHindering" type="radio" name="hindering" onchange="mgr.applyFilters()"/><span>Yes</span></label>
+						<label><input id="noHindering" type="radio" name="hindering" onchange="mgr.applyFilters()"/><span>No</span></label>
+					</span>
 				</div>
-				<div>
-					<label>
-						<input id="water" type="checkbox" class="checkbox-red filled-in" onchange="mgr.applyFilters()"/>
-						<span>Water</span>
-					</label>
-					<div style="margin-left:40px">
-						<form action="#">
-						<label><input id="hasWater" type="radio" name="blocking" checked disabled="disabled" onchange="mgr.applyFilters()" /><span>Has</span></label>
-						<label><input id="notHasWater" type="radio" name="blocking" disabled="disabled" onchange="mgr.applyFilters()" /><span>Does Not Have</span></label>
-						</form>
-					</div>
+				<div class="filter-block">
+					<span class="filter-label">Water:</span>
+					<span class="filter-choices">
+						<label><input id="naWater" type="radio" name="water" checked onchange="mgr.applyFilters()"/><span>N/A</span></label>
+						<label><input id="yesWater" type="radio" name="water" onchange="mgr.applyFilters()"/><span>Yes</span></label>
+						<label><input id="noWater" type="radio" name="water" onchange="mgr.applyFilters()"/><span>No</span></label>
+					</span>
 				</div>
-				<div>
-					<label>
-						<input id="elevated" type="checkbox" class="checkbox-red filled-in" onchange="mgr.applyFilters()"/>
-						<span>Elevated</span>
-					</label>
-					<div style="margin-left:40px">
-						<form action="#">
-						<label><input id="hasElevated" type="radio" name="blocking" checked disabled="disabled" onchange="mgr.applyFilters()" /><span>Has</span></label>
-						<label><input id="notHasElevated" type="radio" name="blocking" disabled="disabled" onchange="mgr.applyFilters()" /><span>Does Not Have</span></label>
-						</form>
-					</div>
+				<div class="filter-block">
+					<span class="filter-label">Elevated:</span>
+					<span class="filter-choices">
+						<label><input id="naElevated" type="radio" name="elevated" checked onchange="mgr.applyFilters()"/><span>N/A</span></label>
+						<label><input id="yesElevated" type="radio" name="elevated" onchange="mgr.applyFilters()"/><span>Yes</span></label>
+						<label><input id="noElevated" type="radio" name="elevated" onchange="mgr.applyFilters()"/><span>No</span></label>
+					</span>
 				</div>
-				<div>
-					<label>
-						<input id="walls" type="checkbox" class="checkbox-red filled-in" onchange="mgr.applyFilters()"/>
-						<span>Walls</span>
-					</label>
-					<div style="margin-left:40px">
-						<form action="#">
-						<label><input id="hasWalls" type="radio" name="blocking" checked disabled="disabled" onchange="mgr.applyFilters()" /><span>Has</span></label>
-						<label><input id="notHasWalls" type="radio" name="blocking" disabled="disabled" onchange="mgr.applyFilters()" /><span>Does Not Have</span></label>
-						</form>
-					</div>
+				<div class="filter-block">
+					<span class="filter-label">Walls:</span>
+					<span class="filter-choices">
+						<label><input id="naWalls" type="radio" name="walls" checked onchange="mgr.applyFilters()"/><span>N/A</span></label>
+						<label><input id="yesWalls" type="radio" name="walls" onchange="mgr.applyFilters()"/><span>Yes</span></label>
+						<label><input id="noWalls" type="radio" name="walls" onchange="mgr.applyFilters()"/><span>No</span></label>
+					</span>
 				</div>
-				<div>
-					<label>
-						<input id="hasLocationBonus" type="checkbox" class="checkbox-red filled-in" onchange="mgr.applyFilters()"/>
-						<span>Has Location Bonus
-					</label>
+				<div class="filter-block">
+					<span class="filter-label">Location:</span>
+					<span class="filter-choices">
+						<label><input id="naLocationBonus" type="radio" name="locationBonus" checked onchange="mgr.applyFilters()"/><span>N/A</span></label>
+						<label><input id="yesLocationBonus" type="radio" name="locationBonus" onchange="mgr.applyFilters()"/><span>Yes</span></label>
+						<label><input id="noLocationBonus" type="radio" name="locationBonus" onchange="mgr.applyFilters()"/><span>No</span></label>
+					</span>
 				</div>
 			</div>
 		</li>
@@ -173,7 +155,7 @@
     </div>
   </div>
   <div id="arrowLeft">
-	<a href="#" onclick="mgr.toggleLeftNav()"><i id="arrowIcon" class="material-icons">chevron_left</i></a>
+		<a href="#" onclick="mgr.toggleLeftNav()"><i id="arrowIcon" class="material-icons">chevron_left</i></a>
   </div>
   <script type="text/javascript " src="js/json_loader.js "></script>
   <script type="text/javascript " src="js/edge.js "></script>
@@ -181,7 +163,6 @@
   <script type="text/javascript " src="js/wall.js "></script>
   <script type="text/javascript " src="js/character.js "></script>
   <script type="text/javascript " src="js/map.js "></script>
-  <script type="text/javascript " src="js/player.js "></script>
   <script type="text/javascript " src="js/table_of_contents.js "></script>
   <script type="text/javascript " src="js/view_manager.js "></script>
   <script type="text/javascript " src="js/materialize.js"></script>
