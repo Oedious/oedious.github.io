@@ -1,5 +1,37 @@
 {
     "maps": [{
+            "id": "btu0",
+            "name": "Danny The Street",
+            "set": "Batman Team Up",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/btu/danny_the_street.json"
+        },{
+            "id": "btu1",
+            "name": "Robinson Park",
+            "set": "Batman Team Up",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/btu/danny_the_street.json"
+        },{
+            "id": "btu2",
+            "name": "The Batcave",
+            "set": "Batman Team Up",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/btu/the_batcave.json"
+        },{
+            "id": "btu3",
+            "name": "Wayne Manor Grounds",
+            "set": "Batman Team Up",
+            "type": "indoorOutdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/btu/wayne_manor_grounds.json"
+        },{
             "id": "av4e0",
             "name": "Prison (Jailbreak)",
             "set": "Avengers Forever",
