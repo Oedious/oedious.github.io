@@ -1,6 +1,6 @@
 {
     "maps": [{
-            "id": "btu0",
+            "id": "btuM001",
             "name": "Danny The Street",
             "set": "Batman Team Up",
             "type": "outdoor",
@@ -8,7 +8,7 @@
             "height": 24,
             "file": "maps/btu/danny_the_street.json"
         },{
-            "id": "btu1",
+            "id": "btuM002",
             "name": "Robinson Park",
             "set": "Batman Team Up",
             "type": "outdoor",
@@ -16,7 +16,7 @@
             "height": 24,
             "file": "maps/btu/robinson_park.json"
         },{
-            "id": "btu2",
+            "id": "btuM003",
             "name": "The Batcave",
             "set": "Batman Team Up",
             "type": "indoor",
@@ -24,7 +24,7 @@
             "height": 24,
             "file": "maps/btu/the_batcave.json"
         },{
-            "id": "btu3",
+            "id": "btuM004",
             "name": "Wayne Manor Grounds",
             "set": "Batman Team Up",
             "type": "indoorOutdoor",
@@ -32,7 +32,7 @@
             "height": 24,
             "file": "maps/btu/wayne_manor_grounds.json"
         },{
-            "id": "av4e0",
+            "id": "av4eM001",
             "name": "Prison (Jailbreak)",
             "set": "Avengers Forever",
             "type": "indoor",
@@ -40,7 +40,7 @@
             "height": 24,
             "file": "maps/av4e/prison_jailbreak.json"
         }, {
-            "id": "av4e1",
+            "id": "av4eM002",
             "name": "Chemical Plant (Containment Leak)",
             "set": "Avengers Forever",
             "type": "outdoor",
@@ -48,7 +48,7 @@
             "height": 24,
             "file": "maps/av4e/chemical_plant_containment_leak.json"
         }, {
-            "id": "av4e2",
+            "id": "av4eM003",
             "name": "Avengers Compound (Winter)",
             "set": "Avengers Forever",
             "type": "outdoor",
@@ -56,7 +56,7 @@
             "height": 24,
             "file": "maps/av4e/avengers_compound_winter.json"
         }, {
-            "id": "av4e3",
+            "id": "av4eM004",
             "name": "Starlord's Ship (Landed)",
             "set": "Avengers Forever",
             "type": "indoor",
@@ -64,7 +64,7 @@
             "height": 24,
             "file": "maps/av4e/starlords_ship_landed.json"
         }, {
-            "id": "xmxs0",
+            "id": "xmxsM001",
             "name": "Otherworld: Castle",
             "set": "X of Swords",
             "file": "maps/xmxs/otherworld_castle.json",
@@ -74,7 +74,7 @@
                 "mx": true
             }
         },{
-            "id": "xmxs1",
+            "id": "xmxsM002",
             "name": "Limbo",
             "set": "X of Swords",
             "file": "maps/xmxs/limbo.json",
@@ -84,7 +84,7 @@
                 "mx": true
             }
         },{
-            "id": "xmxs2",
+            "id": "xmxsM003",
             "name": "Morlock Tunnels",
             "set": "X of Swords",
             "file": "maps/xmxs/morlock_tunnels.json",
@@ -94,7 +94,7 @@
                 "mx": true
             }
         },{
-            "id": "xmxs3",
+            "id": "xmxsM004",
             "name": "Krakoan Garden",
             "set": "X of Swords",
             "file": "maps/xmxs/krakoan_garden.json",
@@ -104,7 +104,7 @@
                 "mx": true
             }
         },{
-            "id": "xmxs4",
+            "id": "xmxsM005",
             "name": "Otherworld: Shadow of the Starlight Citadel",
             "set": "X of Swords",
             "file": "maps/xmxs/otherworld_shadow_of_the_starlight_citadel.json",
@@ -114,17 +114,17 @@
                 "mx": true
             }
         },{
-            "id": "xmxs5",
+            "id": "xmxsM006",
             "name": "Otherworld: Blightspoke",
             "set": "X of Swords",
             "file": "maps/xmxs/otherworld_blightspoke.json"
         },{
-            "id": "xmxs6",
+            "id": "xmxsM007",
             "name": "Otherworld: Starlight Citadel Ballroom",
             "set": "X of Swords",
             "file": "maps/xmxs/otherworld_starlight_citadel_ballroom.json"
         },{
-            "id": "msdp0",
+            "id": "msdpM001",
             "name": "Westview",
             "set": "Marvel Studios Disney+",
             "type": "outdoor",
@@ -137,7 +137,7 @@
                 "mx": true
             }
         },{
-            "id": "msdp1",
+            "id": "msdpM002",
             "name": "Strategic Scientific Reserve Building",
             "set": "Marvel Studios Disney+",
             "type": "indoor",
@@ -150,7 +150,7 @@
                 "mx": true
             }
         },{
-            "id": "msdp2",
+            "id": "msdpM003",
             "name": "Munich Escape",
             "set": "Marvel Studios Disney+",
             "type": "outdoor",
@@ -163,7 +163,7 @@
                 "mx": true
             }
         },{
-            "id": "msdp3",
+            "id": "msdpM004",
             "name": "The Void",
             "set": "Marvel Studios Disney+",
             "type": "outdoor",
@@ -176,7 +176,7 @@
                 "mx": true
             }
         },{
-            "id": "msdp4",
+            "id": "msdpM005",
             "name": "Apocalyptic Avenue",
             "set": "Marvel Studios Disney+",
             "type": "outdoor",
@@ -188,7 +188,7 @@
                 "wko": true
             }
         },{
-            "id": "msdp5",
+            "id": "msdpM006",
             "name": "Downtown",
             "set": "Marvel Studios Disney+",
             "type": "indoorOutdoor",
@@ -200,7 +200,7 @@
                 "wko": true
             }
         },{
-            "id": "wotr0",
+            "id": "wotrM001",
             "name": "Fountain of Asgard",
             "set": "Avengers: War of the Realms",
             "type": "outdoor",
@@ -213,7 +213,7 @@
                 "mx": true
             }
         },{
-            "id": "wotr1",
+            "id": "wotrM002",
             "name": "Fallen Asgard",
             "set": "Avengers: War of the Realms",
             "type": "outdoor",
@@ -226,7 +226,7 @@
                 "mx": true
             }
         }, {
-            "id": "roc22_0",
+            "id": "roc22M001",
             "name": "The Regal",
             "set": "ROC 2022",
             "type": "indoor",
@@ -234,7 +234,7 @@
             "height": 24,
             "file": "maps/roc22/the_regal.json"
         }, {
-            "id": "roc22_1",
+            "id": "roc22M002",
             "name": "Red Mines",
             "set": "ROC 2022",
             "type": "indoor",
@@ -246,7 +246,7 @@
                 "wko": true
             }
         }, {
-            "id": "roc22_2",
+            "id": "roc22M003",
             "name": "Payroll Hold Up",
             "set": "ROC 2022",
             "type": "indoorOutdoor",
@@ -254,7 +254,7 @@
             "height": 24,
             "file": "maps/roc22/payroll_hold_up.json"
         }, {
-            "id": "roc22_3",
+            "id": "roc22M004",
             "name": "Sabotage Motel",
             "set": "ROC 2022",
             "type": "outdoor",
@@ -262,7 +262,7 @@
             "height": 24,
             "file": "maps/roc22/sabotage_motel.json"
         }, {
-            "id": "roc22_4",
+            "id": "roc22M005",
             "name": "Panther Fieldhouse",
             "set": "ROC 2022",
             "type": "indoor",
@@ -274,7 +274,7 @@
                 "wko": true
             }
         }, {
-            "id": "roc22_5",
+            "id": "roc22M006",
             "name": "Barnstable Wedding",
             "set": "ROC 2022",
             "type": "outdoor",
@@ -286,7 +286,7 @@
                 "wko": true
             }
         }, {
-            "id": "roc22_6",
+            "id": "roc22M007",
             "name": "The Four Points",
             "set": "ROC 2022",
             "type": "outdoor",
@@ -298,7 +298,7 @@
                 "wko": true
             }
         }, {
-            "id": "roc22_7",
+            "id": "roc22M008",
             "name": "Water Ziggurat",
             "set": "ROC 2022",
             "type": "outdoor",
@@ -306,7 +306,7 @@
             "height": 24,
             "file": "maps/roc22/water_ziggurat.json"
         }, {
-            "id": "mjx22_0",
+            "id": "mjx22M001",
             "name": "Glass Lake",
             "set": "Majestix Open Series 2022",
             "type": "outdoor",
@@ -317,7 +317,7 @@
                 "mx": true
             }
         }, {
-            "id": "mjx22_1",
+            "id": "mjx22M002",
             "name": "Taggert Farm",
             "set": "Majestix Open Series 2022",
             "type": "outdoor",
@@ -328,7 +328,7 @@
                 "mx": true
             }
         }, {
-            "id": "mjx22_2",
+            "id": "mjx22M003",
             "name": "Knowby Cabin",
             "set": "Majestix Open Series 2022",
             "type": "indoorOutdoor",
@@ -339,7 +339,7 @@
                 "mx": true
             }
         }, {
-            "id": "ff2021_0",
+            "id": "ff2021M001",
             "name": "Blue Area of the Moon",
             "set": "Fantastic Four 2021 Storyline Organized Play",
             "type": "outdoor",
@@ -352,7 +352,7 @@
                 "mx": true
             }
         },{
-            "id": "ff2021_1",
+            "id": "ff2021M002",
             "name": "Realm of Death",
             "set": "Fantastic Four 2021 Storyline Organized Play",
             "type": "indoor",
@@ -363,7 +363,7 @@
                 "modern": true
             }
         },{
-            "id": "ff2021_2",
+            "id": "ff2021M003",
             "name": "Honeymoon Resort",
             "set": "Fantastic Four 2021 Storyline Organized Play",
             "type": "outdoor",
@@ -376,7 +376,7 @@
                 "mx": true
             }
         },{
-            "id": "ff2021_3",
+            "id": "ff2021M004",
             "name": "Latveria",
             "set": "Fantastic Four 2021 Storyline Organized Play",
             "type": "outdoor",
@@ -389,7 +389,7 @@
                 "mx": true
             }
         },{
-            "id": "affe0",
+            "id": "affeM001",
             "name": "Hank Pym's Lab",
             "set": "Avengers Fantastic Four: Empyre",
             "type": "indoor",
@@ -400,7 +400,7 @@
                 "modern": true
             }
         }, {
-            "id": "affe1",
+            "id": "affeM002",
             "name": "Manhattan Bridge",
             "set": "Avengers Fantastic Four: Empyre",
             "type": "outdoor",
@@ -413,7 +413,7 @@
                 "mx": true
             }
         }, {
-            "id": "affe2",
+            "id": "affeM003",
             "name": "New York",
             "set": "Avengers Fantastic Four: Empyre",
             "type": "outdoor",
@@ -426,7 +426,7 @@
                 "mx": true
             }
         }, {
-            "id": "affe3",
+            "id": "affeM004",
             "name": "Baxter Building/Sentinel HQ",
             "set": "Avengers Fantastic Four: Empyre",
             "type": "indoor",
@@ -439,7 +439,7 @@
                 "mx": true
             }
         }, {
-            "id": "xmrf0",
+            "id": "xmrfM001",
             "name": "Starcore Space Station",
             "set": "X-Men: Rise and Fall",
             "type": "indoor",
@@ -452,7 +452,7 @@
                 "mx": true
             }
         }, {
-            "id": "xmrf1",
+            "id": "xmrfM002",
             "name": "Abandoned Weapon X Facility",
             "set": "X-Men: Rise and Fall",
             "type": "indoor",
@@ -465,7 +465,7 @@
                 "mx": true
             }
         }, {
-            "id": "ww80_0",
+            "id": "ww80M001",
             "name": "Junkyard",
             "set": "Wonder Woman 80th Anniversary",
             "type": "outdoor",
@@ -478,7 +478,7 @@
                 "mx": true
             }
         }, {
-            "id": "ww80_1",
+            "id": "ww80M002",
             "name": "Wonder Woman's Barn",
             "set": "Wonder Woman 80th Anniversary",
             "type": "outdoor",
@@ -491,7 +491,7 @@
                 "mx": true
             }
         }, {
-            "id": "ww80_2",
+            "id": "ww80M003",
             "name": "Mt. Olympus",
             "set": "Wonder Woman 80th Anniversary",
             "type": "outdoor",
@@ -504,7 +504,7 @@
                 "mx": true
             }
         }, {
-            "id": "ww80_3",
+            "id": "ww80M004",
             "name": "Paradise Island",
             "set": "Wonder Woman 80th Anniversary",
             "type": "outdoor",
@@ -517,7 +517,7 @@
                 "mx": true
             }
         }, {
-            "id": "ffff0",
+            "id": "ffffM001",
             "name": "Negative Zone",
             "set": "Fantastic Four: Future Foundation",
             "type": "indoor",
@@ -529,7 +529,7 @@
                 "wko": true
             }
         }, {
-            "id": "ffff1",
+            "id": "ffffM002",
             "name": "Desert Wedding",
             "set": "Fantastic Four: Future Foundation",
             "type": "outdoor",
@@ -542,7 +542,7 @@
                 "mx": true
             }
         }, {
-            "id": "roc21_0",
+            "id": "roc21M001",
             "name": "The Knoll",
             "set": "ROC 2021",
             "type": "outdoor",
@@ -554,7 +554,7 @@
                 "wko": true
             }
         }, {
-            "id": "roc21_1",
+            "id": "roc21M002",
             "name": "Defense Island",
             "set": "ROC 2021",
             "type": "outdoor",
@@ -566,7 +566,7 @@
                 "wko": true
             }
         }, {
-            "id": "roc21_2",
+            "id": "roc21M003",
             "name": "84th Street Mall",
             "set": "ROC 2021",
             "type": "outdoor",
@@ -578,7 +578,7 @@
                 "wko": true
             }
         }, {
-            "id": "roc21_3",
+            "id": "roc21M004",
             "name": "Hell's Pit",
             "set": "ROC 2021",
             "type": "indoor",
@@ -590,7 +590,7 @@
                 "wko": true
             }
         }, {
-            "id": "roc21_4",
+            "id": "roc21M005",
             "name": "Hell's Crossroads",
             "set": "ROC 2021",
             "type": "indoor",
@@ -598,7 +598,7 @@
             "height": 16,
             "file": "maps/roc21/hells_crossroads.json"
         }, {
-            "id": "roc21_5",
+            "id": "roc21M006",
             "name": "Eastview Park",
             "set": "ROC 2021",
             "type": "outdoor",
@@ -610,7 +610,7 @@
                 "wko": true
             }
         }, {
-            "id": "roc21_6",
+            "id": "roc21M007",
             "name": "Overview Chemicals",
             "set": "ROC 2021",
             "type": "indoor",
@@ -622,7 +622,7 @@
                 "wko": true
             }
         }, {
-            "id": "roc21_7",
+            "id": "roc21M008",
             "name": "Haunted Library",
             "set": "ROC 2021",
             "type": "indoor",
@@ -634,7 +634,7 @@
                 "wko": true
             }
         }, {
-            "id": "roc21_8",
+            "id": "roc21M009",
             "name": "Battlegate",
             "set": "ROC 2021",
             "type": "indoor",
@@ -646,7 +646,7 @@
                 "wko": true
             }
         }, {
-            "id": "roc21_9",
+            "id": "roc21M010",
             "name": "Planetary Annihilation",
             "set": "ROC 2021",
             "type": "outdoor",
@@ -658,7 +658,7 @@
                 "wko": true
             }
         }, {
-            "id": "roc21_10",
+            "id": "roc21M011",
             "name": "Skull Clearing",
             "set": "ROC 2021",
             "type": "outdoor",
@@ -670,7 +670,7 @@
                 "wko": true
             }
         }, {
-            "id": "roc21_11",
+            "id": "roc21M012",
             "name": "The Lodge",
             "set": "ROC 2021",
             "type": "outdoor",
@@ -678,7 +678,7 @@
             "height": 24,
             "file": "maps/roc21/the_lodge.json"
         }, {
-            "id": "roc21_12",
+            "id": "roc21M013",
             "name": "Eastview Circus",
             "set": "ROC 2021",
             "type": "outdoor",
@@ -690,7 +690,7 @@
                 "wko": true
             }
         }, {
-            "id": "roc21_13",
+            "id": "roc21M014",
             "name": "Hyper RPG Studios",
             "set": "ROC 2021",
             "type": "indoorOutdoor",
@@ -702,7 +702,7 @@
                 "wko": true
             }
         }, {
-            "id": "mjx21_0",
+            "id": "mjx21M001",
             "name": "Perfection",
             "set": "Majestix Open Series 2021",
             "type": "outdoor",
@@ -713,7 +713,7 @@
                 "mx": true
             }
         }, {
-            "id": "mjx21_1",
+            "id": "mjx21M002",
             "name": "Cave of the Cult",
             "set": "Majestix Open Series 2021",
             "type": "indoor",
@@ -724,7 +724,7 @@
                 "mx": true
             }
         }, {
-            "id": "mjx21_2",
+            "id": "mjx21M003",
             "name": "Rooftop Gateway",
             "set": "Majestix Open Series 2021",
             "type": "outdoor",
@@ -735,7 +735,7 @@
                 "mx": true
             }
         }, {
-            "id": "mjx21_3",
+            "id": "mjx21M004",
             "name": "Dinosaur Land",
             "set": "Majestix Open Series 2021",
             "type": "indoor",
@@ -746,7 +746,7 @@
                 "mx": true
             }
         }, {
-            "id": "mjx21_4",
+            "id": "mjx21M005",
             "name": "Hunter's Jungle",
             "set": "Majestix Open Series 2021",
             "type": "outdoor",
@@ -757,7 +757,7 @@
                 "mx": true
             }
         }, {
-            "id": "hox0",
+            "id": "hoxM001",
             "name": "Otherworld Castle",
             "set": "House of X",
             "type": "outdoor",
@@ -770,7 +770,7 @@
                 "mx": true
             }
         }, {
-            "id": "hox1",
+            "id": "hoxM002",
             "name": "Krakoa",
             "set": "House of X",
             "type": "outdoor",
@@ -783,20 +783,20 @@
                 "mx": true
             }
         }, {
-            "id": "f4_0",
+            "id": "f4M001",
             "name": "Aunt Petunia's House",
             "set": "Fantastic Four",
             "type": "indoorOutdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/f4/aunt_petunia.json",
+            "file": "maps/f4/aunt_petunias_house.json",
             "age": {
                 "modern": true,
                 "wko": true,
                 "mx": true
             }
         }, {
-            "id": "f4_1",
+            "id": "f4M002",
             "name": "Latverian Village",
             "set": "Fantastic Four",
             "type": "outdoor",
@@ -809,7 +809,7 @@
                 "mx": true
             }
         }, {
-            "id": "bgame0",
+            "id": "bgameM001",
             "name": "Castle Hideout",
             "set": "Battlegrounds: Avengers vs. Masters of Evil",
             "type": "outdoor",
@@ -822,7 +822,7 @@
                 "mx": true
             }
         }, {
-            "id": "bgame1",
+            "id": "bgameM002",
             "name": "Iron Man's Workshop",
             "set": "Battlegrounds: Avengers vs. Masters of Evil",
             "type": "indoor",
@@ -835,7 +835,7 @@
                 "mx": true
             }
         }, {
-            "id": "bgame2",
+            "id": "bgameM003",
             "name": "Ultron's Lair",
             "set": "Battlegrounds: Avengers vs. Masters of Evil",
             "type": "indoor",
@@ -848,7 +848,7 @@
                 "mx": true
             }
         }, {
-            "id": "bgame3",
+            "id": "bgameM004",
             "name": "Helicarrier Interior",
             "set": "Battlegrounds: Avengers vs. Masters of Evil",
             "type": "indoor",
@@ -861,7 +861,7 @@
                 "mx": true
             }
         }, {
-            "id": "jlu0",
+            "id": "jluM001",
             "name": "Justice League Watchtower",
             "set": "Justice League Unlimited",
             "type": "indoor",
@@ -872,7 +872,7 @@
                 "mx": true
             }
         }, {
-            "id": "jlu1",
+            "id": "jluM002",
             "name": "Injustice Gang Hideout",
             "set": "Justice League Unlimited",
             "type": "indoor",
@@ -883,7 +883,7 @@
                 "mx": true
             }
         }, {
-            "id": "jlu2",
+            "id": "jluM003",
             "name": "Cadmus Labs",
             "set": "Justice League Unlimited",
             "type": "indoor",
@@ -894,7 +894,7 @@
                 "mx": true
             }
         }, {
-            "id": "jlu3",
+            "id": "jluM004",
             "name": "Daily Planet",
             "set": "Justice League Unlimited",
             "type": "outdoor",
@@ -905,7 +905,7 @@
                 "mx": true
             }
         }, {
-            "id": "ffcc0",
+            "id": "ffccM001",
             "name": "Doom Castle",
             "set": "Fantastic Four: Cosmic Clash",
             "type": "outdoor",
@@ -916,7 +916,7 @@
                 "mx": true
             }
         }, {
-            "id": "ffcc1",
+            "id": "ffccM002",
             "name": "Testing Grounds",
             "set": "Fantastic Four: Cosmic Clash",
             "type": "outdoor",
@@ -924,7 +924,7 @@
             "height": 24,
             "file": "maps/ffcc/testing_grounds.json"
         }, {
-            "id": "ffcc2",
+            "id": "ffccM003",
             "name": "Reed's Lab",
             "set": "Fantastic Four: Cosmic Clash",
             "type": "indoor",
@@ -935,7 +935,7 @@
                 "mx": true
             }
         }, {
-            "id": "ffcc3",
+            "id": "ffccM004",
             "name": "Yancy Street",
             "set": "Fantastic Four: Cosmic Clash",
             "type": "outdoor",
@@ -943,7 +943,7 @@
             "height": 24,
             "file": "maps/ffcc/yancy_street.json"
         }, {
-            "id": "caav0",
+            "id": "caavM001",
             "name": "Avengers Mansion",
             "set": "Captain America and the Avengers",
             "type": "indoorOutdoor",
@@ -951,7 +951,7 @@
             "height": 24,
             "file": "maps/caav/avengers_mansion.json"
         }, {
-            "id": "caav1",
+            "id": "caavM002",
             "name": "Pleasant Hill",
             "set": "Captain America and the Avengers",
             "type": "outdoor",
@@ -959,7 +959,7 @@
             "height": 24,
             "file": "maps/caav/pleasant_hill.json"
         }, {
-            "id": "roc20_0",
+            "id": "roc20M001",
             "name": "Pitfight",
             "set": "ROC 2020",
             "type": "outdoor",
@@ -967,7 +967,7 @@
             "height": 24,
             "file": "maps/roc20/pitfight.json"
         }, {
-            "id": "roc20_1",
+            "id": "roc20M002",
             "name": "Backyard Wrestling",
             "set": "ROC 2020",
             "type": "outdoor",
@@ -975,7 +975,7 @@
             "height": 24,
             "file": "maps/roc20/backyard_wrestling.json"
         }, {
-            "id": "roc20_2",
+            "id": "roc20M003",
             "name": "Bar Fighter",
             "set": "ROC 2020",
             "type": "indoor",
@@ -983,7 +983,7 @@
             "height": 24,
             "file": "maps/roc20/bar_fighter.json"
         }, {
-            "id": "roc20_3",
+            "id": "roc20M004",
             "name": "Widowmaker's Lair",
             "set": "ROC 2020",
             "type": "indoorOutdoor",
@@ -995,7 +995,7 @@
                 "wko": true
             }
         }, {
-            "id": "roc20_4",
+            "id": "roc20M005",
             "name": "Research Outpost",
             "set": "ROC 2020",
             "type": "outdoor",
@@ -1003,7 +1003,7 @@
             "height": 24,
             "file": "maps/roc20/research_outpost.json"
         }, {
-            "id": "roc20_5",
+            "id": "roc20M006",
             "name": "The Bounty Hanger",
             "set": "ROC 2020",
             "type": "indoor",
@@ -1011,7 +1011,7 @@
             "height": 24,
             "file": "maps/roc20/the_bounty_hanger.json"
         }, {
-            "id": "roc20_6",
+            "id": "roc20M007",
             "name": "Planet 100475 Topside",
             "set": "ROC 2020",
             "type": "outdoor",
@@ -1019,7 +1019,7 @@
             "height": 24,
             "file": "maps/roc20/planet_100475_topside.json"
         }, {
-            "id": "roc20_7",
+            "id": "roc20M008",
             "name": "Warehouse 75",
             "set": "ROC 2020",
             "type": "indoor",
@@ -1027,7 +1027,7 @@
             "height": 24,
             "file": "maps/roc20/warehouse_75.json"
         }, {
-            "id": "roc20_8",
+            "id": "roc20M009",
             "name": "Alien Beacon",
             "set": "ROC 2020",
             "type": "outdoor",
@@ -1035,7 +1035,7 @@
             "height": 16,
             "file": "maps/roc20/alien_beacon.json"
         }, {
-            "id": "roc20_9",
+            "id": "roc20M010",
             "name": "The Bounty Engine Room",
             "set": "ROC 2020",
             "type": "indoor",
@@ -1043,7 +1043,7 @@
             "height": 24,
             "file": "maps/roc20/the_bounty_engine_room.json"
         }, {
-            "id": "roc20_10",
+            "id": "roc20M011",
             "name": "Phoenix Nest",
             "set": "ROC 2020",
             "type": "outdoor",
@@ -1055,7 +1055,7 @@
                 "wko": true
             }
         }, {
-            "id": "roc20_11",
+            "id": "roc20M012",
             "name": "Madison Stadium A",
             "set": "ROC 2020",
             "type": "outdoor",
@@ -1063,7 +1063,7 @@
             "height": 24,
             "file": "maps/roc20/madison_stadium_a.json"
         }, {
-            "id": "roc20_12",
+            "id": "roc20M013",
             "name": "Madison Stadium B",
             "set": "ROC 2020",
             "type": "outdoor",
@@ -1071,7 +1071,7 @@
             "height": 24,
             "file": "maps/roc20/madison_stadium_b.json"
         }, {
-            "id": "roc20_13",
+            "id": "roc20M014",
             "name": "Hospital Hall",
             "set": "ROC 2020",
             "type": "indoor",
@@ -1079,7 +1079,7 @@
             "height": 24,
             "file": "maps/roc20/hospital_hall.json"
         }, {
-            "id": "roc20_14",
+            "id": "roc20M015",
             "name": "Glenn Grove Cemetery",
             "set": "ROC 2020",
             "type": "outdoor",
@@ -1087,7 +1087,7 @@
             "height": 24,
             "file": "maps/roc20/glenn_grove_cemetary.json"
         }, {
-            "id": "roc20_15",
+            "id": "roc20M016",
             "name": "Institute Grounds",
             "set": "ROC 2020",
             "type": "outdoor",
@@ -1095,7 +1095,7 @@
             "height": 24,
             "file": "maps/roc20/institute_grounds.json"
         }, {
-            "id": "roc20_16",
+            "id": "roc20M017",
             "name": "Data Mine",
             "set": "ROC 2020",
             "type": "outdoor",
@@ -1103,7 +1103,7 @@
             "height": 24,
             "file": "maps/roc20/data_mine.json"
         }, {
-            "id": "roc20_17",
+            "id": "roc20M018",
             "name": "Sewage Treatment",
             "set": "ROC 2020",
             "type": "indoor",
@@ -1111,7 +1111,7 @@
             "height": 24,
             "file": "maps/roc20/sewage_treatment.json"
         }, {
-            "id": "roc20_21",
+            "id": "roc20M019",
             "name": "Chemical Plant",
             "set": "ROC 2020",
             "type": "indoor",
@@ -1119,7 +1119,7 @@
             "height": 24,
             "file": "maps/roc20/chemical_plant.json"
         }, {
-            "id": "mjx20_0",
+            "id": "mjx20M001",
             "name": "Ice Planet",
             "set": "Majestix Open Series 2020",
             "type": "outdoor",
@@ -1130,7 +1130,7 @@
                 "mx": true
             }
         }, {
-            "id": "mjx20_1",
+            "id": "mjx20M002",
             "name": "Agent's Lobby",
             "set": "Majestix Open Series 2020",
             "type": "indoor",
@@ -1141,7 +1141,7 @@
                 "mx": true
             }
         }, {
-            "id": "mjx20_2",
+            "id": "mjx20M003",
             "name": "Temple of the Idol",
             "set": "Majestix Open Series 2020",
             "type": "indoor",
@@ -1152,7 +1152,7 @@
                 "mx": true
             }
         }, {
-            "id": "mjx20_3",
+            "id": "mjx20M004",
             "name": "Clock Tower 2015",
             "set": "Majestix Open Series 2020",
             "type": "indoorOutdoor",
@@ -1163,7 +1163,7 @@
                 "mx": true
             }
         }, {
-            "id": "wwe0",
+            "id": "wweM001",
             "name": "WWE Arena",
             "set": "WWE Series 1",
             "type": "indoor",
@@ -1171,7 +1171,7 @@
             "height": 24,
             "file": "maps/wwe/wwe_arena.json"
         }, {
-            "id": "wwe1",
+            "id": "wweM002",
             "name": "WWE Backstage Area",
             "set": "WWE Series 1",
             "type": "indoor",
@@ -1179,7 +1179,7 @@
             "height": 24,
             "file": "maps/wwe/wwe_backstage_area.json"
         }, {
-            "id": "wwe2",
+            "id": "wweM003",
             "name": "WWE WarGames",
             "set": "WWE Series 1",
             "type": "indoor",
@@ -1187,7 +1187,7 @@
             "height": 24,
             "file": "maps/wwe/wwe_wargames.json"
         }, {
-            "id": "wwe3",
+            "id": "wweM004",
             "name": "WWE Training Center",
             "set": "WWE Series 1",
             "type": "indoor",
@@ -1195,7 +1195,7 @@
             "height": 24,
             "file": "maps/wwe/wwe_training_center.json"
         }, {
-            "id": "orvl0",
+            "id": "orvlM001",
             "name": "Orville Bridge",
             "set": "The Orville Starter",
             "type": "indoor",
@@ -1203,7 +1203,7 @@
             "height": 24,
             "file": "maps/orvl/orville_bridge.json"
         }, {
-            "id": "xdps0",
+            "id": "xdpsM001",
             "name": "Savage Land",
             "set": "X-Men the Animated Series: The Dark Phoenix Saga",
             "type": "outdoor",
@@ -1211,7 +1211,7 @@
             "height": 24,
             "file": "maps/xdps/savage_land.json"
         }, {
-            "id": "xdps1",
+            "id": "xdpsM002",
             "name": "Sentinel Factory",
             "set": "X-Men the Animated Series: The Dark Phoenix Saga",
             "type": "indoor",
@@ -1219,7 +1219,7 @@
             "height": 24,
             "file": "maps/xdps/sentinel_factory.json"
         }, {
-            "id": "wcr0",
+            "id": "wcrM001",
             "name": "San Francisco Mutant Museum",
             "set": "X-Men: Regenesis",
             "type": "indoor",
@@ -1227,7 +1227,7 @@
             "height": 24,
             "file": "maps/wcr/san_francisco_mutant_museum.json"
         }, {
-            "id": "wcr1",
+            "id": "wcrM002",
             "name": "Lombard Street",
             "set": "X-Men: Regenesis",
             "type": "outdoor",
@@ -1235,7 +1235,7 @@
             "height": 24,
             "file": "maps/wcr/lombard_street.json"
         }, {
-            "id": "wcr2",
+            "id": "wcrM003",
             "name": "Jean Grey School For Higher Learning Grounds",
             "set": "X-Men: Regenesis",
             "type": "outdoor",
@@ -1243,7 +1243,7 @@
             "height": 24,
             "file": "maps/wcr/jean_grey_school_for_higher_learning_grounds.json"
         }, {
-            "id": "wcr3",
+            "id": "wcrM004",
             "name": "Danger-Room East",
             "set": "X-Men: Regenesis",
             "type": "indoor",
@@ -1251,7 +1251,7 @@
             "height": 24,
             "file": "maps/wcr/danger_room_east.json"
         }, {
-            "id": "wcr4",
+            "id": "wcrM005",
             "name": "Utopia",
             "set": "X-Men: Regenesis",
             "type": "indoorOutdoor",
@@ -1259,7 +1259,7 @@
             "height": 24,
             "file": "maps/wcr/utopia.json"
         }, {
-            "id": "wcr5",
+            "id": "wcrM006",
             "name": "Danger-Room West",
             "set": "X-Men: Regenesis",
             "type": "indoor",
@@ -1267,7 +1267,7 @@
             "height": 24,
             "file": "maps/wcr/danger_room_west.json"
         }, {
-            "id": "abpi0",
+            "id": "abpiM001",
             "name": "The Great Mound",
             "set": "Avengers Black Panther and the Illuminati",
             "type": "outdoor",
@@ -1275,7 +1275,7 @@
             "height": 24,
             "file": "maps/abpi/the_great_mound.json"
         }, {
-            "id": "abpi1",
+            "id": "abpiM002",
             "name": "Necropolis",
             "set": "Avengers Black Panther and the Illuminati",
             "type": "indoorOutdoor",
@@ -1283,7 +1283,7 @@
             "height": 24,
             "file": "maps/abpi/necropolis.json"
         }, {
-            "id": "re0",
+            "id": "reM001",
             "name": "Titan Tower",
             "set": "Rebirth",
             "type": "outdoor",
@@ -1291,7 +1291,7 @@
             "height": 24,
             "file": "maps/re/titan_tower.json"
         }, {
-            "id": "re1",
+            "id": "reM002",
             "name": "Metal Arena",
             "set": "Rebirth",
             "type": "outdoor",
@@ -1299,7 +1299,7 @@
             "height": 24,
             "file": "maps/re/metal_arena.json"
         }, {
-            "id": "eax0",
+            "id": "eaxM001",
             "name": "Stark Tower",
             "set": "Earth X",
             "type": "indoor",
@@ -1310,7 +1310,7 @@
                 "mx": true
             }
         }, {
-            "id": "eax1",
+            "id": "eaxM002",
             "name": "Wakanda Earth X",
             "set": "Earth X",
             "type": "outdoor",
@@ -1321,7 +1321,7 @@
                 "mx": true
             }
         }, {
-            "id": "eax2",
+            "id": "eaxM003",
             "name": "NY Harbor",
             "set": "Earth X",
             "type": "outdoor",
@@ -1332,7 +1332,7 @@
                 "mx": true
             }
         }, {
-            "id": "eax3",
+            "id": "eaxM004",
             "name": "Skull Camp",
             "set": "Earth X",
             "type": "outdoor",
@@ -1343,7 +1343,7 @@
                 "mx": true
             }
         }, {
-            "id": "roc19_0",
+            "id": "roc19M001",
             "name": "Prison Control Room",
             "set": "ROC 2019",
             "type": "indoor",
@@ -1351,7 +1351,7 @@
             "height": 16,
             "file": "maps/roc19/prison_control_room.json"
         }, {
-            "id": "roc19_1",
+            "id": "roc19M002",
             "name": "Police HQ",
             "set": "ROC 2019",
             "type": "indoor",
@@ -1359,7 +1359,7 @@
             "height": 24,
             "file": "maps/roc19/police_hq.json"
         }, {
-            "id": "roc19_2",
+            "id": "roc19M003",
             "name": "Prison Tier",
             "set": "ROC 2019",
             "type": "indoor",
@@ -1367,7 +1367,7 @@
             "height": 24,
             "file": "maps/roc19/prison_tier.json"
         }, {
-            "id": "roc19_3",
+            "id": "roc19M004",
             "name": "Courthouse",
             "set": "ROC 2019",
             "type": "indoorOutdoor",
@@ -1375,7 +1375,7 @@
             "height": 24,
             "file": "maps/roc19/courthouse.json"
         }, {
-            "id": "roc19_4",
+            "id": "roc19M005",
             "name": "Street Riot",
             "set": "ROC 2019",
             "type": "outdoor",
@@ -1383,7 +1383,7 @@
             "height": 24,
             "file": "maps/roc19/street_riot.json"
         }, {
-            "id": "roc19_5",
+            "id": "roc19M006",
             "name": "The Docks",
             "set": "ROC 2019",
             "type": "indoorOutdoor",
@@ -1391,7 +1391,7 @@
             "height": 24,
             "file": "maps/roc19/the_docks.json"
         }, {
-            "id": "roc19_6",
+            "id": "roc19M007",
             "name": "Warehouse 19",
             "set": "ROC 2019",
             "type": "indoorOutdoor",
@@ -1399,7 +1399,7 @@
             "height": 24,
             "file": "maps/roc19/warehouse_19.json"
         }, {
-            "id": "roc19_7",
+            "id": "roc19M008",
             "name": "The Intersection",
             "set": "ROC 2019",
             "type": "outdoor",
@@ -1407,7 +1407,7 @@
             "height": 16,
             "file": "maps/roc19/the_intersection.json"
         }, {
-            "id": "roc19_8",
+            "id": "roc19M009",
             "name": "Underground Temple",
             "set": "ROC 2019",
             "type": "indoor",
@@ -1415,7 +1415,7 @@
             "height": 24,
             "file": "maps/roc19/underground_temple.json"
         }, {
-            "id": "roc19_9",
+            "id": "roc19M010",
             "name": "Construction Site",
             "set": "ROC 2019",
             "type": "outdoor",
@@ -1423,7 +1423,7 @@
             "height": 24,
             "file": "maps/roc19/construction_site.json"
         }, {
-            "id": "roc19_10",
+            "id": "roc19M011",
             "name": "Archway Park",
             "set": "ROC 2019",
             "type": "outdoor",
@@ -1431,7 +1431,7 @@
             "height": 24,
             "file": "maps/roc19/archway_park.json"
         }, {
-            "id": "roc19_11",
+            "id": "roc19M012",
             "name": "King's Tomb",
             "set": "ROC 2019",
             "type": "indoor",
@@ -1439,7 +1439,7 @@
             "height": 24,
             "file": "maps/roc19/kings_tomb.json"
         }, {
-            "id": "roc19_12",
+            "id": "roc19M013",
             "name": "Hanging Island",
             "set": "ROC 2019",
             "type": "indoorOutdoor",
@@ -1447,7 +1447,7 @@
             "height": 24,
             "file": "maps/roc19/hanging_island.json"
         }, {
-            "id": "roc19_13",
+            "id": "roc19M014",
             "name": "Dracon Mount",
             "set": "ROC 2019",
             "type": "outdoor",
@@ -1455,7 +1455,7 @@
             "height": 24,
             "file": "maps/roc19/dracon_mount.json"
         }, {
-            "id": "roc19_14",
+            "id": "roc19M015",
             "name": "Campsite",
             "set": "ROC 2019",
             "type": "outdoor",
@@ -1463,7 +1463,7 @@
             "height": 24,
             "file": "maps/roc19/campsite.json"
         }, {
-            "id": "roc19_15",
+            "id": "roc19M016",
             "name": "Sanctuary",
             "set": "ROC 2019",
             "type": "indoor/Outdoor",
@@ -1471,7 +1471,7 @@
             "height": 24,
             "file": "maps/roc19/sanctuary.json"
         }, {
-            "id": "roc19_16",
+            "id": "roc19M017",
             "name": "Political Rally",
             "set": "ROC 2019",
             "type": "indoorOutdoor",
@@ -1479,7 +1479,7 @@
             "height": 24,
             "file": "maps/roc19/political_rally.json"
         }, {
-            "id": "roc19_17",
+            "id": "roc19M018",
             "name": "Mr. Chomp's Swamp",
             "set": "ROC 2019",
             "type": "outdoor",
@@ -1487,7 +1487,7 @@
             "height": 24,
             "file": "maps/roc19/chomps_swamp.json"
         }, {
-            "id": "roc19_18",
+            "id": "roc19M019",
             "name": "Settle It On The Canvas!",
             "set": "ROC 2019",
             "type": "outdoor",
@@ -1495,7 +1495,7 @@
             "height": 24,
             "file": "maps/roc19/settle_it_on_the_canvas.json"
         }, {
-            "id": "roc19_19",
+            "id": "roc19M020",
             "name": "Settle It On The Canvas! Battle Royale",
             "set": "ROC 2019",
             "type": "outdoor",
@@ -1503,7 +1503,7 @@
             "height": 24,
             "file": "maps/roc19/settle_it_on_the_canvas_battle_royale.json"
         }, {
-            "id": "roc19_20",
+            "id": "roc19M021",
             "name": "Ancient Hold",
             "set": "ROC 2019",
             "type": "indoor",
@@ -1511,7 +1511,7 @@
             "height": 24,
             "file": "maps/roc19/ancient_hold.json"
         }, {
-            "id": "roc19_21",
+            "id": "roc19M022",
             "name": "Assassin's Alley",
             "set": "ROC 2019",
             "type": "outdoor",
@@ -1519,7 +1519,7 @@
             "height": 24,
             "file": "maps/roc15/assassins_alley.json"
         }, {
-            "id": "roc19_22",
+            "id": "roc19M023",
             "name": "Mayan Temple",
             "set": "ROC 2019",
             "type": "outdoor",
@@ -1527,7 +1527,7 @@
             "height": 24,
             "file": "maps/roc14/mayan_ruins.json"
         }, {
-            "id": "mjx19_0",
+            "id": "mjx19M001",
             "name": "Lightcycle Battle Arena",
             "set": "Majestix Open Series 2019",
             "type": "outdoor",
@@ -1535,7 +1535,7 @@
             "height": 24,
             "file": "maps/mjx19/lightcycle_battle_arena.json"
         }, {
-            "id": "swb0",
+            "id": "swbM001",
             "name": "Regency Laboratory",
             "set": "Secret Wars: Battleworld",
             "type": "indoor",
@@ -1543,7 +1543,7 @@
             "height": 24,
             "file": "maps/swb/regency_laboratory.json"
         }, {
-            "id": "swb1",
+            "id": "swbM002",
             "name": "Weird-World",
             "set": "Secret Wars: Battleworld",
             "type": "outdoor",
@@ -1551,7 +1551,7 @@
             "height": 24,
             "file": "maps/swb/weird_world.json"
         }, {
-            "id": "btas0",
+            "id": "btasM001",
             "name": "Gotham Museum",
             "set": "Batman: The Animated Series",
             "type": "indoor",
@@ -1562,7 +1562,7 @@
                 "mx": true
             }
         }, {
-            "id": "btas1",
+            "id": "btasM002",
             "name": "Gotham City Waterfront",
             "set": "Batman: The Animated Series",
             "type": "outdoor",
@@ -1573,7 +1573,7 @@
                 "mx": true
             }
         }, {
-            "id": "btas2",
+            "id": "btasM003",
             "name": "Ha-Ha Hacienda",
             "set": "Batman: The Animated Series",
             "type": "indoor",
@@ -1584,7 +1584,7 @@
                 "mx": true
             }
         }, {
-            "id": "btas3",
+            "id": "btasM004",
             "name": "Iceberg Lounge",
             "set": "Batman: The Animated Series",
             "type": "indoor",
@@ -1595,7 +1595,7 @@
                 "mx": true
             }
         }, {
-            "id": "btas4",
+            "id": "btasM005",
             "name": "Poison Ivy's Greenhouse",
             "set": "Batman: The Animated Series",
             "type": "indoor",
@@ -1606,7 +1606,7 @@
                 "mx": true
             }
         }, {
-            "id": "btas5",
+            "id": "btasM006",
             "name": "Gotham City Downtown",
             "set": "Batman: The Animated Series",
             "type": "outdoor",
@@ -1617,7 +1617,7 @@
                 "mx": true
             }
         }, {
-            "id": "ai0",
+            "id": "aiM001",
             "name": "Halfworld",
             "set": "Avengers Infinity",
             "type": "outdoor",
@@ -1625,7 +1625,7 @@
             "height": 24,
             "file": "maps/ai/halfworld.json"
         }, {
-            "id": "ai1",
+            "id": "aiM002",
             "name": "Galador Promenade",
             "set": "Avengers Infinity",
             "type": "outdoor",
@@ -1633,7 +1633,7 @@
             "height": 24,
             "file": "maps/ai/galador_promenade.json"
         }, {
-            "id": "xxs0",
+            "id": "xxsM001",
             "name": "Genosha",
             "set": "X-Men: Xavier's School",
             "type": "outdoor",
@@ -1641,7 +1641,7 @@
             "height": 24,
             "file": "maps/xxs/genosha.json"
         }, {
-            "id": "xxs1",
+            "id": "xxsM002",
             "name": "Muir Island",
             "set": "X-Men: Xavier's School",
             "type": "indoorOutdoor",
@@ -1649,7 +1649,7 @@
             "height": 24,
             "file": "maps/xxs/muir_island.json"
         }, {
-            "id": "roc18_0",
+            "id": "roc18M001",
             "name": "Food Court",
             "set": "ROC 2018",
             "type": "indoor",
@@ -1657,7 +1657,7 @@
             "height": 24,
             "file": "maps/roc18/food_court.json"
         }, {
-            "id": "roc18_1",
+            "id": "roc18M002",
             "name": "Arcade",
             "set": "ROC 2018",
             "type": "indoor",
@@ -1665,7 +1665,7 @@
             "height": 24,
             "file": "maps/roc18/arcade.json"
         }, {
-            "id": "roc18_2",
+            "id": "roc18M003",
             "name": "Mall Hallway 01",
             "set": "ROC 2018",
             "type": "indoor",
@@ -1673,7 +1673,7 @@
             "height": 24,
             "file": "maps/roc18/mall_hallway_01.json"
         }, {
-            "id": "roc18_3",
+            "id": "roc18M004",
             "name": "Clothing Cove",
             "set": "ROC 2018",
             "type": "indoor",
@@ -1681,7 +1681,7 @@
             "height": 24,
             "file": "maps/roc18/clothing_cove.json"
         }, {
-            "id": "roc18_4",
+            "id": "roc18M005",
             "name": "Fountain's Corner",
             "set": "ROC 2018",
             "type": "indoor",
@@ -1689,7 +1689,7 @@
             "height": 16,
             "file": "maps/roc18/fountains_corner.json"
         }, {
-            "id": "roc18_5",
+            "id": "roc18M006",
             "name": "Street Fight",
             "set": "ROC 2018",
             "type": "outdoor",
@@ -1697,7 +1697,7 @@
             "height": 16,
             "file": "maps/roc18/street_fight.json"
         }, {
-            "id": "roc18_6",
+            "id": "roc18M007",
             "name": "Flashpoint Flood",
             "set": "ROC 2018",
             "type": "outdoor",
@@ -1705,7 +1705,7 @@
             "height": 24,
             "file": "maps/roc18/flashpoint_flood.json"
         }, {
-            "id": "roc18_7",
+            "id": "roc18M008",
             "name": "Staten Island Ferry",
             "set": "ROC 2018",
             "type": "outdoor",
@@ -1713,7 +1713,7 @@
             "height": 24,
             "file": "maps/roc18/staten_island_ferry.json"
         }, {
-            "id": "roc18_8",
+            "id": "roc18M009",
             "name": "Belgium Battle",
             "set": "ROC 2018",
             "type": "outdoor",
@@ -1721,7 +1721,7 @@
             "height": 24,
             "file": "maps/roc18/belgium_battle.json"
         }, {
-            "id": "roc18_9",
+            "id": "roc18M010",
             "name": "Oskopnir",
             "set": "ROC 2018",
             "type": "indoor",
@@ -1729,7 +1729,7 @@
             "height": 24,
             "file": "maps/roc18/oskopnir.json"
         }, {
-            "id": "roc18_10",
+            "id": "roc18M011",
             "name": "Crash Landing",
             "set": "ROC 2018",
             "type": "outdoor",
@@ -1737,7 +1737,7 @@
             "height": 24,
             "file": "maps/roc18/crash_landing.json"
         }, {
-            "id": "roc18_11",
+            "id": "roc18M012",
             "name": "Let Them In",
             "set": "ROC 2018",
             "type": "outdoor",
@@ -1745,7 +1745,7 @@
             "height": 24,
             "file": "maps/roc18/let_them_in.json"
         }, {
-            "id": "roc18_12",
+            "id": "roc18M013",
             "name": "Titan's Reality",
             "set": "ROC 2018",
             "type": "outdoor",
@@ -1753,7 +1753,7 @@
             "height": 24,
             "file": "maps/roc18/titans_reality.json"
         }, {
-            "id": "roc18_13",
+            "id": "roc18M014",
             "name": "Strange Day At The Park",
             "set": "ROC 2018",
             "type": "outdoor",
@@ -1761,7 +1761,7 @@
             "height": 24,
             "file": "maps/roc18/strange_day_at_the_park.json"
         }, {
-            "id": "roc18_14",
+            "id": "roc18M015",
             "name": "Ultimate Sacrifice",
             "set": "ROC 2018",
             "type": "outdoor",
@@ -1769,7 +1769,7 @@
             "height": 24,
             "file": "maps/roc18/ultimate_sacrifice.json"
         }, {
-            "id": "roc18_15",
+            "id": "roc18M016",
             "name": "Monument Park",
             "set": "ROC 2018",
             "type": "outdoor",
@@ -1777,7 +1777,7 @@
             "height": 16,
             "file": "maps/roc18/monument_park.json"
         }, {
-            "id": "roc18_16",
+            "id": "roc18M017",
             "name": "Hedge Maze",
             "set": "ROC 2018",
             "type": "outdoor",
@@ -1785,7 +1785,7 @@
             "height": 24,
             "file": "maps/roc18/hedge_maze.json"
         }, {
-            "id": "roc18_17",
+            "id": "roc18M018",
             "name": "Powell Family Farm",
             "set": "ROC 2018",
             "type": "outdoor",
@@ -1793,7 +1793,7 @@
             "height": 24,
             "file": "maps/roc18/powell_family_farm.json"
         }, {
-            "id": "roc18_18",
+            "id": "roc18M019",
             "name": "The 4 Points Gaming Club's Best Friend Forever",
             "set": "ROC 2018",
             "type": "outdoor",
@@ -1801,7 +1801,7 @@
             "height": 24,
             "file": "maps/roc18/the_4_points_gaming_clubs_best_friends_forever.json"
         }, {
-            "id": "roc18_19",
+            "id": "roc18M020",
             "name": "National Air",
             "set": "ROC 2018",
             "type": "outdoor",
@@ -1809,7 +1809,7 @@
             "height": 24,
             "file": "maps/roc18/national_air.json"
         }, {
-            "id": "roc18_20",
+            "id": "roc18M021",
             "name": "The Trenches",
             "set": "ROC 2018",
             "type": "outdoor",
@@ -1817,7 +1817,7 @@
             "height": 24,
             "file": "maps/roc18/the_trenches.json"
         }, {
-            "id": "os0",
+            "id": "osM001",
             "name": "Gorn Fight",
             "set": "Star Trek Away Team: The Original Series",
             "type": "outdoor",
@@ -1825,7 +1825,7 @@
             "height": 24,
             "file": "maps/os/gorn_fight.json"
         }, {
-            "id": "os1",
+            "id": "osM002",
             "name": "Forgotten Planet",
             "set": "Star Trek Away Team: The Original Series",
             "type": "outdoor",
@@ -1833,7 +1833,7 @@
             "height": 24,
             "file": "maps/os/forgotten_planet.json"
         }, {
-            "id": "os2",
+            "id": "osM003",
             "name": "Amok Time",
             "set": "Star Trek Away Team: The Original Series",
             "type": "outdoor",
@@ -1841,7 +1841,7 @@
             "height": 24,
             "file": "maps/os/amok_time.json"
         }, {
-            "id": "os3",
+            "id": "osM004",
             "name": "Underground Cavern",
             "set": "Star Trek Away Team: The Original Series",
             "type": "indoor",
@@ -1849,7 +1849,7 @@
             "height": 24,
             "file": "maps/os/underground_cavern.json"
         }, {
-            "id": "hq0",
+            "id": "hqM001",
             "name": "Harley's Apartment",
             "set": "Harley Quinn and the Gotham Girls",
             "type": "outdoor",
@@ -1857,7 +1857,7 @@
             "height": 24,
             "file": "maps/hq/harleys_apartment.json"
         }, {
-            "id": "hq1",
+            "id": "hqM002",
             "name": "Roller Derby",
             "set": "Harley Quinn and the Gotham Girls",
             "type": "indoor",
@@ -1865,7 +1865,7 @@
             "height": 24,
             "file": "maps/hq/roller_derby.json"
         }, {
-            "id": "tmt0",
+            "id": "tmtM001",
             "name": "Gjallerbru",
             "set": "The Mighty Thor",
             "type": "indoorOutdoor",
@@ -1873,7 +1873,7 @@
             "height": 24,
             "file": "maps/tmt/gjallerbru.json"
         }, {
-            "id": "tmt1",
+            "id": "tmtM002",
             "name": "Grand Arena",
             "set": "The Mighty Thor",
             "type": "outdoor",
@@ -1881,7 +1881,7 @@
             "height": 24,
             "file": "maps/tmt/grand_arena.json"
         }, {
-            "id": "tmt2",
+            "id": "tmtM003",
             "name": "Bifrost",
             "set": "The Mighty Thor",
             "type": "outdoor",
@@ -1889,7 +1889,7 @@
             "height": 24,
             "file": "maps/tmt/bifrost.json"
         }, {
-            "id": "tmt3",
+            "id": "tmtM004",
             "name": "Jotunheim Lake",
             "set": "The Mighty Thor",
             "type": "outdoor",
@@ -1897,7 +1897,7 @@
             "height": 24,
             "file": "maps/tmt/jotunheim_lake.json"
         }, {
-            "id": "ew0",
+            "id": "ewM001",
             "name": "Junkyard",
             "set": "Elseworlds",
             "type": "outdoor",
@@ -1905,7 +1905,7 @@
             "height": 24,
             "file": "maps/ew/junkyard.json"
         }, {
-            "id": "ew1",
+            "id": "ewM002",
             "name": "High Noon Saloon",
             "set": "Elseworlds",
             "type": "indoor",
@@ -1913,7 +1913,7 @@
             "height": 24,
             "file": "maps/ew/high_noon_saloon.json"
         }, {
-            "id": "ew2",
+            "id": "ewM003",
             "name": "Wonder Woman Barn",
             "set": "Elseworlds",
             "type": "outdoor",
@@ -1921,7 +1921,7 @@
             "height": 24,
             "file": "maps/ew/wonder_woman_barn.json"
         }, {
-            "id": "ew3",
+            "id": "ewM004",
             "name": "High Noon Street",
             "set": "Elseworlds",
             "type": "outdoor",
@@ -1929,7 +1929,7 @@
             "height": 24,
             "file": "maps/ew/high_noon_street.json"
         }, {
-            "id": "wkp0",
+            "id": "wkpM001",
             "name": "Gaming Convention Hall",
             "set": "Premium & Exclusive Maps",
             "type": "indoor",
@@ -1937,7 +1937,7 @@
             "height": 24,
             "file": "maps/wkp/gaming_convention_hall.json"
         }, {
-            "id": "wkp1",
+            "id": "wkpM002",
             "name": "WizKids Office HQ",
             "set": "Premium & Exclusive Maps",
             "type": "indoor",
@@ -1945,7 +1945,7 @@
             "height": 24,
             "file": "maps/wkp/wizkids_office_hq.json"
         }, {
-            "id": "wkp2",
+            "id": "wkpM003",
             "name": "Convention Center Plaza",
             "set": "Premium & Exclusive Maps",
             "type": "outdoor",
@@ -1953,7 +1953,7 @@
             "height": 24,
             "file": "maps/wkp/convention_center_plaza.json"
         }, {
-            "id": "wkp3",
+            "id": "wkpM004",
             "name": "Parking Garage",
             "set": "Premium & Exclusive Maps",
             "type": "outdoor",
@@ -1961,7 +1961,7 @@
             "height": 24,
             "file": "maps/wkp/parking_garage.json"
         }, {
-            "id": "wkp4",
+            "id": "wkpM005",
             "name": "Cargo Ship",
             "set": "Premium & Exclusive Maps",
             "type": "outdoor",
@@ -1969,7 +1969,7 @@
             "height": 24,
             "file": "maps/wkp/cargo_ship.json"
         }, {
-            "id": "wkp5",
+            "id": "wkpM006",
             "name": "Warehouse 5651",
             "set": "Premium & Exclusive Maps",
             "type": "indoor",
@@ -1977,7 +1977,7 @@
             "height": 24,
             "file": "maps/wkp/warehouse_5651.json"
         }, {
-            "id": "wkp5",
+            "id": "wkpM007",
             "name": "Sporting Arena",
             "set": "Premium & Exclusive Maps",
             "type": "indoor",
@@ -1985,7 +1985,7 @@
             "height": 24,
             "file": "maps/wkp/sporting_arena.json"
         }, {
-            "id": "wkp6",
+            "id": "wkpM008",
             "name": "Train Station",
             "set": "Premium & Exclusive Maps",
             "type": "indoor",
@@ -1993,7 +1993,7 @@
             "height": 24,
             "file": "maps/wkp/train_station.json"
         }, {
-            "id": "wkp7",
+            "id": "wkpM009",
             "name": "Train Yard",
             "set": "Premium & Exclusive Maps",
             "type": "outdoor",
@@ -2001,7 +2001,7 @@
             "height": 24,
             "file": "maps/wkp/train_yard.json"
         }, {
-            "id": "wi0",
+            "id": "wiM001",
             "name": "Arthur's Castle",
             "set": "What If?",
             "type": "outdoor",
@@ -2009,7 +2009,7 @@
             "height": 24,
             "file": "maps/wi/arthurs_castle.json"
         }, {
-            "id": "wi1",
+            "id": "wiM002",
             "name": "Avengers Unity Rooftop",
             "set": "What If?",
             "type": "outdoor",
@@ -2017,7 +2017,7 @@
             "height": 24,
             "file": "maps/wi/avengers_unity_rooftop.json"
         }, {
-            "id": "wi2",
+            "id": "wiM003",
             "name": "Runaways Base",
             "set": "What If?",
             "type": "indoor",
@@ -2025,7 +2025,7 @@
             "height": 24,
             "file": "maps/wi/runaways_base.json"
         }, {
-            "id": "wi3",
+            "id": "wiM004",
             "name": "Avenger's Island",
             "set": "What If?",
             "type": "outdoor",
@@ -2034,7 +2034,7 @@
             "date": "June 2017",
             "file": "maps/wi/avengers_island.json"
         }, {
-            "id": "adw0",
+            "id": "adwM001",
             "name": "Dark Dimension",
             "set": "Avengers/Defenders War",
             "type": "outdoor",
@@ -2043,7 +2043,7 @@
             "date": "May 2017",
             "file": "maps/adw/dark_dimension.json"
         }, {
-            "id": "adw1",
+            "id": "adwM002",
             "name": "Wakanda",
             "set": "Avengers/Defenders War",
             "type": "outdoor",
@@ -2051,7 +2051,7 @@
             "height": 24,
             "file": "maps/adw/wakanda.json"
         }, {
-            "id": "dxf0",
+            "id": "dxfM001",
             "name": "Speakeasy",
             "set": "Deadpool and X-Force",
             "type": "indoor",
@@ -2059,7 +2059,7 @@
             "height": 24,
             "file": "maps/dxf/speakeasy.json"
         }, {
-            "id": "dxf1",
+            "id": "dxfM002",
             "name": "Cargo Plane",
             "set": "Deadpool and X-Force",
             "type": "indoorOutdoor",
@@ -2067,7 +2067,7 @@
             "height": 24,
             "file": "maps/dxf/cargo_plane.json"
         }, {
-            "id": "roc17_0",
+            "id": "roc17M001",
             "name": "Donut Shoppe",
             "set": "ROC 2017",
             "type": "outdoor",
@@ -2075,7 +2075,7 @@
             "height": 24,
             "file": "maps/roc17/donut_shoppe.json"
         }, {
-            "id": "roc17_1",
+            "id": "roc17M002",
             "name": "Underground",
             "set": "ROC 2017",
             "type": "indoor",
@@ -2083,7 +2083,7 @@
             "height": 24,
             "file": "maps/roc17/underground.json"
         }, {
-            "id": "roc17_2",
+            "id": "roc17M003",
             "name": "Remote Outpost on the Mexican Border",
             "set": "ROC 2017",
             "type": "outdoor",
@@ -2091,7 +2091,7 @@
             "height": 24,
             "file": "maps/roc17/remote_outpost_on_the_mexican_border.json"
         }, {
-            "id": "roc17_3",
+            "id": "roc17M004",
             "name": "Amusement Park",
             "set": "ROC 2017",
             "type": "outdoor",
@@ -2099,7 +2099,7 @@
             "height": 24,
             "file": "maps/roc17/amusement_park.json"
         }, {
-            "id": "jw0",
+            "id": "jwM001",
             "name": "Ace Chemicals",
             "set": "Joker's Wild",
             "type": "indoor",
@@ -2107,7 +2107,7 @@
             "height": 24,
             "file": "maps/jw/ace_chemicals.json"
         }, {
-            "id": "jw1",
+            "id": "jwM002",
             "name": "Ace Street",
             "set": "Joker's Wild",
             "type": "outdoor",
@@ -2115,7 +2115,7 @@
             "height": 24,
             "file": "maps/jw/ace_street.json"
         }, {
-            "id": "sfsm0",
+            "id": "sfsmM001",
             "name": "Bank Heist",
             "set": "Superior Foes of Spider-Man",
             "type": "indoor",
@@ -2123,7 +2123,7 @@
             "height": 24,
             "file": "maps/sfsm/bank_heist.json"
         }, {
-            "id": "sfsm1",
+            "id": "sfsmM002",
             "name": "Friendly Neighborhood",
             "set": "Superior Foes of Spider-Man",
             "type": "outdoor",
@@ -2131,7 +2131,7 @@
             "height": 24,
             "file": "maps/sfsm/friendly_neighborhood.json"
         }, {
-            "id": "cwsop0",
+            "id": "cwsopM001",
             "name": "Prison 42",
             "set": "Civil War: Storyline Organized Play",
             "type": "indoor",
@@ -2139,7 +2139,7 @@
             "height": 24,
             "file": "maps/cwsop/prison_42.json"
         }, {
-            "id": "cwsop1",
+            "id": "cwsopM002",
             "name": "Stamford",
             "set": "Civil War: Storyline Organized Play",
             "type": "outdoor",
@@ -2147,7 +2147,7 @@
             "height": 24,
             "file": "maps/cwsop/stamford.json"
         }, {
-            "id": "cwsop2",
+            "id": "cwsopM003",
             "name": "Final Battle, New York",
             "set": "Civil War: Storyline Organized Play",
             "type": "outdoor",
@@ -2155,7 +2155,7 @@
             "height": 24,
             "file": "maps/cwsop/final_battle_new_york.json"
         }, {
-            "id": "cwsop3",
+            "id": "cwsopM004",
             "name": "Chemical Plant",
             "set": "Civil War: Storyline Organized Play",
             "type": "outdoor",
@@ -2163,7 +2163,7 @@
             "height": 24,
             "file": "maps/cwsop/chemical_plant.json"
         }, {
-            "id": "uxm0",
+            "id": "uxmM001",
             "name": "Jean Grey School for Higher Learning",
             "set": "Uncanny X-Men",
             "type": "indoorOutdoor",
@@ -2171,7 +2171,7 @@
             "height": 24,
             "file": "maps/uxm/jean_grey_school_for_higher_learning.json"
         }, {
-            "id": "uxm1",
+            "id": "uxmM002",
             "name": "Manhattan Bridge",
             "set": "Uncanny X-Men",
             "type": "outdoor",
@@ -2179,7 +2179,7 @@
             "height": 24,
             "file": "maps/uxm/manhattan_bridge.json"
         }, {
-            "id": "uxm2",
+            "id": "uxmM003",
             "name": "Morlock Tunnels",
             "set": "Uncanny X-Men",
             "type": "indoor",
@@ -2187,7 +2187,7 @@
             "height": 24,
             "file": "maps/uxm/morlock_tunnels.json"
         }, {
-            "id": "uxm3",
+            "id": "uxmM004",
             "name": "Jean Grey School for Higher Learning Grounds",
             "set": "Uncanny X-Men",
             "type": "outdoor",
@@ -2195,7 +2195,7 @@
             "height": 24,
             "file": "maps/uxm/jean_grey_school_for_higher_learning_grounds.json"
         }, {
-            "id": "tmnt0",
+            "id": "tmntM001",
             "name": "Baxter's Lab",
             "set": "Teenage Mutant Ninja Turtles",
             "type": "indoor",
@@ -2203,7 +2203,7 @@
             "height": 24,
             "file": "maps/tmnt/baxters_lab.json"
         }, {
-            "id": "tmnt1",
+            "id": "tmntM002",
             "name": "Turtles Lair",
             "set": "Teenage Mutant Ninja Turtles",
             "type": "indoor",
@@ -2211,7 +2211,7 @@
             "height": 24,
             "file": "maps/tmnt/turtles_lair.json"
         }, {
-            "id": "tmnt2",
+            "id": "tmntM003",
             "name": "Sewers",
             "set": "Teenage Mutant Ninja Turtles",
             "type": "indoor",
@@ -2219,7 +2219,7 @@
             "height": 24,
             "file": "maps/tmnt/sewers.json"
         }, {
-            "id": "tmnt3",
+            "id": "tmntM004",
             "name": "Technodrome",
             "set": "Teenage Mutant Ninja Turtles",
             "type": "indoor",
@@ -2227,7 +2227,7 @@
             "height": 24,
             "file": "maps/tmnt/technodrome.json"
         }, {
-            "id": "cacw0",
+            "id": "cacwM001",
             "name": "Avengers HQ Upstate",
             "set": "Captain America: Civil War",
             "type": "outdoor",
@@ -2235,7 +2235,7 @@
             "height": 24,
             "file": "maps/cacw/avengers_hq_upstate_outdoor.json"
         }, {
-            "id": "cacw1",
+            "id": "cacwM002",
             "name": "Avengers HQ Upstate",
             "set": "Captain America: Civil War",
             "type": "indoor",
@@ -2243,7 +2243,7 @@
             "height": 24,
             "file": "maps/cacw/avengers_hq_upstate_indoor.json"
         }, {
-            "id": "wf0",
+            "id": "wfM001",
             "name": "Danny the Street",
             "set": "World's Finest",
             "type": "outdoor",
@@ -2251,7 +2251,7 @@
             "height": 24,
             "file": "maps/wf/danny_the_street.json"
         }, {
-            "id": "wf1",
+            "id": "wfM002",
             "name": "United Nations Conference",
             "set": "World's Finest",
             "type": "indoor",
@@ -2259,7 +2259,7 @@
             "height": 24,
             "file": "maps/wf/united_nations_conference.json"
         }, {
-            "id": "roc16_0",
+            "id": "roc16M001",
             "name": "The Blue Line",
             "set": "ROC 2016",
             "type": "indoor",
@@ -2267,7 +2267,7 @@
             "height": 24,
             "file": "maps/roc16/the_blue_line.json"
         }, {
-            "id": "roc16_1",
+            "id": "roc16M002",
             "name": "Casino",
             "set": "ROC 2016",
             "type": "indoor",
@@ -2275,7 +2275,7 @@
             "height": 24,
             "file": "maps/roc16/casino.json"
         }, {
-            "id": "roc16_2",
+            "id": "roc16M003",
             "name": "Zipline Park",
             "set": "ROC 2016",
             "type": "outdoor",
@@ -2283,7 +2283,7 @@
             "height": 24,
             "file": "maps/roc16/zipline_park.json"
         }, {
-            "id": "roc16_3",
+            "id": "roc16M004",
             "name": "Crossfire Canyon",
             "set": "ROC 2016",
             "type": "outdoor",
@@ -2291,7 +2291,7 @@
             "height": 24,
             "file": "maps/roc16/crossfire_canyon.json"
         }, {
-            "id": "smww0",
+            "id": "smwwM001",
             "name": "Mount Olympus",
             "set": "Superman/Wonder Woman",
             "type": "outdoor",
@@ -2299,7 +2299,7 @@
             "height": 24,
             "file": "maps/smww/mount_olympus.json"
         }, {
-            "id": "smww1",
+            "id": "smwwM002",
             "name": "The Daily Planet",
             "set": "Superman/Wonder Woman",
             "type": "indoorOutdoor",
@@ -2307,7 +2307,7 @@
             "height": 24,
             "file": "maps/smww/the_daily_planet.json"
         }, {
-            "id": "nfaos0",
+            "id": "nfaosM001",
             "name": "Hydra Island",
             "set": "Nick Fury: Agent of S.H.I.E.L.D.",
             "type": "indoorOutdoor",
@@ -2315,7 +2315,7 @@
             "height": 24,
             "file": "maps/nfaos/hydra_island.json"
         }, {
-            "id": "nfaos1",
+            "id": "nfaosM002",
             "name": "Nick Fury's Safehouse",
             "set": "Nick Fury: Agent of S.H.I.E.L.D.",
             "type": "indoorOutdoor",
@@ -2323,7 +2323,7 @@
             "height": 24,
             "file": "maps/nfaos/nick_furys_safehouse.json"
         }, {
-            "id": "aou0",
+            "id": "aouM001",
             "name": "Hank Pym's Lab",
             "set": "Age of Ultron",
             "type": "indoor",
@@ -2331,7 +2331,7 @@
             "height": 24,
             "file": "maps/aou/hank_pyms_lab.json"
         }, {
-            "id": "aou1",
+            "id": "aouM002",
             "name": "Thebes, Egypt",
             "set": "Age of Ultron",
             "type": "outdoor",
@@ -2339,7 +2339,7 @@
             "height": 24,
             "file": "maps/aou/thebes_egypt.json"
         }, {
-            "id": "aou2",
+            "id": "aouM003",
             "name": "New Timbetpal",
             "set": "Age of Ultron",
             "type": "indoorOutdoor",
@@ -2347,7 +2347,7 @@
             "height": 24,
             "file": "maps/aou/new_timbetpal.json"
         }, {
-            "id": "aou3",
+            "id": "aouM004",
             "name": "New York City",
             "set": "Age of Ultron",
             "type": "outdoor",
@@ -2355,7 +2355,7 @@
             "height": 24,
             "file": "maps/aou/new_york_city.json"
         }, {
-            "id": "avas0",
+            "id": "avasM001",
             "name": "Arcade's Arena",
             "set": "Avengers Assemble",
             "type": "indoorOutdoor",
@@ -2366,7 +2366,7 @@
                 "mx": true
             }
         }, {
-            "id": "avas1",
+            "id": "avasM002",
             "name": "Avengers Compound",
             "set": "Avengers Assemble",
             "type": "outdoor",
@@ -2374,7 +2374,7 @@
             "height": 24,
             "file": "maps/avas/avengers_compound.json"
         }, {
-            "id": "aaou0",
+            "id": "aaouM001",
             "name": "Strucker's Fortress",
             "set": "Avengers: Age of Ultron",
             "type": "outdoor",
@@ -2382,7 +2382,7 @@
             "height": 24,
             "file": "maps/aaou/struckers_fortress.json"
         }, {
-            "id": "aaou1",
+            "id": "aaouM002",
             "name": "Avengers Tower",
             "set": "Avengers: Age of Ultron",
             "type": "indoorOutdoor",
@@ -2390,7 +2390,7 @@
             "height": 24,
             "file": "maps/aaou/avengers_tower.json"
         }, {
-            "id": "jltw0",
+            "id": "jltwM001",
             "name": "House of Mystery",
             "set": "Justice League Trinity War",
             "type": "indoorOutdoor",
@@ -2398,7 +2398,7 @@
             "height": 24,
             "file": "maps/jltw/house_of_mystery.json"
         }, {
-            "id": "jltw1",
+            "id": "jltwM002",
             "name": "Atlantis",
             "set": "Justice League Trinity War",
             "type": "outdoor",
@@ -2406,7 +2406,7 @@
             "height": 24,
             "file": "maps/jltw/atlantis.json"
         }, {
-            "id": "botm0",
+            "id": "botmM001",
             "name": "Pharaoh's Throne Room",
             "set": "Yu-Gi-Oh! Battle of the Millennium",
             "type": "indoor",
@@ -2414,7 +2414,7 @@
             "height": 24,
             "file": "maps/botm/pharaohs_throne_room.json"
         }, {
-            "id": "botm1",
+            "id": "botmM002",
             "name": "Millennium Puzzle",
             "set": "Yu-Gi-Oh! Battle of the Millennium",
             "type": "indoor",
@@ -2422,7 +2422,7 @@
             "height": 24,
             "file": "maps/botm/millennium_puzzle.json"
         }, {
-            "id": "botm2",
+            "id": "botmM003",
             "name": "Kul Elna",
             "set": "Yu-Gi-Oh! Battle of the Millennium",
             "type": "outdoor",
@@ -2430,7 +2430,7 @@
             "height": 24,
             "file": "maps/botm/kul_elna.json"
         }, {
-            "id": "botm3",
+            "id": "botmM004",
             "name": "Egypt River",
             "set": "Yu-Gi-Oh! Battle of the Millennium",
             "type": "outdoor",
@@ -2438,7 +2438,7 @@
             "height": 24,
             "file": "maps/botm/egypt_river.json"
         }, {
-            "id": "botm4",
+            "id": "botmM005",
             "name": "Broken Sphinx",
             "set": "Yu-Gi-Oh! Battle of the Millennium",
             "type": "outdoor",
@@ -2446,7 +2446,7 @@
             "height": 24,
             "file": "maps/botm/broken_sphinx.json"
         }, {
-            "id": "botm5",
+            "id": "botmM006",
             "name": "Egypt Battlefield",
             "set": "Yu-Gi-Oh! Battle of the Millennium",
             "type": "outdoor",
@@ -2454,7 +2454,7 @@
             "height": 24,
             "file": "maps/botm/egypt_battlefield.json"
         }, {
-            "id": "ygo2_0",
+            "id": "ygo2M001",
             "name": "Zeppelin",
             "set": "Yu-Gi-Oh! Series Two",
             "type": "outdoor",
@@ -2462,7 +2462,7 @@
             "height": 24,
             "file": "maps/ygo2/zeppelin.json"
         }, {
-            "id": "ygo2_1",
+            "id": "ygo2M002",
             "name": "Battlecity",
             "set": "Yu-Gi-Oh! Series Two",
             "type": "outdoor",
@@ -2470,7 +2470,7 @@
             "height": 24,
             "file": "maps/ygo2/battlecity.json"
         }, {
-            "id": "roc15_0",
+            "id": "roc15M001",
             "name": "Assassin's Alley",
             "set": "ROC 2015",
             "type": "outdoor",
@@ -2478,7 +2478,7 @@
             "height": 24,
             "file": "maps/roc15/assassins_alley.json"
         }, {
-            "id": "roc15_1",
+            "id": "roc15M002",
             "name": "Hidden Research Facility",
             "set": "ROC 2015",
             "type": "indoorOutdoor",
@@ -2486,7 +2486,7 @@
             "height": 24,
             "file": "maps/roc15/hidden_research_facility.json"
         }, {
-            "id": "roc15_2",
+            "id": "roc15M003",
             "name": "Water Treatment Plant",
             "set": "ROC 2015",
             "type": "indoorOutdoor",
@@ -2494,7 +2494,7 @@
             "height": 24,
             "file": "maps/roc15/water_treatment_plant.json"
         }, {
-            "id": "roc15_3",
+            "id": "roc15M004",
             "name": "The Village",
             "set": "ROC 2015",
             "type": "outdoor",
@@ -2502,7 +2502,7 @@
             "height": 24,
             "file": "maps/roc15/the_village.json"
         }, {
-            "id": "fl0",
+            "id": "flM001",
             "name": "Central City",
             "set": "The Flash",
             "type": "outdoor",
@@ -2510,7 +2510,7 @@
             "height": 24,
             "file": "maps/fl/central_city.json"
         }, {
-            "id": "fl1",
+            "id": "flM002",
             "name": "Keystone City",
             "set": "The Flash",
             "type": "outdoor",
@@ -2518,7 +2518,7 @@
             "height": 24,
             "file": "maps/fl/keystone_city.json"
         }, {
-            "id": "fl2",
+            "id": "flM003",
             "name": "Central City Park",
             "set": "The Flash",
             "type": "outdoor",
@@ -2526,7 +2526,7 @@
             "height": 24,
             "file": "maps/fl/central_city_park.json"
         }, {
-            "id": "fl3",
+            "id": "flM004",
             "name": "The Flash Museum",
             "set": "The Flash",
             "type": "indoor",
@@ -2534,7 +2534,7 @@
             "height": 24,
             "file": "maps/fl/the_flash_museum.json"
         }, {
-            "id": "wkm0",
+            "id": "wkmM001",
             "name": "Liberty Island",
             "set": "Spider-Man and His Amazing Friends",
             "type": "outdoor",
@@ -2542,7 +2542,7 @@
             "height": 24,
             "file": "maps/wkm/liberty_island.json"
         }, {
-            "id": "wkm1",
+            "id": "wkmM002",
             "name": "Xavier Mansion Grounds",
             "set": "Spider-Man and His Amazing Friends",
             "type": "indoorOutdoor",
@@ -2550,7 +2550,7 @@
             "height": 24,
             "file": "maps/wkm/xavier_mansion_grounds.json"
         }, {
-            "id": "gotg0",
+            "id": "gotgM001",
             "name": "Titan",
             "set": "Guardians of the Galaxy",
             "type": "indoorOutdoor",
@@ -2558,7 +2558,7 @@
             "height": 24,
             "file": "maps/gotg/titan.json"
         }, {
-            "id": "gotg1",
+            "id": "gotgM002",
             "name": "Star-Lord's Ship",
             "set": "Guardians of the Galaxy",
             "type": "indoor",
@@ -2566,7 +2566,7 @@
             "height": 24,
             "file": "maps/gotg/star_lords_ship.json"
         }, {
-            "id": "gotg2",
+            "id": "gotgM003",
             "name": "Attilan: North Atlantic Ocean",
             "set": "Guardians of the Galaxy",
             "type": "outdoor",
@@ -2574,7 +2574,7 @@
             "height": 24,
             "file": "maps/gotg/attilan_north_atlantic_ocean.json"
         }, {
-            "id": "gotg3",
+            "id": "gotgM004",
             "name": "Attilan: Blue Area of the Moon",
             "set": "Guardians of the Galaxy",
             "type": "outdoor",
@@ -2582,7 +2582,7 @@
             "height": 24,
             "file": "maps/gotg/attilan_blue_area_of_the_moon.json"
         }, {
-            "id": "gotgm0",
+            "id": "gotgmM001",
             "name": "The Kyln",
             "set": "Guardians of the Galaxy Movie",
             "type": "indoor",
@@ -2590,7 +2590,7 @@
             "height": 24,
             "file": "maps/gotgm/the_kyln.json"
         }, {
-            "id": "gotgm1",
+            "id": "gotgmM002",
             "name": "Nova Corps Headquarters",
             "set": "Guardians of the Galaxy Movie",
             "type": "indoor",
@@ -2598,7 +2598,7 @@
             "height": 24,
             "file": "maps/gotgm/nova_corps_headquarters.json"
         }, {
-            "id": "wol0",
+            "id": "wolM001",
             "name": "Oa Central Battery Plaza",
             "set": "War of Light",
             "type": "outdoor",
@@ -2606,7 +2606,7 @@
             "height": 24,
             "file": "maps/wol/oa_central_battery_plaza.json"
         }, {
-            "id": "wol1",
+            "id": "wolM002",
             "name": "Ranx",
             "set": "War of Light",
             "type": "indoor",
@@ -2614,7 +2614,7 @@
             "height": 24,
             "file": "maps/wol/ranx.json"
         }, {
-            "id": "wol2",
+            "id": "wolM003",
             "name": "Okaara Temple",
             "set": "War of Light",
             "type": "indoor",
@@ -2622,7 +2622,7 @@
             "height": 24,
             "file": "maps/wol/okaara_temple.json"
         }, {
-            "id": "wol3",
+            "id": "wolM004",
             "name": "Coast City",
             "set": "War of Light",
             "type": "outdoor",
@@ -2630,7 +2630,7 @@
             "height": 24,
             "file": "maps/wol/coast_city.json"
         }, {
-            "id": "wol4",
+            "id": "wolM005",
             "name": "Oa: The Big W",
             "set": "War of Light",
             "type": "indoorOutdoor",
@@ -2638,7 +2638,7 @@
             "height": 24,
             "file": "maps/wol/oa_the_big_w.json"
         }, {
-            "id": "wol5",
+            "id": "wolM006",
             "name": "Qward Armory and Forge",
             "set": "War of Light",
             "type": "indoor",
@@ -2646,7 +2646,7 @@
             "height": 24,
             "file": "maps/wol/qward_armory_and_forge.json"
         }, {
-            "id": "wol6",
+            "id": "wolM007",
             "name": "Odym",
             "set": "War of Light",
             "type": "outdoor",
@@ -2654,7 +2654,7 @@
             "height": 24,
             "file": "maps/wol/odym.json"
         }, {
-            "id": "wol7",
+            "id": "wolM008",
             "name": "Space",
             "set": "War of Light",
             "type": "outdoor",
@@ -2662,7 +2662,7 @@
             "height": 24,
             "file": "maps/wol/space.json"
         }, {
-            "id": "wol8",
+            "id": "wolM009",
             "name": "Black Mercy Garden",
             "set": "War of Light",
             "type": "outdoor",
@@ -2670,7 +2670,7 @@
             "height": 24,
             "file": "maps/wol/black_mercy_garden.json"
         }, {
-            "id": "wol9",
+            "id": "wolM010",
             "name": "Ysamault",
             "set": "War of Light",
             "type": "outdoor",
@@ -2678,7 +2678,7 @@
             "height": 24,
             "file": "maps/wol/ysamault.json"
         }, {
-            "id": "wol10",
+            "id": "wolM011",
             "name": "Korugar",
             "set": "War of Light",
             "type": "outdoor",
@@ -2686,7 +2686,7 @@
             "height": 24,
             "file": "maps/wol/korugar.json"
         }, {
-            "id": "wol11",
+            "id": "wolM012",
             "name": "Nok",
             "set": "War of Light",
             "type": "indoor",
@@ -2694,7 +2694,7 @@
             "height": 24,
             "file": "maps/wol/nok.json"
         }, {
-            "id": "wol12",
+            "id": "wolM013",
             "name": "Zamaron",
             "set": "War of Light",
             "type": "outdoor",
@@ -2702,7 +2702,7 @@
             "height": 24,
             "file": "maps/wol/zamaron.json"
         }, {
-            "id": "wol13",
+            "id": "wolM014",
             "name": "Ryut",
             "set": "War of Light",
             "type": "outdoor",
@@ -2710,7 +2710,7 @@
             "height": 24,
             "file": "maps/wol/ryut.json"
         }, {
-            "id": "dofp0",
+            "id": "dofpM001",
             "name": "Baxter Building/Sentinel HQ",
             "set": "X-Men - Days of Future Past",
             "type": "indoor",
@@ -2718,7 +2718,7 @@
             "height": 24,
             "file": "maps/dofp/baxter_building_sentinel_hq.json"
         }, {
-            "id": "dofp1",
+            "id": "dofpM002",
             "name": "South Bronx Mutant Internment Center",
             "set": "X-Men - Days of Future Past",
             "type": "outdoor",
@@ -2726,7 +2726,7 @@
             "height": 24,
             "file": "maps/dofp/south_bronx_mutant_internment_center.json"
         }, {
-            "id": "dp0",
+            "id": "dpM001",
             "name": "Hellhouse",
             "set": "Deadpool",
             "type": "indoorOutdoor",
@@ -2734,7 +2734,7 @@
             "height": 24,
             "file": "maps/dp/hellhouse.json"
         }, {
-            "id": "dp1",
+            "id": "dpM002",
             "name": "Deadpool's House",
             "set": "Deadpool",
             "type": "indoor",
@@ -2742,7 +2742,7 @@
             "height": 24,
             "file": "maps/dp/deadpools_house.json"
         }, {
-            "id": "dp2",
+            "id": "dpM003",
             "name": "The Mall",
             "set": "Deadpool",
             "type": "indoorOutdoor",
@@ -2750,7 +2750,7 @@
             "height": 24,
             "file": "maps/dp/the_mall.json"
         }, {
-            "id": "dp3",
+            "id": "dpM004",
             "name": "Thunderbolts' Submarine",
             "set": "Deadpool",
             "type": "indoor",
@@ -2758,7 +2758,7 @@
             "height": 24,
             "file": "maps/dp/thunderbolts_submarine.json"
         }, {
-            "id": "catws0",
+            "id": "catwsM001",
             "name": "Triskelion Helibay",
             "set": "Captain America: The Winter Soldier",
             "type": "indoor",
@@ -2766,7 +2766,7 @@
             "height": 24,
             "file": "maps/catws/triskelion_helibay.json"
         }, {
-            "id": "catws1",
+            "id": "catwsM002",
             "name": "Helicarrier",
             "set": "Captain America: The Winter Soldier",
             "type": "outdoor",
@@ -2774,7 +2774,7 @@
             "height": 24,
             "file": "maps/catws/helicarrier.json"
         }, {
-            "id": "slosh0",
+            "id": "sloshM001",
             "name": "Legion Plaza",
             "set": "Superman and the Legion of Super-Heroes",
             "type": "outdoor",
@@ -2782,7 +2782,7 @@
             "height": 24,
             "file": "maps/slosh/legion_plaza.json"
         }, {
-            "id": "slosh1",
+            "id": "sloshM002",
             "name": "Apokolips",
             "set": "Superman and the Legion of Super-Heroes",
             "type": "outdoor",
@@ -2790,7 +2790,7 @@
             "height": 24,
             "file": "maps/slosh/apokolips.json"
         }, {
-            "id": "slosh2",
+            "id": "sloshM003",
             "name": "Hall of Doom",
             "set": "Superman and the Legion of Super-Heroes",
             "type": "indoorOutdoor",
@@ -2798,7 +2798,7 @@
             "height": 24,
             "file": "maps/slosh/hall_of_doom.json"
         }, {
-            "id": "slosh3",
+            "id": "sloshM004",
             "name": "Hall of Doom: Slaughter Swamp",
             "set": "Superman and the Legion of Super-Heroes",
             "type": "indoorOutdoor",
@@ -2806,7 +2806,7 @@
             "height": 24,
             "file": "maps/slosh/hall_of_doom_slaughter_swamp.json"
         }, {
-            "id": "ygo2",
+            "id": "ygoM003",
             "name": "Duelist Kingdom: Water",
             "set": "Yu-Gi-Oh! Series One",
             "type": "outdoor",
@@ -2814,7 +2814,7 @@
             "height": 24,
             "file": "maps/ygo/duelist_kingdom_water.json"
         }, {
-            "id": "ygo3",
+            "id": "ygoM004",
             "name": "The Cavern of Lost Souls",
             "set": "Yu-Gi-Oh! Series One",
             "type": "indoor",
@@ -2822,7 +2822,7 @@
             "height": 24,
             "file": "maps/ygo/the_cavern_of_lost_souls.json"
         }, {
-            "id": "roc14_0",
+            "id": "roc14M001",
             "name": "Arctic Outpost",
             "set": "ROC 2014",
             "type": "indoorOutdoor",
@@ -2830,7 +2830,7 @@
             "height": 24,
             "file": "maps/roc14/arctic_outpost.json"
         }, {
-            "id": "roc14_1",
+            "id": "roc14M002",
             "name": "The Great Wall",
             "set": "ROC 2014",
             "type": "outdoor",
@@ -2838,7 +2838,7 @@
             "height": 24,
             "file": "maps/roc14/the_great_wall.json"
         }, {
-            "id": "roc14_2",
+            "id": "roc14M003",
             "name": "Mayan Ruins",
             "set": "ROC 2014",
             "type": "outdoor",
@@ -2846,7 +2846,7 @@
             "height": 24,
             "file": "maps/roc14/mayan_ruins.json"
         }, {
-            "id": "roc14_3",
+            "id": "roc14M004",
             "name": "Main Event",
             "set": "ROC 2014",
             "type": "indoor",
@@ -2854,7 +2854,7 @@
             "height": 24,
             "file": "maps/roc14/main_event.json"
         }, {
-            "id": "iim0",
+            "id": "iimM001",
             "name": "Avengers Island",
             "set": "The Invincible Iron Man",
             "type": "indoorOutdoor",
@@ -2862,7 +2862,7 @@
             "height": 24,
             "file": "maps/iim/avengers_island.json"
         }, {
-            "id": "iim1",
+            "id": "iimM002",
             "name": "Office Building",
             "set": "The Invincible Iron Man",
             "type": "indoor",
@@ -2870,7 +2870,7 @@
             "height": 24,
             "file": "maps/iim/office_building.json"
         }, {
-            "id": "avx0",
+            "id": "avxM001",
             "name": "Utopia: West",
             "set": "Avengers vs X-Men",
             "type": "outdoor",
@@ -2878,7 +2878,7 @@
             "height": 24,
             "file": "maps/avx/utopia_west.json"
         }, {
-            "id": "avx1",
+            "id": "avxM002",
             "name": "Avengers Tower",
             "set": "Avengers vs X-Men",
             "type": "indoor",
@@ -2886,7 +2886,7 @@
             "height": 24,
             "file": "maps/avx/avengers_tower.json"
         }, {
-            "id": "avx2",
+            "id": "avxM003",
             "name": "Utopia",
             "set": "Avengers vs X-Men",
             "type": "indoor",
@@ -2894,7 +2894,7 @@
             "height": 24,
             "file": "maps/avx/utopia.json"
         }, {
-            "id": "avx3",
+            "id": "avxM004",
             "name": "Utopia: East",
             "set": "Avengers vs X-Men",
             "type": "outdoor",
@@ -2902,7 +2902,7 @@
             "height": 24,
             "file": "maps/avx/utopia_east.json"
         }, {
-            "id": "avx4",
+            "id": "avxM005",
             "name": "Wundagore Mountain",
             "set": "Avengers vs X-Men",
             "type": "outdoor",
@@ -2910,7 +2910,7 @@
             "height": 24,
             "file": "maps/avx/wundagore_mountain.json"
         }, {
-            "id": "avx5",
+            "id": "avxM006",
             "name": "Savage Land",
             "set": "Avengers vs X-Men",
             "type": "outdoor",
@@ -2918,7 +2918,7 @@
             "height": 24,
             "file": "maps/avx/savage_land.json"
         }, {
-            "id": "avx6",
+            "id": "avxM007",
             "name": "Latveria",
             "set": "Avengers vs X-Men",
             "type": "outdoor",
@@ -2926,7 +2926,7 @@
             "height": 24,
             "file": "maps/avx/latveria.json"
         }, {
-            "id": "avx7",
+            "id": "avxM008",
             "name": "Flooded Wakanda",
             "set": "Avengers vs X-Men",
             "type": "outdoor",
@@ -2934,7 +2934,7 @@
             "height": 24,
             "file": "maps/avx/flooded_wakanda.json"
         }, {
-            "id": "avx8",
+            "id": "avxM009",
             "name": "Limbo",
             "set": "Avengers vs X-Men",
             "type": "indoor",
@@ -2942,7 +2942,7 @@
             "height": 24,
             "file": "maps/avx/limbo.json"
         }, {
-            "id": "avx9",
+            "id": "avxM010",
             "name": "Verkhoyansk Mountains",
             "set": "Avengers vs X-Men",
             "type": "outdoor",
@@ -2950,7 +2950,7 @@
             "height": 24,
             "file": "maps/avx/verkhoyansk_mountains.json"
         }, {
-            "id": "avx10",
+            "id": "avxM011",
             "name": "K'un L'un",
             "set": "Avengers vs X-Men",
             "type": "outdoor",
@@ -2958,7 +2958,7 @@
             "height": 24,
             "file": "maps/avx/kun_lun.json"
         }, {
-            "id": "avx11",
+            "id": "avxM012",
             "name": "Surface of the Moon",
             "set": "Avengers vs X-Men",
             "type": "outdoor",
@@ -2966,7 +2966,7 @@
             "height": 24,
             "file": "maps/avx/surface_of_the_moon.json"
         }, {
-            "id": "tdw0",
+            "id": "tdwM001",
             "name": "Svartalfheim",
             "set": "Thor: The Dark World",
             "type": "outdoor",
@@ -2974,7 +2974,7 @@
             "height": 24,
             "file": "maps/tdw/svartalfheim.json"
         }, {
-            "id": "tdw1",
+            "id": "tdwM002",
             "name": "Royal Naval Academy",
             "set": "Thor: The Dark World",
             "type": "outdoor",
@@ -2982,7 +2982,7 @@
             "height": 24,
             "file": "maps/tdw/royal_naval_academy.json"
         }, {
-            "id": "watxm0",
+            "id": "watxmM001",
             "name": "Danger Room",
             "set": "Wolverine and the X-Men",
             "type": "indoor",
@@ -2990,7 +2990,7 @@
             "height": 24,
             "file": "maps/watxm/danger_room.json"
         }, {
-            "id": "watxm1",
+            "id": "watxmM002",
             "name": "Canadian Wilderness",
             "set": "Wolverine and the X-Men",
             "type": "outdoor",
@@ -2998,7 +2998,7 @@
             "height": 24,
             "file": "maps/watxm/canadian_wilderness.json"
         }, {
-            "id": "watxm2",
+            "id": "watxmM003",
             "name": "Half Court",
             "set": "Wolverine and the X-Men",
             "type": "outdoor",
@@ -3006,7 +3006,7 @@
             "height": 8,
             "file": "maps/watxm/half_court.json"
         }, {
-            "id": "watxm3",
+            "id": "watxmM004",
             "name": "Princess Bar",
             "set": "Wolverine and the X-Men",
             "type": "indoor",
@@ -3014,7 +3014,7 @@
             "height": 8,
             "file": "maps/watxm/princess_bar.json"
         }, {
-            "id": "watxm4",
+            "id": "watxmM005",
             "name": "Astral Plane",
             "set": "Wolverine and the X-Men",
             "type": "outdoor",
@@ -3022,7 +3022,7 @@
             "height": 8,
             "file": "maps/watxm/astral_plane.json"
         }, {
-            "id": "watxm5",
+            "id": "watxmM006",
             "name": "Xavier Institute: Headmaster's Office",
             "set": "Wolverine and the X-Men",
             "type": "indoor",
@@ -3030,7 +3030,7 @@
             "height": 8,
             "file": "maps/watxm/xavier_institute_headmasters_office.json"
         }, {
-            "id": "watxm6",
+            "id": "watxmM007",
             "name": "Lighthouse Coastline",
             "set": "Wolverine and the X-Men",
             "type": "outdoor",
@@ -3038,7 +3038,7 @@
             "height": 8,
             "file": "maps/watxm/lighthouse_coastline.json"
         }, {
-            "id": "watxm7",
+            "id": "watxmM008",
             "name": "Lighthouse",
             "set": "Wolverine and the X-Men",
             "type": "indoor",
@@ -3046,7 +3046,7 @@
             "height": 8,
             "file": "maps/watxm/lighthouse.json"
         }, {
-            "id": "watxm8",
+            "id": "watxmM009",
             "name": "Nova Roma",
             "set": "Wolverine and the X-Men",
             "type": "indoor",
@@ -3054,7 +3054,7 @@
             "height": 8,
             "file": "maps/watxm/nova_roma_building.json"
         }, {
-            "id": "watxm9",
+            "id": "watxmM010",
             "name": "Xavier Institute: Classroom",
             "set": "Wolverine and the X-Men",
             "type": "indoor",
@@ -3062,7 +3062,7 @@
             "height": 8,
             "file": "maps/watxm/xavier_institute_classroom.json"
         }, {
-            "id": "watxm10",
+            "id": "watxmM011",
             "name": "Asteroid",
             "set": "Wolverine and the X-Men",
             "type": "outdoor",
@@ -3070,7 +3070,7 @@
             "height": 8,
             "file": "maps/watxm/asteroid.json"
         }, {
-            "id": "watxm11",
+            "id": "watxmM012",
             "name": "Shi'ar Empire Throne Room",
             "set": "Wolverine and the X-Men",
             "type": "indoor",
@@ -3078,7 +3078,7 @@
             "height": 8,
             "file": "maps/watxm/shiar_empire_throne_room.json"
         }, {
-            "id": "watxm10",
+            "id": "watxmM013",
             "name": "Inner Circle",
             "set": "Wolverine and the X-Men",
             "type": "indoor",
@@ -3086,7 +3086,7 @@
             "height": 8,
             "file": "maps/watxm/inner_circle.json"
         }, {
-            "id": "watxm11",
+            "id": "watxmM014",
             "name": "Rocket Launch Base",
             "set": "Wolverine and the X-Men",
             "type": "outdoor",
@@ -3094,7 +3094,7 @@
             "height": 8,
             "file": "maps/watxm/rocket_launch_base.json"
         }, {
-            "id": "mos0",
+            "id": "mosM001",
             "name": "Smallville",
             "set": "Man of Steel",
             "type": "outdoor",
@@ -3102,7 +3102,7 @@
             "height": 24,
             "file": "maps/mos/smallville.json"
         }, {
-            "id": "mos1",
+            "id": "mosM002",
             "name": "Metropolis",
             "set": "Man of Steel",
             "type": "outdoor",
@@ -3110,7 +3110,7 @@
             "height": 24,
             "file": "maps/mos/metropolis.json"
         }, {
-            "id": "im30",
+            "id": "im3M001",
             "name": "Port of Miami",
             "set": "Iron Man 3",
             "type": "outdoor",
@@ -3118,7 +3118,7 @@
             "height": 24,
             "file": "maps/im3/port_of_miami.json"
         }, {
-            "id": "im31",
+            "id": "im3M002",
             "name": "The Mandarin's Mansion",
             "set": "Iron Man 3",
             "type": "outdoor",
@@ -3126,7 +3126,7 @@
             "height": 24,
             "file": "maps/im3/the_mandarins_mansion.json"
         }, {
-            "id": "fi0",
+            "id": "fiM001",
             "name": "Blitzkreig DC",
             "set": "Fear Itself",
             "type": "outdoor",
@@ -3134,7 +3134,7 @@
             "height": 24,
             "file": "maps/fi/blitzkreig_dc.json"
         }, {
-            "id": "fi1",
+            "id": "fiM002",
             "name": "Blitzkreig Manhattan",
             "set": "Fear Itself",
             "type": "outdoor",
@@ -3142,7 +3142,7 @@
             "height": 24,
             "file": "maps/fi/blitzkreig_manhattan.json"
         }, {
-            "id": "fi2",
+            "id": "fiM003",
             "name": "The Book of the Skull Fortress",
             "set": "Fear Itself",
             "type": "indoor",
@@ -3150,7 +3150,7 @@
             "height": 24,
             "file": "maps/fi/the_book_of_the_skull_fortress.json"
         }, {
-            "id": "fi3",
+            "id": "fiM004",
             "name": "The Raft",
             "set": "Fear Itself",
             "type": "indoor",
@@ -3158,7 +3158,7 @@
             "height": 24,
             "file": "maps/fi/the_raft.json"
         }, {
-            "id": "fi4",
+            "id": "fiM005",
             "name": "Antarctica",
             "set": "Fear Itself",
             "type": "indoor",
@@ -3166,7 +3166,7 @@
             "height": 24,
             "file": "maps/fi/antarctica.json"
         }, {
-            "id": "fi5",
+            "id": "fiM006",
             "name": "Paris",
             "set": "Fear Itself",
             "type": "outdoor",
@@ -3174,7 +3174,7 @@
             "height": 24,
             "file": "maps/fi/paris.json"
         }, {
-            "id": "fi6",
+            "id": "fiM007",
             "name": "NYC: Yancy Street",
             "set": "Fear Itself",
             "type": "outdoor",
@@ -3182,7 +3182,7 @@
             "height": 24,
             "file": "maps/fi/nyc_yancy_street.json"
         }, {
-            "id": "fi7",
+            "id": "fiM008",
             "name": "South Africa",
             "set": "Fear Itself",
             "type": "outdoor",
@@ -3190,7 +3190,7 @@
             "height": 24,
             "file": "maps/fi/south_africa.json"
         }, {
-            "id": "fi8",
+            "id": "fiM009",
             "name": "Grey Gargoyle Holding Facility",
             "set": "Fear Itself",
             "type": "indoor",
@@ -3198,7 +3198,7 @@
             "height": 24,
             "file": "maps/fi/grey_gargoyle_holding_facility.json"
         }, {
-            "id": "fi9",
+            "id": "fiM010",
             "name": "Svartalfheim",
             "set": "Fear Itself",
             "type": "indoor",
@@ -3206,7 +3206,7 @@
             "height": 24,
             "file": "maps/fi/svartalfheim.json"
         }, {
-            "id": "fi10",
+            "id": "fiM011",
             "name": "Broxton, OK",
             "set": "Fear Itself",
             "type": "outdoor",
@@ -3214,7 +3214,7 @@
             "height": 24,
             "file": "maps/fi/broxton_ok.json"
         }, {
-            "id": "fi11",
+            "id": "fiM012",
             "name": "China",
             "set": "Fear Itself",
             "type": "outdoor",
@@ -3222,7 +3222,7 @@
             "height": 24,
             "file": "maps/fi/china.json"
         }, {
-            "id": "fi12",
+            "id": "fiM013",
             "name": "Fallen Asgard",
             "set": "Fear Itself",
             "type": "outdoor",
@@ -3230,7 +3230,7 @@
             "height": 24,
             "file": "maps/fi/fallen_asgard.json"
         }, {
-            "id": "fi13",
+            "id": "fiM014",
             "name": "Pacific Ocean",
             "set": "Fear Itself",
             "type": "outdoor",
@@ -3238,7 +3238,7 @@
             "height": 24,
             "file": "maps/fi/pacific_ocean.json"
         }, {
-            "id": "fi14",
+            "id": "fiM015",
             "name": "Brazil",
             "set": "Fear Itself",
             "type": "outdoor",
@@ -3246,7 +3246,7 @@
             "height": 24,
             "file": "maps/fi/brazil.json"
         }, {
-            "id": "fi15",
+            "id": "fiM016",
             "name": "Dark Asgard",
             "set": "Fear Itself",
             "type": "indoor",
@@ -3254,7 +3254,7 @@
             "height": 24,
             "file": "maps/fi/dark_asgard.json"
         }, {
-            "id": "tt0",
+            "id": "ttM001",
             "name": "N.O.W.H.E.R.E.: The Crucible",
             "set": "Teen Titans",
             "type": "outdoor",
@@ -3262,7 +3262,7 @@
             "height": 24,
             "file": "maps/tt/nowhere_the_crucible.json"
         }, {
-            "id": "tt1",
+            "id": "ttM002",
             "name": "Teen Titans Tower: Great Hall",
             "set": "Teen Titans",
             "type": "indoor",
@@ -3270,7 +3270,7 @@
             "height": 24,
             "file": "maps/tt/teen_titans_tower_great_hall.json"
         }, {
-            "id": "tt2",
+            "id": "ttM003",
             "name": "N.O.W.H.E.R.E.: Arctic Base",
             "set": "Teen Titans",
             "type": "indoor",
@@ -3278,7 +3278,7 @@
             "height": 24,
             "file": "maps/tt/nowhere_arctic_base.json"
         }, {
-            "id": "tt3",
+            "id": "ttM004",
             "name": "Teen Titans Tower: Grounds",
             "set": "Teen Titans",
             "type": "outdoor",
@@ -3286,7 +3286,7 @@
             "height": 24,
             "file": "maps/tt/teen_titans_tower_grounds.json"
         }, {
-            "id": "tt4",
+            "id": "ttM005",
             "name": "N.O.W.H.E.R.E.: Omen's Domain",
             "set": "Teen Titans",
             "type": "indoor",
@@ -3294,7 +3294,7 @@
             "height": 8,
             "file": "maps/tt/nowhere_omens_domain.json"
         }, {
-            "id": "tt5",
+            "id": "ttM006",
             "name": "Teen Titans Tower: Memorial Hall",
             "set": "Teen Titans",
             "type": "indoor",
@@ -3302,7 +3302,7 @@
             "height": 8,
             "file": "maps/tt/teen_titans_tower_memorial_hall.json"
         }, {
-            "id": "tt6",
+            "id": "ttM007",
             "name": "N.O.W.H.E.R.E.: Project Superboy Laboratory",
             "set": "Teen Titans",
             "type": "indoor",
@@ -3310,7 +3310,7 @@
             "height": 8,
             "file": "maps/tt/nowhere_project_superboy_laboratory.json"
         }, {
-            "id": "tt7",
+            "id": "ttM008",
             "name": "Teen Titans Tower: Laboratory Level",
             "set": "Teen Titans",
             "type": "indoor",
@@ -3318,7 +3318,7 @@
             "height": 8,
             "file": "maps/tt/teen_titans_tower_laboratory_level.json"
         }, {
-            "id": "tt8",
+            "id": "ttM009",
             "name": "Teen Titans Tower: Sub-Basement Level",
             "set": "Teen Titans",
             "type": "indoor",
@@ -3326,7 +3326,7 @@
             "height": 8,
             "file": "maps/tt/teen_titans_tower_sub_basement_level.json"
         }, {
-            "id": "tt9",
+            "id": "ttM010",
             "name": "N.O.W.H.E.R.E.: Harvest's Domain",
             "set": "Teen Titans",
             "type": "indoor",
@@ -3334,7 +3334,7 @@
             "height": 8,
             "file": "maps/tt/nowhere_harvests_domain.json"
         }, {
-            "id": "tt10",
+            "id": "ttM011",
             "name": "N.O.W.H.E.R.E.: Holding Cells",
             "set": "Teen Titans",
             "type": "indoor",
@@ -3342,7 +3342,7 @@
             "height": 8,
             "file": "maps/tt/nowhere_holding_cells.json"
         }, {
-            "id": "tt11",
+            "id": "ttM012",
             "name": "Teen Titans Tower: Residential Level",
             "set": "Teen Titans",
             "type": "indoor",
@@ -3350,7 +3350,7 @@
             "height": 8,
             "file": "maps/tt/teen_titans_tower_residential_level.json"
         }, {
-            "id": "tt12",
+            "id": "ttM013",
             "name": "N.O.W.H.E.R.E. Control Room",
             "set": "Teen Titans",
             "type": "indoor",
@@ -3358,7 +3358,7 @@
             "height": 8,
             "file": "maps/tt/nowhere_control_room.json"
         }, {
-            "id": "tt13",
+            "id": "ttM014",
             "name": "Teen Titans Tower: Recreation Level",
             "set": "Teen Titans",
             "type": "indoor",
@@ -3366,7 +3366,7 @@
             "height": 8,
             "file": "maps/tt/teen_titans_tower_recreation_level.json"
         }, {
-            "id": "asm0",
+            "id": "asmM001",
             "name": "Bell Tower",
             "set": "The Amazing Spider-Man",
             "type": "indoorOutdoor",
@@ -3374,7 +3374,7 @@
             "height": 24,
             "file": "maps/asm/bell_tower.json"
         }, {
-            "id": "asm1",
+            "id": "asmM002",
             "name": "Dr. Strange Mansion",
             "set": "The Amazing Spider-Man",
             "type": "indoor",
@@ -3382,7 +3382,7 @@
             "height": 24,
             "file": "maps/asm/dr_strange_mansion.json"
         }, {
-            "id": "sog0",
+            "id": "sogM001",
             "name": "Streets of Gotham City",
             "set": "Batman: Streets of Gotham",
             "type": "outdoor",
@@ -3390,7 +3390,7 @@
             "height": 24,
             "file": "maps/sog/streets_of_gotham_city.json"
         }, {
-            "id": "sog1",
+            "id": "sogM002",
             "name": "Killer Croc Sewer Lair",
             "set": "Batman: Streets of Gotham",
             "type": "indoor",
@@ -3398,7 +3398,7 @@
             "height": 24,
             "file": "maps/sog/killer_croc_sewer_lair.json"
         }, {
-            "id": "sog2",
+            "id": "sogM003",
             "name": "Crime Alley",
             "set": "Batman: Streets of Gotham",
             "type": "indoorOutdoor",
@@ -3406,7 +3406,7 @@
             "height": 24,
             "file": "maps/sog/crime_alley.json"
         }, {
-            "id": "sog3",
+            "id": "sogM004",
             "name": "Gotham City Clocktower",
             "set": "Batman: Streets of Gotham",
             "type": "indoorOutdoor",
@@ -3414,7 +3414,7 @@
             "height": 24,
             "file": "maps/sog/gotham_city_clocktower.json"
         }, {
-            "id": "bm0",
+            "id": "bmM001",
             "name": "The Batcave",
             "set": "Batman",
             "type": "indoor",
@@ -3422,7 +3422,7 @@
             "height": 24,
             "file": "maps/bm/the_batcave.json"
         }, {
-            "id": "bm1",
+            "id": "bmM002",
             "name": "Lazarus Pit",
             "set": "Batman",
             "type": "indoor",
@@ -3430,7 +3430,7 @@
             "height": 24,
             "file": "maps/bm/lazarus_pit.json"
         }, {
-            "id": "bm2",
+            "id": "bmM003",
             "name": "Wayne Manor",
             "set": "Batman",
             "type": "indoor",
@@ -3438,7 +3438,7 @@
             "height": 24,
             "file": "maps/bm/wayne_manor.json"
         }, {
-            "id": "bm3",
+            "id": "bmM004",
             "name": "The Temple",
             "set": "Batman",
             "type": "indoorOutdoor",
@@ -3446,7 +3446,7 @@
             "height": 24,
             "file": "maps/bm/the_temple.json"
         }, {
-            "id": "nml0",
+            "id": "nmlM001",
             "name": "Blackgate Prison",
             "set": "Batman: No Man's Land",
             "type": "indoor",
@@ -3454,7 +3454,7 @@
             "height": 24,
             "file": "maps/nml/blackgate_prison.json"
         }, {
-            "id": "nml1",
+            "id": "nmlM002",
             "name": "Blackgate Prison: Post-Cataclysm",
             "set": "Batman: No Man's Land",
             "type": "indoor",
@@ -3462,7 +3462,7 @@
             "height": 24,
             "file": "maps/nml/blackgate_prison_post_cataclysm.json"
         }, {
-            "id": "nml2",
+            "id": "nmlM003",
             "name": "Wayne Manor Grounds",
             "set": "Batman: No Man's Land",
             "type": "indoorOutdoor",
@@ -3470,7 +3470,7 @@
             "height": 24,
             "file": "maps/nml/wayne_manor_grounds.json"
         }, {
-            "id": "nml3",
+            "id": "nmlM004",
             "name": "Wayne Manor Grounds: Post-Cataclysm",
             "set": "Batman: No Man's Land",
             "type": "outdoor",
@@ -3478,7 +3478,7 @@
             "height": 24,
             "file": "maps/nml/wayne_manor_grounds_post_cataclysm.json"
         }, {
-            "id": "nml4",
+            "id": "nmlM005",
             "name": "Gotham City Power Plant",
             "set": "Batman: No Man's Land",
             "type": "outdoor",
@@ -3486,7 +3486,7 @@
             "height": 24,
             "file": "maps/nml/gotham_city_power_plant.json"
         }, {
-            "id": "nml5",
+            "id": "nmlM006",
             "name": "Gotham City Power Plant: Post-Cataclysm",
             "set": "Batman: No Man's Land",
             "type": "outdoor",
@@ -3494,7 +3494,7 @@
             "height": 24,
             "file": "maps/nml/gotham_city_power_plant_post_cataclysm.json"
         }, {
-            "id": "nml6",
+            "id": "nmlM007",
             "name": "Robinson Park",
             "set": "Batman: No Man's Land",
             "type": "outdoor",
@@ -3502,7 +3502,7 @@
             "height": 24,
             "file": "maps/nml/robinson_park.json"
         }, {
-            "id": "nml7",
+            "id": "nmlM008",
             "name": "Robinson Park: Post-Cataclysm",
             "set": "Batman: No Man's Land",
             "type": "outdoor",
@@ -3510,7 +3510,7 @@
             "height": 24,
             "file": "maps/nml/robinson_park_post_cataclysm.json"
         }, {
-            "id": "nml8",
+            "id": "nmlM009",
             "name": "Gotham City Waterfront",
             "set": "Batman: No Man's Land",
             "type": "indoorOutdoor",
@@ -3518,7 +3518,7 @@
             "height": 24,
             "file": "maps/nml/gotham_city_waterfront.json"
         }, {
-            "id": "nml9",
+            "id": "nmlM010",
             "name": "Gotham City Waterfront: Post-Cataclysm",
             "set": "Batman: No Man's Land",
             "type": "indoorOutdoor",
@@ -3526,7 +3526,7 @@
             "height": 24,
             "file": "maps/nml/gotham_city_waterfront_post_cataclysm.json"
         }, {
-            "id": "nml10",
+            "id": "nmlM011",
             "name": "Dockside Amusement Park",
             "set": "Batman: No Man's Land",
             "type": "indoorOutdoor",
@@ -3534,7 +3534,7 @@
             "height": 24,
             "file": "maps/nml/dockside_amusement_park.json"
         }, {
-            "id": "nml11",
+            "id": "nmlM012",
             "name": "Dockside Amusement Park: Post-Cataclysm",
             "set": "Batman: No Man's Land",
             "type": "indoorOutdoor",
@@ -3542,7 +3542,7 @@
             "height": 24,
             "file": "maps/nml/dockside_amusement_park_post_cataclysm.json"
         }, {
-            "id": "jl520",
+            "id": "jl52M001",
             "name": "Rooftops of Gotham City",
             "set": "Justice League 52",
             "type": "outdoor",
@@ -3550,7 +3550,7 @@
             "height": 24,
             "file": "maps/jl52/rooftops_of_gotham_city.json"
         }, {
-            "id": "jl521",
+            "id": "jl52M002",
             "name": "Paradise Island",
             "set": "Justice League 52",
             "type": "outdoor",
@@ -3558,7 +3558,7 @@
             "height": 24,
             "file": "maps/jl52/paradise_island.json"
         }, {
-            "id": "cw0",
+            "id": "cwM001",
             "name": "Negative Zone Prison",
             "set": "Chaos War",
             "type": "indoor",
@@ -3566,7 +3566,7 @@
             "height": 24,
             "file": "maps/cw/negative_zone_prison.json"
         }, {
-            "id": "cw1",
+            "id": "cwM002",
             "name": "Avengers Mansion Grounds",
             "set": "Chaos War",
             "type": "outdoor",
@@ -3574,7 +3574,7 @@
             "height": 24,
             "file": "maps/cw/avengers_mansion_grounds.json"
         }, {
-            "id": "cw2",
+            "id": "cwM003",
             "name": "Quinjet Hangar",
             "set": "Chaos War",
             "type": "indoor",
@@ -3582,7 +3582,7 @@
             "height": 24,
             "file": "maps/cw/quinjet_hangar.json"
         }, {
-            "id": "cw3",
+            "id": "cwM004",
             "name": "European Castle",
             "set": "Chaos War",
             "type": "outdoor",
@@ -3590,7 +3590,7 @@
             "height": 24,
             "file": "maps/cw/european_castle.json"
         }, {
-            "id": "dkr0",
+            "id": "dkrM001",
             "name": "Arkham Asylum",
             "set": "The Dark Knight Rises",
             "type": "indoor",
@@ -3598,7 +3598,7 @@
             "height": 24,
             "file": "maps/dkr/arkham_asylum.json"
         }, {
-            "id": "dkr1",
+            "id": "dkrM002",
             "name": "Gotham Bank",
             "set": "The Dark Knight Rises",
             "type": "indoor",
@@ -3606,7 +3606,7 @@
             "height": 24,
             "file": "maps/dkr/gotham_bank.json"
         }, {
-            "id": "avm0",
+            "id": "avmM001",
             "name": "S.H.I.E.L.D. Helicarrier",
             "set": "Avengers Movie",
             "type": "indoor",
@@ -3614,7 +3614,7 @@
             "height": 24,
             "file": "maps/avm/shield_helicarrier.json"
         }, {
-            "id": "avm1",
+            "id": "avmM002",
             "name": "Stark Tower",
             "set": "Avengers Movie",
             "type": "outdoor",
@@ -3622,7 +3622,7 @@
             "height": 24,
             "file": "maps/avm/stark_tower.json"
         }, {
-            "id": "gg0",
+            "id": "ggM001",
             "name": "Blue Area of the Moon",
             "set": "Galactic Guardians",
             "type": "outdoor",
@@ -3630,7 +3630,7 @@
             "height": 24,
             "file": "maps/gg/blue_area_of_the_moon.json"
         }, {
-            "id": "gg1",
+            "id": "ggM002",
             "name": "Realm of Death",
             "set": "Galactic Guardians",
             "type": "indoor",
@@ -3638,7 +3638,7 @@
             "height": 24,
             "file": "maps/gg/realm_of_death.json"
         }, {
-            "id": "gg2",
+            "id": "ggM003",
             "name": "Alien City",
             "set": "Galactic Guardians",
             "type": "outdoor",
@@ -3646,7 +3646,7 @@
             "height": 24,
             "file": "maps/gg/alien_city.json"
         }, {
-            "id": "gg3",
+            "id": "ggM004",
             "name": "Knowhere",
             "set": "Galactic Guardians",
             "type": "indoor",
@@ -3654,7 +3654,7 @@
             "height": 24,
             "file": "maps/gg/knowhere.json"
         }, {
-            "id": "ig0",
+            "id": "igM001",
             "name": "Nexus of Reality",
             "set": "The Infinity Gauntlet",
             "type": "outdoor",
@@ -3662,7 +3662,7 @@
             "height": 24,
             "file": "maps/ig/nexus_of_reality.json"
         }, {
-            "id": "ig1",
+            "id": "igM002",
             "name": "Soul World",
             "set": "The Infinity Gauntlet",
             "type": "outdoor",
@@ -3670,7 +3670,7 @@
             "height": 24,
             "file": "maps/ig/soul_world.json"
         }, {
-            "id": "ig2",
+            "id": "igM003",
             "name": "Tamarata",
             "set": "The Infinity Gauntlet",
             "type": "outdoor",
@@ -3678,7 +3678,7 @@
             "height": 24,
             "file": "maps/ig/tamarata.json"
         }, {
-            "id": "ig3",
+            "id": "igM004",
             "name": "The Garden",
             "set": "The Infinity Gauntlet",
             "type": "outdoor",
@@ -3686,7 +3686,7 @@
             "height": 24,
             "file": "maps/ig/the_garden.json"
         }, {
-            "id": "ig4",
+            "id": "igM005",
             "name": "Space Racetrack",
             "set": "The Infinity Gauntlet",
             "type": "outdoor",
@@ -3694,7 +3694,7 @@
             "height": 24,
             "file": "maps/ig/space_racetrack.json"
         }, {
-            "id": "ig5",
+            "id": "igM006",
             "name": "Collector's Ship",
             "set": "The Infinity Gauntlet",
             "type": "indoor",
@@ -3702,7 +3702,7 @@
             "height": 24,
             "file": "maps/ig/collectors_ship.json"
         }, {
-            "id": "ig6",
+            "id": "igM007",
             "name": "The Mental Plane",
             "set": "The Infinity Gauntlet",
             "type": "outdoor",
@@ -3710,7 +3710,7 @@
             "height": 24,
             "file": "maps/ig/the_mental_plane.json"
         }, {
-            "id": "ig7",
+            "id": "igM008",
             "name": "Shrine to Death",
             "set": "The Infinity Gauntlet",
             "type": "outdoor",
@@ -3718,7 +3718,7 @@
             "height": 24,
             "file": "maps/ig/shrine_to_death.json"
         }, {
-            "id": "ih0",
+            "id": "ihM001",
             "name": "Gamma Range",
             "set": "The Incredible Hulk",
             "type": "indoorOutdoor",
@@ -3726,7 +3726,7 @@
             "height": 24,
             "file": "maps/ih/gamma_range.json"
         }, {
-            "id": "ih1",
+            "id": "ihM002",
             "name": "Shadowland Fortress",
             "set": "The Incredible Hulk",
             "type": "indoor",
@@ -3734,7 +3734,7 @@
             "height": 24,
             "file": "maps/ih/shadowland_fortress.json"
         }, {
-            "id": "ih2",
+            "id": "ihM003",
             "name": "Sakaar",
             "set": "The Incredible Hulk",
             "type": "outdoor",
@@ -3742,7 +3742,7 @@
             "height": 24,
             "file": "maps/ih/sakaar.json"
         }, {
-            "id": "ih3",
+            "id": "ihM004",
             "name": "Gamma Base",
             "set": "The Incredible Hulk",
             "type": "indoorOutdoor",
@@ -3750,7 +3750,7 @@
             "height": 24,
             "file": "maps/ih/gamma_base.json"
         }, {
-            "id": "sm0",
+            "id": "smM001",
             "name": "Fortress of Solitude",
             "set": "Superman",
             "type": "indoor",
@@ -3758,7 +3758,7 @@
             "height": 24,
             "file": "maps/sm/fortress_of_solitude.json"
         }, {
-            "id": "sm1",
+            "id": "smM002",
             "name": "Metropolis City Battleground",
             "set": "Superman",
             "type": "outdoor",
@@ -3766,7 +3766,7 @@
             "height": 24,
             "file": "maps/sm/metropolis_city_battleground.json"
         }, {
-            "id": "sm2",
+            "id": "smM003",
             "name": "Bizarro World",
             "set": "Superman",
             "type": "outdoor",
@@ -3774,7 +3774,7 @@
             "height": 24,
             "file": "maps/sm/bizarro_world.json"
         }, {
-            "id": "sm3",
+            "id": "smM004",
             "name": "The Farm",
             "set": "Superman",
             "type": "outdoor",
@@ -3782,7 +3782,7 @@
             "height": 24,
             "file": "maps/sm/the_farm.json"
         }, {
-            "id": "wm0",
+            "id": "wmM001",
             "name": "Karnak",
             "set": "Watchmen",
             "type": "indoor",
@@ -3790,7 +3790,7 @@
             "height": 24,
             "file": "maps/wm/karnak.json"
         }, {
-            "id": "wm1",
+            "id": "wmM002",
             "name": "Dr. Manhattan's Lab",
             "set": "Watchmen",
             "type": "indoor",
@@ -3798,7 +3798,7 @@
             "height": 24,
             "file": "maps/wm/dr_manhattans_lab.json"
         }, {
-            "id": "ca0",
+            "id": "caM001",
             "name": "S.H.I.E.L.D. Helicarrier Bow Map S-1",
             "set": "Captain America",
             "type": "outdoor",
@@ -3806,7 +3806,7 @@
             "height": 24,
             "file": "maps/ca/shield_helicarrier_bow.json"
         }, {
-            "id": "ca1",
+            "id": "caM002",
             "name": "S.H.I.E.L.D. Helicarrier Midsection Map S-2",
             "set": "Captain America",
             "type": "indoorOutdoor",
@@ -3814,7 +3814,7 @@
             "height": 24,
             "file": "maps/ca/shield_helicarrier_midsection.json"
         }, {
-            "id": "ca2",
+            "id": "caM003",
             "name": "S.H.I.E.L.D. Helicarrier Stern Map S-3",
             "set": "Captain America",
             "type": "outdoor",
@@ -3822,7 +3822,7 @@
             "height": 24,
             "file": "maps/ca/shield_helicarrier_stern.json"
         }, {
-            "id": "ca3",
+            "id": "caM004",
             "name": "S.H.I.E.L.D. Helicarrier Below Decks Map S-4",
             "set": "Captain America",
             "type": "indoor",
@@ -3830,7 +3830,7 @@
             "height": 24,
             "file": "maps/ca/shield_helicarrier_below_decks.json"
         }, {
-            "id": "gl0",
+            "id": "glM001",
             "name": "Oa",
             "set": "Green Lantern",
             "type": "outdoor",
@@ -3838,7 +3838,7 @@
             "height": 24,
             "file": "maps/gl/oa.json"
         }, {
-            "id": "gl1",
+            "id": "glM002",
             "name": "Ferris Aircraft",
             "set": "Green Lantern",
             "type": "indoorOutdoor",
@@ -3846,7 +3846,7 @@
             "height": 24,
             "file": "maps/gl/ferris_aircraft.json"
         }, {
-            "id": "gsx0",
+            "id": "gsxM001",
             "name": "Madripoor Lowtown",
             "set": "Giant-Size X-Men",
             "type": "outdoor",
@@ -3854,7 +3854,7 @@
             "height": 24,
             "file": "maps/gsx/madripoor_lowtown.json"
         }, {
-            "id": "gsx1",
+            "id": "gsxM002",
             "name": "Krakoa",
             "set": "Giant-Size X-Men",
             "type": "outdoor",
@@ -3862,7 +3862,7 @@
             "height": 24,
             "file": "maps/gsx/krakoa.json"
         }, {
-            "id": "gsx2",
+            "id": "gsxM003",
             "name": "Starcore Space Station",
             "set": "Giant-Size X-Men",
             "type": "indoor",
@@ -3870,7 +3870,7 @@
             "height": 24,
             "file": "maps/gsx/starcore_space_station.json"
         }, {
-            "id": "gsx3",
+            "id": "gsxM004",
             "name": "Abandoned Weapon X Facility",
             "set": "Giant-Size X-Men",
             "type": "indoor",
@@ -3878,7 +3878,7 @@
             "height": 24,
             "file": "maps/gsx/abandoned_weapon_x_facility.json"
         }, {
-            "id": "an0",
+            "id": "anM001",
             "name": "Okaara",
             "set": "DC 75th Anniversary",
             "type": "indoorOutdoor",
@@ -3886,7 +3886,7 @@
             "height": 24,
             "file": "maps/an/okaara.json"
         }, {
-            "id": "an1",
+            "id": "anM002",
             "name": "Qward",
             "set": "DC 75th Anniversary",
             "type": "outdoor",
@@ -3894,7 +3894,7 @@
             "height": 24,
             "file": "maps/an/qward.json"
         }, {
-            "id": "an2",
+            "id": "anM003",
             "name": "Airport Terminal",
             "set": "DC 75th Anniversary",
             "type": "indoorOutdoor",
@@ -3902,7 +3902,7 @@
             "height": 24,
             "file": "maps/an/airport_terminal.json"
         }, {
-            "id": "an3",
+            "id": "anM004",
             "name": "Hawkworld",
             "set": "DC 75th Anniversary",
             "type": "outdoor",
@@ -3910,7 +3910,7 @@
             "height": 24,
             "file": "maps/an/hawkworld.json"
         }, {
-            "id": "bd0",
+            "id": "bdM001",
             "name": "The Crater",
             "set": "Brightest Day",
             "type": "outdoor",
@@ -3918,7 +3918,7 @@
             "height": 24,
             "file": "maps/bd/the_crater.json"
         }, {
-            "id": "bd1",
+            "id": "bdM002",
             "name": "The Monument",
             "set": "Brightest Day",
             "type": "outdoor",
@@ -3926,7 +3926,7 @@
             "height": 24,
             "file": "maps/bd/the_monument.json"
         }, {
-            "id": "ws0",
+            "id": "wsM001",
             "name": "The Bridge",
             "set": "Web of Spider-Man",
             "type": "outdoor",
@@ -3934,7 +3934,7 @@
             "height": 24,
             "file": "maps/ws/the_bridge.json"
         }, {
-            "id": "bn0",
+            "id": "bnM001",
             "name": "Green Lantern Sciencells",
             "set": "Blackest Night",
             "type": "indoor",
@@ -3942,7 +3942,7 @@
             "height": 24,
             "file": "maps/bn/green_lantern_sciencells.json"
         }, {
-            "id": "bb0",
+            "id": "bbM001",
             "name": "Graveyard",
             "set": "Brave and the Bold",
             "type": "outdoor",
@@ -3950,7 +3950,7 @@
             "height": 24,
             "file": "maps/bb/graveyard.json"
         }, {
-            "id": "ha0",
+            "id": "haM001",
             "name": "Fountain of Asgard",
             "set": "Hammer of Thor",
             "type": "outdoor",
@@ -3958,7 +3958,7 @@
             "height": 24,
             "file": "maps/ha/fountain_of_asgard.json"
         }, {
-            "id": "ha1",
+            "id": "haM002",
             "name": "Jotunheim",
             "set": "Hammer of Thor",
             "type": "outdoor",
@@ -3966,7 +3966,7 @@
             "height": 24,
             "file": "maps/ha/jotunheim.json"
         }, {
-            "id": "ha2",
+            "id": "haM003",
             "name": "Muspelheim",
             "set": "Hammer of Thor",
             "type": "outdoor",
@@ -3974,7 +3974,7 @@
             "height": 24,
             "file": "maps/ha/muspelheim.json"
         }, {
-            "id": "aa0",
+            "id": "aaM001",
             "name": "The Asylum",
             "set": "Arkham Asylum",
             "type": "indoor",
@@ -3982,7 +3982,7 @@
             "height": 24,
             "file": "maps/aa/the_asylum.json"
         }, {
-            "id": "si1",
+            "id": "siM002",
             "name": "Spaceship Crash Site",
             "set": "Secret Invasion",
             "type": "outdoor",
@@ -3990,7 +3990,7 @@
             "height": 24,
             "file": "maps/si/spaceship_crash_site.json"
         }, {
-            "id": "si1",
+            "id": "siM002",
             "name": "Castle Doom Gardens",
             "set": "Secret Invasion",
             "type": "outdoor",
@@ -3998,7 +3998,7 @@
             "height": 24,
             "file": "maps/si/castle_doom_gardens.json"
         }, {
-            "id": "si2",
+            "id": "siM003",
             "name": "Baxter Building",
             "set": "Secret Invasion",
             "type": "indoor",
@@ -4006,7 +4006,7 @@
             "height": 24,
             "file": "maps/si/baxter_building.json"
         }, {
-            "id": "cr0",
+            "id": "crM001",
             "name": "Dawn of Man",
             "set": "Crisis",
             "type": "outdoor",
@@ -4014,7 +4014,7 @@
             "height": 24,
             "file": "maps/cr/dawn_of_man.json"
         }, {
-            "id": "cr8",
+            "id": "crM009",
             "name": "Anti-Matter Fortress",
             "set": "Crisis",
             "type": "outdoor",
@@ -4022,7 +4022,7 @@
             "height": 24,
             "file": "maps/cr/anti_matter_fortress.json"
         }, {
-            "id": "mm0",
+            "id": "mmM001",
             "name": "Battle Square",
             "set": "Mutations and Monsters",
             "type": "outdoor",
@@ -4030,7 +4030,7 @@
             "height": 24,
             "file": "maps/mm/battle_square.json"
         }, {
-            "id": "mm1",
+            "id": "mmM002",
             "name": "The Arena",
             "set": "Mutations and Monsters",
             "type": "outdoor",
@@ -4038,7 +4038,7 @@
             "height": 24,
             "file": "maps/mm/the_arena.json"
         }, {
-            "id": "jl0",
+            "id": "jlM001",
             "name": "The Bank",
             "set": "Justice League",
             "type": "indoor",
@@ -4046,7 +4046,7 @@
             "height": 24,
             "file": "maps/jl/the_bank.json"
         }, {
-            "id": "av0",
+            "id": "avM001",
             "name": "Airbase",
             "set": "Avengers",
             "type": "outdoor",
@@ -4054,7 +4054,7 @@
             "height": 24,
             "file": "maps/av/airbase.json"
         }, {
-            "id": "ls0",
+            "id": "lsM001",
             "name": "Central Port",
             "set": "Legion of Super Heroes",
             "type": "indoor",
@@ -4062,7 +4062,7 @@
             "height": 24,
             "file": "maps/ls/central_port.json"
         }, {
-            "id": "ls1",
+            "id": "lsM002",
             "name": "Small Town",
             "set": "Legion of Super Heroes",
             "type": "outdoor",
@@ -4070,7 +4070,7 @@
             "height": 24,
             "file": "maps/ls/small_town.json"
         }, {
-            "id": "or0",
+            "id": "orM001",
             "name": "JSA Museum",
             "set": "Origin",
             "type": "indoor",
@@ -4078,7 +4078,7 @@
             "height": 24,
             "file": "maps/or/jsa_museum.json"
         }, {
-            "id": "sv0",
+            "id": "svM001",
             "name": "Deep Space",
             "set": "Supernova",
             "type": "outdoor",
@@ -4086,7 +4086,7 @@
             "height": 24,
             "file": "maps/sv/deep_space.json"
         }, {
-            "id": "sn0",
+            "id": "snM001",
             "name": "The Prison",
             "set": "Sinister",
             "type": "indoor",
@@ -4094,7 +4094,7 @@
             "height": 24,
             "file": "maps/sn/the_prison.json"
         }, {
-            "id": "cd0",
+            "id": "cdM001",
             "name": "The Junkyard",
             "set": "Collateral Damage",
             "type": "indoorOutdoor",
@@ -4102,7 +4102,7 @@
             "height": 24,
             "file": "maps/cd/the_junkyard.json"
         }, {
-            "id": "aw0",
+            "id": "awM001",
             "name": "The Lab",
             "set": "Armor Wars",
             "type": "indoorOutdoor",
@@ -4110,7 +4110,7 @@
             "height": 24,
             "file": "maps/aw/the_lab.json"
         }, {
-            "id": "ui0",
+            "id": "uiM001",
             "name": "Xavier's School",
             "set": "Universe",
             "type": "outdoor",
@@ -4119,7 +4119,7 @@
             "date": "May 2004",
             "file": "maps/ui/xaviers_school.json"
         }, {
-            "id": "ui0",
+            "id": "uiM001",
             "name": "Avengers' Mansion",
             "set": "Universe",
             "type": "outdoor",
@@ -4127,7 +4127,7 @@
             "height": 13,
             "file": "maps/ui/avengers_mansion.json"
         }, {
-            "id": "ht0",
+            "id": "htM001",
             "name": "The Office",
             "set": "Hypertime",
             "type": "indoor",
@@ -4135,7 +4135,7 @@
             "height": 24,
             "file": "maps/ht/the_office.json"
         }, {
-            "id": "ht1",
+            "id": "htM002",
             "name": "The Truck Stop",
             "set": "Hypertime",
             "source": "Hypertime Starter",
@@ -4144,7 +4144,7 @@
             "height": 24,
             "file": "maps/ht/the_truck_stop.json"
         }, {
-            "id": "ic4",
+            "id": "icM005",
             "name": "Xavier's School",
             "set": "Infinity Challenge",
             "type": "outdoor",
@@ -4152,7 +4152,7 @@
             "height": 24,
             "file": "maps/ic/xaviers_school.json"
         }, {
-            "id": "ic5",
+            "id": "icM006",
             "name": "Avengers' Mansion",
             "set": "Infinity Challenge",
             "type": "outdoor",
@@ -4160,7 +4160,7 @@
             "height": 24,
             "file": "maps/ic/avengers_mansion.json"
         }, {
-            "id": "ic10",
+            "id": "icM011",
             "name": "The Large Building",
             "set": "Infinity Challenge",
             "type": "outdoor",
@@ -4168,7 +4168,7 @@
             "height": 24,
             "file": "maps/ic/the_large_building.json"
         }, {
-            "id": "ic11",
+            "id": "icM012",
             "name": "The Construction Site",
             "set": "Infinity Challenge",
             "type": "outdoor",
@@ -4176,7 +4176,7 @@
             "height": 24,
             "file": "maps/ic/the_construction_site.json"
         }, {
-            "id": "wkce0",
+            "id": "wkceM001",
             "name": "Hidden Fountains",
             "set": "WizKids Convention Exclusive",
             "type": "indoor",
@@ -4184,7 +4184,7 @@
             "height": 16,
             "file": "maps/wkce/hidden_fountains.json"
         }, {
-            "id": "wkce1",
+            "id": "wkceM002",
             "name": "Lost Temple",
             "set": "WizKids Convention Exclusive",
             "type": "indoor",
@@ -4192,7 +4192,7 @@
             "height": 16,
             "file": "maps/wkce/lost_temple.json"
         }, {
-            "id": "wkce2",
+            "id": "wkceM003",
             "name": "Library",
             "set": "WizKids Convention Exclusive",
             "type": "indoor",
@@ -4200,7 +4200,7 @@
             "height": 16,
             "file": "maps/wkce/library.json"
         }, {
-            "id": "wkce3",
+            "id": "wkceM004",
             "name": "Street Fair",
             "set": "WizKids Convention Exclusive",
             "type": "outdoor",
@@ -4208,7 +4208,7 @@
             "height": 16,
             "file": "maps/wkce/street_fair.json"
         }, {
-            "id": "grmp6_0",
+            "id": "grmp6M001",
             "name": "The Sewer",
             "set": "GridReality",
             "type": "indoor",
@@ -4216,7 +4216,7 @@
             "height": 24,
             "file": "maps/gr/the_sewer.json"
         }, {
-            "id": "grmp6_1",
+            "id": "grmp6M002",
             "name": "The Courtyard",
             "set": "GridReality",
             "type": "indoorOutdoor",
@@ -4224,7 +4224,7 @@
             "height": 24,
             "file": "maps/gr/the_courtyard.json"
         }, {
-            "id": "grmp5_0",
+            "id": "grmp5M001",
             "name": "Beach Invasion",
             "set": "GridReality",
             "type": "indoorOutdoor",
@@ -4232,7 +4232,7 @@
             "height": 24,
             "file": "maps/gr/beach_invasion.json"
         }, {
-            "id": "grmp5_1",
+            "id": "grmp5M002",
             "name": "The Secret Warehouse",
             "set": "GridReality",
             "type": "indoor",
@@ -4240,7 +4240,7 @@
             "height": 24,
             "file": "maps/gr/the_secret_warehouse.json"
         }, {
-            "id": "grmp3_0",
+            "id": "grmp3M001",
             "name": "The Mansion",
             "set": "GridReality",
             "type": "indoorOutdoor",
@@ -4248,7 +4248,7 @@
             "height": 24,
             "file": "maps/gr/the_mansion.json"
         }, {
-            "id": "grmp3_1",
+            "id": "grmp3M002",
             "name": "Chemical Plant",
             "set": "GridReality",
             "type": "indoorOutdoor",
@@ -4256,7 +4256,7 @@
             "height": 24,
             "file": "maps/gr/chemical_plant.json"
         }, {
-            "id": "grmp2_0",
+            "id": "grmp2M001",
             "name": "Swamp Base",
             "set": "GridReality",
             "type": "indoorOutdoor",
@@ -4264,7 +4264,7 @@
             "height": 24,
             "file": "maps/gr/swamp_base.json"
         }, {
-            "id": "grmp2_1",
+            "id": "grmp2M002",
             "name": "The Park",
             "set": "GridReality",
             "type": "outdoor",
@@ -4272,7 +4272,7 @@
             "height": 24,
             "file": "maps/gr/the_park.json"
         }, {
-            "id": "grmp1_0",
+            "id": "grmp1M001",
             "name": "Mental Ward",
             "set": "GridReality",
             "type": "indoor",
@@ -4280,7 +4280,7 @@
             "height": 24,
             "file": "maps/gr/mental_ward.json"
         }, {
-            "id": "grmp1_1",
+            "id": "grmp1M002",
             "name": "The Corporation",
             "set": "GridReality",
             "type": "indoorOutdoor",
