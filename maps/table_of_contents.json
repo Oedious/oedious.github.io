@@ -6,7 +6,12 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/btu/danny_the_street.json"
+            "file": "maps/btu/danny_the_street.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "mx": true
+            }
         },{
             "id": "btuM002",
             "name": "Robinson Park",
@@ -14,7 +19,12 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/btu/robinson_park.json"
+            "file": "maps/btu/robinson_park.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "mx": true
+            }
         },{
             "id": "btuM003",
             "name": "The Batcave",
@@ -22,7 +32,12 @@
             "type": "indoor",
             "width": 16,
             "height": 24,
-            "file": "maps/btu/the_batcave.json"
+            "file": "maps/btu/the_batcave.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "mx": true
+            }
         },{
             "id": "btuM004",
             "name": "Wayne Manor Grounds",
@@ -30,7 +45,38 @@
             "type": "indoorOutdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/btu/wayne_manor_grounds.json"
+            "file": "maps/btu/wayne_manor_grounds.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "mx": true
+            }
+        },{
+            "id": "btuM005",
+            "name": "Haunted Pier",
+            "set": "Batman Team-Up",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/btu/haunted_pier.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "mx": true
+            }
+        },{
+            "id": "btuM006",
+            "name": "Game Show",
+            "set": "Batman Team-Up",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/btu/game_show.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "mx": true
+            }
         },{
             "id": "av4eM001",
             "name": "Prison (Jailbreak)",
@@ -38,7 +84,12 @@
             "type": "indoor",
             "width": 16,
             "height": 24,
-            "file": "maps/av4e/prison_jailbreak.json"
+            "file": "maps/av4e/prison_jailbreak.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "mx": true
+            }
         }, {
             "id": "av4eM002",
             "name": "Chemical Plant (Containment Leak)",
@@ -46,7 +97,12 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/av4e/chemical_plant_containment_leak.json"
+            "file": "maps/av4e/chemical_plant_containment_leak.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "mx": true
+            }
         }, {
             "id": "av4eM003",
             "name": "Avengers Compound (Winter)",
@@ -54,7 +110,12 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/av4e/avengers_compound_winter.json"
+            "file": "maps/av4e/avengers_compound_winter.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "mx": true
+            }
         }, {
             "id": "av4eM004",
             "name": "Starlord's Ship (Landed)",
@@ -62,7 +123,12 @@
             "type": "indoor",
             "width": 16,
             "height": 24,
-            "file": "maps/av4e/starlords_ship_landed.json"
+            "file": "maps/av4e/starlords_ship_landed.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "mx": true
+            }
         }, {
             "id": "xmxsM001",
             "name": "Otherworld: Castle",
