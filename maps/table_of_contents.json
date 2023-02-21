@@ -2,7 +2,7 @@
     "maps": [{
             "id": "btuM001",
             "name": "Danny The Street",
-            "set": "Batman Team Up",
+            "set": "Batman Team-Up",
             "type": "outdoor",
             "width": 16,
             "height": 24,
@@ -10,7 +10,7 @@
         },{
             "id": "btuM002",
             "name": "Robinson Park",
-            "set": "Batman Team Up",
+            "set": "Batman Team-Up",
             "type": "outdoor",
             "width": 16,
             "height": 24,
@@ -18,7 +18,7 @@
         },{
             "id": "btuM003",
             "name": "The Batcave",
-            "set": "Batman Team Up",
+            "set": "Batman Team-Up",
             "type": "indoor",
             "width": 16,
             "height": 24,
@@ -26,7 +26,7 @@
         },{
             "id": "btuM004",
             "name": "Wayne Manor Grounds",
-            "set": "Batman Team Up",
+            "set": "Batman Team-Up",
             "type": "indoorOutdoor",
             "width": 16,
             "height": 24,
@@ -484,7 +484,7 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/ww80/wonder_woman_barn.json",
+            "file": "maps/ww80/wonder_womans_barn.json",
             "age": {
                 "modern": true,
                 "wko": true,
@@ -497,7 +497,7 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/ww80/mount_olympus.json",
+            "file": "maps/ww80/mt_olympus.json",
             "age": {
                 "modern": true,
                 "wko": true,
@@ -523,7 +523,7 @@
             "type": "indoor",
             "width": 16,
             "height": 24,
-            "file": "maps/ffff/negative_zone_prison.json",
+            "file": "maps/ffff/negative_zone.json",
             "age": {
                 "modern": true,
                 "wko": true
@@ -757,26 +757,26 @@
                 "mx": true
             }
         }, {
-            "id": "hoxM001",
+            "id": "hxM001",
             "name": "Otherworld Castle",
             "set": "House of X",
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/hox/otherworld_castle.json",
+            "file": "maps/hx/otherworld_castle.json",
             "age": {
                 "modern": true,
                 "wko": true,
                 "mx": true
             }
         }, {
-            "id": "hoxM002",
+            "id": "hxM002",
             "name": "Krakoa",
             "set": "House of X",
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/hox/krakoa.json",
+            "file": "maps/hx/krakoa.json",
             "age": {
                 "modern": true,
                 "wko": true,
