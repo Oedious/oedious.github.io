@@ -130,9 +130,36 @@
                 "mx": true
             }
         }, {
+            "id": "xmxssopM001",
+            "name": "Eternal Caldera",
+            "set": "X of Swords: Storyline Organized Play",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/xmxssop/eternal_caldera.json"
+        }, {
+            "id": "xmxssopM002",
+            "name": "Fae Dungeons",
+            "set": "X of Swords: Storyline Organized Play",
+            "type": "indoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/xmxssop/fae_dungeons.json"
+        }, {
+            "id": "xmxssopM003",
+            "name": "Fiefdom of Amenth",
+            "set": "X of Swords: Storyline Organized Play",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/xmxssop/fiefdom_of_amenth.json"
+        }, {
             "id": "xmxsM001",
             "name": "Otherworld: Castle",
             "set": "X of Swords",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
             "file": "maps/xmxs/otherworld_castle.json",
             "age": {
                 "modern": true,
@@ -143,6 +170,9 @@
             "id": "xmxsM002",
             "name": "Limbo",
             "set": "X of Swords",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
             "file": "maps/xmxs/limbo.json",
             "age": {
                 "modern": true,
@@ -153,6 +183,9 @@
             "id": "xmxsM003",
             "name": "Morlock Tunnels",
             "set": "X of Swords",
+            "type": "inoor",
+            "width": 16,
+            "height": 24,
             "file": "maps/xmxs/morlock_tunnels.json",
             "age": {
                 "modern": true,
@@ -163,6 +196,9 @@
             "id": "xmxsM004",
             "name": "Krakoan Garden",
             "set": "X of Swords",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
             "file": "maps/xmxs/krakoan_garden.json",
             "age": {
                 "modern": true,
@@ -172,6 +208,9 @@
         },{
             "id": "xmxsM005",
             "name": "Otherworld: Shadow of the Starlight Citadel",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
             "set": "X of Swords",
             "file": "maps/xmxs/otherworld_shadow_of_the_starlight_citadel.json",
             "age": {
@@ -182,12 +221,18 @@
         },{
             "id": "xmxsM006",
             "name": "Otherworld: Blightspoke",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
             "set": "X of Swords",
             "file": "maps/xmxs/otherworld_blightspoke.json"
         },{
             "id": "xmxsM007",
             "name": "Otherworld: Starlight Citadel Ballroom",
             "set": "X of Swords",
+            "type": "outdoor",
+            "width": 8,
+            "height": 16,
             "file": "maps/xmxs/otherworld_starlight_citadel_ballroom.json"
         },{
             "id": "msdpM001",
