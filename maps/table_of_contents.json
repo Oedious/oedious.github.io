@@ -978,7 +978,7 @@
             "type": "indoor",
             "width": 16,
             "height": 24,
-            "file": "maps/jlu/justice_league_watch_tower.json",
+            "file": "maps/jlu/justice_league_watchtower.json",
             "age": {
                 "mx": true
             }
