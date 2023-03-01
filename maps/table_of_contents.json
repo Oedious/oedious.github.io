@@ -1934,7 +1934,7 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/os/gorn_fight.json"
+            "file": "maps/trekos/gorn_fight.json"
         }, {
             "id": "osM002",
             "name": "Forgotten Planet",
@@ -1942,7 +1942,7 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/os/forgotten_planet.json"
+            "file": "maps/trekos/forgotten_planet.json"
         }, {
             "id": "osM003",
             "name": "Amok Time",
@@ -1950,7 +1950,7 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/os/amok_time.json"
+            "file": "maps/trekos/amok_time.json"
         }, {
             "id": "osM004",
             "name": "Underground Cavern",
@@ -1958,7 +1958,7 @@
             "type": "indoor",
             "width": 16,
             "height": 24,
-            "file": "maps/os/underground_cavern.json"
+            "file": "maps/trekos/underground_cavern.json"
         }, {
             "id": "hqM001",
             "name": "Harley's Apartment",
