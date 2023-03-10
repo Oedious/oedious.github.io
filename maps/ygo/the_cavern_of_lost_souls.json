@@ -2,10 +2,10 @@
 	"name": "The Cavern of Lost Souls",
 	"set": "Yu-Gi-Oh! Series One",
 	"source": "Yu-Gi-Oh! Series One: Op Kit",
-	"type": "",
+	"type": "indoor",
 	"width": 16,
 	"height": 24,
-	"date": "",
+	"date": "January 2014",
 	"rows": [{
 		"y": 1,
 		"tiles": [{
