@@ -3093,117 +3093,117 @@
             "height": 24,
             "file": "maps/tdw/royal_naval_academy.json"
         }, {
-            "id": "watxmM001",
+            "id": "wxmM001",
             "name": "Danger Room",
             "set": "Wolverine and the X-Men",
             "type": "indoor",
             "width": 16,
             "height": 24,
-            "file": "maps/watxm/danger_room.json"
+            "file": "maps/wxm/danger_room.json"
         }, {
-            "id": "watxmM002",
+            "id": "wxmM002",
             "name": "Canadian Wilderness",
             "set": "Wolverine and the X-Men",
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/watxm/canadian_wilderness.json"
+            "file": "maps/wxm/canadian_wilderness.json"
         }, {
-            "id": "watxmM003",
+            "id": "wxmM003",
             "name": "Half Court",
             "set": "Wolverine and the X-Men",
             "type": "outdoor",
             "width": 8,
             "height": 8,
-            "file": "maps/watxm/half_court.json"
+            "file": "maps/wxm/half_court.json"
         }, {
-            "id": "watxmM004",
+            "id": "wxmM004",
             "name": "Princess Bar",
             "set": "Wolverine and the X-Men",
             "type": "indoor",
             "width": 8,
             "height": 8,
-            "file": "maps/watxm/princess_bar.json"
+            "file": "maps/wxm/princess_bar.json"
         }, {
-            "id": "watxmM005",
+            "id": "wxmM005",
             "name": "Astral Plane",
             "set": "Wolverine and the X-Men",
             "type": "outdoor",
             "width": 8,
             "height": 8,
-            "file": "maps/watxm/astral_plane.json"
+            "file": "maps/wxm/astral_plane.json"
         }, {
-            "id": "watxmM006",
+            "id": "wxmM006",
             "name": "Xavier Institute: Headmaster's Office",
             "set": "Wolverine and the X-Men",
             "type": "indoor",
             "width": 8,
             "height": 8,
-            "file": "maps/watxm/xavier_institute_headmasters_office.json"
+            "file": "maps/wxm/xavier_institute_headmasters_office.json"
         }, {
-            "id": "watxmM007",
+            "id": "wxmM007",
             "name": "Lighthouse Coastline",
             "set": "Wolverine and the X-Men",
             "type": "outdoor",
             "width": 8,
             "height": 8,
-            "file": "maps/watxm/lighthouse_coastline.json"
+            "file": "maps/wxm/lighthouse_coastline.json"
         }, {
-            "id": "watxmM008",
+            "id": "wxmM008",
             "name": "Lighthouse",
             "set": "Wolverine and the X-Men",
             "type": "indoor",
             "width": 8,
             "height": 8,
-            "file": "maps/watxm/lighthouse.json"
+            "file": "maps/wxm/lighthouse.json"
         }, {
-            "id": "watxmM009",
+            "id": "wxmM009",
             "name": "Nova Roma",
             "set": "Wolverine and the X-Men",
             "type": "indoor",
             "width": 8,
             "height": 8,
-            "file": "maps/watxm/nova_roma_building.json"
+            "file": "maps/wxm/nova_roma_building.json"
         }, {
-            "id": "watxmM010",
+            "id": "wxmM010",
             "name": "Xavier Institute: Classroom",
             "set": "Wolverine and the X-Men",
             "type": "indoor",
             "width": 8,
             "height": 8,
-            "file": "maps/watxm/xavier_institute_classroom.json"
+            "file": "maps/wxm/xavier_institute_classroom.json"
         }, {
-            "id": "watxmM011",
+            "id": "wxmM011",
             "name": "Asteroid",
             "set": "Wolverine and the X-Men",
             "type": "outdoor",
             "width": 8,
             "height": 8,
-            "file": "maps/watxm/asteroid.json"
+            "file": "maps/wxm/asteroid.json"
         }, {
-            "id": "watxmM012",
+            "id": "wxmM012",
             "name": "Shi'ar Empire Throne Room",
             "set": "Wolverine and the X-Men",
             "type": "indoor",
             "width": 8,
             "height": 8,
-            "file": "maps/watxm/shiar_empire_throne_room.json"
+            "file": "maps/wxm/shiar_empire_throne_room.json"
         }, {
-            "id": "watxmM013",
+            "id": "wxmM013",
             "name": "Inner Circle",
             "set": "Wolverine and the X-Men",
             "type": "indoor",
             "width": 8,
             "height": 8,
-            "file": "maps/watxm/inner_circle.json"
+            "file": "maps/wxm/inner_circle.json"
         }, {
-            "id": "watxmM014",
+            "id": "wxmM014",
             "name": "Rocket Launch Base",
             "set": "Wolverine and the X-Men",
             "type": "outdoor",
             "width": 8,
             "height": 8,
-            "file": "maps/watxm/rocket_launch_base.json"
+            "file": "maps/wxm/rocket_launch_base.json"
         }, {
             "id": "mosM001",
             "name": "Smallville",
