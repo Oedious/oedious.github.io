@@ -3430,20 +3430,20 @@
             "file": "maps/tt/teen_titans_tower_laboratory_level.json"
         }, {
             "id": "ttM009",
-            "name": "Teen Titans Tower: Sub-Basement Level",
-            "set": "Teen Titans",
-            "type": "indoor",
-            "width": 8,
-            "height": 8,
-            "file": "maps/tt/teen_titans_tower_sub_basement_level.json"
-        }, {
-            "id": "ttM010",
             "name": "N.O.W.H.E.R.E.: Harvest's Domain",
             "set": "Teen Titans",
             "type": "indoor",
             "width": 8,
             "height": 8,
             "file": "maps/tt/nowhere_harvests_domain.json"
+        }, {
+            "id": "ttM010",
+            "name": "Teen Titans Tower: Sub-Basement Level",
+            "set": "Teen Titans",
+            "type": "indoor",
+            "width": 8,
+            "height": 8,
+            "file": "maps/tt/teen_titans_tower_sub_basement_level.json"
         }, {
             "id": "ttM011",
             "name": "N.O.W.H.E.R.E.: Holding Cells",

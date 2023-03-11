@@ -1,9 +1,11 @@
 {
 	"name": "N.O.W.H.E.R.E.: Omen's Domain",
 	"set": "Teen Titans",
+	"source": "Teen Titans: Super Booster",
 	"type": "indoor",
 	"width": 8,
 	"height": 8,
+	"source": "May 2013",
 	"rows": [
 		{
 			"y": 1,
