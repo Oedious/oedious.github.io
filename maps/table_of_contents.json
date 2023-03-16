@@ -1,5 +1,57 @@
 {
     "maps": [{
+            "id": "smbaM001",
+            "name": "Oscorp Warehouse",
+            "set": "Spider-Man: Beyond Amazing",
+            "type": "indoor/Outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/smba/oscorp_warehouse.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "mx": true
+            }
+        },{
+            "id": "smbaM002",
+            "name": "Construction Site",
+            "set": "Spider-Man: Beyond Amazing",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/smba/construction_site.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "mx": true
+            }
+        },{
+            "id": "smbaM003",
+            "name": "Dockyard",
+            "set": "Spider-Man: Beyond Amazing",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/smba/dockyard.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "mx": true
+            }
+        },{
+            "id": "smbaM004",
+            "name": "Daily Bugle Press Room",
+            "set": "Spider-Man: Beyond Amazing",
+            "type": "indoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/smba/daily_bugle_press_room.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "mx": true
+            }
+        },{
             "id": "btuM001",
             "name": "Danny The Street",
             "set": "Batman Team-Up",

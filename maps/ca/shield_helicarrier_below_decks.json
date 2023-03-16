@@ -8,8 +8,8 @@
 	"date": "July 2011",
 	"special": [
 		"Special Rules: Orange squares are 10,000 feet below squares. Characters can't move into or occupy these squares. If a character's knock back path is stopped by one of these squares, deal that character an additional 1 unavoidable damage.",
-		"Stair Squares: If you are using map S-4, you may give a character occupying this square a power action and place them in the corresponding square on that map. If that square is occupied, place the character in the nearest square they could be placed in.",
-		"Balcony Below Squares: If you are using map S-4, you may give a character occupying this square a power action and roll a d6, adding 1 to the result if they can use the Flight ability. On a result of 4-6 place them in the corresponding square on that map. If that square is occupied, place the character in the nearest square they could be placed in."
+		"Stair Squares: If you are using map S-2, you may give a character occupying this square a power action and place them in the corresponding square on that map. If that square is occupied, place the character in the nearest square they could be placed in.",
+		"Balcony Below Squares: If you are using map S-2, you may give a character occupying this square a power action and roll a d6, adding 1 to the result if they can use the Flight ability. On a result of 4-6 place them in the corresponding square on that map. If that square is occupied, place the character in the nearest square they could be placed in."
 	],
 	"rows": [{
 		"y": 1,
