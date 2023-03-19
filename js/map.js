@@ -5,12 +5,12 @@ var MapType = {
 }
 
 var Map = function(json) {
-	this.name = json.name;
-	this.set = json.set;
+	this.name = json.name ? json.name : "";
+	this.set = json.set ? json.set : "";
 	this.source = json.source ? json.source : json.set;
 	this.width = json.width;
 	this.height = json.height;
-	this.type = json.type;
+	this.type = json.type ? json.type : "outdoor";
 	this.date = json.date ? json.date : "";
 	this.tiles = [];
 	this.special = json.special ? json.special : [];
