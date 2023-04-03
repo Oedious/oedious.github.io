@@ -4,7 +4,7 @@ var MapType = {
 	INDOOR_OUTDOOR: "indoorOutdoor",
 }
 
-var Map = function(json) {
+var Map = function(json, hideLabels) {
 	this.name = json.name ? json.name : "";
 	this.set = json.set ? json.set : "";
 	this.source = json.source ? json.source : json.set;
@@ -12,6 +12,7 @@ var Map = function(json) {
 	this.height = json.height;
 	this.type = json.type ? json.type : "outdoor";
 	this.date = json.date ? json.date : "";
+	this.hideLabels = json.hideLabels ? json.hideLabels : false;
 	this.tiles = [];
 	this.special = json.special ? json.special : [];
 	// Add Tiles.
@@ -26,6 +27,9 @@ var Map = function(json) {
 			}
 			if (!jsonTile.type) {
 				jsonTile.type = json.defaultType ? json.defaultType : this.type;
+			}
+			if (this.hideLabels) {
+				jsonTile.hideLabel = true;
 			}
 			this.tiles.push(new Tile(x, y, jsonTile));
 		}

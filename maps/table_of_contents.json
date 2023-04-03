@@ -118,12 +118,38 @@
             }
         },{
             "id": "btuM006",
+            "name": "Haunted Pier (2x2)",
+            "set": "Batman Team-Up",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/btu/haunted_pier_2x2.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "mx": true
+            }
+        },{
+            "id": "btuM007",
             "name": "Game Show",
             "set": "Batman Team-Up",
             "type": "indoor",
             "width": 16,
             "height": 24,
             "file": "maps/btu/game_show.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "mx": true
+            }
+        },{
+            "id": "btuM008",
+            "name": "Game Show (2x2)",
+            "set": "Batman Team-Up",
+            "type": "indoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/btu/game_show_2x2.json",
             "age": {
                 "modern": true,
                 "wko": true,

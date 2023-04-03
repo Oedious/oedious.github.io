@@ -167,7 +167,7 @@
   <script type="text/javascript " src="js/view_manager.js "></script>
   <script type="text/javascript " src="js/materialize.js"></script>
   <script>
-    var mgr = new ViewManager(true);
+    var mgr = new ViewManager("maps/table_of_contents.json", "filters.json");
     document.onkeydown = onKeyDown;
 
     function onKeyDown(event) {

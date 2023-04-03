@@ -1,4 +1,4 @@
-var ViewManager = function(loadTOC) {
+var ViewManager = function(tocPath, filtersPath) {
 	M.AutoInit();
 	var elem = document.querySelector('.collapsible.expandable');
 var instance = M.Collapsible.init(elem, {
@@ -8,15 +8,13 @@ var instance = M.Collapsible.init(elem, {
     this.touchStartY_ = 0;
     this.touchEndX_ = 0;
     this.touchEndY_ = 0;
-    this.zoom_ = 100;
     this.scale_ = 1;
     this.translationX_ = 0;
     this.map_ = null;
-    this.toc_ = new TableOfContents();
+    this.toc_ = new TableOfContents(tocPath, filtersPath);
     this.mapIndex_ = 0;
-    this.openPanel("leftNav", "mapsTab", "mapsPanel");
 
-	if(loadTOC){
+	if (tocPath){
 		var mapId = this.getParameterByName_("m");
 		var serialized = this.getParameterByName_("s");
 		if (serialized) {
@@ -79,15 +77,6 @@ ViewManager.prototype.toggleRightNav = function() {
     }
 }
 
-ViewManager.prototype.openPanel = function(navName, tabName, panelName) {
-    var nav = document.getElementById(navName);
-    var panels = nav.getElementsByClassName("panel");
-    for (var i = 0; i < panels.length; ++i) {
-        panels[i].style.display = "none";
-    }
-    document.getElementById(panelName).style.display = "block";
-}
-
 ViewManager.prototype.onMouseDown = function(event) {
     /*
     var canvas = document.getElementById("mapCanvas");
@@ -119,20 +108,6 @@ ViewManager.prototype.loadMap_ = function(mapFile) {
     });
 }
 
-ViewManager.prototype.zoomIn = function() {
-    if (this.zoom_ < 200) {
-        this.zoom_ += 25;
-        this.draw();
-    }
-}
-
-ViewManager.prototype.zoomOut = function() {
-    if (this.zoom_ > 25) {
-        this.zoom_ += -25;
-        this.draw();
-    }
-}
-
 ViewManager.prototype.draw = function() {
     var c = document.getElementById("mapCanvas");
     var left = document.getElementById("left");
@@ -146,34 +121,40 @@ ViewManager.prototype.draw = function() {
 			windowWidth -= 70;
 		}
     }
-    var windowHeight = window.innerHeight - 88;
-    var sx = (windowWidth - 10) / (this.map_.width * TILE_SIZE);
-    var sy = windowHeight / (this.map_.height * TILE_SIZE);
-    this.scale_ = (sx < sy ? sx : sy) * (this.zoom_ / 100.0);
-    c.width = (this.scale_ * this.map_.width * TILE_SIZE) + 1
-	c.height = (this.scale_ * this.map_.height * TILE_SIZE) + 1
+    const MAX_ZOOM = 2.0;
+    const mapWidth = this.map_.width;
+    const mapHeight = this.map_.height;
+    const windowHeight = window.innerHeight - 88;
+    const sx = (windowWidth - 10) / (mapWidth * TILE_SIZE);
+    const sy = windowHeight / (mapHeight * TILE_SIZE);
+    this.scale_ = Math.min(sx < sy ? sx : sy, MAX_ZOOM);
+    c.width = (this.scale_ * mapWidth * TILE_SIZE) + 1
+	c.height = (this.scale_ * mapHeight * TILE_SIZE) + 1
     ctx.scale(this.scale_, this.scale_);
     this.map_.draw(ctx);
     ctx.restore();
     document.getElementById("mapHeader").text = this.map_.name;
-    document.getElementById("mapName").innerHTML = this.map_.name;
-    document.getElementById("mapSource").innerHTML = this.map_.source;
-    document.getElementById("mapSize").innerHTML = "" + this.map_.width + " x " + this.map_.height;
-    document.getElementById("mapDate").innerHTML = this.map_.date;
-    var html = "";
-    for (var i = 0; i < this.map_.special.length; ++i) {
-        html += `<br><div>${this.map_.special[i].replace(/:/gi, ":<br>")}</div>`;
+    const infoElem = document.getElementById("mapInfo");
+    if (infoElem) {
+        document.getElementById("mapName").innerHTML = this.map_.name;
+        document.getElementById("mapSource").innerHTML = this.map_.source;
+        document.getElementById("mapSize").innerHTML = "" + mapWidth + " x " + mapHeight;
+        document.getElementById("mapDate").innerHTML = this.map_.date;
+        var html = "";
+        for (var i = 0; i < this.map_.special.length; ++i) {
+            html += `<br><div>${this.map_.special[i].replace(/:/gi, ":<br>")}</div>`;
+        }
+        document.getElementById("mapSpecial").innerHTML = html;
+        var mapType;
+        if (this.map_.type == "indoor") {
+            mapType = "Indoor";
+        } else if (this.map_.type == "outdoor") {
+            mapType = "Outdoor";
+        } else if (this.map_.type == "indoorOutdoor") {
+            mapType = "Indoor/Outdoor";
+        }
+        document.getElementById("mapType").innerHTML = mapType;
     }
-    document.getElementById("mapSpecial").innerHTML = html;
-    var mapType;
-    if (this.map_.type == "indoor") {
-        mapType = "Indoor";
-    } else if (this.map_.type == "outdoor") {
-        mapType = "Outdoor";
-    } else if (this.map_.type == "indoorOutdoor") {
-        mapType = "Indoor/Outdoor";
-    }
-    document.getElementById("mapType").innerHTML = mapType;
 }
 
 ViewManager.prototype.serialize = function() {
@@ -235,9 +216,11 @@ ViewManager.prototype.updateUrl = function() {
     var canvas = document.getElementById("mapCanvas");
     var dataUrl = canvas.toDataURL();
     var saveAsButton = document.getElementById("saveAsButton");
-    saveAsButton.href = dataUrl;
-    var parts = this.getCurrentMapEntry_().file.split("/");
-    saveAsButton.download = parts[parts.length - 1].replace(".json", ".png");
+    if (saveAsButton) {
+        saveAsButton.href = dataUrl;
+        var parts = this.getCurrentMapEntry_().file.split("/");
+        saveAsButton.download = parts[parts.length - 1].replace(".json", ".png");
+    }
 }
 
 

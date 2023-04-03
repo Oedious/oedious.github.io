@@ -1,24 +1,34 @@
-var TableOfContents = function() {
+var TableOfContents = function(tocPath, filtersPath) {
+    this.tocPath_ = tocPath;
+    this.filtersPath_ = filtersPath;
     this.toc_ = [];
     this.tocFiltered_ = [];
-    this.filters = [];
+    this.filters_ = null;
 }
 
 TableOfContents.prototype.load = function(callback) {
     var loader = new JsonLoader();
     var self = this;
-    loader.load("filters.json", function(json) {
-        self.filters = json;
-    });
-    loader.load("maps/table_of_contents.json", function(json) {
-        self.toc_ = json.maps;
-        self.applyFilters();
-        self.draw();
-        callback();
-    });
+    if (this.filtersPath_) {
+        loader.load(this.filtersPath_, function(json) {
+            self.filters_ = json;
+        });
+    }
+    if (this.tocPath_) {
+        loader.load(this.tocPath_, function(json) {
+            self.tocFiltered_ = self.toc_ = json.maps;
+            self.applyFilters();
+            self.draw();
+            callback();
+        });
+    }
 }
 
 TableOfContents.prototype.applyFilters = function() {
+    if (!this.filters_) {
+        return;
+    }
+
     var filterByAge = document.getElementById("selectAge").value;
     var filterByType = document.getElementById("selectType").value;
     var filterBySize = document.getElementById("selectSize").value;
@@ -41,31 +51,31 @@ TableOfContents.prototype.applyFilters = function() {
         if (filterByAge != "all" && !(map.age && map.age[filterByAge])) {
             continue;
         }
-        if (filterByType != "all" && !this.filters.types[filterByType].includes(map.id)) {
+        if (filterByType != "all" && !this.filters_.types[filterByType].includes(map.id)) {
             continue
         }
-        if (filterBySize != "all" && !this.filters.sizes[filterBySize].includes(map.id)) {
+        if (filterBySize != "all" && !this.filters_.sizes[filterBySize].includes(map.id)) {
             continue;
         }
         if (filterByName != "" && !(map.name.toLowerCase().includes(filterByName))) {
             continue;
         }
-        if (filterBlocking && this.filters.terrain['blocking'].includes(map.id) != filterBlockingHas) {
+        if (filterBlocking && this.filters_.terrain['blocking'].includes(map.id) != filterBlockingHas) {
             continue;
         }
-        if (filterHindering && this.filters.terrain['hindering'].includes(map.id) != filterHinderingHas) {
+        if (filterHindering && this.filters_.terrain['hindering'].includes(map.id) != filterHinderingHas) {
             continue;
         }
-        if (filterWater && this.filters.terrain['water'].includes(map.id) != filterWaterHas) {
+        if (filterWater && this.filters_.terrain['water'].includes(map.id) != filterWaterHas) {
             continue;
         }
-        if (filterElevated && this.filters.terrain['elevation'].includes(map.id) != filterElevatedHas) {
+        if (filterElevated && this.filters_.terrain['elevation'].includes(map.id) != filterElevatedHas) {
             continue;
         }
-        if (filterWalls && this.filters.terrain['walls'].includes(map.id) != filterWallsHas) {
+        if (filterWalls && this.filters_.terrain['walls'].includes(map.id) != filterWallsHas) {
             continue;
         }
-        if (filterLocationBonus && this.filters['locationBonus'].includes(map.id) != filterLocationBonusHas) {
+        if (filterLocationBonus && this.filters_['locationBonus'].includes(map.id) != filterLocationBonusHas) {
             continue;
         }
         this.tocFiltered_.push(map);

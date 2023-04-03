@@ -1,0 +1,50 @@
+{
+    "name": "Shelf",
+    "width": 2,
+    "height": 1,
+    "defaultElevation": 1,
+    "range": 4,
+    "giant_reach": 2,
+    "range_damage": 3,
+    "close_damage": 2,
+    "destroy_value": 3,
+    "hideLabels": true,
+    "rows": [{
+        "tiles": [{
+            "elevation": "+1"
+        }, {
+            "elevation": "+1"
+        }]
+    }],
+    "ramps": [{
+        "x0": 0,
+        "y0": -1,
+        "x1": 0,
+        "y1": 0
+    }, {
+        "x0": 1,
+        "y0": -1,
+        "x1": 1,
+        "y1": 0
+    }, {
+        "x0": -1,
+        "y0": 0,
+        "x1": 0,
+        "y1": 0
+    }, {
+        "x0": 1,
+        "y0": 0,
+        "x1": 2,
+        "y1": 0
+    }, {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0,
+        "y1": 1
+    }, {
+        "x0": 1,
+        "y0": 0,
+        "x1": 1,
+        "y1": 1
+    }]
+}

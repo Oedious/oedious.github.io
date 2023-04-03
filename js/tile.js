@@ -38,6 +38,7 @@ var Tile = function(x, y, jsonTile) {
 	this.isStartingZone = jsonTile.isStartingZone;
 	this.isStartingZone4p = jsonTile.isStartingZone4p;
 	this.label = jsonTile.label;
+	this.hideLabel = jsonTile.hideLabel;
 	this.edges = [];
 	for (var i = 0; i < 4 * MAX_EDGES; ++i) {
 		this.edges.push(null);
@@ -65,6 +66,9 @@ var Tile = function(x, y, jsonTile) {
 	}
 	else if (this.isStartingZone || this.isStartingZone4p) {
 		this.fillStyle = STARTING_ZONE_TILE_COLOR;
+	}
+	else if (typeof this.elevation === "string") {
+		this.fillStyle = ELEVATION_TILE_COLORS[1];
 	}
 	else {
 		this.fillStyle = ELEVATION_TILE_COLORS[this.elevation - 1];
@@ -213,7 +217,7 @@ Tile.prototype.drawRamp = function(ctx, angle) {
 	ctx.fillStyle = ELEVATION_TILE_COLORS[1];
 	ctx.fill();
 	// Draw the text containing the elevation.
-	ctx.font = "20px Arial";
+	ctx.font = "18px Arial";
 	ctx.fillStyle = "#000000";
 	ctx.textAlign = "center";
 	ctx.textBaseline = "middle";
@@ -223,7 +227,7 @@ Tile.prototype.drawRamp = function(ctx, angle) {
 
 Tile.prototype.drawLabel = function(ctx) {
 	// Draw the column letter and/or row number.
-	if (this.x == 0 || this.y == 0 || this.label) {
+	if (!this.hideLabel && (this.x == 0 || this.y == 0 || this.label)) {
 		var text = "";
 		ctx.save();
 		ctx.translate(

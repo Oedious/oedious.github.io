@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8" name="viewport" content="width=device-width,initial-scale=1">
+  <title>Heroclix Map Viewer</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+   <link type="text/css" rel="stylesheet" href="css/materialize-custom.css"  media="screen,projection"/>
+   <link type="text/css" rel="stylesheet" href="css/oedious.css" media="screen,projection" />
+</head>
+
+<body>
+<div>
+  <nav>
+    <div class="nav-wrapper">
+	  <a href="#" class="brand-logo center " id="mapHeader"/>
+      <ul class="left">
+        <li><a href="index.html">Maps</a></li>
+        <li class="active"><a href="terrain.html">Terrain</a></li>
+        <li><a href="assets.html">Roll20 Assets</a></li>
+      </ul>
+    </div>
+  </nav>
+
+	  </div>
+  <div class="main" id="main">
+    <canvas id="mapCanvas" onmousedown="onMouseDown(event)" ontouchstart="onTouchStart(event)" ontouchend="onTouchEnd(event)" style="margin-left: auto;margin-right: auto;display:block; margin-top: 6px;"></canvas>
+  </div>
+
+  <div id="arrowLeft">
+		<a href="#" onclick="mgr.toggleLeftNav()"><i id="arrowIcon" class="material-icons">chevron_left</i></a>
+  </div>
+  <div id="leftNav" class="sideNav">
+    <div id="mapsPanel" class="panel">
+		  <div id="tableOfContents"></div>
+		</div>
+  </div>
+  <script type="text/javascript " src="js/json_loader.js "></script>
+  <script type="text/javascript " src="js/edge.js "></script>
+  <script type="text/javascript " src="js/tile.js "></script>
+  <script type="text/javascript " src="js/wall.js "></script>
+  <script type="text/javascript " src="js/character.js "></script>
+  <script type="text/javascript " src="js/map.js "></script>
+  <script type="text/javascript " src="js/table_of_contents.js "></script>
+  <script type="text/javascript " src="js/view_manager.js "></script>
+  <script type="text/javascript " src="js/materialize.js"></script>
+  <script>
+    var mgr = new ViewManager("terrain/table_of_contents.json");
+    document.onkeydown = onKeyDown;
+
+    function onKeyDown(event) {
+      var KEY_LEFT = '37';
+      var KEY_UP = '38';
+      var KEY_RIGHT = '39';
+      var KEY_DOWN = '40';
+      event = event || window.event;
+      if (event.keyCode == KEY_LEFT || event.keyCode == KEY_UP) {
+        mgr.previousMap();
+        event.preventDefault();
+      } else if (event.keyCode == KEY_RIGHT || event.keyCode == KEY_DOWN) {
+        mgr.nextMap();
+        event.preventDefault();
+      }
+    }
+
+    function onMouseDown(event) {
+      mgr.onMouseDown(event);
+    }
+
+    function onFocusOut(elementId) {
+      mgr.onFocusOut(elementId);
+    }
+  </script>
+
+</body>
+
+</html>

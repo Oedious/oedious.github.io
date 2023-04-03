@@ -1,0 +1,8 @@
+{
+    "maps": [{
+        "id": "smbaT001",
+        "name": "Shelf",
+        "set": "Spider-Man: Beyond Amazing",
+        "file": "terrain/smba/T001.json"
+    }]
+}
