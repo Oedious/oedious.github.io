@@ -1274,7 +1274,7 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/roc20/glenn_grove_cemetary.json"
+            "file": "maps/roc20/glenn_grove_cemetery.json"
         }, {
             "id": "roc20M016",
             "name": "Institute Grounds",
