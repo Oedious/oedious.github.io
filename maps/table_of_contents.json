@@ -51,6 +51,17 @@
                 "wko": true,
                 "mx": true
             }
+        }, {
+            "id": "mjx23M001",
+            "name": "Haddon Street",
+            "set": "Majestix Open Series 2023",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/mjx23/haddon_street.json",
+            "age": {
+                "mx": true
+            }
         },{
             "id": "btuM001",
             "name": "Danny The Street",
@@ -495,6 +506,14 @@
             "height": 24,
             "file": "maps/roc22/water_ziggurat.json"
         }, {
+            "id": "roc22M009",
+            "name": "Mystikal Keep",
+            "set": "ROC 2022",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/roc22/mystikal_keep.json"
+        }, {
             "id": "mjx22M001",
             "name": "Glass Lake",
             "set": "Majestix Open Series 2022",
@@ -890,6 +909,38 @@
                 "modern": true,
                 "wko": true
             }
+        }, {
+            "id": "roc21M015",
+            "name": "Train Depot",
+            "set": "ROC 2021",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/roc21/train_depot.json"
+        }, {
+            "id": "roc21M016",
+            "name": "The River Gap",
+            "set": "ROC 2021",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/roc21/the_river_gap.json"
+        }, {
+            "id": "roc21M017",
+            "name": "The Station",
+            "set": "ROC 2021",
+            "type": "indoorOutdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/roc21/the_station.json"
+        }, {
+            "id": "roc21M018",
+            "name": "The Airfield",
+            "set": "ROC 2021",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/roc21/the_airfield.json"
         }, {
             "id": "mjx21M001",
             "name": "Perfection",
