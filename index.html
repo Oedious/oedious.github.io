@@ -24,7 +24,7 @@
 
 	  </div>
   <div class="main" id="main">
-    <canvas id="mapCanvas" onmousedown="onMouseDown(event)" ontouchstart="onTouchStart(event)" ontouchend="onTouchEnd(event)" style="margin-left: auto;margin-right: auto;display:block; margin-top: 6px;"></canvas>
+    <canvas id="mapCanvas" ontouchstart="onTouchStart(event)" ontouchend="onTouchEnd(event)" style="margin-left: auto;margin-right: auto;display:block; margin-top: 6px;"></canvas>
 
 	<div class="fixed-action-btn">
 	  <a class="btn-floating btn-large red" id="saveAsButton">
@@ -161,7 +161,6 @@
   <script type="text/javascript " src="js/edge.js "></script>
   <script type="text/javascript " src="js/tile.js "></script>
   <script type="text/javascript " src="js/wall.js "></script>
-  <script type="text/javascript " src="js/character.js "></script>
   <script type="text/javascript " src="js/map.js "></script>
   <script type="text/javascript " src="js/table_of_contents.js "></script>
   <script type="text/javascript " src="js/view_manager.js "></script>
@@ -183,14 +182,6 @@
         mgr.nextMap();
         event.preventDefault();
       }
-    }
-
-    function onMouseDown(event) {
-      mgr.onMouseDown(event);
-    }
-
-    function onFocusOut(elementId) {
-      mgr.onFocusOut(elementId);
     }
   </script>
 

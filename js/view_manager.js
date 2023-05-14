@@ -77,31 +77,11 @@ ViewManager.prototype.toggleRightNav = function() {
     }
 }
 
-ViewManager.prototype.onMouseDown = function(event) {
-    /*
-    var canvas = document.getElementById("mapCanvas");
-    var rect = canvas.getBoundingClientRect();
-    var x = event.clientX - rect.left;
-    var y = event.clientY - rect.top;
-    x -= canvas.offsetLeft;
-    y -= canvas.offsetTop;
-    x /= this.scale_;
-    y /= this.scale_;
-    x -= this.translationX_;
-    x = Math.floor(x / TILE_SIZE);
-    y = Math.floor(y / TILE_SIZE);
-    if (this.toggleCharacter_(x, y)) {
-        this.drawCharacterList();
-        this.draw();
-    }
-    */
-}
-
 ViewManager.prototype.loadMap_ = function(mapFile) {
     var loader = new JsonLoader();
     var mgr = this;
     loader.load(mapFile, function(json) {
-        mgr.map_ = new Map(json);
+        mgr.map_ = new HCMap(json);
         document.getElementById("toc" + mgr.mapIndex_).focus();
         mgr.draw();
         mgr.updateUrl();
