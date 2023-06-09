@@ -1,5 +1,57 @@
 {
     "maps": [{
+            "id": "av60M001",
+            "name": "Avengers Tower",
+            "set": "Avengers 60th Anniversary",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/av60/avengers_tower.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "mx": true
+            }
+        },{
+            "id": "av60M002",
+            "name": "S.H.I.E.L.D. Holding Facility",
+            "set": "Avengers 60th Anniversary",
+            "type": "indoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/av60/shield_holding_facility.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "mx": true
+            }
+        },{
+            "id": "av60M003",
+            "name": "Council of Red Chambers",
+            "set": "Avengers 60th Anniversary",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/av60/council_of_red_chambers.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "mx": true
+            }
+        },{
+            "id": "av60M004",
+            "name": "Wakanda",
+            "set": "Avengers 60th Anniversary",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/av60/wakanda.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "mx": true
+            }
+        },{
             "id": "smbaM001",
             "name": "Oscorp Warehouse",
             "set": "Spider-Man: Beyond Amazing",
