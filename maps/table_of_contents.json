@@ -52,6 +52,19 @@
                 "mx": true
             }
         },{
+            "id": "av60M005",
+            "name": "Ultron's Lair",
+            "set": "Avengers 60th Anniversary",
+            "type": "indoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/av60/ultrons_lair.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "mx": true
+            }
+        },{
             "id": "smbaM001",
             "name": "Oscorp Warehouse",
             "set": "Spider-Man: Beyond Amazing",
