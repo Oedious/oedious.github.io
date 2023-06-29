@@ -579,6 +579,50 @@
             "height": 24,
             "file": "maps/roc22/mystikal_keep.json"
         }, {
+            "id": "roc22M009",
+            "name": "Temple Retreat",
+            "set": "ROC 2022",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/roc22/temple_retreat.json",
+            "age": {
+                "modern": true
+            }
+        }, {
+            "id": "roc22M010",
+            "name": "Industrial Plant",
+            "set": "ROC 2022",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/roc22/industrial_plant.json",
+            "age": {
+                "modern": true
+            }
+        }, {
+            "id": "roc22M011",
+            "name": "Throne Room",
+            "set": "ROC 2022",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/roc22/throne_room.json",
+            "age": {
+                "modern": true
+            }
+        }, {
+            "id": "roc22M012",
+            "name": "The Extinct Volcano",
+            "set": "ROC 2022",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/roc22/the_extinct_volcano.json",
+            "age": {
+                "modern": true
+            }
+        }, {
             "id": "mjx22M001",
             "name": "Glass Lake",
             "set": "Majestix Open Series 2022",
