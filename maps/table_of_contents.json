@@ -590,7 +590,7 @@
             "height": 24,
             "file": "maps/roc22/mystikal_keep.json"
         }, {
-            "id": "roc22M009",
+            "id": "roc22M010",
             "name": "Temple Retreat",
             "set": "ROC 2022",
             "type": "outdoor",
@@ -601,7 +601,7 @@
                 "modern": true
             }
         }, {
-            "id": "roc22M010",
+            "id": "roc22M011",
             "name": "Industrial Plant",
             "set": "ROC 2022",
             "type": "indoor",
@@ -612,7 +612,7 @@
                 "modern": true
             }
         }, {
-            "id": "roc22M011",
+            "id": "roc22M012",
             "name": "Throne Room",
             "set": "ROC 2022",
             "type": "indoor",
@@ -623,7 +623,7 @@
                 "modern": true
             }
         }, {
-            "id": "roc22M012",
+            "id": "roc22M013",
             "name": "The Extinct Volcano",
             "set": "ROC 2022",
             "type": "outdoor",
@@ -634,7 +634,7 @@
                 "modern": true
             }
         }, {
-            "id": "roc22M013",
+            "id": "roc22M014",
             "name": "Underwater Research Lab",
             "set": "ROC 2022",
             "type": "indoor",
