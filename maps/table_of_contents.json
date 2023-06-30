@@ -117,6 +117,17 @@
                 "mx": true
             }
         }, {
+            "id": "roc23M001",
+            "name": "Racer Family",
+            "set": "ROC 2022",
+            "type": "indoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/roc23/racer_family.json",
+            "age": {
+                "modern": true
+            }
+        }, {
             "id": "mjx23M001",
             "name": "Haddon Street",
             "set": "Majestix Open Series 2023",
@@ -619,6 +630,17 @@
             "width": 16,
             "height": 16,
             "file": "maps/roc22/the_extinct_volcano.json",
+            "age": {
+                "modern": true
+            }
+        }, {
+            "id": "roc22M013",
+            "name": "Underwater Research Lab",
+            "set": "ROC 2022",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/roc22/underwater_research_lab.json",
             "age": {
                 "modern": true
             }
