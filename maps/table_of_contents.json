@@ -118,12 +118,34 @@
             }
         }, {
             "id": "roc23M001",
-            "name": "Racer Family",
-            "set": "ROC 2022",
+            "name": "Racer Motors",
+            "set": "ROC 2023",
             "type": "indoor",
             "width": 16,
-            "height": 16,
-            "file": "maps/roc23/racer_family.json",
+            "height": 24,
+            "file": "maps/roc23/racer_motors.json",
+            "age": {
+                "modern": true
+            }
+        }, {
+            "id": "roc23M002",
+            "name": "Randy's Marsh",
+            "set": "ROC 2023",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/roc23/randys_marsh.json",
+            "age": {
+                "modern": true
+            }
+        }, {
+            "id": "roc23M003",
+            "name": "Critical Clix Interdimensional Head Quarters",
+            "set": "ROC 2023",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/roc23/critical_clix_interdimensional_head_quarters.json",
             "age": {
                 "modern": true
             }
