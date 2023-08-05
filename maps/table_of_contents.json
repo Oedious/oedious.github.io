@@ -363,8 +363,7 @@
             "file": "maps/xmxs/limbo.json",
             "age": {
                 "modern": true,
-                "wko": true,
-                "mx": true
+                "wko": true
             }
         },{
             "id": "xmxsM003",
@@ -376,8 +375,7 @@
             "file": "maps/xmxs/morlock_tunnels.json",
             "age": {
                 "modern": true,
-                "wko": true,
-                "mx": true
+                "wko": true
             }
         },{
             "id": "xmxsM004",
@@ -1518,10 +1516,7 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/mjx20/ice_planet.json",
-            "age": {
-                "mx": true
-            }
+            "file": "maps/mjx20/ice_planet.json"
         }, {
             "id": "mjx20M002",
             "name": "Agent's Lobby",
@@ -1529,10 +1524,7 @@
             "type": "indoor",
             "width": 16,
             "height": 24,
-            "file": "maps/mjx20/agents_lobby.json",
-            "age": {
-                "mx": true
-            }
+            "file": "maps/mjx20/agents_lobby.json"
         }, {
             "id": "mjx20M003",
             "name": "Temple of the Idol",
@@ -1540,10 +1532,7 @@
             "type": "indoor",
             "width": 16,
             "height": 24,
-            "file": "maps/mjx20/temple_of_the_idol.json",
-            "age": {
-                "mx": true
-            }
+            "file": "maps/mjx20/temple_of_the_idol.json"
         }, {
             "id": "mjx20M004",
             "name": "Clock Tower 2015",
@@ -1551,10 +1540,7 @@
             "type": "indoorOutdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/mjx20/clocktower_2015.json",
-            "age": {
-                "mx": true
-            }
+            "file": "maps/mjx20/clocktower_2015.json"
         }, {
             "id": "wweM001",
             "name": "WWE Arena",
@@ -1570,7 +1556,10 @@
             "type": "indoor",
             "width": 16,
             "height": 24,
-            "file": "maps/wwe/wwe_backstage_area.json"
+            "file": "maps/wwe/wwe_backstage_area.json",
+            "age": {
+                "mx": true
+            }
         }, {
             "id": "wweM003",
             "name": "WWE WarGames",
