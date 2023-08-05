@@ -363,7 +363,8 @@
             "file": "maps/xmxs/limbo.json",
             "age": {
                 "modern": true,
-                "wko": true
+                "wko": true,
+                "mx": true
             }
         },{
             "id": "xmxsM003",
@@ -1556,10 +1557,7 @@
             "type": "indoor",
             "width": 16,
             "height": 24,
-            "file": "maps/wwe/wwe_backstage_area.json",
-            "age": {
-                "mx": true
-            }
+            "file": "maps/wwe/wwe_backstage_area.json"
         }, {
             "id": "wweM003",
             "name": "WWE WarGames",
