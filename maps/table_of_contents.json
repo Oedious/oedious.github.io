@@ -160,6 +160,28 @@
             "age": {
                 "mx": true
             }
+        }, {
+            "id": "mjx23M002",
+            "name": "Temple of Gloom",
+            "set": "Majestix Open Series 2023",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/mjx23/temple_of_gloom.json",
+            "age": {
+                "mx": true
+            }
+        }, {
+            "id": "mjx23M003",
+            "name": "Temple of Gloom B",
+            "set": "Majestix Open Series 2023",
+            "type": "indoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/mjx23/temple_of_gloom_b.json",
+            "age": {
+                "mx": true
+            }
         },{
             "id": "btuM001",
             "name": "Danny The Street",
