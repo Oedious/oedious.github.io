@@ -150,6 +150,17 @@
                 "modern": true
             }
         }, {
+            "id": "roc23M004",
+            "name": "Antiquities Warehouse",
+            "set": "ROC 2023",
+            "type": "indoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/roc23/antiquities_warehouse.json",
+            "age": {
+                "modern": true
+            }
+        }, {
             "id": "mjx23M001",
             "name": "Haddon Street",
             "set": "Majestix Open Series 2023",
