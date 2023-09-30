@@ -4435,21 +4435,21 @@
             "height": 24,
             "file": "maps/cr/anti_matter_fortress.json"
         }, {
-            "id": "mmM001",
+            "id": "muM001",
             "name": "Battle Square",
             "set": "Mutations and Monsters",
             "type": "outdoor",
             "width": 24,
             "height": 24,
-            "file": "maps/mm/battle_square.json"
+            "file": "maps/mu/battle_square.json"
         }, {
-            "id": "mmM002",
+            "id": "muM002",
             "name": "The Arena",
             "set": "Mutations and Monsters",
             "type": "outdoor",
             "width": 24,
             "height": 24,
-            "file": "maps/mm/the_arena.json"
+            "file": "maps/mu/the_arena.json"
         }, {
             "id": "jlM001",
             "name": "The Bank",
