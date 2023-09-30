@@ -6,7 +6,7 @@
 	"width": 16,
 	"height": 24,
 	"date": "December 2012",
-	"special": ["Street Terrain: If a character that can't use Leap/Climb, Phasint/Teleport, Flight or Great Size occupies Street Terrain after actions resolve, deal that character 1 unavoidable damage and then the character's controller places the character in their starting area."],
+	"special": ["Street Terrain: If a character that can't use Leap/Climb, Phasing/Teleport, Flight or Great Size occupies Street Terrain after actions resolve, deal that character 1 unavoidable damage and then the character's controller places the character in their starting area."],
 	"defaultType": "indoor",
 	"rows": [{
 		"y": 1,

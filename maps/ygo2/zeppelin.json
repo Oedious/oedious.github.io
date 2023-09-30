@@ -7,7 +7,7 @@
 	"height": 24,
 	"date": "January 2015",
 	"special": [
-		"OPEN AIR: Orange squares are Open Air squares. After actions resolve, if a character who can't use the Flight ability occupies an Open Aiir square, deal them 1 unavoidable damage, then that character's owner places them in their starting area. Non-held objects in Open Air squares are removed from the map."
+		"OPEN AIR: Orange squares are Open Air squares. After actions resolve, if a character who can't use the Flight ability occupies an Open Air square, deal them 1 unavoidable damage, then that character's owner places them in their starting area. Non-held objects in Open Air squares are removed from the map."
 	],
 	"rows": [{
 		"y": 1,
