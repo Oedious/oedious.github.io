@@ -1,5 +1,31 @@
 {
     "maps": [{
+            "id": "notM001",
+            "name": "Iceberg Lounge",
+            "set": "Notorious",
+            "type": "indoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/not/iceberg_lounge.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "mx": true
+            }
+        },{
+            "id": "notM002",
+            "name": "Injustice Gang Hideout",
+            "set": "Notorious",
+            "type": "indoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/not/injustice_gang_hideout.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "mx": true
+            }
+        },{
             "id": "notM003",
             "name": "Harley's Rooftop",
             "set": "Notorious",
