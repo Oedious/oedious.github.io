@@ -1,5 +1,31 @@
 {
     "maps": [{
+            "id": "notM003",
+            "name": "Harley's Rooftop",
+            "set": "Notorious",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/not/harleys_rooftop.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "mx": true
+            }
+        },{
+            "id": "notM004",
+            "name": "Atlantis Throne Room",
+            "set": "Notorious",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/not/atlantis_throne_room.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "mx": true
+            }
+        },{
             "id": "av60M001",
             "name": "Avengers Tower",
             "set": "Avengers 60th Anniversary",
