@@ -6,146 +6,197 @@
 	"width": 16,
 	"height": 16,
 	"date": "November 2018",
+	"defaultType": "indoor",
 	"rows": [{
 		"y": 1,
 		"tiles": [{
 			"x": "A",
+			"type": "outdoor",
 			"isStartingZone": true
 		}, {
 			"x": "B",
+			"type": "outdoor",
 			"isStartingZone": true
 		}, {
 			"x": "C",
+			"type": "outdoor",
 			"isStartingZone": true
 		}, {
-			"x": "D"
+			"x": "D",
+			"type": "outdoor"
 		}, {
 			"x": "E",
-			"terrain": "water"
+			"terrain": "water",
+			"type": "outdoor"
 		}, {
 			"x": "F",
-			"terrain": "water"
+			"terrain": "water",
+			"type": "outdoor"
 		}, {
 			"x": "G",
-			"terrain": "water"
+			"terrain": "water",
+			"type": "outdoor"
 		}, {
 			"x": "H",
-			"terrain": "water"
+			"terrain": "water",
+			"type": "outdoor"
 		}, {
 			"x": "I",
-			"terrain": "water"
+			"terrain": "water",
+			"type": "outdoor"
 		}, {
-			"x": "J"
+			"x": "J",
+			"type": "outdoor"
 		}, {
-			"x": "K"
+			"x": "K",
+			"type": "outdoor"
 		}, {
-			"x": "L"
+			"x": "L",
+			"type": "outdoor"
 		}, {
-			"x": "M"
+			"x": "M",
+			"type": "outdoor"
 		}, {
 			"x": "N",
+			"type": "outdoor",
 			"isStartingZone": true
 		}, {
 			"x": "O",
+			"type": "outdoor",
 			"isStartingZone": true
 		}, {
 			"x": "P",
+			"type": "outdoor",
 			"isStartingZone": true
 		}]
 	}, {
 		"y": 2,
 		"tiles": [{
 			"x": "A",
+			"type": "outdoor",
 			"isStartingZone": true
 		}, {
 			"x": "B",
+			"type": "outdoor",
 			"isStartingZone": true
 		}, {
 			"x": "C",
+			"type": "outdoor",
 			"isStartingZone": true
 		}, {
-			"x": "D"
+			"x": "D",
+			"type": "outdoor"
 		}, {
 			"x": "E",
-			"terrain": "water"
+			"terrain": "water",
+			"type": "outdoor"
 		}, {
 			"x": "F",
-			"terrain": "water"
+			"terrain": "water",
+			"type": "outdoor"
 		}, {
 			"x": "G",
-			"terrain": "water"
+			"terrain": "water",
+			"type": "outdoor"
 		}, {
 			"x": "H",
-			"terrain": "water"
+			"terrain": "water",
+			"type": "outdoor"
 		}, {
 			"x": "I",
-			"terrain": "water"
+			"terrain": "water",
+			"type": "outdoor"
 		}, {
-			"x": "J"
+			"x": "J",
+			"type": "outdoor"
 		}, {
-			"x": "K"
+			"x": "K",
+			"type": "outdoor"
 		}, {
-			"x": "L"
+			"x": "L",
+			"type": "outdoor"
 		}, {
-			"x": "M"
+			"x": "M",
+			"type": "outdoor"
 		}, {
 			"x": "N",
+			"type": "outdoor",
 			"isStartingZone": true
 		}, {
 			"x": "O",
+			"type": "outdoor",
 			"isStartingZone": true
 		}, {
 			"x": "P",
+			"type": "outdoor",
 			"isStartingZone": true
 		}]
 	}, {
 		"y": 3,
 		"tiles": [{
 			"x": "A",
+			"type": "outdoor",
 			"isStartingZone": true
 		}, {
 			"x": "B",
+			"type": "outdoor",
 			"isStartingZone": true
 		}, {
 			"x": "C",
+			"type": "outdoor",
 			"isStartingZone": true
 		}, {
-			"x": "D"
+			"x": "D",
+			"type": "outdoor"
 		}, {
-			"x": "E"
+			"x": "E",
+			"type": "outdoor"
 		}, {
-			"x": "F"
+			"x": "F",
+			"type": "outdoor"
 		}, {
-			"x": "G"
+			"x": "G",
+			"type": "outdoor"
 		}, {
-			"x": "H"
+			"x": "H",
+			"type": "outdoor"
 		}, {
-			"x": "I"
+			"x": "I",
+			"type": "outdoor"
 		}, {
-			"x": "J"
+			"x": "J",
+			"type": "outdoor"
 		}, {
 			"x": "K",
+			"type": "outdoor",
 			"terrain": "hindering"
 		}, {
-			"x": "L"
+			"x": "L",
+			"type": "outdoor"
 		}, {
-			"x": "M"
+			"x": "M",
+			"type": "outdoor"
 		}, {
 			"x": "N",
+			"type": "outdoor",
 			"isStartingZone": true
 		}, {
 			"x": "O",
+			"type": "outdoor",
 			"isStartingZone": true
 		}, {
 			"x": "P",
+			"type": "outdoor",
 			"isStartingZone": true
 		}]
 	}, {
 		"y": 4,
 		"tiles": [{
-			"x": "A"
+			"x": "A",
+			"type": "outdoor"
 		}, {
-			"x": "B"
+			"x": "B",
+			"type": "outdoor"
 		}, {
 			"x": "C"
 		}, {
@@ -175,17 +226,21 @@
 		}, {
 			"x": "N"
 		}, {
-			"x": "O"
+			"x": "O",
+			"type": "outdoor"
 		}, {
-			"x": "P"
+			"x": "P",
+			"type": "outdoor"
 		}]
 	}, {
 		"y": 5,
 		"tiles": [{
 			"x": "A",
-			"terrain": "blocking"
+			"terrain": "blocking",
+			"type": "outdoor"
 		}, {
-			"x": "B"
+			"x": "B",
+			"type": "outdoor"
 		}, {
 			"x": "C"
 		}, {
@@ -211,17 +266,21 @@
 		}, {
 			"x": "N"
 		}, {
-			"x": "O"
+			"x": "O",
+			"type": "outdoor"
 		}, {
-			"x": "P"
+			"x": "P",
+			"type": "outdoor"
 		}]
 	}, {
 		"y": 6,
 		"tiles": [{
 			"x": "A",
-			"terrain": "blocking"
+			"terrain": "blocking",
+			"type": "outdoor"
 		}, {
-			"x": "B"
+			"x": "B",
+			"type": "outdoor"
 		}, {
 			"x": "C"
 		}, {
@@ -250,17 +309,21 @@
 		}, {
 			"x": "N"
 		}, {
-			"x": "O"
+			"x": "O",
+			"type": "outdoor"
 		}, {
-			"x": "P"
+			"x": "P",
+			"type": "outdoor"
 		}]
 	}, {
 		"y": 7,
 		"tiles": [{
 			"x": "A",
-			"terrain": "blocking"
+			"terrain": "blocking",
+			"type": "outdoor"
 		}, {
-			"x": "B"
+			"x": "B",
+			"type": "outdoor"
 		}, {
 			"x": "C"
 		}, {
@@ -286,16 +349,20 @@
 		}, {
 			"x": "N"
 		}, {
-			"x": "O"
+			"x": "O",
+			"type": "outdoor"
 		}, {
-			"x": "P"
+			"x": "P",
+			"type": "outdoor"
 		}]
 	}, {
 		"y": 8,
 		"tiles": [{
-			"x": "A"
+			"x": "A",
+			"type": "outdoor"
 		}, {
-			"x": "B"
+			"x": "B",
+			"type": "outdoor"
 		}, {
 			"x": "C"
 		}, {
@@ -324,16 +391,20 @@
 			"x": "N"
 		}, {
 			"x": "O",
-			"terrain": "hindering"
+			"terrain": "hindering",
+			"type": "outdoor"
 		}, {
-			"x": "P"
+			"x": "P",
+			"type": "outdoor"
 		}]
 	}, {
 		"y": 9,
 		"tiles": [{
-			"x": "A"
+			"x": "A",
+			"type": "outdoor"
 		}, {
-			"x": "B"
+			"x": "B",
+			"type": "outdoor"
 		}, {
 			"x": "C"
 		}, {
@@ -363,16 +434,20 @@
 			"x": "N",
 			"terrain": "hindering"
 		}, {
-			"x": "O"
+			"x": "O",
+			"type": "outdoor"
 		}, {
-			"x": "P"
+			"x": "P",
+			"type": "outdoor"
 		}]
 	}, {
 		"y": 10,
 		"tiles": [{
-			"x": "A"
+			"x": "A",
+			"type": "outdoor"
 		}, {
-			"x": "B"
+			"x": "B",
+			"type": "outdoor"
 		}, {
 			"x": "C",
 			"terrain": "hindering"
@@ -403,16 +478,20 @@
 			"x": "N"
 		}, {
 			"x": "O",
-			"terrain": "hindering"
+			"terrain": "hindering",
+			"type": "outdoor"
 		}, {
-			"x": "P"
+			"x": "P",
+			"type": "outdoor"
 		}]
 	}, {
 		"y": 11,
 		"tiles": [{
-			"x": "A"
+			"x": "A",
+			"type": "outdoor"
 		}, {
-			"x": "B"
+			"x": "B",
+			"type": "outdoor"
 		}, {
 			"x": "C",
 			"terrain": "hindering"
@@ -440,16 +519,20 @@
 		}, {
 			"x": "N"
 		}, {
-			"x": "O"
+			"x": "O",
+			"type": "outdoor"
 		}, {
-			"x": "P"
+			"x": "P",
+			"type": "outdoor"
 		}]
 	}, {
 		"y": 12,
 		"tiles": [{
-			"x": "A"
+			"x": "A",
+			"type": "outdoor"
 		}, {
-			"x": "B"
+			"x": "B",
+			"type": "outdoor"
 		}, {
 			"x": "C"
 		}, {
@@ -475,16 +558,20 @@
 		}, {
 			"x": "N"
 		}, {
-			"x": "O"
+			"x": "O",
+			"type": "outdoor"
 		}, {
-			"x": "P"
+			"x": "P",
+			"type": "outdoor"
 		}]
 	}, {
 		"y": 13,
 		"tiles": [{
-			"x": "A"
+			"x": "A",
+			"type": "outdoor"
 		}, {
-			"x": "B"
+			"x": "B",
+			"type": "outdoor"
 		}, {
 			"x": "C",
 			"terrain": "hindering"
@@ -514,137 +601,187 @@
 		}, {
 			"x": "N"
 		}, {
-			"x": "O"
+			"x": "O",
+			"type": "outdoor"
 		}, {
-			"x": "P"
+			"x": "P",
+			"type": "outdoor"
 		}]
 	}, {
 		"y": 14,
 		"tiles": [{
 			"x": "A",
+			"type": "outdoor",
 			"isStartingZone": true
 		}, {
 			"x": "B",
+			"type": "outdoor",
 			"isStartingZone": true
 		}, {
 			"x": "C",
+			"type": "outdoor",
 			"isStartingZone": true
 		}, {
-			"x": "D"
+			"x": "D",
+			"type": "outdoor"
 		}, {
-			"x": "E"
+			"x": "E",
+			"type": "outdoor"
 		}, {
 			"x": "F",
+			"type": "outdoor",
 			"terrain": "hindering"
 		}, {
-			"x": "G"
+			"x": "G",
+			"type": "outdoor"
 		}, {
-			"x": "H"
+			"x": "H",
+			"type": "outdoor"
 		}, {
-			"x": "I"
+			"x": "I",
+			"type": "outdoor"
 		}, {
-			"x": "J"
+			"x": "J",
+			"type": "outdoor"
 		}, {
 			"x": "K",
-			"terrain": "hindering"
+			"terrain": "hindering",
+			"type": "outdoor"
 		}, {
-			"x": "L"
+			"x": "L",
+			"type": "outdoor"
 		}, {
-			"x": "M"
+			"x": "M",
+			"type": "outdoor"
 		}, {
 			"x": "N",
+			"type": "outdoor",
 			"isStartingZone": true
 		}, {
 			"x": "O",
+			"type": "outdoor",
 			"isStartingZone": true
 		}, {
 			"x": "P",
+			"type": "outdoor",
 			"isStartingZone": true
 		}]
 	}, {
 		"y": 15,
 		"tiles": [{
 			"x": "A",
+			"type": "outdoor",
 			"isStartingZone": true
 		}, {
 			"x": "B",
+			"type": "outdoor",
 			"isStartingZone": true
 		}, {
 			"x": "C",
+			"type": "outdoor",
 			"isStartingZone": true
 		}, {
-			"x": "D"
+			"x": "D",
+			"type": "outdoor"
 		}, {
-			"x": "E"
+			"x": "E",
+			"type": "outdoor"
 		}, {
 			"x": "F",
-			"terrain": "blocking"
+			"terrain": "blocking",
+			"type": "outdoor"
 		}, {
-			"x": "G"
+			"x": "G",
+			"type": "outdoor"
 		}, {
-			"x": "H"
+			"x": "H",
+			"type": "outdoor"
 		}, {
-			"x": "I"
+			"x": "I",
+			"type": "outdoor"
 		}, {
-			"x": "J"
+			"x": "J",
+			"type": "outdoor"
 		}, {
 			"x": "K",
-			"terrain": "blocking"
+			"terrain": "blocking",
+			"type": "outdoor"
 		}, {
-			"x": "L"
+			"x": "L",
+			"type": "outdoor"
 		}, {
-			"x": "M"
+			"x": "M",
+			"type": "outdoor"
 		}, {
 			"x": "N",
+			"type": "outdoor",
 			"isStartingZone": true
 		}, {
 			"x": "O",
+			"type": "outdoor",
 			"isStartingZone": true
 		}, {
 			"x": "P",
+			"type": "outdoor",
 			"isStartingZone": true
 		}]
 	}, {
 		"y": 16,
 		"tiles": [{
 			"x": "A",
+			"type": "outdoor",
 			"isStartingZone": true
 		}, {
 			"x": "B",
+			"type": "outdoor",
 			"isStartingZone": true
 		}, {
 			"x": "C",
+			"type": "outdoor",
 			"isStartingZone": true
 		}, {
-			"x": "D"
+			"x": "D",
+			"type": "outdoor"
 		}, {
-			"x": "E"
+			"x": "E",
+			"type": "outdoor"
 		}, {
 			"x": "F",
-			"terrain": "hindering"
+			"terrain": "hindering",
+			"type": "outdoor"
 		}, {
-			"x": "G"
+			"x": "G",
+			"type": "outdoor"
 		}, {
-			"x": "H"
+			"x": "H",
+			"type": "outdoor"
 		}, {
-			"x": "I"
+			"x": "I",
+			"type": "outdoor"
 		}, {
-			"x": "J"
+			"x": "J",
+			"type": "outdoor"
 		}, {
 			"x": "K",
-			"terrain": "hindering"
+			"terrain": "hindering",
+			"type": "outdoor"
 		}, {
-			"x": "L"
+			"x": "L",
+			"type": "outdoor"
 		}, {
-			"x": "M"
+			"x": "M",
+			"type": "outdoor"
 		}, {
 			"x": "N",
+			"type": "outdoor",
 			"isStartingZone": true
 		}, {
 			"x": "O",
+			"type": "outdoor",
 			"isStartingZone": true
 		}, {
 			"x": "P",
+			"type": "outdoor",
 			"isStartingZone": true
 		}]
 	}],
