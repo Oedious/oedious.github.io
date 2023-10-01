@@ -2298,6 +2298,22 @@
             "height": 16,
             "file": "maps/wk18/street_fair.json"
         }, {
+            "id": "wk18M003",
+            "name": "Mansion",
+            "set": "WizKids 2018",
+            "type": "indoorOutdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/wk18/mansion.json"
+        }, {
+            "id": "wk18M004",
+            "name": "Three Corners",
+            "set": "WizKids 2018",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/wk18/three_corners.json"
+        }, {
             "id": "osM001",
             "name": "Gorn Fight",
             "set": "Star Trek Away Team: The Original Series",
