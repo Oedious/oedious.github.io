@@ -2282,6 +2282,22 @@
             "height": 24,
             "file": "maps/roc18/the_trenches.json"
         }, {
+            "id": "wk18M001",
+            "name": "Library",
+            "set": "WizKids 2018",
+            "type": "indoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/wk18/library.json"
+        }, {
+            "id": "wk18M002",
+            "name": "Street Fair",
+            "set": "WizKids 2018",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/wk18/street_fair.json"
+        }, {
             "id": "osM001",
             "name": "Gorn Fight",
             "set": "Star Trek Away Team: The Original Series",
@@ -2394,78 +2410,6 @@
             "height": 24,
             "file": "maps/ew/high_noon_street.json"
         }, {
-            "id": "wkpM001",
-            "name": "Gaming Convention Hall",
-            "set": "Premium & Exclusive Maps",
-            "type": "indoor",
-            "width": 16,
-            "height": 24,
-            "file": "maps/wkp/gaming_convention_hall.json"
-        }, {
-            "id": "wkpM002",
-            "name": "WizKids Office HQ",
-            "set": "Premium & Exclusive Maps",
-            "type": "indoor",
-            "width": 16,
-            "height": 24,
-            "file": "maps/wkp/wizkids_office_hq.json"
-        }, {
-            "id": "wkpM003",
-            "name": "Convention Center Plaza",
-            "set": "Premium & Exclusive Maps",
-            "type": "outdoor",
-            "width": 16,
-            "height": 24,
-            "file": "maps/wkp/convention_center_plaza.json"
-        }, {
-            "id": "wkpM004",
-            "name": "Parking Garage",
-            "set": "Premium & Exclusive Maps",
-            "type": "outdoor",
-            "width": 16,
-            "height": 24,
-            "file": "maps/wkp/parking_garage.json"
-        }, {
-            "id": "wkpM005",
-            "name": "Cargo Ship",
-            "set": "Premium & Exclusive Maps",
-            "type": "outdoor",
-            "width": 16,
-            "height": 24,
-            "file": "maps/wkp/cargo_ship.json"
-        }, {
-            "id": "wkpM006",
-            "name": "Warehouse 5651",
-            "set": "Premium & Exclusive Maps",
-            "type": "indoor",
-            "width": 16,
-            "height": 24,
-            "file": "maps/wkp/warehouse_5651.json"
-        }, {
-            "id": "wkpM007",
-            "name": "Sporting Arena",
-            "set": "Premium & Exclusive Maps",
-            "type": "indoor",
-            "width": 16,
-            "height": 24,
-            "file": "maps/wkp/sporting_arena.json"
-        }, {
-            "id": "wkpM008",
-            "name": "Train Station",
-            "set": "Premium & Exclusive Maps",
-            "type": "indoor",
-            "width": 16,
-            "height": 24,
-            "file": "maps/wkp/train_station.json"
-        }, {
-            "id": "wkpM009",
-            "name": "Train Yard",
-            "set": "Premium & Exclusive Maps",
-            "type": "outdoor",
-            "width": 16,
-            "height": 24,
-            "file": "maps/wkp/train_yard.json"
-        }, {
             "id": "wiM001",
             "name": "Arthur's Castle",
             "set": "What If?",
@@ -2563,6 +2507,30 @@
             "width": 16,
             "height": 24,
             "file": "maps/roc17/amusement_park.json"
+        }, {
+            "id": "wk17M008",
+            "name": "Train Station",
+            "set": "WizKids 2017",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/wk17/train_station.json"
+        }, {
+            "id": "wk17M009",
+            "name": "Train Yard",
+            "set": "WizKids 2017",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/wk17/train_yard.json"
+        }, {
+            "id": "wkM001",
+            "name": "Sporting Arena",
+            "set": "WizKids DC 2017",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/wkd17/sporting_arena.json"
         }, {
             "id": "jwM001",
             "name": "Ace Chemicals",
@@ -2755,6 +2723,54 @@
             "width": 16,
             "height": 24,
             "file": "maps/roc16/crossfire_canyon.json"
+        }, {
+            "id": "wk16M001",
+            "name": "Gaming Convention Hall",
+            "set": "WizKids 2016",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/wk16/gaming_convention_hall.json"
+        }, {
+            "id": "wk16M002",
+            "name": "WizKids Office HQ",
+            "set": "WizKids 2016",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/wk16/wizkids_office_hq.json"
+        }, {
+            "id": "wk16M003",
+            "name": "Convention Center Plaza",
+            "set": "WizKids 2016",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/wk16/convention_center_plaza.json"
+        }, {
+            "id": "wk16M004",
+            "name": "Parking Garage",
+            "set": "WizKids 2016",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/wk16/parking_garage.json"
+        }, {
+            "id": "wk16M005",
+            "name": "Cargo Ship",
+            "set": "WizKids 2016",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/wk16/cargo_ship.json"
+        }, {
+            "id": "wk16M006",
+            "name": "Warehouse 5651",
+            "set": "WizKids 2016",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/wk16/warehouse_5651.json"
         }, {
             "id": "smwwM001",
             "name": "Mount Olympus",
@@ -2999,21 +3015,21 @@
             "height": 24,
             "file": "maps/fl/the_flash_museum.json"
         }, {
-            "id": "wkmM001",
+            "id": "wkm13M001",
             "name": "Liberty Island",
             "set": "Spider-Man and His Amazing Friends",
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/wkm/liberty_island.json"
+            "file": "maps/wkm13/liberty_island.json"
         }, {
-            "id": "wkmM002",
+            "id": "wkm13M002",
             "name": "Xavier Mansion Grounds",
             "set": "Spider-Man and His Amazing Friends",
             "type": "indoorOutdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/wkm/xavier_mansion_grounds.json"
+            "file": "maps/wkm13/xavier_mansion_grounds.json"
         }, {
             "id": "gotgM001",
             "name": "Titan",
@@ -3318,6 +3334,22 @@
             "width": 16,
             "height": 24,
             "file": "maps/roc14/main_event.json"
+        }, {
+            "id": "wk14M001",
+            "name": "Hidden Fountains",
+            "set": "WizKids 2014",
+            "type": "indoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/wk14/hidden_fountains.json"
+        }, {
+            "id": "wk14M002",
+            "name": "Lost Temple",
+            "set": "WizKids 2014",
+            "type": "indoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/wk14/lost_temple.json"
         }, {
             "id": "iimM001",
             "name": "Avengers Island",
@@ -4640,38 +4672,6 @@
             "width": 24,
             "height": 24,
             "file": "maps/ic/the_construction_site.json"
-        }, {
-            "id": "wkceM001",
-            "name": "Hidden Fountains",
-            "set": "WizKids Convention Exclusive",
-            "type": "indoor",
-            "width": 16,
-            "height": 16,
-            "file": "maps/wkce/hidden_fountains.json"
-        }, {
-            "id": "wkceM002",
-            "name": "Lost Temple",
-            "set": "WizKids Convention Exclusive",
-            "type": "indoor",
-            "width": 16,
-            "height": 16,
-            "file": "maps/wkce/lost_temple.json"
-        }, {
-            "id": "wkceM003",
-            "name": "Library",
-            "set": "WizKids Convention Exclusive",
-            "type": "indoor",
-            "width": 16,
-            "height": 16,
-            "file": "maps/wkce/library.json"
-        }, {
-            "id": "wkceM004",
-            "name": "Street Fair",
-            "set": "WizKids Convention Exclusive",
-            "type": "outdoor",
-            "width": 16,
-            "height": 16,
-            "file": "maps/wkce/street_fair.json"
         }, {
             "id": "grmp6M001",
             "name": "The Sewer",
