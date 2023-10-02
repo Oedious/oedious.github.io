@@ -245,6 +245,28 @@
             "age": {
                 "mx": true
             }
+        }, {
+            "id": "mjx23M004",
+            "name": "The Boiler Room",
+            "set": "Majestix Open Series 2023",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/mjx23/the_boiler_room.json",
+            "age": {
+                "mx": true
+            }
+        }, {
+            "id": "mjx23M005",
+            "name": "The Boiler Room V2",
+            "set": "Majestix Open Series 2023",
+            "type": "indoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/mjx23/the_boiler_room_v2.json",
+            "age": {
+                "mx": true
+            }
         },{
             "id": "btuM001",
             "name": "Danny The Street",
