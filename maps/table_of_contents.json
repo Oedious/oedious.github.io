@@ -1,6 +1,6 @@
 {
     "maps": [{
-            "id": "notM001",
+            "id": "notM002",
             "name": "Iceberg Lounge",
             "set": "Notorious",
             "type": "indoor",
@@ -13,7 +13,7 @@
                 "mx": true
             }
         },{
-            "id": "notM002",
+            "id": "notM003",
             "name": "Injustice Gang Hideout",
             "set": "Notorious",
             "type": "indoor",
@@ -26,7 +26,7 @@
                 "mx": true
             }
         },{
-            "id": "notM003",
+            "id": "notM004",
             "name": "Harley's Rooftop",
             "set": "Notorious",
             "type": "outdoor",
@@ -39,7 +39,7 @@
                 "mx": true
             }
         },{
-            "id": "notM004",
+            "id": "notM005",
             "name": "Atlantis Throne Room",
             "set": "Notorious",
             "type": "outdoor",
