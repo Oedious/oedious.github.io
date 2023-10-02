@@ -6,6 +6,7 @@
 	"width": 16,
 	"height": 16,
 	"date": "September 2023",
+	"defaultTerrain": "water",
 	"rows": [{
 		"y": 1,
 		"tiles": [{
