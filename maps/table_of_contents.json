@@ -1,5 +1,18 @@
 {
     "maps": [{
+            "id": "wovM001",
+            "name": "Blitzkreig_manhattan",
+            "set": "Wheels of Vengeance",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/wov/blitzkreig_manhattan.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "mx": true
+            }
+        },{
             "id": "notM002",
             "name": "Iceberg Lounge",
             "set": "Notorious",
