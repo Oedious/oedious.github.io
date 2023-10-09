@@ -14,6 +14,19 @@
             }
         },{
             "id": "wovM002",
+            "name": "Dark Dimension",
+            "set": "Wheels of Vengeance",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/wov/dark_dimension.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "mx": true
+            }
+        },{
+            "id": "wovM003",
             "name": "Dr. Strange Mansion",
             "set": "Wheels of Vengeance",
             "type": "indoor",
@@ -26,7 +39,7 @@
                 "mx": true
             }
         },{
-            "id": "wovM003",
+            "id": "wovM004",
             "name": "Broxton, OK",
             "set": "Wheels of Vengeance",
             "type": "outdoor",
