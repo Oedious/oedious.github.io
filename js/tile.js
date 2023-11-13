@@ -235,7 +235,7 @@ Tile.prototype.drawLabel = function(ctx) {
 			this.y * TILE_SIZE + TILE_SIZE / 2);
 		if (this.label) {
 			text = this.label.text;
-			ctx.fillStyle = ELEVATION_EDGE_COLOR;
+			ctx.fillStyle = this.label.color ? this.label.color : ELEVATION_EDGE_COLOR;
 			var rotation = this.label.rotate ? this.label.rotate : 0;
 			ctx.rotate(rotation * Math.PI / 180);
 		}

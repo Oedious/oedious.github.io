@@ -3553,6 +3553,38 @@
             "height": 24,
             "file": "maps/avx/surface_of_the_moon.json"
         }, {
+            "id": "mkrM001",
+            "name": "Crackstone Camp",
+            "set": "Mage Knight Resurrection",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/mkr/crackstone_camp.json"
+        }, {
+            "id": "mkrM002",
+            "name": "Delphana Domain",
+            "set": "Mage Knight Resurrection",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/mkr/delphana_domain.json"
+        }, {
+            "id": "mkrM003",
+            "name": "Rokos Ruins",
+            "set": "Mage Knight Resurrection",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/mkr/rokos_ruins.json"
+        }, {
+            "id": "mkrM004",
+            "name": "Wylden Watch",
+            "set": "Mage Knight Resurrection",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/mkr/wylden_watch.json"
+        }, {
             "id": "tdwM001",
             "name": "Svartalfheim",
             "set": "Thor: The Dark World",
