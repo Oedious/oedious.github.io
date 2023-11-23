@@ -1,12 +1,12 @@
 {
     "maps": [{
             "id": "wovM001",
-            "name": "Blitzkreig Manhattan",
+            "name": "Blitzkrieg Manhattan",
             "set": "Wheels of Vengeance",
             "type": "outdoor",
             "width": 16,
             "height": 16,
-            "file": "maps/wov/blitzkreig_manhattan.json",
+            "file": "maps/wov/blitzkrieg_manhattan.json",
             "age": {
                 "modern": true,
                 "wko": true,
@@ -3746,20 +3746,20 @@
             "file": "maps/im3/the_mandarins_mansion.json"
         }, {
             "id": "fiM001",
-            "name": "Blitzkreig DC",
+            "name": "Blitzkrieg DC",
             "set": "Fear Itself",
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/fi/blitzkreig_dc.json"
+            "file": "maps/fi/blitzkrieg_dc.json"
         }, {
             "id": "fiM002",
-            "name": "Blitzkreig Manhattan",
+            "name": "Blitzkrieg Manhattan",
             "set": "Fear Itself",
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/fi/blitzkreig_manhattan.json"
+            "file": "maps/fi/blitzkrieg_manhattan.json"
         }, {
             "id": "fiM003",
             "name": "The Book of the Skull Fortress",
