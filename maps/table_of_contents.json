@@ -586,12 +586,7 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/msdp/westview.json",
-            "age": {
-                "modern": true,
-                "wko": true,
-                "mx": true
-            }
+            "file": "maps/msdp/westview.json"
         },{
             "id": "msdpM002",
             "name": "Strategic Scientific Reserve Building",
@@ -599,12 +594,7 @@
             "type": "indoor",
             "width": 16,
             "height": 24,
-            "file": "maps/msdp/strategic_scientific_reserve_building.json",
-            "age": {
-                "modern": true,
-                "wko": true,
-                "mx": true
-            }
+            "file": "maps/msdp/strategic_scientific_reserve_building.json"
         },{
             "id": "msdpM003",
             "name": "Munich Escape",
@@ -612,12 +602,7 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/msdp/munich_escape.json",
-            "age": {
-                "modern": true,
-                "wko": true,
-                "mx": true
-            }
+            "file": "maps/msdp/munich_escape.json"
         },{
             "id": "msdpM004",
             "name": "The Void",
@@ -625,12 +610,7 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/msdp/the_void.json",
-            "age": {
-                "modern": true,
-                "wko": true,
-                "mx": true
-            }
+            "file": "maps/msdp/the_void.json"
         },{
             "id": "msdpM005",
             "name": "Apocalyptic Avenue",
@@ -638,11 +618,7 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/msdp/apocalyptic_avenue.json",
-            "age": {
-                "modern": true,
-                "wko": true
-            }
+            "file": "maps/msdp/apocalyptic_avenue.json"
         },{
             "id": "msdpM006",
             "name": "Downtown",
@@ -650,11 +626,7 @@
             "type": "indoorOutdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/msdp/downtown.json",
-            "age": {
-                "modern": true,
-                "wko": true
-            }
+            "file": "maps/msdp/downtown.json"
         },{
             "id": "wotrM001",
             "name": "Fountain of Asgard",
@@ -662,12 +634,7 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/wotr/fountain_of_asgard.json",
-            "age": {
-                "modern": true,
-                "wko": true,
-                "mx": true
-            }
+            "file": "maps/wotr/fountain_of_asgard.json"
         },{
             "id": "wotrM002",
             "name": "Fallen Asgard",
@@ -675,12 +642,7 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/wotr/fallen_asgard.json",
-            "age": {
-                "modern": true,
-                "wko": true,
-                "mx": true
-            }
+            "file": "maps/wotr/fallen_asgard.json"
         }, {
             "id": "roc22M001",
             "name": "The Regal",
@@ -776,10 +738,7 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/roc22/temple_retreat.json",
-            "age": {
-                "modern": true
-            }
+            "file": "maps/roc22/temple_retreat.json"
         }, {
             "id": "roc22M011",
             "name": "Industrial Plant",
@@ -787,10 +746,7 @@
             "type": "indoor",
             "width": 16,
             "height": 24,
-            "file": "maps/roc22/industrial_plant.json",
-            "age": {
-                "modern": true
-            }
+            "file": "maps/roc22/industrial_plant.json"
         }, {
             "id": "roc22M012",
             "name": "Throne Room",
@@ -798,10 +754,7 @@
             "type": "indoor",
             "width": 16,
             "height": 24,
-            "file": "maps/roc22/throne_room.json",
-            "age": {
-                "modern": true
-            }
+            "file": "maps/roc22/throne_room.json"
         }, {
             "id": "roc22M013",
             "name": "The Extinct Volcano",
@@ -809,10 +762,7 @@
             "type": "outdoor",
             "width": 16,
             "height": 16,
-            "file": "maps/roc22/the_extinct_volcano.json",
-            "age": {
-                "modern": true
-            }
+            "file": "maps/roc22/the_extinct_volcano.json"
         }, {
             "id": "roc22M014",
             "name": "Underwater Research Lab",
@@ -820,10 +770,7 @@
             "type": "indoor",
             "width": 16,
             "height": 24,
-            "file": "maps/roc22/underwater_research_lab.json",
-            "age": {
-                "modern": true
-            }
+            "file": "maps/roc22/underwater_research_lab.json"
         }, {
             "id": "mjx22M001",
             "name": "Glass Lake",
@@ -864,12 +811,7 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/ff2021/blue_area_of_the_moon.json",
-            "age": {
-                "modern": true,
-                "wko": true,
-                "mx": true
-            }
+            "file": "maps/ff2021/blue_area_of_the_moon.json"
         },{
             "id": "ff2021M002",
             "name": "Realm of Death",
@@ -877,10 +819,7 @@
             "type": "indoor",
             "width": 16,
             "height": 24,
-            "file": "maps/ff2021/realm_of_death.json",
-            "age": {
-                "modern": true
-            }
+            "file": "maps/ff2021/realm_of_death.json"
         },{
             "id": "ff2021M003",
             "name": "Honeymoon Resort",
@@ -888,12 +827,7 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/ff2021/honeymoon_resort.json",
-            "age": {
-                "modern": true,
-                "wko": true,
-                "mx": true
-            }
+            "file": "maps/ff2021/honeymoon_resort.json"
         },{
             "id": "ff2021M004",
             "name": "Latveria",
@@ -901,12 +835,7 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/ff2021/latveria.json",
-            "age": {
-                "modern": true,
-                "wko": true,
-                "mx": true
-            }
+            "file": "maps/ff2021/latveria.json"
         },{
             "id": "affeM001",
             "name": "Hank Pym's Lab",
@@ -914,10 +843,7 @@
             "type": "indoor",
             "width": 16,
             "height": 24,
-            "file": "maps/affe/hank_pyms_lab.json",
-            "age": {
-                "modern": true
-            }
+            "file": "maps/affe/hank_pyms_lab.json"
         }, {
             "id": "affeM002",
             "name": "Manhattan Bridge",
@@ -925,12 +851,7 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/affe/manhattan_bridge.json",
-            "age": {
-                "modern": true,
-                "wko": true,
-                "mx": true
-            }
+            "file": "maps/affe/manhattan_bridge.json"
         }, {
             "id": "affeM003",
             "name": "New York",
@@ -938,12 +859,7 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/affe/new_york.json",
-            "age": {
-                "modern": true,
-                "wko": true,
-                "mx": true
-            }
+            "file": "maps/affe/new_york.json"
         }, {
             "id": "affeM004",
             "name": "Baxter Building/Sentinel HQ",
@@ -951,12 +867,7 @@
             "type": "indoor",
             "width": 16,
             "height": 24,
-            "file": "maps/affe/baxter_building_sentinel_hq.json",
-            "age": {
-                "modern": true,
-                "wko": true,
-                "mx": true
-            }
+            "file": "maps/affe/baxter_building_sentinel_hq.json"
         }, {
             "id": "xmrfM001",
             "name": "Starcore Space Station",
@@ -964,12 +875,7 @@
             "type": "indoor",
             "width": 16,
             "height": 24,
-            "file": "maps/xmrf/starcore_space_station.json",
-            "age": {
-                "modern": true,
-                "wko": true,
-                "mx": true
-            }
+            "file": "maps/xmrf/starcore_space_station.json"
         }, {
             "id": "xmrfM002",
             "name": "Abandoned Weapon X Facility",
@@ -977,12 +883,7 @@
             "type": "indoor",
             "width": 16,
             "height": 24,
-            "file": "maps/xmrf/abandoned_weapon_x_facility.json",
-            "age": {
-                "modern": true,
-                "wko": true,
-                "mx": true
-            }
+            "file": "maps/xmrf/abandoned_weapon_x_facility.json"
         }, {
             "id": "ww80M001",
             "name": "Junkyard",
@@ -990,12 +891,7 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/ww80/junkyard.json",
-            "age": {
-                "modern": true,
-                "wko": true,
-                "mx": true
-            }
+            "file": "maps/ww80/junkyard.json"
         }, {
             "id": "ww80M002",
             "name": "Wonder Woman's Barn",
@@ -1003,12 +899,7 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/ww80/wonder_womans_barn.json",
-            "age": {
-                "modern": true,
-                "wko": true,
-                "mx": true
-            }
+            "file": "maps/ww80/wonder_womans_barn.json"
         }, {
             "id": "ww80M003",
             "name": "Mt. Olympus",
@@ -1016,12 +907,7 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/ww80/mt_olympus.json",
-            "age": {
-                "modern": true,
-                "wko": true,
-                "mx": true
-            }
+            "file": "maps/ww80/mt_olympus.json"
         }, {
             "id": "ww80M004",
             "name": "Paradise Island",
@@ -1029,12 +915,7 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/ww80/paradise_island.json",
-            "age": {
-                "modern": true,
-                "wko": true,
-                "mx": true
-            }
+            "file": "maps/ww80/paradise_island.json"
         }, {
             "id": "ffffM001",
             "name": "Negative Zone",
@@ -1042,11 +923,7 @@
             "type": "indoor",
             "width": 16,
             "height": 24,
-            "file": "maps/ffff/negative_zone.json",
-            "age": {
-                "modern": true,
-                "wko": true
-            }
+            "file": "maps/ffff/negative_zone.json"
         }, {
             "id": "ffffM002",
             "name": "Desert Wedding",
@@ -1054,12 +931,7 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/ffff/desert_wedding.json",
-            "age": {
-                "modern": true,
-                "wko": true,
-                "mx": true
-            }
+            "file": "maps/ffff/desert_wedding.json"
         }, {
             "id": "roc21M001",
             "name": "The Knoll",
@@ -1067,11 +939,7 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/roc21/the_knoll.json",
-            "age": {
-                "modern": true,
-                "wko": true
-            }
+            "file": "maps/roc21/the_knoll.json"
         }, {
             "id": "roc21M002",
             "name": "Defense Island",
@@ -1079,11 +947,7 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/roc21/defense_island.json",
-            "age": {
-                "modern": true,
-                "wko": true
-            }
+            "file": "maps/roc21/defense_island.json"
         }, {
             "id": "roc21M003",
             "name": "84th Street Mall",
@@ -1091,11 +955,7 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/roc21/84th_street_mall.json",
-            "age": {
-                "modern": true,
-                "wko": true
-            }
+            "file": "maps/roc21/84th_street_mall.json"
         }, {
             "id": "roc21M004",
             "name": "Hell's Pit",
@@ -1103,11 +963,7 @@
             "type": "indoor",
             "width": 16,
             "height": 24,
-            "file": "maps/roc21/hells_pit.json",
-            "age": {
-                "modern": true,
-                "wko": true
-            }
+            "file": "maps/roc21/hells_pit.json"
         }, {
             "id": "roc21M005",
             "name": "Hell's Crossroads",
@@ -1123,11 +979,7 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/roc21/eastview_park.json",
-            "age": {
-                "modern": true,
-                "wko": true
-            }
+            "file": "maps/roc21/eastview_park.json"
         }, {
             "id": "roc21M007",
             "name": "Overview Chemicals",
@@ -1135,11 +987,7 @@
             "type": "indoor",
             "width": 16,
             "height": 24,
-            "file": "maps/roc21/overview_chemicals.json",
-            "age": {
-                "modern": true,
-                "wko": true
-            }
+            "file": "maps/roc21/overview_chemicals.json"
         }, {
             "id": "roc21M008",
             "name": "Haunted Library",
@@ -1147,11 +995,7 @@
             "type": "indoor",
             "width": 16,
             "height": 24,
-            "file": "maps/roc21/haunted_library.json",
-            "age": {
-                "modern": true,
-                "wko": true
-            }
+            "file": "maps/roc21/haunted_library.json"
         }, {
             "id": "roc21M009",
             "name": "Battlegate",
@@ -1159,11 +1003,7 @@
             "type": "indoor",
             "width": 16,
             "height": 24,
-            "file": "maps/roc21/battlegate.json",
-            "age": {
-                "modern": true,
-                "wko": true
-            }
+            "file": "maps/roc21/battlegate.json"
         }, {
             "id": "roc21M010",
             "name": "Planetary Annihilation",
@@ -1171,11 +1011,7 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/roc21/planetary_annihilation.json",
-            "age": {
-                "modern": true,
-                "wko": true
-            }
+            "file": "maps/roc21/planetary_annihilation.json"
         }, {
             "id": "roc21M011",
             "name": "Skull Clearing",
@@ -1183,11 +1019,7 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/roc21/skull_clearing.json",
-            "age": {
-                "modern": true,
-                "wko": true
-            }
+            "file": "maps/roc21/skull_clearing.json"
         }, {
             "id": "roc21M012",
             "name": "The Lodge",
@@ -1203,11 +1035,7 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/roc21/eastview_circus.json",
-            "age": {
-                "modern": true,
-                "wko": true
-            }
+            "file": "maps/roc21/eastview_circus.json"
         }, {
             "id": "roc21M014",
             "name": "Hyper RPG Studios",
@@ -1215,11 +1043,7 @@
             "type": "indoorOutdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/roc21/hyper_rpg_studios.json",
-            "age": {
-                "modern": true,
-                "wko": true
-            }
+            "file": "maps/roc21/hyper_rpg_studios.json"
         }, {
             "id": "roc21M015",
             "name": "Train Depot",
@@ -1259,10 +1083,7 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/mjx21/perfection.json",
-            "age": {
-                "mx": true
-            }
+            "file": "maps/mjx21/perfection.json"
         }, {
             "id": "mjx21M002",
             "name": "Cave of the Cult",
@@ -1270,10 +1091,7 @@
             "type": "indoor",
             "width": 16,
             "height": 24,
-            "file": "maps/mjx21/cave_of_the_cult.json",
-            "age": {
-                "mx": true
-            }
+            "file": "maps/mjx21/cave_of_the_cult.json"
         }, {
             "id": "mjx21M003",
             "name": "Rooftop Gateway",
@@ -1281,10 +1099,7 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/mjx21/rooftop_gateway.json",
-            "age": {
-                "mx": true
-            }
+            "file": "maps/mjx21/rooftop_gateway.json"
         }, {
             "id": "mjx21M004",
             "name": "Dinosaur Land",
@@ -1292,10 +1107,7 @@
             "type": "indoor",
             "width": 16,
             "height": 24,
-            "file": "maps/mjx21/dinosaur_land.json",
-            "age": {
-                "mx": true
-            }
+            "file": "maps/mjx21/dinosaur_land.json"
         }, {
             "id": "mjx21M005",
             "name": "Hunter's Jungle",
@@ -1314,12 +1126,7 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/hx/otherworld_castle.json",
-            "age": {
-                "modern": true,
-                "wko": true,
-                "mx": true
-            }
+            "file": "maps/hx/otherworld_castle.json"
         }, {
             "id": "hxM002",
             "name": "Krakoa",
@@ -1327,12 +1134,7 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/hx/krakoa.json",
-            "age": {
-                "modern": true,
-                "wko": true,
-                "mx": true
-            }
+            "file": "maps/hx/krakoa.json"
         }, {
             "id": "f4M001",
             "name": "Aunt Petunia's House",
@@ -1342,8 +1144,6 @@
             "height": 24,
             "file": "maps/f4/aunt_petunias_house.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "mx": true
             }
         }, {
@@ -1355,8 +1155,6 @@
             "height": 24,
             "file": "maps/f4/latverian_village.json",
             "age": {
-                "modern": true,
-                "wko": true,
                 "mx": true
             }
         }, {
@@ -1366,12 +1164,7 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/bgame/castle_hideout.json",
-            "age": {
-                "modern": true,
-                "wko": true,
-                "mx": true
-            }
+            "file": "maps/bgame/castle_hideout.json"
         }, {
             "id": "bgameM002",
             "name": "Iron Man's Workshop",
@@ -1379,12 +1172,7 @@
             "type": "indoor",
             "width": 16,
             "height": 24,
-            "file": "maps/bgame/iron_mans_workshop.json",
-            "age": {
-                "modern": true,
-                "wko": true,
-                "mx": true
-            }
+            "file": "maps/bgame/iron_mans_workshop.json"
         }, {
             "id": "bgameM003",
             "name": "Ultron's Lair",
@@ -1392,12 +1180,7 @@
             "type": "indoor",
             "width": 16,
             "height": 24,
-            "file": "maps/bgame/ultrons_lair.json",
-            "age": {
-                "modern": true,
-                "wko": true,
-                "mx": true
-            }
+            "file": "maps/bgame/ultrons_lair.json"
         }, {
             "id": "bgameM004",
             "name": "Helicarrier Interior",
@@ -1405,12 +1188,7 @@
             "type": "indoor",
             "width": 16,
             "height": 24,
-            "file": "maps/bgame/helicarrier_interior.json",
-            "age": {
-                "modern": true,
-                "wko": true,
-                "mx": true
-            }
+            "file": "maps/bgame/helicarrier_interior.json"
         }, {
             "id": "jluM001",
             "name": "Justice League Watchtower",
@@ -1540,11 +1318,7 @@
             "type": "indoorOutdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/roc20/widowmakers_lair.json",
-            "age": {
-                "modern": true,
-                "wko": true
-            }
+            "file": "maps/roc20/widowmakers_lair.json"
         }, {
             "id": "roc20M005",
             "name": "Research Outpost",
@@ -1600,11 +1374,7 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/roc20/phoenix_nest.json",
-            "age": {
-                "modern": true,
-                "wko": true
-            }
+            "file": "maps/roc20/phoenix_nest.json"
         }, {
             "id": "roc20M012",
             "name": "Madison Stadium A",
