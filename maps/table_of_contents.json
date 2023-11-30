@@ -4475,6 +4475,14 @@
             "height": 24,
             "file": "maps/ls/small_town.json"
         }, {
+            "id": "hbM001",
+            "name": "Anura Temple",
+            "set": "Hellboy and the B.P.R.D.",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/hb/anura_temple.json"
+        }, {
             "id": "orM001",
             "name": "JSA Museum",
             "set": "Origin",
