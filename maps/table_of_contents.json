@@ -2696,6 +2696,22 @@
             "height": 24,
             "file": "maps/aou/new_york_city.json"
         }, {
+            "id": "ygo3M001",
+            "name": "Labyrnth Wall",
+            "set": "Yu-Gi-Oh! Series Three",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/ygo3/labyrnth_wall.json"
+        }, {
+            "id": "ygo3M002",
+            "name": "Toon World",
+            "set": "Yu-Gi-Oh! Series Three",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/ygo3/toon_world.json"
+        }, {
             "id": "avasM001",
             "name": "Arcade's Arena",
             "set": "Avengers Assemble",
