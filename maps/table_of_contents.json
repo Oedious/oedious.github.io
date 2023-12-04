@@ -1,5 +1,21 @@
 {
     "maps": [{
+            "id": "d24M001",
+            "name": "Street",
+            "set": "DC Starter 2024",
+            "type": "outdoor",
+            "width": 16,
+            "height": 8,
+            "file": "maps/d24/street.json"
+        },{
+            "id": "m24M001",
+            "name": "Park",
+            "set": "Marvel Starter 2024",
+            "type": "outdoor",
+            "width": 16,
+            "height": 8,
+            "file": "maps/m24/park.json"
+        },{
             "id": "wovM001",
             "name": "Blitzkrieg Manhattan",
             "set": "Wheels of Vengeance",
