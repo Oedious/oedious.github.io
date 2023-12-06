@@ -3915,6 +3915,38 @@
             "height": 24,
             "file": "maps/bm/the_temple.json"
         }, {
+            "id": "hbtM001",
+            "name": "Goblin Halls",
+            "set": "The Hobbit: An Unexpected Journey",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/hbt/goblin_halls.json"
+        }, {
+            "id": "hbtM002",
+            "name": "Stone Troll Camp",
+            "set": "The Hobbit: An Unexpected Journey",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/hbt/stone_troll_camp.json"
+        }, {
+            "id": "hbtM003",
+            "name": "Rivendell",
+            "set": "The Hobbit: An Unexpected Journey",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/hbt/rivendell.json"
+        }, {
+            "id": "hbtM004",
+            "name": "Gollum's Cavern",
+            "set": "The Hobbit: An Unexpected Journey",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/hbt/gollums_cavern.json"
+        }, {
             "id": "nmlM001",
             "name": "Blackgate Prison",
             "set": "Batman: No Man's Land",
