@@ -3259,54 +3259,6 @@
             "height": 24,
             "file": "maps/iim/office_building.json"
         }, {
-            "id": "hbtdosM001",
-            "name": "Forest River",
-            "set": "The Hobbit: The Desolation of Smaug",
-            "type": "outdoor",
-            "width": 16,
-            "height": 24,
-            "file": "maps/hbtdos/forest_river.json"
-        }, {
-            "id": "hbtdosM002",
-            "name": "Lake-Town",
-            "set": "The Hobbit: The Desolation of Smaug",
-            "type": "outdoor",
-            "width": 16,
-            "height": 24,
-            "file": "maps/hbtdos/lake_town.json"
-        }, {
-            "id": "hbtdosM003",
-            "name": "Lair of Smaug",
-            "set": "The Hobbit: The Desolation of Smaug",
-            "type": "indoor",
-            "width": 16,
-            "height": 24,
-            "file": "maps/hbtdos/lair_of_smaug.json"
-        }, {
-            "id": "hbtdosM004",
-            "name": "House of Beorn",
-            "set": "The Hobbit: The Desolation of Smaug",
-            "type": "outdoor",
-            "width": 16,
-            "height": 24,
-            "file": "maps/hbtdos/house_of_beorn.json"
-        }, {
-            "id": "hbtdosM005",
-            "name": "Mirkwood: Spider Realm",
-            "set": "The Hobbit: The Desolation of Smaug",
-            "type": "outdoor",
-            "width": 16,
-            "height": 24,
-            "file": "maps/hbtdos/mirkwood_spider_realm.json"
-        }, {
-            "id": "hbtdosM006",
-            "name": "Mirkwood: Elven Kingdom",
-            "set": "The Hobbit: The Desolation of Smaug",
-            "type": "indoor",
-            "width": 16,
-            "height": 24,
-            "file": "maps/hbtdos/mirkwood_elven_kingdom.json"
-        }, {
             "id": "avxM001",
             "name": "Utopia: West",
             "set": "Avengers vs X-Men",
@@ -3403,6 +3355,54 @@
             "height": 24,
             "file": "maps/avx/surface_of_the_moon.json"
         }, {
+            "id": "hbtdosM001",
+            "name": "Forest River",
+            "set": "The Hobbit: The Desolation of Smaug",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/hbtdos/forest_river.json"
+        }, {
+            "id": "hbtdosM002",
+            "name": "Lake-Town",
+            "set": "The Hobbit: The Desolation of Smaug",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/hbtdos/lake_town.json"
+        }, {
+            "id": "hbtdosM003",
+            "name": "Lair of Smaug",
+            "set": "The Hobbit: The Desolation of Smaug",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/hbtdos/lair_of_smaug.json"
+        }, {
+            "id": "hbtdosM004",
+            "name": "House of Beorn",
+            "set": "The Hobbit: The Desolation of Smaug",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/hbtdos/house_of_beorn.json"
+        }, {
+            "id": "hbtdosM005",
+            "name": "Mirkwood: Spider Realm",
+            "set": "The Hobbit: The Desolation of Smaug",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/hbtdos/mirkwood_spider_realm.json"
+        }, {
+            "id": "hbtdosM006",
+            "name": "Mirkwood: Elven Kingdom",
+            "set": "The Hobbit: The Desolation of Smaug",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/hbtdos/mirkwood_elven_kingdom.json"
+        }, {
             "id": "mkrM001",
             "name": "Crackstone Camp",
             "set": "Mage Knight Resurrection",
@@ -3434,6 +3434,38 @@
             "width": 16,
             "height": 24,
             "file": "maps/mkr/wylden_watch.json"
+        }, {
+            "id": "t2tM001",
+            "name": "Isengard",
+            "set": "The Two Towers",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/t2t/isengard.json"
+        }, {
+            "id": "t2tM002",
+            "name": "Forbidden Pool",
+            "set": "The Two Towers",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/t2t/forbidden_pool.json"
+        }, {
+            "id": "t2tM003",
+            "name": "Fangorn Forest",
+            "set": "The Two Towers",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/t2t/fangorn_forest.json"
+        }, {
+            "id": "t2tM004",
+            "name": "Edoras",
+            "set": "The Two Towers",
+            "type": "indoorOutdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/t2t/edoras.json"
         }, {
             "id": "tdwM001",
             "name": "Svartalfheim",
