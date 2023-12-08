@@ -3595,6 +3595,38 @@
             "height": 8,
             "file": "maps/wxm/rocket_launch_base.json"
         }, {
+            "id": "fotrM001",
+            "name": "Amon Hen",
+            "set": "Fellowship of the Ring",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/fotr/amon_hen.json"
+        }, {
+            "id": "fotrM002",
+            "name": "Lothlorien",
+            "set": "Fellowship of the Ring",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/fotr/lothlorien.json"
+        }, {
+            "id": "fotrM003",
+            "name": "Weathertop",
+            "set": "Fellowship of the Ring",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/fotr/weathertop.json"
+        }, {
+            "id": "fotrM004",
+            "name": "Bag End",
+            "set": "Fellowship of the Ring",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/fotr/bag_end.json"
+        }, {
             "id": "mosM001",
             "name": "Smallville",
             "set": "Man of Steel",
