@@ -336,6 +336,22 @@
                 "mx": true
             }
         },{
+            "id": "wkd23M001",
+            "name": "Ace Chemicals",
+            "set": "WizKids DC 2023",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/wkd23/ace_chemicals.json"
+        }, {
+            "id": "wkd23M002",
+            "name": "Ace Street",
+            "set": "WizKids DC 2023",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/wkd23/ace_street.json"
+        }, {
             "id": "btuM001",
             "name": "Danny The Street",
             "set": "Batman Team-Up",
