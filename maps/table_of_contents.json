@@ -4299,6 +4299,54 @@
             "height": 24,
             "file": "maps/ig/shrine_to_death.json"
         }, {
+            "id": "lotrM001",
+            "name": "Battlefield",
+            "set": "Lord of the Rings",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/lotr/battlefield.json"
+        }, {
+            "id": "lotrM002",
+            "name": "The Mines of Moria",
+            "set": "Lord of the Rings",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/lotr/the_mines_of_moria.json"
+        }, {
+            "id": "lotrM003",
+            "name": "Helm's Deep",
+            "set": "Lord of the Rings",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/lotr/helms_deep.json"
+        }, {
+            "id": "lotrM004",
+            "name": "Minas Tirith",
+            "set": "Lord of the Rings",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/lotr/minas_tirith.json"
+        }, {
+            "id": "lotrM005",
+            "name": "Pelennor Fields",
+            "set": "Lord of the Rings",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/lotr/pelennor_fields.json"
+        }, {
+            "id": "lotrM006",
+            "name": "Helm's Dike",
+            "set": "Lord of the Rings",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/lotr/helms_dike.json"
+        }, {
             "id": "ihM001",
             "name": "Gamma Range",
             "set": "The Incredible Hulk",
