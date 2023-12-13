@@ -3371,6 +3371,14 @@
             "height": 24,
             "file": "maps/avx/surface_of_the_moon.json"
         }, {
+            "id": "dota2M001",
+            "name": "Battlefield",
+            "set": "DOTA 2",
+            "type": "outdoor",
+            "width": 24,
+            "height": 24,
+            "file": "maps/dota2/battlefield.json"
+        }, {
             "id": "hbtdosM001",
             "name": "Forest River",
             "set": "The Hobbit: The Desolation of Smaug",
