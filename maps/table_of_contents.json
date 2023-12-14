@@ -4451,6 +4451,38 @@
             "height": 24,
             "file": "maps/sm/the_farm.json"
         }, {
+            "id": "sfM001",
+            "name": "Street",
+            "set": "Street Fighter",
+            "type": "outdoor",
+            "width": 16,
+            "height": 6,
+            "file": "maps/sf/street.json"
+        }, {
+            "id": "sfM002",
+            "name": "Airfield",
+            "set": "Street Fighter",
+            "type": "outdoor",
+            "width": 16,
+            "height": 6,
+            "file": "maps/sf/airfield.json"
+        }, {
+            "id": "sfM003",
+            "name": "Temple Roof",
+            "set": "Street Fighter",
+            "type": "outdoor",
+            "width": 16,
+            "height": 6,
+            "file": "maps/sf/temple_roof.json"
+        }, {
+            "id": "sfM004",
+            "name": "Jetty",
+            "set": "Street Fighter",
+            "type": "outdoor",
+            "width": 16,
+            "height": 6,
+            "file": "maps/sf/jetty.json"
+        }, {
             "id": "wmM001",
             "name": "Karnak",
             "set": "Watchmen",
