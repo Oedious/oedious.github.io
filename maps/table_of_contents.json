@@ -3635,6 +3635,22 @@
             "height": 24,
             "file": "maps/ka2/justice_forever_headquarters.json"
         }, {
+            "id": "bsiM001",
+            "name": "Columbia",
+            "set": "BioShock Infinite",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/bsi/columbia.json"
+        }, {
+            "id": "bsiM002",
+            "name": "Founders' Pavilion",
+            "set": "BioShock Infinite",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/bsi/founders_pavilion.json"
+        }, {
             "id": "fotrM001",
             "name": "Amon Hen",
             "set": "Fellowship of the Ring",
