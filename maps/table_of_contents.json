@@ -3619,6 +3619,22 @@
             "height": 8,
             "file": "maps/wxm/rocket_launch_base.json"
         }, {
+            "id": "ka2M001",
+            "name": "Evil Lair",
+            "set": "Kick-Ass 2",
+            "type": "indoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/ka2/evil_lair.json"
+        }, {
+            "id": "ka2M002",
+            "name": "Justice Forever Headquarters",
+            "set": "Kick-Ass 2",
+            "type": "indoorOutdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/ka2/justice_forever_headquarters.json"
+        }, {
             "id": "fotrM001",
             "name": "Amon Hen",
             "set": "Fellowship of the Ring",
