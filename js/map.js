@@ -114,14 +114,15 @@ class HCMap {
 				tile0.type != tile1.type ||
 				tile0.elevation != tile1.elevation ||
 				tile0.isStartingZone != tile1.isStartingZone ||
-				tile0.isStartingZone4p != tile1.isStartingZone4p)) {
+				tile0.isStartingZone4p != tile1.isStartingZone4p ||
+				tile0.group != tile1.group)) {
 			var dashedLine = false;
 			if (tile0.terrain == TerrainType.WINDOW ||
 				tile0.terrain == TerrainType.SPECIAL2) {
 				dashedLine = true;
 			}
 			tile0.addEdge(edgeType,
-				TERRAIN_EDGE_COLORS[this.getTerrainIndex(tile0.terrain)],
+				TERRAIN_EDGE_COLORS[tile0.terrain],
 				dashedLine);
 		}
 	}
@@ -241,32 +242,5 @@ class HCMap {
 			return null;
 		}
 		return this.tiles[y * this.width + x];
-	}
-
-	getTerrainIndex(terrain) {
-		if (terrain == TerrainType.CLEAR) {
-			return 0;
-		}
-		else if (terrain == TerrainType.HINDERING) {
-			return 1;
-		}
-		else if (terrain == TerrainType.BLOCKING) {
-			return 2;
-		}
-		else if (terrain == TerrainType.WATER) {
-			return 3;
-		}
-		else if (terrain == TerrainType.OBSCURING) {
-			return 4;
-		}
-		else if (terrain == TerrainType.WINDOW) {
-			return 5;
-		}
-		else if (terrain == TerrainType.SPECIAL) {
-			return 6;
-		}
-		else if (terrain == TerrainType.SPECIAL2) {
-			return 7;
-		}
 	}
 }

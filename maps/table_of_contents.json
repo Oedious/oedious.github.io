@@ -4771,6 +4771,14 @@
             "height": 24,
             "file": "maps/av/airbase.json"
         }, {
+            "id": "avM002",
+            "name": "Rooftops",
+            "set": "Avengers",
+            "type": "outdoor",
+            "width": 24,
+            "height": 24,
+            "file": "maps/av/rooftops.json"
+        }, {
             "id": "lsM001",
             "name": "Central Port",
             "set": "Legion of Super Heroes",

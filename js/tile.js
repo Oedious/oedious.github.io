@@ -37,6 +37,7 @@ var Tile = function(x, y, jsonTile) {
 	this.elevation = jsonTile.elevation == null ? 1 : jsonTile.elevation;
 	this.isStartingZone = jsonTile.isStartingZone;
 	this.isStartingZone4p = jsonTile.isStartingZone4p;
+	this.group = jsonTile.group == null ? 0 : jsonTile.group;
 	this.label = jsonTile.label;
 	this.hideLabel = jsonTile.hideLabel;
 	this.edges = [];
