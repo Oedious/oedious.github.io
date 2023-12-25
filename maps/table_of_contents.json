@@ -4755,6 +4755,14 @@
             "height": 24,
             "file": "maps/jl/the_bank.json"
         }, {
+            "id": "jlM002",
+            "name": "Docklands",
+            "set": "Justice League",
+            "type": "outdoor",
+            "width": 24,
+            "height": 24,
+            "file": "maps/jl/docklands.json"
+        }, {
             "id": "avM001",
             "name": "Airbase",
             "set": "Avengers",
