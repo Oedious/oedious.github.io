@@ -2332,7 +2332,6 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "date": "June 2017",
             "file": "maps/wi/avengers_island.json"
         }, {
             "id": "adwM001",
@@ -2341,7 +2340,6 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "date": "May 2017",
             "file": "maps/adw/dark_dimension.json"
         }, {
             "id": "adwM002",
@@ -4889,16 +4887,31 @@
             "type": "outdoor",
             "width": 13,
             "height": 13,
-            "date": "May 2004",
             "file": "maps/ui/xaviers_school.json"
         }, {
-            "id": "uiM001",
+            "id": "uiM002",
             "name": "Avengers' Mansion",
             "set": "Universe",
             "type": "outdoor",
             "width": 13,
             "height": 13,
             "file": "maps/ui/avengers_mansion.json"
+        }, {
+            "id": "inM001",
+            "name": "The Evil Headquarters",
+            "set": "Indy",
+            "type": "indoor",
+            "width": 24,
+            "height": 24,
+            "file": "maps/in/the_evil_headquarters.json"
+        }, {
+            "id": "inM002",
+            "name": "The Temple Stop",
+            "set": "Indy",
+            "type": "outdoor",
+            "width": 24,
+            "height": 24,
+            "file": "maps/in/the_temple_stop.json"
         }, {
             "id": "htM001",
             "name": "The Office",
