@@ -4867,6 +4867,22 @@
             "height": 24,
             "file": "maps/aw/the_lab.json"
         }, {
+            "id": "ioM001",
+            "name": "Centennial Park Zoo",
+            "set": "Icons",
+            "type": "outdoor",
+            "width": 24,
+            "height": 24,
+            "file": "maps/io/centennial_park_zoo.json"
+        }, {
+            "id": "ioM002",
+            "name": "Axis Chemical",
+            "set": "Icons",
+            "type": "indoor",
+            "width": 24,
+            "height": 24,
+            "file": "maps/io/axis_chemical.json"
+        }, {
             "id": "uiM001",
             "name": "Xavier's School",
             "set": "Universe",
