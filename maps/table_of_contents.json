@@ -4827,6 +4827,30 @@
             "height": 24,
             "file": "maps/sn/the_prison.json"
         }, {
+            "id": "drM001",
+            "name": "Training Complex",
+            "set": "Danger Room",
+            "type": "indoorOutdoor",
+            "width": 24,
+            "height": 24,
+            "file": "maps/dr/training_complex.json"
+        }, {
+            "id": "drM002",
+            "name": "Institute Grounds",
+            "set": "Danger Room",
+            "type": "outdoor",
+            "width": 24,
+            "height": 24,
+            "file": "maps/dr/institute_grounds.json"
+        }, {
+            "id": "drM003",
+            "name": "School Ruins",
+            "set": "Danger Room",
+            "type": "indoorOutdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/dr/school_ruins.json"
+        }, {
             "id": "cdM001",
             "name": "The Junkyard",
             "set": "Collateral Damage",
