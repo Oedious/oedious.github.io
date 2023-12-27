@@ -4977,6 +4977,38 @@
             "height": 24,
             "file": "maps/ht/the_batcave.json"
         }, {
+            "id": "icM001",
+            "name": "The Mall",
+            "set": "Infinity Challenge",
+            "type": "indoor",
+            "width": 24,
+            "height": 24,
+            "file": "maps/ic/the_mall.json"
+        }, {
+            "id": "icM002",
+            "name": "Downtown",
+            "set": "Infinity Challenge",
+            "type": "outdoor",
+            "width": 24,
+            "height": 24,
+            "file": "maps/ic/downtown.json"
+        }, {
+            "id": "icM003",
+            "name": "The Park",
+            "set": "Infinity Challenge",
+            "type": "outdoor",
+            "width": 24,
+            "height": 24,
+            "file": "maps/ic/the_park.json"
+        }, {
+            "id": "icM004",
+            "name": "The Warehouse",
+            "set": "Infinity Challenge",
+            "type": "indoor",
+            "width": 24,
+            "height": 24,
+            "file": "maps/ic/the_warehouse.json"
+        }, {
             "id": "icM005",
             "name": "Xavier's School",
             "set": "Infinity Challenge",
@@ -4986,12 +5018,44 @@
             "file": "maps/ic/xaviers_school.json"
         }, {
             "id": "icM006",
-            "name": "Avengers' Mansion",
+            "name": "Avengers Mansion",
             "set": "Infinity Challenge",
             "type": "outdoor",
             "width": 24,
             "height": 24,
-            "file": "maps/ic/avengers_mansion.json"
+            "file": "maps/ic/avengers_mansion_outdoor.json"
+        }, {
+            "id": "icM007",
+            "name": "The Danger Room",
+            "set": "Infinity Challenge",
+            "type": "indoor",
+            "width": 24,
+            "height": 24,
+            "file": "maps/ic/the_danger_room.json"
+        }, {
+            "id": "icM008",
+            "name": "Avengers Mansion",
+            "set": "Infinity Challenge",
+            "type": "indoor",
+            "width": 24,
+            "height": 24,
+            "file": "maps/ic/avengers_mansion_indoor.json"
+        }, {
+            "id": "icM009",
+            "name": "The Factory",
+            "set": "Infinity Challenge",
+            "type": "indoor",
+            "width": 24,
+            "height": 24,
+            "file": "maps/ic/the_factory.json"
+        }, {
+            "id": "icM010",
+            "name": "The Mansion",
+            "set": "Infinity Challenge",
+            "type": "indoor",
+            "width": 24,
+            "height": 24,
+            "file": "maps/ic/the_mansion.json"
         }, {
             "id": "icM011",
             "name": "The Large Building",
