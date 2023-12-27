@@ -4924,11 +4924,58 @@
             "id": "htM002",
             "name": "The Truck Stop",
             "set": "Hypertime",
-            "source": "Hypertime Starter",
             "type": "outdoor",
             "width": 24,
             "height": 24,
             "file": "maps/ht/the_truck_stop.json"
+        }, {
+            "id": "htM003",
+            "name": "The Museum",
+            "set": "Hypertime",
+            "type": "indoor",
+            "width": 24,
+            "height": 24,
+            "file": "maps/ht/the_museum.json"
+        }, {
+            "id": "htM004",
+            "name": "The Apartment Complex",
+            "set": "Hypertime",
+            "type": "outdoor",
+            "width": 24,
+            "height": 24,
+            "file": "maps/ht/the_apartment_complex.json"
+        }, {
+            "id": "htM005",
+            "name": "Justice League Watchtower",
+            "set": "Hypertime",
+            "type": "indoor",
+            "width": 24,
+            "height": 24,
+            "file": "maps/ht/justice_league_watchtower.json"
+        }, {
+            "id": "htM006",
+            "name": "Metropolis",
+            "set": "Hypertime",
+            "type": "outdoor",
+            "width": 24,
+            "height": 24,
+            "file": "maps/ht/metropolis.json"
+        }, {
+            "id": "htM007",
+            "name": "S.T.A.R. Labs",
+            "set": "Hypertime",
+            "type": "indoor",
+            "width": 24,
+            "height": 24,
+            "file": "maps/ht/star_labs.json"
+        }, {
+            "id": "htM008",
+            "name": "The Batcave",
+            "set": "Hypertime",
+            "type": "indoor",
+            "width": 24,
+            "height": 24,
+            "file": "maps/ht/the_batcave.json"
         }, {
             "id": "icM005",
             "name": "Xavier's School",
