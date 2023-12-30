@@ -3649,6 +3649,14 @@
             "height": 24,
             "file": "maps/ka2/justice_forever_headquarters.json"
         }, {
+            "id": "prM001",
+            "name": "Pacific Rim",
+            "set": "Pacific Rim",
+            "type": "outdoor",
+            "width": 16,
+            "height": 6,
+            "file": "maps/pr/pacific_rim.json"
+        }, {
             "id": "bsiM001",
             "name": "Columbia",
             "set": "BioShock Infinite",
