@@ -4009,6 +4009,54 @@
             "height": 24,
             "file": "maps/asm/dr_strange_mansion.json"
         }, {
+            "id": "stt2M001",
+            "name": "Doomsday",
+            "set": "Star Trek Tactics: II",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/stt2/doomsday.json"
+        }, {
+            "id": "stt2M002",
+            "name": "Badlands",
+            "set": "Star Trek Tactics: II",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/stt2/badlands.json"
+        }, {
+            "id": "stt2M003",
+            "name": "Sector Z6",
+            "set": "Star Trek Tactics: II",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/stt2/sector_z6.json"
+        }, {
+            "id": "stt2M004",
+            "name": "Spacedock",
+            "set": "Star Trek Tactics: II",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/stt2/spacedock.json"
+        }, {
+            "id": "stt2M005",
+            "name": "Delphi Ardru",
+            "set": "Star Trek Tactics: II",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/stt2/delphi_ardru.json"
+        }, {
+            "id": "stt2M006",
+            "name": "Q-Uadrant",
+            "set": "Star Trek Tactics: II",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/stt2/q_uadrant.json"
+        }, {
             "id": "sogM001",
             "name": "Streets of Gotham City",
             "set": "Batman: Streets of Gotham",
