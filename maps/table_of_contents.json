@@ -4721,7 +4721,71 @@
             "height": 24,
             "file": "maps/cr/dawn_of_man.json"
         }, {
+            "id": "crM002",
+            "name": "The Battle of Metropolis, 2006",
+            "set": "Crisis",
+            "type": "outdoor",
+            "width": 10,
+            "height": 10,
+            "file": "maps/cr/the_battle_of_metropolis_2006.json"
+        }, {
+            "id": "crM003",
+            "name": "Camelot, Time of Myth",
+            "set": "Crisis",
+            "type": "outdoor",
+            "width": 10,
+            "height": 10,
+            "file": "maps/cr/camelot_time_of_myth.json"
+        }, {
+            "id": "crM004",
+            "name": "Kooey Kooey Kooey, 1989",
+            "set": "Crisis",
+            "type": "outdoor",
+            "width": 10,
+            "height": 10,
+            "file": "maps/cr/kooey_kooey_kooey_1989.json"
+        }, {
+            "id": "crM005",
+            "name": "Chicago, Earth A.D.",
+            "set": "Crisis",
+            "type": "outdoor",
+            "width": 10,
+            "height": 10,
+            "file": "maps/cr/chicago_earth_ad.json"
+        }, {
+            "id": "crM006",
+            "name": "Coyote, Texas, 1879",
+            "set": "Crisis",
+            "type": "outdoor",
+            "width": 10,
+            "height": 10,
+            "file": "maps/cr/coyote_texas_1879.json"
+        }, {
+            "id": "crM007",
+            "name": "Plaza Square, 2985",
+            "set": "Crisis",
+            "type": "outdoor",
+            "width": 10,
+            "height": 10,
+            "file": "maps/cr/plaza_square_2985.json"
+        }, {
+            "id": "crM008",
+            "name": "Atlantis, 45,000 B.C.",
+            "set": "Crisis",
+            "type": "outdoor",
+            "width": 10,
+            "height": 10,
+            "file": "maps/cr/atlantis_45000_bc.json"
+        }, {
             "id": "crM009",
+            "name": "Markovia, 1945",
+            "set": "Crisis",
+            "type": "outdoor",
+            "width": 10,
+            "height": 10,
+            "file": "maps/cr/markovia_1945.json"
+        }, {
+            "id": "crM010",
             "name": "Anti-Matter Fortress",
             "set": "Crisis",
             "type": "outdoor",
