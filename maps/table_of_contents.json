@@ -4329,6 +4329,54 @@
             "height": 24,
             "file": "maps/gg/knowhere.json"
         }, {
+            "id": "trekM001",
+            "name": "Kobayashi Maru",
+            "set": "Star Trek: Tactics",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/trek/kobayashi_maru.json"
+        }, {
+            "id": "trekM002",
+            "name": "Deep Space Nine",
+            "set": "Star Trek: Tactics",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/trek/deep_space_nine.json"
+        }, {
+            "id": "trekM003",
+            "name": "Wolf 359",
+            "set": "Star Trek: Tactics",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/trek/wolf_359.json"
+        }, {
+            "id": "trekM004",
+            "name": "The Mutara Nebula",
+            "set": "Star Trek: Tactics",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/trek/the_mutara_nebula.json"
+        }, {
+            "id": "trekM005",
+            "name": "Borg Transwarp Hub",
+            "set": "Star Trek: Tactics",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/trek/borg_transwarp_hub.json"
+        }, {
+            "id": "trekM006",
+            "name": "Qo'Nos",
+            "set": "Star Trek: Tactics",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/trek/qo_nos.json"
+        }, {
             "id": "igM001",
             "name": "Nexus of Reality",
             "set": "The Infinity Gauntlet",
