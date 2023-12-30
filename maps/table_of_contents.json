@@ -4713,6 +4713,22 @@
             "height": 24,
             "file": "maps/si/baxter_building.json"
         }, {
+            "id": "baM001",
+            "name": "Crimes Square",
+            "set": "Batman: Alpha",
+            "type": "outdoor",
+            "width": 10,
+            "height": 10,
+            "file": "maps/ba/crimes_square.json"
+        }, {
+            "id": "baM002",
+            "name": "Stephens Park",
+            "set": "Batman: Alpha",
+            "type": "outdoor",
+            "width": 10,
+            "height": 10,
+            "file": "maps/ba/stephens_park.json"
+        }, {
             "id": "crM001",
             "name": "Dawn of Man",
             "set": "Crisis",
