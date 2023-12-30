@@ -3697,6 +3697,14 @@
             "height": 24,
             "file": "maps/mos/metropolis.json"
         }, {
+            "id": "mosM003",
+            "name": "Main Street",
+            "set": "Man of Steel",
+            "type": "outdoor",
+            "width": 16,
+            "height": 6,
+            "file": "maps/mos/main_street.json"
+        }, {
             "id": "im3M001",
             "name": "Port of Miami",
             "set": "Iron Man 3",
@@ -3712,6 +3720,14 @@
             "width": 16,
             "height": 24,
             "file": "maps/im3/the_mandarins_mansion.json"
+        }, {
+            "id": "im3M003",
+            "name": "Mansion Gates",
+            "set": "Iron Man 3",
+            "type": "outdoor",
+            "width": 16,
+            "height": 6,
+            "file": "maps/im3/mansion_gates.json"
         }, {
             "id": "fiM001",
             "name": "Blitzkrieg DC",
@@ -4225,6 +4241,14 @@
             "height": 24,
             "file": "maps/dkr/gotham_bank.json"
         }, {
+            "id": "dkrM003",
+            "name": "Arkham Asylum",
+            "set": "The Dark Knight Rises",
+            "type": "indoor",
+            "width": 16,
+            "height": 6,
+            "file": "maps/dkr/arkham_asylum_minigame.json"
+        }, {
             "id": "avmM001",
             "name": "S.H.I.E.L.D. Helicarrier",
             "set": "Avengers Movie",
@@ -4240,6 +4264,14 @@
             "width": 16,
             "height": 24,
             "file": "maps/avm/stark_tower.json"
+        }, {
+            "id": "avmM003",
+            "name": "S.H.I.E.L.D. Helicarrier",
+            "set": "Avengers Movie",
+            "type": "indoor",
+            "width": 16,
+            "height": 6,
+            "file": "maps/avm/shield_helicarrier_minigame.json"
         }, {
             "id": "ggM001",
             "name": "Blue Area of the Moon",
