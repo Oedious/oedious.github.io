@@ -3161,6 +3161,14 @@
             "height": 24,
             "file": "maps/catws/helicarrier.json"
         }, {
+            "id": "catwsM003",
+            "name": "Triskelion Helibay",
+            "set": "Captain America: The Winter Soldier",
+            "type": "indoor",
+            "width": 16,
+            "height": 6,
+            "file": "maps/catws/triskelion_helibay_minigame.json"
+        }, {
             "id": "sloshM001",
             "name": "Legion Plaza",
             "set": "Superman and the Legion of Super-Heroes",
@@ -3504,6 +3512,14 @@
             "width": 16,
             "height": 24,
             "file": "maps/tdw/royal_naval_academy.json"
+        }, {
+            "id": "tdwM003",
+            "name": "Svartalfheim",
+            "set": "Thor: The Dark World",
+            "type": "outdoor",
+            "width": 16,
+            "height": 6,
+            "file": "maps/tdw/svartalfheim_minigame.json"
         }, {
             "id": "wxmM001",
             "name": "Danger Room",
