@@ -7,7 +7,7 @@
 	"height": 24,
 	"date": "January 2013",
 	"special": [
-		"Doomsday: Squares surrounded by the orange line are the doomsday device and are hindering terrain. Before the beginning of the game, place 10 device tokens next to the map. Once per turn, choose one of your chips that occupies a square inside the doomsday device, you take one device token and roll a d6: deal damage equal to the result to the ship. At the end of the game, each device token is worth 50 victory points.",
+		"Doomsday: Squares surrounded by the orange line are the doomsday device and are hindering terrain. Before the beginning of the game, place 10 device tokens next to the map. Once per turn, choose one of your ships that occupies a square inside the doomsday device, you take one device token and roll a d6: deal damage equal to the result to the ship. At the end of the game, each device token is worth 50 victory points.",
 		"After the resolution of any ranged combat attack made by any ship, the doomsday device uses Penetrating/Psychic Blast to make a ranged combat attack with a 9 attack value, 2 damage value, and a range of 16 against that ship from the the nearest square marked with an X. The line of fire for this attack ignores the effect of the doomsday device and if the line of fire is blocked, the attack can't be made."
 	],
 	"rows": [{
