@@ -3497,6 +3497,38 @@
             "height": 24,
             "file": "maps/t2t/edoras.json"
         }, {
+            "id": "trek3M001",
+            "name": "The Battle of Sector 001",
+            "set": "Star Trek: Tactics III",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/trek3/the_battle_of_sector_001.json"
+        }, {
+            "id": "trek3M002",
+            "name": "Tsiolkovsky's Comet",
+            "set": "Star Trek: Tactics III",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/trek3/tsiolkovskys_comet.json"
+        }, {
+            "id": "trek3M003",
+            "name": "Delphic Expanse",
+            "set": "Star Trek: Tactics III",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/trek3/delphic_expanse.json"
+        }, {
+            "id": "trek3M004",
+            "name": "Black Hole",
+            "set": "Star Trek: Tactics III",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/trek3/black_hole.json"
+        }, {
             "id": "tdwM001",
             "name": "Svartalfheim",
             "set": "Thor: The Dark World",
