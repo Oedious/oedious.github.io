@@ -1,45 +1,48 @@
 {
-	"name": "Tsiolkovsky's Comet",
-	"set": "Star Trek: Tactics III",
-	"source": "Star Trek: Tactics III Starter",
+	"name": "Tholian Web",
+	"set": "Star Trek: Tactics IV",
+	"source": "Star Trek: Tactics IV Starter",
 	"type": "outdoor",
 	"width": 16,
 	"height": 24,
-	"date": "October 2013",
+	"date": "October 2017",
 	"special": [
-		"TSIOLKOVSKY'S COMET: \"Captain, scans indicate that the comet is comprised of frozen polywater, known to cause severe neurogenic intoxication. Entering the area might incur potential risk to the discipline of the crew.\"",
-		"Squares inside the boundaries of an orange line are comet terrain. Each time a ship ends a move in a square of comet terrain, mark that ship with a polywater token.",
-		"All ships on the battlefield can use Mind Control as if they have a range value of 6, but they can only target opposing ships marked with a polywater token; when they do so, modify their attack value by +1 for each polywater token on the target and remove all polywater tokens from the target after the use of Mind Control resolves (ships are not dealt damage due to a target's point value when they use Mind Control this way.)"
+		"ORANGE BOUNDARY LINES ARE THOLIAN WEBS: Tholian Webs block line of fire. If a ship moves through a Tholian Web, after resolutions it is dealt 1 unavoidable damage."
 	],
 	"rows": [{
 		"y": 1,
 		"tiles": [{
-			"x": "A",
-			"isStartingZone": true
+			"x": "A"
 		}, {
-			"x": "B",
-			"isStartingZone": true
+			"x": "B"
 		}, {
-			"x": "C",
-			"isStartingZone": true
+			"x": "C"
 		}, {
 			"x": "D"
 		}, {
-			"x": "E"
+			"x": "E",
+			"isStartingZone": true
 		}, {
-			"x": "F"
+			"x": "F",
+			"isStartingZone": true
 		}, {
-			"x": "G"
+			"x": "G",
+			"isStartingZone": true
 		}, {
-			"x": "H"
+			"x": "H",
+			"isStartingZone": true
 		}, {
-			"x": "I"
+			"x": "I",
+			"isStartingZone": true
 		}, {
-			"x": "J"
+			"x": "J",
+			"isStartingZone": true
 		}, {
-			"x": "K"
+			"x": "K",
+			"isStartingZone": true
 		}, {
-			"x": "L"
+			"x": "L",
+			"isStartingZone": true
 		}, {
 			"x": "M"
 		}, {
@@ -52,32 +55,37 @@
 	}, {
 		"y": 2,
 		"tiles": [{
-			"x": "A",
-			"isStartingZone": true
+			"x": "A"
 		}, {
-			"x": "B",
-			"isStartingZone": true
+			"x": "B"
 		}, {
-			"x": "C",
-			"isStartingZone": true
+			"x": "C"
 		}, {
 			"x": "D"
 		}, {
-			"x": "E"
+			"x": "E",
+			"isStartingZone": true
 		}, {
-			"x": "F"
+			"x": "F",
+			"isStartingZone": true
 		}, {
-			"x": "G"
+			"x": "G",
+			"isStartingZone": true
 		}, {
-			"x": "H"
+			"x": "H",
+			"isStartingZone": true
 		}, {
-			"x": "I"
+			"x": "I",
+			"isStartingZone": true
 		}, {
-			"x": "J"
+			"x": "J",
+			"isStartingZone": true
 		}, {
-			"x": "K"
+			"x": "K",
+			"isStartingZone": true
 		}, {
-			"x": "L"
+			"x": "L",
+			"isStartingZone": true
 		}, {
 			"x": "M"
 		}, {
@@ -90,14 +98,11 @@
 	}, {
 		"y": 3,
 		"tiles": [{
-			"x": "A",
-			"isStartingZone": true
+			"x": "A"
 		}, {
-			"x": "B",
-			"isStartingZone": true
+			"x": "B"
 		}, {
-			"x": "C",
-			"isStartingZone": true
+			"x": "C"
 		}, {
 			"x": "D"
 		}, {
@@ -128,14 +133,11 @@
 	}, {
 		"y": 4,
 		"tiles": [{
-			"x": "A",
-			"isStartingZone": true
+			"x": "A"
 		}, {
-			"x": "B",
-			"isStartingZone": true
+			"x": "B"
 		}, {
-			"x": "C",
-			"isStartingZone": true
+			"x": "C"
 		}, {
 			"x": "D"
 		}, {
@@ -166,14 +168,11 @@
 	}, {
 		"y": 5,
 		"tiles": [{
-			"x": "A",
-			"isStartingZone": true
+			"x": "A"
 		}, {
-			"x": "B",
-			"isStartingZone": true
+			"x": "B"
 		}, {
-			"x": "C",
-			"isStartingZone": true
+			"x": "C"
 		}, {
 			"x": "D"
 		}, {
@@ -230,8 +229,7 @@
 		}, {
 			"x": "M"
 		}, {
-			"x": "N",
-			"terrain": "hindering"
+			"x": "N"
 		}, {
 			"x": "O"
 		}, {
@@ -369,8 +367,7 @@
 		}, {
 			"x": "L"
 		}, {
-			"x": "M",
-			"terrain": "hindering"
+			"x": "M"
 		}, {
 			"x": "N"
 		}, {
@@ -471,8 +468,7 @@
 		}, {
 			"x": "J"
 		}, {
-			"x": "K",
-			"terrain": "hindering"
+			"x": "K"
 		}, {
 			"x": "L"
 		}, {
@@ -501,8 +497,7 @@
 		}, {
 			"x": "G"
 		}, {
-			"x": "H",
-			"terrain": "hindering"
+			"x": "H"
 		}, {
 			"x": "I"
 		}, {
@@ -609,8 +604,7 @@
 		}, {
 			"x": "H"
 		}, {
-			"x": "I",
-			"terrain": "hindering"
+			"x": "I"
 		}, {
 			"x": "J"
 		}, {
@@ -633,20 +627,15 @@
 		}, {
 			"x": "B"
 		}, {
-			"x": "C",
-			"terrain": "hindering"
+			"x": "C"
 		}, {
-			"x": "D",
-			"terrain": "hindering"
+			"x": "D"
 		}, {
-			"x": "E",
-			"terrain": "hindering"
+			"x": "E"
 		}, {
-			"x": "F",
-			"terrain": "hindering"
+			"x": "F"
 		}, {
-			"x": "G",
-			"terrain": "hindering"
+			"x": "G"
 		}, {
 			"x": "H"
 		}, {
@@ -673,20 +662,15 @@
 		}, {
 			"x": "B"
 		}, {
-			"x": "C",
-			"terrain": "hindering"
+			"x": "C"
 		}, {
-			"x": "D",
-			"terrain": "hindering"
+			"x": "D"
 		}, {
-			"x": "E",
-			"terrain": "hindering"
+			"x": "E"
 		}, {
-			"x": "F",
-			"terrain": "hindering"
+			"x": "F"
 		}, {
-			"x": "G",
-			"terrain": "hindering"
+			"x": "G"
 		}, {
 			"x": "H"
 		}, {
@@ -713,20 +697,15 @@
 		}, {
 			"x": "B"
 		}, {
-			"x": "C",
-			"terrain": "hindering"
+			"x": "C"
 		}, {
-			"x": "D",
-			"terrain": "hindering"
+			"x": "D"
 		}, {
-			"x": "E",
-			"terrain": "hindering"
+			"x": "E"
 		}, {
-			"x": "F",
-			"terrain": "hindering"
+			"x": "F"
 		}, {
-			"x": "G",
-			"terrain": "hindering"
+			"x": "G"
 		}, {
 			"x": "H"
 		}, {
@@ -740,14 +719,11 @@
 		}, {
 			"x": "M"
 		}, {
-			"x": "N",
-			"isStartingZone": true
+			"x": "N"
 		}, {
-			"x": "O",
-			"isStartingZone": true
+			"x": "O"
 		}, {
-			"x": "P",
-			"isStartingZone": true
+			"x": "P"
 		}]
 	}, {
 		"y": 21,
@@ -756,20 +732,15 @@
 		}, {
 			"x": "B"
 		}, {
-			"x": "C",
-			"terrain": "hindering"
+			"x": "C"
 		}, {
-			"x": "D",
-			"terrain": "hindering"
+			"x": "D"
 		}, {
-			"x": "E",
-			"terrain": "hindering"
+			"x": "E"
 		}, {
-			"x": "F",
-			"terrain": "hindering"
+			"x": "F"
 		}, {
-			"x": "G",
-			"terrain": "hindering"
+			"x": "G"
 		}, {
 			"x": "H"
 		}, {
@@ -783,14 +754,11 @@
 		}, {
 			"x": "M"
 		}, {
-			"x": "N",
-			"isStartingZone": true
+			"x": "N"
 		}, {
-			"x": "O",
-			"isStartingZone": true
+			"x": "O"
 		}, {
-			"x": "P",
-			"isStartingZone": true
+			"x": "P"
 		}]
 	}, {
 		"y": 22,
@@ -799,20 +767,15 @@
 		}, {
 			"x": "B"
 		}, {
-			"x": "C",
-			"terrain": "hindering"
+			"x": "C"
 		}, {
-			"x": "D",
-			"terrain": "hindering"
+			"x": "D"
 		}, {
-			"x": "E",
-			"terrain": "hindering"
+			"x": "E"
 		}, {
-			"x": "F",
-			"terrain": "hindering"
+			"x": "F"
 		}, {
-			"x": "G",
-			"terrain": "hindering"
+			"x": "G"
 		}, {
 			"x": "H"
 		}, {
@@ -826,14 +789,11 @@
 		}, {
 			"x": "M"
 		}, {
-			"x": "N",
-			"isStartingZone": true
+			"x": "N"
 		}, {
-			"x": "O",
-			"isStartingZone": true
+			"x": "O"
 		}, {
-			"x": "P",
-			"isStartingZone": true
+			"x": "P"
 		}]
 	}, {
 		"y": 23,
@@ -846,32 +806,37 @@
 		}, {
 			"x": "D"
 		}, {
-			"x": "E"
+			"x": "E",
+			"isStartingZone": true
 		}, {
-			"x": "F"
+			"x": "F",
+			"isStartingZone": true
 		}, {
-			"x": "G"
+			"x": "G",
+			"isStartingZone": true
 		}, {
-			"x": "H"
+			"x": "H",
+			"isStartingZone": true
 		}, {
-			"x": "I"
+			"x": "I",
+			"isStartingZone": true
 		}, {
-			"x": "J"
+			"x": "J",
+			"isStartingZone": true
 		}, {
-			"x": "K"
+			"x": "K",
+			"isStartingZone": true
 		}, {
-			"x": "L"
+			"x": "L",
+			"isStartingZone": true
 		}, {
 			"x": "M"
 		}, {
-			"x": "N",
-			"isStartingZone": true
+			"x": "N"
 		}, {
-			"x": "O",
-			"isStartingZone": true
+			"x": "O"
 		}, {
-			"x": "P",
-			"isStartingZone": true
+			"x": "P"
 		}]
 	}, {
 		"y": 24,
@@ -884,333 +849,182 @@
 		}, {
 			"x": "D"
 		}, {
-			"x": "E"
+			"x": "E",
+			"isStartingZone": true
 		}, {
-			"x": "F"
+			"x": "F",
+			"isStartingZone": true
 		}, {
-			"x": "G"
+			"x": "G",
+			"isStartingZone": true
 		}, {
-			"x": "H"
+			"x": "H",
+			"isStartingZone": true
 		}, {
-			"x": "I"
+			"x": "I",
+			"isStartingZone": true
 		}, {
-			"x": "J"
+			"x": "J",
+			"isStartingZone": true
 		}, {
-			"x": "K"
+			"x": "K",
+			"isStartingZone": true
 		}, {
-			"x": "L"
+			"x": "L",
+			"isStartingZone": true
 		}, {
 			"x": "M"
 		}, {
-			"x": "N",
-			"isStartingZone": true
+			"x": "N"
 		}, {
-			"x": "O",
-			"isStartingZone": true
+			"x": "O"
 		}, {
-			"x": "P",
-			"isStartingZone": true
+			"x": "P"
 		}]
 	}],
 	"walls": [{
-		"x0": 14,
-		"y0": 1,
-		"x1": 15,
-		"y1": 1,
-		"type": "forceField"
-	}, {
-		"x0": 14,
-		"y0": 1,
-		"x1": 14,
-		"y1": 2,
-		"type": "forceField"
-	}, {
-		"x0": 15,
-		"y0": 1,
-		"x1": 15,
-		"y1": 5,
-		"type": "forceField"
-	}, {
-		"x0": 13,
-		"y0": 2,
-		"x1": 14,
-		"y1": 2,
-		"type": "forceField"
-	}, {
-		"x0": 13,
-		"y0": 2,
-		"x1": 13,
-		"y1": 4,
-		"type": "forceField"
-	}, {
-		"x0": 12,
-		"y0": 4,
-		"x1": 13,
-		"y1": 4,
-		"type": "forceField"
-	}, {
-		"x0": 12,
-		"y0": 4,
-		"x1": 12,
-		"y1": 6,
-		"type": "forceField"
-	}, {
-		"x0": 14,
-		"y0": 5,
-		"x1": 15,
-		"y1": 5,
-		"type": "forceField"
-	}, {
-		"x0": 14,
-		"y0": 5,
-		"x1": 14,
-		"y1": 11,
-		"type": "forceField"
-	}, {
-		"x0": 11,
-		"y0": 6,
-		"x1": 12,
-		"y1": 6,
-		"type": "forceField"
-	}, {
-		"x0": 11,
-		"y0": 6,
-		"x1": 11,
+		"x0": 2,
+		"y0": 3,
+		"x1": 2,
 		"y1": 7,
 		"type": "forceField"
 	}, {
-		"x0": 10,
+		"x0": 14,
+		"y0": 3,
+		"x1": 14,
+		"y1": 7,
+		"type": "forceField"
+	}, {
+		"x0": 4,
+		"y0": 5,
+		"x1": 12,
+		"y1": 5,
+		"type": "forceField"
+	}, {
+		"x0": 8,
+		"y0": 5,
+		"x1": 8,
+		"y1": 9,
+		"type": "forceField"
+	}, {
+		"x0": 2,
 		"y0": 7,
-		"x1": 11,
+		"x1": 4,
 		"y1": 7,
+		"type": "forceField"
+	}, {
+		"x0": 4,
+		"y0": 7,
+		"x1": 4,
+		"y1": 10,
+		"type": "forceField"
+	}, {
+		"x0": 6,
+		"y0": 7,
+		"x1": 6,
+		"y1": 11,
 		"type": "forceField"
 	}, {
 		"x0": 10,
 		"y0": 7,
 		"x1": 10,
-		"y1": 9,
-		"type": "forceField"
-	}, {
-		"x0": 9,
-		"y0": 9,
-		"x1": 10,
-		"y1": 9,
-		"type": "forceField"
-	}, {
-		"x0": 9,
-		"y0": 9,
-		"x1": 9,
-		"y1": 10,
-		"type": "forceField"
-	}, {
-		"x0": 8,
-		"y0": 10,
-		"x1": 9,
-		"y1": 10,
-		"type": "forceField"
-	}, {
-		"x0": 8,
-		"y0": 10,
-		"x1": 8,
 		"y1": 11,
 		"type": "forceField"
 	}, {
-		"x0": 7,
-		"y0": 11,
-		"x1": 8,
-		"y1": 11,
-		"type": "forceField"
-	}, {
-		"x0": 7,
-		"y0": 11,
-		"x1": 7,
-		"y1": 12,
-		"type": "forceField"
-	}, {
-		"x0": 13,
-		"y0": 11,
+		"x0": 12,
+		"y0": 7,
 		"x1": 14,
+		"y1": 7,
+		"type": "forceField"
+	}, {
+		"x0": 12,
+		"y0": 7,
+		"x1": 12,
+		"y1": 10,
+		"type": "forceField"
+	}, {
+		"x0": 2,
+		"y0": 9,
+		"x1": 2,
+		"y1": 15,
+		"type": "forceField"
+	}, {
+		"x0": 14,
+		"y0": 9,
+		"x1": 14,
+		"y1": 15,
+		"type": "forceField"
+	}, {
+		"x0": 6,
+		"y0": 11,
+		"x1": 10,
 		"y1": 11,
 		"type": "forceField"
 	}, {
-		"x0": 13,
-		"y0": 11,
-		"x1": 13,
+		"x0": 6,
+		"y0": 13,
+		"x1": 10,
 		"y1": 13,
 		"type": "forceField"
 	}, {
 		"x0": 6,
-		"y0": 12,
-		"x1": 7,
-		"y1": 12,
-		"type": "forceField"
-	}, {
-		"x0": 6,
-		"y0": 12,
-		"x1": 6,
-		"y1": 13,
-		"type": "forceField"
-	}, {
-		"x0": 5,
 		"y0": 13,
 		"x1": 6,
-		"y1": 13,
+		"y1": 17,
 		"type": "forceField"
 	}, {
-		"x0": 5,
+		"x0": 10,
 		"y0": 13,
-		"x1": 5,
-		"y1": 14,
-		"type": "forceField"
-	}, {
-		"x0": 12,
-		"y0": 13,
-		"x1": 13,
-		"y1": 13,
-		"type": "forceField"
-	}, {
-		"x0": 12,
-		"y0": 13,
-		"x1": 12,
-		"y1": 15,
-		"type": "forceField"
-	}, {
-		"x0": 4,
-		"y0": 14,
-		"x1": 5,
-		"y1": 14,
+		"x1": 10,
+		"y1": 17,
 		"type": "forceField"
 	}, {
 		"x0": 4,
 		"y0": 14,
 		"x1": 4,
-		"y1": 15,
+		"y1": 17,
 		"type": "forceField"
 	}, {
-		"x0": 3,
-		"y0": 15,
-		"x1": 4,
-		"y1": 15,
-		"type": "forceField"
-	}, {
-		"x0": 3,
-		"y0": 15,
-		"x1": 3,
-		"y1": 16,
-		"type": "forceField"
-	}, {
-		"x0": 11,
-		"y0": 15,
+		"x0": 12,
+		"y0": 14,
 		"x1": 12,
-		"y1": 15,
+		"y1": 17,
 		"type": "forceField"
 	}, {
-		"x0": 11,
+		"x0": 8,
 		"y0": 15,
-		"x1": 11,
-		"y1": 17,
-		"type": "forceField"
-	}, {
-		"x0": 2,
-		"y0": 16,
-		"x1": 3,
-		"y1": 16,
-		"type": "forceField"
-	}, {
-		"x0": 2,
-		"y0": 16,
-		"x1": 2,
-		"y1": 17,
-		"type": "forceField"
-	}, {
-		"x0": 1,
-		"y0": 17,
-		"x1": 2,
-		"y1": 17,
-		"type": "forceField"
-	}, {
-		"x0": 1,
-		"y0": 17,
-		"x1": 1,
-		"y1": 22,
-		"type": "forceField"
-	}, {
-		"x0": 10,
-		"y0": 17,
-		"x1": 11,
-		"y1": 17,
-		"type": "forceField"
-	}, {
-		"x0": 10,
-		"y0": 17,
-		"x1": 10,
+		"x1": 8,
 		"y1": 19,
 		"type": "forceField"
 	}, {
-		"x0": 9,
+		"x0": 2,
+		"y0": 17,
+		"x1": 4,
+		"y1": 17,
+		"type": "forceField"
+	}, {
+		"x0": 2,
+		"y0": 17,
+		"x1": 2,
+		"y1": 21,
+		"type": "forceField"
+	}, {
+		"x0": 12,
+		"y0": 17,
+		"x1": 14,
+		"y1": 17,
+		"type": "forceField"
+	}, {
+		"x0": 14,
+		"y0": 17,
+		"x1": 14,
+		"y1": 21,
+		"type": "forceField"
+	}, {
+		"x0": 4,
 		"y0": 19,
-		"x1": 10,
+		"x1": 12,
 		"y1": 19,
-		"type": "forceField"
-	}, {
-		"x0": 9,
-		"y0": 19,
-		"x1": 9,
-		"y1": 20,
-		"type": "forceField"
-	}, {
-		"x0": 8,
-		"y0": 20,
-		"x1": 9,
-		"y1": 20,
-		"type": "forceField"
-	}, {
-		"x0": 8,
-		"y0": 20,
-		"x1": 8,
-		"y1": 21,
-		"type": "forceField"
-	}, {
-		"x0": 7,
-		"y0": 21,
-		"x1": 8,
-		"y1": 21,
-		"type": "forceField"
-	}, {
-		"x0": 7,
-		"y0": 21,
-		"x1": 7,
-		"y1": 22,
-		"type": "forceField"
-	}, {
-		"x0": 1,
-		"y0": 22,
-		"x1": 2,
-		"y1": 22,
-		"type": "forceField"
-	}, {
-		"x0": 2,
-		"y0": 22,
-		"x1": 2,
-		"y1": 23,
-		"type": "forceField"
-	}, {
-		"x0": 6,
-		"y0": 22,
-		"x1": 7,
-		"y1": 22,
-		"type": "forceField"
-	}, {
-		"x0": 6,
-		"y0": 22,
-		"x1": 6,
-		"y1": 23,
-		"type": "forceField"
-	}, {
-		"x0": 2,
-		"y0": 23,
-		"x1": 6,
-		"y1": 23,
 		"type": "forceField"
 	}]
 }

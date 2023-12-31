@@ -2238,6 +2238,54 @@
             "height": 24,
             "file": "maps/hq/roller_derby.json"
         }, {
+            "id": "trek4M001",
+            "name": "Caretaker's Array",
+            "set": "Star Trek: Tactics IV",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/trek4/caretakers_array.json"
+        }, {
+            "id": "trek4M002",
+            "name": "The Battle of Chin'Toka",
+            "set": "Star Trek: Tactics IV",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/trek4/the_battle_of_chin_toka.json"
+        }, {
+            "id": "trek4M003",
+            "name": "Mutara Nebula",
+            "set": "Star Trek: Tactics IV",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/trek4/mutara_nebula.json"
+        }, {
+            "id": "trek4M004",
+            "name": "Briar Patch",
+            "set": "Star Trek: Tactics IV",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/trek4/briar_patch.json"
+        }, {
+            "id": "trek4M005",
+            "name": "Tholian Web",
+            "set": "Star Trek: Tactics IV",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/trek4/tholian_web.json"
+        }, {
+            "id": "trek4M006",
+            "name": "Proving Grounds",
+            "set": "Star Trek: Tactics IV",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/trek4/proving_grounds.json"
+        }, {
             "id": "tmtM001",
             "name": "Gjallerbru",
             "set": "The Mighty Thor",
