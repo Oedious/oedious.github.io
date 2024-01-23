@@ -342,7 +342,12 @@
             "type": "indoor",
             "width": 16,
             "height": 24,
-            "file": "maps/wkd23/ace_chemicals.json"
+            "file": "maps/wkd23/ace_chemicals.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "mx": true
+            }
         }, {
             "id": "wkd23M002",
             "name": "Ace Street",
@@ -350,7 +355,12 @@
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/wkd23/ace_street.json"
+            "file": "maps/wkd23/ace_street.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "mx": true
+            }
         }, {
             "id": "btuM001",
             "name": "Danny The Street",
