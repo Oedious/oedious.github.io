@@ -362,6 +362,14 @@
                 "mx": true
             }
         }, {
+            "id": "cco23M001",
+            "name": "Fountain of Youth",
+            "set": "ChampionClix Open 2023",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/cco23/fountain_of_youth.json"
+        }, {
             "id": "btuM001",
             "name": "Danny The Street",
             "set": "Batman Team-Up",
