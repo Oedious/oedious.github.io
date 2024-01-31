@@ -1878,6 +1878,14 @@
             "height": 24,
             "file": "maps/roc14/mayan_ruins.json"
         }, {
+            "id": "roc19M024",
+            "name": "The Octagon",
+            "set": "ROC 2019",
+            "type": "indoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/roc19/the_octagon.json"
+        }, {
             "id": "mjx19M001",
             "name": "Lightcycle Battle Arena",
             "set": "Majestix Open Series 2019",
