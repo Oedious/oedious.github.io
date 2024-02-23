@@ -13,6 +13,7 @@
 			"elevation": 3
 		}, {
 			"x": "B",
+			"terrain": "hindering",
 			"elevation": 3
 		}, {
 			"x": "C",
@@ -56,6 +57,7 @@
 			"elevation": 3
 		}, {
 			"x": "B",
+			"terrain": "hindering",
 			"elevation": 3
 		}, {
 			"x": "C",
@@ -136,6 +138,7 @@
 		"y": 4,
 		"tiles": [{
 			"x": "A",
+			"terrain": "hindering",
 			"elevation": 3
 		}, {
 			"x": "B",
@@ -176,6 +179,7 @@
 		"y": 5,
 		"tiles": [{
 			"x": "A",
+			"terrain": "hindering",
 			"elevation": 3
 		}, {
 			"x": "B",
@@ -221,6 +225,7 @@
 		"y": 6,
 		"tiles": [{
 			"x": "A",
+			"terrain": "hindering",
 			"elevation": 3
 		}, {
 			"x": "B",
