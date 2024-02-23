@@ -1,5 +1,44 @@
 {
     "maps": [{
+            "id": "msnpM001",
+            "name": "Courtroom",
+            "set": "Marvel Studios Next Phase",
+            "type": "indoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/msnp/courtroom.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "mx": true
+            }
+        },{
+            "id": "msnpM002",
+            "name": "Abomaste Yurt",
+            "set": "Marvel Studios Next Phase",
+            "type": "indoorOutdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/msnp/abomaste_yurt.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "mx": true
+            }
+        },{
+            "id": "msnpM003",
+            "name": "Kate's Apartment",
+            "set": "Marvel Studios Next Phase",
+            "type": "indoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/msnp/kates_apartment.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "mx": true
+            }
+        },{
             "id": "d24M001",
             "name": "Street",
             "set": "DC Starter 2024",
