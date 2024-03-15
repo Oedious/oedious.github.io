@@ -38,6 +38,28 @@
                 "wko": true,
                 "mx": true
             }
+        }, {
+            "id": "mjx24M001",
+            "name": "Kaiju Mountain",
+            "set": "Majestix Open Series 2024",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/mjx24/kaiju_mountain.json",
+            "age": {
+                "mx": true
+            }
+        }, {
+            "id": "mjx24M002",
+            "name": "Kaiju Mountain V2",
+            "set": "Majestix Open Series 2024",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/mjx24/kaiju_mountain_v2.json",
+            "age": {
+                "mx": true
+            }
         },{
             "id": "d24M001",
             "name": "Street",
