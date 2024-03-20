@@ -38,6 +38,19 @@
                 "wko": true,
                 "mx": true
             }
+        },{
+            "id": "msnpM004",
+            "name": "Bloodstone Maze",
+            "set": "Marvel Studios Next Phase",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/msnp/bloodstone_maze.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "mx": true
+            }
         }, {
             "id": "mjx24M001",
             "name": "Kaiju Mountain",
