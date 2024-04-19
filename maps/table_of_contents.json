@@ -52,6 +52,39 @@
                 "mx": true
             }
         }, {
+            "id": "roc24M001",
+            "name": "Icy Lake",
+            "set": "ROC 2024",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/roc24/icy_lake.json",
+            "age": {
+                "modern": true
+            }
+        }, {
+            "id": "roc24M002",
+            "name": "Major Brock's Bunker",
+            "set": "ROC 2024",
+            "type": "indoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/roc24/major_brocks_bunker.json",
+            "age": {
+                "modern": true
+            }
+        }, {
+            "id": "roc24M003",
+            "name": "Brock 'n' Roll Concert",
+            "set": "ROC 2024",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/roc24/brock_n_roll_concert.json",
+            "age": {
+                "modern": true
+            }
+        }, {
             "id": "mjx24M001",
             "name": "Kaiju Mountain",
             "set": "Majestix Open Series 2024",
