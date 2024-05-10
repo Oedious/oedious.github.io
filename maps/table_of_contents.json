@@ -1,5 +1,57 @@
 {
     "maps": [{
+            "id": "dwxM001",
+            "name": "Weapon X Lab",
+            "set": "Deadpool Weapon X",
+            "type": "indoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/dwx/weapon_x_lab.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "mx": true
+            }
+        },{
+            "id": "dwxM002",
+            "name": "Sentinel Factory",
+            "set": "Deadpool Weapon X",
+            "type": "indoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/dwx/sentinel_factory.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "mx": true
+            }
+        },{
+            "id": "dwxM003",
+            "name": "Savage Land",
+            "set": "Deadpool Weapon X",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/dwx/savage_land.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "mx": true
+            }
+        },{
+            "id": "dwxM004",
+            "name": "Canadian Wilderness",
+            "set": "Deadpool Weapon X",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/dwx/canadian_wilderness.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "mx": true
+            }
+        },{
             "id": "msnpM001",
             "name": "Courtroom",
             "set": "Marvel Studios Next Phase",
