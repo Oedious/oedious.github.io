@@ -440,6 +440,17 @@
                 "modern": true
             }
         }, {
+            "id": "roc23M005",
+            "name": "Temple Entrance",
+            "set": "ROC 2023",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/roc23/temple_entrance.json",
+            "age": {
+                "modern": true
+            }
+        }, {
             "id": "mjx23M001",
             "name": "Haddon Street",
             "set": "Majestix Open Series 2023",
