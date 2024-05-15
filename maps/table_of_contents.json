@@ -1660,6 +1660,14 @@
             "height": 24,
             "file": "maps/roc20/chemical_plant.json"
         }, {
+            "id": "roc20M020",
+            "name": "Garden Oasis",
+            "set": "ROC 2020",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/roc20/garden_oasis.json"
+        }, {
             "id": "mjx20M001",
             "name": "Ice Planet",
             "set": "Majestix Open Series 2020",
