@@ -52,6 +52,32 @@
                 "mx": true
             }
         },{
+            "id": "dwxM005",
+            "name": "Monster Island",
+            "set": "Deadpool Weapon X",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/dwx/monster_island.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "mx": true
+            }
+        },{
+            "id": "dwxM006",
+            "name": "Terra Verde",
+            "set": "Deadpool Weapon X",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/dwx/terra_verde.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "mx": true
+            }
+        },{
             "id": "msnpM001",
             "name": "Courtroom",
             "set": "Marvel Studios Next Phase",
