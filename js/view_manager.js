@@ -15,12 +15,7 @@ var instance = M.Collapsible.init(elem, {
     this.mapIndex_ = 0;
 
 	if (tocPath){
-		var mapId = this.getParameterByName_("m");
-		var serialized = this.getParameterByName_("s");
-		if (serialized) {
-			mapId = this.deserialize(serialized);
-		}
-		this.loadTableOfContents_(mapId);
+		this.loadTableOfContents_();
 	}
 }
 
@@ -32,6 +27,12 @@ ViewManager.prototype.loadAssetFrame = function(shortCode) {
 ViewManager.prototype.loadTableOfContents_ = function(mapId) {
     var mgr = this;
     mgr.toc_.load(function() {
+		var mapFile = mgr.getParameterByName_("f");
+		if (mapFile) {
+            mgr.loadMap_(mapFile);
+            return;
+		}
+		var mapId = mgr.getParameterByName_("m");
         var index = mgr.toc_.getIndexByMapId(mapId);
         if (index < 0) {
             index = 0;
@@ -135,18 +136,6 @@ ViewManager.prototype.draw = function() {
         }
         document.getElementById("mapType").innerHTML = mapType;
     }
-}
-
-ViewManager.prototype.serialize = function() {
-    var obj = {};
-    obj.m = this.getCurrentMapEntry_().id;
-    obj.p = [];
-    return btoa(JSON.stringify(obj));
-}
-
-ViewManager.prototype.deserialize = function(serialized) {
-    var obj = JSON.parse(atob(serialized));
-    return obj.m;
 }
 
 ViewManager.prototype.previousMap = function() {

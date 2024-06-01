@@ -229,14 +229,6 @@ class HCMap {
 		ctx.stroke();
 	}
 
-	serialize() {
-		return {};
-	}
-
-	deserialize(obj) {
-
-	}
-
 	getTile(x, y) {
 		if (x < 0 || y < 0 || x >= this.width || y >= this.height) {
 			return null;
