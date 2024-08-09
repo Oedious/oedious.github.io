@@ -1,5 +1,57 @@
 {
     "maps": [{
+            "id": "motM001",
+            "name": "Apokolips",
+            "set": "Masters of Time",
+            "type": "indoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/mot/apokolips.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "mx": true
+            }
+        },{
+            "id": "motM002",
+            "name": "House of Mystery",
+            "set": "Masters of Time",
+            "type": "indoorOutdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/mot/house_of_mystery.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "mx": true
+            }
+        },{
+            "id": "motM003",
+            "name": "Paradise Island",
+            "set": "Masters of Time",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/mot/paradise_island.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "mx": true
+            }
+        },{
+            "id": "motM004",
+            "name": "High Noon Saloon",
+            "set": "Masters of Time",
+            "type": "indoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/mot/high_noon_saloon.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "mx": true
+            }
+        },{
             "id": "dwxM001",
             "name": "Weapon X Lab",
             "set": "Deadpool Weapon X",
