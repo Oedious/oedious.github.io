@@ -52,6 +52,32 @@
                 "mx": true
             }
         },{
+            "id": "motM005",
+            "name": "The Temple",
+            "set": "Masters of Time",
+            "type": "indoorOutdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/mot/the_temple.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "mx": true
+            }
+        },{
+            "id": "motM006",
+            "name": "Lazarus Pit",
+            "set": "Masters of Time",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/mot/lazarus_pit.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "mx": true
+            }
+        },{
             "id": "dwxM001",
             "name": "Weapon X Lab",
             "set": "Deadpool Weapon X",
