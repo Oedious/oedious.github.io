@@ -1,12 +1,12 @@
 {
     "maps": [{
             "id": "motM001",
-            "name": "Apokolips",
+            "name": "High Noon Saloon",
             "set": "Masters of Time",
             "type": "indoor",
             "width": 16,
             "height": 16,
-            "file": "maps/mot/apokolips.json",
+            "file": "maps/mot/high_noon_saloon.json",
             "age": {
                 "modern": true,
                 "wko": true,
@@ -14,19 +14,6 @@
             }
         },{
             "id": "motM002",
-            "name": "House of Mystery",
-            "set": "Masters of Time",
-            "type": "indoorOutdoor",
-            "width": 16,
-            "height": 16,
-            "file": "maps/mot/house_of_mystery.json",
-            "age": {
-                "modern": true,
-                "wko": true,
-                "mx": true
-            }
-        },{
-            "id": "motM003",
             "name": "Paradise Island",
             "set": "Masters of Time",
             "type": "outdoor",
@@ -39,13 +26,26 @@
                 "mx": true
             }
         },{
-            "id": "motM004",
-            "name": "High Noon Saloon",
+            "id": "motM003",
+            "name": "Apokolips",
             "set": "Masters of Time",
             "type": "indoor",
             "width": 16,
             "height": 16,
-            "file": "maps/mot/high_noon_saloon.json",
+            "file": "maps/mot/apokolips.json",
+            "age": {
+                "modern": true,
+                "wko": true,
+                "mx": true
+            }
+        },{
+            "id": "motM004",
+            "name": "House of Mystery",
+            "set": "Masters of Time",
+            "type": "indoorOutdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/mot/house_of_mystery.json",
             "age": {
                 "modern": true,
                 "wko": true,
