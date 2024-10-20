@@ -523,12 +523,12 @@
             }
         }, {
             "id": "roc23M003",
-            "name": "Critical Clix Interdimensional Head Quarters",
+            "name": "Critical Clix Headquarters",
             "set": "ROC 2023",
             "type": "outdoor",
             "width": 16,
             "height": 24,
-            "file": "maps/roc23/critical_clix_interdimensional_head_quarters.json",
+            "file": "maps/roc23/critical_clix_headquarters.json",
             "age": {
                 "modern": true
             }
