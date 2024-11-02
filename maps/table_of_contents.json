@@ -228,6 +228,14 @@
                 "silver": true
             }
         }, {
+            "id": "roc24M004",
+            "name": "The Mansion",
+            "set": "ROC 2024",
+            "type": "indoorOutdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/roc24/the_mansion.json"
+        }, {
             "id": "mjx24M001",
             "name": "Kaiju Mountain",
             "set": "Majestix Open Series 2024",
