@@ -1380,6 +1380,14 @@
                 "silver": true
             }
         }, {
+            "id": "roc21M019",
+            "name": "Shaded Realm Light",
+            "set": "ROC 2021",
+            "type": "indoorOutdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/roc21/shaded_realm_light.json"
+        }, {
             "id": "mjx21M001",
             "name": "Perfection",
             "set": "Majestix Open Series 2021",
