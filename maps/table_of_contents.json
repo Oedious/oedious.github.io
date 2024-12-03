@@ -1,5 +1,17 @@
 {
     "maps": [{
+            "id": "bpM001",
+            "name": "Wakandan Battlefield",
+            "set": "Black Panther",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/bp/wakandan_battlefield.json",
+            "age": {
+                "modern": true,
+                "silver": true
+            }
+        },{
             "id": "bpM002",
             "name": "Little Mogadishu",
             "set": "Black Panther",
@@ -19,6 +31,18 @@
             "width": 16,
             "height": 16,
             "file": "maps/bp/vibranium_mines.json",
+            "age": {
+                "modern": true,
+                "silver": true
+            }
+        },{
+            "id": "bpM004",
+            "name": "Testing Grounds",
+            "set": "Black Panther",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/bp/testing_grounds.json",
             "age": {
                 "modern": true,
                 "silver": true
