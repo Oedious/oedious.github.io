@@ -1,5 +1,41 @@
 {
     "maps": [{
+            "id": "cltrM001",
+            "name": "Knowhere",
+            "set": "Collector's Trove",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/cltr/knowhere.json",
+            "age": {
+                "modern": true,
+                "silver": true
+            }
+        },{
+            "id": "cltrM002",
+            "name": "Guardian Ship",
+            "set": "Collector's Trove",
+            "type": "indoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/cltr/guardian_ship.json",
+            "age": {
+                "modern": true,
+                "silver": true
+            }
+        },{
+            "id": "cltrM003",
+            "name": "The Collection",
+            "set": "Collector's Trove",
+            "type": "indoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/cltr/the_collection.json",
+            "age": {
+                "modern": true,
+                "silver": true
+            }
+        },{
             "id": "bpM001",
             "name": "Wakandan Battlefield",
             "set": "Black Panther",
