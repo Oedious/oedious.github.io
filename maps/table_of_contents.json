@@ -1,5 +1,29 @@
 {
     "maps": [{
+            "id": "spvM001",
+            "name": "Hall of Science",
+            "set": "Spider-Verse",
+            "type": "indoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/spv/hall_of_science.json",
+            "age": {
+                "modern": true,
+                "silver": true
+            }
+        },{
+            "id": "spvM002",
+            "name": "The Tangle",
+            "set": "Spider-Verse",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/spv/the_tangle.json",
+            "age": {
+                "modern": true,
+                "silver": true
+            }
+        },{
             "id": "cltrM001",
             "name": "Knowhere",
             "set": "Collector's Trove",
