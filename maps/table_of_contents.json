@@ -24,6 +24,18 @@
                 "silver": true
             }
         },{
+            "id": "spvM003",
+            "name": "Alchemax",
+            "set": "Spider-Verse",
+            "type": "indoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/spv/alchemax.json",
+            "age": {
+                "modern": true,
+                "silver": true
+            }
+        },{
             "id": "cltrM001",
             "name": "Knowhere",
             "set": "Collector's Trove",
