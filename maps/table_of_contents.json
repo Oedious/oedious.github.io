@@ -83,6 +83,18 @@
                 "modern": true,
                 "silver": true
             }
+        },{
+            "id": "roc25M002",
+            "name": "Alien Aquarium",
+            "set": "ROC 2025",
+            "type": "indoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/roc25/alien_aquarium.json",
+            "age": {
+                "modern": true,
+                "silver": true
+            }
         }, {
             "id": "bpM001",
             "name": "Wakandan Battlefield",
