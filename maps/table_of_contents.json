@@ -3821,22 +3821,6 @@
             "file": "maps/slosh/hall_of_doom_slaughter_swamp.json"
         }, {
             "id": "ygoM001",
-            "name": "Duelist Kingdom: Forest",
-            "set": "Yu-Gi-Oh! Series One",
-            "type": "outdoor",
-            "width": 16,
-            "height": 24,
-            "file": "maps/ygo/duelist_kingdom_forest.json"
-        }, {
-            "id": "ygoM002",
-            "name": "Pegasus Castle",
-            "set": "Yu-Gi-Oh! Series One",
-            "type": "outdoor",
-            "width": 16,
-            "height": 24,
-            "file": "maps/ygo/pegasus_castle.json"
-        }, {
-            "id": "ygoM003",
             "name": "Duelist Kingdom: Water",
             "set": "Yu-Gi-Oh! Series One",
             "type": "outdoor",
@@ -3844,13 +3828,29 @@
             "height": 24,
             "file": "maps/ygo/duelist_kingdom_water.json"
         }, {
-            "id": "ygoM004",
+            "id": "ygoM002",
             "name": "The Cavern of Lost Souls",
             "set": "Yu-Gi-Oh! Series One",
             "type": "indoor",
             "width": 16,
             "height": 24,
             "file": "maps/ygo/the_cavern_of_lost_souls.json"
+        }, {
+            "id": "ygoM003",
+            "name": "Duelist Kingdom: Forest",
+            "set": "Yu-Gi-Oh! Series One",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/ygo/duelist_kingdom_forest.json"
+        }, {
+            "id": "ygoM004",
+            "name": "Pegasus Castle",
+            "set": "Yu-Gi-Oh! Series One",
+            "type": "outdoor",
+            "width": 16,
+            "height": 24,
+            "file": "maps/ygo/pegasus_castle.json"
         }, {
             "id": "roc14M001",
             "name": "Arctic Outpost",
