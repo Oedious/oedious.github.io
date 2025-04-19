@@ -24,6 +24,30 @@
                 "silver": true
             }
         },{
+            "id": "sdM003",
+            "name": "Mean Streets",
+            "set": "Smash and Destroy",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/sd/mean_streets.json",
+            "age": {
+                "modern": true,
+                "silver": true
+            }
+        },{
+            "id": "sdM004",
+            "name": "Subway",
+            "set": "Smash and Destroy",
+            "type": "indoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/sd/subway.json",
+            "age": {
+                "modern": true,
+                "silver": true
+            }
+        },{
             "id": "spvM001",
             "name": "Hall of Science",
             "set": "Spider-Verse",
