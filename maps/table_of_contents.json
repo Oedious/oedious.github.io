@@ -143,6 +143,18 @@
                 "modern": true,
                 "silver": true
             }
+        },{
+            "id": "roc25M003",
+            "name": "Rival's Respawn",
+            "set": "ROC 2025",
+            "type": "indoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/roc25/rivals_respawn.json",
+            "age": {
+                "modern": true,
+                "silver": true
+            }
         }, {
             "id": "bpM001",
             "name": "Wakandan Battlefield",
