@@ -155,6 +155,18 @@
                 "modern": true,
                 "silver": true
             }
+        },{
+            "id": "roc25M004",
+            "name": "Phoenix Nest Headquarters",
+            "set": "ROC 2025",
+            "type": "indoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/roc25/phoenix_nest_headquarters.json",
+            "age": {
+                "modern": true,
+                "silver": true
+            }
         }, {
             "id": "bpM001",
             "name": "Wakandan Battlefield",
