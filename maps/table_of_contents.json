@@ -1,5 +1,29 @@
 {
     "maps": [{
+            "id": "llM001",
+            "name": "Ysmault",
+            "set": "Lantern Legacy",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/ll/ysmault.json",
+            "age": {
+                "modern": true,
+                "silver": true
+            }
+        },{
+            "id": "llM002",
+            "name": "Oan Plaza",
+            "set": "Lantern Legacy",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/ll/oan_plaza.json",
+            "age": {
+                "modern": true,
+                "silver": true
+            }
+        },{
             "id": "sdM001",
             "name": "Urban Jungle",
             "set": "Smash and Destroy",
