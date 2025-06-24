@@ -24,6 +24,30 @@
                 "silver": true
             }
         },{
+            "id": "llM003",
+            "name": "Okaara",
+            "set": "Lantern Legacy",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/ll/okaara.json",
+            "age": {
+                "modern": true,
+                "silver": true
+            }
+        },{
+            "id": "llM004",
+            "name": "Zamaron",
+            "set": "Lantern Legacy",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/ll/zamaron.json",
+            "age": {
+                "modern": true,
+                "silver": true
+            }
+        },{
             "id": "sdM001",
             "name": "Urban Jungle",
             "set": "Smash and Destroy",
