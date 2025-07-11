@@ -216,6 +216,14 @@
                 "silver": true
             }
         }, {
+            "id": "wk25M001",
+            "name": "Ancient Labyrinth",
+            "set": "WizKids 2025",
+            "type": "indoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/wk25/ancient_labyrinth.json"
+        }, {
             "id": "bpM001",
             "name": "Wakandan Battlefield",
             "set": "Black Panther",
