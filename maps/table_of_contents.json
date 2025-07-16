@@ -222,7 +222,11 @@
             "type": "indoor",
             "width": 16,
             "height": 16,
-            "file": "maps/wk25/ancient_labyrinth.json"
+            "file": "maps/wk25/ancient_labyrinth.json",
+            "age": {
+                "modern": true,
+                "silver": true
+            }
         }, {
             "id": "bpM001",
             "name": "Wakandan Battlefield",
