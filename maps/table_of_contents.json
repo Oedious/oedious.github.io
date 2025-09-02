@@ -13,12 +13,12 @@
             }
         },{
             "id": "llM002",
-            "name": "Oan Plaza",
+            "name": "Oa Plaza",
             "set": "Lantern Legacy",
             "type": "outdoor",
             "width": 16,
             "height": 16,
-            "file": "maps/ll/oan_plaza.json",
+            "file": "maps/ll/oa_plaza.json",
             "age": {
                 "modern": true,
                 "silver": true
