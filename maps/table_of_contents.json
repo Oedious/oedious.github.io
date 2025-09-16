@@ -227,6 +227,22 @@
                 "modern": true,
                 "silver": true
             }
+        },{
+            "id": "rwc25M001",
+            "name": "RWC Event",
+            "set": "Red, White, & Clix 2025",
+            "type": "indoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/rwc25/rwc_event.json"
+        },{
+            "id": "rwc25M002",
+            "name": "RWC Army Base",
+            "set": "Red, White, & Clix 2025",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/rwc25/rwc_army_base.json"
         }, {
             "id": "wk25M001",
             "name": "Ancient Labyrinth",
