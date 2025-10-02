@@ -1,5 +1,29 @@
 {
     "maps": [{
+            "id": "x97M001",
+            "name": "Motendo",
+            "set": "X-Men '97",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/x97/motendo.json",
+            "age": {
+                "modern": true,
+                "silver": true
+            }
+        },{
+            "id": "x97M002",
+            "name": "Asteroid X",
+            "set": "X-Men '97",
+            "type": "indoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/x97/asteroid_x.json",
+            "age": {
+                "modern": true,
+                "silver": true
+            }
+        },{
             "id": "llM001",
             "name": "Ysmault",
             "set": "Lantern Legacy",
