@@ -24,6 +24,30 @@
                 "silver": true
             }
         },{
+            "id": "x97M003",
+            "name": "Basketball Court",
+            "set": "X-Men '97",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/x97/basketball_court.json",
+            "age": {
+                "modern": true,
+                "silver": true
+            }
+        },{
+            "id": "x97M004",
+            "name": "X Mansion",
+            "set": "X-Men '97",
+            "type": "indoorOutdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/x97/x_mansion.json",
+            "age": {
+                "modern": true,
+                "silver": true
+            }
+        },{
             "id": "llM001",
             "name": "Ysmault",
             "set": "Lantern Legacy",
