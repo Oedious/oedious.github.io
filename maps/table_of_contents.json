@@ -1,48 +1,48 @@
 {
     "maps": [{
-            "id": "x97M001",
+            "id": "xm97M001",
             "name": "Motendo",
             "set": "X-Men '97",
             "type": "outdoor",
             "width": 16,
             "height": 16,
-            "file": "maps/x97/motendo.json",
+            "file": "maps/xm97/motendo.json",
             "age": {
                 "modern": true,
                 "silver": true
             }
         },{
-            "id": "x97M002",
+            "id": "xm97M002",
             "name": "Asteroid X",
             "set": "X-Men '97",
             "type": "indoor",
             "width": 16,
             "height": 16,
-            "file": "maps/x97/asteroid_x.json",
+            "file": "maps/xm97/asteroid_x.json",
             "age": {
                 "modern": true,
                 "silver": true
             }
         },{
-            "id": "x97M003",
+            "id": "xm97M003",
             "name": "Basketball Court",
             "set": "X-Men '97",
             "type": "outdoor",
             "width": 16,
             "height": 16,
-            "file": "maps/x97/basketball_court.json",
+            "file": "maps/xm97/basketball_court.json",
             "age": {
                 "modern": true,
                 "silver": true
             }
         },{
-            "id": "x97M004",
+            "id": "xm97M004",
             "name": "X Mansion",
             "set": "X-Men '97",
             "type": "indoorOutdoor",
             "width": 16,
             "height": 16,
-            "file": "maps/x97/x_mansion.json",
+            "file": "maps/xm97/x_mansion.json",
             "age": {
                 "modern": true,
                 "silver": true
