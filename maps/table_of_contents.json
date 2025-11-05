@@ -316,6 +316,30 @@
                 "silver": true
             }
         }, {
+            "id": "wkm25M001",
+            "name": "Sentinel Factory",
+            "set": "WizKids Marvel 2025",
+            "type": "indoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/wkm25/sentinel_factory.json",
+            "age": {
+                "modern": true,
+                "silver": true
+            }
+        }, {
+            "id": "wkm25M002",
+            "name": "Genosha",
+            "set": "WizKids Marvel 2025",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/wkm25/genosha.json",
+            "age": {
+                "modern": true,
+                "silver": true
+            }
+        }, {
             "id": "bpM001",
             "name": "Wakandan Battlefield",
             "set": "Black Panther",
