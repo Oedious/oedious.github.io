@@ -1,5 +1,29 @@
 {
     "maps": [{
+            "id": "stM001",
+            "name": "Bell Tower",
+            "set": "Strange Tales",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/st/bell_tower.json",
+            "age": {
+                "modern": true,
+                "silver": true
+            }
+        },{
+            "id": "stM002",
+            "name": "Dr. Strange Mansion",
+            "set": "Strange Tales",
+            "type": "indoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/st/dr_strange_mansion.json",
+            "age": {
+                "modern": true,
+                "silver": true
+            }
+        },{
             "id": "xm97M001",
             "name": "Motendo",
             "set": "X-Men '97",
