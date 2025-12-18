@@ -5,7 +5,7 @@
 	"type": "outdoor",
 	"width": 16,
 	"height": 16,
-	"date": "November 2025",
+	"date": "December 2025",
 	"special": ["Open Air Terrain: If a character that can't use Leap/Climb, Phasing/Teleport, Flight or Great Size occupies Open Air Terrain after actions resolve, deal that character 1 unavoidable damage and then the character's controller places the character in their starting area."],
 	"defaultType": "outdoor",
 	"defaultElevation": 2,

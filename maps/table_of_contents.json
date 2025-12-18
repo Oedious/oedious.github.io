@@ -24,6 +24,30 @@
                 "silver": true
             }
         },{
+            "id": "stM003",
+            "name": "European Castle",
+            "set": "Strange Tales",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/st/european_castle.json",
+            "age": {
+                "modern": true,
+                "silver": true
+            }
+        },{
+            "id": "stM002",
+            "name": "Nick Fury's Safehouse",
+            "set": "Strange Tales",
+            "type": "indoorOutdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/st/nick_furys_safehouse.json",
+            "age": {
+                "modern": true,
+                "silver": true
+            }
+        },{
             "id": "xm97M001",
             "name": "Motendo",
             "set": "X-Men '97",
