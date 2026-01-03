@@ -97,12 +97,12 @@
             }
         },{
             "id": "llM001",
-            "name": "Ysmault",
+            "name": "Yasmault",
             "set": "Lantern Legacy",
             "type": "outdoor",
             "width": 16,
             "height": 16,
-            "file": "maps/ll/ysmault.json",
+            "file": "maps/ll/yasmault.json",
             "age": {
                 "modern": true,
                 "silver": true
