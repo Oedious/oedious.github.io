@@ -348,6 +348,18 @@
                 "silver": true
             }
         },{
+            "id": "roc25M008",
+            "name": "The Holidays at Phoenix Nest Headquarters",
+            "set": "ROC 2025",
+            "type": "indoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/roc25/the_holidays_at_phoenix_nest_headquarters.json",
+            "age": {
+                "modern": true,
+                "silver": true
+            }
+        },{
             "id": "rwc25M001",
             "name": "RWC Event",
             "set": "Red, White, & Clix 2025",
