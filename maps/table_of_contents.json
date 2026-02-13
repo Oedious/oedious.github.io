@@ -1,5 +1,29 @@
 {
     "maps": [{
+            "id": "d26M001",
+            "name": "Big Belly Burger",
+            "set": "DC Starter 2026",
+            "type": "indoorOutdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/d26/big_belly_burger.json",
+            "age": {
+                "modern": true,
+                "silver": true
+            }
+        },{
+            "id": "m26M001",
+            "name": "X-Jet Hangar",
+            "set": "Marvel Starter 2026",
+            "type": "indoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/m26/x_jet_hangar.json",
+            "age": {
+                "modern": true,
+                "silver": true
+            }
+        },{
             "id": "stM001",
             "name": "Bell Tower",
             "set": "Strange Tales",
