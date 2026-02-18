@@ -1,5 +1,29 @@
 {
     "maps": [{
+            "id": "veM001",
+            "name": "Island Prison",
+            "set": "Venom",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/ve/island_prison.json",
+            "age": {
+                "modern": true,
+                "silver": true
+            }
+        },{
+            "id": "veM002",
+            "name": "Klyntar",
+            "set": "Venom",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/ve/klyntar.json",
+            "age": {
+                "modern": true,
+                "silver": true
+            }
+        },{
             "id": "d26M001",
             "name": "Big Belly Burger",
             "set": "DC Starter 2026",
