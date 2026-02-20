@@ -24,6 +24,30 @@
                 "silver": true
             }
         },{
+            "id": "veM003",
+            "name": "Life Foundation Lab",
+            "set": "Venom",
+            "type": "indoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/ve/life_foundation_lab.json",
+            "age": {
+                "modern": true,
+                "silver": true
+            }
+        },{
+            "id": "veM004",
+            "name": "Lombard Street (Venomized)",
+            "set": "Venom",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/ve/lombard_street_venomized.json",
+            "age": {
+                "modern": true,
+                "silver": true
+            }
+        },{
             "id": "d26M001",
             "name": "Big Belly Burger",
             "set": "DC Starter 2026",
