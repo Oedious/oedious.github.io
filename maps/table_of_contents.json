@@ -71,6 +71,14 @@
                 "modern": true,
                 "silver": true
             }
+        }, {
+            "id": "roc26M001",
+            "name": "Shaded Realm Light",
+            "set": "ROC 2026",
+            "type": "indoorOutdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/roc26/shaded_realm_light.json"
         },{
             "id": "stM001",
             "name": "Bell Tower",
