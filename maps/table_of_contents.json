@@ -78,7 +78,23 @@
             "type": "indoorOutdoor",
             "width": 16,
             "height": 16,
-            "file": "maps/roc26/shaded_realm_light.json"
+            "file": "maps/roc26/shaded_realm_light.json",
+            "age": {
+                "modern": true,
+                "silver": true
+            }
+        }, {
+            "id": "roc26M002",
+            "name": "Bluebell Town Square",
+            "set": "ROC 2026",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/roc26/bluebell_town_square.json",
+            "age": {
+                "modern": true,
+                "silver": true
+            }
         },{
             "id": "stM001",
             "name": "Bell Tower",
