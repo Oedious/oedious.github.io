@@ -95,6 +95,30 @@
                 "modern": true,
                 "silver": true
             }
+        }, {
+            "id": "roc26M003",
+            "name": "Syndicate's Ascent",
+            "set": "ROC 2026",
+            "type": "indoorOutdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/roc26/syndicates_ascent.json",
+            "age": {
+                "modern": true,
+                "silver": true
+            }
+        }, {
+            "id": "roc26M004",
+            "name": "Thousand Ocean Voyager",
+            "set": "ROC 2026",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/roc26/thousand_ocean_voyager.json",
+            "age": {
+                "modern": true,
+                "silver": true
+            }
         },{
             "id": "stM001",
             "name": "Bell Tower",
