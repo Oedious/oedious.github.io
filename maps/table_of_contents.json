@@ -3,7 +3,7 @@
             "id": "veM001",
             "name": "Island Prison",
             "set": "Venom",
-            "type": "outdoor",
+            "type": "indoor",
             "width": 16,
             "height": 16,
             "file": "maps/ve/island_prison.json",
