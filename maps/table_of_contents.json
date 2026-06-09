@@ -1,5 +1,29 @@
 {
     "maps": [{
+            "id": "ffgcM001",
+            "name": "Blackgate Prison",
+            "set": "Fight For Gotham City",
+            "type": "indoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/ffgc/blackgate_prison.json",
+            "age": {
+                "modern": true,
+                "silver": true
+            }
+        },{
+            "id": "ffgcM002",
+            "name": "The Batcave",
+            "set": "Fight For Gotham City",
+            "type": "indoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/ffgc/the_batcave.json",
+            "age": {
+                "modern": true,
+                "silver": true
+            }
+        },{
             "id": "veM001",
             "name": "Island Prison",
             "set": "Venom",
