@@ -24,6 +24,30 @@
                 "silver": true
             }
         },{
+            "id": "ffgcM003",
+            "name": "The Clock Tower",
+            "set": "Fight For Gotham City",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/ffgc/the_clock_tower.json",
+            "age": {
+                "modern": true,
+                "silver": true
+            }
+        },{
+            "id": "ffgcM004",
+            "name": "Dockside Amusement Park",
+            "set": "Fight For Gotham City",
+            "type": "indoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/ffgc/dockside_amusement_park.json",
+            "age": {
+                "modern": true,
+                "silver": true
+            }
+        },{
             "id": "veM001",
             "name": "Island Prison",
             "set": "Venom",
