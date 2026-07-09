@@ -167,6 +167,14 @@
                 "modern": true,
                 "silver": true
             }
+        }, {
+            "id": "rwc26M001",
+            "name": "Swamp Temple Ruins",
+            "set": "Red, White, & Clix 2026",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/rwc26/swamp_temple_ruins.json"
         },{
             "id": "stM001",
             "name": "Bell Tower",
