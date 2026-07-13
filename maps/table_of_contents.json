@@ -3829,6 +3829,14 @@
             "height": 24,
             "file": "maps/avas/avengers_compound.json"
         }, {
+            "id": "aqsM001",
+            "name": "S.H.I.E.L.D. Helicarrier",
+            "set": "Avengers Quick-Start Kit",
+            "type": "indoor",
+            "width": 16,
+            "height": 6,
+            "file": "maps/aqs/shield_helicarrier.json"
+        }, {
             "id": "aaouM001",
             "name": "Strucker's Fortress",
             "set": "Avengers: Age of Ultron",
@@ -5452,14 +5460,6 @@
             "width": 16,
             "height": 24,
             "file": "maps/avm/stark_tower.json"
-        }, {
-            "id": "avmM003",
-            "name": "S.H.I.E.L.D. Helicarrier",
-            "set": "Avengers Movie",
-            "type": "indoor",
-            "width": 16,
-            "height": 6,
-            "file": "maps/avm/shield_helicarrier_minigame.json"
         }, {
             "id": "ggM001",
             "name": "Blue Area of the Moon",
