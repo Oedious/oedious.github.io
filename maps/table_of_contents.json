@@ -1,5 +1,29 @@
 {
     "maps": [{
+            "id": "tbM001",
+            "name": "The Cube",
+            "set": "Thunderbolts",
+            "type": "indoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/tb/the_cube.json",
+            "age": {
+                "modern": true,
+                "silver": true
+            }
+        },{
+            "id": "tbM002",
+            "name": "Castle Zemo",
+            "set": "Thunderbolts",
+            "type": "indoorOutdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/tb/castle_zemo.json",
+            "age": {
+                "modern": true,
+                "silver": true
+            }
+        },{
             "id": "ffgcM001",
             "name": "Blackgate Prison",
             "set": "Fight For Gotham City",
