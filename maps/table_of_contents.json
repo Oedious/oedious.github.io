@@ -24,6 +24,30 @@
                 "silver": true
             }
         },{
+            "id": "tbM003",
+            "name": "The Raft",
+            "set": "Thunderbolts",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/tb/the_raft.json",
+            "age": {
+                "modern": true,
+                "silver": true
+            }
+        },{
+            "id": "tbM004",
+            "name": "Thunderbolts' Mountain",
+            "set": "Thunderbolts",
+            "type": "indoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/tb/thunderbolts_mountain.json",
+            "age": {
+                "modern": true,
+                "silver": true
+            }
+        },{
             "id": "ffgcM001",
             "name": "Blackgate Prison",
             "set": "Fight For Gotham City",
