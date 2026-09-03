@@ -2,23 +2,19 @@
 	"name": "The Clock Tower",
 	"set": "Fight For Gotham City",
 	"source": "Fight For Gotham City: Map+Terrain Kit",
-	"type": "indoorOutdoor",
+	"type": "indoor",
 	"width": 16,
 	"height": 16,
 	"date": "July 2026",
-	"defaultType": "indoor",
 	"rows": [{
 		"y": 1,
 		"tiles": [{
-			"x": "A",
-			"type": "outdoor"
+			"x": "A"
 		}, {
-			"x": "B",
-			"type": "outdoor"
+			"x": "B"
 		}, {
 			"x": "C",
-			"terrain": "blocking",
-			"type": "outdoor"
+			"terrain": "blocking"
 		}, {
 			"x": "D"
 		}, {
@@ -41,26 +37,20 @@
 		}, {
 			"x": "M"
 		}, {
-			"x": "N",
-			"type": "outdoor"
+			"x": "N"
 		}, {
-			"x": "O",
-			"type": "outdoor"
+			"x": "O"
 		}, {
-			"x": "P",
-			"type": "outdoor"
+			"x": "P"
 		}]
 	}, {
 		"y": 2,
 		"tiles": [{
-			"x": "A",
-			"type": "outdoor"
+			"x": "A"
 		}, {
-			"x": "B",
-			"type": "outdoor"
+			"x": "B"
 		}, {
-			"x": "C",
-			"type": "outdoor"
+			"x": "C"
 		}, {
 			"x": "D"
 		}, {
@@ -89,26 +79,20 @@
 			"terrain": "hindering",
 			"elevation": 2
 		}, {
-			"x": "N",
-			"type": "outdoor"
+			"x": "N"
 		}, {
-			"x": "O",
-			"type": "outdoor"
+			"x": "O"
 		}, {
-			"x": "P",
-			"type": "outdoor"
+			"x": "P"
 		}]
 	}, {
 		"y": 3,
 		"tiles": [{
-			"x": "A",
-			"type": "outdoor"
+			"x": "A"
 		}, {
-			"x": "B",
-			"type": "outdoor"
+			"x": "B"
 		}, {
-			"x": "C",
-			"type": "outdoor"
+			"x": "C"
 		}, {
 			"x": "D"
 		}, {
@@ -136,26 +120,20 @@
 			"elevation": 2
 		}, {
 			"x": "N",
-			"terrain": "blocking",
-			"type": "outdoor"
+			"terrain": "blocking"
 		}, {
-			"x": "O",
-			"type": "outdoor"
+			"x": "O"
 		}, {
-			"x": "P",
-			"type": "outdoor"
+			"x": "P"
 		}]
 	}, {
 		"y": 4,
 		"tiles": [{
-			"x": "A",
-			"type": "outdoor"
+			"x": "A"
 		}, {
-			"x": "B",
-			"type": "outdoor"
+			"x": "B"
 		}, {
-			"x": "C",
-			"type": "outdoor"
+			"x": "C"
 		}, {
 			"x": "D"
 		}, {
@@ -180,26 +158,20 @@
 			"x": "M",
 			"elevation": 2
 		}, {
-			"x": "N",
-			"type": "outdoor"
+			"x": "N"
 		}, {
-			"x": "O",
-			"type": "outdoor"
+			"x": "O"
 		}, {
-			"x": "P",
-			"type": "outdoor"
+			"x": "P"
 		}]
 	}, {
 		"y": 5,
 		"tiles": [{
-			"x": "A",
-			"type": "outdoor"
+			"x": "A"
 		}, {
-			"x": "B",
-			"type": "outdoor"
+			"x": "B"
 		}, {
-			"x": "C",
-			"type": "outdoor"
+			"x": "C"
 		}, {
 			"x": "D"
 		}, {
@@ -228,26 +200,20 @@
 			"x": "M",
 			"elevation": 2
 		}, {
-			"x": "N",
-			"type": "outdoor"
+			"x": "N"
 		}, {
-			"x": "O",
-			"type": "outdoor"
+			"x": "O"
 		}, {
-			"x": "P",
-			"type": "outdoor"
+			"x": "P"
 		}]
 	}, {
 		"y": 6,
 		"tiles": [{
-			"x": "A",
-			"type": "outdoor"
+			"x": "A"
 		}, {
-			"x": "B",
-			"type": "outdoor"
+			"x": "B"
 		}, {
-			"x": "C",
-			"type": "outdoor"
+			"x": "C"
 		}, {
 			"x": "D",
 			"terrain": "hindering",
@@ -279,26 +245,20 @@
 			"elevation": 2
 		}, {
 			"x": "N",
-			"terrain": "blocking",
-			"type": "outdoor"
+			"terrain": "blocking"
 		}, {
-			"x": "O",
-			"type": "outdoor"
+			"x": "O"
 		}, {
-			"x": "P",
-			"type": "outdoor"
+			"x": "P"
 		}]
 	}, {
 		"y": 7,
 		"tiles": [{
-			"x": "A",
-			"type": "outdoor"
+			"x": "A"
 		}, {
-			"x": "B",
-			"type": "outdoor"
+			"x": "B"
 		}, {
-			"x": "C",
-			"type": "outdoor"
+			"x": "C"
 		}, {
 			"x": "D",
 			"terrain": "hindering",
@@ -329,26 +289,20 @@
 			"x": "M",
 			"elevation": 2
 		}, {
-			"x": "N",
-			"type": "outdoor"
+			"x": "N"
 		}, {
-			"x": "O",
-			"type": "outdoor"
+			"x": "O"
 		}, {
-			"x": "P",
-			"type": "outdoor"
+			"x": "P"
 		}]
 	}, {
 		"y": 8,
 		"tiles": [{
-			"x": "A",
-			"type": "outdoor"
+			"x": "A"
 		}, {
-			"x": "B",
-			"type": "outdoor"
+			"x": "B"
 		}, {
-			"x": "C",
-			"type": "outdoor"
+			"x": "C"
 		}, {
 			"x": "D",
 			"terrain": "hindering",
@@ -382,27 +336,21 @@
 			"x": "M",
 			"elevation": 2
 		}, {
-			"x": "N",
-			"type": "outdoor"
+			"x": "N"
 		}, {
-			"x": "O",
-			"type": "outdoor"
+			"x": "O"
 		}, {
 			"x": "P",
-			"terrain": "blocking",
-			"type": "outdoor"
+			"terrain": "blocking"
 		}]
 	}, {
 		"y": 9,
 		"tiles": [{
-			"x": "A",
-			"type": "outdoor"
+			"x": "A"
 		}, {
-			"x": "B",
-			"type": "outdoor"
+			"x": "B"
 		}, {
-			"x": "C",
-			"type": "outdoor"
+			"x": "C"
 		}, {
 			"x": "D",
 			"terrain": "hindering",
@@ -436,26 +384,20 @@
 			"x": "M",
 			"elevation": 2
 		}, {
-			"x": "N",
-			"type": "outdoor"
+			"x": "N"
 		}, {
-			"x": "O",
-			"type": "outdoor"
+			"x": "O"
 		}, {
-			"x": "P",
-			"type": "outdoor"
+			"x": "P"
 		}]
 	}, {
 		"y": 10,
 		"tiles": [{
-			"x": "A",
-			"type": "outdoor"
+			"x": "A"
 		}, {
-			"x": "B",
-			"type": "outdoor"
+			"x": "B"
 		}, {
-			"x": "C",
-			"type": "outdoor"
+			"x": "C"
 		}, {
 			"x": "D",
 			"terrain": "hindering",
@@ -486,26 +428,20 @@
 			"x": "M",
 			"elevation": 2
 		}, {
-			"x": "N",
-			"type": "outdoor"
+			"x": "N"
 		}, {
-			"x": "O",
-			"type": "outdoor"
+			"x": "O"
 		}, {
-			"x": "P",
-			"type": "outdoor"
+			"x": "P"
 		}]
 	}, {
 		"y": 11,
 		"tiles": [{
-			"x": "A",
-			"type": "outdoor"
+			"x": "A"
 		}, {
-			"x": "B",
-			"type": "outdoor"
+			"x": "B"
 		}, {
-			"x": "C",
-			"type": "outdoor"
+			"x": "C"
 		}, {
 			"x": "D",
 			"terrain": "hindering",
@@ -537,26 +473,20 @@
 			"elevation": 2
 		}, {
 			"x": "N",
-			"terrain": "blocking",
-			"type": "outdoor"
+			"terrain": "blocking"
 		}, {
-			"x": "O",
-			"type": "outdoor"
+			"x": "O"
 		}, {
-			"x": "P",
-			"type": "outdoor"
+			"x": "P"
 		}]
 	}, {
 		"y": 12,
 		"tiles": [{
-			"x": "A",
-			"type": "outdoor"
+			"x": "A"
 		}, {
-			"x": "B",
-			"type": "outdoor"
+			"x": "B"
 		}, {
-			"x": "C",
-			"type": "outdoor"
+			"x": "C"
 		}, {
 			"x": "D"
 		}, {
@@ -585,26 +515,20 @@
 			"x": "M",
 			"elevation": 2
 		}, {
-			"x": "N",
-			"type": "outdoor"
+			"x": "N"
 		}, {
-			"x": "O",
-			"type": "outdoor"
+			"x": "O"
 		}, {
-			"x": "P",
-			"type": "outdoor"
+			"x": "P"
 		}]
 	}, {
 		"y": 13,
 		"tiles": [{
-			"x": "A",
-			"type": "outdoor"
+			"x": "A"
 		}, {
-			"x": "B",
-			"type": "outdoor"
+			"x": "B"
 		}, {
-			"x": "C",
-			"type": "outdoor"
+			"x": "C"
 		}, {
 			"x": "D"
 		}, {
@@ -629,26 +553,20 @@
 			"x": "M",
 			"elevation": 2
 		}, {
-			"x": "N",
-			"type": "outdoor"
+			"x": "N"
 		}, {
-			"x": "O",
-			"type": "outdoor"
+			"x": "O"
 		}, {
-			"x": "P",
-			"type": "outdoor"
+			"x": "P"
 		}]
 	}, {
 		"y": 14,
 		"tiles": [{
-			"x": "A",
-			"type": "outdoor"
+			"x": "A"
 		}, {
-			"x": "B",
-			"type": "outdoor"
+			"x": "B"
 		}, {
-			"x": "C",
-			"type": "outdoor"
+			"x": "C"
 		}, {
 			"x": "D"
 		}, {
@@ -676,26 +594,20 @@
 			"elevation": 2
 		}, {
 			"x": "N",
-			"terrain": "blocking",
-			"type": "outdoor"
+			"terrain": "blocking"
 		}, {
-			"x": "O",
-			"type": "outdoor"
+			"x": "O"
 		}, {
-			"x": "P",
-			"type": "outdoor"
+			"x": "P"
 		}]
 	}, {
 		"y": 15,
 		"tiles": [{
-			"x": "A",
-			"type": "outdoor"
+			"x": "A"
 		}, {
-			"x": "B",
-			"type": "outdoor"
+			"x": "B"
 		}, {
-			"x": "C",
-			"type": "outdoor"
+			"x": "C"
 		}, {
 			"x": "D"
 		}, {
@@ -724,27 +636,21 @@
 			"terrain": "hindering",
 			"elevation": 2
 		}, {
-			"x": "N",
-			"type": "outdoor"
+			"x": "N"
 		}, {
-			"x": "O",
-			"type": "outdoor"
+			"x": "O"
 		}, {
-			"x": "P",
-			"type": "outdoor"
+			"x": "P"
 		}]
 	}, {
 		"y": 16,
 		"tiles": [{
-			"x": "A",
-			"type": "outdoor"
+			"x": "A"
 		}, {
-			"x": "B",
-			"type": "outdoor"
+			"x": "B"
 		}, {
 			"x": "C",
-			"terrain": "blocking",
-			"type": "outdoor"
+			"terrain": "blocking"
 		}, {
 			"x": "D"
 		}, {
@@ -767,14 +673,11 @@
 		}, {
 			"x": "M"
 		}, {
-			"x": "N",
-			"type": "outdoor"
+			"x": "N"
 		}, {
-			"x": "O",
-			"type": "outdoor"
+			"x": "O"
 		}, {
-			"x": "P",
-			"type": "outdoor"
+			"x": "P"
 		}]
 	}],
 	"ramps": [{
@@ -850,13 +753,13 @@
 	}],
 	"walls": [{
 		"x0": 3,
-		"y0": 0,
-		"x1": 3,
-		"y1": 1
-	}, {
-		"x0": 3,
 		"y0": 3,
 		"x1": 3,
 		"y1": 13
+	}, {
+		"x0": 3,
+		"y0": 15,
+		"x1": 3,
+		"y1": 16
 	}]
 }
