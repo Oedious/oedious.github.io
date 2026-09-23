@@ -1,5 +1,29 @@
 {
     "maps": [{
+            "id": "dnd1M001",
+            "name": "The Lab",
+            "set": "Dungeons & Dragons Series One",
+            "type": "indoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/dnd1/the_lab.json",
+            "age": {
+                "modern": true,
+                "silver": true
+            }
+        },{
+            "id": "dnd1M002",
+            "name": "The Castle Ruins",
+            "set": "Dungeons & Dragons Series One",
+            "type": "indoorOutdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/dnd1/the_castle_ruins.json",
+            "age": {
+                "modern": true,
+                "silver": true
+            }
+        },{
             "id": "tbM001",
             "name": "The Cube",
             "set": "Thunderbolts",
