@@ -24,6 +24,30 @@
                 "silver": true
             }
         },{
+            "id": "dnd1M003",
+            "name": "Base Camp",
+            "set": "Dungeons & Dragons Series One",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/dnd1/base_camp.json",
+            "age": {
+                "modern": true,
+                "silver": true
+            }
+        },{
+            "id": "dnd1M004",
+            "name": "Tavern",
+            "set": "Dungeons & Dragons Series One",
+            "type": "indoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/dnd1/tavern.json",
+            "age": {
+                "modern": true,
+                "silver": true
+            }
+        },{
             "id": "tbM001",
             "name": "The Cube",
             "set": "Thunderbolts",
