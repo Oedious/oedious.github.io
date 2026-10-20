@@ -48,6 +48,30 @@
                 "silver": true
             }
         },{
+            "id": "dnd1M005",
+            "name": "Tombs",
+            "set": "Dungeons & Dragons Series One",
+            "type": "outdoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/dnd1/tombs.json",
+            "age": {
+                "modern": true,
+                "silver": true
+            }
+        },{
+            "id": "dnd1M006",
+            "name": "The Pit",
+            "set": "Dungeons & Dragons Series One",
+            "type": "indoor",
+            "width": 16,
+            "height": 16,
+            "file": "maps/dnd1/the_pit.json",
+            "age": {
+                "modern": true,
+                "silver": true
+            }
+        },{
             "id": "tbM001",
             "name": "The Cube",
             "set": "Thunderbolts",
