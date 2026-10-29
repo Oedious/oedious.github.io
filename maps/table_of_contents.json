@@ -111,7 +111,7 @@
             "id": "tbM004",
             "name": "Thunderbolts' Mountain",
             "set": "Thunderbolts",
-            "type": "indoor",
+            "type": "outdoor",
             "width": 16,
             "height": 16,
             "file": "maps/tb/thunderbolts_mountain.json",
